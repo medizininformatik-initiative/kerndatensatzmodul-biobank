@@ -1,0 +1,432 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "ProfileSpecimenBioprobe",
+  "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-category",
+      "valueString": "Clinical.Diagnostics"
+    },
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category",
+      "valueCode": "patient"
+    }
+  ],
+  "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/ProfileSpecimenBioprobe",
+  "name": "ProfileSpecimenBioprobe",
+  "title": "Profile - Specimen- Bioprobe",
+  "status": "active",
+  "description": "Abbildung einer MII Bioprobe",
+  "fhirVersion": "4.0.1",
+  "mapping": [
+    {
+      "identity": "rim",
+      "uri": "http://hl7.org/v3",
+      "name": "RIM Mapping"
+    },
+    {
+      "identity": "w5",
+      "uri": "http://hl7.org/fhir/fivews",
+      "name": "FiveWs Pattern Mapping"
+    },
+    {
+      "identity": "v2",
+      "uri": "http://hl7.org/v2",
+      "name": "HL7 v2 Mapping"
+    }
+  ],
+  "kind": "resource",
+  "abstract": false,
+  "type": "Specimen",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Specimen",
+  "derivation": "constraint",
+  "differential": {
+    "element": [
+      {
+        "id": "Specimen.extension",
+        "path": "Specimen.extension",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "value",
+              "path": "url"
+            }
+          ],
+          "ordered": false,
+          "rules": "open"
+        },
+        "min": 1
+      },
+      {
+        "id": "Specimen.extension:diagnose",
+        "path": "Specimen.extension",
+        "sliceName": "diagnose",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/ExtensionDiagnose"
+            ]
+          }
+        ],
+        "mustSupport": true
+      },
+      {
+        "id": "Specimen.extension:gehoertZu",
+        "path": "Specimen.extension",
+        "sliceName": "gehoertZu",
+        "min": 1,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/ExtensionVerwaltendeOrganisation"
+            ]
+          }
+        ],
+        "mustSupport": true
+      },
+      {
+        "id": "Specimen.identifier",
+        "path": "Specimen.identifier",
+        "mustSupport": true
+      },
+      {
+        "id": "Specimen.status",
+        "path": "Specimen.status",
+        "mustSupport": true
+      },
+      {
+        "id": "Specimen.type",
+        "path": "Specimen.type",
+        "mustSupport": true
+      },
+      {
+        "id": "Specimen.type.coding",
+        "path": "Specimen.type.coding",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "pattern",
+              "path": "system"
+            }
+          ],
+          "rules": "open"
+        },
+        "min": 1
+      },
+      {
+        "id": "Specimen.type.coding:sct",
+        "path": "Specimen.type.coding",
+        "sliceName": "sct",
+        "min": 1,
+        "max": "*",
+        "binding": {
+          "strength": "extensible",
+          "valueSet": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/ValueSetProbenart"
+        }
+      },
+      {
+        "id": "Specimen.type.coding:sct.system",
+        "path": "Specimen.type.coding.system",
+        "min": 1,
+        "patternUri": "http://snomed.info/sct"
+      },
+      {
+        "id": "Specimen.parent",
+        "path": "Specimen.parent",
+        "mustSupport": true
+      },
+      {
+        "id": "Specimen.collection.extension",
+        "path": "Specimen.collection.extension",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "value",
+              "path": "url"
+            }
+          ],
+          "ordered": false,
+          "rules": "open"
+        }
+      },
+      {
+        "id": "Specimen.collection.extension:einstellungBlutversorgung",
+        "path": "Specimen.collection.extension",
+        "sliceName": "einstellungBlutversorgung",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/ExtensionEinstellungBlutversorgung"
+            ]
+          }
+        ],
+        "mustSupport": true
+      },
+      {
+        "id": "Specimen.collection.collected[x]",
+        "path": "Specimen.collection.collected[x]",
+        "mustSupport": true
+      },
+      {
+        "id": "Specimen.collection.bodySite",
+        "path": "Specimen.collection.bodySite",
+        "mustSupport": true
+      },
+      {
+        "id": "Specimen.collection.bodySite.coding",
+        "path": "Specimen.collection.bodySite.coding",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "pattern",
+              "path": "system"
+            }
+          ],
+          "rules": "open"
+        }
+      },
+      {
+        "id": "Specimen.collection.bodySite.coding:sct",
+        "path": "Specimen.collection.bodySite.coding",
+        "sliceName": "sct",
+        "min": 0,
+        "max": "1",
+        "mustSupport": true,
+        "binding": {
+          "strength": "required",
+          "valueSet": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/ValueSetSCTBodyStructures"
+        }
+      },
+      {
+        "id": "Specimen.collection.bodySite.coding:sct.system",
+        "path": "Specimen.collection.bodySite.coding.system",
+        "min": 1,
+        "patternUri": "http://snomed.info/sct"
+      },
+      {
+        "id": "Specimen.collection.bodySite.coding:icd-o-3",
+        "path": "Specimen.collection.bodySite.coding",
+        "sliceName": "icd-o-3",
+        "min": 0,
+        "max": "1",
+        "mustSupport": true
+      },
+      {
+        "id": "Specimen.collection.fastingStatus[x]",
+        "path": "Specimen.collection.fastingStatus[x]",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "type",
+              "path": "$this"
+            }
+          ],
+          "ordered": false,
+          "rules": "open"
+        },
+        "mustSupport": true
+      },
+      {
+        "id": "Specimen.collection.fastingStatusCodeableConcept",
+        "path": "Specimen.collection.fastingStatusCodeableConcept",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ],
+        "binding": {
+          "strength": "required",
+          "valueSet": "http://terminology.hl7.org/ValueSet/v2-0916"
+        }
+      },
+      {
+        "id": "Specimen.processing",
+        "path": "Specimen.processing",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "pattern",
+              "path": "processing.procedure.coding"
+            }
+          ],
+          "rules": "open"
+        }
+      },
+      {
+        "id": "Specimen.processing.extension",
+        "path": "Specimen.processing.extension",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "value",
+              "path": "url"
+            }
+          ],
+          "ordered": false,
+          "rules": "open"
+        }
+      },
+      {
+        "id": "Specimen.processing.extension:temperaturbedingungen",
+        "path": "Specimen.processing.extension",
+        "sliceName": "temperaturbedingungen",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/ExtensionTemperaturbedingungen"
+            ]
+          }
+        ],
+        "mustSupport": true
+      },
+      {
+        "id": "Specimen.processing.procedure",
+        "path": "Specimen.processing.procedure",
+        "min": 1,
+        "mustSupport": true
+      },
+      {
+        "id": "Specimen.processing.additive",
+        "path": "Specimen.processing.additive",
+        "type": [
+          {
+            "code": "Reference",
+            "targetProfile": [
+              "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/ProfileSubstanceAdditiv"
+            ]
+          }
+        ],
+        "mustSupport": true
+      },
+      {
+        "id": "Specimen.processing.time[x]",
+        "path": "Specimen.processing.time[x]",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "type",
+              "path": "$this"
+            }
+          ],
+          "ordered": false,
+          "rules": "open"
+        },
+        "min": 1
+      },
+      {
+        "id": "Specimen.processing.timePeriod",
+        "path": "Specimen.processing.timePeriod",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Period"
+          }
+        ],
+        "mustSupport": true
+      },
+      {
+        "id": "Specimen.processing.timePeriod.start",
+        "path": "Specimen.processing.timePeriod.start",
+        "min": 1
+      },
+      {
+        "id": "Specimen.processing:lagerprozess",
+        "path": "Specimen.processing",
+        "sliceName": "lagerprozess",
+        "min": 0,
+        "max": "*",
+        "mustSupport": true
+      },
+      {
+        "id": "Specimen.processing:lagerprozess.procedure.coding",
+        "path": "Specimen.processing.procedure.coding",
+        "patternCoding": {
+          "code": "69997009",
+          "system": "http://snomed.info/sct",
+          "display": "Specimen refrigeration (procedure)"
+        }
+      },
+      {
+        "id": "Specimen.container.type",
+        "path": "Specimen.container.type",
+        "mustSupport": true,
+        "binding": {
+          "strength": "extensible",
+          "valueSet": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/ValueSetContainertyp"
+        }
+      },
+      {
+        "id": "Specimen.container.capacity",
+        "path": "Specimen.container.capacity",
+        "mustSupport": true
+      },
+      {
+        "id": "Specimen.container.specimenQuantity",
+        "path": "Specimen.container.specimenQuantity",
+        "mustSupport": true
+      },
+      {
+        "id": "Specimen.container.additive[x]",
+        "path": "Specimen.container.additive[x]",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "type",
+              "path": "$this"
+            }
+          ],
+          "ordered": false,
+          "rules": "open"
+        },
+        "mustSupport": true
+      },
+      {
+        "id": "Specimen.container.additiveCodeableConcept",
+        "path": "Specimen.container.additiveCodeableConcept",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ],
+        "binding": {
+          "strength": "extensible",
+          "valueSet": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/ValueSetAdditive"
+        }
+      },
+      {
+        "id": "Specimen.container.additiveReference",
+        "path": "Specimen.container.additiveReference",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Reference",
+            "targetProfile": [
+              "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/ProfileSubstanceAdditiv"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Specimen.note",
+        "path": "Specimen.note",
+        "mustSupport": true
+      }
+    ]
+  }
+}
