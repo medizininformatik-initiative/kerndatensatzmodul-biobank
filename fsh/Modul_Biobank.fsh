@@ -85,19 +85,27 @@ Title: "ValueSet - SNOMED CT Body Strutures"
 
 * include codes from system $SCT where concept descendent-of #123037004
 
-CodeSystem: CodeSystemTemperaturSPREC
-Id: CodeSystemTemperaturSPREC
-Title: "CodeSystem - SPREC Temperaturbereiche"
+CodeSystem: CodeSystemCentrifugationSPREC
+Id: CodeSystemCentrifugationSPREC
+Title: "CodeSystem - SPREC Zentrifugation"
 
-* ^valueSet = "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/TemperaturSPREC"
+* ^valueSet = "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/CentrifugationSPREC"
 
-* #RT
-* #2-10C
-* #>35C
-* #-85to-60C
-* #-35to-18C
-* #<-135C
-* #LN
+* #A "RT 10–15 min <3000 g no braking"
+* #B "RT 10–15 min <3000 g with braking"
+* #C "2°C–10°C 10–15 min <3000 g no braking"
+* #D "2°C–10°C 10–15 min <3000 g with braking"
+* #E "RT 10–15 min 3000–6000 g with braking"
+* #F "2°C–10°C 10–15 min 3000–6000 g with braking"
+* #G "RT 10–15 min6000–10000 g with braking"
+* #H "2°C–10°C 10–15 min 6000–10000 g with braking"
+* #I "RT 10–15 min >10000 g with braking"
+* #J "2°C–10°C 10–15 min>10000 g with braking"
+* #M "RT 30 min <1000 g no braking"
+* #N "No centrifugation"
+* #X "Unknown"
+* #Z "Other"
+
 
 //ICD-O-3 Topography ValueSet TODO
 
@@ -123,8 +131,14 @@ Extension: ExtensionTemperaturbedingungen
 Id: ExtensionTemperaturbedingungen
 Title: "Extension - Temperaturbedingungen"
 
-* value[x] only CodeableConcept
-* valueCodeableConcept from https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/TemperaturSPREC (required)
+* value[x] only Range
+* valueRange.low ^patternQuantity.system = "http://unitsofmeasure.org"
+* valueRange.low ^patternQuantity.code = #Cel
+* valueRange.low ^patternQuantity.unit = "C"
+* valueRange.high ^patternQuantity.system = "http://unitsofmeasure.org"
+* valueRange.high ^patternQuantity.code = #Cel
+* valueRange.high ^patternQuantity.unit = "C"
+
 
 Profile: ProfileSubstanceAdditiv
 Parent: http://hl7.org/fhir/StructureDefinition/Substance
@@ -134,3 +148,60 @@ Description: "Abbildung eines Additives, das zu einer Probe hinzugefügt werden 
 
 * code from ValueSetAdditive (extensible)
 * code MS
+
+Profile: ProfileOrganizationSammlungBiobank
+Parent: http://hl7.org/fhir/StructureDefinition/Organization
+Id: ProfileOrganizationSammlungBiobank
+Title: "Profile - Organization - Sammlung/Biobank"
+Description: "Darstellung der organisatorischen Daten einer Probensammlung oder Biobank."
+
+* identifier and type and name and alias and partOf and contact and contact.purpose and contact.name and contact.telecom and contact.address MS //Beschreibung?
+
+* identifier ^slicing.discriminator.type = #pattern
+* identifier ^slicing.discriminator.path = "system"
+* identifier ^slicing.rules = #open
+
+* identifier contains bbmri-eric-id 0..1 MS
+
+* identifier[bbmri-eric-id] ^patternIdentifier.system = "http://www.bbmri-eric.eu/"
+
+* type from https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/BBMRICollectionType (extensible) //?
+
+* contact 1..*
+* contact.purpose 1..1
+* contact.name.family 1..1
+* contact.name.given 1..*
+
+* contact.telecom ^slicing.discriminator.type = #pattern
+* contact.telecom ^slicing.discriminator.path = "system"
+* contact.telecom ^slicing.rules = #open
+
+* contact.telecom contains email 1..*
+* contact.telecom[email].system = #email
+
+* contact.address 1..1
+
+
+
+
+CodeSystem: CodeSystemBBMRICollectionType
+Id: CodeSystemBBMRICollectionType
+Title: "CodeSystem - BBMRI Collection Type"
+
+* ^valueSet = "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/BBMRICollectionType"
+
+* #SAMPLE	"Sample collection"
+* #TWIN_STUDY	"Twin-study"
+* #RD	"Rare disease collection"
+* #NON_HUMAN	"Non-human"
+* #BIRTH_COHORT	"Birth cohort"
+* #CASE_CONTROL	"Case-Control"
+* #COHORT	"Cohort"
+* #CROSS_SECTIONAL	"Cross-Sectional"
+* #DISEASE_SPECIFIC	"Disease specific"
+* #HOSPITAL	"Hospital"
+* #IMAGE	"Image collection"
+* #LONGITUDINAL	"Longitudinal"
+* #OTHER	"other"
+* #POPULATION_BASED	"Population-based"
+* #QUALITY_CONTROL	"Quality control"
