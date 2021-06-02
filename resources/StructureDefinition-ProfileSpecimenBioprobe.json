@@ -177,6 +177,15 @@
       {
         "id": "Specimen.collection.bodySite",
         "path": "Specimen.collection.bodySite",
+        "constraint": [
+          {
+            "key": "mii-bb-1",
+            "severity": "error",
+            "human": "Bei der Angabe der Entnahmestelle muss ein ICD-O-3 Topographiecode oder ein SNOMED CT Code angegeben werden.",
+            "expression": "coding.where(system = $SCT or system = http://terminology.hl7.org/CodeSystem/icd-o-3).exists()",
+            "source": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/ProfileSpecimenBioprobe"
+          }
+        ],
         "mustSupport": true
       },
       {
@@ -216,7 +225,17 @@
         "sliceName": "icd-o-3",
         "min": 0,
         "max": "1",
-        "mustSupport": true
+        "mustSupport": true,
+        "binding": {
+          "strength": "required",
+          "valueSet": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/ValueSetICDO3Topography"
+        }
+      },
+      {
+        "id": "Specimen.collection.bodySite.coding:icd-o-3.system",
+        "path": "Specimen.collection.bodySite.coding.system",
+        "min": 1,
+        "patternUri": "http://terminology.hl7.org/CodeSystem/icd-o-3"
       },
       {
         "id": "Specimen.collection.fastingStatus[x]",

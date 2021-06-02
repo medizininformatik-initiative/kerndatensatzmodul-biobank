@@ -36,6 +36,8 @@ and processing.timePeriod and processing.procedure and processing.additive MS
 
 * collection.fastingStatusCodeableConcept from 	http://terminology.hl7.org/ValueSet/v2-0916 (required)
 
+* collection.bodySite obeys mii-bb-1
+
 * collection.bodySite.coding ^slicing.discriminator.type = #pattern
 * collection.bodySite.coding ^slicing.discriminator.path = "system"
 * collection.bodySite.coding ^slicing.rules = #open
@@ -44,7 +46,8 @@ and processing.timePeriod and processing.procedure and processing.additive MS
 
 * collection.bodySite.coding[sct] from ValueSetSCTBodyStructures (required)
 * collection.bodySite.coding[sct].system = $SCT
-//TODO ICD-O-3 + constraint sct oder icd-O-3
+* collection.bodySite.coding[icd-o-3] from ValueSetICDO3Topography (required)
+* collection.bodySite.coding[icd-o-3].system = "http://terminology.hl7.org/CodeSystem/icd-o-3"
 
 //Verarbeitung/Lagerprozess
 
@@ -69,6 +72,12 @@ and processing.timePeriod and processing.procedure and processing.additive MS
 
 * processing contains lagerprozess 0..* MS
 * processing[lagerprozess].procedure.coding = $SCT#69997009 "Specimen refrigeration (procedure)" //TODO Besseren Code finden
+
+Invariant:  mii-bb-1
+Description: "Bei der Angabe der Entnahmestelle muss ein ICD-O-3 Topographiecode oder ein SNOMED CT Code angegeben werden."
+Expression: "coding.where(system = $SCT or system = http://terminology.hl7.org/CodeSystem/icd-o-3).exists()"
+Severity:   #error
+
 
 ValueSet: ValueSetProbenart
 Id: ValueSetProbenart
@@ -116,7 +125,11 @@ Title: "CodeSystem - SPREC Zentrifugation"
 * #Z "Other"
 
 
-//ICD-O-3 Topography ValueSet TODO
+ValueSet: ValueSetICDO3Topography
+Id: ValueSetICDO3Topography
+Title: "ValueSet - ICD-O-3 Topography"
+
+* include codes from system  http://terminology.hl7.org/CodeSystem/icd-o-3 where concept descendent-of #T
 
 Extension: ExtensionDiagnose
 Id: ExtensionDiagnose
