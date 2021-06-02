@@ -176,8 +176,10 @@ Description: "Darstellung der organisatorischen Daten einer Probensammlung oder 
 * contact.telecom ^slicing.discriminator.path = "system"
 * contact.telecom ^slicing.rules = #open
 
-* contact.telecom contains email 1..*
+* contact.telecom contains email 1..* MS
 * contact.telecom[email].system = #email
+* contact.telecom[email].system 1..1 MS
+* contact.telecom[email].value 1..1 MS
 
 * contact.address 1..1
 
