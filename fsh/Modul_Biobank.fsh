@@ -205,3 +205,75 @@ Title: "CodeSystem - BBMRI Collection Type"
 * #OTHER	"other"
 * #POPULATION_BASED	"Population-based"
 * #QUALITY_CONTROL	"Quality control"
+
+
+RuleSet: BuildElement(path, definition, type)
+* differential.element[+].path = "{path}"
+* differential.element[=].definition = "{definition}"
+* differential.element[=].type.code = "{type}"
+
+Instance: Biobank
+InstanceOf: http://hl7.org/fhir/StructureDefinition/StructureDefinition
+Title: "Modul Biobank"
+Usage: #definition
+Description: "Logische Repräsentation des Erweiterungsmodulesmoduls Biobank"
+
+* url = "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/LogicalModel/Prozedur"
+* name = "Biobank"
+* status = #draft
+* fhirVersion = #4.0.1
+* kind = #logical 
+* abstract = false
+* type = "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/LogicalModel/Prozedur"
+* baseDefinition =  "http://hl7.org/fhir/StructureDefinition/Element"
+* derivation = #specialization
+* differential.element[+].path = "Biobank"
+
+* insert BuildElement(Biobank.Bioprobe,Bioprobe,BackboneElement)
+* insert BuildElement(Biobank.Bioprobe.Proben-ID,Einrichtungsinterner Identifier der Probe,Identifier)
+* insert BuildElement(Biobank.Bioprobe.Probenart,Art der Probe; SCT vepflichtend; Beschraenkung auf Specimen ValueSet erwuenscht.,CodeableConcept)
+* insert BuildElement(Biobank.Bioprobe.Probenmenge,Probenmenge,Quantity)
+* insert BuildElement(Biobank.Bioprobe.Verfügbarkeitsstatus,Status der Probe / des Materials hinsichtlich der Verfügbarkeit,Code)
+* insert BuildElement(Biobank.Bioprobe.Projektverwendung,Freitextangabe zur Verwendung der Probe in Projekten,String)
+* insert BuildElement(Biobank.Bioprobe.Sonstige Eigenschaften,Freitextangabe weiterer Probeneigenschaften,String)
+* insert BuildElement(Biobank.Bioprobe.Ist gewonnen aus,Referenz auf Bioprobe,Reference)
+* insert BuildElement(Biobank.Bioprobe.Diagnose,Informationen zu einer mit der Probe in Zusammenhang stehende Diagnose. Hier soll auf eine Diagnose gemäß der Vorgaben des KDS Modules Diagnose verlinkt werden wobei insbesondere bei neu erstellten Diagnosen -die nicht bereits aus anderen Quellen vorliegen- auf die Angabe einer Quelle zu achten ist; z.B. Informationen aus einem nur in unstrukturierter Form vorliegendem Pathologiebefund.,Reference)
+* insert BuildElement(Biobank.Bioprobe.gehoert zu,Zuordnung der Probe zu einer Sammlung/Biobank,Reference)
+* insert BuildElement(Biobank.Bioprobe.Primaercontainer,Probenbehältnis,BackboneElement)
+* insert BuildElement(Biobank.Bioprobe.Primaercontainer.Containertyp,Typ des Containers.,CodeableConcept)
+* insert BuildElement(Biobank.Bioprobe.Primaercontainer.Kapazitaet,Kapazitaet des Probencontainers,Quantity)
+* insert BuildElement(Biobank.Bioprobe.Primaercontainer.Verwendung Additiv,	Ja/Nein Angabe ob ein Zusatzstoff verwendet wurde,boolean)
+* insert BuildElement(Biobank.Bioprobe.Primaercontainer.Additiv,Zusatzstoffe im Container,CodeableConcept)
+* insert BuildElement(Biobank.Bioprobe.Probenentnahme,Informationen zur Entnahme der Probe,BackboneElement)
+* insert BuildElement(Biobank.Bioprobe.Probenentnahme.Entnahme-ID,Entnahme-ID,Identifier)
+* insert BuildElement(Biobank.Bioprobe.Probenentnahme.Einstellung Blutversorgung,Zeitpunkt der Einstellung der Blutversorgung zur Probe. Kann zur Berechnung der warmen Ischaemiezeit verwendet werden.,dateTime)
+* insert BuildElement(Biobank.Bioprobe.Probenentnahme.Entnahmezeitpunkt, Zeitpunkt der Ent- / Abnahme der Probe. Kann zur Berechnung der kalten Ischaemiezeit verwendet werden.,dateTime)
+* insert BuildElement(Biobank.Bioprobe.Probenentnahme.Entnahmestelle,Lokalisation der Koerperstelle von der die Probe stammt,CodeableConcept)
+* insert BuildElement(Biobank.Bioprobe.Probenentnahme.Nuechternstatus,Nüchterstatus des/der Patent:in zum Zeitpunkt der Entnahme der Probe. Muss aus dem http://terminology.hl7.org/ValueSet/v2-0916 stammen.,CodeableConcept)
+* insert BuildElement(Biobank.Bioprobe.Probenentnahme.Nuechternstatus Dauer,Zeitliche Dauer der Nüchternheit vor der Probenentnahme,Quantity)
+* insert BuildElement(Biobank.Bioprobe.Verarbeitungsprozess,Prozedur der Probenbearbeitung,BackboneElement)
+* insert BuildElement(Biobank.Bioprobe.Verarbeitungsprozess.Startzeitpunkt,	Zeitpunkt des Beginns der Probenbearbeitung,dateTime)
+* insert BuildElement(Biobank.Bioprobe.Verarbeitungsprozess.Endzeitpunkt,Zeitpunkt des Abschlusses der Probenbearbeitung,dateTime)
+* insert BuildElement(Biobank.Bioprobe.Verarbeitungsprozess.Verarbeitungstyp,Prozedur der Probenbearbeitung,BackboneElement)
+* insert BuildElement(Biobank.Bioprobe.Verarbeitungsprozess.Temperatur,Temperatur bei der die Probenverarbeitung stattfand. Angabe exakt oder in Wertebereichen siehe SPREC+,Range)
+* insert BuildElement(Biobank.Bioprobe.Verarbeitungsprozess.Modus,Abhängig vom Verarbeitungstyp - bei Zentrifugation SPREC,CodeableConcept)
+* insert BuildElement(Biobank.Bioprobe.Verarbeitungsprozess.Verwendung Additive, Ja/Nein Angabe ob ein Zusatzstoff verwendet wurde,boolean)
+* insert BuildElement(Biobank.Bioprobe.Verarbeitungsprozess.Additiv,Additive bei der Probenbearbeitung wie Fixationsmittel; Einbettungs- und Eindeckungsmedien,CodeableConcept)
+* insert BuildElement(Biobank.Bioprobe.Lagerprozess,Lagerung einer Probe,BackboneElement)
+* insert BuildElement(Biobank.Bioprobe.Lagerprozess.Einfrierzeitpunkt,Zeitpunkt des Beginns der Einlagerung der Probe,dateTime)
+* insert BuildElement(Biobank.Bioprobe.Lagerprozess.Auftauzeitpunkt,Zeitpunkt des Endes der Einlagerung der Probe,dateTime)
+* insert BuildElement(Biobank.Bioprobe.Lagerprozess.Lagerungsbedingungen,Temperaturbereich in dem die Probe gelagert wurde bzw. wird. Angabe in Wertebereichen wie in SPREC,Range)
+* insert BuildElement(Biobank.Bioprobe.Laborbefund,Referenz auf den zu einer Probe gehörenden Laborbefund,Reference)
+* insert BuildElement(Biobank.Bioprobe.Pathologiebefund,Referenz auf den zu einer Probe gehörenden Pathologiebefund,Reference)
+
+* insert BuildElement(Biobank.Probensammlung - Biobank,Organisation die Proben verwaltet,BackboneElement)
+* insert BuildElement(Biobank.Probensammlung - Biobank.Sammlungs-ID,Interner Identifer der Sammlung/Biobank,Identifier)
+* insert BuildElement(Biobank.Probensammlung - Biobank.BBMRI-ERIC-ID,Identifier der Sammlung/Biobank im BBMRI ERIC Netzwerk,Identifier)
+* insert BuildElement(Biobank.Probensammlung - Biobank.Akronym,Akronym der Sammlung/Biobank,String)
+* insert BuildElement(Biobank.Probensammlung - Biobank.Name,Name der Sammlung/Biobank,String)
+* insert BuildElement(Biobank.Probensammlung - Biobank.Beschreibung,Beschreibung der Sammlung/Biobank,String)
+* insert BuildElement(Biobank.Probensammlung - Biobank.Sammlungstyp,Typ der Sammlung/Biobank gemäß BBMRI ERIC Directory Werteliste,CodeableConcept)
+* insert BuildElement(Biobank.Probensammlung - Biobank.besteht aus,Verknüpfung der Teilsammlungen,Reference)
+
+
+

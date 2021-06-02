@@ -1,0 +1,416 @@
+{
+  "resourceType": "StructureDefinition",
+  "id": "Biobank",
+  "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/LogicalModel/Prozedur",
+  "name": "Biobank",
+  "status": "draft",
+  "fhirVersion": "4.0.1",
+  "kind": "logical",
+  "abstract": false,
+  "type": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/LogicalModel/Prozedur",
+  "baseDefinition": "http://hl7.org/fhir/StructureDefinition/Element",
+  "derivation": "specialization",
+  "differential": {
+    "element": [
+      {
+        "path": "Biobank"
+      },
+      {
+        "path": "Biobank.Bioprobe",
+        "definition": "Bioprobe",
+        "type": [
+          {
+            "code": "BackboneElement"
+          }
+        ]
+      },
+      {
+        "path": "Biobank.Bioprobe.Proben-ID",
+        "definition": "Einrichtungsinterner Identifier der Probe",
+        "type": [
+          {
+            "code": "Identifier"
+          }
+        ]
+      },
+      {
+        "path": "Biobank.Bioprobe.Probenart",
+        "definition": "Art der Probe; SCT vepflichtend; Beschraenkung auf Specimen ValueSet erwuenscht.",
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ]
+      },
+      {
+        "path": "Biobank.Bioprobe.Probenmenge",
+        "definition": "Probenmenge",
+        "type": [
+          {
+            "code": "Quantity"
+          }
+        ]
+      },
+      {
+        "path": "Biobank.Bioprobe.Verfügbarkeitsstatus",
+        "definition": "Status der Probe / des Materials hinsichtlich der Verfügbarkeit",
+        "type": [
+          {
+            "code": "Code"
+          }
+        ]
+      },
+      {
+        "path": "Biobank.Bioprobe.Projektverwendung",
+        "definition": "Freitextangabe zur Verwendung der Probe in Projekten",
+        "type": [
+          {
+            "code": "String"
+          }
+        ]
+      },
+      {
+        "path": "Biobank.Bioprobe.Sonstige Eigenschaften",
+        "definition": "Freitextangabe weiterer Probeneigenschaften",
+        "type": [
+          {
+            "code": "String"
+          }
+        ]
+      },
+      {
+        "path": "Biobank.Bioprobe.Ist gewonnen aus",
+        "definition": "Referenz auf Bioprobe",
+        "type": [
+          {
+            "code": "Reference"
+          }
+        ]
+      },
+      {
+        "path": "Biobank.Bioprobe.Diagnose",
+        "definition": "Informationen zu einer mit der Probe in Zusammenhang stehende Diagnose. Hier soll auf eine Diagnose gemäß der Vorgaben des KDS Modules Diagnose verlinkt werden wobei insbesondere bei neu erstellten Diagnosen -die nicht bereits aus anderen Quellen vorliegen- auf die Angabe einer Quelle zu achten ist; z.B. Informationen aus einem nur in unstrukturierter Form vorliegendem Pathologiebefund.",
+        "type": [
+          {
+            "code": "Reference"
+          }
+        ]
+      },
+      {
+        "path": "Biobank.Bioprobe.gehoert zu",
+        "definition": "Zuordnung der Probe zu einer Sammlung/Biobank",
+        "type": [
+          {
+            "code": "Reference"
+          }
+        ]
+      },
+      {
+        "path": "Biobank.Bioprobe.Primaercontainer",
+        "definition": "Probenbehältnis",
+        "type": [
+          {
+            "code": "BackboneElement"
+          }
+        ]
+      },
+      {
+        "path": "Biobank.Bioprobe.Primaercontainer.Containertyp",
+        "definition": "Typ des Containers.",
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ]
+      },
+      {
+        "path": "Biobank.Bioprobe.Primaercontainer.Kapazitaet",
+        "definition": "Kapazitaet des Probencontainers",
+        "type": [
+          {
+            "code": "Quantity"
+          }
+        ]
+      },
+      {
+        "path": "Biobank.Bioprobe.Primaercontainer.Verwendung Additiv",
+        "definition": "Ja/Nein Angabe ob ein Zusatzstoff verwendet wurde",
+        "type": [
+          {
+            "code": "boolean"
+          }
+        ]
+      },
+      {
+        "path": "Biobank.Bioprobe.Primaercontainer.Additiv",
+        "definition": "Zusatzstoffe im Container",
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ]
+      },
+      {
+        "path": "Biobank.Bioprobe.Probenentnahme",
+        "definition": "Informationen zur Entnahme der Probe",
+        "type": [
+          {
+            "code": "BackboneElement"
+          }
+        ]
+      },
+      {
+        "path": "Biobank.Bioprobe.Probenentnahme.Entnahme-ID",
+        "definition": "Entnahme-ID",
+        "type": [
+          {
+            "code": "Identifier"
+          }
+        ]
+      },
+      {
+        "path": "Biobank.Bioprobe.Probenentnahme.Einstellung Blutversorgung",
+        "definition": "Zeitpunkt der Einstellung der Blutversorgung zur Probe. Kann zur Berechnung der warmen Ischaemiezeit verwendet werden.",
+        "type": [
+          {
+            "code": "dateTime"
+          }
+        ]
+      },
+      {
+        "path": "Biobank.Bioprobe.Probenentnahme.Entnahmezeitpunkt",
+        "definition": "Zeitpunkt der Ent- / Abnahme der Probe. Kann zur Berechnung der kalten Ischaemiezeit verwendet werden.",
+        "type": [
+          {
+            "code": "dateTime"
+          }
+        ]
+      },
+      {
+        "path": "Biobank.Bioprobe.Probenentnahme.Entnahmestelle",
+        "definition": "Lokalisation der Koerperstelle von der die Probe stammt",
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ]
+      },
+      {
+        "path": "Biobank.Bioprobe.Probenentnahme.Nuechternstatus",
+        "definition": "Nüchterstatus des/der Patent:in zum Zeitpunkt der Entnahme der Probe. Muss aus dem http://terminology.hl7.org/ValueSet/v2-0916 stammen.",
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ]
+      },
+      {
+        "path": "Biobank.Bioprobe.Probenentnahme.Nuechternstatus Dauer",
+        "definition": "Zeitliche Dauer der Nüchternheit vor der Probenentnahme",
+        "type": [
+          {
+            "code": "Quantity"
+          }
+        ]
+      },
+      {
+        "path": "Biobank.Bioprobe.Verarbeitungsprozess",
+        "definition": "Prozedur der Probenbearbeitung",
+        "type": [
+          {
+            "code": "BackboneElement"
+          }
+        ]
+      },
+      {
+        "path": "Biobank.Bioprobe.Verarbeitungsprozess.Startzeitpunkt",
+        "definition": "Zeitpunkt des Beginns der Probenbearbeitung",
+        "type": [
+          {
+            "code": "dateTime"
+          }
+        ]
+      },
+      {
+        "path": "Biobank.Bioprobe.Verarbeitungsprozess.Endzeitpunkt",
+        "definition": "Zeitpunkt des Abschlusses der Probenbearbeitung",
+        "type": [
+          {
+            "code": "dateTime"
+          }
+        ]
+      },
+      {
+        "path": "Biobank.Bioprobe.Verarbeitungsprozess.Verarbeitungstyp",
+        "definition": "Prozedur der Probenbearbeitung",
+        "type": [
+          {
+            "code": "BackboneElement"
+          }
+        ]
+      },
+      {
+        "path": "Biobank.Bioprobe.Verarbeitungsprozess.Temperatur",
+        "definition": "Temperatur bei der die Probenverarbeitung stattfand. Angabe exakt oder in Wertebereichen siehe SPREC+",
+        "type": [
+          {
+            "code": "Range"
+          }
+        ]
+      },
+      {
+        "path": "Biobank.Bioprobe.Verarbeitungsprozess.Modus",
+        "definition": "Abhängig vom Verarbeitungstyp - bei Zentrifugation SPREC",
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ]
+      },
+      {
+        "path": "Biobank.Bioprobe.Verarbeitungsprozess.Verwendung Additive",
+        "definition": "Ja/Nein Angabe ob ein Zusatzstoff verwendet wurde",
+        "type": [
+          {
+            "code": "boolean"
+          }
+        ]
+      },
+      {
+        "path": "Biobank.Bioprobe.Verarbeitungsprozess.Additiv",
+        "definition": "Additive bei der Probenbearbeitung wie Fixationsmittel; Einbettungs- und Eindeckungsmedien",
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ]
+      },
+      {
+        "path": "Biobank.Bioprobe.Lagerprozess",
+        "definition": "Lagerung einer Probe",
+        "type": [
+          {
+            "code": "BackboneElement"
+          }
+        ]
+      },
+      {
+        "path": "Biobank.Bioprobe.Lagerprozess.Einfrierzeitpunkt",
+        "definition": "Zeitpunkt des Beginns der Einlagerung der Probe",
+        "type": [
+          {
+            "code": "dateTime"
+          }
+        ]
+      },
+      {
+        "path": "Biobank.Bioprobe.Lagerprozess.Auftauzeitpunkt",
+        "definition": "Zeitpunkt des Endes der Einlagerung der Probe",
+        "type": [
+          {
+            "code": "dateTime"
+          }
+        ]
+      },
+      {
+        "path": "Biobank.Bioprobe.Lagerprozess.Lagerungsbedingungen",
+        "definition": "Temperaturbereich in dem die Probe gelagert wurde bzw. wird. Angabe in Wertebereichen wie in SPREC",
+        "type": [
+          {
+            "code": "Range"
+          }
+        ]
+      },
+      {
+        "path": "Biobank.Bioprobe.Laborbefund",
+        "definition": "Referenz auf den zu einer Probe gehörenden Laborbefund",
+        "type": [
+          {
+            "code": "Reference"
+          }
+        ]
+      },
+      {
+        "path": "Biobank.Bioprobe.Pathologiebefund",
+        "definition": "Referenz auf den zu einer Probe gehörenden Pathologiebefund",
+        "type": [
+          {
+            "code": "Reference"
+          }
+        ]
+      },
+      {
+        "path": "Biobank.Probensammlung - Biobank",
+        "definition": "Organisation die Proben verwaltet",
+        "type": [
+          {
+            "code": "BackboneElement"
+          }
+        ]
+      },
+      {
+        "path": "Biobank.Probensammlung - Biobank.Sammlungs-ID",
+        "definition": "Interner Identifer der Sammlung/Biobank",
+        "type": [
+          {
+            "code": "Identifier"
+          }
+        ]
+      },
+      {
+        "path": "Biobank.Probensammlung - Biobank.BBMRI-ERIC-ID",
+        "definition": "Identifier der Sammlung/Biobank im BBMRI ERIC Netzwerk",
+        "type": [
+          {
+            "code": "Identifier"
+          }
+        ]
+      },
+      {
+        "path": "Biobank.Probensammlung - Biobank.Akronym",
+        "definition": "Akronym der Sammlung/Biobank",
+        "type": [
+          {
+            "code": "String"
+          }
+        ]
+      },
+      {
+        "path": "Biobank.Probensammlung - Biobank.Name",
+        "definition": "Name der Sammlung/Biobank",
+        "type": [
+          {
+            "code": "String"
+          }
+        ]
+      },
+      {
+        "path": "Biobank.Probensammlung - Biobank.Beschreibung",
+        "definition": "Beschreibung der Sammlung/Biobank",
+        "type": [
+          {
+            "code": "String"
+          }
+        ]
+      },
+      {
+        "path": "Biobank.Probensammlung - Biobank.Sammlungstyp",
+        "definition": "Typ der Sammlung/Biobank gemäß BBMRI ERIC Directory Werteliste",
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ]
+      },
+      {
+        "path": "Biobank.Probensammlung - Biobank.besteht aus",
+        "definition": "Verknüpfung der Teilsammlungen",
+        "type": [
+          {
+            "code": "Reference"
+          }
+        ]
+      }
+    ]
+  }
+}
