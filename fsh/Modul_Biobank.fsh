@@ -14,6 +14,9 @@ and processing.timePeriod and processing.procedure and processing.additive MS
 
 * extension contains ExtensionDiagnose named diagnose 0..1 MS and ExtensionVerwaltendeOrganisation named gehoertZu 1..1 MS
 
+* status 1..1
+
+* type 1..1
 * type.coding ^slicing.discriminator.type = #pattern
 * type.coding ^slicing.discriminator.path = "system"
 * type.coding ^slicing.rules = #open
@@ -22,15 +25,21 @@ and processing.timePeriod and processing.procedure and processing.additive MS
 * type.coding[sct] from ValueSetProbenart (extensible)
 * type.coding[sct].system = $SCT
 
+* subject 1..1
+* subject only Reference(Patient)
+
 //Primärcontainer
 
 * container.type from ValueSetContainertyp (extensible)
+* container.type 1..1
 
 //Additiv: Wie ja/nein? Substance vs CodeableConcept? Profile auf Substance?
 * container.additiveCodeableConcept from ValueSetAdditive (extensible)
 * container.additiveReference only Reference(ProfileSubstanceAdditiv)
 
 //Probenentnahme -> Entnahme-ID?
+
+* collection 1..1
 
 * collection.extension contains ExtensionEinstellungBlutversorgung named einstellungBlutversorgung 0..1 MS
 
@@ -49,9 +58,12 @@ and processing.timePeriod and processing.procedure and processing.additive MS
 * collection.bodySite.coding[icd-o-3] from ValueSetICDO3Topography (required)
 * collection.bodySite.coding[icd-o-3].system = "http://terminology.hl7.org/CodeSystem/icd-o-3"
 
+* collection.collected[x] 1..1
+* collection.fastingStatus[x] 1..1
+
 //Verarbeitung/Lagerprozess
 
-* processing.extension contains ExtensionTemperaturbedingungen named temperaturbedingungen 0..1 MS
+* processing.extension contains ExtensionTemperaturbedingungen named temperaturbedingungen 1..1 MS
 * processing.procedure 1..1
 
 * processing.procedure.coding ^slicing.discriminator.type = #pattern

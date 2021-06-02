@@ -96,11 +96,13 @@
       {
         "id": "Specimen.status",
         "path": "Specimen.status",
+        "min": 1,
         "mustSupport": true
       },
       {
         "id": "Specimen.type",
         "path": "Specimen.type",
+        "min": 1,
         "mustSupport": true
       },
       {
@@ -135,9 +137,27 @@
         "patternUri": "http://snomed.info/sct"
       },
       {
+        "id": "Specimen.subject",
+        "path": "Specimen.subject",
+        "min": 1,
+        "type": [
+          {
+            "code": "Reference",
+            "targetProfile": [
+              "http://hl7.org/fhir/StructureDefinition/Patient"
+            ]
+          }
+        ]
+      },
+      {
         "id": "Specimen.parent",
         "path": "Specimen.parent",
         "mustSupport": true
+      },
+      {
+        "id": "Specimen.collection",
+        "path": "Specimen.collection",
+        "min": 1
       },
       {
         "id": "Specimen.collection.extension",
@@ -172,6 +192,7 @@
       {
         "id": "Specimen.collection.collected[x]",
         "path": "Specimen.collection.collected[x]",
+        "min": 1,
         "mustSupport": true
       },
       {
@@ -250,6 +271,7 @@
           "ordered": false,
           "rules": "open"
         },
+        "min": 1,
         "mustSupport": true
       },
       {
@@ -292,13 +314,14 @@
           ],
           "ordered": false,
           "rules": "open"
-        }
+        },
+        "min": 1
       },
       {
         "id": "Specimen.processing.extension:temperaturbedingungen",
         "path": "Specimen.processing.extension",
         "sliceName": "temperaturbedingungen",
-        "min": 0,
+        "min": 1,
         "max": "1",
         "type": [
           {
@@ -412,6 +435,7 @@
       {
         "id": "Specimen.container.type",
         "path": "Specimen.container.type",
+        "min": 1,
         "mustSupport": true,
         "binding": {
           "strength": "extensible",
