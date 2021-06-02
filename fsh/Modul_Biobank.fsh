@@ -199,7 +199,7 @@ Description: "Darstellung der organisatorischen Daten einer Probensammlung oder 
 
 * identifier[bbmri-eric-id] ^patternIdentifier.system = "http://www.bbmri-eric.eu/"
 
-* type from https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/BBMRICollectionType (extensible) //?
+* type from https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/MIABISCollectionType (extensible)
 
 * contact 1..*
 * contact.purpose 1..1
@@ -220,11 +220,11 @@ Description: "Darstellung der organisatorischen Daten einer Probensammlung oder 
 
 
 
-CodeSystem: CodeSystemBBMRICollectionType
-Id: CodeSystemBBMRICollectionType
-Title: "CodeSystem - BBMRI Collection Type"
+CodeSystem: CodeSystemMIABISCollectionType
+Id: CodeSystemMIABISCollectionType
+Title: "CodeSystem - MIABIS Collection Type"
 
-* ^valueSet = "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/BBMRICollectionType"
+* ^valueSet = "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/MIABISCollectionType"
 
 * #SAMPLE	"Sample collection"
 * #TWIN_STUDY	"Twin-study"
