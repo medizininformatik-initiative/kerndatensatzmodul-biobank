@@ -298,6 +298,31 @@
         "mustSupport": true
       },
       {
+        "id": "Specimen.processing.procedure.coding",
+        "path": "Specimen.processing.procedure.coding",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "pattern",
+              "path": "system"
+            }
+          ],
+          "rules": "open"
+        },
+        "min": 1
+      },
+      {
+        "id": "Specimen.processing.procedure.coding:sct",
+        "path": "Specimen.processing.procedure.coding",
+        "sliceName": "sct",
+        "min": 1,
+        "max": "*",
+        "patternCoding": {
+          "system": "http://snomed.info/sct"
+        },
+        "mustSupport": true
+      },
+      {
         "id": "Specimen.processing.additive",
         "path": "Specimen.processing.additive",
         "type": [
@@ -340,7 +365,13 @@
       {
         "id": "Specimen.processing.timePeriod.start",
         "path": "Specimen.processing.timePeriod.start",
-        "min": 1
+        "min": 1,
+        "mustSupport": true
+      },
+      {
+        "id": "Specimen.processing.timePeriod.end",
+        "path": "Specimen.processing.timePeriod.end",
+        "mustSupport": true
       },
       {
         "id": "Specimen.processing:lagerprozess",

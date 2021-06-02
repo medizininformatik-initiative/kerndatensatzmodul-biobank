@@ -50,8 +50,17 @@ and processing.timePeriod and processing.procedure and processing.additive MS
 
 * processing.extension contains ExtensionTemperaturbedingungen named temperaturbedingungen 0..1 MS
 * processing.procedure 1..1
+
+* processing.procedure.coding ^slicing.discriminator.type = #pattern
+* processing.procedure.coding ^slicing.discriminator.path = "system"
+* processing.procedure.coding ^slicing.rules = #open
+
+* processing.procedure.coding contains sct 1..* MS
+* processing.procedure.coding[sct] ^patternCoding.system = "http://snomed.info/sct"
+
 * processing.time[x] 1..1
-* processing.timePeriod.start 1..1
+* processing.timePeriod.start 1..1 MS
+* processing.timePeriod.end MS
 * processing.additive only Reference(ProfileSubstanceAdditiv)
 
 * processing ^slicing.discriminator.type = #pattern
