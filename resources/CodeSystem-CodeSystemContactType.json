@@ -1,0 +1,17 @@
+{
+  "resourceType": "CodeSystem",
+  "status": "active",
+  "content": "complete",
+  "name": "CodeSystemContactType",
+  "id": "CodeSystemContactType",
+  "title": "CodeSystem - Contact Type",
+  "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/CodeSystem/CodeSystemContactType",
+  "valueSet": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/ContactType",
+  "concept": [
+    {
+      "code": "RESEARCH",
+      "display": "Contact for researchers about sample and data requests"
+    }
+  ],
+  "count": 1
+}

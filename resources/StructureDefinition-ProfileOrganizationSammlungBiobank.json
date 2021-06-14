@@ -47,6 +47,36 @@
   "differential": {
     "element": [
       {
+        "id": "Organization.extension",
+        "path": "Organization.extension",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "value",
+              "path": "url"
+            }
+          ],
+          "ordered": false,
+          "rules": "open"
+        }
+      },
+      {
+        "id": "Organization.extension:beschreibung",
+        "path": "Organization.extension",
+        "sliceName": "beschreibung",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/ExtensionBeschreibungSammlung"
+            ]
+          }
+        ],
+        "mustSupport": true
+      },
+      {
         "id": "Organization.identifier",
         "path": "Organization.identifier",
         "slicing": {
@@ -98,13 +128,21 @@
       {
         "id": "Organization.contact",
         "path": "Organization.contact",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "pattern",
+              "path": "purpose"
+            }
+          ],
+          "rules": "open"
+        },
         "min": 1,
         "mustSupport": true
       },
       {
         "id": "Organization.contact.purpose",
         "path": "Organization.contact.purpose",
-        "min": 1,
         "mustSupport": true
       },
       {
@@ -113,17 +151,79 @@
         "mustSupport": true
       },
       {
-        "id": "Organization.contact.name.family",
+        "id": "Organization.contact.telecom",
+        "path": "Organization.contact.telecom",
+        "mustSupport": true
+      },
+      {
+        "id": "Organization.contact.address",
+        "path": "Organization.contact.address",
+        "mustSupport": true
+      },
+      {
+        "id": "Organization.contact:forschungskontakt",
+        "path": "Organization.contact",
+        "sliceName": "forschungskontakt",
+        "min": 1,
+        "max": "*",
+        "mustSupport": true
+      },
+      {
+        "id": "Organization.contact:forschungskontakt.extension",
+        "path": "Organization.contact.extension",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "value",
+              "path": "url"
+            }
+          ],
+          "ordered": false,
+          "rules": "open"
+        },
+        "min": 1
+      },
+      {
+        "id": "Organization.contact:forschungskontakt.extension:rolle",
+        "path": "Organization.contact.extension",
+        "sliceName": "rolle",
+        "min": 1,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/ExtensionKontaktRolle"
+            ]
+          }
+        ],
+        "mustSupport": true
+      },
+      {
+        "id": "Organization.contact:forschungskontakt.purpose",
+        "path": "Organization.contact.purpose",
+        "min": 1,
+        "patternCodeableConcept": {
+          "coding": [
+            {
+              "code": "RESEARCH",
+              "system": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/CodeSystem/CodeSystemContactType"
+            }
+          ]
+        }
+      },
+      {
+        "id": "Organization.contact:forschungskontakt.name.family",
         "path": "Organization.contact.name.family",
         "min": 1
       },
       {
-        "id": "Organization.contact.name.given",
+        "id": "Organization.contact:forschungskontakt.name.given",
         "path": "Organization.contact.name.given",
         "min": 1
       },
       {
-        "id": "Organization.contact.telecom",
+        "id": "Organization.contact:forschungskontakt.telecom",
         "path": "Organization.contact.telecom",
         "slicing": {
           "discriminator": [
@@ -134,11 +234,10 @@
           ],
           "rules": "open"
         },
-        "min": 1,
-        "mustSupport": true
+        "min": 1
       },
       {
-        "id": "Organization.contact.telecom:email",
+        "id": "Organization.contact:forschungskontakt.telecom:email",
         "path": "Organization.contact.telecom",
         "sliceName": "email",
         "min": 1,
@@ -146,23 +245,22 @@
         "mustSupport": true
       },
       {
-        "id": "Organization.contact.telecom:email.system",
+        "id": "Organization.contact:forschungskontakt.telecom:email.system",
         "path": "Organization.contact.telecom.system",
         "min": 1,
         "patternCode": "email",
         "mustSupport": true
       },
       {
-        "id": "Organization.contact.telecom:email.value",
+        "id": "Organization.contact:forschungskontakt.telecom:email.value",
         "path": "Organization.contact.telecom.value",
         "min": 1,
         "mustSupport": true
       },
       {
-        "id": "Organization.contact.address",
+        "id": "Organization.contact:forschungskontakt.address",
         "path": "Organization.contact.address",
-        "min": 1,
-        "mustSupport": true
+        "min": 1
       }
     ]
   }

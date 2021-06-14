@@ -394,6 +394,15 @@
         ]
       },
       {
+        "path": "Biobank.Probensammlung - Biobank.Kontakt.Adresse",
+        "definition": "Kontaktadresse für Forschungsvorhaben",
+        "type": [
+          {
+            "code": "Address"
+          }
+        ]
+      },
+      {
         "path": "Biobank.Probensammlung - Biobank.Sammlungs-ID",
         "definition": "Interner Identifer der Sammlung/Biobank",
         "type": [

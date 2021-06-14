@@ -174,6 +174,22 @@
         }
       },
       {
+        "id": "Specimen.collection.extension:entnahmeprozedur",
+        "path": "Specimen.collection.extension",
+        "sliceName": "entnahmeprozedur",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/ExtensionEntnahmeprozedur"
+            ]
+          }
+        ],
+        "mustSupport": true
+      },
+      {
         "id": "Specimen.collection.extension:einstellungBlutversorgung",
         "path": "Specimen.collection.extension",
         "sliceName": "einstellungBlutversorgung",
@@ -455,38 +471,6 @@
       {
         "id": "Specimen.container.additive[x]",
         "path": "Specimen.container.additive[x]",
-        "slicing": {
-          "discriminator": [
-            {
-              "type": "type",
-              "path": "$this"
-            }
-          ],
-          "ordered": false,
-          "rules": "open"
-        },
-        "mustSupport": true
-      },
-      {
-        "id": "Specimen.container.additiveCodeableConcept",
-        "path": "Specimen.container.additiveCodeableConcept",
-        "min": 0,
-        "max": "1",
-        "type": [
-          {
-            "code": "CodeableConcept"
-          }
-        ],
-        "binding": {
-          "strength": "extensible",
-          "valueSet": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/ValueSetAdditive"
-        }
-      },
-      {
-        "id": "Specimen.container.additiveReference",
-        "path": "Specimen.container.additiveReference",
-        "min": 0,
-        "max": "1",
         "type": [
           {
             "code": "Reference",
@@ -494,7 +478,8 @@
               "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/ProfileSubstanceAdditiv"
             ]
           }
-        ]
+        ],
+        "mustSupport": true
       },
       {
         "id": "Specimen.note",

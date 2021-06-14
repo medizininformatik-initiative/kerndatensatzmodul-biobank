@@ -33,15 +33,13 @@ and processing.timePeriod and processing.procedure and processing.additive MS
 * container.type from ValueSetContainertyp (extensible)
 * container.type 1..1
 
-//Additiv: Wie ja/nein? Substance vs CodeableConcept? Profile auf Substance?
-* container.additiveCodeableConcept from ValueSetAdditive (extensible)
-* container.additiveReference only Reference(ProfileSubstanceAdditiv)
+* container.additive[x] only Reference(ProfileSubstanceAdditiv)
 
-//Probenentnahme -> Entnahme-ID?
+//Entnahme
 
 * collection 1..1
 
-* collection.extension contains ExtensionEinstellungBlutversorgung named einstellungBlutversorgung 0..1 MS
+* collection.extension contains ExtensionEntnahmeprozedur named entnahmeprozedur 0..1 MS and ExtensionEinstellungBlutversorgung named einstellungBlutversorgung 0..1 MS
 
 * collection.fastingStatusCodeableConcept from 	http://terminology.hl7.org/ValueSet/v2-0916 (required)
 
@@ -115,28 +113,6 @@ Title: "ValueSet - SNOMED CT Body Strutures"
 
 * include codes from system $SCT where concept descendent-of #123037004
 
-CodeSystem: CodeSystemCentrifugationSPREC
-Id: CodeSystemCentrifugationSPREC
-Title: "CodeSystem - SPREC Zentrifugation"
-
-* ^valueSet = "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/CentrifugationSPREC"
-
-* #A "RT 10–15 min <3000 g no braking"
-* #B "RT 10–15 min <3000 g with braking"
-* #C "2°C–10°C 10–15 min <3000 g no braking"
-* #D "2°C–10°C 10–15 min <3000 g with braking"
-* #E "RT 10–15 min 3000–6000 g with braking"
-* #F "2°C–10°C 10–15 min 3000–6000 g with braking"
-* #G "RT 10–15 min6000–10000 g with braking"
-* #H "2°C–10°C 10–15 min 6000–10000 g with braking"
-* #I "RT 10–15 min >10000 g with braking"
-* #J "2°C–10°C 10–15 min>10000 g with braking"
-* #M "RT 30 min <1000 g no braking"
-* #N "No centrifugation"
-* #X "Unknown"
-* #Z "Other"
-
-
 ValueSet: ValueSetICDO3Topography
 Id: ValueSetICDO3Topography
 Title: "ValueSet - ICD-O-3 Topography"
@@ -173,6 +149,11 @@ Title: "Extension - Temperaturbedingungen"
 * valueRange.high ^patternQuantity.code = #Cel
 * valueRange.high ^patternQuantity.unit = "C"
 
+Extension: ExtensionEntnahmeprozedur
+Id: ExtensionEntnahmeprozedur
+Title: "Extension - Entnahmeprozedur"
+
+* value[x] only Reference(Procedure)
 
 Profile: ProfileSubstanceAdditiv
 Parent: http://hl7.org/fhir/StructureDefinition/Substance
@@ -189,7 +170,9 @@ Id: ProfileOrganizationSammlungBiobank
 Title: "Profile - Organization - Sammlung/Biobank"
 Description: "Darstellung der organisatorischen Daten einer Probensammlung oder Biobank."
 
-* identifier and type and name and alias and partOf and contact and contact.purpose and contact.name and contact.telecom and contact.address MS //Beschreibung?
+* extension contains ExtensionBeschreibungSammlung named beschreibung 0..1 MS
+
+* identifier and type and name and alias and partOf and contact and contact.purpose and contact.name and contact.telecom and contact.address MS
 
 * identifier ^slicing.discriminator.type = #pattern
 * identifier ^slicing.discriminator.path = "system"
@@ -201,24 +184,40 @@ Description: "Darstellung der organisatorischen Daten einer Probensammlung oder 
 
 * type from https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/MIABISCollectionType (extensible)
 
-* contact 1..*
-* contact.purpose 1..1
-* contact.name.family 1..1
-* contact.name.given 1..*
+* contact ^slicing.discriminator.type = #pattern
+* contact ^slicing.discriminator.path = "purpose"
+* contact ^slicing.rules = #open
 
-* contact.telecom ^slicing.discriminator.type = #pattern
-* contact.telecom ^slicing.discriminator.path = "system"
-* contact.telecom ^slicing.rules = #open
+* contact contains forschungskontakt 1..* MS
 
-* contact.telecom contains email 1..* MS
-* contact.telecom[email].system = #email
-* contact.telecom[email].system 1..1 MS
-* contact.telecom[email].value 1..1 MS
+* contact[forschungskontakt].extension contains ExtensionKontaktRolle named rolle 1..1 MS
 
-* contact.address 1..1
+* contact[forschungskontakt].purpose = CodeSystemContactType#RESEARCH
+* contact[forschungskontakt].name.family 1..1
+* contact[forschungskontakt].name.given 1..*
 
+* contact[forschungskontakt].telecom ^slicing.discriminator.type = #pattern
+* contact[forschungskontakt].telecom ^slicing.discriminator.path = "system"
+* contact[forschungskontakt].telecom ^slicing.rules = #open
 
+* contact[forschungskontakt].telecom contains email 1..* MS
+* contact[forschungskontakt].telecom[email].system = #email
+* contact[forschungskontakt].telecom[email].system 1..1 MS
+* contact[forschungskontakt].telecom[email].value 1..1 MS
 
+* contact[forschungskontakt].address 1..1
+
+Extension: ExtensionBeschreibungSammlung
+Id: ExtensionBeschreibungSammlung
+Title: "Extension - Beschreibung Sammlung"
+
+* value[x] only markdown
+
+Extension: ExtensionKontaktRolle
+Id: ExtensionKontaktRolle
+Title: "Extension - Rolle des Kontaktes"
+
+* value[x] only string
 
 CodeSystem: CodeSystemMIABISCollectionType
 Id: CodeSystemMIABISCollectionType
@@ -241,6 +240,14 @@ Title: "CodeSystem - MIABIS Collection Type"
 * #OTHER	"other"
 * #POPULATION_BASED	"Population-based"
 * #QUALITY_CONTROL	"Quality control"
+
+CodeSystem: CodeSystemContactType
+Id: CodeSystemContactType
+Title: "CodeSystem - Contact Type"
+
+* ^valueSet = "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/ContactType"
+
+* #RESEARCH "Contact for researchers about sample and data requests"
 
 
 RuleSet: BuildElement(path, definition, type)
@@ -308,6 +315,7 @@ Description: "Logische Repräsentation des Erweiterungsmodulesmoduls Biobank"
 * insert BuildElement(Biobank.Probensammlung - Biobank.Kontakt.Nachname, Nachname der Ansprechperson ,String)
 * insert BuildElement(Biobank.Probensammlung - Biobank.Kontakt.E-Mail, E-Mailadresse für Anfragen ,String)
 * insert BuildElement(Biobank.Probensammlung - Biobank.Kontakt.Rolle, Rolle der Ansprechperson in der Sammlung/Biobank ,CodeableConcept)
+* insert BuildElement(Biobank.Probensammlung - Biobank.Kontakt.Adresse, Kontaktadresse für Forschungsvorhaben ,Address)
 * insert BuildElement(Biobank.Probensammlung - Biobank.Sammlungs-ID,Interner Identifer der Sammlung/Biobank,Identifier)
 * insert BuildElement(Biobank.Probensammlung - Biobank.BBMRI-ERIC-ID,Identifier der Sammlung/Biobank im BBMRI ERIC Netzwerk,Identifier)
 * insert BuildElement(Biobank.Probensammlung - Biobank.Akronym,Akronym der Sammlung/Biobank,String)
