@@ -349,6 +349,51 @@
         ]
       },
       {
+        "path": "Biobank.Probensammlung - Biobank.Kontakt",
+        "definition": "Kontaktinformationen einer Sammlung/Biobank für Anfragen zu Bioproben",
+        "type": [
+          {
+            "code": "BackboneElement"
+          }
+        ]
+      },
+      {
+        "path": "Biobank.Probensammlung - Biobank.Kontakt.Vorname",
+        "definition": "Vorname der Ansprechperson",
+        "type": [
+          {
+            "code": "String"
+          }
+        ]
+      },
+      {
+        "path": "Biobank.Probensammlung - Biobank.Kontakt.Nachname",
+        "definition": "Nachname der Ansprechperson",
+        "type": [
+          {
+            "code": "String"
+          }
+        ]
+      },
+      {
+        "path": "Biobank.Probensammlung - Biobank.Kontakt.E-Mail",
+        "definition": "E-Mailadresse für Anfragen",
+        "type": [
+          {
+            "code": "String"
+          }
+        ]
+      },
+      {
+        "path": "Biobank.Probensammlung - Biobank.Kontakt.Rolle",
+        "definition": "Rolle der Ansprechperson in der Sammlung/Biobank",
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ]
+      },
+      {
         "path": "Biobank.Probensammlung - Biobank.Sammlungs-ID",
         "definition": "Interner Identifer der Sammlung/Biobank",
         "type": [

@@ -303,6 +303,11 @@ Description: "Logische Repräsentation des Erweiterungsmodulesmoduls Biobank"
 * insert BuildElement(Biobank.Bioprobe.Pathologiebefund,Referenz auf den zu einer Probe gehörenden Pathologiebefund,Reference)
 
 * insert BuildElement(Biobank.Probensammlung - Biobank,Organisation die Proben verwaltet,BackboneElement)
+* insert BuildElement(Biobank.Probensammlung - Biobank.Kontakt, Kontaktinformationen einer Sammlung/Biobank für Anfragen zu Bioproben,BackboneElement)
+* insert BuildElement(Biobank.Probensammlung - Biobank.Kontakt.Vorname, Vorname der Ansprechperson, String)
+* insert BuildElement(Biobank.Probensammlung - Biobank.Kontakt.Nachname, Nachname der Ansprechperson ,String)
+* insert BuildElement(Biobank.Probensammlung - Biobank.Kontakt.E-Mail, E-Mailadresse für Anfragen ,String)
+* insert BuildElement(Biobank.Probensammlung - Biobank.Kontakt.Rolle, Rolle der Ansprechperson in der Sammlung/Biobank ,CodeableConcept)
 * insert BuildElement(Biobank.Probensammlung - Biobank.Sammlungs-ID,Interner Identifer der Sammlung/Biobank,Identifier)
 * insert BuildElement(Biobank.Probensammlung - Biobank.BBMRI-ERIC-ID,Identifier der Sammlung/Biobank im BBMRI ERIC Netzwerk,Identifier)
 * insert BuildElement(Biobank.Probensammlung - Biobank.Akronym,Akronym der Sammlung/Biobank,String)
@@ -312,4 +317,308 @@ Description: "Logische Repräsentation des Erweiterungsmodulesmoduls Biobank"
 * insert BuildElement(Biobank.Probensammlung - Biobank.besteht aus,Verknüpfung der Teilsammlungen,Reference)
 
 
+RuleSet: AddMapping(targetCode, targetDisplay, equivalence)
+* group.element[=].target[+].code = #{targetCode}
+* group.element[=].target[=].display = {targetDisplay}
+* group.element[=].target[=].equivalence = {equivalence}
 
+RuleSet: AddAdditiveMapping(additiveCode, additiveDisplay)
+* group.element[=].target[=].product[+].property = "http://hl7.org/fhir/StructureDefinition/Specimen#Specimen.container.additive[x]"
+* group.element[=].target[=].product[=].value = #{additiveCode}
+* group.element[=].target[=].product[=].display = {additiveDisplay}
+
+RuleSet: InitMapping(code, display)
+* group.element[+].code = {code}
+* group.element[=].display = {display}
+
+RuleSet: AddComment(comment)
+* group.element[=].target[=].comment = {comment}
+
+
+Instance: SPRECLongTermStorageMap
+InstanceOf: http://hl7.org/fhir/StructureDefinition/ConceptMap
+Title: "SPREC 3.0 Long-Term Storage Containertypen Mapping"
+Usage: #definition
+Description: "Mapping der SPREC 3.0 Long-Term Storage Containertypen auf die im Modul verwendeten SNOMED CT Codes."
+
+* url = "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ConceptMap/SPRECLongTermStorageMap"
+* title = "SPREC 3.0 Long-Term Storage Mapping"
+* status = #draft
+
+* group.target = "http://snomed.info/sct"
+
+* insert InitMapping(#A ,"PP tube")
+* insert AddMapping( 34234003:840560000=256633009 , "Plastic tube \, device (physical object\): Has compositional material=Polypropylene (substance\)" , #wider)
+* insert InitMapping(#B ,"PP tube")
+* insert AddMapping( 34234003:840560000=256633009 , "Plastic tube \, device (physical object\): Has compositional material=Polypropylene (substance\)" , #wider)
+* insert InitMapping(#V ,"PP tube")
+* insert AddMapping( 34234003:840560000=256633009 , "Plastic tube \, device (physical object\): Has compositional material=Polypropylene (substance\)" , #wider)
+* insert InitMapping(#J ,"PP tube")
+* insert AddMapping( 34234003:840560000=256633009 , "Plastic tube \, device (physical object\): Has compositional material=Polypropylene (substance\)" , #wider)
+* insert InitMapping(#K ,"PP tube")
+* insert AddMapping( 34234003:840560000=256633009 , "Plastic tube \, device (physical object\): Has compositional material=Polypropylene (substance\)" , #wider)
+* insert InitMapping(#S ,"PP tube")
+* insert AddMapping( 34234003:840560000=256633009 , "Plastic tube \, device (physical object\): Has compositional material=Polypropylene (substance\)" , #wider)
+* insert InitMapping(#T ,"PP tube")
+* insert AddMapping( 34234003:840560000=256633009 , "Plastic tube \, device (physical object\): Has compositional material=Polypropylene (substance\)" , #wider)
+* insert InitMapping(#W ,"PP tube")
+* insert AddMapping( 34234003:840560000=256633009 , "Plastic tube \, device (physical object\): Has compositional material=Polypropylene (substance\)" , #wider)
+
+* insert InitMapping(#C, "Cryotube")
+* insert AddMapping(83059008, "Tube\, device (physical object\)", #wider)
+* insert InitMapping(#D, "Cryotube")
+* insert AddMapping(83059008, "Tube\, device (physical object\)", #wider)
+* insert InitMapping(#E, "Cryotube")
+* insert AddMapping(83059008, "Tube\, device (physical object\)", #wider)
+* insert InitMapping(#N, "Cryotube")
+* insert AddMapping(83059008, "Tube\, device (physical object\)", #wider)
+
+* insert InitMapping(#F, "Straw")
+* insert AddMapping(464601003, "Tissue storage straw (physical object\)", #narrower)
+* insert AddComment("Der SNOMED Code legt gilt nur für Tissue straws.")
+* insert InitMapping(#G, "Straw")
+* insert AddMapping(464601003, "Tissue storage straw (physical object\)", #narrower)
+* insert AddComment("Der SNOMED Code legt gilt nur für Tissue straws.")
+* insert InitMapping(#H, "Straw")
+* insert AddMapping(464601003, "Tissue storage straw (physical object\)", #narrower)
+* insert AddComment("Der SNOMED Code legt gilt nur für Tissue straws.")
+* insert InitMapping(#I, "Straw")
+* insert AddMapping(464601003, "Tissue storage straw (physical object\)", #narrower)
+* insert AddComment("Der SNOMED Code legt gilt nur für Tissue straws.")
+* insert InitMapping(#O, "Straw")
+* insert AddMapping(464601003, "Tissue storage straw (physical object\)", #narrower)
+* insert AddComment("Der SNOMED Code legt gilt nur für Tissue straws.")
+
+* insert InitMapping(#L, "Microplate well")
+* insert AddMapping(434822004,  "Specimen well (physical object\)", #wider)
+* insert InitMapping(#M, "Microplate well")
+* insert AddMapping(434822004,  "Specimen well (physical object\)", #wider)
+
+* insert InitMapping(#P, "Paraffin block")
+* group.element[=].target.equivalence = #unmatched
+* insert AddAdditiveMapping(311731000, "Paraffin wax (substance\)")
+* insert InitMapping(#U, "Paraffin block")
+* group.element[=].target.equivalence = #unmatched
+* insert AddAdditiveMapping(311731000, "Paraffin wax (substance\)")
+
+* insert InitMapping(#Q, "Bag")
+* insert AddMapping(463490008, "Medical bag (physical object\)", #equivalent)
+
+* insert InitMapping(#Z, "Other")
+* insert AddMapping(706437002, "Container (physical object\)", #wider)
+
+
+Instance: SPRECPrimaryContainerMap
+InstanceOf: http://hl7.org/fhir/StructureDefinition/ConceptMap
+Title: "SPREC 3.0 Primary Container Mapping"
+Usage: #definition
+Description: "Mapping der SPREC 3.0 Primary-Container-Containertypen auf die im Modul verwendeten SNOMED CT Codes."
+
+* url = "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ConceptMap/SPRECPrimaryContainerMap"
+* title = "SPREC 3.0 Primary Container Mapping"
+* status = #draft
+
+* group.target = "http://snomed.info/sct"
+
+* insert InitMapping(#ACD, "Acid citrate dextrose")
+* group.element[=].target.equivalence = #unmatched
+* insert AddAdditiveMapping(75399008, "Citric acid (substance\)")
+* insert AddAdditiveMapping(412546005, "Sodium citrate (substance\)")
+* insert AddAdditiveMapping(67079006, "Glucose (substance\)")
+* insert AddAdditiveMapping(11713004, "Water (substance\)")
+
+* insert InitMapping(#ADD, "Chemical additives/stabilizers")
+* group.element[=].target.equivalence = #unmatched
+* insert AddAdditiveMapping(105590001, "Substance (substance\)")
+
+* insert InitMapping(#CAT, "Serum tube without clot activator")
+* insert AddMapping(83059008, "Tube\, device (physical object\)", #wider)
+
+* insert InitMapping(#CPT, "Cell Preparation Tube citrate")
+* insert AddMapping(83059008, "Tube\, device (physical object\)", #wider)
+* insert AddAdditiveMapping(59351004, "Citrate (substance\)")
+	
+* insert InitMapping(#CPH, "Cell Preparation Tube heparin")
+* insert AddMapping(83059008, "Tube\, device (physical object\)", #wider)
+* insert AddAdditiveMapping(372877000, "Heparin (substance\)")
+
+* insert InitMapping(#CSV, "Aldehyde-based stabilizer for CTCs")
+* group.element[=].target.equivalence = #unmatched
+* insert AddAdditiveMapping(768750002, "Product containing aldehyde (product\)")
+
+* insert InitMapping(#EDG, "EDTA and gel")
+* group.element[=].target.equivalence = #unmatched
+* insert AddAdditiveMapping(69519002, "Ethylenediamine tetra-acetate (substance\)")
+
+* insert InitMapping(#GLS, "Glass")
+* insert AddMapping(76123001, "Glass tube\, device (physical object\)", #equivalent)
+	
+* insert InitMapping(#HEP, "Lithium heparin")
+* group.element[=].target.equivalence = #unmatched
+* insert AddAdditiveMapping(85899009, "Lithium (substance\)")
+* insert AddAdditiveMapping(372877000, "Heparin (substance\)")
+
+* insert InitMapping(#HIR, "Hirudin")
+* group.element[=].target.equivalence = #unmatched
+* insert AddAdditiveMapping(414407009, "Hirudin (substance\)")
+
+* insert InitMapping(#LHB, "Lithium heparin and rubber plug")
+* group.element[=].target.equivalence = #unmatched
+* insert AddAdditiveMapping(85899009, "Lithium (substance\)")
+* insert AddAdditiveMapping(372877000, "Heparin (substance\)")
+* insert AddAdditiveMapping(43230003, "Rubber (substance\)")
+
+* insert InitMapping(#OMN, "Stool collection container with DNA stabilizer")	
+* insert AddMapping(706047007, "Fecal specimen container (physical object\)", #wider)
+
+* insert InitMapping(#PAX, "PAXgene blood RNA")
+* insert AddMapping(702280006, "Evacuated blood collection tube\, ribonucleic acid stabilizer (physical object\)", #wider)
+
+* insert InitMapping(#PED, "Potassium EDTA")
+* group.element[=].target.equivalence = #unmatched
+* insert AddAdditiveMapping(69519002, "Ethylenediamine tetra-acetate (substance\)")
+* insert AddAdditiveMapping(88480006, "Potassium (substance\)")
+
+* insert InitMapping(#PET, "Polyethylene tube sterile")
+* insert AddMapping(34234003:840560000=71463006\,840562008=261029002, "|Plastic tube\, device (physical object\)|:|Has compositional material| = |Polyethylene (substance\)|\,|Has device characteristic| = |Sterile (qualifier value\)|", #equivalent)
+
+* insert InitMapping(#PI1, "S8820 protease inhibitor tablets or equivalent")
+* group.element[=].target.equivalence = #unmatched
+* insert AddAdditiveMapping(372528003, "Substance with protease inhibitor mechanism of action (substance\)")
+
+* insert InitMapping(#PIX, "Protease inhibitors")
+* group.element[=].target.equivalence = #unmatched
+* insert AddAdditiveMapping(372528003, "Substance with protease inhibitor mechanism of action (substance\)")
+
+* insert InitMapping(#PPS, "Polypropylene tube sterile")
+* insert AddMapping(34234003:840560000=256633009\,840562008=261029002, "Plastic tube\, device (physical object\)|:|Has compositional material| = |Polypropylene (substance\)|\,|Has device characteristic| = |Sterile (qualifier value\)|", #equivalent)
+
+* insert InitMapping(#SCI, "Sodium citrate")
+* group.element[=].target.equivalence = #unmatched
+* insert AddAdditiveMapping(412546005, "Sodium citrate (substance\)")
+
+* insert InitMapping(#SED, "Sodium EDTA")
+* group.element[=].target.equivalence = #unmatched
+* insert AddAdditiveMapping(39972003, "Sodium (substance\)")
+* insert AddAdditiveMapping(69519002, "Ethylenediamine tetra-acetate (substance\)")
+
+* insert InitMapping(#SHP, "Sodium heparin")
+* group.element[=].target.equivalence = #unmatched
+* insert AddAdditiveMapping(50045009, "Heparin sodium (substance\)")
+
+* insert InitMapping(#SPO, "Sodium fluoride/potassium oxalate")
+* group.element[=].target.equivalence = #unmatched
+* insert AddAdditiveMapping(6910009, "Sodium fluoride (substance\)")
+* insert AddAdditiveMapping(34261003, "Potassium oxalate (substance\)")
+
+
+
+Instance: SPRECFixationTypeMap
+InstanceOf: http://hl7.org/fhir/StructureDefinition/ConceptMap
+Title: "SPREC 3.0 Fixation Type Mapping"
+Usage: #definition
+Description: "Mapping der SPREC 3.0 Fixation Types auf die im Modul verwendeten SNOMED CT Codes für Zusatzstoffe."
+
+* url = "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ConceptMap/SPRECSampleTypeMap"
+* title = "SPREC 3.0 Fixation Type Mapping"
+* status = #draft
+
+* group.target = "http://snomed.info/sct"
+
+* insert InitMapping(#ACA, "Nonaldehyde with acetic acid")
+* insert AddMapping(2869004, "Acetic acid (substance\)", #wider)
+
+* insert InitMapping(#ALD, "Aldehyde based")
+* insert AddMapping(768750002, "Product containing aldehyde (product\)", #wider)
+
+* insert InitMapping(#ALD, "Alcohol based")
+* insert AddMapping(333164008, "Product containing alcohol (product\)", #wider)
+
+* insert InitMapping(#FOR, "Nonbuffered formalin")
+* insert AddMapping(431510009, "Formalin (substance\)", #wider)
+
+* insert InitMapping(#NBF, "Neutral buffered formalin")
+* insert AddMapping(434162003, "Neutral buffered formalin (substance\)", #equivalent)
+
+* insert InitMapping(#OCT, "Optimum cutting temperature medium")
+* insert AddMapping(433469005, "Frozen section embedding medium (substance\)", #wider)
+
+
+Instance: SPRECSampleTypeMap
+InstanceOf: http://hl7.org/fhir/StructureDefinition/ConceptMap
+Title: "SPREC 3.0 Sample Type Mapping"
+Usage: #definition
+Description: "Mapping der SPREC 3.0 Sample Types auf die im Modul verwendeten SNOMED CT Codes."
+
+* url = "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ConceptMap/SPRECSampleTypeMap"
+* title = "SPREC 3.0 Sample Type Mapping"
+* status = #draft
+
+* group.target = "http://snomed.info/sct"
+
+* insert InitMapping(#ASC, "Ascites fluid")
+* insert AddMapping(309201001, "Ascitic fluid sample (specimen\)", #equivalent)
+* insert InitMapping (#AMN ,"Amniotic fluid")
+* insert AddMapping (119373006, "Amniotic fluid specimen (specimen\)", #equivalent)
+* insert InitMapping (#BAL, "Bronchoalveolar lavage")
+* insert AddMapping (258607008, "Bronchoalveolar lavage fluid sample (specimen\)", #equivalent)
+* insert InitMapping(#BLD, "Blood (whole\)")
+* insert AddMapping(420135007, "Whole blood (substance\)", #equivalent)
+* insert InitMapping(#BMA, "Bone marrow aspirate")
+* insert AddMapping(396997002, "Specimen from bone marrow obtained by aspiration (specimen\)", #equivalent)
+* insert InitMapping(#BMK, "Breast milk")
+* insert AddMapping(446676001,"Expressed breast milk specimen (specimen\)",#equivalent)
+* insert InitMapping(#BUF, "Nondensity-gradient-centrifugation-separatedbuffy coat\, viable")
+* insert AddMapping(258587000, "Buffy coat (specimen\)", #wider)
+* insert InitMapping(#BFF, "Nondensity-gradient-centrifugation-separatedbuffy coat\, nonviable")
+* insert AddMapping(258587000, "Buffy coat (specimen\)", #wider)
+* insert InitMapping(#CEL, "Density-gradient-centrifugation-separatedmononuclear cells\, viable")
+* insert AddMapping(404798000, "Peripheral blood mononuclear cell (cell\)", #wider)
+* insert InitMapping(#BON, "Bone")
+* insert AddMapping(430268003,"Specimen from bone (specimen\)", #equivalent)
+* insert InitMapping(#CRD, "Cord blood")
+* insert AddMapping(122556008,"Cord blood specimen (specimen\)", #equivalent)
+* insert InitMapping(#HAR, "Hair")
+* insert AddMapping(119326000, "Hair specimen (specimen\)",#equivalent)
+* insert InitMapping(#NAL, "Nails")
+* insert AddMapping(119327009, "Nail specimen (specimen\)", #equivalent)
+* insert InitMapping(#NAS, "Nasal washing")
+* insert AddMapping(258467004, "Nasopharyngeal washings (specimen\)", #wider)
+* insert InitMapping(#PLC, "Placenta")
+* insert AddMapping(119403008, "Specimen from placenta (specimen\)", #equivalent)
+* insert InitMapping(#PFL, "Pleural fluid")
+* insert AddMapping(418564007, "Pleural fluid specimen (specimen\)",#equivalent)
+* insert InitMapping(#RBC, "Red blood cells")
+* insert AddMapping(119351004, "Erythrocyte specimen (specimen\)", #equivalent)
+* insert InitMapping(#SEM, "Semen")
+* insert AddMapping(119347001, "Seminal fluid specimen (specimen\)", #equivalent)
+* insert InitMapping(#SPT, "Sputum")
+* insert AddMapping(119334006, "Sputum specimen (specimen\)", #equivalent)
+* insert InitMapping(#SYN, "Synovial fluid")	
+* insert AddMapping(119332005, "Synovial fluid specimen (specimen\)", #equivalent)
+* insert InitMapping(#TER,"Tears")
+* insert AddMapping(122594008, "Tears specimen (specimen\)", #equivalent)
+* insert InitMapping(#TTH, "Teeth")
+* insert AddMapping(430319000, "Specimen from tooth (specimen\)", #equivalent)
+* insert InitMapping(#SER, "Serum")
+* insert AddMapping(119364003, "Serum specimen (specimen\)", #equivalent)
+* insert InitMapping(#CSF, "Cerebrospinal fluid")
+* insert AddMapping(258450006,"Cerebrospinal fluid sample (specimen\)", #equivalent)
+* insert InitMapping(#SAL,"Saliva")
+* insert AddMapping(119342007,"Saliva specimen (specimen\)", #equivalent)
+* insert InitMapping(#STL, "Stool")
+* insert AddMapping(119339001,"Stool specimen (specimen\)", #equivalent)
+* insert InitMapping(#U24, "24 h urine")
+* insert AddMapping(276833005, "24 hour urine sample (specimen\)", #equivalent)
+* insert InitMapping(#URN, "Urine\, random (‘‘spot’’\)")
+* insert AddMapping(278020009,"Spot urine sample (specimen\)", #equivalent)
+* insert InitMapping(#URM, "Urine\, first morning")
+* insert AddMapping(122575003,"Urine specimen (specimen\)", #wider)
+* insert InitMapping(#URT, "Urine\, timed")
+* insert AddMapping(409821005," Timed urine specimen (specimen\)", #equivalent)
+* insert InitMapping(#DWB, "Dried whole blood (e.g.\, Guthrie cards\)")
+* insert AddMapping(119294007,"Dried blood specimen (specimen\)", #equivalent)
+* insert InitMapping(#PL1, "Plasma\, single spun")
+* insert AddMapping(119361006,"Plasma specimen (specimen\)", #wider)
+* insert InitMapping(#PL2, "Plasma\, double spun")
+* insert AddMapping(119361006,"Plasma specimen (specimen\)", #wider)
