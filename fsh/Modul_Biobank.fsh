@@ -224,7 +224,7 @@ Description: "Darstellung der organisatorischen Daten einer Probensammlung oder 
 * contact[forschungskontakt].telecom[email].system 1..1 MS
 * contact[forschungskontakt].telecom[email].value 1..1 MS
 
-* contact[forschungskontakt].address 1..1
+* contact[forschungskontakt].address 1..1 MS
 
 Extension: ExtensionBeschreibungSammlung
 Id: ExtensionBeschreibungSammlung
