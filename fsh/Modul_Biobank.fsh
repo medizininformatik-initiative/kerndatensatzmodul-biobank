@@ -148,7 +148,7 @@ Extension: ExtensionVerwaltendeOrganisation
 Id: ExtensionVerwaltendeOrganisation
 Title: "Extension - Verwaltende Organisation"
 
-* value[x] only Reference(Organization)
+* value[x] only Reference(ProfileOrganizationSammlungBiobank)
 
 Extension: ExtensionEinstellungBlutversorgung
 Id: ExtensionEinstellungBlutversorgung
