@@ -63,13 +63,15 @@ and processing.timePeriod and processing.procedure and processing.additive MS
 
 * processing.extension contains ExtensionTemperaturbedingungen named temperaturbedingungen 1..1 MS
 * processing.procedure 1..1
+* processing.procedure obeys mii-bb-2
 
 * processing.procedure.coding ^slicing.discriminator.type = #pattern
 * processing.procedure.coding ^slicing.discriminator.path = "system"
 * processing.procedure.coding ^slicing.rules = #open
 
-* processing.procedure.coding contains sct 1..* MS
+* processing.procedure.coding contains sct 0..* MS
 * processing.procedure.coding[sct] ^patternCoding.system = "http://snomed.info/sct"
+* processing.procedure from ValueSetSCTSpecimenPreparation (example)
 
 * processing.time[x] 1..1
 * processing.timePeriod.start 1..1 MS
@@ -81,11 +83,16 @@ and processing.timePeriod and processing.procedure and processing.additive MS
 * processing ^slicing.rules = #open
 
 * processing contains lagerprozess 0..* MS
-* processing[lagerprozess].procedure.coding = $SCT#69997009 "Specimen refrigeration (procedure)" //TODO Besseren Code finden
+* processing[lagerprozess].procedure.coding = CodeSystemProbenlagerung#LAGERUNG "Lagerung einer Probe"
 
 Invariant:  mii-bb-1
 Description: "Bei der Angabe der Entnahmestelle muss ein ICD-O-3 Topographiecode oder ein SNOMED CT Code angegeben werden."
 Expression: "coding.where(system = 'http://snomed.info/sct' or system = 'http://terminology.hl7.org/CodeSystem/icd-o-3').exists()"
+Severity:   #error
+
+Invariant:  mii-bb-2
+Description: "Wenn es sich nicht um einen Lagerprozess handelt, muss ein SCT Code angegeben werden."
+Expression: "coding.where(system = 'http://snomed.info/sct' or code = 'LAGERUNG').exists()"
 Severity:   #error
 
 
@@ -118,6 +125,18 @@ Id: ValueSetICDO3Topography
 Title: "ValueSet - ICD-O-3 Topography"
 
 * include codes from system  http://terminology.hl7.org/CodeSystem/icd-o-3 where concept descendent-of #T
+
+ValueSet: ValueSetSCTSpecimenPreparation
+Id: ValueSetSCTSpecimenPreparation
+Title: "ValueSet - SNOMED CT Specimen Preparation"
+
+* include codes from system $SCT where concept descendent-of #56245008
+
+CodeSystem: CodeSystemProbenlagerung
+Id: CodeSystemProbenlagerung
+Title: "CodeSystem - Probenlagerung"
+
+* #LAGERUNG "Lagerung einer Probe"
 
 Extension: ExtensionDiagnose
 Id: ExtensionDiagnose
@@ -244,8 +263,6 @@ Title: "CodeSystem - MIABIS Collection Type"
 CodeSystem: CodeSystemContactType
 Id: CodeSystemContactType
 Title: "CodeSystem - Contact Type"
-
-* ^valueSet = "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/ContactType"
 
 * #RESEARCH "Contact for researchers about sample and data requests"
 
