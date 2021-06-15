@@ -1,7 +1,7 @@
 {
   "resourceType": "ConceptMap",
   "id": "SPRECFixationTypeMap",
-  "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ConceptMap/SPRECSampleTypeMap",
+  "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ConceptMap/SPRECFixationTypeMap",
   "title": "SPREC 3.0 Fixation Type Mapping",
   "status": "draft",
   "group": [
