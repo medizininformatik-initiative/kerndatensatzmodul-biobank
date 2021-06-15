@@ -62,7 +62,7 @@ and processing.timePeriod and processing.procedure and processing.additive MS
 //Verarbeitung/Lagerprozess
 
 * processing.extension contains ExtensionTemperaturbedingungen named temperaturbedingungen 1..1 MS
-* processing.procedure 1..1
+* processing.procedure 1..1 MS
 * processing.procedure obeys mii-bb-2
 
 * processing.procedure.coding ^slicing.discriminator.type = #pattern
@@ -191,7 +191,7 @@ Description: "Darstellung der organisatorischen Daten einer Probensammlung oder 
 
 * extension contains ExtensionBeschreibungSammlung named beschreibung 0..1 MS
 
-* identifier and type and name and alias and partOf and contact and contact.purpose and contact.name and contact.telecom and contact.address MS
+* identifier and type and name and alias and partOf and contact MS
 
 * identifier ^slicing.discriminator.type = #pattern
 * identifier ^slicing.discriminator.path = "system"
@@ -212,8 +212,8 @@ Description: "Darstellung der organisatorischen Daten einer Probensammlung oder 
 * contact[forschungskontakt].extension contains ExtensionKontaktRolle named rolle 1..1 MS
 
 * contact[forschungskontakt].purpose = CodeSystemContactType#RESEARCH
-* contact[forschungskontakt].name.family 1..1
-* contact[forschungskontakt].name.given 1..*
+* contact[forschungskontakt].name.family 1..1 MS
+* contact[forschungskontakt].name.given 1..* MS
 
 * contact[forschungskontakt].telecom ^slicing.discriminator.type = #pattern
 * contact[forschungskontakt].telecom ^slicing.discriminator.path = "system"
