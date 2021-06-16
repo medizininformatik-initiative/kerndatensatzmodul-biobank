@@ -72,7 +72,7 @@
         "patternQuantity": {
           "system": "http://unitsofmeasure.org",
           "code": "Cel",
-          "unit": "C"
+          "unit": "°C"
         }
       },
       {
@@ -81,7 +81,7 @@
         "patternQuantity": {
           "system": "http://unitsofmeasure.org",
           "code": "Cel",
-          "unit": "C"
+          "unit": "°C"
         }
       }
     ]

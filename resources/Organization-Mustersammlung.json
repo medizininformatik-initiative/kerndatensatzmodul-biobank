@@ -1,0 +1,70 @@
+{
+  "resourceType": "Organization",
+  "id": "Mustersammlung",
+  "meta": {
+    "profile": [
+      "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/Organization"
+    ]
+  },
+  "contact": [
+    {
+      "purpose": {
+        "coding": [
+          {
+            "code": "RESEARCH",
+            "system": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/CodeSystem/ContactType"
+          }
+        ]
+      },
+      "extension": [
+        {
+          "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/KontaktRolle",
+          "valueString": "Forschungskoordinatorin"
+        }
+      ],
+      "telecom": [
+        {
+          "system": "email",
+          "value": "musterfrau@biobank.uk-musterstadt.de"
+        }
+      ],
+      "name": {
+        "family": "Musterfrau",
+        "given": [
+          "Tina"
+        ],
+        "prefix": [
+          "Dr."
+        ]
+      },
+      "address": {
+        "line": [
+          "Musterweg 10"
+        ],
+        "postalCode": "00000",
+        "city": "Musterstadt"
+      }
+    }
+  ],
+  "extension": [
+    {
+      "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/BeschreibungSammlung",
+      "valueMarkdown": "Sammlung mit im Rahmen der Versorgung gewonnenen Proben."
+    }
+  ],
+  "type": [
+    {
+      "coding": [
+        {
+          "code": "HOSPITAL",
+          "system": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/CodeSystem/MIABISCollectionType",
+          "display": "Hospital"
+        }
+      ]
+    }
+  ],
+  "name": "Mustersammlung",
+  "partOf": {
+    "reference": "Organization/BiobankMusterstadt"
+  }
+}

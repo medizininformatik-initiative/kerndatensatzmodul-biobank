@@ -1,0 +1,216 @@
+{
+  "resourceType": "Specimen",
+  "id": "MusterprobeFluessig",
+  "meta": {
+    "profile": [
+      "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/Specimen"
+    ]
+  },
+  "extension": [
+    {
+      "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/VerwaltendeOrganisation",
+      "valueReference": {
+        "reference": "Organization/Mustersammlung"
+      }
+    }
+  ],
+  "type": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "122555007",
+        "display": "Venous blood specimen (specimen)"
+      }
+    ]
+  },
+  "processing": [
+    {
+      "extension": [
+        {
+          "valueRange": {
+            "low": {
+              "system": "http://unitsofmeasure.org",
+              "code": "Cel",
+              "unit": "°C",
+              "value": 15
+            },
+            "high": {
+              "system": "http://unitsofmeasure.org",
+              "code": "Cel",
+              "unit": "°C",
+              "value": 25
+            }
+          },
+          "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/Temperaturbedingungen"
+        }
+      ],
+      "procedure": {
+        "coding": [
+          {
+            "code": "LAGERUNG",
+            "system": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/CodeSystem/Probenlagerung",
+            "display": "Lagerung einer Probe"
+          }
+        ]
+      },
+      "timePeriod": {
+        "start": "2018-06-07T15:54:00+01:00",
+        "end": "2018-06-07T16:27:00+01:00"
+      }
+    },
+    {
+      "extension": [
+        {
+          "valueRange": {
+            "low": {
+              "system": "http://unitsofmeasure.org",
+              "code": "Cel",
+              "unit": "°C",
+              "value": 15
+            },
+            "high": {
+              "system": "http://unitsofmeasure.org",
+              "code": "Cel",
+              "unit": "°C",
+              "value": 25
+            }
+          },
+          "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/Temperaturbedingungen"
+        }
+      ],
+      "procedure": {
+        "coding": [
+          {
+            "code": "73373003",
+            "system": "http://snomed.info/sct",
+            "display": "Specimen centrifugation (procedure)"
+          }
+        ]
+      },
+      "timePeriod": {
+        "start": "2018-06-07T16:27:00+01:00",
+        "end": "2018-06-07T16:37:00+01:00"
+      }
+    },
+    {
+      "extension": [
+        {
+          "valueRange": {
+            "low": {
+              "system": "http://unitsofmeasure.org",
+              "code": "Cel",
+              "unit": "°C",
+              "value": 15
+            },
+            "high": {
+              "system": "http://unitsofmeasure.org",
+              "code": "Cel",
+              "unit": "°C",
+              "value": 25
+            }
+          },
+          "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/Temperaturbedingungen"
+        }
+      ],
+      "procedure": {
+        "coding": [
+          {
+            "code": "LAGERUNG",
+            "system": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/CodeSystem/Probenlagerung",
+            "display": "Lagerung einer Probe"
+          }
+        ]
+      },
+      "timePeriod": {
+        "start": "2018-06-07T16:37:00+01:00",
+        "end": "2018-06-07T16:51:00+01:00"
+      }
+    },
+    {
+      "extension": [
+        {
+          "valueRange": {
+            "low": {
+              "system": "http://unitsofmeasure.org",
+              "code": "Cel",
+              "unit": "°C",
+              "value": -85
+            },
+            "high": {
+              "system": "http://unitsofmeasure.org",
+              "code": "Cel",
+              "unit": "°C",
+              "value": -60
+            }
+          },
+          "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/Temperaturbedingungen"
+        }
+      ],
+      "procedure": {
+        "coding": [
+          {
+            "code": "LAGERUNG",
+            "system": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/CodeSystem/Probenlagerung",
+            "display": "Lagerung einer Probe"
+          },
+          {
+            "code": "27872000",
+            "system": "http://snomed.info/sct",
+            "display": "Specimen freezing (procedure)"
+          }
+        ]
+      },
+      "timePeriod": {
+        "start": "2018-06-07T16:51:00+01:00"
+      }
+    }
+  ],
+  "identifier": [
+    {
+      "system": "https://biobank.uk-musterstadt.de/fhir/sid/proben",
+      "value": "12345"
+    }
+  ],
+  "status": "available",
+  "subject": {
+    "reference": "Patient/12345"
+  },
+  "collection": {
+    "collectedDateTime": "2018-06-07T15:54:00+01:00",
+    "fastingStatusCodeableConcept": {
+      "coding": [
+        {
+          "code": "NG",
+          "system": "http://terminology.hl7.org/CodeSystem/v2-0916",
+          "display": "Not Given - Patient was not asked at the time of the procedure."
+        }
+      ]
+    }
+  },
+  "container": [
+    {
+      "type": {
+        "coding": [
+          {
+            "code": "83059008",
+            "system": "http://snomed.info/sct",
+            "display": "Tube, device (physical object)"
+          }
+        ]
+      },
+      "capacity": {
+        "value": 10,
+        "code": "ml",
+        "system": "http://unitsofmeasure.org"
+      },
+      "specimenQuantity": {
+        "value": 10,
+        "code": "ml",
+        "system": "http://unitsofmeasure.org"
+      },
+      "additiveReference": {
+        "reference": "Substance/Heparin"
+      }
+    }
+  ]
+}

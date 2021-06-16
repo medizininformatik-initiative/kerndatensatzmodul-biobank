@@ -163,10 +163,10 @@ Title: "Extension - Temperaturbedingungen"
 * value[x] only Range
 * valueRange.low ^patternQuantity.system = "http://unitsofmeasure.org"
 * valueRange.low ^patternQuantity.code = #Cel
-* valueRange.low ^patternQuantity.unit = "C"
+* valueRange.low ^patternQuantity.unit = "°C"
 * valueRange.high ^patternQuantity.system = "http://unitsofmeasure.org"
 * valueRange.high ^patternQuantity.code = #Cel
-* valueRange.high ^patternQuantity.unit = "C"
+* valueRange.high ^patternQuantity.unit = "°C"
 
 Extension: ExtensionEntnahmeprozedur
 Id: Entnahmeprozedur
@@ -225,6 +225,7 @@ Description: "Darstellung der organisatorischen Daten einer Probensammlung oder 
 * contact[forschungskontakt].telecom[email].value 1..1 MS
 
 * contact[forschungskontakt].address 1..1 MS
+* contact[forschungskontakt].address only http://fhir.de/StructureDefinition/address-de-basis
 
 Extension: ExtensionBeschreibungSammlung
 Id: BeschreibungSammlung
@@ -647,3 +648,123 @@ Description: "Mapping der SPREC 3.0 Sample Types auf die im Modul verwendeten SN
 * insert AddMapping(119361006,"Plasma specimen (specimen\)", #wider)
 * insert InitMapping(#PL2, "Plasma\, double spun")
 * insert AddMapping(119361006,"Plasma specimen (specimen\)", #wider)
+
+
+Instance: BiobankMusterstadt
+InstanceOf: Organization
+Title: "Biobank Musterstadt"
+Usage: #example
+
+* extension[beschreibung].valueMarkdown = "Biobank des Krankenhauses Musterstadt."
+* identifier[bbmri-eric-id].value = "de-12345"
+* name = "Biobank Musterstadt"
+* contact[forschungskontakt].extension[rolle].valueString = "Direktor"
+* contact[forschungskontakt].name.family = "Mustermann"
+* contact[forschungskontakt].name.given = "Max"
+* contact[forschungskontakt].name.prefix = "Prof."
+* contact[forschungskontakt].telecom[email].value = "mustermann@biobank.uk-musterstadt.de"
+* contact[forschungskontakt].name.prefix = "Prof."
+* contact[forschungskontakt].address.line = "Musterstrasse 3"
+* contact[forschungskontakt].address.postalCode = "00000"
+* contact[forschungskontakt].address.city = "Musterstadt"
+
+Instance: Mustersammlung
+InstanceOf: Organization
+Title: "Mustersammlung"
+Usage: #example
+
+* extension[BeschreibungSammlung].valueMarkdown = "Sammlung mit im Rahmen der Versorgung gewonnenen Proben."
+* type = MIABISCollectionType#HOSPITAL "Hospital"
+* name = "Mustersammlung"
+* partOf = Reference(BiobankMusterstadt)
+* contact[forschungskontakt].extension[rolle].valueString = "Forschungskoordinatorin"
+* contact[forschungskontakt].name.family = "Musterfrau"
+* contact[forschungskontakt].name.given = "Tina"
+* contact[forschungskontakt].name.prefix = "Dr."
+* contact[forschungskontakt].telecom[email].value = "musterfrau@biobank.uk-musterstadt.de"
+* contact[forschungskontakt].address.line = "Musterweg 10"
+* contact[forschungskontakt].address.postalCode = "00000"
+* contact[forschungskontakt].address.city = "Musterstadt"
+
+Instance: MusterprobeFluessig
+InstanceOf: Specimen
+Title: "Musterprobe flüssig"
+Usage: #example
+
+* extension[gehoertZu].valueReference = Reference(Mustersammlung)
+* identifier.system = "https://biobank.uk-musterstadt.de/fhir/sid/proben"
+* identifier.value = "12345"
+* status = #available
+* type = http://snomed.info/sct#122555007 "Venous blood specimen (specimen)"
+* subject.reference = "Patient/12345"
+* collection.collectedDateTime = "2018-06-07T15:54:00+01:00"
+* collection.fastingStatusCodeableConcept = http://terminology.hl7.org/CodeSystem/v2-0916#NG "Not Given - Patient was not asked at the time of the procedure."
+
+* processing[+].extension[temperaturbedingungen].valueRange.low.value = 15
+* processing[=].extension[temperaturbedingungen].valueRange.high.value = 25
+* processing[=].procedure =  Probenlagerung#LAGERUNG "Lagerung einer Probe"
+* processing[=].timePeriod.start = "2018-06-07T15:54:00+01:00"
+* processing[=].timePeriod.end = "2018-06-07T16:27:00+01:00"
+
+* processing[+].extension[temperaturbedingungen].valueRange.low.value = 15
+* processing[=].extension[temperaturbedingungen].valueRange.high.value = 25
+* processing[=].procedure =  http://snomed.info/sct#73373003 "Specimen centrifugation (procedure)"
+* processing[=].timePeriod.start = "2018-06-07T16:27:00+01:00"
+* processing[=].timePeriod.end = "2018-06-07T16:37:00+01:00"
+
+* processing[+].extension[temperaturbedingungen].valueRange.low.value = 15
+* processing[=].extension[temperaturbedingungen].valueRange.high.value = 25
+* processing[=].procedure =  Probenlagerung#LAGERUNG "Lagerung einer Probe"
+* processing[=].timePeriod.start = "2018-06-07T16:37:00+01:00"
+* processing[=].timePeriod.end = "2018-06-07T16:51:00+01:00"
+
+* processing[+].extension[temperaturbedingungen].valueRange.low.value = -85
+* processing[=].extension[temperaturbedingungen].valueRange.high.value = -60
+* processing[=].procedure.coding[0] =  Probenlagerung#LAGERUNG "Lagerung einer Probe"
+* processing[=].procedure.coding[1] =  http://snomed.info/sct#27872000 "Specimen freezing (procedure)"
+* processing[=].timePeriod.start = "2018-06-07T16:51:00+01:00"
+
+* container.type = http://snomed.info/sct#83059008 "Tube, device (physical object)"
+* container.capacity = 10 'ml'
+* container.specimenQuantity = 10 'ml'
+* container.additiveReference = Reference(Heparin)
+
+Instance: Heparin
+InstanceOf: Substance
+Title: "Heparin"
+Usage: #example
+
+* code = http://snomed.info/sct#372877000 "Heparin (substance)"
+
+
+Instance: MusterprobeGewebe
+InstanceOf: Specimen
+Title: "Musterprobe Gewebe"
+Usage: #example
+
+* extension[gehoertZu].valueReference = Reference(Mustersammlung)
+* identifier.system = "https://biobank.uk-musterstadt.de/fhir/sid/proben"
+* identifier.value = "6789"
+* status = #available
+* type = http://snomed.info/sct#399492000 "Tissue specimen from lung (specimen)"
+* subject.reference = "Patient/12345"
+
+* collection.extension[einstellungBlutversorgung].valueDateTime = "2018-06-08T15:32:00+01:00"
+* collection.collectedDateTime = "2018-06-08T15:34:00+01:00"
+* collection.fastingStatusDuration = 4 'h'
+* collection.bodySite = http://snomed.info/sct#14559000 "Structure of apex of left lung (body structure)"
+
+* processing[+].extension[temperaturbedingungen].valueRange.low.value = 15
+* processing[=].extension[temperaturbedingungen].valueRange.high.value = 25
+* processing[=].procedure =  Probenlagerung#LAGERUNG "Lagerung einer Probe"
+* processing[=].timePeriod.start = "2018-06-08T15:34:00+01:00"
+* processing[=].timePeriod.end = "2018-06-08T15:42:00+01:00"
+
+* processing[+].extension[temperaturbedingungen].valueRange.low.value = -85
+* processing[=].extension[temperaturbedingungen].valueRange.high.value = -60
+* processing[=].procedure.coding[0] =  Probenlagerung#LAGERUNG "Lagerung einer Probe"
+* processing[=].procedure.coding[1] =  http://snomed.info/sct#27872000 "Specimen freezing (procedure)"
+* processing[=].timePeriod.start = "2018-06-08T15:42:00+01:00"
+
+* container.type = http://snomed.info/sct#83059008 "Tube, device (physical object)"
+

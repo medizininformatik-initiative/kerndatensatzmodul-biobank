@@ -243,6 +243,14 @@
         "id": "Organization.contact:forschungskontakt.address",
         "path": "Organization.contact.address",
         "min": 1,
+        "type": [
+          {
+            "code": "Address",
+            "profile": [
+              "http://fhir.de/StructureDefinition/address-de-basis"
+            ]
+          }
+        ],
         "mustSupport": true
       }
     ]
