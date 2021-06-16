@@ -3,9 +3,9 @@
   "status": "active",
   "content": "complete",
   "name": "CodeSystemContactType",
-  "id": "CodeSystemContactType",
+  "id": "ContactType",
   "title": "CodeSystem - Contact Type",
-  "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/CodeSystem/CodeSystemContactType",
+  "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/CodeSystem/ContactType",
   "concept": [
     {
       "code": "RESEARCH",

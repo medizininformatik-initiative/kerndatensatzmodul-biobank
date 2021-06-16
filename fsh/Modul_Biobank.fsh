@@ -2,7 +2,7 @@ Alias: $SCT = http://snomed.info/sct
 
 Profile: ProfileSpecimenBioprobe
 Parent: http://hl7.org/fhir/StructureDefinition/Specimen
-Id: ProfileSpecimenBioprobe
+Id: Specimen
 Title: "Profile - Specimen- Bioprobe"
 Description: "Abbildung einer MII Bioprobe"
 
@@ -12,7 +12,7 @@ and processing.timePeriod and processing.procedure and processing.additive MS
 
 //Bioprobe
 
-* extension contains ExtensionDiagnose named diagnose 0..1 MS and ExtensionVerwaltendeOrganisation named gehoertZu 1..1 MS
+* extension contains Diagnose named diagnose 0..1 MS and VerwaltendeOrganisation named gehoertZu 1..1 MS
 
 * status 1..1
 
@@ -22,7 +22,7 @@ and processing.timePeriod and processing.procedure and processing.additive MS
 * type.coding ^slicing.rules = #open
 
 * type.coding contains sct 1..*
-* type.coding[sct] from ValueSetProbenart (extensible)
+* type.coding[sct] from probenart (extensible)
 * type.coding[sct].system = $SCT
 
 * subject 1..1
@@ -30,7 +30,7 @@ and processing.timePeriod and processing.procedure and processing.additive MS
 
 //Primärcontainer
 
-* container.type from ValueSetContainertyp (extensible)
+* container.type from containertyp (extensible)
 * container.type 1..1
 
 * container.additive[x] only Reference(ProfileSubstanceAdditiv)
@@ -39,7 +39,7 @@ and processing.timePeriod and processing.procedure and processing.additive MS
 
 * collection 1..1
 
-* collection.extension contains ExtensionEntnahmeprozedur named entnahmeprozedur 0..1 MS and ExtensionEinstellungBlutversorgung named einstellungBlutversorgung 0..1 MS
+* collection.extension contains Entnahmeprozedur named entnahmeprozedur 0..1 MS and EinstellungBlutversorgung named einstellungBlutversorgung 0..1 MS
 
 * collection.fastingStatusCodeableConcept from 	http://terminology.hl7.org/ValueSet/v2-0916 (required)
 
@@ -51,9 +51,9 @@ and processing.timePeriod and processing.procedure and processing.additive MS
 
 * collection.bodySite.coding contains sct 0..1 MS and icd-o-3 0..1 MS
 
-* collection.bodySite.coding[sct] from ValueSetSCTBodyStructures (required)
+* collection.bodySite.coding[sct] from sct-body-structures (required)
 * collection.bodySite.coding[sct].system = $SCT
-* collection.bodySite.coding[icd-o-3] from ValueSetICDO3Topography (required)
+* collection.bodySite.coding[icd-o-3] from icd-o-3-topography (required)
 * collection.bodySite.coding[icd-o-3].system = "http://terminology.hl7.org/CodeSystem/icd-o-3"
 
 * collection.collected[x] 1..1
@@ -61,7 +61,7 @@ and processing.timePeriod and processing.procedure and processing.additive MS
 
 //Verarbeitung/Lagerprozess
 
-* processing.extension contains ExtensionTemperaturbedingungen named temperaturbedingungen 1..1 MS
+* processing.extension contains Temperaturbedingungen named temperaturbedingungen 1..1 MS
 * processing.procedure 1..1 MS
 * processing.procedure obeys mii-bb-2
 
@@ -71,7 +71,7 @@ and processing.timePeriod and processing.procedure and processing.additive MS
 
 * processing.procedure.coding contains sct 0..* MS
 * processing.procedure.coding[sct] ^patternCoding.system = "http://snomed.info/sct"
-* processing.procedure from ValueSetSCTSpecimenPreparation (example)
+* processing.procedure from sct-specimen-preparation (example)
 
 * processing.time[x] 1..1
 * processing.timePeriod.start 1..1 MS
@@ -83,7 +83,7 @@ and processing.timePeriod and processing.procedure and processing.additive MS
 * processing ^slicing.rules = #open
 
 * processing contains lagerprozess 0..* MS
-* processing[lagerprozess].procedure.coding = CodeSystemProbenlagerung#LAGERUNG "Lagerung einer Probe"
+* processing[lagerprozess].procedure.coding = Probenlagerung#LAGERUNG "Lagerung einer Probe"
 
 Invariant:  mii-bb-1
 Description: "Bei der Angabe der Entnahmestelle muss ein ICD-O-3 Topographiecode oder ein SNOMED CT Code angegeben werden."
@@ -97,67 +97,67 @@ Severity:   #error
 
 
 ValueSet: ValueSetProbenart
-Id: ValueSetProbenart
+Id: probenart
 Title: "ValueSet - Probenart"
 
 * include codes from system $SCT where concept descendent-of #123038009
 
 ValueSet: ValueSetContainertyp
-Id: ValueSetContainertyp
+Id: containertyp
 Title: "ValueSet - Containertyp"
 
 * include codes from system $SCT where concept descendent-of #706041008
 
 ValueSet: ValueSetAdditive
-Id: ValueSetAdditive
+Id: additive
 Title: "ValueSet - Additive"
 
 * include codes from system $SCT where concept descendent-of #105590001
 
 ValueSet: ValueSetSCTBodyStructures
-Id: ValueSetSCTBodyStructures
+Id: sct-body-structures
 Title: "ValueSet - SNOMED CT Body Strutures"
 
 * include codes from system $SCT where concept descendent-of #123037004
 
 ValueSet: ValueSetICDO3Topography
-Id: ValueSetICDO3Topography
+Id: icd-o-3-topography
 Title: "ValueSet - ICD-O-3 Topography"
 
 * include codes from system  http://terminology.hl7.org/CodeSystem/icd-o-3 where concept descendent-of #T
 
 ValueSet: ValueSetSCTSpecimenPreparation
-Id: ValueSetSCTSpecimenPreparation
+Id: sct-specimen-preparation
 Title: "ValueSet - SNOMED CT Specimen Preparation"
 
 * include codes from system $SCT where concept descendent-of #56245008
 
 CodeSystem: CodeSystemProbenlagerung
-Id: CodeSystemProbenlagerung
+Id: Probenlagerung
 Title: "CodeSystem - Probenlagerung"
 
 * #LAGERUNG "Lagerung einer Probe"
 
 Extension: ExtensionDiagnose
-Id: ExtensionDiagnose
+Id: Diagnose
 Title: "Extension - Diagnose"
 
 * value[x] only Reference(Condition)
 
 Extension: ExtensionVerwaltendeOrganisation
-Id: ExtensionVerwaltendeOrganisation
+Id: VerwaltendeOrganisation
 Title: "Extension - Verwaltende Organisation"
 
 * value[x] only Reference(ProfileOrganizationSammlungBiobank)
 
 Extension: ExtensionEinstellungBlutversorgung
-Id: ExtensionEinstellungBlutversorgung
+Id: EinstellungBlutversorgung
 Title: "Extension - Einstellung Blutversorgung"
 
 * value[x] only dateTime
 
 Extension: ExtensionTemperaturbedingungen
-Id: ExtensionTemperaturbedingungen
+Id: Temperaturbedingungen
 Title: "Extension - Temperaturbedingungen"
 
 * value[x] only Range
@@ -169,27 +169,27 @@ Title: "Extension - Temperaturbedingungen"
 * valueRange.high ^patternQuantity.unit = "C"
 
 Extension: ExtensionEntnahmeprozedur
-Id: ExtensionEntnahmeprozedur
+Id: Entnahmeprozedur
 Title: "Extension - Entnahmeprozedur"
 
 * value[x] only Reference(Procedure)
 
 Profile: ProfileSubstanceAdditiv
 Parent: http://hl7.org/fhir/StructureDefinition/Substance
-Id: ProfileSubstanceAdditiv
+Id: Substance
 Title: "Profile - Substance - Additiv"
 Description: "Abbildung eines Additives, das zu einer Probe hinzugefügt werden kann"
 
-* code from ValueSetAdditive (extensible)
+* code from additive (extensible)
 * code MS
 
 Profile: ProfileOrganizationSammlungBiobank
 Parent: http://hl7.org/fhir/StructureDefinition/Organization
-Id: ProfileOrganizationSammlungBiobank
+Id: Organization
 Title: "Profile - Organization - Sammlung/Biobank"
 Description: "Darstellung der organisatorischen Daten einer Probensammlung oder Biobank."
 
-* extension contains ExtensionBeschreibungSammlung named beschreibung 0..1 MS
+* extension contains BeschreibungSammlung named beschreibung 0..1 MS
 
 * identifier and type and name and alias and partOf and contact MS
 
@@ -201,7 +201,7 @@ Description: "Darstellung der organisatorischen Daten einer Probensammlung oder 
 
 * identifier[bbmri-eric-id] ^patternIdentifier.system = "http://www.bbmri-eric.eu/"
 
-* type from https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/MIABISCollectionType (extensible)
+* type from https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/miabis-collection-type (extensible)
 
 * contact ^slicing.discriminator.type = #pattern
 * contact ^slicing.discriminator.path = "purpose"
@@ -209,9 +209,9 @@ Description: "Darstellung der organisatorischen Daten einer Probensammlung oder 
 
 * contact contains forschungskontakt 1..* MS
 
-* contact[forschungskontakt].extension contains ExtensionKontaktRolle named rolle 1..1 MS
+* contact[forschungskontakt].extension contains KontaktRolle named rolle 1..1 MS
 
-* contact[forschungskontakt].purpose = CodeSystemContactType#RESEARCH
+* contact[forschungskontakt].purpose = ContactType#RESEARCH
 * contact[forschungskontakt].name.family 1..1 MS
 * contact[forschungskontakt].name.given 1..* MS
 
@@ -227,22 +227,22 @@ Description: "Darstellung der organisatorischen Daten einer Probensammlung oder 
 * contact[forschungskontakt].address 1..1 MS
 
 Extension: ExtensionBeschreibungSammlung
-Id: ExtensionBeschreibungSammlung
+Id: BeschreibungSammlung
 Title: "Extension - Beschreibung Sammlung"
 
 * value[x] only markdown
 
 Extension: ExtensionKontaktRolle
-Id: ExtensionKontaktRolle
+Id: KontaktRolle
 Title: "Extension - Rolle des Kontaktes"
 
 * value[x] only string
 
 CodeSystem: CodeSystemMIABISCollectionType
-Id: CodeSystemMIABISCollectionType
+Id: MIABISCollectionType
 Title: "CodeSystem - MIABIS Collection Type"
 
-* ^valueSet = "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/MIABISCollectionType"
+* ^valueSet = "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/miabis-collection-type"
 
 * #SAMPLE	"Sample collection"
 * #TWIN_STUDY	"Twin-study"
@@ -261,7 +261,7 @@ Title: "CodeSystem - MIABIS Collection Type"
 * #QUALITY_CONTROL	"Quality control"
 
 CodeSystem: CodeSystemContactType
-Id: CodeSystemContactType
+Id: ContactType
 Title: "CodeSystem - Contact Type"
 
 * #RESEARCH "Contact for researchers about sample and data requests"
@@ -278,13 +278,13 @@ Title: "Modul Biobank"
 Usage: #definition
 Description: "Logische Repräsentation des Erweiterungsmodulesmoduls Biobank"
 
-* url = "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/LogicalModel/Prozedur"
+* url = "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/LogicalModel/Biobank"
 * name = "Biobank"
 * status = #draft
 * fhirVersion = #4.0.1
 * kind = #logical 
 * abstract = false
-* type = "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/LogicalModel/Prozedur"
+* type = "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/LogicalModel/Biobank"
 * baseDefinition =  "http://hl7.org/fhir/StructureDefinition/Element"
 * derivation = #specialization
 * differential.element[+].path = "Biobank"

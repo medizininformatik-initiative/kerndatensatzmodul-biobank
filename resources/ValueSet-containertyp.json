@@ -1,10 +1,10 @@
 {
   "resourceType": "ValueSet",
   "status": "active",
-  "name": "ValueSetAdditive",
-  "id": "ValueSetAdditive",
-  "title": "ValueSet - Additive",
-  "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/ValueSetAdditive",
+  "name": "ValueSetContainertyp",
+  "id": "containertyp",
+  "title": "ValueSet - Containertyp",
+  "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/containertyp",
   "compose": {
     "include": [
       {
@@ -13,7 +13,7 @@
           {
             "property": "concept",
             "op": "descendent-of",
-            "value": "105590001"
+            "value": "706041008"
           }
         ]
       }

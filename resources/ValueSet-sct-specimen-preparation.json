@@ -2,9 +2,9 @@
   "resourceType": "ValueSet",
   "status": "active",
   "name": "ValueSetSCTSpecimenPreparation",
-  "id": "ValueSetSCTSpecimenPreparation",
+  "id": "sct-specimen-preparation",
   "title": "ValueSet - SNOMED CT Specimen Preparation",
-  "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/ValueSetSCTSpecimenPreparation",
+  "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/sct-specimen-preparation",
   "compose": {
     "include": [
       {

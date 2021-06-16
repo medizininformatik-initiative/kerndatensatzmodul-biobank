@@ -1,10 +1,10 @@
 {
   "resourceType": "ValueSet",
   "status": "active",
-  "name": "ValueSetContainertyp",
-  "id": "ValueSetContainertyp",
-  "title": "ValueSet - Containertyp",
-  "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/ValueSetContainertyp",
+  "name": "ValueSetProbenart",
+  "id": "probenart",
+  "title": "ValueSet - Probenart",
+  "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/probenart",
   "compose": {
     "include": [
       {
@@ -13,7 +13,7 @@
           {
             "property": "concept",
             "op": "descendent-of",
-            "value": "706041008"
+            "value": "123038009"
           }
         ]
       }

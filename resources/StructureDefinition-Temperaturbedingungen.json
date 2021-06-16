@@ -1,7 +1,7 @@
 {
   "resourceType": "StructureDefinition",
-  "id": "ExtensionTemperaturbedingungen",
-  "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/ExtensionTemperaturbedingungen",
+  "id": "Temperaturbedingungen",
+  "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/Temperaturbedingungen",
   "name": "ExtensionTemperaturbedingungen",
   "title": "Extension - Temperaturbedingungen",
   "status": "active",
@@ -39,7 +39,7 @@
       {
         "id": "Extension.url",
         "path": "Extension.url",
-        "fixedUri": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/ExtensionTemperaturbedingungen"
+        "fixedUri": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/Temperaturbedingungen"
       },
       {
         "id": "Extension.value[x]",

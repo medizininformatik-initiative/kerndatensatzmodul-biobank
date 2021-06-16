@@ -3,9 +3,9 @@
   "status": "active",
   "content": "complete",
   "name": "CodeSystemProbenlagerung",
-  "id": "CodeSystemProbenlagerung",
+  "id": "Probenlagerung",
   "title": "CodeSystem - Probenlagerung",
-  "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/CodeSystem/CodeSystemProbenlagerung",
+  "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/CodeSystem/Probenlagerung",
   "concept": [
     {
       "code": "LAGERUNG",
