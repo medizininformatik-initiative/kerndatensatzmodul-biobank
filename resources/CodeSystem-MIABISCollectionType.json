@@ -6,8 +6,6 @@
   "id": "MIABISCollectionType",
   "title": "CodeSystem - MIABIS Collection Type",
   "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/CodeSystem/MIABISCollectionType",
-  "copyright": "Die hier verwendeten Codes stammen aus dem MIABIS 2.0 Standard (siehe https://www.liebertpub.com/doi/full/10.1089/bio.2015.0070).",
-  "valueSet": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/miabis-collection-type",
   "concept": [
     {
       "code": "SAMPLE",
@@ -70,5 +68,7 @@
       "display": "Quality control"
     }
   ],
+  "copyright": "Die hier verwendeten Codes stammen aus dem MIABIS 2.0 Standard (siehe https://www.liebertpub.com/doi/full/10.1089/bio.2015.0070).",
+  "valueSet": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/miabis-collection-type",
   "count": 15
 }

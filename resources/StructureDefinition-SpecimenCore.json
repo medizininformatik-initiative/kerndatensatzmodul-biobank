@@ -1,6 +1,6 @@
 {
   "resourceType": "StructureDefinition",
-  "id": "Specimen",
+  "id": "SpecimenCore",
   "extension": [
     {
       "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-category",
@@ -11,9 +11,9 @@
       "valueCode": "patient"
     }
   ],
-  "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/Specimen",
-  "name": "ProfileSpecimenBioprobe",
-  "title": "Profile - Specimen- Bioprobe",
+  "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/SpecimenCore",
+  "name": "ProfileSpecimenBioprobeCore",
+  "title": "Profile - Specimen- Bioprobe - Core",
   "status": "active",
   "description": "Abbildung einer MII Bioprobe",
   "fhirVersion": "4.0.1",
@@ -41,53 +41,6 @@
   "derivation": "constraint",
   "differential": {
     "element": [
-      {
-        "id": "Specimen.extension",
-        "path": "Specimen.extension",
-        "slicing": {
-          "discriminator": [
-            {
-              "type": "value",
-              "path": "url"
-            }
-          ],
-          "ordered": false,
-          "rules": "open"
-        },
-        "min": 1
-      },
-      {
-        "id": "Specimen.extension:diagnose",
-        "path": "Specimen.extension",
-        "sliceName": "diagnose",
-        "min": 0,
-        "max": "1",
-        "type": [
-          {
-            "code": "Extension",
-            "profile": [
-              "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/Diagnose"
-            ]
-          }
-        ],
-        "mustSupport": true
-      },
-      {
-        "id": "Specimen.extension:gehoertZu",
-        "path": "Specimen.extension",
-        "sliceName": "gehoertZu",
-        "min": 1,
-        "max": "1",
-        "type": [
-          {
-            "code": "Extension",
-            "profile": [
-              "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/VerwaltendeOrganisation"
-            ]
-          }
-        ],
-        "mustSupport": true
-      },
       {
         "id": "Specimen.identifier",
         "path": "Specimen.identifier",
@@ -220,7 +173,7 @@
             "severity": "error",
             "human": "Bei der Angabe der Entnahmestelle muss ein ICD-O-3 Topographiecode oder ein SNOMED CT Code angegeben werden.",
             "expression": "coding.where(system = 'http://snomed.info/sct' or system = 'http://terminology.hl7.org/CodeSystem/icd-o-3').exists()",
-            "source": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/Specimen"
+            "source": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/SpecimenCore"
           }
         ],
         "mustSupport": true
@@ -287,7 +240,6 @@
           "ordered": false,
           "rules": "open"
         },
-        "min": 1,
         "mustSupport": true
       },
       {
@@ -359,7 +311,7 @@
             "severity": "error",
             "human": "Wenn es sich nicht um einen Lagerprozess handelt, muss ein SCT Code angegeben werden.",
             "expression": "coding.where(system = 'http://snomed.info/sct' or code = 'LAGERUNG').exists()",
-            "source": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/Specimen"
+            "source": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/SpecimenCore"
           }
         ],
         "mustSupport": true,

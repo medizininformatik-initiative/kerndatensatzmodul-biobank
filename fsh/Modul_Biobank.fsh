@@ -1,9 +1,9 @@
 Alias: $SCT = http://snomed.info/sct
 
-Profile: ProfileSpecimenBioprobe
+Profile: ProfileSpecimenBioprobeCore
 Parent: http://hl7.org/fhir/StructureDefinition/Specimen
-Id: Specimen
-Title: "Profile - Specimen- Bioprobe"
+Id: SpecimenCore
+Title: "Profile - Specimen- Bioprobe - Core"
 Description: "Abbildung einer MII Bioprobe"
 
 * identifier and type and container.specimenQuantity and status and note and parent and container.type and container.capacity 
@@ -11,8 +11,6 @@ and container.additive[x] and collection.collected[x] and collection.bodySite an
 and processing.timePeriod and processing.procedure and processing.additive MS
 
 //Bioprobe
-
-* extension contains Diagnose named diagnose 0..1 MS and VerwaltendeOrganisation named gehoertZu 1..1 MS
 
 * status 1..1
 
@@ -57,7 +55,6 @@ and processing.timePeriod and processing.procedure and processing.additive MS
 * collection.bodySite.coding[icd-o-3].system = "http://terminology.hl7.org/CodeSystem/icd-o-3"
 
 * collection.collected[x] 1..1
-* collection.fastingStatus[x] 1..1
 
 //Verarbeitung/Lagerprozess
 
@@ -84,6 +81,18 @@ and processing.timePeriod and processing.procedure and processing.additive MS
 
 * processing contains lagerprozess 0..* MS
 * processing[lagerprozess].procedure.coding = Probenlagerung#LAGERUNG "Lagerung einer Probe"
+
+Profile: ProfileSpecimenBioprobe
+Parent: SpecimenCore
+Id: SpecimenBiobank
+Title: "Profile - Specimen- Bioprobe - Biobank"
+Description: "Abbildung einer MII Bioprobe"
+
+//Bioprobe
+
+* extension contains Diagnose named diagnose 0..1 MS and VerwaltendeOrganisation named gehoertZu 1..1 MS
+
+* collection.fastingStatus[x] 1..1
 
 Invariant:  mii-bb-1
 Description: "Bei der Angabe der Entnahmestelle muss ein ICD-O-3 Topographiecode oder ein SNOMED CT Code angegeben werden."
@@ -688,7 +697,7 @@ Usage: #example
 * contact[forschungskontakt].address.city = "Musterstadt"
 
 Instance: MusterprobeFluessig
-InstanceOf: Specimen
+InstanceOf: SpecimenBiobank
 Title: "Musterprobe flüssig"
 Usage: #example
 
@@ -739,7 +748,7 @@ Usage: #example
 
 
 Instance: MusterprobeGewebe
-InstanceOf: Specimen
+InstanceOf: SpecimenBiobank
 Title: "Musterprobe Gewebe"
 Usage: #example
 
