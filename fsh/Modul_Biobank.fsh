@@ -92,8 +92,6 @@ Description: "Abbildung einer MII Bioprobe"
 
 * extension contains Diagnose named diagnose 0..1 MS and VerwaltendeOrganisation named gehoertZu 1..1 MS
 
-* collection.fastingStatus[x] 1..1
-
 Invariant:  mii-bb-1
 Description: "Bei der Angabe der Entnahmestelle muss ein ICD-O-3 Topographiecode oder ein SNOMED CT Code angegeben werden."
 Expression: "coding.where(system = 'http://snomed.info/sct' or system = 'http://terminology.hl7.org/CodeSystem/icd-o-3').exists()"
@@ -210,6 +208,8 @@ Description: "Darstellung der organisatorischen Daten einer Probensammlung oder 
 
 * identifier[bbmri-eric-id] ^patternIdentifier.system = "http://www.bbmri-eric.eu/"
 
+* name 1..1
+
 * type from https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/miabis-collection-type (extensible)
 
 * contact ^slicing.discriminator.type = #pattern
@@ -224,14 +224,7 @@ Description: "Darstellung der organisatorischen Daten einer Probensammlung oder 
 * contact[forschungskontakt].name.family 1..1 MS
 * contact[forschungskontakt].name.given 1..* MS
 
-* contact[forschungskontakt].telecom ^slicing.discriminator.type = #pattern
-* contact[forschungskontakt].telecom ^slicing.discriminator.path = "system"
-* contact[forschungskontakt].telecom ^slicing.rules = #open
-
-* contact[forschungskontakt].telecom contains email 1..* MS
-* contact[forschungskontakt].telecom[email].system = #email
-* contact[forschungskontakt].telecom[email].system 1..1 MS
-* contact[forschungskontakt].telecom[email].value 1..1 MS
+* contact[forschungskontakt].telecom 1..*
 
 * contact[forschungskontakt].address 1..1 MS
 * contact[forschungskontakt].address only http://fhir.de/StructureDefinition/address-de-basis
@@ -672,7 +665,8 @@ Usage: #example
 * contact[forschungskontakt].name.family = "Mustermann"
 * contact[forschungskontakt].name.given = "Max"
 * contact[forschungskontakt].name.prefix = "Prof."
-* contact[forschungskontakt].telecom[email].value = "mustermann@biobank.uk-musterstadt.de"
+* contact[forschungskontakt].telecom.system = #email
+* contact[forschungskontakt].telecom.value = "mustermann@biobank.uk-musterstadt.de"
 * contact[forschungskontakt].name.prefix = "Prof."
 * contact[forschungskontakt].address.line = "Musterstrasse 3"
 * contact[forschungskontakt].address.postalCode = "00000"
@@ -691,7 +685,8 @@ Usage: #example
 * contact[forschungskontakt].name.family = "Musterfrau"
 * contact[forschungskontakt].name.given = "Tina"
 * contact[forschungskontakt].name.prefix = "Dr."
-* contact[forschungskontakt].telecom[email].value = "musterfrau@biobank.uk-musterstadt.de"
+* contact[forschungskontakt].telecom.system = #email
+* contact[forschungskontakt].telecom.value = "musterfrau@biobank.uk-musterstadt.de"
 * contact[forschungskontakt].address.line = "Musterweg 10"
 * contact[forschungskontakt].address.postalCode = "00000"
 * contact[forschungskontakt].address.city = "Musterstadt"

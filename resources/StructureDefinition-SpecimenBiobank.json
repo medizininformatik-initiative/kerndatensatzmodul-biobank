@@ -87,11 +87,6 @@
           }
         ],
         "mustSupport": true
-      },
-      {
-        "id": "Specimen.collection.fastingStatus[x]",
-        "path": "Specimen.collection.fastingStatus[x]",
-        "min": 1
       }
     ]
   }
