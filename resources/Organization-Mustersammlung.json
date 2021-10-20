@@ -22,12 +22,6 @@
           "valueString": "Forschungskoordinatorin"
         }
       ],
-      "telecom": [
-        {
-          "system": "email",
-          "value": "musterfrau@biobank.uk-musterstadt.de"
-        }
-      ],
       "name": {
         "family": "Musterfrau",
         "given": [
@@ -37,6 +31,12 @@
           "Dr."
         ]
       },
+      "telecom": [
+        {
+          "system": "email",
+          "value": "musterfrau@biobank.uk-musterstadt.de"
+        }
+      ],
       "address": {
         "line": [
           "Musterweg 10"

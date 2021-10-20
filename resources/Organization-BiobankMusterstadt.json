@@ -22,12 +22,6 @@
           "valueString": "Direktor"
         }
       ],
-      "telecom": [
-        {
-          "system": "email",
-          "value": "mustermann@biobank.uk-musterstadt.de"
-        }
-      ],
       "name": {
         "family": "Mustermann",
         "given": [
@@ -37,6 +31,12 @@
           "Prof."
         ]
       },
+      "telecom": [
+        {
+          "system": "email",
+          "value": "mustermann@biobank.uk-musterstadt.de"
+        }
+      ],
       "address": {
         "line": [
           "Musterstrasse 3"
