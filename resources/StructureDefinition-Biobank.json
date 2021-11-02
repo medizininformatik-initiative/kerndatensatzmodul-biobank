@@ -295,7 +295,7 @@
         ]
       },
       {
-        "path": "Biobank.Bioprobe.Lagerprozess.Einfrierzeitpunkt",
+        "path": "Biobank.Bioprobe.Lagerprozess.Einlagerungszeitpunkt",
         "definition": "Zeitpunkt des Beginns der Einlagerung der Probe",
         "type": [
           {
@@ -304,7 +304,7 @@
         ]
       },
       {
-        "path": "Biobank.Bioprobe.Lagerprozess.Auftauzeitpunkt",
+        "path": "Biobank.Bioprobe.Lagerprozess.Auslagerungspunkt",
         "definition": "Zeitpunkt des Endes der Einlagerung der Probe",
         "type": [
           {
