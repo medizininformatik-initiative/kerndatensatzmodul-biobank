@@ -6,14 +6,6 @@
       "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/SpecimenBiobank"
     ]
   },
-  "extension": [
-    {
-      "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/VerwaltendeOrganisation",
-      "valueReference": {
-        "reference": "Organization/Mustersammlung"
-      }
-    }
-  ],
   "type": {
     "coding": [
       {
@@ -23,6 +15,14 @@
       }
     ]
   },
+  "extension": [
+    {
+      "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/VerwaltendeOrganisation",
+      "valueReference": {
+        "reference": "Organization/Mustersammlung"
+      }
+    }
+  ],
   "collection": {
     "extension": [
       {

@@ -53,8 +53,7 @@
           ],
           "ordered": false,
           "rules": "open"
-        },
-        "min": 1
+        }
       },
       {
         "id": "Specimen.extension:diagnose",
@@ -76,7 +75,7 @@
         "id": "Specimen.extension:gehoertZu",
         "path": "Specimen.extension",
         "sliceName": "gehoertZu",
-        "min": 1,
+        "min": 0,
         "max": "1",
         "type": [
           {

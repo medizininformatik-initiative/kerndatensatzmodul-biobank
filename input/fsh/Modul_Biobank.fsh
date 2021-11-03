@@ -89,7 +89,7 @@ Description: "Abbildung einer MII Bioprobe"
 
 //Bioprobe
 
-* extension contains Diagnose named diagnose 0..1 MS and VerwaltendeOrganisation named gehoertZu 1..1 MS
+* extension contains Diagnose named diagnose 0..1 MS and VerwaltendeOrganisation named gehoertZu 0..1 MS
 
 Invariant:  mii-bb-1
 Description: "Bei der Angabe der Entnahmestelle muss ein ICD-O-3 Topographiecode oder ein SNOMED CT Code angegeben werden."
