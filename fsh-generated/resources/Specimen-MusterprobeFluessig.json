@@ -47,9 +47,9 @@
       "procedure": {
         "coding": [
           {
-            "code": "LAGERUNG",
-            "system": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/CodeSystem/Probenlagerung",
-            "display": "Lagerung einer Probe"
+            "system": "http://snomed.info/sct",
+            "code": "1186936003",
+            "display": "Storage of specimen (procedure)"
           }
         ]
       },
@@ -81,8 +81,8 @@
       "procedure": {
         "coding": [
           {
-            "code": "73373003",
             "system": "http://snomed.info/sct",
+            "code": "73373003",
             "display": "Specimen centrifugation (procedure)"
           }
         ]
@@ -115,9 +115,9 @@
       "procedure": {
         "coding": [
           {
-            "code": "LAGERUNG",
-            "system": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/CodeSystem/Probenlagerung",
-            "display": "Lagerung einer Probe"
+            "system": "http://snomed.info/sct",
+            "code": "1186936003",
+            "display": "Storage of specimen (procedure)"
           }
         ]
       },
@@ -149,9 +149,9 @@
       "procedure": {
         "coding": [
           {
-            "code": "LAGERUNG",
-            "system": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/CodeSystem/Probenlagerung",
-            "display": "Lagerung einer Probe"
+            "system": "http://snomed.info/sct",
+            "code": "1186936003",
+            "display": "Storage of specimen (procedure)"
           },
           {
             "code": "27872000",

@@ -305,15 +305,6 @@
         "id": "Specimen.processing.procedure",
         "path": "Specimen.processing.procedure",
         "min": 1,
-        "constraint": [
-          {
-            "key": "mii-bb-2",
-            "severity": "error",
-            "human": "Wenn es sich nicht um einen Lagerprozess handelt, muss ein SCT Code angegeben werden.",
-            "expression": "coding.where(system = 'http://snomed.info/sct' or code = 'LAGERUNG').exists()",
-            "source": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/SpecimenCore"
-          }
-        ],
         "mustSupport": true,
         "binding": {
           "strength": "example",
@@ -331,13 +322,14 @@
             }
           ],
           "rules": "open"
-        }
+        },
+        "min": 1
       },
       {
         "id": "Specimen.processing.procedure.coding:sct",
         "path": "Specimen.processing.procedure.coding",
         "sliceName": "sct",
-        "min": 0,
+        "min": 1,
         "max": "*",
         "patternCoding": {
           "system": "http://snomed.info/sct"
@@ -407,9 +399,8 @@
         "id": "Specimen.processing:lagerprozess.procedure.coding",
         "path": "Specimen.processing.procedure.coding",
         "patternCoding": {
-          "code": "LAGERUNG",
-          "system": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/CodeSystem/Probenlagerung",
-          "display": "Lagerung einer Probe"
+          "code": "1186936003",
+          "system": "http://snomed.info/sct"
         }
       },
       {

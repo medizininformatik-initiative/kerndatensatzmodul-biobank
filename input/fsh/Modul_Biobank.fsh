@@ -60,13 +60,12 @@ and processing.timePeriod and processing.procedure and processing.additive MS
 
 * processing.extension contains Temperaturbedingungen named temperaturbedingungen 1..1 MS
 * processing.procedure 1..1 MS
-* processing.procedure obeys mii-bb-2
 
 * processing.procedure.coding ^slicing.discriminator.type = #pattern
 * processing.procedure.coding ^slicing.discriminator.path = "system"
 * processing.procedure.coding ^slicing.rules = #open
 
-* processing.procedure.coding contains sct 0..* MS
+* processing.procedure.coding contains sct 1..* MS
 * processing.procedure.coding[sct] ^patternCoding.system = "http://snomed.info/sct"
 * processing.procedure from sct-specimen-preparation (example)
 
@@ -80,7 +79,7 @@ and processing.timePeriod and processing.procedure and processing.additive MS
 * processing ^slicing.rules = #open
 
 * processing contains lagerprozess 0..* MS
-* processing[lagerprozess].procedure.coding = Probenlagerung#LAGERUNG "Lagerung einer Probe"
+* processing[lagerprozess].procedure.coding = $SCT#1186936003
 
 Profile: ProfileSpecimenBioprobe
 Parent: SpecimenCore
@@ -96,12 +95,6 @@ Invariant:  mii-bb-1
 Description: "Bei der Angabe der Entnahmestelle muss ein ICD-O-3 Topographiecode oder ein SNOMED CT Code angegeben werden."
 Expression: "coding.where(system = 'http://snomed.info/sct' or system = 'http://terminology.hl7.org/CodeSystem/icd-o-3').exists()"
 Severity:   #error
-
-Invariant:  mii-bb-2
-Description: "Wenn es sich nicht um einen Lagerprozess handelt, muss ein SCT Code angegeben werden."
-Expression: "coding.where(system = 'http://snomed.info/sct' or code = 'LAGERUNG').exists()"
-Severity:   #error
-
 
 ValueSet: ValueSetProbenart
 Id: probenart
@@ -138,12 +131,6 @@ Id: sct-specimen-preparation
 Title: "ValueSet - SNOMED CT Specimen Preparation"
 
 * include codes from system $SCT where concept descendent-of #56245008
-
-CodeSystem: CodeSystemProbenlagerung
-Id: Probenlagerung
-Title: "CodeSystem - Probenlagerung"
-
-* #LAGERUNG "Lagerung einer Probe"
 
 Extension: ExtensionDiagnose
 Id: Diagnose
@@ -707,25 +694,25 @@ Usage: #example
 
 * processing[+].extension[temperaturbedingungen].valueRange.low.value = 15
 * processing[=].extension[temperaturbedingungen].valueRange.high.value = 25
-* processing[=].procedure =  Probenlagerung#LAGERUNG "Lagerung einer Probe"
+* processing[=].procedure =  $SCT#1186936003 "Storage of specimen (procedure)"
 * processing[=].timePeriod.start = "2018-06-07T15:54:00+01:00"
 * processing[=].timePeriod.end = "2018-06-07T16:27:00+01:00"
 
 * processing[+].extension[temperaturbedingungen].valueRange.low.value = 15
 * processing[=].extension[temperaturbedingungen].valueRange.high.value = 25
-* processing[=].procedure =  http://snomed.info/sct#73373003 "Specimen centrifugation (procedure)"
+* processing[=].procedure =  $SCT#73373003 "Specimen centrifugation (procedure)"
 * processing[=].timePeriod.start = "2018-06-07T16:27:00+01:00"
 * processing[=].timePeriod.end = "2018-06-07T16:37:00+01:00"
 
 * processing[+].extension[temperaturbedingungen].valueRange.low.value = 15
 * processing[=].extension[temperaturbedingungen].valueRange.high.value = 25
-* processing[=].procedure =  Probenlagerung#LAGERUNG "Lagerung einer Probe"
+* processing[=].procedure =  $SCT#1186936003 "Storage of specimen (procedure)"
 * processing[=].timePeriod.start = "2018-06-07T16:37:00+01:00"
 * processing[=].timePeriod.end = "2018-06-07T16:51:00+01:00"
 
 * processing[+].extension[temperaturbedingungen].valueRange.low.value = -85
 * processing[=].extension[temperaturbedingungen].valueRange.high.value = -60
-* processing[=].procedure.coding[0] =  Probenlagerung#LAGERUNG "Lagerung einer Probe"
+* processing[=].procedure.coding[0] =  $SCT#1186936003 "Storage of specimen (procedure)"
 * processing[=].procedure.coding[1] =  http://snomed.info/sct#27872000 "Specimen freezing (procedure)"
 * processing[=].timePeriod.start = "2018-06-07T16:51:00+01:00"
 
@@ -761,14 +748,14 @@ Usage: #example
 
 * processing[+].extension[temperaturbedingungen].valueRange.low.value = 15
 * processing[=].extension[temperaturbedingungen].valueRange.high.value = 25
-* processing[=].procedure =  Probenlagerung#LAGERUNG "Lagerung einer Probe"
+* processing[=].procedure =  $SCT#1186936003 "Storage of specimen (procedure)"
 * processing[=].timePeriod.start = "2018-06-08T15:34:00+01:00"
 * processing[=].timePeriod.end = "2018-06-08T15:42:00+01:00"
 
 * processing[+].extension[temperaturbedingungen].valueRange.low.value = -85
 * processing[=].extension[temperaturbedingungen].valueRange.high.value = -60
-* processing[=].procedure.coding[0] =  Probenlagerung#LAGERUNG "Lagerung einer Probe"
-* processing[=].procedure.coding[1] =  http://snomed.info/sct#27872000 "Specimen freezing (procedure)"
+* processing[=].procedure.coding[0] =  $SCT#1186936003 "Storage of specimen (procedure)"
+* processing[=].procedure.coding[1] = $SCT#27872000 "Specimen freezing (procedure)"
 * processing[=].timePeriod.start = "2018-06-08T15:42:00+01:00"
 
 * container.type = http://snomed.info/sct#83059008 "Tube, device (physical object)"
