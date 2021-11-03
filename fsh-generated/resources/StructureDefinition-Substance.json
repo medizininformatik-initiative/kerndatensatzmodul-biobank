@@ -42,6 +42,11 @@
   "differential": {
     "element": [
       {
+        "id": "Substance.category",
+        "path": "Substance.category",
+        "mustSupport": true
+      },
+      {
         "id": "Substance.code",
         "path": "Substance.code",
         "mustSupport": true,
@@ -49,6 +54,11 @@
           "strength": "extensible",
           "valueSet": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/additive"
         }
+      },
+      {
+        "id": "Substance.ingredient",
+        "path": "Substance.ingredient",
+        "mustSupport": true
       }
     ]
   }
