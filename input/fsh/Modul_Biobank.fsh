@@ -26,7 +26,7 @@ and processing.timePeriod and processing.procedure and processing.additive MS
 * subject 1..1
 * subject only Reference(Patient)
 
-//Primärcontainer
+//Container
 
 * container.type from containertyp (extensible)
 * container.type 1..1
@@ -290,11 +290,11 @@ Description: "Logische Repräsentation des Erweiterungsmodulesmoduls Biobank"
 * insert BuildElement(Biobank.Bioprobe.Ist gewonnen aus,Referenz auf Bioprobe,Reference)
 * insert BuildElement(Biobank.Bioprobe.Diagnose,Informationen zu einer mit der Probe in Zusammenhang stehende Diagnose. Hier soll auf eine Diagnose gemäß der Vorgaben des KDS Modules Diagnose verlinkt werden wobei insbesondere bei neu erstellten Diagnosen -die nicht bereits aus anderen Quellen vorliegen- auf die Angabe einer Quelle zu achten ist; z.B. Informationen aus einem nur in unstrukturierter Form vorliegendem Pathologiebefund.,Reference)
 * insert BuildElement(Biobank.Bioprobe.gehoert zu,Zuordnung der Probe zu einer Sammlung/Biobank,Reference)
-* insert BuildElement(Biobank.Bioprobe.Primaercontainer,Probenbehältnis,BackboneElement)
-* insert BuildElement(Biobank.Bioprobe.Primaercontainer.Containertyp,Typ des Containers.,CodeableConcept)
-* insert BuildElement(Biobank.Bioprobe.Primaercontainer.Kapazitaet,Kapazitaet des Probencontainers,Quantity)
-* insert BuildElement(Biobank.Bioprobe.Primaercontainer.Verwendung Additiv,	Ja/Nein Angabe ob ein Zusatzstoff verwendet wurde,boolean)
-* insert BuildElement(Biobank.Bioprobe.Primaercontainer.Additiv,Zusatzstoffe im Container,CodeableConcept)
+* insert BuildElement(Biobank.Bioprobe.Container,Probenbehältnis,BackboneElement)
+* insert BuildElement(Biobank.Bioprobe.Container.Containertyp,Typ des Containers.,CodeableConcept)
+* insert BuildElement(Biobank.Bioprobe.Container.Kapazitaet,Kapazitaet des Probencontainers,Quantity)
+* insert BuildElement(Biobank.Bioprobe.Container.Verwendung Additiv,	Ja/Nein Angabe ob ein Zusatzstoff verwendet wurde,boolean)
+* insert BuildElement(Biobank.Bioprobe.Container.Additiv,Zusatzstoffe im Container,CodeableConcept)
 * insert BuildElement(Biobank.Bioprobe.Probenentnahme,Informationen zur Entnahme der Probe,BackboneElement)
 * insert BuildElement(Biobank.Bioprobe.Probenentnahme.Entnahme-ID,Entnahme-ID,Identifier)
 * insert BuildElement(Biobank.Bioprobe.Probenentnahme.Einstellung Blutversorgung,Zeitpunkt der Einstellung der Blutversorgung zur Probe. Kann zur Berechnung der warmen Ischaemiezeit verwendet werden.,dateTime)

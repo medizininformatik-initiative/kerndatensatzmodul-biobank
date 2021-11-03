@@ -106,7 +106,7 @@
         ]
       },
       {
-        "path": "Biobank.Bioprobe.Primaercontainer",
+        "path": "Biobank.Bioprobe.Container",
         "definition": "Probenbehältnis",
         "type": [
           {
@@ -115,7 +115,7 @@
         ]
       },
       {
-        "path": "Biobank.Bioprobe.Primaercontainer.Containertyp",
+        "path": "Biobank.Bioprobe.Container.Containertyp",
         "definition": "Typ des Containers.",
         "type": [
           {
@@ -124,7 +124,7 @@
         ]
       },
       {
-        "path": "Biobank.Bioprobe.Primaercontainer.Kapazitaet",
+        "path": "Biobank.Bioprobe.Container.Kapazitaet",
         "definition": "Kapazitaet des Probencontainers",
         "type": [
           {
@@ -133,7 +133,7 @@
         ]
       },
       {
-        "path": "Biobank.Bioprobe.Primaercontainer.Verwendung Additiv",
+        "path": "Biobank.Bioprobe.Container.Verwendung Additiv",
         "definition": "Ja/Nein Angabe ob ein Zusatzstoff verwendet wurde",
         "type": [
           {
@@ -142,7 +142,7 @@
         ]
       },
       {
-        "path": "Biobank.Bioprobe.Primaercontainer.Additiv",
+        "path": "Biobank.Bioprobe.Container.Additiv",
         "definition": "Zusatzstoffe im Container",
         "type": [
           {
