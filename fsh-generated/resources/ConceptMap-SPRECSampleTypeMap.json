@@ -156,9 +156,9 @@
           "display": "Nasal washing",
           "target": [
             {
-              "code": "258467004",
-              "display": "Nasopharyngeal washings (specimen)",
-              "equivalence": "wider"
+              "code": "16224371000119105",
+              "display": "Nasal lavage fluid sample (specimen)",
+              "equivalence": "equivalent"
             }
           ]
         },
@@ -321,8 +321,8 @@
           "display": "Urine, first morning",
           "target": [
             {
-              "code": "122575003",
-              "display": "Urine specimen (specimen)",
+              "code": "258575007",
+              "display": "Early morning urine sample (specimen)",
               "equivalence": "wider"
             }
           ]
