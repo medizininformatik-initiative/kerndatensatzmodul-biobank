@@ -362,7 +362,7 @@
           "ordered": false,
           "rules": "open"
         },
-        "min": 1
+        "mustSupport": true
       },
       {
         "id": "Specimen.processing.timePeriod",
@@ -379,7 +379,6 @@
       {
         "id": "Specimen.processing.timePeriod.start",
         "path": "Specimen.processing.timePeriod.start",
-        "min": 1,
         "mustSupport": true
       },
       {
@@ -402,6 +401,25 @@
           "code": "1186936003",
           "system": "http://snomed.info/sct"
         }
+      },
+      {
+        "id": "Specimen.processing:lagerprozess.time[x]",
+        "path": "Specimen.processing.time[x]",
+        "min": 1,
+        "type": [
+          {
+            "code": "Period"
+          }
+        ]
+      },
+      {
+        "id": "Specimen.processing:lagerprozess.timePeriod",
+        "path": "Specimen.processing.timePeriod"
+      },
+      {
+        "id": "Specimen.processing:lagerprozess.timePeriod.start",
+        "path": "Specimen.processing.timePeriod.start",
+        "min": 1
       },
       {
         "id": "Specimen.container.type",

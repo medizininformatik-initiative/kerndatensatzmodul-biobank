@@ -69,8 +69,8 @@ and processing.timePeriod and processing.procedure and processing.additive MS
 * processing.procedure.coding[sct] ^patternCoding.system = "http://snomed.info/sct"
 * processing.procedure from sct-specimen-preparation (example)
 
-* processing.time[x] 1..1
-* processing.timePeriod.start 1..1 MS
+* processing.time[x] MS
+* processing.timePeriod.start MS
 * processing.timePeriod.end MS
 * processing.additive only Reference(ProfileSubstanceAdditiv)
 
@@ -79,6 +79,9 @@ and processing.timePeriod and processing.procedure and processing.additive MS
 * processing ^slicing.rules = #open
 
 * processing contains lagerprozess 0..* MS
+* processing[lagerprozess].time[x] 1..1
+* processing[lagerprozess].time[x] only Period
+* processing[lagerprozess].timePeriod.start 1..1
 * processing[lagerprozess].procedure.coding = $SCT#1186936003
 
 Profile: ProfileSpecimenBioprobe
