@@ -15,7 +15,7 @@
   "name": "ProfileSpecimenBioprobeCore",
   "title": "Profile - Specimen - Bioprobe - Core",
   "status": "active",
-  "description": "Abbildung einer MII Bioprobe",
+  "description": "Abbildung einer MII Bioprobe. Nicht zur direkten Implementierung gedacht, Module leiten bei Bedarf eigene Profile von diesem Profil ab.",
   "fhirVersion": "4.0.1",
   "mapping": [
     {
