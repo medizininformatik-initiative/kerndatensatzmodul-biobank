@@ -86,8 +86,8 @@ and processing.timePeriod and processing.procedure and processing.additive and r
 
 Profile: ProfileSpecimenBioprobe
 Parent: SpecimenCore
-Id: SpecimenBiobank
-Title: "Profile - Specimen- Bioprobe - Biobank"
+Id: Specimen
+Title: "Profile - Specimen- Bioprobe"
 Description: "Abbildung einer MII Bioprobe"
 
 //Bioprobe
@@ -677,7 +677,7 @@ Usage: #example
 * contact[forschungskontakt].address.city = "Musterstadt"
 
 Instance: MusterprobeFluessig
-InstanceOf: SpecimenBiobank
+InstanceOf: Specimen
 Title: "Musterprobe flüssig"
 Usage: #example
 
@@ -728,7 +728,7 @@ Usage: #example
 
 
 Instance: MusterprobeGewebe
-InstanceOf: SpecimenBiobank
+InstanceOf: Specimen
 Title: "Musterprobe Gewebe"
 Usage: #example
 
