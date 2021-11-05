@@ -13,7 +13,7 @@
   ],
   "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/Specimen",
   "name": "ProfileSpecimenBioprobe",
-  "title": "Profile - Specimen- Bioprobe",
+  "title": "Profile - Specimen - Bioprobe",
   "status": "active",
   "description": "Abbildung einer MII Bioprobe",
   "fhirVersion": "4.0.1",

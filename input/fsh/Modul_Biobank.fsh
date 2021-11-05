@@ -3,7 +3,7 @@ Alias: $SCT = http://snomed.info/sct
 Profile: ProfileSpecimenBioprobeCore
 Parent: http://hl7.org/fhir/StructureDefinition/Specimen
 Id: SpecimenCore
-Title: "Profile - Specimen- Bioprobe - Core"
+Title: "Profile - Specimen - Bioprobe - Core"
 Description: "Abbildung einer MII Bioprobe"
 
 * identifier and type and container.specimenQuantity and status and note and parent and container.type and container.capacity 
@@ -87,7 +87,7 @@ and processing.timePeriod and processing.procedure and processing.additive and r
 Profile: ProfileSpecimenBioprobe
 Parent: SpecimenCore
 Id: Specimen
-Title: "Profile - Specimen- Bioprobe"
+Title: "Profile - Specimen - Bioprobe"
 Description: "Abbildung einer MII Bioprobe"
 
 //Bioprobe
