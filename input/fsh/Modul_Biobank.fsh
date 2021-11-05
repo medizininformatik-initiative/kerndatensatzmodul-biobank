@@ -8,7 +8,7 @@ Description: "Abbildung einer MII Bioprobe"
 
 * identifier and type and container.specimenQuantity and status and note and parent and container.type and container.capacity 
 and container.additive[x] and collection.collected[x] and collection.bodySite and collection.fastingStatus[x] 
-and processing.timePeriod and processing.procedure and processing.additive and request MS
+and processing.timePeriod and processing.procedure and processing.additive and request and subject and collection and processing and container MS
 
 //Bioprobe
 

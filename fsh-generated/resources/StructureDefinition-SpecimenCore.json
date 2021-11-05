@@ -100,7 +100,8 @@
               "http://hl7.org/fhir/StructureDefinition/Patient"
             ]
           }
-        ]
+        ],
+        "mustSupport": true
       },
       {
         "id": "Specimen.parent",
@@ -115,7 +116,8 @@
       {
         "id": "Specimen.collection",
         "path": "Specimen.collection",
-        "min": 1
+        "min": 1,
+        "mustSupport": true
       },
       {
         "id": "Specimen.collection.extension",
@@ -257,7 +259,8 @@
             }
           ],
           "rules": "open"
-        }
+        },
+        "mustSupport": true
       },
       {
         "id": "Specimen.processing.extension",
@@ -409,6 +412,11 @@
         "id": "Specimen.processing:lagerprozess.timePeriod.start",
         "path": "Specimen.processing.timePeriod.start",
         "min": 1
+      },
+      {
+        "id": "Specimen.container",
+        "path": "Specimen.container",
+        "mustSupport": true
       },
       {
         "id": "Specimen.container.type",
