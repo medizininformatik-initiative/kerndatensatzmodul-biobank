@@ -8,7 +8,7 @@ Description: "Abbildung einer MII Bioprobe"
 
 * identifier and type and container.specimenQuantity and status and note and parent and container.type and container.capacity 
 and container.additive[x] and collection.collected[x] and collection.bodySite and collection.fastingStatus[x] 
-and processing.timePeriod and processing.procedure and processing.additive MS
+and processing.timePeriod and processing.procedure and processing.additive and request MS
 
 //Bioprobe
 
@@ -37,7 +37,7 @@ and processing.timePeriod and processing.procedure and processing.additive MS
 
 * collection 1..1
 
-* collection.extension contains Entnahmeprozedur named entnahmeprozedur 0..1 MS and EinstellungBlutversorgung named einstellungBlutversorgung 0..1 MS
+* collection.extension contains EinstellungBlutversorgung named einstellungBlutversorgung 0..1 MS
 
 * collection.fastingStatusCodeableConcept from 	http://terminology.hl7.org/ValueSet/v2-0916 (required)
 
@@ -164,12 +164,6 @@ Title: "Extension - Temperaturbedingungen"
 * valueRange.high ^patternQuantity.system = "http://unitsofmeasure.org"
 * valueRange.high ^patternQuantity.code = #Cel
 * valueRange.high ^patternQuantity.unit = "°C"
-
-Extension: ExtensionEntnahmeprozedur
-Id: Entnahmeprozedur
-Title: "Extension - Entnahmeprozedur"
-
-* value[x] only Reference(Procedure)
 
 Profile: ProfileSubstanceAdditiv
 Parent: http://hl7.org/fhir/StructureDefinition/Substance

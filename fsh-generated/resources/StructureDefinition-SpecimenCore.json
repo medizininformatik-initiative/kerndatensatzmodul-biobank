@@ -108,6 +108,11 @@
         "mustSupport": true
       },
       {
+        "id": "Specimen.request",
+        "path": "Specimen.request",
+        "mustSupport": true
+      },
+      {
         "id": "Specimen.collection",
         "path": "Specimen.collection",
         "min": 1
@@ -125,22 +130,6 @@
           "ordered": false,
           "rules": "open"
         }
-      },
-      {
-        "id": "Specimen.collection.extension:entnahmeprozedur",
-        "path": "Specimen.collection.extension",
-        "sliceName": "entnahmeprozedur",
-        "min": 0,
-        "max": "1",
-        "type": [
-          {
-            "code": "Extension",
-            "profile": [
-              "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/Entnahmeprozedur"
-            ]
-          }
-        ],
-        "mustSupport": true
       },
       {
         "id": "Specimen.collection.extension:einstellungBlutversorgung",
