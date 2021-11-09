@@ -256,6 +256,24 @@ Title: "CodeSystem - Contact Type"
 * #RESEARCH "Contact for researchers about sample and data requests"
 
 
+Instance: SearchParamDiagnosis
+InstanceOf: SearchParameter
+Title: "Diagnose der Probe Suchparameter"
+Usage: #definition
+
+* url = "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/SearchParameter/diagnose"
+* name = "diagnose"
+* status = #draft
+* experimental = true
+* description = "Suchparameter für die Extension Diagnose am Profil Bioprobe" 
+* code = #diagnose
+* base = #Specimen
+* type = #reference
+* expression = "extension.where(url='https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/Diagnose').value"
+* target = #Condition
+* chain = "code"
+
+
 RuleSet: BuildElement(path, definition, type)
 * differential.element[+].path = "{path}"
 * differential.element[=].definition = "{definition}"
@@ -757,4 +775,3 @@ Usage: #example
 * processing[=].timePeriod.start = "2018-06-08T15:42:00+01:00"
 
 * container.type = http://snomed.info/sct#83059008 "Tube, device (physical object)"
-
