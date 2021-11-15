@@ -92,7 +92,7 @@ Description: "Abbildung einer MII Bioprobe"
 
 //Bioprobe
 
-* extension contains Diagnose named diagnose 0..1 MS and VerwaltendeOrganisation named gehoertZu 0..1 MS
+* extension contains Diagnose named festgestellteDiagnose 0..1 MS and VerwaltendeOrganisation named gehoertZu 0..1 MS
 
 Invariant:  mii-bb-1
 Description: "Bei der Angabe der Entnahmestelle muss ein ICD-O-3 Topographiecode oder ein SNOMED CT Code angegeben werden."
@@ -138,24 +138,28 @@ Title: "ValueSet - SNOMED CT Specimen Preparation"
 Extension: ExtensionDiagnose
 Id: Diagnose
 Title: "Extension - Diagnose"
+Description: "Mittels dieser Extension kann ausgedrückt werden, dass Material mit der referenzierten Diagnose in der Probe enthalten ist."
 
 * value[x] only Reference(Condition)
 
 Extension: ExtensionVerwaltendeOrganisation
 Id: VerwaltendeOrganisation
 Title: "Extension - Verwaltende Organisation"
+Description: "Die Organisation, die die Probe verwaltet, soll mithilfe dieser Extension referenziert werden. Anfragen zu den Proben sollen mittels dieser Verlinkung und der in der Organization hinterlegten Kontaktinformationen möglich sein."
 
 * value[x] only Reference(ProfileOrganizationSammlungBiobank)
 
 Extension: ExtensionEinstellungBlutversorgung
 Id: EinstellungBlutversorgung
 Title: "Extension - Einstellung Blutversorgung"
+Description: "Zeitpunkt der Einstellung der Bluversorgung während der Entnahme. Wird z.B. für die Berechnung der kalten bzw. warem Ischämiezeiten benötigt."
 
 * value[x] only dateTime
 
 Extension: ExtensionTemperaturbedingungen
 Id: Temperaturbedingungen
 Title: "Extension - Temperaturbedingungen"
+Description: "Um zu einer Verabeitung oder Lagerung die jeweils herrschenden Temperaturbedingungen (in °C) anzugeben soll diese Extension verwendet werden. Dabei soll nach Möglichkeit immer ein Wertebereich inkl. oberer und unterer Grenze angegeben werden."
 
 * value[x] only Range
 * valueRange.low ^patternQuantity.system = "http://unitsofmeasure.org"
@@ -217,12 +221,14 @@ Description: "Darstellung der organisatorischen Daten einer Probensammlung oder 
 Extension: ExtensionBeschreibungSammlung
 Id: BeschreibungSammlung
 Title: "Extension - Beschreibung Sammlung"
+Description: "Mittels dieser Extension kann eine Freitextbeschreibung der Sammlung/Biobank erfolgen, die z.B. in einer Suche angezeigt werden kann."
 
 * value[x] only markdown
 
 Extension: ExtensionKontaktRolle
 Id: KontaktRolle
 Title: "Extension - Rolle des Kontaktes"
+Description: "Mittels dieser Extension soll die Rolle der Kontaktperson in der probenverwaltenden Organisation angegeben werden, z.B. Principal Investigator, Direktor usw."
 
 * value[x] only string
 

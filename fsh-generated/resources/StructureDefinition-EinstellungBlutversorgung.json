@@ -5,6 +5,7 @@
   "name": "ExtensionEinstellungBlutversorgung",
   "title": "Extension - Einstellung Blutversorgung",
   "status": "active",
+  "description": "Zeitpunkt der Einstellung der Bluversorgung während der Entnahme. Wird z.B. für die Berechnung der kalten bzw. warem Ischämiezeiten benötigt.",
   "fhirVersion": "4.0.1",
   "mapping": [
     {
@@ -29,7 +30,8 @@
       {
         "id": "Extension",
         "path": "Extension",
-        "short": "Extension - Einstellung Blutversorgung"
+        "short": "Extension - Einstellung Blutversorgung",
+        "definition": "Zeitpunkt der Einstellung der Bluversorgung während der Entnahme. Wird z.B. für die Berechnung der kalten bzw. warem Ischämiezeiten benötigt."
       },
       {
         "id": "Extension.extension",

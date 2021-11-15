@@ -5,6 +5,7 @@
   "name": "ExtensionVerwaltendeOrganisation",
   "title": "Extension - Verwaltende Organisation",
   "status": "active",
+  "description": "Die Organisation, die die Probe verwaltet, soll mithilfe dieser Extension referenziert werden. Anfragen zu den Proben sollen mittels dieser Verlinkung und der in der Organization hinterlegten Kontaktinformationen möglich sein.",
   "fhirVersion": "4.0.1",
   "mapping": [
     {
@@ -29,7 +30,8 @@
       {
         "id": "Extension",
         "path": "Extension",
-        "short": "Extension - Verwaltende Organisation"
+        "short": "Extension - Verwaltende Organisation",
+        "definition": "Die Organisation, die die Probe verwaltet, soll mithilfe dieser Extension referenziert werden. Anfragen zu den Proben sollen mittels dieser Verlinkung und der in der Organization hinterlegten Kontaktinformationen möglich sein."
       },
       {
         "id": "Extension.extension",

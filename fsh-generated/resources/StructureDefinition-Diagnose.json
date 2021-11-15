@@ -5,6 +5,7 @@
   "name": "ExtensionDiagnose",
   "title": "Extension - Diagnose",
   "status": "active",
+  "description": "Mittels dieser Extension kann ausgedrückt werden, dass Material mit der referenzierten Diagnose in der Probe enthalten ist.",
   "fhirVersion": "4.0.1",
   "mapping": [
     {
@@ -29,7 +30,8 @@
       {
         "id": "Extension",
         "path": "Extension",
-        "short": "Extension - Diagnose"
+        "short": "Extension - Diagnose",
+        "definition": "Mittels dieser Extension kann ausgedrückt werden, dass Material mit der referenzierten Diagnose in der Probe enthalten ist."
       },
       {
         "id": "Extension.extension",

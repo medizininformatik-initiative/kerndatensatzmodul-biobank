@@ -5,6 +5,7 @@
   "name": "ExtensionTemperaturbedingungen",
   "title": "Extension - Temperaturbedingungen",
   "status": "active",
+  "description": "Um zu einer Verabeitung oder Lagerung die jeweils herrschenden Temperaturbedingungen (in °C) anzugeben soll diese Extension verwendet werden. Dabei soll nach Möglichkeit immer ein Wertebereich inkl. oberer und unterer Grenze angegeben werden.",
   "fhirVersion": "4.0.1",
   "mapping": [
     {
@@ -29,7 +30,8 @@
       {
         "id": "Extension",
         "path": "Extension",
-        "short": "Extension - Temperaturbedingungen"
+        "short": "Extension - Temperaturbedingungen",
+        "definition": "Um zu einer Verabeitung oder Lagerung die jeweils herrschenden Temperaturbedingungen (in °C) anzugeben soll diese Extension verwendet werden. Dabei soll nach Möglichkeit immer ein Wertebereich inkl. oberer und unterer Grenze angegeben werden."
       },
       {
         "id": "Extension.extension",

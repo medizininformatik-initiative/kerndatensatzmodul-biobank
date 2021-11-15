@@ -5,6 +5,7 @@
   "name": "ExtensionBeschreibungSammlung",
   "title": "Extension - Beschreibung Sammlung",
   "status": "active",
+  "description": "Mittels dieser Extension kann eine Freitextbeschreibung der Sammlung/Biobank erfolgen, die z.B. in einer Suche angezeigt werden kann.",
   "fhirVersion": "4.0.1",
   "mapping": [
     {
@@ -29,7 +30,8 @@
       {
         "id": "Extension",
         "path": "Extension",
-        "short": "Extension - Beschreibung Sammlung"
+        "short": "Extension - Beschreibung Sammlung",
+        "definition": "Mittels dieser Extension kann eine Freitextbeschreibung der Sammlung/Biobank erfolgen, die z.B. in einer Suche angezeigt werden kann."
       },
       {
         "id": "Extension.extension",

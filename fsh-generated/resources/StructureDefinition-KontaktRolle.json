@@ -5,6 +5,7 @@
   "name": "ExtensionKontaktRolle",
   "title": "Extension - Rolle des Kontaktes",
   "status": "active",
+  "description": "Mittels dieser Extension soll die Rolle der Kontaktperson in der probenverwaltenden Organisation angegeben werden, z.B. Principal Investigator, Direktor usw.",
   "fhirVersion": "4.0.1",
   "mapping": [
     {
@@ -29,7 +30,8 @@
       {
         "id": "Extension",
         "path": "Extension",
-        "short": "Extension - Rolle des Kontaktes"
+        "short": "Extension - Rolle des Kontaktes",
+        "definition": "Mittels dieser Extension soll die Rolle der Kontaktperson in der probenverwaltenden Organisation angegeben werden, z.B. Principal Investigator, Direktor usw."
       },
       {
         "id": "Extension.extension",

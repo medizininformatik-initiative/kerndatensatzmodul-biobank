@@ -56,9 +56,9 @@
         }
       },
       {
-        "id": "Specimen.extension:diagnose",
+        "id": "Specimen.extension:festgestellteDiagnose",
         "path": "Specimen.extension",
-        "sliceName": "diagnose",
+        "sliceName": "festgestellteDiagnose",
         "min": 0,
         "max": "1",
         "type": [
