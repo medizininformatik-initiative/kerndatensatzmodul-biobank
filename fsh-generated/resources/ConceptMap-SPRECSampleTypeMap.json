@@ -76,7 +76,7 @@
         },
         {
           "code": "BUF",
-          "display": "Nondensity-gradient-centrifugation-separatedbuffy coat, viable",
+          "display": "Nondensity-gradient-centrifugation-separated buffy coat, viable",
           "target": [
             {
               "code": "258587000",
@@ -87,7 +87,7 @@
         },
         {
           "code": "BFF",
-          "display": "Nondensity-gradient-centrifugation-separatedbuffy coat, nonviable",
+          "display": "Nondensity-gradient-centrifugation-separated buffy coat, nonviable",
           "target": [
             {
               "code": "258587000",
@@ -98,7 +98,7 @@
         },
         {
           "code": "CEL",
-          "display": "Density-gradient-centrifugation-separatedmononuclear cells, viable",
+          "display": "Density-gradient-centrifugation-separated mononuclear cells, viable",
           "target": [
             {
               "code": "404798000",
