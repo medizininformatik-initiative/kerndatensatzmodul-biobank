@@ -67,7 +67,7 @@ and processing.timePeriod and processing.procedure and processing.additive and r
 
 * processing.procedure.coding contains sct 1..* MS
 * processing.procedure.coding[sct] ^patternCoding.system = "http://snomed.info/sct"
-* processing.procedure from sct-specimen-preparation (example)
+* processing.procedure from sct-lab-procedure (example)
 
 * processing.time[x] MS
 * processing.timePeriod.start MS
@@ -129,11 +129,11 @@ Title: "ValueSet - ICD-O-3 Topography"
 
 * include codes from system  http://terminology.hl7.org/CodeSystem/icd-o-3 where concept descendent-of #T
 
-ValueSet: ValueSetSCTSpecimenPreparation
-Id: sct-specimen-preparation
-Title: "ValueSet - SNOMED CT Specimen Preparation"
+ValueSet: ValueSetSCTLaboratoryProcedure
+Id: sct-lab-procedure
+Title: "ValueSet - SNOMED CT Laboratory Procedure"
 
-* include codes from system $SCT where concept descendent-of #56245008
+* include codes from system $SCT where concept descendent-of #108252007
 
 Extension: ExtensionDiagnose
 Id: Diagnose
