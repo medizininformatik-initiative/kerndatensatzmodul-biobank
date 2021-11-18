@@ -310,7 +310,7 @@ Description: "Logische Repräsentation des Erweiterungsmodulesmoduls Biobank"
 * insert BuildElement(Biobank.Bioprobe.Projektverwendung,Freitextangabe zur Verwendung der Probe in Projekten,String)
 * insert BuildElement(Biobank.Bioprobe.Sonstige Eigenschaften,Freitextangabe weiterer Probeneigenschaften,String)
 * insert BuildElement(Biobank.Bioprobe.Ist gewonnen aus,Referenz auf Bioprobe,Reference)
-* insert BuildElement(Biobank.Bioprobe.Diagnose,Informationen zu einer mit der Probe in Zusammenhang stehende Diagnose. Hier soll auf eine Diagnose gemäß der Vorgaben des KDS Modules Diagnose verlinkt werden wobei insbesondere bei neu erstellten Diagnosen -die nicht bereits aus anderen Quellen vorliegen- auf die Angabe einer Quelle zu achten ist; z.B. Informationen aus einem nur in unstrukturierter Form vorliegendem Pathologiebefund.,Reference)
+* insert BuildElement(Biobank.Bioprobe.FestgestellteDiagnose,Verweis auf eine Diagnose für die Material in der Probe enthalten ist.,Reference)
 * insert BuildElement(Biobank.Bioprobe.gehoert zu,Zuordnung der Probe zu einer Sammlung/Biobank,Reference)
 * insert BuildElement(Biobank.Bioprobe.Container,Probenbehältnis,BackboneElement)
 * insert BuildElement(Biobank.Bioprobe.Container.Containertyp,Typ des Containers.,CodeableConcept)

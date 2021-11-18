@@ -88,8 +88,8 @@
         ]
       },
       {
-        "path": "Biobank.Bioprobe.Diagnose",
-        "definition": "Informationen zu einer mit der Probe in Zusammenhang stehende Diagnose. Hier soll auf eine Diagnose gemäß der Vorgaben des KDS Modules Diagnose verlinkt werden wobei insbesondere bei neu erstellten Diagnosen -die nicht bereits aus anderen Quellen vorliegen- auf die Angabe einer Quelle zu achten ist; z.B. Informationen aus einem nur in unstrukturierter Form vorliegendem Pathologiebefund.",
+        "path": "Biobank.Bioprobe.FestgestellteDiagnose",
+        "definition": "Verweis auf eine Diagnose für die Material in der Probe enthalten ist.",
         "type": [
           {
             "code": "Reference"
