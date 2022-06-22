@@ -52,7 +52,7 @@
         ]
       },
       {
-        "path": "Biobank.Bioprobe.Verfügbarkeitsstatus",
+        "path": "Biobank.Bioprobe.Verfuegbarkeitsstatus",
         "definition": "Status der Probe / des Materials hinsichtlich der Verfügbarkeit",
         "type": [
           {
