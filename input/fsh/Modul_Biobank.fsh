@@ -306,7 +306,7 @@ Description: "Logische Repräsentation des Erweiterungsmodulesmoduls Biobank"
 * insert BuildElement(Biobank.Bioprobe.Proben-ID,Einrichtungsinterner Identifier der Probe,Identifier)
 * insert BuildElement(Biobank.Bioprobe.Probenart,Art der Probe; SCT vepflichtend; Beschraenkung auf Specimen ValueSet erwuenscht.,CodeableConcept)
 * insert BuildElement(Biobank.Bioprobe.Probenmenge,Probenmenge,Quantity)
-* insert BuildElement(Biobank.Bioprobe.Verfügbarkeitsstatus,Status der Probe / des Materials hinsichtlich der Verfügbarkeit,Code)
+* insert BuildElement(Biobank.Bioprobe.Verfuegbarkeitsstatus,Status der Probe / des Materials hinsichtlich der Verfügbarkeit,Code)
 * insert BuildElement(Biobank.Bioprobe.Projektverwendung,Freitextangabe zur Verwendung der Probe in Projekten,String)
 * insert BuildElement(Biobank.Bioprobe.Sonstige Eigenschaften,Freitextangabe weiterer Probeneigenschaften,String)
 * insert BuildElement(Biobank.Bioprobe.Ist gewonnen aus,Referenz auf Bioprobe,Reference)
