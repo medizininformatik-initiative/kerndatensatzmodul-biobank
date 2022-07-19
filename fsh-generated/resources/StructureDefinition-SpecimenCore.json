@@ -357,8 +357,9 @@
         "mustSupport": true
       },
       {
-        "id": "Specimen.processing.timePeriod",
+        "id": "Specimen.processing.time[x]:timePeriod",
         "path": "Specimen.processing.timePeriod",
+        "sliceName": "timePeriod",
         "min": 0,
         "max": "1",
         "type": [
@@ -369,12 +370,12 @@
         "mustSupport": true
       },
       {
-        "id": "Specimen.processing.timePeriod.start",
+        "id": "Specimen.processing.time[x]:timePeriod.start",
         "path": "Specimen.processing.timePeriod.start",
         "mustSupport": true
       },
       {
-        "id": "Specimen.processing.timePeriod.end",
+        "id": "Specimen.processing.time[x]:timePeriod.end",
         "path": "Specimen.processing.timePeriod.end",
         "mustSupport": true
       },
