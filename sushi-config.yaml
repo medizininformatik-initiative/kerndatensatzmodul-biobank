@@ -5,5 +5,5 @@ name: "KDS Biobanken"
 status: draft
 dependencies:
   de.basisprofil.r4: 
-    uri: https://ig.fhir.de/basisprofile-de/1.0.0/
-    version: 1.0.0
+    uri: https://ig.fhir.de/basisprofile-de/1.4.0/
+    version: 1.4.0

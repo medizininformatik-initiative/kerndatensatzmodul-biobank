@@ -46,16 +46,6 @@
       {
         "id": "Extension.value[x]",
         "path": "Extension.value[x]",
-        "slicing": {
-          "discriminator": [
-            {
-              "type": "type",
-              "path": "$this"
-            }
-          ],
-          "ordered": false,
-          "rules": "open"
-        },
         "type": [
           {
             "code": "Range"
@@ -63,14 +53,8 @@
         ]
       },
       {
-        "id": "Extension.valueRange",
-        "path": "Extension.valueRange",
-        "min": 0,
-        "max": "1"
-      },
-      {
-        "id": "Extension.valueRange.low",
-        "path": "Extension.valueRange.low",
+        "id": "Extension.value[x].low",
+        "path": "Extension.value[x].low",
         "patternQuantity": {
           "system": "http://unitsofmeasure.org",
           "code": "Cel",
@@ -78,8 +62,8 @@
         }
       },
       {
-        "id": "Extension.valueRange.high",
-        "path": "Extension.valueRange.high",
+        "id": "Extension.value[x].high",
+        "path": "Extension.value[x].high",
         "patternQuantity": {
           "system": "http://unitsofmeasure.org",
           "code": "Cel",

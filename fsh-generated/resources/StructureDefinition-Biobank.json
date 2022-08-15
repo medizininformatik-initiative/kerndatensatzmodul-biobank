@@ -2,6 +2,8 @@
   "resourceType": "StructureDefinition",
   "id": "Biobank",
   "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/LogicalModel/Biobank",
+  "title": "Modul Biobank",
+  "description": "Logische Repräsentation des Erweiterungsmodulesmoduls Biobank",
   "name": "Biobank",
   "status": "draft",
   "fhirVersion": "4.0.1",
