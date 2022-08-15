@@ -234,8 +234,9 @@
         "mustSupport": true
       },
       {
-        "id": "Specimen.collection.fastingStatusCodeableConcept",
-        "path": "Specimen.collection.fastingStatusCodeableConcept",
+        "id": "Specimen.collection.fastingStatus[x]:fastingStatusCodeableConcept",
+        "path": "Specimen.collection.fastingStatus[x]",
+        "sliceName": "fastingStatusCodeableConcept",
         "min": 0,
         "max": "1",
         "type": [
@@ -358,7 +359,7 @@
       },
       {
         "id": "Specimen.processing.time[x]:timePeriod",
-        "path": "Specimen.processing.timePeriod",
+        "path": "Specimen.processing.time[x]",
         "sliceName": "timePeriod",
         "min": 0,
         "max": "1",
@@ -371,12 +372,12 @@
       },
       {
         "id": "Specimen.processing.time[x]:timePeriod.start",
-        "path": "Specimen.processing.timePeriod.start",
+        "path": "Specimen.processing.time[x].start",
         "mustSupport": true
       },
       {
         "id": "Specimen.processing.time[x]:timePeriod.end",
-        "path": "Specimen.processing.timePeriod.end",
+        "path": "Specimen.processing.time[x].end",
         "mustSupport": true
       },
       {
@@ -385,6 +386,22 @@
         "sliceName": "lagerprozess",
         "min": 0,
         "max": "*",
+        "mustSupport": true
+      },
+      {
+        "id": "Specimen.processing:lagerprozess.extension:temperaturbedingungen",
+        "path": "Specimen.processing.extension",
+        "sliceName": "temperaturbedingungen",
+        "min": 1,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/Temperaturbedingungen"
+            ]
+          }
+        ],
         "mustSupport": true
       },
       {
@@ -406,12 +423,18 @@
         ]
       },
       {
-        "id": "Specimen.processing:lagerprozess.timePeriod",
-        "path": "Specimen.processing.timePeriod"
+        "id": "Specimen.processing:lagerprozess.time[x]:timePeriod",
+        "path": "Specimen.processing.time[x]",
+        "sliceName": "timePeriod",
+        "type": [
+          {
+            "code": "Period"
+          }
+        ]
       },
       {
-        "id": "Specimen.processing:lagerprozess.timePeriod.start",
-        "path": "Specimen.processing.timePeriod.start",
+        "id": "Specimen.processing:lagerprozess.time[x]:timePeriod.start",
+        "path": "Specimen.processing.time[x].start",
         "min": 1
       },
       {
