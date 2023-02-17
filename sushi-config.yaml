@@ -1,8 +1,8 @@
 FSHOnly: true
 fhirVersion: 4.0.1
 canonical: https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank
-name: "KDS Biobanken"
-status: draft
+# name: "KDS Biobanken"
+# status: draft
 dependencies:
   de.basisprofil.r4: 
     uri: https://ig.fhir.de/basisprofile-de/1.4.0/

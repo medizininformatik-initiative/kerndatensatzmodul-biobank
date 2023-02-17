@@ -6,15 +6,6 @@
       "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/Specimen"
     ]
   },
-  "type": {
-    "coding": [
-      {
-        "system": "http://snomed.info/sct",
-        "code": "399492000",
-        "display": "Tissue specimen from lung (specimen)"
-      }
-    ]
-  },
   "extension": [
     {
       "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/VerwaltendeOrganisation",
@@ -70,8 +61,8 @@
       "procedure": {
         "coding": [
           {
-            "system": "http://snomed.info/sct",
             "code": "1186936003",
+            "system": "http://snomed.info/sct",
             "display": "Storage of specimen (procedure)"
           }
         ]
@@ -104,8 +95,8 @@
       "procedure": {
         "coding": [
           {
-            "system": "http://snomed.info/sct",
             "code": "1186936003",
+            "system": "http://snomed.info/sct",
             "display": "Storage of specimen (procedure)"
           },
           {
@@ -127,6 +118,15 @@
     }
   ],
   "status": "available",
+  "type": {
+    "coding": [
+      {
+        "code": "399492000",
+        "system": "http://snomed.info/sct",
+        "display": "Tissue specimen from lung (specimen)"
+      }
+    ]
+  },
   "subject": {
     "reference": "Patient/12345"
   },
