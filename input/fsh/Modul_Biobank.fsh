@@ -16,7 +16,7 @@ and processing.timePeriod and processing.procedure and processing.additive and r
 
 * type 1..1
 * type.coding ^slicing.discriminator.type = #pattern
-* type.coding ^slicing.discriminator.path = "system"
+* type.coding ^slicing.discriminator.path = "$this.system"
 * type.coding ^slicing.rules = #open
 
 * type.coding contains sct 1..*
@@ -44,7 +44,7 @@ and processing.timePeriod and processing.procedure and processing.additive and r
 * collection.bodySite obeys mii-bb-1
 
 * collection.bodySite.coding ^slicing.discriminator.type = #pattern
-* collection.bodySite.coding ^slicing.discriminator.path = "system"
+* collection.bodySite.coding ^slicing.discriminator.path = "$this.system"
 * collection.bodySite.coding ^slicing.rules = #open
 
 * collection.bodySite.coding contains sct 0..1 MS and icd-o-3 0..1 MS
@@ -60,14 +60,14 @@ and processing.timePeriod and processing.procedure and processing.additive and r
 
 * processing.extension contains Temperaturbedingungen named temperaturbedingungen 1..1 MS
 * processing.procedure 1..1 MS
+* processing.procedure from sct-lab-procedure (example)
 
 * processing.procedure.coding ^slicing.discriminator.type = #pattern
-* processing.procedure.coding ^slicing.discriminator.path = "system"
+* processing.procedure.coding ^slicing.discriminator.path = "$this.system"
 * processing.procedure.coding ^slicing.rules = #open
 
 * processing.procedure.coding contains sct 1..* MS
-* processing.procedure.coding[sct] ^patternCoding.system = "http://snomed.info/sct"
-* processing.procedure from sct-lab-procedure (example)
+* processing.procedure.coding[sct].system = $SCT
 
 * processing.time[x] MS
 * processing.timePeriod.start MS
@@ -75,7 +75,7 @@ and processing.timePeriod and processing.procedure and processing.additive and r
 * processing.additive only Reference(ProfileSubstanceAdditiv)
 
 * processing ^slicing.discriminator.type = #pattern
-* processing ^slicing.discriminator.path = "processing.procedure.coding"
+* processing ^slicing.discriminator.path = "$this.procedure.coding"
 * processing ^slicing.rules = #open
 
 * processing contains lagerprozess 0..* MS

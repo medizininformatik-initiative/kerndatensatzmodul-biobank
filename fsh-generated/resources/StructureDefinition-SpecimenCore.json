@@ -65,7 +65,7 @@
           "discriminator": [
             {
               "type": "pattern",
-              "path": "system"
+              "path": "$this.system"
             }
           ],
           "rules": "open"
@@ -86,7 +86,6 @@
       {
         "id": "Specimen.type.coding:sct.system",
         "path": "Specimen.type.coding.system",
-        "min": 1,
         "patternUri": "http://snomed.info/sct"
       },
       {
@@ -176,7 +175,7 @@
           "discriminator": [
             {
               "type": "pattern",
-              "path": "system"
+              "path": "$this.system"
             }
           ],
           "rules": "open"
@@ -197,7 +196,6 @@
       {
         "id": "Specimen.collection.bodySite.coding:sct.system",
         "path": "Specimen.collection.bodySite.coding.system",
-        "min": 1,
         "patternUri": "http://snomed.info/sct"
       },
       {
@@ -215,7 +213,6 @@
       {
         "id": "Specimen.collection.bodySite.coding:icd-o-3.system",
         "path": "Specimen.collection.bodySite.coding.system",
-        "min": 1,
         "patternUri": "http://terminology.hl7.org/CodeSystem/icd-o-3"
       },
       {
@@ -256,7 +253,7 @@
           "discriminator": [
             {
               "type": "pattern",
-              "path": "processing.procedure.coding"
+              "path": "$this.procedure.coding"
             }
           ],
           "rules": "open"
@@ -311,7 +308,7 @@
           "discriminator": [
             {
               "type": "pattern",
-              "path": "system"
+              "path": "$this.system"
             }
           ],
           "rules": "open"
@@ -324,10 +321,12 @@
         "sliceName": "sct",
         "min": 1,
         "max": "*",
-        "patternCoding": {
-          "system": "http://snomed.info/sct"
-        },
         "mustSupport": true
+      },
+      {
+        "id": "Specimen.processing.procedure.coding:sct.system",
+        "path": "Specimen.processing.procedure.coding.system",
+        "patternUri": "http://snomed.info/sct"
       },
       {
         "id": "Specimen.processing.additive",
