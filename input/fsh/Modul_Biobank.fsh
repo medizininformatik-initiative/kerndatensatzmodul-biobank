@@ -275,9 +275,9 @@ Usage: #definition
 * code = #diagnose
 * base = #Specimen
 * type = #reference
-* expression = "extension.where(url='https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/Diagnose').value"
+* expression = "Specimen.extension.where(url='https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/Diagnose').value"
 * target = #Condition
-* chain = "code"
+* chain = "*"
 
 
 RuleSet: BuildElement(path, definition, type)
