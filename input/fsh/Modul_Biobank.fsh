@@ -31,7 +31,7 @@ and processing.timePeriod and processing.procedure and processing.additive and r
 * container.type from containertyp (extensible)
 * container.type 1..1
 
-* container.additive[x] only Reference(ProfileSubstanceAdditiv)
+* container.additiveReference only Reference(ProfileSubstanceAdditiv)
 
 //Entnahme
 
