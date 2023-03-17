@@ -1,20 +1,10 @@
 {
   "resourceType": "StructureDefinition",
   "id": "Substance",
-  "extension": [
-    {
-      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-category",
-      "valueString": "Base.Entities"
-    },
-    {
-      "url": "http://hl7.org/fhir/StructureDefinition/structuredefinition-security-category",
-      "valueCode": "business"
-    }
-  ],
   "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/Substance",
   "name": "ProfileSubstanceAdditiv",
   "title": "Profile - Substance - Additiv",
-  "status": "active",
+  "status": "draft",
   "description": "Abbildung eines Additives, das zu einer Probe hinzugefügt werden kann",
   "fhirVersion": "4.0.1",
   "mapping": [

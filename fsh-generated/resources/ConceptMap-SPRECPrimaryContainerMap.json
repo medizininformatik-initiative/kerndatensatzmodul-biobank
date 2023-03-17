@@ -4,7 +4,7 @@
   "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ConceptMap/SPRECPrimaryContainerMap",
   "title": "SPREC 3.0 Primary Container Mapping",
   "description": "Mapping der SPREC 3.0 Primary-Container-Containertypen auf die im Modul verwendeten SNOMED CT Codes.",
-  "status": "active",
+  "status": "draft",
   "group": [
     {
       "target": "http://snomed.info/sct",

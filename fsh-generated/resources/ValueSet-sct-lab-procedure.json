@@ -1,6 +1,6 @@
 {
   "resourceType": "ValueSet",
-  "status": "active",
+  "status": "draft",
   "name": "ValueSetSCTLaboratoryProcedure",
   "id": "sct-lab-procedure",
   "title": "ValueSet - SNOMED CT Laboratory Procedure",

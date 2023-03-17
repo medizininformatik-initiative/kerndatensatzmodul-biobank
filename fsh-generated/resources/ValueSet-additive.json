@@ -1,6 +1,6 @@
 {
   "resourceType": "ValueSet",
-  "status": "active",
+  "status": "draft",
   "name": "ValueSetAdditive",
   "id": "additive",
   "title": "ValueSet - Additive",

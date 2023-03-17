@@ -4,7 +4,7 @@
   "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/Diagnose",
   "name": "ExtensionDiagnose",
   "title": "Extension - Diagnose",
-  "status": "active",
+  "status": "draft",
   "description": "Mittels dieser Extension kann ausgedrückt werden, dass Material mit der referenzierten Diagnose in der Probe enthalten ist.",
   "fhirVersion": "4.0.1",
   "mapping": [

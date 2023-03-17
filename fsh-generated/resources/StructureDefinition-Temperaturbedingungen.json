@@ -4,7 +4,7 @@
   "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/Temperaturbedingungen",
   "name": "ExtensionTemperaturbedingungen",
   "title": "Extension - Temperaturbedingungen",
-  "status": "active",
+  "status": "draft",
   "description": "Um zu einer Verabeitung oder Lagerung die jeweils herrschenden Temperaturbedingungen (in °C) anzugeben soll diese Extension verwendet werden. Dabei soll nach Möglichkeit immer ein Wertebereich inkl. oberer und unterer Grenze angegeben werden.",
   "fhirVersion": "4.0.1",
   "mapping": [
