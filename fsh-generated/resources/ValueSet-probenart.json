@@ -1,6 +1,6 @@
 {
   "resourceType": "ValueSet",
-  "status": "draft",
+  "status": "active",
   "name": "ValueSetProbenart",
   "id": "probenart",
   "title": "ValueSet - Probenart",
