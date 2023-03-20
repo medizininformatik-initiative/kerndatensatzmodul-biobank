@@ -5,7 +5,7 @@
   "title": "Modul Biobank",
   "description": "Logische Repräsentation des Erweiterungsmodulesmoduls Biobank",
   "name": "Biobank",
-  "status": "draft",
+  "status": "active",
   "fhirVersion": "4.0.1",
   "kind": "logical",
   "abstract": false,
