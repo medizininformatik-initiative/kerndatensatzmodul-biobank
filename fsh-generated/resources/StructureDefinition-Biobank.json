@@ -72,7 +72,7 @@
         ]
       },
       {
-        "path": "Biobank.Bioprobe.Sonstige Eigenschaften",
+        "path": "Biobank.Bioprobe.SonstigeEigenschaften",
         "definition": "Freitextangabe weiterer Probeneigenschaften",
         "type": [
           {
@@ -81,7 +81,7 @@
         ]
       },
       {
-        "path": "Biobank.Bioprobe.Ist gewonnen aus",
+        "path": "Biobank.Bioprobe.Ist-gewonnen-aus",
         "definition": "Referenz auf Bioprobe",
         "type": [
           {
@@ -99,7 +99,7 @@
         ]
       },
       {
-        "path": "Biobank.Bioprobe.gehoert zu",
+        "path": "Biobank.Bioprobe.gehoert-zu",
         "definition": "Zuordnung der Probe zu einer Sammlung/Biobank",
         "type": [
           {
@@ -135,7 +135,7 @@
         ]
       },
       {
-        "path": "Biobank.Bioprobe.Container.Verwendung Additiv",
+        "path": "Biobank.Bioprobe.Container.VerwendungAdditiv",
         "definition": "Ja/Nein Angabe ob ein Zusatzstoff verwendet wurde",
         "type": [
           {
@@ -171,7 +171,7 @@
         ]
       },
       {
-        "path": "Biobank.Bioprobe.Probenentnahme.Einstellung Blutversorgung",
+        "path": "Biobank.Bioprobe.Probenentnahme.EinstellungBlutversorgung",
         "definition": "Zeitpunkt der Einstellung der Blutversorgung zur Probe. Kann zur Berechnung der warmen Ischaemiezeit verwendet werden.",
         "type": [
           {
@@ -207,7 +207,7 @@
         ]
       },
       {
-        "path": "Biobank.Bioprobe.Probenentnahme.Nuechternstatus Dauer",
+        "path": "Biobank.Bioprobe.Probenentnahme.NuechternstatusDauer",
         "definition": "Zeitliche Dauer der Nüchternheit vor der Probenentnahme",
         "type": [
           {
@@ -270,7 +270,7 @@
         ]
       },
       {
-        "path": "Biobank.Bioprobe.Verarbeitungsprozess.Verwendung Additive",
+        "path": "Biobank.Bioprobe.Verarbeitungsprozess.VerwendungAdditive",
         "definition": "Ja/Nein Angabe ob ein Zusatzstoff verwendet wurde",
         "type": [
           {
@@ -342,7 +342,7 @@
         ]
       },
       {
-        "path": "Biobank.Probensammlung - Biobank",
+        "path": "Biobank.Probensammlung-Biobank",
         "definition": "Organisation die Proben verwaltet",
         "type": [
           {
@@ -351,7 +351,7 @@
         ]
       },
       {
-        "path": "Biobank.Probensammlung - Biobank.Kontakt",
+        "path": "Biobank.Probensammlung-Biobank.Kontakt",
         "definition": "Kontaktinformationen einer Sammlung/Biobank für Anfragen zu Bioproben",
         "type": [
           {
@@ -360,7 +360,7 @@
         ]
       },
       {
-        "path": "Biobank.Probensammlung - Biobank.Kontakt.Vorname",
+        "path": "Biobank.Probensammlung-Biobank.Kontakt.Vorname",
         "definition": "Vorname der Ansprechperson",
         "type": [
           {
@@ -369,7 +369,7 @@
         ]
       },
       {
-        "path": "Biobank.Probensammlung - Biobank.Kontakt.Nachname",
+        "path": "Biobank.Probensammlung-Biobank.Kontakt.Nachname",
         "definition": "Nachname der Ansprechperson",
         "type": [
           {
@@ -378,7 +378,7 @@
         ]
       },
       {
-        "path": "Biobank.Probensammlung - Biobank.Kontakt.E-Mail",
+        "path": "Biobank.Probensammlung-Biobank.Kontakt.E-Mail",
         "definition": "E-Mailadresse für Anfragen",
         "type": [
           {
@@ -387,7 +387,7 @@
         ]
       },
       {
-        "path": "Biobank.Probensammlung - Biobank.Kontakt.Rolle",
+        "path": "Biobank.Probensammlung-Biobank.Kontakt.Rolle",
         "definition": "Rolle der Ansprechperson in der Sammlung/Biobank",
         "type": [
           {
@@ -396,7 +396,7 @@
         ]
       },
       {
-        "path": "Biobank.Probensammlung - Biobank.Kontakt.Adresse",
+        "path": "Biobank.Probensammlung-Biobank.Kontakt.Adresse",
         "definition": "Kontaktadresse für Forschungsvorhaben",
         "type": [
           {
@@ -405,7 +405,7 @@
         ]
       },
       {
-        "path": "Biobank.Probensammlung - Biobank.Sammlungs-ID",
+        "path": "Biobank.Probensammlung-Biobank.Sammlungs-ID",
         "definition": "Interner Identifer der Sammlung/Biobank",
         "type": [
           {
@@ -414,7 +414,7 @@
         ]
       },
       {
-        "path": "Biobank.Probensammlung - Biobank.BBMRI-ERIC-ID",
+        "path": "Biobank.Probensammlung-Biobank.BBMRI-ERIC-ID",
         "definition": "Identifier der Sammlung/Biobank im BBMRI ERIC Netzwerk",
         "type": [
           {
@@ -423,7 +423,7 @@
         ]
       },
       {
-        "path": "Biobank.Probensammlung - Biobank.Akronym",
+        "path": "Biobank.Probensammlung-Biobank.Akronym",
         "definition": "Akronym der Sammlung/Biobank",
         "type": [
           {
@@ -432,7 +432,7 @@
         ]
       },
       {
-        "path": "Biobank.Probensammlung - Biobank.Name",
+        "path": "Biobank.Probensammlung-Biobank.Name",
         "definition": "Name der Sammlung/Biobank",
         "type": [
           {
@@ -441,7 +441,7 @@
         ]
       },
       {
-        "path": "Biobank.Probensammlung - Biobank.Beschreibung",
+        "path": "Biobank.Probensammlung-Biobank.Beschreibung",
         "definition": "Beschreibung der Sammlung/Biobank",
         "type": [
           {
@@ -450,7 +450,7 @@
         ]
       },
       {
-        "path": "Biobank.Probensammlung - Biobank.Sammlungstyp",
+        "path": "Biobank.Probensammlung-Biobank.Sammlungstyp",
         "definition": "Typ der Sammlung/Biobank gemäß BBMRI ERIC Directory Werteliste",
         "type": [
           {
@@ -459,7 +459,7 @@
         ]
       },
       {
-        "path": "Biobank.Probensammlung - Biobank.besteht aus",
+        "path": "Biobank.Probensammlung-Biobank.besteht-aus",
         "definition": "Verknüpfung der Teilsammlungen",
         "type": [
           {
