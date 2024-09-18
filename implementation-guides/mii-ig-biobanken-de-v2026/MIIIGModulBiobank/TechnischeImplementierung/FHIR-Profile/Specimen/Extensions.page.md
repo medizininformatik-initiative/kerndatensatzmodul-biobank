@@ -27,3 +27,7 @@ Die Organisation, die die Probe verwaltet, soll mithilfe dieser Extension refere
 Mittels dieser Extension kann eine zur Probe gehörende Diagnose referenziert werden. Dies ist vor allem für Fälle gedacht, wo eine Zuordnung über Pathologiebericht oder Laborbefund nicht möglich ist.
 
 {{render:https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/Diagnose}}
+
+##### Kontrollprobe
+
+Diese Extension kann genutzt werden, um eine Probe als Kontrollprobe zu kennzeichnen. Über einen Code muss dann angeben werden, ob die Probe explizit als Kontrollprobe gesammelt wurde oder (ohne direkten Krankheitsbezug) im Rahmen einer Populationskohorte gewonnen wurde. Sammlungen, die nur Proben aus Populationskohorten enthalten, sollten in der [TODO: MIABIS Modellierung Ressource] im [TODO Feld] ebenfalls als typ Populationskohorte angeben.
