@@ -12,7 +12,7 @@ Die Probe, wie sie gesammelt wurde, vor ihrer Verarbeitung.
 Auch Aliquotgruppe genannt.
 Eine möglicherweise bereits verarbeitete Probe, von der Aliqoute erstellt wurden.
 Als eine Probe zählt 
-1.) Proben, die in allen Parametern übereinstimmen werden (Primärprobe + Probentyp + Entnahmedatum) als eine Probe angesehen und einfach gezählt - bzw- dürfen nur einmal in den Store geladen werden. & 
+1.) Proben, die in allen Parametern übereinstimmen werden (Primärprobe + Probentyp) als eine Probe angesehen und einfach gezählt - bzw- dürfen nur einmal in den Store geladen werden. & 
 2.) Proben, die sich in mindestens einem Parameter (zentral oder nicht) unterscheiden sind verschiedene Proben und werden beide gezählt - bzw. in den Store hochgeladen. 
 
 ### Aliquot
