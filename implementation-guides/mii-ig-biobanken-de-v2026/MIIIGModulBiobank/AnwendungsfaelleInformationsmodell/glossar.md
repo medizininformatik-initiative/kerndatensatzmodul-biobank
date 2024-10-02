@@ -14,7 +14,7 @@ Eine möglicherweise bereits verarbeitete Probe, von der Aliqoute erstellt wurde
 
 ### Aliquot
 
-Eine Probe, von der identische Gewschisterproben existieren, die der selben Mutterprobe entstammen.
+Eine Probe, von der identische Geschwisterproben existieren, die der selben Mutterprobe entstammen.
 
 ### Kontrollprobe
 
