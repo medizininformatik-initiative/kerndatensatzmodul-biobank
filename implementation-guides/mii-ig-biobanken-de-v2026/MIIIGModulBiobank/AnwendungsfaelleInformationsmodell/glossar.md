@@ -19,4 +19,4 @@ Eine Probe, von der identische Geschwisterproben existieren, die der selben Mutt
 ### Kontrollprobe
 
 - a) Eine Probe, die explizit als "gesunde" Probe zusammen mit einer "erkrankten" Probe gesammelt wurde, z.B. gesundes Gewebe neben erkranktem Gewebe.
-- b) EIne Probe, die im Rahmen einer bestimmten Forschungsfrage genutzt werden kann, um mit anderen, explizit als "erkrankt" definierten Proben verglichen zu werden. Dabei kann die Kontrollprobe z.B. einer Populationskohhorte entstammen oder einer Sammlung zu einer anderen, nicht verwandten Erkrankung.
+- b) EIne Probe, die im Rahmen einer bestimmten Forschungsfrage genutzt werden kann, um mit anderen, explizit als "erkrankt" definierten Proben verglichen zu werden. Dabei kann die Kontrollprobe z.B. einer Populationskohorte entstammen oder einer Sammlung zu einer anderen, nicht verwandten Erkrankung.
