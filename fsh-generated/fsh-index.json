@@ -1,0 +1,234 @@
+[
+  {
+    "outputFile": "CodeSystem-ContactType.json",
+    "fshName": "CodeSystemContactType",
+    "fshType": "CodeSystem",
+    "fshFile": "codesystems\\CodeSystemContactType.fsh",
+    "startLine": 1,
+    "endLine": 5
+  },
+  {
+    "outputFile": "CodeSystem-MIABISCollectionType.json",
+    "fshName": "CodeSystemMIABISCollectionType",
+    "fshType": "CodeSystem",
+    "fshFile": "codesystems\\CodeSystemMIABISCollectionType.fsh",
+    "startLine": 1,
+    "endLine": 22
+  },
+  {
+    "outputFile": "ConceptMap-SPRECFixationTypeMap.json",
+    "fshName": "SPRECFixationTypeMap",
+    "fshType": "Instance",
+    "fshFile": "conceptmaps\\SPRECFixationTypeMap.fsh",
+    "startLine": 1,
+    "endLine": 29
+  },
+  {
+    "outputFile": "ConceptMap-SPRECLongTermStorageMap.json",
+    "fshName": "SPRECLongTermStorageMap",
+    "fshType": "Instance",
+    "fshFile": "conceptmaps\\SPRECLongTermStorageMap.fsh",
+    "startLine": 1,
+    "endLine": 71
+  },
+  {
+    "outputFile": "ConceptMap-SPRECPrimaryContainerMap.json",
+    "fshName": "SPRECPrimaryContainerMap",
+    "fshType": "Instance",
+    "fshFile": "conceptmaps\\SPRECPrimaryContainerMap.fsh",
+    "startLine": 1,
+    "endLine": 102
+  },
+  {
+    "outputFile": "ConceptMap-SPRECSampleTypeMap.json",
+    "fshName": "SPRECSampleTypeMap",
+    "fshType": "Instance",
+    "fshFile": "conceptmaps\\SPRECSampleTypeMap.fsh",
+    "startLine": 1,
+    "endLine": 78
+  },
+  {
+    "outputFile": "Organization-BiobankMusterstadt.json",
+    "fshName": "BiobankMusterstadt",
+    "fshType": "Instance",
+    "fshFile": "instances\\BiobankMusterstadt.fsh",
+    "startLine": 1,
+    "endLine": 18
+  },
+  {
+    "outputFile": "Organization-Mustersammlung.json",
+    "fshName": "Mustersammlung",
+    "fshType": "Instance",
+    "fshFile": "instances\\Mustersammlung.fsh",
+    "startLine": 1,
+    "endLine": 18
+  },
+  {
+    "outputFile": "SearchParameter-SearchParamDiagnosis.json",
+    "fshName": "SearchParamDiagnosis",
+    "fshType": "Instance",
+    "fshFile": "searchparameters\\SearchParamDiagnosis.fsh",
+    "startLine": 1,
+    "endLine": 16
+  },
+  {
+    "outputFile": "Specimen-MusterprobeFluessig.json",
+    "fshName": "MusterprobeFluessig",
+    "fshType": "Instance",
+    "fshFile": "instances\\MusterprobeFluessig.fsh",
+    "startLine": 1,
+    "endLine": 42
+  },
+  {
+    "outputFile": "Specimen-MusterprobeGewebe.json",
+    "fshName": "MusterprobeGewebe",
+    "fshType": "Instance",
+    "fshFile": "instances\\MusterprobeGewebe.fsh",
+    "startLine": 1,
+    "endLine": 30
+  },
+  {
+    "outputFile": "StructureDefinition-BeschreibungSammlung.json",
+    "fshName": "ExtensionBeschreibungSammlung",
+    "fshType": "Extension",
+    "fshFile": "extensions\\ExtensionBeschreibungSammlung.fsh",
+    "startLine": 1,
+    "endLine": 6
+  },
+  {
+    "outputFile": "StructureDefinition-Biobank.json",
+    "fshName": "MII_LM_Biobank",
+    "fshType": "Logical",
+    "fshFile": "logicals\\MII_LM_Biobank.fsh",
+    "startLine": 1,
+    "endLine": 64
+  },
+  {
+    "outputFile": "StructureDefinition-Diagnose.json",
+    "fshName": "ExtensionDiagnose",
+    "fshType": "Extension",
+    "fshFile": "extensions\\ExtensionDiagnose.fsh",
+    "startLine": 1,
+    "endLine": 6
+  },
+  {
+    "outputFile": "StructureDefinition-EinstellungBlutversorgung.json",
+    "fshName": "ExtensionEinstellungBlutversorgung",
+    "fshType": "Extension",
+    "fshFile": "extensions\\ExtensionEinstellungBlutversorgung.fsh",
+    "startLine": 1,
+    "endLine": 6
+  },
+  {
+    "outputFile": "StructureDefinition-KontaktRolle.json",
+    "fshName": "ExtensionKontaktRolle",
+    "fshType": "Extension",
+    "fshFile": "extensions\\ExtensionKontaktRolle.fsh",
+    "startLine": 1,
+    "endLine": 6
+  },
+  {
+    "outputFile": "StructureDefinition-Organization.json",
+    "fshName": "ProfileOrganizationSammlungBiobank",
+    "fshType": "Profile",
+    "fshFile": "profiles\\ProfileOrganizationSammlungBiobank.fsh",
+    "startLine": 1,
+    "endLine": 38
+  },
+  {
+    "outputFile": "StructureDefinition-Specimen.json",
+    "fshName": "ProfileSpecimenBioprobe",
+    "fshType": "Profile",
+    "fshFile": "profiles\\ProfileSpecimenBioprobe.fsh",
+    "startLine": 1,
+    "endLine": 9
+  },
+  {
+    "outputFile": "StructureDefinition-SpecimenCore.json",
+    "fshName": "ProfileSpecimenBioprobeCore",
+    "fshType": "Profile",
+    "fshFile": "profiles\\ProfileSpecimenBioprobeCore.fsh",
+    "startLine": 1,
+    "endLine": 83
+  },
+  {
+    "outputFile": "StructureDefinition-Substance.json",
+    "fshName": "ProfileSubstanceAdditiv",
+    "fshType": "Profile",
+    "fshFile": "profiles\\ProfileSubstanceAdditiv.fsh",
+    "startLine": 1,
+    "endLine": 8
+  },
+  {
+    "outputFile": "StructureDefinition-Temperaturbedingungen.json",
+    "fshName": "ExtensionTemperaturbedingungen",
+    "fshType": "Extension",
+    "fshFile": "extensions\\ExtensionTemperaturbedingungen.fsh",
+    "startLine": 1,
+    "endLine": 12
+  },
+  {
+    "outputFile": "StructureDefinition-VerwaltendeOrganisation.json",
+    "fshName": "ExtensionVerwaltendeOrganisation",
+    "fshType": "Extension",
+    "fshFile": "extensions\\ExtensionVerwaltendeOrganisation.fsh",
+    "startLine": 1,
+    "endLine": 6
+  },
+  {
+    "outputFile": "Substance-Heparin.json",
+    "fshName": "Heparin",
+    "fshType": "Instance",
+    "fshFile": "instances\\Heparin.fsh",
+    "startLine": 1,
+    "endLine": 6
+  },
+  {
+    "outputFile": "ValueSet-additive.json",
+    "fshName": "ValueSetAdditive",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets\\ValueSetAdditive.fsh",
+    "startLine": 1,
+    "endLine": 5
+  },
+  {
+    "outputFile": "ValueSet-containertyp.json",
+    "fshName": "ValueSetContainertyp",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets\\ValueSetContainertyp.fsh",
+    "startLine": 1,
+    "endLine": 5
+  },
+  {
+    "outputFile": "ValueSet-icd-o-3-topography.json",
+    "fshName": "ValueSetICDO3Topography",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets\\ValueSetICDO3Topography.fsh",
+    "startLine": 1,
+    "endLine": 5
+  },
+  {
+    "outputFile": "ValueSet-probenart.json",
+    "fshName": "ValueSetProbenart",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets\\ValueSetProbenart.fsh",
+    "startLine": 1,
+    "endLine": 5
+  },
+  {
+    "outputFile": "ValueSet-sct-body-structures.json",
+    "fshName": "ValueSetSCTBodyStructures",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets\\ValueSetSCTBodyStructure.fsh",
+    "startLine": 1,
+    "endLine": 5
+  },
+  {
+    "outputFile": "ValueSet-sct-lab-procedure.json",
+    "fshName": "ValueSetSCTLaboratoryProcedure",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets\\ValueSetSCTLaboratoryProcedure.fsh",
+    "startLine": 1,
+    "endLine": 5
+  }
+]
