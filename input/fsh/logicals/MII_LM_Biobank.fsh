@@ -3,7 +3,7 @@ Parent: Element
 Id: Biobank
 Description: "Logische Repräsentation des Erweiterungsmoduls Biobank"
 * ^url = "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/LogicalModel/Biobank"
-* insert PR_CS_VS_Version
+//* insert PR_CS_VS_Version
 
 * Bioprobe 0..* BackboneElement "Details zu einer Bioprobe"
   * Proben-ID 0..1 http://hl7.org/fhir/StructureDefinition/Identifier "Einrichtungsinterner Identifier der Probe"
@@ -98,8 +98,8 @@ Source: MII_LM_Biobank
     * VerwendungAdditive -> "Specimen.processing.additive"
     * Additiv -> "Specimen.processing.additive"
   * Lagerprozess -> "Specimen.processing[lagerprozess]"
-    * Einlagerungszeitpunkt -> "Specimen.processing[lagerprozess].timePeriod.start"
-    * Auslagerungspunkt -> "Specimen.processing[lagerprozess].timePeriod.end"
+    * Einfrierzeitpunkt -> "Specimen.processing[lagerprozess].timePeriod.start"
+    * Auftauzeitpunkt -> "Specimen.processing[lagerprozess].timePeriod.end"
     * Lagerungsbedingungen -> "Specimen.processing[lagerprozess].extension[temperaturbedingungen]"
 
 * Probensammlung-Biobank -> "Biobank"

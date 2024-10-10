@@ -2,7 +2,6 @@
   "resourceType": "StructureDefinition",
   "id": "Biobank",
   "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/LogicalModel/Biobank",
-  "version": "2025.0.4",
   "name": "MII_LM_Biobank",
   "status": "active",
   "description": "Logische Repräsentation des Erweiterungsmoduls Biobank",
@@ -626,12 +625,6 @@
           {
             "code": "dateTime"
           }
-        ],
-        "mapping": [
-          {
-            "identity": "FHIR",
-            "map": "Specimen.processing[lagerprozess].timePeriod.start"
-          }
         ]
       },
       {
@@ -644,12 +637,6 @@
         "type": [
           {
             "code": "dateTime"
-          }
-        ],
-        "mapping": [
-          {
-            "identity": "FHIR",
-            "map": "Specimen.processing[lagerprozess].timePeriod.end"
           }
         ]
       },
