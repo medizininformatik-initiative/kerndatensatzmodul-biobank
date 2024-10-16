@@ -98,8 +98,8 @@ Source: MII_LM_Biobank
     * VerwendungAdditive -> "Specimen.processing.additive"
     * Additiv -> "Specimen.processing.additive"
   * Lagerprozess -> "Specimen.processing[lagerprozess]"
-    * Einfrierzeitpunkt -> "Specimen.processing[lagerprozess].timePeriod.start"
-    * Auftauzeitpunkt -> "Specimen.processing[lagerprozess].timePeriod.end"
+    * Einlagerungszeitpunkt -> "Specimen.processing[lagerprozess].timePeriod.start"
+    * Auslagerungspunkt -> "Specimen.processing[lagerprozess].timePeriod.end"
     * Lagerungsbedingungen -> "Specimen.processing[lagerprozess].extension[temperaturbedingungen]"
 
 * Probensammlung-Biobank -> "Biobank"
