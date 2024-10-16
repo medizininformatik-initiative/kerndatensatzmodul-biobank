@@ -68,7 +68,7 @@ and processing.timePeriod and processing.procedure and processing.additive and r
 * insert Translation(collection.collected[x] ^definition, de-DE, Der Zeitpunkt\, zu dem die Probe entnommen oder gesammelt wurde.)
 * insert Translation(collection.collected[x] ^definition, en-US, The time when the specimen was collected or obtained.)
 
-* insert Translation(collection.bodySite ^short, de-DE, Entnahmestelle)
+* insert Translation(collection.bodySite ^short, de-DE, Anatomische Lokalisation gemäß icd-o-3)
 * insert Translation(collection.bodySite ^short, en-US, Collection site)
 * insert Translation(collection.bodySite ^definition, de-DE, Die Körperstelle\, von der die Probe entnommen wurde.)
 * insert Translation(collection.bodySite ^definition, en-US, The body site from which the specimen was collected.)
