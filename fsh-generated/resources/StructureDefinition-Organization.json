@@ -54,7 +54,7 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "Beschreibung der Sammlung"
+                  "valueString": "Beschreibung der Sammlung/Biobank"
                 }
               ]
             },
@@ -67,7 +67,7 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "Description of the collection"
+                  "valueString": "Description of the collection/biobank"
                 }
               ]
             }

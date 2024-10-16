@@ -125,7 +125,7 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "Der Status der Probe in Bezug auf die Verfügbarkeit für Forschung oder andere Zwecke."
+                  "valueString": "Der Status der Probe in Bezug auf die Verfügbarkeit für Forschung."
                 }
               ]
             },
@@ -138,7 +138,7 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "The status of the specimen in terms of its availability for research or other purposes."
+                  "valueString": "The status of the specimen in terms of its availability for research."
                 }
               ]
             }
@@ -360,7 +360,7 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "Referenz auf eine übergeordnete Probe, von der diese Probe gewonnen wurde."
+                  "valueString": "Referenz auf eine übergeordnete Probe, aus der diese Probe gewonnen wurde."
                 }
               ]
             },
@@ -425,7 +425,7 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "Der Identifier der Probenentnahme, falls vorhanden."
+                  "valueString": "Der Identifier der Probenentnahme."
                 }
               ]
             },
@@ -438,7 +438,7 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "The identifier for the specimen collection, if available."
+                  "valueString": "The identifier for the specimen collection."
                 }
               ]
             }
@@ -1294,7 +1294,7 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "Informationen über den Behälter, in dem die Probe aufbewahrt wird, einschließlich des Containertyps und der Kapazität."
+                  "valueString": "Informationen über den Behälter, in dem die Probe aufbewahrt wird."
                 }
               ]
             },
@@ -1307,7 +1307,7 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "Information about the container in which the specimen is stored, including the container type and capacity."
+                  "valueString": "Information about the container in which the specimen is stored."
                 }
               ]
             }
@@ -1494,7 +1494,7 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "Die Menge des gesammelten Materials, in einem festgelegten Messwert."
+                  "valueString": "Die Menge des gesammelten Materials."
                 }
               ]
             },
@@ -1507,7 +1507,7 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "The amount of material collected, in a specified measurement."
+                  "valueString": "The amount of material collected."
                 }
               ]
             }

@@ -20,13 +20,13 @@ and processing.timePeriod and processing.procedure and processing.additive and r
 
 * insert Translation(container.specimenQuantity ^short, de-DE, Probenmenge)
 * insert Translation(container.specimenQuantity ^short, en-US, Specimen quantity)
-* insert Translation(container.specimenQuantity ^definition, de-DE, Die Menge des gesammelten Materials\, in einem festgelegten Messwert.)
-* insert Translation(container.specimenQuantity ^definition, en-US, The amount of material collected\, in a specified measurement.)
+* insert Translation(container.specimenQuantity ^definition, de-DE, Die Menge des gesammelten Materials.)
+* insert Translation(container.specimenQuantity ^definition, en-US, The amount of material collected.)
 
 * insert Translation(status ^short, de-DE, Verfügbarkeitsstatus)
 * insert Translation(status ^short, en-US, Availability status)
-* insert Translation(status ^definition, de-DE, Der Status der Probe in Bezug auf die Verfügbarkeit für Forschung oder andere Zwecke.)
-* insert Translation(status ^definition, en-US, The status of the specimen in terms of its availability for research or other purposes.)
+* insert Translation(status ^definition, de-DE, Der Status der Probe in Bezug auf die Verfügbarkeit für Forschung.)
+* insert Translation(status ^definition, en-US, The status of the specimen in terms of its availability for research.)
 
 * insert Translation(note ^short, de-DE, Projektnutzung)
 * insert Translation(note ^short, en-US, Project usage)
@@ -35,13 +35,13 @@ and processing.timePeriod and processing.procedure and processing.additive and r
 
 * insert Translation(parent ^short, de-DE, Ist gewonnen aus)
 * insert Translation(parent ^short, en-US, Derived from)
-* insert Translation(parent ^definition, de-DE, Referenz auf eine übergeordnete Probe\, von der diese Probe gewonnen wurde.)
+* insert Translation(parent ^definition, de-DE, Referenz auf eine übergeordnete Probe\, aus der diese Probe gewonnen wurde.)
 * insert Translation(parent ^definition, en-US, Reference to a parent specimen from which this specimen was derived.)
 
 * insert Translation(container ^short, de-DE, Probenbehältnis)
 * insert Translation(container ^short, en-US, Specimen container)
-* insert Translation(container ^definition, de-DE, Informationen über den Behälter\, in dem die Probe aufbewahrt wird\, einschließlich des Containertyps und der Kapazität.)
-* insert Translation(container ^definition, en-US, Information about the container in which the specimen is stored\, including the container type and capacity.)
+* insert Translation(container ^definition, de-DE, Informationen über den Behälter\, in dem die Probe aufbewahrt wird.)
+* insert Translation(container ^definition, en-US, Information about the container in which the specimen is stored.)
 
 * insert Translation(container.type ^short, de-DE, Containertyp)
 * insert Translation(container.type ^short, en-US, Container type)
@@ -100,8 +100,8 @@ and processing.timePeriod and processing.procedure and processing.additive and r
 
 * insert Translation(request ^short, de-DE, Entnahme-ID)
 * insert Translation(request ^short, en-US, Collection ID)
-* insert Translation(request ^definition, de-DE, Der Identifier der Probenentnahme\, falls vorhanden.)
-* insert Translation(request ^definition, en-US, The identifier for the specimen collection\, if available.)
+* insert Translation(request ^definition, de-DE, Der Identifier der Probenentnahme.)
+* insert Translation(request ^definition, en-US, The identifier for the specimen collection.)
 
 * insert Translation(subject ^short, de-DE, Patient:in)
 * insert Translation(subject ^short, en-US, Patient)
