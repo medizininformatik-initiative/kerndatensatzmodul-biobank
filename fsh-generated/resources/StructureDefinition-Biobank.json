@@ -625,6 +625,12 @@
           {
             "code": "dateTime"
           }
+        ],
+        "mapping": [
+          {
+            "identity": "FHIR",
+            "map": "Specimen.processing[lagerprozess].timePeriod.start"
+          }
         ]
       },
       {
@@ -637,6 +643,12 @@
         "type": [
           {
             "code": "dateTime"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "FHIR",
+            "map": "Specimen.processing[lagerprozess].timePeriod.end"
           }
         ]
       },
