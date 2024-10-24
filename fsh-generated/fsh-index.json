@@ -133,7 +133,7 @@
     "fshType": "Profile",
     "fshFile": "profiles\\ProfileOrganizationSammlungBiobank.fsh",
     "startLine": 1,
-    "endLine": 38
+    "endLine": 64
   },
   {
     "outputFile": "StructureDefinition-Specimen.json",
@@ -141,7 +141,7 @@
     "fshType": "Profile",
     "fshFile": "profiles\\ProfileSpecimenBioprobe.fsh",
     "startLine": 1,
-    "endLine": 9
+    "endLine": 19
   },
   {
     "outputFile": "StructureDefinition-SpecimenCore.json",
@@ -149,7 +149,7 @@
     "fshType": "Profile",
     "fshFile": "profiles\\ProfileSpecimenBioprobeCore.fsh",
     "startLine": 1,
-    "endLine": 83
+    "endLine": 184
   },
   {
     "outputFile": "StructureDefinition-Substance.json",
