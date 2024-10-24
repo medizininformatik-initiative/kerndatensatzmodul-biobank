@@ -2,6 +2,7 @@
   "resourceType": "StructureDefinition",
   "id": "SpecimenCore",
   "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/SpecimenCore",
+  "version": "2025.0.0-rc",
   "name": "ProfileSpecimenBioprobeCore",
   "title": "Profile - Specimen - Bioprobe - Core",
   "status": "active",
@@ -631,7 +632,7 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "Entnahmestelle"
+                  "valueString": "Anatomische Lokalisation gemäß icd-o-3"
                 }
               ]
             },

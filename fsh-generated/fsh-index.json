@@ -5,7 +5,7 @@
     "fshType": "CodeSystem",
     "fshFile": "codesystems\\CodeSystemContactType.fsh",
     "startLine": 1,
-    "endLine": 5
+    "endLine": 7
   },
   {
     "outputFile": "CodeSystem-MIABISCollectionType.json",
@@ -13,7 +13,7 @@
     "fshType": "CodeSystem",
     "fshFile": "codesystems\\CodeSystemMIABISCollectionType.fsh",
     "startLine": 1,
-    "endLine": 22
+    "endLine": 24
   },
   {
     "outputFile": "ConceptMap-SPRECFixationTypeMap.json",
@@ -93,7 +93,7 @@
     "fshType": "Extension",
     "fshFile": "extensions\\ExtensionBeschreibungSammlung.fsh",
     "startLine": 1,
-    "endLine": 6
+    "endLine": 8
   },
   {
     "outputFile": "StructureDefinition-Biobank.json",
@@ -109,7 +109,7 @@
     "fshType": "Extension",
     "fshFile": "extensions\\ExtensionDiagnose.fsh",
     "startLine": 1,
-    "endLine": 6
+    "endLine": 8
   },
   {
     "outputFile": "StructureDefinition-EinstellungBlutversorgung.json",
@@ -117,7 +117,7 @@
     "fshType": "Extension",
     "fshFile": "extensions\\ExtensionEinstellungBlutversorgung.fsh",
     "startLine": 1,
-    "endLine": 6
+    "endLine": 8
   },
   {
     "outputFile": "StructureDefinition-KontaktRolle.json",
@@ -125,7 +125,7 @@
     "fshType": "Extension",
     "fshFile": "extensions\\ExtensionKontaktRolle.fsh",
     "startLine": 1,
-    "endLine": 6
+    "endLine": 8
   },
   {
     "outputFile": "StructureDefinition-Organization.json",
@@ -133,7 +133,7 @@
     "fshType": "Profile",
     "fshFile": "profiles\\ProfileOrganizationSammlungBiobank.fsh",
     "startLine": 1,
-    "endLine": 64
+    "endLine": 66
   },
   {
     "outputFile": "StructureDefinition-Specimen.json",
@@ -141,7 +141,7 @@
     "fshType": "Profile",
     "fshFile": "profiles\\ProfileSpecimenBioprobe.fsh",
     "startLine": 1,
-    "endLine": 19
+    "endLine": 20
   },
   {
     "outputFile": "StructureDefinition-SpecimenCore.json",
@@ -149,7 +149,7 @@
     "fshType": "Profile",
     "fshFile": "profiles\\ProfileSpecimenBioprobeCore.fsh",
     "startLine": 1,
-    "endLine": 184
+    "endLine": 186
   },
   {
     "outputFile": "StructureDefinition-Substance.json",
@@ -157,7 +157,7 @@
     "fshType": "Profile",
     "fshFile": "profiles\\ProfileSubstanceAdditiv.fsh",
     "startLine": 1,
-    "endLine": 8
+    "endLine": 10
   },
   {
     "outputFile": "StructureDefinition-Temperaturbedingungen.json",
@@ -165,7 +165,7 @@
     "fshType": "Extension",
     "fshFile": "extensions\\ExtensionTemperaturbedingungen.fsh",
     "startLine": 1,
-    "endLine": 12
+    "endLine": 14
   },
   {
     "outputFile": "StructureDefinition-VerwaltendeOrganisation.json",
@@ -173,7 +173,7 @@
     "fshType": "Extension",
     "fshFile": "extensions\\ExtensionVerwaltendeOrganisation.fsh",
     "startLine": 1,
-    "endLine": 6
+    "endLine": 8
   },
   {
     "outputFile": "Substance-Heparin.json",
@@ -189,7 +189,7 @@
     "fshType": "ValueSet",
     "fshFile": "valuesets\\ValueSetAdditive.fsh",
     "startLine": 1,
-    "endLine": 5
+    "endLine": 7
   },
   {
     "outputFile": "ValueSet-containertyp.json",
@@ -197,7 +197,7 @@
     "fshType": "ValueSet",
     "fshFile": "valuesets\\ValueSetContainertyp.fsh",
     "startLine": 1,
-    "endLine": 5
+    "endLine": 7
   },
   {
     "outputFile": "ValueSet-icd-o-3-topography.json",
@@ -205,7 +205,7 @@
     "fshType": "ValueSet",
     "fshFile": "valuesets\\ValueSetICDO3Topography.fsh",
     "startLine": 1,
-    "endLine": 5
+    "endLine": 7
   },
   {
     "outputFile": "ValueSet-probenart.json",
@@ -213,7 +213,7 @@
     "fshType": "ValueSet",
     "fshFile": "valuesets\\ValueSetProbenart.fsh",
     "startLine": 1,
-    "endLine": 5
+    "endLine": 7
   },
   {
     "outputFile": "ValueSet-sct-body-structures.json",
@@ -221,7 +221,7 @@
     "fshType": "ValueSet",
     "fshFile": "valuesets\\ValueSetSCTBodyStructure.fsh",
     "startLine": 1,
-    "endLine": 5
+    "endLine": 7
   },
   {
     "outputFile": "ValueSet-sct-lab-procedure.json",
@@ -229,6 +229,6 @@
     "fshType": "ValueSet",
     "fshFile": "valuesets\\ValueSetSCTLaboratoryProcedure.fsh",
     "startLine": 1,
-    "endLine": 5
+    "endLine": 7
   }
 ]

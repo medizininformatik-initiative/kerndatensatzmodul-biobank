@@ -2,6 +2,7 @@
   "resourceType": "StructureDefinition",
   "id": "Specimen",
   "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/Specimen",
+  "version": "2025.0.0-rc",
   "name": "ProfileSpecimenBioprobe",
   "title": "Profile - Specimen - Bioprobe",
   "status": "active",
