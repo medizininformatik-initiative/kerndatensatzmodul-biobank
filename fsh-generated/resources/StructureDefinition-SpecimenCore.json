@@ -2,7 +2,6 @@
   "resourceType": "StructureDefinition",
   "id": "SpecimenCore",
   "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/SpecimenCore",
-  "version": "2025.0.4",
   "name": "ProfileSpecimenBioprobeCore",
   "title": "Profile - Specimen - Bioprobe - Core",
   "status": "active",
@@ -19,7 +18,6 @@
         "id": "Specimen.identifier",
         "path": "Specimen.identifier",
         "mustSupport": true,
-        "short": "Proben-ID",
         "_short": {
           "extension": [
             {
@@ -50,7 +48,6 @@
             }
           ]
         },
-        "definition": "Einrichtungsinterner Identifier der Probe.",
         "_definition": {
           "extension": [
             {
@@ -81,72 +78,10 @@
             }
           ]
         }
-        },
+      },
       {
         "id": "Specimen.status",
         "path": "Specimen.status",
-        "short": "Verfügbarkeitsstatus",
-        "_short": {
-          "extension": [
-            {
-              "url": "http://hl7.org/fhir/StructureDefinition/translation",
-              "extension": [
-                {
-                  "url": "lang",
-                  "valueCode": "de-DE"
-                },
-                {
-                  "url": "content",
-                  "valueString": "Verfügbarkeitsstatus"
-                }
-              ]
-            },
-            {
-              "url": "http://hl7.org/fhir/StructureDefinition/translation",
-              "extension": [
-                {
-                  "url": "lang",
-                  "valueCode": "en-US"
-                },
-                {
-                  "url": "content",
-                  "valueString": "Availability status"
-                }
-              ]
-            }
-          ]
-        },
-        "definition": "Der Status der Probe in Bezug auf die Verfügbarkeit für Forschung.",
-        "_definition": {
-          "extension": [
-            {
-              "url": "http://hl7.org/fhir/StructureDefinition/translation",
-              "extension": [
-                {
-                  "url": "lang",
-                  "valueCode": "de-DE"
-                },
-                {
-                  "url": "content",
-                  "valueString": "Der Status der Probe in Bezug auf die Verfügbarkeit für Forschung."
-                }
-              ]
-            },
-            {
-              "url": "http://hl7.org/fhir/StructureDefinition/translation",
-              "extension": [
-                {
-                  "url": "lang",
-                  "valueCode": "en-US"
-                },
-                {
-                  "url": "content",
-                  "valueString": "The status of the specimen in terms of its availability for research."
-                }
-              ]
-            }
-          ]
-        },
         "min": 1,
         "mustSupport": true,
         "_short": {
@@ -213,68 +148,6 @@
       {
         "id": "Specimen.type",
         "path": "Specimen.type",
-        "short": "Probenart",
-        "_short": {
-          "extension": [
-            {
-              "url": "http://hl7.org/fhir/StructureDefinition/translation",
-              "extension": [
-                {
-                  "url": "lang",
-                  "valueCode": "de-DE"
-                },
-                {
-                  "url": "content",
-                  "valueString": "Probenart"
-                }
-              ]
-            },
-            {
-              "url": "http://hl7.org/fhir/StructureDefinition/translation",
-              "extension": [
-                {
-                  "url": "lang",
-                  "valueCode": "en-US"
-                },
-                {
-                  "url": "content",
-                  "valueString": "Specimen type"
-                }
-              ]
-            }
-          ]
-        },
-        "definition": "Die Art der Probe, codiert in SNOMED CT.",
-        "_definition": {
-          "extension": [
-            {
-              "url": "http://hl7.org/fhir/StructureDefinition/translation",
-              "extension": [
-                {
-                  "url": "lang",
-                  "valueCode": "de-DE"
-                },
-                {
-                  "url": "content",
-                  "valueString": "Die Art der Probe, codiert in SNOMED CT."
-                }
-              ]
-            },
-            {
-              "url": "http://hl7.org/fhir/StructureDefinition/translation",
-              "extension": [
-                {
-                  "url": "lang",
-                  "valueCode": "en-US"
-                },
-                {
-                  "url": "content",
-                  "valueString": "The type of the specimen, encoded as SNOMED CT code."
-                }
-              ]
-            }
-          ]
-        },
         "min": 1,
         "mustSupport": true,
         "_short": {
@@ -371,68 +244,6 @@
       {
         "id": "Specimen.subject",
         "path": "Specimen.subject",
-        "short": "Patient:in",
-        "_short": {
-          "extension": [
-            {
-              "url": "http://hl7.org/fhir/StructureDefinition/translation",
-              "extension": [
-                {
-                  "url": "lang",
-                  "valueCode": "de-DE"
-                },
-                {
-                  "url": "content",
-                  "valueString": "Patient:in"
-                }
-              ]
-            },
-            {
-              "url": "http://hl7.org/fhir/StructureDefinition/translation",
-              "extension": [
-                {
-                  "url": "lang",
-                  "valueCode": "en-US"
-                },
-                {
-                  "url": "content",
-                  "valueString": "Patient"
-                }
-              ]
-            }
-          ]
-        },
-        "definition": "Verweis auf die Person, von der die Probe stammt.",
-        "_definition": {
-          "extension": [
-            {
-              "url": "http://hl7.org/fhir/StructureDefinition/translation",
-              "extension": [
-                {
-                  "url": "lang",
-                  "valueCode": "de-DE"
-                },
-                {
-                  "url": "content",
-                  "valueString": "Verweis auf die Person, von der die Probe stammt."
-                }
-              ]
-            },
-            {
-              "url": "http://hl7.org/fhir/StructureDefinition/translation",
-              "extension": [
-                {
-                  "url": "lang",
-                  "valueCode": "en-US"
-                },
-                {
-                  "url": "content",
-                  "valueString": "Reference to the person from whom the specimen was collected."
-                }
-              ]
-            }
-          ]
-        },
         "min": 1,
         "type": [
           {
@@ -508,7 +319,6 @@
         "id": "Specimen.parent",
         "path": "Specimen.parent",
         "mustSupport": true,
-        "short": "Ist gewonnen aus",
         "_short": {
           "extension": [
             {
@@ -539,7 +349,6 @@
             }
           ]
         },
-        "definition": "Referenz auf eine übergeordnete Probe, aus der diese Probe gewonnen wurde.",
         "_definition": {
           "extension": [
             {
@@ -570,12 +379,11 @@
             }
           ]
         }
-        },
+      },
       {
         "id": "Specimen.request",
         "path": "Specimen.request",
         "mustSupport": true,
-        "short": "Entnahme-ID",
         "_short": {
           "extension": [
             {
@@ -606,7 +414,6 @@
             }
           ]
         },
-        "definition": "Der Identifier der Probenentnahme.",
         "_definition": {
           "extension": [
             {
@@ -641,68 +448,6 @@
       {
         "id": "Specimen.collection",
         "path": "Specimen.collection",
-        "short": "Probenentnahme",
-        "_short": {
-          "extension": [
-            {
-              "url": "http://hl7.org/fhir/StructureDefinition/translation",
-              "extension": [
-                {
-                  "url": "lang",
-                  "valueCode": "de-DE"
-                },
-                {
-                  "url": "content",
-                  "valueString": "Probenentnahme"
-                }
-              ]
-            },
-            {
-              "url": "http://hl7.org/fhir/StructureDefinition/translation",
-              "extension": [
-                {
-                  "url": "lang",
-                  "valueCode": "en-US"
-                },
-                {
-                  "url": "content",
-                  "valueString": "Specimen sampling"
-                }
-              ]
-            }
-          ]
-        },
-        "definition": "Informationen über den Prozess der Probenentnahme, einschließlich Entnahmezeitpunkt und -stelle.",
-        "_definition": {
-          "extension": [
-            {
-              "url": "http://hl7.org/fhir/StructureDefinition/translation",
-              "extension": [
-                {
-                  "url": "lang",
-                  "valueCode": "de-DE"
-                },
-                {
-                  "url": "content",
-                  "valueString": "Informationen über den Prozess der Probenentnahme, einschließlich Entnahmezeitpunkt und -stelle."
-                }
-              ]
-            },
-            {
-              "url": "http://hl7.org/fhir/StructureDefinition/translation",
-              "extension": [
-                {
-                  "url": "lang",
-                  "valueCode": "en-US"
-                },
-                {
-                  "url": "content",
-                  "valueString": "Information about the specimen collection process, including collection time and site."
-                }
-              ]
-            }
-          ]
-        },
         "min": 1,
         "mustSupport": true,
         "_short": {
@@ -799,68 +544,6 @@
       {
         "id": "Specimen.collection.collected[x]",
         "path": "Specimen.collection.collected[x]",
-        "short": "Entnahmezeitpunkt",
-        "_short": {
-          "extension": [
-            {
-              "url": "http://hl7.org/fhir/StructureDefinition/translation",
-              "extension": [
-                {
-                  "url": "lang",
-                  "valueCode": "de-DE"
-                },
-                {
-                  "url": "content",
-                  "valueString": "Entnahmezeitpunkt"
-                }
-              ]
-            },
-            {
-              "url": "http://hl7.org/fhir/StructureDefinition/translation",
-              "extension": [
-                {
-                  "url": "lang",
-                  "valueCode": "en-US"
-                },
-                {
-                  "url": "content",
-                  "valueString": "Sampling time"
-                }
-              ]
-            }
-          ]
-        },
-        "definition": "Der Zeitpunkt, zu dem die Probe entnommen oder gesammelt wurde.",
-        "_definition": {
-          "extension": [
-            {
-              "url": "http://hl7.org/fhir/StructureDefinition/translation",
-              "extension": [
-                {
-                  "url": "lang",
-                  "valueCode": "de-DE"
-                },
-                {
-                  "url": "content",
-                  "valueString": "Der Zeitpunkt, zu dem die Probe entnommen oder gesammelt wurde."
-                }
-              ]
-            },
-            {
-              "url": "http://hl7.org/fhir/StructureDefinition/translation",
-              "extension": [
-                {
-                  "url": "lang",
-                  "valueCode": "en-US"
-                },
-                {
-                  "url": "content",
-                  "valueString": "The time when the specimen was collected or obtained."
-                }
-              ]
-            }
-          ]
-        },
         "min": 1,
         "mustSupport": true,
         "_short": {
@@ -927,68 +610,6 @@
       {
         "id": "Specimen.collection.bodySite",
         "path": "Specimen.collection.bodySite",
-        "short": "Anatomische Lokalisation",
-        "_short": {
-          "extension": [
-            {
-              "url": "http://hl7.org/fhir/StructureDefinition/translation",
-              "extension": [
-                {
-                  "url": "lang",
-                  "valueCode": "de-DE"
-                },
-                {
-                  "url": "content",
-                  "valueString": "Anatomische Lokalisation"
-                }
-              ]
-            },
-            {
-              "url": "http://hl7.org/fhir/StructureDefinition/translation",
-              "extension": [
-                {
-                  "url": "lang",
-                  "valueCode": "en-US"
-                },
-                {
-                  "url": "content",
-                  "valueString": "Anatomical localisation"
-                }
-              ]
-            }
-          ]
-        },
-        "definition": "Die Körperstelle, von der die Probe entnommen wurde gemäß icd-o-3.",
-        "_definition": {
-          "extension": [
-            {
-              "url": "http://hl7.org/fhir/StructureDefinition/translation",
-              "extension": [
-                {
-                  "url": "lang",
-                  "valueCode": "de-DE"
-                },
-                {
-                  "url": "content",
-                  "valueString": "Die Körperstelle, von der die Probe entnommen wurde gemäß icd-o-3."
-                }
-              ]
-            },
-            {
-              "url": "http://hl7.org/fhir/StructureDefinition/translation",
-              "extension": [
-                {
-                  "url": "lang",
-                  "valueCode": "en-US"
-                },
-                {
-                  "url": "content",
-                  "valueString": "The body site from which the specimen was collected according to icd-o-3."
-                }
-              ]
-            }
-          ]
-        },
         "constraint": [
           {
             "key": "mii-bb-1",
@@ -1121,7 +742,6 @@
           "rules": "open"
         },
         "mustSupport": true,
-        "short": "Nüchternstatus",
         "_short": {
           "extension": [
             {
@@ -1152,7 +772,6 @@
             }
           ]
         },
-        "definition": "Der Nüchternstatus der Person zum Zeitpunkt der Probenentnahme.",
         "_definition": {
           "extension": [
             {
@@ -1183,7 +802,7 @@
             }
           ]
         }
-        },
+      },
       {
         "id": "Specimen.collection.fastingStatus[x]:fastingStatusCodeableConcept",
         "path": "Specimen.collection.fastingStatus[x]",
@@ -1213,7 +832,6 @@
           "rules": "open"
         },
         "mustSupport": true,
-        "short": "Probenverarbeitung",
         "_short": {
           "extension": [
             {
@@ -1225,7 +843,7 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "Probenverarbeitung"
+                  "valueString": "Verarbeitungsprozess"
                 }
               ]
             },
@@ -1244,7 +862,6 @@
             }
           ]
         },
-        "definition": "Details zur Verarbeitung der Probe, einschließlich Prozeduren und Verarbeitungszeitraum.",
         "_definition": {
           "extension": [
             {
@@ -1310,68 +927,6 @@
       {
         "id": "Specimen.processing.procedure",
         "path": "Specimen.processing.procedure",
-        "short": "Verarbeitungstyp",
-        "_short": {
-          "extension": [
-            {
-              "url": "http://hl7.org/fhir/StructureDefinition/translation",
-              "extension": [
-                {
-                  "url": "lang",
-                  "valueCode": "de-DE"
-                },
-                {
-                  "url": "content",
-                  "valueString": "Verarbeitungstyp"
-                }
-              ]
-            },
-            {
-              "url": "http://hl7.org/fhir/StructureDefinition/translation",
-              "extension": [
-                {
-                  "url": "lang",
-                  "valueCode": "en-US"
-                },
-                {
-                  "url": "content",
-                  "valueString": "Processing procedure"
-                }
-              ]
-            }
-          ]
-        },
-        "definition": "Die angewendete Prozedur zur Verarbeitung der Probe, z.B. Zentrifugation.",
-        "_definition": {
-          "extension": [
-            {
-              "url": "http://hl7.org/fhir/StructureDefinition/translation",
-              "extension": [
-                {
-                  "url": "lang",
-                  "valueCode": "de-DE"
-                },
-                {
-                  "url": "content",
-                  "valueString": "Die angewendete Prozedur zur Verarbeitung der Probe, z.B. Zentrifugation."
-                }
-              ]
-            },
-            {
-              "url": "http://hl7.org/fhir/StructureDefinition/translation",
-              "extension": [
-                {
-                  "url": "lang",
-                  "valueCode": "en-US"
-                },
-                {
-                  "url": "content",
-                  "valueString": "The procedure applied to process the specimen, e.g. centrifugation."
-                }
-              ]
-            }
-          ]
-        },
         "min": 1,
         "mustSupport": true,
         "binding": {
@@ -1469,68 +1024,6 @@
       {
         "id": "Specimen.processing.additive",
         "path": "Specimen.processing.additive",
-        "short": "Additive bei Verarbeitung",
-        "_short": {
-          "extension": [
-            {
-              "url": "http://hl7.org/fhir/StructureDefinition/translation",
-              "extension": [
-                {
-                  "url": "lang",
-                  "valueCode": "de-DE"
-                },
-                {
-                  "url": "content",
-                  "valueString": "Additive bei Verarbeitung"
-                }
-              ]
-            },
-            {
-              "url": "http://hl7.org/fhir/StructureDefinition/translation",
-              "extension": [
-                {
-                  "url": "lang",
-                  "valueCode": "en-US"
-                },
-                {
-                  "url": "content",
-                  "valueString": "Processing additives"
-                }
-              ]
-            }
-          ]
-        },
-        "definition": "Zusatzstoffe, die während der Probenverarbeitung verwendet wurden, z.B. Fixierungsmittel.",
-        "_definition": {
-          "extension": [
-            {
-              "url": "http://hl7.org/fhir/StructureDefinition/translation",
-              "extension": [
-                {
-                  "url": "lang",
-                  "valueCode": "de-DE"
-                },
-                {
-                  "url": "content",
-                  "valueString": "Zusatzstoffe, die während der Probenverarbeitung verwendet wurden, z.B. Fixierungsmittel."
-                }
-              ]
-            },
-            {
-              "url": "http://hl7.org/fhir/StructureDefinition/translation",
-              "extension": [
-                {
-                  "url": "lang",
-                  "valueCode": "en-US"
-                },
-                {
-                  "url": "content",
-                  "valueString": "Additives used during the specimen processing, e.g. fixatives."
-                }
-              ]
-            }
-          ]
-        },
         "type": [
           {
             "code": "Reference",
@@ -1620,68 +1113,6 @@
         "id": "Specimen.processing.time[x]:timePeriod",
         "path": "Specimen.processing.time[x]",
         "sliceName": "timePeriod",
-        "short": "Verarbeitungszeitraum",
-        "_short": {
-          "extension": [
-            {
-              "url": "http://hl7.org/fhir/StructureDefinition/translation",
-              "extension": [
-                {
-                  "url": "lang",
-                  "valueCode": "de-DE"
-                },
-                {
-                  "url": "content",
-                  "valueString": "Verarbeitungszeitraum"
-                }
-              ]
-            },
-            {
-              "url": "http://hl7.org/fhir/StructureDefinition/translation",
-              "extension": [
-                {
-                  "url": "lang",
-                  "valueCode": "en-US"
-                },
-                {
-                  "url": "content",
-                  "valueString": "Processing period"
-                }
-              ]
-            }
-          ]
-        },
-        "definition": "Der Zeitraum, in dem die Probe verarbeitet wurde.",
-        "_definition": {
-          "extension": [
-            {
-              "url": "http://hl7.org/fhir/StructureDefinition/translation",
-              "extension": [
-                {
-                  "url": "lang",
-                  "valueCode": "de-DE"
-                },
-                {
-                  "url": "content",
-                  "valueString": "Der Zeitraum, in dem die Probe verarbeitet wurde."
-                }
-              ]
-            },
-            {
-              "url": "http://hl7.org/fhir/StructureDefinition/translation",
-              "extension": [
-                {
-                  "url": "lang",
-                  "valueCode": "en-US"
-                },
-                {
-                  "url": "content",
-                  "valueString": "The time period during which the specimen was processed."
-                }
-              ]
-            }
-          ]
-        },
         "min": 0,
         "max": "1",
         "type": [
@@ -1822,7 +1253,6 @@
         "id": "Specimen.container",
         "path": "Specimen.container",
         "mustSupport": true,
-        "short": "Probenbehältnis",
         "_short": {
           "extension": [
             {
@@ -1853,7 +1283,6 @@
             }
           ]
         },
-        "definition": "Informationen über den Behälter, in dem die Probe aufbewahrt wird.",
         "_definition": {
           "extension": [
             {
@@ -1888,68 +1317,6 @@
       {
         "id": "Specimen.container.type",
         "path": "Specimen.container.type",
-        "short": "Containertyp",
-        "_short": {
-          "extension": [
-            {
-              "url": "http://hl7.org/fhir/StructureDefinition/translation",
-              "extension": [
-                {
-                  "url": "lang",
-                  "valueCode": "de-DE"
-                },
-                {
-                  "url": "content",
-                  "valueString": "Containertyp"
-                }
-              ]
-            },
-            {
-              "url": "http://hl7.org/fhir/StructureDefinition/translation",
-              "extension": [
-                {
-                  "url": "lang",
-                  "valueCode": "en-US"
-                },
-                {
-                  "url": "content",
-                  "valueString": "Container type"
-                }
-              ]
-            }
-          ]
-        },
-        "definition": "Der Typ des Probencontainers, der für diese Probe verwendet wurde.",
-        "_definition": {
-          "extension": [
-            {
-              "url": "http://hl7.org/fhir/StructureDefinition/translation",
-              "extension": [
-                {
-                  "url": "lang",
-                  "valueCode": "de-DE"
-                },
-                {
-                  "url": "content",
-                  "valueString": "Der Typ des Probencontainers, der für diese Probe verwendet wurde."
-                }
-              ]
-            },
-            {
-              "url": "http://hl7.org/fhir/StructureDefinition/translation",
-              "extension": [
-                {
-                  "url": "lang",
-                  "valueCode": "en-US"
-                },
-                {
-                  "url": "content",
-                  "valueString": "The type of container used for this specimen."
-                }
-              ]
-            }
-          ]
-        },
         "min": 1,
         "mustSupport": true,
         "binding": {
@@ -2021,7 +1388,6 @@
         "id": "Specimen.container.capacity",
         "path": "Specimen.container.capacity",
         "mustSupport": true,
-        "short": "Containerkapazität",
         "_short": {
           "extension": [
             {
@@ -2033,7 +1399,7 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "Containerkapazität"
+                  "valueString": "Kapazität"
                 }
               ]
             },
@@ -2052,7 +1418,6 @@
             }
           ]
         },
-        "definition": "Die maximale Kapazität des Containers, der für die Probe verwendet wurde.",
         "_definition": {
           "extension": [
             {
@@ -2088,7 +1453,6 @@
         "id": "Specimen.container.specimenQuantity",
         "path": "Specimen.container.specimenQuantity",
         "mustSupport": true,
-        "short": "Probenmenge",
         "_short": {
           "extension": [
             {
@@ -2119,7 +1483,6 @@
             }
           ]
         },
-        "definition": "Die Menge des gesammelten Materials.",
         "_definition": {
           "extension": [
             {
@@ -2165,7 +1528,6 @@
           "rules": "open"
         },
         "mustSupport": true,
-        "short": "Additiv",
         "_short": {
           "extension": [
             {
@@ -2177,7 +1539,7 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "Additiv"
+                  "valueString": "Zusatzstoffe"
                 }
               ]
             },
@@ -2196,7 +1558,6 @@
             }
           ]
         },
-        "definition": "Zusatzstoffe, die im Probenbehälter enthalten sind z.B. wie Konservierungsmittel.",
         "_definition": {
           "extension": [
             {
@@ -2247,7 +1608,6 @@
         "id": "Specimen.note",
         "path": "Specimen.note",
         "mustSupport": true,
-        "short": "Projektnutzung",
         "_short": {
           "extension": [
             {
@@ -2278,7 +1638,6 @@
             }
           ]
         },
-        "definition": "Freitextangabe zur Verwendung der Probe in spezifischen Projekten.",
         "_definition": {
           "extension": [
             {
