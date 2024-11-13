@@ -475,7 +475,7 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "Specimen collection"
+                  "valueString": "Specimen sampling"
                 }
               ]
             }
@@ -571,7 +571,7 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "Collection time"
+                  "valueString": "Sampling time"
                 }
               ]
             }
@@ -632,7 +632,7 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "Anatomische Lokalisation gemäß icd-o-3"
+                  "valueString": "Anatomische Lokalisation"
                 }
               ]
             },
@@ -645,7 +645,7 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "Collection site"
+                  "valueString": "anatomical localisation"
                 }
               ]
             }
@@ -662,7 +662,7 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "Die Körperstelle, von der die Probe entnommen wurde."
+                  "valueString": "Die Körperstelle, von der die Probe entnommen wurde gemäß icd-o-3."
                 }
               ]
             },
@@ -675,7 +675,7 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "The body site from which the specimen was collected."
+                  "valueString": "The body site from which the specimen was collected according to icd-o-3."
                 }
               ]
             }
@@ -844,7 +844,7 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "Verarbeitungsprozess"
+                  "valueString": "Probenverarbeitung"
                 }
               ]
             },
@@ -1400,7 +1400,7 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "Kapazität"
+                  "valueString": "Containerkapazität"
                 }
               ]
             },
@@ -1540,7 +1540,7 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "Zusatzstoffe"
+                  "valueString": "Additiv"
                 }
               ]
             },
