@@ -2,11 +2,17 @@
   "resourceType": "StructureDefinition",
   "id": "Biobank",
   "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/LogicalModel/Biobank",
-  "title": "Modul Biobank",
-  "description": "Logische Repräsentation des Erweiterungsmodulesmoduls Biobank",
-  "name": "Biobank",
+  "version": "2025.0.1",
+  "name": "MII_LM_Biobank",
   "status": "active",
+  "description": "Logische Repräsentation des Erweiterungsmoduls Biobank",
   "fhirVersion": "4.0.1",
+  "mapping": [
+    {
+      "identity": "FHIR",
+      "name": "Biobank LogicalModel FHIR Mapping"
+    }
+  ],
   "kind": "logical",
   "abstract": false,
   "type": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/LogicalModel/Biobank",
@@ -15,317 +21,664 @@
   "differential": {
     "element": [
       {
-        "path": "Biobank"
+        "id": "Biobank",
+        "path": "Biobank",
+        "short": "MII_LM_Biobank",
+        "definition": "Logische Repräsentation des Erweiterungsmoduls Biobank"
       },
       {
+        "id": "Biobank.Bioprobe",
         "path": "Biobank.Bioprobe",
-        "definition": "Bioprobe",
+        "short": "Details zu einer Bioprobe",
+        "definition": "Details zu einer Bioprobe",
+        "min": 0,
+        "max": "*",
         "type": [
           {
             "code": "BackboneElement"
           }
+        ],
+        "mapping": [
+          {
+            "identity": "FHIR",
+            "map": "Specimen"
+          }
         ]
       },
       {
+        "id": "Biobank.Bioprobe.Proben-ID",
         "path": "Biobank.Bioprobe.Proben-ID",
+        "short": "Einrichtungsinterner Identifier der Probe",
         "definition": "Einrichtungsinterner Identifier der Probe",
+        "min": 0,
+        "max": "1",
         "type": [
           {
             "code": "Identifier"
           }
+        ],
+        "mapping": [
+          {
+            "identity": "FHIR",
+            "map": "Specimen.identifier"
+          }
         ]
       },
       {
+        "id": "Biobank.Bioprobe.Probenart",
         "path": "Biobank.Bioprobe.Probenart",
-        "definition": "Art der Probe; SCT vepflichtend; Beschraenkung auf Specimen ValueSet erwuenscht.",
+        "short": "Art der Probe; SCT verpflichtend; Beschränkung auf Specimen ValueSet erwünscht.",
+        "definition": "Art der Probe; SCT verpflichtend; Beschränkung auf Specimen ValueSet erwünscht.",
+        "min": 0,
+        "max": "1",
         "type": [
           {
             "code": "CodeableConcept"
           }
+        ],
+        "mapping": [
+          {
+            "identity": "FHIR",
+            "map": "Specimen.type"
+          }
         ]
       },
       {
+        "id": "Biobank.Bioprobe.Probenmenge",
         "path": "Biobank.Bioprobe.Probenmenge",
+        "short": "Probenmenge",
         "definition": "Probenmenge",
+        "min": 0,
+        "max": "1",
         "type": [
           {
             "code": "Quantity"
           }
+        ],
+        "mapping": [
+          {
+            "identity": "FHIR",
+            "map": "Specimen.container.specimenQuantity"
+          }
         ]
       },
       {
+        "id": "Biobank.Bioprobe.Verfuegbarkeitsstatus",
         "path": "Biobank.Bioprobe.Verfuegbarkeitsstatus",
+        "short": "Status der Probe / des Materials hinsichtlich der Verfügbarkeit",
         "definition": "Status der Probe / des Materials hinsichtlich der Verfügbarkeit",
+        "min": 0,
+        "max": "1",
         "type": [
           {
-            "code": "Code"
+            "code": "code"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "FHIR",
+            "map": "Specimen.status"
           }
         ]
       },
       {
+        "id": "Biobank.Bioprobe.Projektverwendung",
         "path": "Biobank.Bioprobe.Projektverwendung",
+        "short": "Freitextangabe zur Verwendung der Probe in Projekten",
         "definition": "Freitextangabe zur Verwendung der Probe in Projekten",
+        "min": 0,
+        "max": "1",
         "type": [
           {
-            "code": "String"
+            "code": "string"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "FHIR",
+            "map": "Specimen.note"
           }
         ]
       },
       {
+        "id": "Biobank.Bioprobe.SonstigeEigenschaften",
         "path": "Biobank.Bioprobe.SonstigeEigenschaften",
+        "short": "Freitextangabe weiterer Probeneigenschaften",
         "definition": "Freitextangabe weiterer Probeneigenschaften",
+        "min": 0,
+        "max": "1",
         "type": [
           {
-            "code": "String"
+            "code": "string"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "FHIR",
+            "map": "Specimen.note"
           }
         ]
       },
       {
+        "id": "Biobank.Bioprobe.Ist-gewonnen-aus",
         "path": "Biobank.Bioprobe.Ist-gewonnen-aus",
+        "short": "Referenz auf Bioprobe",
         "definition": "Referenz auf Bioprobe",
+        "min": 0,
+        "max": "1",
         "type": [
           {
             "code": "Reference"
           }
+        ],
+        "mapping": [
+          {
+            "identity": "FHIR",
+            "map": "Specimen.parent"
+          }
         ]
       },
       {
+        "id": "Biobank.Bioprobe.FestgestellteDiagnose",
         "path": "Biobank.Bioprobe.FestgestellteDiagnose",
-        "definition": "Verweis auf eine Diagnose für die Material in der Probe enthalten ist.",
+        "short": "Verweis auf eine Diagnose für die Material in der Probe enthalten ist",
+        "definition": "Verweis auf eine Diagnose für die Material in der Probe enthalten ist",
+        "min": 0,
+        "max": "1",
         "type": [
           {
             "code": "Reference"
           }
+        ],
+        "mapping": [
+          {
+            "identity": "FHIR",
+            "map": "Specimen.extension[diagnose]"
+          }
         ]
       },
       {
+        "id": "Biobank.Bioprobe.gehoert-zu",
         "path": "Biobank.Bioprobe.gehoert-zu",
+        "short": "Zuordnung der Probe zu einer Sammlung/Biobank",
         "definition": "Zuordnung der Probe zu einer Sammlung/Biobank",
+        "min": 0,
+        "max": "1",
         "type": [
           {
             "code": "Reference"
           }
+        ],
+        "mapping": [
+          {
+            "identity": "FHIR",
+            "map": "Specimen.extension[gehoertZu]"
+          }
         ]
       },
       {
+        "id": "Biobank.Bioprobe.Container",
         "path": "Biobank.Bioprobe.Container",
+        "short": "Probenbehältnis",
         "definition": "Probenbehältnis",
+        "min": 0,
+        "max": "1",
         "type": [
           {
             "code": "BackboneElement"
           }
+        ],
+        "mapping": [
+          {
+            "identity": "FHIR",
+            "map": "Specimen.container"
+          }
         ]
       },
       {
+        "id": "Biobank.Bioprobe.Container.Containertyp",
         "path": "Biobank.Bioprobe.Container.Containertyp",
-        "definition": "Typ des Containers.",
+        "short": "Typ des Containers",
+        "definition": "Typ des Containers",
+        "min": 0,
+        "max": "1",
         "type": [
           {
             "code": "CodeableConcept"
           }
-        ]
-      },
-      {
-        "path": "Biobank.Bioprobe.Container.Kapazitaet",
-        "definition": "Kapazitaet des Probencontainers",
-        "type": [
+        ],
+        "mapping": [
           {
-            "code": "Quantity"
+            "identity": "FHIR",
+            "map": "Specimen.container.type"
           }
         ]
       },
       {
+        "id": "Biobank.Bioprobe.Container.Kapazitaet",
+        "path": "Biobank.Bioprobe.Container.Kapazitaet",
+        "short": "Kapazität des Probencontainers",
+        "definition": "Kapazität des Probencontainers",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Quantity"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "FHIR",
+            "map": "Specimen.container.capacity"
+          }
+        ]
+      },
+      {
+        "id": "Biobank.Bioprobe.Container.VerwendungAdditiv",
         "path": "Biobank.Bioprobe.Container.VerwendungAdditiv",
-        "definition": "Ja/Nein Angabe ob ein Zusatzstoff verwendet wurde",
+        "short": "Ja/Nein Angabe, ob ein Zusatzstoff verwendet wurde",
+        "definition": "Ja/Nein Angabe, ob ein Zusatzstoff verwendet wurde",
+        "min": 0,
+        "max": "1",
         "type": [
           {
             "code": "boolean"
           }
+        ],
+        "mapping": [
+          {
+            "identity": "FHIR",
+            "map": "Specimen.container.additive"
+          }
         ]
       },
       {
+        "id": "Biobank.Bioprobe.Container.Additiv",
         "path": "Biobank.Bioprobe.Container.Additiv",
+        "short": "Zusatzstoffe im Container",
         "definition": "Zusatzstoffe im Container",
+        "min": 0,
+        "max": "*",
         "type": [
           {
             "code": "CodeableConcept"
           }
-        ]
-      },
-      {
-        "path": "Biobank.Bioprobe.Probenentnahme",
-        "definition": "Informationen zur Entnahme der Probe",
-        "type": [
+        ],
+        "mapping": [
           {
-            "code": "BackboneElement"
+            "identity": "FHIR",
+            "map": "Specimen.container.additive"
           }
         ]
       },
       {
+        "id": "Biobank.Bioprobe.Probenentnahme",
+        "path": "Biobank.Bioprobe.Probenentnahme",
+        "short": "Informationen zur Entnahme der Probe",
+        "definition": "Informationen zur Entnahme der Probe",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "BackboneElement"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "FHIR",
+            "map": "Specimen.collection"
+          }
+        ]
+      },
+      {
+        "id": "Biobank.Bioprobe.Probenentnahme.Entnahme-ID",
         "path": "Biobank.Bioprobe.Probenentnahme.Entnahme-ID",
+        "short": "Entnahme-ID",
         "definition": "Entnahme-ID",
+        "min": 0,
+        "max": "1",
         "type": [
           {
             "code": "Identifier"
           }
+        ],
+        "mapping": [
+          {
+            "identity": "FHIR",
+            "map": "Specimen.collection.request"
+          }
         ]
       },
       {
+        "id": "Biobank.Bioprobe.Probenentnahme.EinstellungBlutversorgung",
         "path": "Biobank.Bioprobe.Probenentnahme.EinstellungBlutversorgung",
+        "short": "Zeitpunkt der Einstellung der Blutversorgung zur Probe. Kann zur Berechnung der warmen Ischaemiezeit verwendet werden.",
         "definition": "Zeitpunkt der Einstellung der Blutversorgung zur Probe. Kann zur Berechnung der warmen Ischaemiezeit verwendet werden.",
+        "min": 0,
+        "max": "1",
         "type": [
           {
             "code": "dateTime"
           }
+        ],
+        "mapping": [
+          {
+            "identity": "FHIR",
+            "map": "Specimen.collection.extension[einstellungBlutversorgung]"
+          }
         ]
       },
       {
+        "id": "Biobank.Bioprobe.Probenentnahme.Entnahmezeitpunkt",
         "path": "Biobank.Bioprobe.Probenentnahme.Entnahmezeitpunkt",
+        "short": "Zeitpunkt der Ent- / Abnahme der Probe. Kann zur Berechnung der kalten Ischaemiezeit verwendet werden.",
         "definition": "Zeitpunkt der Ent- / Abnahme der Probe. Kann zur Berechnung der kalten Ischaemiezeit verwendet werden.",
+        "min": 0,
+        "max": "1",
         "type": [
           {
             "code": "dateTime"
           }
+        ],
+        "mapping": [
+          {
+            "identity": "FHIR",
+            "map": "Specimen.collection.collected[x]"
+          }
         ]
       },
       {
+        "id": "Biobank.Bioprobe.Probenentnahme.Entnahmestelle",
         "path": "Biobank.Bioprobe.Probenentnahme.Entnahmestelle",
-        "definition": "Lokalisation der Koerperstelle von der die Probe stammt",
+        "short": "Lokalisation der Körperstelle, von der die Probe stammt",
+        "definition": "Lokalisation der Körperstelle, von der die Probe stammt",
+        "min": 0,
+        "max": "1",
         "type": [
           {
             "code": "CodeableConcept"
           }
+        ],
+        "mapping": [
+          {
+            "identity": "FHIR",
+            "map": "Specimen.collection.bodySite"
+          }
         ]
       },
       {
+        "id": "Biobank.Bioprobe.Probenentnahme.Nuechternstatus",
         "path": "Biobank.Bioprobe.Probenentnahme.Nuechternstatus",
-        "definition": "Nüchterstatus des/der Patent:in zum Zeitpunkt der Entnahme der Probe. Muss aus dem http://terminology.hl7.org/ValueSet/v2-0916 stammen.",
+        "short": "Nüchterstatus des:der Patent:in zum Zeitpunkt der Entnahme der Probe. Muss aus dem http://terminology.hl7.org/ValueSet/v2-0916 stammen.",
+        "definition": "Nüchterstatus des:der Patent:in zum Zeitpunkt der Entnahme der Probe. Muss aus dem http://terminology.hl7.org/ValueSet/v2-0916 stammen.",
+        "min": 0,
+        "max": "1",
         "type": [
           {
             "code": "CodeableConcept"
           }
+        ],
+        "mapping": [
+          {
+            "identity": "FHIR",
+            "map": "Specimen.collection.fastingStatusCodeableConcept"
+          }
         ]
       },
       {
+        "id": "Biobank.Bioprobe.Probenentnahme.NuechternstatusDauer",
         "path": "Biobank.Bioprobe.Probenentnahme.NuechternstatusDauer",
+        "short": "Zeitliche Dauer der Nüchternheit vor der Probenentnahme",
         "definition": "Zeitliche Dauer der Nüchternheit vor der Probenentnahme",
+        "min": 0,
+        "max": "1",
         "type": [
           {
             "code": "Quantity"
           }
+        ],
+        "mapping": [
+          {
+            "identity": "FHIR",
+            "map": "Specimen.collection.fastingStatusDuration"
+          }
         ]
       },
       {
+        "id": "Biobank.Bioprobe.Verarbeitungsprozess",
         "path": "Biobank.Bioprobe.Verarbeitungsprozess",
+        "short": "Prozedur der Probenbearbeitung",
         "definition": "Prozedur der Probenbearbeitung",
+        "min": 0,
+        "max": "1",
         "type": [
           {
             "code": "BackboneElement"
           }
+        ],
+        "mapping": [
+          {
+            "identity": "FHIR",
+            "map": "Specimen.processing"
+          }
         ]
       },
       {
+        "id": "Biobank.Bioprobe.Verarbeitungsprozess.Startzeitpunkt",
         "path": "Biobank.Bioprobe.Verarbeitungsprozess.Startzeitpunkt",
+        "short": "Zeitpunkt des Beginns der Probenbearbeitung",
         "definition": "Zeitpunkt des Beginns der Probenbearbeitung",
+        "min": 0,
+        "max": "1",
         "type": [
           {
             "code": "dateTime"
           }
+        ],
+        "mapping": [
+          {
+            "identity": "FHIR",
+            "map": "Specimen.processing.timePeriod.start"
+          }
         ]
       },
       {
+        "id": "Biobank.Bioprobe.Verarbeitungsprozess.Endzeitpunkt",
         "path": "Biobank.Bioprobe.Verarbeitungsprozess.Endzeitpunkt",
+        "short": "Zeitpunkt des Abschlusses der Probenbearbeitung",
         "definition": "Zeitpunkt des Abschlusses der Probenbearbeitung",
+        "min": 0,
+        "max": "1",
         "type": [
           {
             "code": "dateTime"
           }
+        ],
+        "mapping": [
+          {
+            "identity": "FHIR",
+            "map": "Specimen.processing.timePeriod.end"
+          }
         ]
       },
       {
+        "id": "Biobank.Bioprobe.Verarbeitungsprozess.Verarbeitungstyp",
         "path": "Biobank.Bioprobe.Verarbeitungsprozess.Verarbeitungstyp",
+        "short": "Prozedur der Probenbearbeitung",
         "definition": "Prozedur der Probenbearbeitung",
+        "min": 0,
+        "max": "1",
         "type": [
           {
             "code": "BackboneElement"
           }
+        ],
+        "mapping": [
+          {
+            "identity": "FHIR",
+            "map": "Specimen.processing.procedure"
+          }
         ]
       },
       {
+        "id": "Biobank.Bioprobe.Verarbeitungsprozess.Temperatur",
         "path": "Biobank.Bioprobe.Verarbeitungsprozess.Temperatur",
-        "definition": "Temperatur bei der die Probenverarbeitung stattfand. Angabe exakt oder in Wertebereichen siehe SPREC+",
+        "short": "Temperatur bei der die Probenverarbeitung stattfand. Angabe exakt oder in Wertebereichen (siehe SPREC)",
+        "definition": "Temperatur bei der die Probenverarbeitung stattfand. Angabe exakt oder in Wertebereichen (siehe SPREC)",
+        "min": 0,
+        "max": "1",
         "type": [
           {
             "code": "Range"
           }
-        ]
-      },
-      {
-        "path": "Biobank.Bioprobe.Verarbeitungsprozess.Modus",
-        "definition": "Abhängig vom Verarbeitungstyp - bei Zentrifugation SPREC",
-        "type": [
+        ],
+        "mapping": [
           {
-            "code": "CodeableConcept"
+            "identity": "FHIR",
+            "map": "Specimen.processing.extension[temperaturbedingungen]"
           }
         ]
       },
       {
+        "id": "Biobank.Bioprobe.Verarbeitungsprozess.Modus",
+        "path": "Biobank.Bioprobe.Verarbeitungsprozess.Modus",
+        "short": "Abhängig vom Verarbeitungstyp - bei Zentrifugation SPREC",
+        "definition": "Abhängig vom Verarbeitungstyp - bei Zentrifugation SPREC",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "FHIR",
+            "map": "Specimen.processing.procedure"
+          }
+        ]
+      },
+      {
+        "id": "Biobank.Bioprobe.Verarbeitungsprozess.VerwendungAdditive",
         "path": "Biobank.Bioprobe.Verarbeitungsprozess.VerwendungAdditive",
-        "definition": "Ja/Nein Angabe ob ein Zusatzstoff verwendet wurde",
+        "short": "Ja/Nein Angabe, ob ein Zusatzstoff verwendet wurde",
+        "definition": "Ja/Nein Angabe, ob ein Zusatzstoff verwendet wurde",
+        "min": 0,
+        "max": "1",
         "type": [
           {
             "code": "boolean"
           }
+        ],
+        "mapping": [
+          {
+            "identity": "FHIR",
+            "map": "Specimen.processing.additive"
+          }
         ]
       },
       {
+        "id": "Biobank.Bioprobe.Verarbeitungsprozess.Additiv",
         "path": "Biobank.Bioprobe.Verarbeitungsprozess.Additiv",
+        "short": "Additive bei der Probenbearbeitung wie Fixationsmittel; Einbettungs- und Eindeckungsmedien",
         "definition": "Additive bei der Probenbearbeitung wie Fixationsmittel; Einbettungs- und Eindeckungsmedien",
+        "min": 0,
+        "max": "*",
         "type": [
           {
             "code": "CodeableConcept"
           }
+        ],
+        "mapping": [
+          {
+            "identity": "FHIR",
+            "map": "Specimen.processing.additive"
+          }
         ]
       },
       {
+        "id": "Biobank.Bioprobe.Lagerprozess",
         "path": "Biobank.Bioprobe.Lagerprozess",
+        "short": "Lagerung einer Probe",
         "definition": "Lagerung einer Probe",
+        "min": 0,
+        "max": "1",
         "type": [
           {
             "code": "BackboneElement"
           }
+        ],
+        "mapping": [
+          {
+            "identity": "FHIR",
+            "map": "Specimen.processing[lagerprozess]"
+          }
         ]
       },
       {
+        "id": "Biobank.Bioprobe.Lagerprozess.Einlagerungszeitpunkt",
         "path": "Biobank.Bioprobe.Lagerprozess.Einlagerungszeitpunkt",
+        "short": "Zeitpunkt des Beginns der Einlagerung der Probe",
         "definition": "Zeitpunkt des Beginns der Einlagerung der Probe",
+        "min": 0,
+        "max": "1",
         "type": [
           {
             "code": "dateTime"
           }
+        ],
+        "mapping": [
+          {
+            "identity": "FHIR",
+            "map": "Specimen.processing[lagerprozess].timePeriod.start"
+          }
         ]
       },
       {
+        "id": "Biobank.Bioprobe.Lagerprozess.Auslagerungspunkt",
         "path": "Biobank.Bioprobe.Lagerprozess.Auslagerungspunkt",
+        "short": "Zeitpunkt des Endes der Einlagerung der Probe",
         "definition": "Zeitpunkt des Endes der Einlagerung der Probe",
+        "min": 0,
+        "max": "1",
         "type": [
           {
             "code": "dateTime"
           }
+        ],
+        "mapping": [
+          {
+            "identity": "FHIR",
+            "map": "Specimen.processing[lagerprozess].timePeriod.end"
+          }
         ]
       },
       {
+        "id": "Biobank.Bioprobe.Lagerprozess.Lagerungsbedingungen",
         "path": "Biobank.Bioprobe.Lagerprozess.Lagerungsbedingungen",
+        "short": "Temperaturbereich in dem die Probe gelagert wurde bzw. wird. Angabe in Wertebereichen wie in SPREC",
         "definition": "Temperaturbereich in dem die Probe gelagert wurde bzw. wird. Angabe in Wertebereichen wie in SPREC",
+        "min": 0,
+        "max": "1",
         "type": [
           {
             "code": "Range"
           }
+        ],
+        "mapping": [
+          {
+            "identity": "FHIR",
+            "map": "Specimen.processing[lagerprozess].extension[temperaturbedingungen]"
+          }
         ]
       },
       {
+        "id": "Biobank.Bioprobe.Laborbefund",
         "path": "Biobank.Bioprobe.Laborbefund",
+        "short": "Referenz auf den zu einer Probe gehörenden Laborbefund",
         "definition": "Referenz auf den zu einer Probe gehörenden Laborbefund",
+        "min": 0,
+        "max": "1",
         "type": [
           {
             "code": "Reference"
@@ -333,8 +686,12 @@
         ]
       },
       {
+        "id": "Biobank.Bioprobe.Pathologiebefund",
         "path": "Biobank.Bioprobe.Pathologiebefund",
+        "short": "Referenz auf den zu einer Probe gehörenden Pathologiebefund",
         "definition": "Referenz auf den zu einer Probe gehörenden Pathologiebefund",
+        "min": 0,
+        "max": "1",
         "type": [
           {
             "code": "Reference"
@@ -342,128 +699,268 @@
         ]
       },
       {
+        "id": "Biobank.Probensammlung-Biobank",
         "path": "Biobank.Probensammlung-Biobank",
-        "definition": "Organisation die Proben verwaltet",
+        "short": "Organisation, die Proben verwaltet",
+        "definition": "Organisation, die Proben verwaltet",
+        "min": 0,
+        "max": "1",
         "type": [
           {
             "code": "BackboneElement"
           }
+        ],
+        "mapping": [
+          {
+            "identity": "FHIR",
+            "map": "Biobank"
+          }
         ]
       },
       {
+        "id": "Biobank.Probensammlung-Biobank.Kontakt",
         "path": "Biobank.Probensammlung-Biobank.Kontakt",
+        "short": "Kontaktinformationen einer Sammlung/Biobank für Anfragen zu Bioproben",
         "definition": "Kontaktinformationen einer Sammlung/Biobank für Anfragen zu Bioproben",
+        "min": 0,
+        "max": "*",
         "type": [
           {
             "code": "BackboneElement"
           }
+        ],
+        "mapping": [
+          {
+            "identity": "FHIR",
+            "map": "Biobank.contact"
+          }
         ]
       },
       {
+        "id": "Biobank.Probensammlung-Biobank.Kontakt.Vorname",
         "path": "Biobank.Probensammlung-Biobank.Kontakt.Vorname",
+        "short": "Vorname der Ansprechperson",
         "definition": "Vorname der Ansprechperson",
+        "min": 0,
+        "max": "1",
         "type": [
           {
-            "code": "String"
+            "code": "string"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "FHIR",
+            "map": "Biobank.contact.given"
           }
         ]
       },
       {
+        "id": "Biobank.Probensammlung-Biobank.Kontakt.Nachname",
         "path": "Biobank.Probensammlung-Biobank.Kontakt.Nachname",
+        "short": "Nachname der Ansprechperson",
         "definition": "Nachname der Ansprechperson",
+        "min": 0,
+        "max": "1",
         "type": [
           {
-            "code": "String"
+            "code": "string"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "FHIR",
+            "map": "Biobank.contact.family"
           }
         ]
       },
       {
+        "id": "Biobank.Probensammlung-Biobank.Kontakt.E-Mail",
         "path": "Biobank.Probensammlung-Biobank.Kontakt.E-Mail",
+        "short": "E-Mailadresse für Anfragen",
         "definition": "E-Mailadresse für Anfragen",
+        "min": 0,
+        "max": "1",
         "type": [
           {
-            "code": "String"
+            "code": "string"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "FHIR",
+            "map": "Biobank.contact.telecom[email]"
           }
         ]
       },
       {
+        "id": "Biobank.Probensammlung-Biobank.Kontakt.Rolle",
         "path": "Biobank.Probensammlung-Biobank.Kontakt.Rolle",
+        "short": "Rolle der Ansprechperson in der Sammlung/Biobank",
         "definition": "Rolle der Ansprechperson in der Sammlung/Biobank",
+        "min": 0,
+        "max": "1",
         "type": [
           {
             "code": "CodeableConcept"
           }
+        ],
+        "mapping": [
+          {
+            "identity": "FHIR",
+            "map": "Biobank.contact.extension[rolle]"
+          }
         ]
       },
       {
+        "id": "Biobank.Probensammlung-Biobank.Kontakt.Adresse",
         "path": "Biobank.Probensammlung-Biobank.Kontakt.Adresse",
+        "short": "Kontaktadresse für Forschungsvorhaben",
         "definition": "Kontaktadresse für Forschungsvorhaben",
+        "min": 0,
+        "max": "1",
         "type": [
           {
             "code": "Address"
           }
+        ],
+        "mapping": [
+          {
+            "identity": "FHIR",
+            "map": "Biobank.contact.address"
+          }
         ]
       },
       {
+        "id": "Biobank.Probensammlung-Biobank.Sammlungs-ID",
         "path": "Biobank.Probensammlung-Biobank.Sammlungs-ID",
+        "short": "Interner Identifer der Sammlung/Biobank",
         "definition": "Interner Identifer der Sammlung/Biobank",
+        "min": 0,
+        "max": "1",
         "type": [
           {
             "code": "Identifier"
           }
+        ],
+        "mapping": [
+          {
+            "identity": "FHIR",
+            "map": "Biobank.identifier"
+          }
         ]
       },
       {
+        "id": "Biobank.Probensammlung-Biobank.BBMRI-ERIC-ID",
         "path": "Biobank.Probensammlung-Biobank.BBMRI-ERIC-ID",
+        "short": "Identifier der Sammlung/Biobank im BBMRI ERIC Netzwerk",
         "definition": "Identifier der Sammlung/Biobank im BBMRI ERIC Netzwerk",
+        "min": 0,
+        "max": "1",
         "type": [
           {
             "code": "Identifier"
           }
+        ],
+        "mapping": [
+          {
+            "identity": "FHIR",
+            "map": "Biobank.identifier[bbmri-eric-id]"
+          }
         ]
       },
       {
+        "id": "Biobank.Probensammlung-Biobank.Akronym",
         "path": "Biobank.Probensammlung-Biobank.Akronym",
+        "short": "Akronym der Sammlung/Biobank",
         "definition": "Akronym der Sammlung/Biobank",
+        "min": 0,
+        "max": "1",
         "type": [
           {
-            "code": "String"
+            "code": "string"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "FHIR",
+            "map": "Biobank.alias"
           }
         ]
       },
       {
+        "id": "Biobank.Probensammlung-Biobank.Name",
         "path": "Biobank.Probensammlung-Biobank.Name",
+        "short": "Name der Sammlung/Biobank",
         "definition": "Name der Sammlung/Biobank",
+        "min": 0,
+        "max": "1",
         "type": [
           {
-            "code": "String"
+            "code": "string"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "FHIR",
+            "map": "Biobank.name"
           }
         ]
       },
       {
+        "id": "Biobank.Probensammlung-Biobank.Beschreibung",
         "path": "Biobank.Probensammlung-Biobank.Beschreibung",
+        "short": "Beschreibung der Sammlung/Biobank",
         "definition": "Beschreibung der Sammlung/Biobank",
+        "min": 0,
+        "max": "1",
         "type": [
           {
-            "code": "String"
+            "code": "string"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "FHIR",
+            "map": "Biobank.extension[beschreibung]"
           }
         ]
       },
       {
+        "id": "Biobank.Probensammlung-Biobank.Sammlungstyp",
         "path": "Biobank.Probensammlung-Biobank.Sammlungstyp",
+        "short": "Typ der Sammlung/Biobank gemäß BBMRI ERIC Directory Werteliste",
         "definition": "Typ der Sammlung/Biobank gemäß BBMRI ERIC Directory Werteliste",
+        "min": 0,
+        "max": "1",
         "type": [
           {
             "code": "CodeableConcept"
           }
+        ],
+        "mapping": [
+          {
+            "identity": "FHIR",
+            "map": "Biobank.type"
+          }
         ]
       },
       {
+        "id": "Biobank.Probensammlung-Biobank.besteht-aus",
         "path": "Biobank.Probensammlung-Biobank.besteht-aus",
+        "short": "Verknüpfung der Teilsammlungen",
         "definition": "Verknüpfung der Teilsammlungen",
+        "min": 0,
+        "max": "*",
         "type": [
           {
             "code": "Reference"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "FHIR",
+            "map": "Biobank.partOf"
           }
         ]
       }

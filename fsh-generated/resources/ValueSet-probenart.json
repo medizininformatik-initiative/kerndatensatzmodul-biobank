@@ -4,6 +4,7 @@
   "name": "ValueSetProbenart",
   "id": "probenart",
   "title": "ValueSet - Probenart",
+  "version": "2025.0.1",
   "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/probenart",
   "compose": {
     "include": [
