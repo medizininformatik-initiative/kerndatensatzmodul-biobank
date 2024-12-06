@@ -5,6 +5,7 @@ Title: "Profile - Specimen - Bioprobe"
 Description: "Abbildung einer MII Bioprobe"
 
 * insert PR_CS_VS_Version
+* ^version = "2025.0.1"
 //Bioprobe
 
 * extension contains Diagnose named festgestellteDiagnose 0..1 MS and VerwaltendeOrganisation named gehoertZu 0..1 MS
