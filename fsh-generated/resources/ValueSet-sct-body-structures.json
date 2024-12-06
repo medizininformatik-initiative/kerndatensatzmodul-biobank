@@ -4,7 +4,6 @@
   "name": "ValueSetSCTBodyStructures",
   "id": "sct-body-structures",
   "title": "ValueSet - SNOMED CT Body Strutures",
-  "version": "2025.0.1",
   "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/sct-body-structures",
   "compose": {
     "include": [
