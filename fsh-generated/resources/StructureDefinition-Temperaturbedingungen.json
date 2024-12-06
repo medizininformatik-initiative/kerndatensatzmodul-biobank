@@ -2,7 +2,7 @@
   "resourceType": "StructureDefinition",
   "id": "Temperaturbedingungen",
   "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/Temperaturbedingungen",
-  "version": "2025.0.0-rc",
+  "version": "2025.0.1",
   "name": "ExtensionTemperaturbedingungen",
   "title": "Extension - Temperaturbedingungen",
   "status": "active",

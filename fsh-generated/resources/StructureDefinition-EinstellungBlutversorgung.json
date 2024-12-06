@@ -2,7 +2,7 @@
   "resourceType": "StructureDefinition",
   "id": "EinstellungBlutversorgung",
   "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/EinstellungBlutversorgung",
-  "version": "2025.0.0-rc",
+  "version": "2025.0.1",
   "name": "ExtensionEinstellungBlutversorgung",
   "title": "Extension - Einstellung Blutversorgung",
   "status": "active",
