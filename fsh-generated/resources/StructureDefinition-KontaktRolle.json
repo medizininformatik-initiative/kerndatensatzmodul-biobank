@@ -2,12 +2,18 @@
   "resourceType": "StructureDefinition",
   "id": "KontaktRolle",
   "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/KontaktRolle",
-  "version": "2025.0.1",
   "name": "ExtensionKontaktRolle",
   "title": "Extension - Rolle des Kontaktes",
   "status": "active",
   "description": "Mittels dieser Extension soll die Rolle der Kontaktperson in der probenverwaltenden Organisation angegeben werden, z.B. Principal Investigator, Direktor usw.",
   "fhirVersion": "4.0.1",
+  "mapping": [
+    {
+      "identity": "rim",
+      "uri": "http://hl7.org/v3",
+      "name": "RIM Mapping"
+    }
+  ],
   "kind": "complex-type",
   "abstract": false,
   "context": [
