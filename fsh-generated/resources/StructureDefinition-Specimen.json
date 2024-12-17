@@ -33,17 +33,7 @@
         "id": "Specimen.extension:festgestellteDiagnose",
         "path": "Specimen.extension",
         "sliceName": "festgestellteDiagnose",
-        "min": 0,
-        "max": "1",
-        "type": [
-          {
-            "code": "Extension",
-            "profile": [
-              "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/Diagnose"
-            ]
-          }
-        ],
-        "mustSupport": true,
+        "short": "Festgestellte Diagnose",
         "_short": {
           "extension": [
             {
@@ -74,6 +64,7 @@
             }
           ]
         },
+        "definition": "Verweis auf eine Diagnose, für die Material in der Probe enthalten ist.",
         "_definition": {
           "extension": [
             {
@@ -103,23 +94,24 @@
               ]
             }
           ]
-        }
-      },
-      {
-        "id": "Specimen.extension:gehoertZu",
-        "path": "Specimen.extension",
-        "sliceName": "gehoertZu",
+        },
         "min": 0,
         "max": "1",
         "type": [
           {
             "code": "Extension",
             "profile": [
-              "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/VerwaltendeOrganisation"
+              "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/Diagnose"
             ]
           }
         ],
-        "mustSupport": true,
+        "mustSupport": true
+      },
+      {
+        "id": "Specimen.extension:gehoertZu",
+        "path": "Specimen.extension",
+        "sliceName": "gehoertZu",
+        "short": "Verwaltende Organisation",
         "_short": {
           "extension": [
             {
@@ -150,6 +142,7 @@
             }
           ]
         },
+        "definition": "Zuordnung der Probe zu einer Sammlung oder Biobank, die für die Verwaltung verantwortlich ist.",
         "_definition": {
           "extension": [
             {
@@ -179,7 +172,18 @@
               ]
             }
           ]
-        }
+        },
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/VerwaltendeOrganisation"
+            ]
+          }
+        ],
+        "mustSupport": true
       }
     ]
   }

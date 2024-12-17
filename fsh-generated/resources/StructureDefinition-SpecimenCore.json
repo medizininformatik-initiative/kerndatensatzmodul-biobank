@@ -18,7 +18,7 @@
       {
         "id": "Specimen.identifier",
         "path": "Specimen.identifier",
-        "mustSupport": true,
+        "short": "Proben-ID",
         "_short": {
           "extension": [
             {
@@ -49,6 +49,7 @@
             }
           ]
         },
+        "definition": "Einrichtungsinterner Identifier der Probe.",
         "_definition": {
           "extension": [
             {
@@ -78,13 +79,13 @@
               ]
             }
           ]
-        }
+        },
+        "mustSupport": true
       },
       {
         "id": "Specimen.status",
         "path": "Specimen.status",
-        "min": 1,
-        "mustSupport": true,
+        "short": "Verfügbarkeitsstatus",
         "_short": {
           "extension": [
             {
@@ -115,6 +116,7 @@
             }
           ]
         },
+        "definition": "Der Status der Probe in Bezug auf die Verfügbarkeit für Forschung.",
         "_definition": {
           "extension": [
             {
@@ -144,13 +146,14 @@
               ]
             }
           ]
-        }
+        },
+        "min": 1,
+        "mustSupport": true
       },
       {
         "id": "Specimen.type",
         "path": "Specimen.type",
-        "min": 1,
-        "mustSupport": true,
+        "short": "Probenart",
         "_short": {
           "extension": [
             {
@@ -181,6 +184,7 @@
             }
           ]
         },
+        "definition": "Die Art der Probe, codiert in SNOMED CT.",
         "_definition": {
           "extension": [
             {
@@ -210,7 +214,9 @@
               ]
             }
           ]
-        }
+        },
+        "min": 1,
+        "mustSupport": true
       },
       {
         "id": "Specimen.type.coding",
@@ -245,16 +251,7 @@
       {
         "id": "Specimen.subject",
         "path": "Specimen.subject",
-        "min": 1,
-        "type": [
-          {
-            "code": "Reference",
-            "targetProfile": [
-              "http://hl7.org/fhir/StructureDefinition/Patient"
-            ]
-          }
-        ],
-        "mustSupport": true,
+        "short": "Patient:in",
         "_short": {
           "extension": [
             {
@@ -285,6 +282,7 @@
             }
           ]
         },
+        "definition": "Verweis auf die Person, von der die Probe stammt.",
         "_definition": {
           "extension": [
             {
@@ -314,12 +312,22 @@
               ]
             }
           ]
-        }
+        },
+        "min": 1,
+        "type": [
+          {
+            "code": "Reference",
+            "targetProfile": [
+              "http://hl7.org/fhir/StructureDefinition/Patient"
+            ]
+          }
+        ],
+        "mustSupport": true
       },
       {
         "id": "Specimen.parent",
         "path": "Specimen.parent",
-        "mustSupport": true,
+        "short": "Ist gewonnen aus",
         "_short": {
           "extension": [
             {
@@ -350,6 +358,7 @@
             }
           ]
         },
+        "definition": "Referenz auf eine übergeordnete Probe, aus der diese Probe gewonnen wurde.",
         "_definition": {
           "extension": [
             {
@@ -379,12 +388,13 @@
               ]
             }
           ]
-        }
+        },
+        "mustSupport": true
       },
       {
         "id": "Specimen.request",
         "path": "Specimen.request",
-        "mustSupport": true,
+        "short": "Entnahme-ID",
         "_short": {
           "extension": [
             {
@@ -415,6 +425,7 @@
             }
           ]
         },
+        "definition": "Der Identifier der Probenentnahme.",
         "_definition": {
           "extension": [
             {
@@ -444,13 +455,13 @@
               ]
             }
           ]
-        }
+        },
+        "mustSupport": true
       },
       {
         "id": "Specimen.collection",
         "path": "Specimen.collection",
-        "min": 1,
-        "mustSupport": true,
+        "short": "Probenentnahme",
         "_short": {
           "extension": [
             {
@@ -481,6 +492,7 @@
             }
           ]
         },
+        "definition": "Informationen über den Prozess der Probenentnahme, einschließlich Entnahmezeitpunkt und -stelle.",
         "_definition": {
           "extension": [
             {
@@ -510,7 +522,9 @@
               ]
             }
           ]
-        }
+        },
+        "min": 1,
+        "mustSupport": true
       },
       {
         "id": "Specimen.collection.extension",
@@ -545,8 +559,7 @@
       {
         "id": "Specimen.collection.collected[x]",
         "path": "Specimen.collection.collected[x]",
-        "min": 1,
-        "mustSupport": true,
+        "short": "Entnahmezeitpunkt",
         "_short": {
           "extension": [
             {
@@ -577,6 +590,7 @@
             }
           ]
         },
+        "definition": "Der Zeitpunkt, zu dem die Probe entnommen oder gesammelt wurde.",
         "_definition": {
           "extension": [
             {
@@ -606,21 +620,14 @@
               ]
             }
           ]
-        }
+        },
+        "min": 1,
+        "mustSupport": true
       },
       {
         "id": "Specimen.collection.bodySite",
         "path": "Specimen.collection.bodySite",
-        "constraint": [
-          {
-            "key": "mii-bb-1",
-            "severity": "error",
-            "human": "Bei der Angabe der Entnahmestelle muss ein ICD-O-3 Topographiecode oder ein SNOMED CT Code angegeben werden.",
-            "expression": "coding.where(system = 'http://snomed.info/sct' or system = 'http://terminology.hl7.org/CodeSystem/icd-o-3').exists()",
-            "source": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/SpecimenCore"
-          }
-        ],
-        "mustSupport": true,
+        "short": "Anatomische Lokalisation",
         "_short": {
           "extension": [
             {
@@ -645,12 +652,13 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "anatomical localisation"
+                  "valueString": "Anatomical localisation"
                 }
               ]
             }
           ]
         },
+        "definition": "Die Körperstelle, von der die Probe entnommen wurde gemäß icd-o-3.",
         "_definition": {
           "extension": [
             {
@@ -680,7 +688,17 @@
               ]
             }
           ]
-        }
+        },
+        "constraint": [
+          {
+            "key": "mii-bb-1",
+            "severity": "error",
+            "human": "Bei der Angabe der Entnahmestelle muss ein ICD-O-3 Topographiecode oder ein SNOMED CT Code angegeben werden.",
+            "expression": "coding.where(system = 'http://snomed.info/sct' or system = 'http://terminology.hl7.org/CodeSystem/icd-o-3').exists()",
+            "source": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/SpecimenCore"
+          }
+        ],
+        "mustSupport": true
       },
       {
         "id": "Specimen.collection.bodySite.coding",
@@ -742,7 +760,7 @@
           "ordered": false,
           "rules": "open"
         },
-        "mustSupport": true,
+        "short": "Nüchternstatus",
         "_short": {
           "extension": [
             {
@@ -773,6 +791,7 @@
             }
           ]
         },
+        "definition": "Der Nüchternstatus der Person zum Zeitpunkt der Probenentnahme.",
         "_definition": {
           "extension": [
             {
@@ -802,7 +821,8 @@
               ]
             }
           ]
-        }
+        },
+        "mustSupport": true
       },
       {
         "id": "Specimen.collection.fastingStatus[x]:fastingStatusCodeableConcept",
@@ -832,7 +852,7 @@
           ],
           "rules": "open"
         },
-        "mustSupport": true,
+        "short": "Probenverarbeitung",
         "_short": {
           "extension": [
             {
@@ -863,6 +883,7 @@
             }
           ]
         },
+        "definition": "Details zur Verarbeitung der Probe, einschließlich Prozeduren und Verarbeitungszeitraum.",
         "_definition": {
           "extension": [
             {
@@ -892,7 +913,8 @@
               ]
             }
           ]
-        }
+        },
+        "mustSupport": true
       },
       {
         "id": "Specimen.processing.extension",
@@ -928,12 +950,7 @@
       {
         "id": "Specimen.processing.procedure",
         "path": "Specimen.processing.procedure",
-        "min": 1,
-        "mustSupport": true,
-        "binding": {
-          "strength": "example",
-          "valueSet": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/sct-lab-procedure"
-        },
+        "short": "Verarbeitungstyp",
         "_short": {
           "extension": [
             {
@@ -964,6 +981,7 @@
             }
           ]
         },
+        "definition": "Die angewendete Prozedur zur Verarbeitung der Probe, z.B. Zentrifugation.",
         "_definition": {
           "extension": [
             {
@@ -993,6 +1011,12 @@
               ]
             }
           ]
+        },
+        "min": 1,
+        "mustSupport": true,
+        "binding": {
+          "strength": "example",
+          "valueSet": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/sct-lab-procedure"
         }
       },
       {
@@ -1025,15 +1049,7 @@
       {
         "id": "Specimen.processing.additive",
         "path": "Specimen.processing.additive",
-        "type": [
-          {
-            "code": "Reference",
-            "targetProfile": [
-              "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/Substance"
-            ]
-          }
-        ],
-        "mustSupport": true,
+        "short": "Additive bei Verarbeitung",
         "_short": {
           "extension": [
             {
@@ -1064,6 +1080,7 @@
             }
           ]
         },
+        "definition": "Zusatzstoffe, die während der Probenverarbeitung verwendet wurden, z.B. Fixierungsmittel.",
         "_definition": {
           "extension": [
             {
@@ -1093,7 +1110,16 @@
               ]
             }
           ]
-        }
+        },
+        "type": [
+          {
+            "code": "Reference",
+            "targetProfile": [
+              "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/Substance"
+            ]
+          }
+        ],
+        "mustSupport": true
       },
       {
         "id": "Specimen.processing.time[x]",
@@ -1114,14 +1140,7 @@
         "id": "Specimen.processing.time[x]:timePeriod",
         "path": "Specimen.processing.time[x]",
         "sliceName": "timePeriod",
-        "min": 0,
-        "max": "1",
-        "type": [
-          {
-            "code": "Period"
-          }
-        ],
-        "mustSupport": true,
+        "short": "Verarbeitungszeitraum",
         "_short": {
           "extension": [
             {
@@ -1152,6 +1171,7 @@
             }
           ]
         },
+        "definition": "Der Zeitraum, in dem die Probe verarbeitet wurde.",
         "_definition": {
           "extension": [
             {
@@ -1181,7 +1201,15 @@
               ]
             }
           ]
-        }
+        },
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Period"
+          }
+        ],
+        "mustSupport": true
       },
       {
         "id": "Specimen.processing.time[x]:timePeriod.start",
@@ -1253,7 +1281,7 @@
       {
         "id": "Specimen.container",
         "path": "Specimen.container",
-        "mustSupport": true,
+        "short": "Probenbehältnis",
         "_short": {
           "extension": [
             {
@@ -1284,6 +1312,7 @@
             }
           ]
         },
+        "definition": "Informationen über den Behälter, in dem die Probe aufbewahrt wird.",
         "_definition": {
           "extension": [
             {
@@ -1313,17 +1342,13 @@
               ]
             }
           ]
-        }
+        },
+        "mustSupport": true
       },
       {
         "id": "Specimen.container.type",
         "path": "Specimen.container.type",
-        "min": 1,
-        "mustSupport": true,
-        "binding": {
-          "strength": "extensible",
-          "valueSet": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/containertyp"
-        },
+        "short": "Containertyp",
         "_short": {
           "extension": [
             {
@@ -1354,6 +1379,7 @@
             }
           ]
         },
+        "definition": "Der Typ des Probencontainers, der für diese Probe verwendet wurde.",
         "_definition": {
           "extension": [
             {
@@ -1383,12 +1409,18 @@
               ]
             }
           ]
+        },
+        "min": 1,
+        "mustSupport": true,
+        "binding": {
+          "strength": "extensible",
+          "valueSet": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/containertyp"
         }
       },
       {
         "id": "Specimen.container.capacity",
         "path": "Specimen.container.capacity",
-        "mustSupport": true,
+        "short": "Containerkapazität",
         "_short": {
           "extension": [
             {
@@ -1419,6 +1451,7 @@
             }
           ]
         },
+        "definition": "Die maximale Kapazität des Containers, der für die Probe verwendet wurde.",
         "_definition": {
           "extension": [
             {
@@ -1448,12 +1481,13 @@
               ]
             }
           ]
-        }
+        },
+        "mustSupport": true
       },
       {
         "id": "Specimen.container.specimenQuantity",
         "path": "Specimen.container.specimenQuantity",
-        "mustSupport": true,
+        "short": "Probenmenge",
         "_short": {
           "extension": [
             {
@@ -1484,6 +1518,7 @@
             }
           ]
         },
+        "definition": "Die Menge des gesammelten Materials.",
         "_definition": {
           "extension": [
             {
@@ -1513,7 +1548,8 @@
               ]
             }
           ]
-        }
+        },
+        "mustSupport": true
       },
       {
         "id": "Specimen.container.additive[x]",
@@ -1528,7 +1564,7 @@
           "ordered": false,
           "rules": "open"
         },
-        "mustSupport": true,
+        "short": "Additiv",
         "_short": {
           "extension": [
             {
@@ -1559,6 +1595,7 @@
             }
           ]
         },
+        "definition": "Zusatzstoffe, die im Probenbehälter enthalten sind z.B. wie Konservierungsmittel.",
         "_definition": {
           "extension": [
             {
@@ -1588,7 +1625,8 @@
               ]
             }
           ]
-        }
+        },
+        "mustSupport": true
       },
       {
         "id": "Specimen.container.additive[x]:additiveReference",
@@ -1608,7 +1646,7 @@
       {
         "id": "Specimen.note",
         "path": "Specimen.note",
-        "mustSupport": true,
+        "short": "Projektnutzung",
         "_short": {
           "extension": [
             {
@@ -1639,6 +1677,7 @@
             }
           ]
         },
+        "definition": "Freitextangabe zur Verwendung der Probe in spezifischen Projekten.",
         "_definition": {
           "extension": [
             {
@@ -1668,7 +1707,8 @@
               ]
             }
           ]
-        }
+        },
+        "mustSupport": true
       }
     ]
   }
