@@ -5,7 +5,6 @@ Title: "Profile - Organization - Sammlung/Biobank"
 Description: "Darstellung der organisatorischen Daten einer Probensammlung oder Biobank."
 
 * insert PR_CS_VS_Version
-* ^version = "2025.0.1"
 
 * extension contains BeschreibungSammlung named beschreibung 0..1 MS
 * extension[BeschreibungSammlung] ^short = "Beschreibung der Sammlung/Biobank"

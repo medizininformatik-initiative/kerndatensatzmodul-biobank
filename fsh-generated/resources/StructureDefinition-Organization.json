@@ -2,7 +2,7 @@
   "resourceType": "StructureDefinition",
   "id": "Organization",
   "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/Organization",
-  "version": "2025.0.1",
+  "version": "2025.0.2",
   "name": "ProfileOrganizationSammlungBiobank",
   "title": "Profile - Organization - Sammlung/Biobank",
   "status": "active",

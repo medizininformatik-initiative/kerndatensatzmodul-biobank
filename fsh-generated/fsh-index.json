@@ -133,7 +133,7 @@
     "fshType": "Profile",
     "fshFile": "profiles\\ProfileOrganizationSammlungBiobank.fsh",
     "startLine": 1,
-    "endLine": 85
+    "endLine": 84
   },
   {
     "outputFile": "StructureDefinition-Specimen.json",

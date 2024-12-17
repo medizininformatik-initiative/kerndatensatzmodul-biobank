@@ -2,7 +2,7 @@
   "resourceType": "StructureDefinition",
   "id": "VerwaltendeOrganisation",
   "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/VerwaltendeOrganisation",
-  "version": "2025.0.1",
+  "version": "2025.0.2",
   "name": "ExtensionVerwaltendeOrganisation",
   "title": "Extension - Verwaltende Organisation",
   "status": "active",
