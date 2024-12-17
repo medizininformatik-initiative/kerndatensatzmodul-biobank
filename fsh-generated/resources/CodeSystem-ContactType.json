@@ -5,6 +5,7 @@
   "name": "CodeSystemContactType",
   "id": "ContactType",
   "title": "CodeSystem - Contact Type",
+  "version": "2025.0.2",
   "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/CodeSystem/ContactType",
   "concept": [
     {

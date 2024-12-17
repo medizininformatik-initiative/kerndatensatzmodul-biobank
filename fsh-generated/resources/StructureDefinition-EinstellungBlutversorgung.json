@@ -2,18 +2,12 @@
   "resourceType": "StructureDefinition",
   "id": "EinstellungBlutversorgung",
   "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/EinstellungBlutversorgung",
+  "version": "2025.0.2",
   "name": "ExtensionEinstellungBlutversorgung",
   "title": "Extension - Einstellung Blutversorgung",
   "status": "active",
   "description": "Zeitpunkt der Einstellung der Bluversorgung während der Entnahme. Wird z.B. für die Berechnung der kalten bzw. warem Ischämiezeiten benötigt.",
   "fhirVersion": "4.0.1",
-  "mapping": [
-    {
-      "identity": "rim",
-      "uri": "http://hl7.org/v3",
-      "name": "RIM Mapping"
-    }
-  ],
   "kind": "complex-type",
   "abstract": false,
   "context": [

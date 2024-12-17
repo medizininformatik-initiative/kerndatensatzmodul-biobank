@@ -4,6 +4,7 @@
   "name": "ValueSetICDO3Topography",
   "id": "icd-o-3-topography",
   "title": "ValueSet - ICD-O-3 Topography",
+  "version": "2025.0.2",
   "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/icd-o-3-topography",
   "compose": {
     "include": [

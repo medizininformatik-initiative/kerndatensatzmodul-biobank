@@ -4,6 +4,7 @@
   "name": "ValueSetContainertyp",
   "id": "containertyp",
   "title": "ValueSet - Containertyp",
+  "version": "2025.0.2",
   "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/containertyp",
   "compose": {
     "include": [
