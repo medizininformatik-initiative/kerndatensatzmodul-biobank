@@ -5,7 +5,7 @@
   "name": "CodeSystemMIABISCollectionType",
   "id": "MIABISCollectionType",
   "title": "CodeSystem - MIABIS Collection Type",
-  "version": "2025.0.2",
+  "version": "2025.0.4",
   "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/CodeSystem/MIABISCollectionType",
   "concept": [
     {
