@@ -4,6 +4,9 @@ Title: "SPREC 3.0 Sample Type Mapping"
 Usage: #definition
 Description: "Mapping der SPREC 3.0 Sample Types auf die im Modul verwendeten SNOMED CT Codes."
 
+* insert Version
+* insert SP_Publisher
+
 * url = "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ConceptMap/SPRECSampleTypeMap"
 * title = "SPREC 3.0 Sample Type Mapping"
 * status = #active

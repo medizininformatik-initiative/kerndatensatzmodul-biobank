@@ -2,6 +2,7 @@
   "resourceType": "StructureDefinition",
   "id": "Organization",
   "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/Organization",
+  "version": "2025.0.4",
   "name": "ProfileOrganizationSammlungBiobank",
   "title": "Profile - Organization - Sammlung/Biobank",
   "status": "active",
@@ -32,6 +33,68 @@
         "id": "Organization.extension:beschreibung",
         "path": "Organization.extension",
         "sliceName": "beschreibung",
+        "short": "Beschreibung der Sammlung/Biobank",
+        "_short": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "de-DE"
+                },
+                {
+                  "url": "content",
+                  "valueString": "Beschreibung der Sammlung/Biobank"
+                }
+              ]
+            },
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "en-US"
+                },
+                {
+                  "url": "content",
+                  "valueString": "Description of the collection/biobank"
+                }
+              ]
+            }
+          ]
+        },
+        "definition": "Eine Freitextbeschreibung der Sammlung/Biobank, die z.B. in einer Suche angezeigt werden kann.",
+        "_definition": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "de-DE"
+                },
+                {
+                  "url": "content",
+                  "valueString": "Eine Freitextbeschreibung der Sammlung/Biobank, die z.B. in einer Suche angezeigt werden kann."
+                }
+              ]
+            },
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "en-US"
+                },
+                {
+                  "url": "content",
+                  "valueString": "A free-text description of the collection/biobank, which can be displayed in a search, for example."
+                }
+              ]
+            }
+          ]
+        },
         "min": 0,
         "max": "1",
         "type": [
@@ -122,6 +185,68 @@
         "id": "Organization.identifier:bbmri-eric-id",
         "path": "Organization.identifier",
         "sliceName": "bbmri-eric-id",
+        "short": "BBMRI-ERIC ID",
+        "_short": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "de-DE"
+                },
+                {
+                  "url": "content",
+                  "valueString": "BBMRI-ERIC ID"
+                }
+              ]
+            },
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "en-US"
+                },
+                {
+                  "url": "content",
+                  "valueString": "BBMRI-ERIC ID"
+                }
+              ]
+            }
+          ]
+        },
+        "definition": "Eindeutige Kennung im BBMRI-ERIC-Netzwerk.",
+        "_definition": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "de-DE"
+                },
+                {
+                  "url": "content",
+                  "valueString": "Eindeutige Kennung im BBMRI-ERIC-Netzwerk."
+                }
+              ]
+            },
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "en-US"
+                },
+                {
+                  "url": "content",
+                  "valueString": "Unique identifier in the BBMRI-ERIC network."
+                }
+              ]
+            }
+          ]
+        },
         "min": 0,
         "max": "1",
         "patternIdentifier": {
@@ -192,6 +317,68 @@
       {
         "id": "Organization.type",
         "path": "Organization.type",
+        "short": "Sammlungstyp",
+        "_short": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "de-DE"
+                },
+                {
+                  "url": "content",
+                  "valueString": "Sammlungstyp"
+                }
+              ]
+            },
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "en-US"
+                },
+                {
+                  "url": "content",
+                  "valueString": "Collection type"
+                }
+              ]
+            }
+          ]
+        },
+        "definition": "Der Typ der Sammlung oder Biobank, basierend auf MIABIS.",
+        "_definition": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "de-DE"
+                },
+                {
+                  "url": "content",
+                  "valueString": "Der Typ der Sammlung oder Biobank, basierend auf MIABIS."
+                }
+              ]
+            },
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "en-US"
+                },
+                {
+                  "url": "content",
+                  "valueString": "The type of the collection or biobank, based on MIABIS."
+                }
+              ]
+            }
+          ]
+        },
         "mustSupport": true,
         "binding": {
           "strength": "extensible",
@@ -261,6 +448,68 @@
       {
         "id": "Organization.name",
         "path": "Organization.name",
+        "short": "Name",
+        "_short": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "de-DE"
+                },
+                {
+                  "url": "content",
+                  "valueString": "Name"
+                }
+              ]
+            },
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "en-US"
+                },
+                {
+                  "url": "content",
+                  "valueString": "Name"
+                }
+              ]
+            }
+          ]
+        },
+        "definition": "Der vollständige Name der Sammlung oder Biobank.",
+        "_definition": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "de-DE"
+                },
+                {
+                  "url": "content",
+                  "valueString": "Der vollständige Name der Sammlung oder Biobank."
+                }
+              ]
+            },
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "en-US"
+                },
+                {
+                  "url": "content",
+                  "valueString": "The full name of the collection or biobank."
+                }
+              ]
+            }
+          ]
+        },
         "min": 1,
         "mustSupport": true,
         "_short": {
@@ -328,6 +577,7 @@
         "id": "Organization.alias",
         "path": "Organization.alias",
         "mustSupport": true,
+        "short": "Akronym",
         "_short": {
           "extension": [
             {
@@ -358,6 +608,7 @@
             }
           ]
         },
+        "definition": "Das Akronym oder der Kurztitel der Sammlung oder Biobank.",
         "_definition": {
           "extension": [
             {
@@ -388,11 +639,12 @@
             }
           ]
         }
-      },
+        },
       {
         "id": "Organization.partOf",
         "path": "Organization.partOf",
         "mustSupport": true,
+        "short": "Teil von",
         "_short": {
           "extension": [
             {
@@ -423,6 +675,7 @@
             }
           ]
         },
+        "definition": "Verweist auf eine übergeordnete Sammlung oder Biobank, zu der diese gehört.",
         "_definition": {
           "extension": [
             {
@@ -453,7 +706,7 @@
             }
           ]
         }
-      },
+        },
       {
         "id": "Organization.contact",
         "path": "Organization.contact",

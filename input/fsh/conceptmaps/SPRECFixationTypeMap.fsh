@@ -4,6 +4,9 @@ Title: "SPREC 3.0 Fixation Type Mapping"
 Usage: #definition
 Description: "Mapping der SPREC 3.0 Fixation Types auf die im Modul verwendeten SNOMED CT Codes für Zusatzstoffe."
 
+* insert Version
+* insert SP_Publisher
+
 * url = "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ConceptMap/SPRECFixationTypeMap"
 * title = "SPREC 3.0 Fixation Type Mapping"
 * status = #active

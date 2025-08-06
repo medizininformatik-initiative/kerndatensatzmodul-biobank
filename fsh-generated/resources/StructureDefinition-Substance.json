@@ -2,6 +2,7 @@
   "resourceType": "StructureDefinition",
   "id": "Substance",
   "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/Substance",
+  "version": "2025.0.4",
   "name": "ProfileSubstanceAdditiv",
   "title": "Profile - Substance - Additiv",
   "status": "active",
