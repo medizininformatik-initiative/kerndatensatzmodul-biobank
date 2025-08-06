@@ -4,5 +4,7 @@
   filename: Organization
 - name: Specimen (Bioprobe)
   filename: Specimen
+- name: Specimen (Zelllinie/Organoid)
+  filename: ZelllinieOrganoid
 - name: Substance (Additiv)
   filename: SubstanceAdditiv.page.md
