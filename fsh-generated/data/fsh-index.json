@@ -128,6 +128,22 @@
     "endLine": 6
   },
   {
+    "outputFile": "StructureDefinition-Kulturprotokoll.json",
+    "fshName": "ExtensionKulturprotokoll",
+    "fshType": "Extension",
+    "fshFile": "extensions\\ExtensionKulturprotokoll.fsh",
+    "startLine": 1,
+    "endLine": 6
+  },
+  {
+    "outputFile": "StructureDefinition-Observation-Karyotyp.json",
+    "fshName": "ProfileObservationKaryotyp",
+    "fshType": "Profile",
+    "fshFile": "profiles\\ProfileObservationKaryotyp.fsh",
+    "startLine": 1,
+    "endLine": 13
+  },
+  {
     "outputFile": "StructureDefinition-Organization.json",
     "fshName": "ProfileOrganizationSammlungBiobank",
     "fshType": "Profile",
@@ -174,6 +190,14 @@
     "fshFile": "extensions\\ExtensionVerwaltendeOrganisation.fsh",
     "startLine": 1,
     "endLine": 6
+  },
+  {
+    "outputFile": "StructureDefinition-ZellinieOrganoid.json",
+    "fshName": "ProfileSpecimenZellinieOrganoid",
+    "fshType": "Profile",
+    "fshFile": "profiles\\ProfileSpecimenZellinieOrganiod.fsh",
+    "startLine": 1,
+    "endLine": 9
   },
   {
     "outputFile": "Substance-Heparin.json",
@@ -230,5 +254,13 @@
     "fshFile": "valuesets\\ValueSetSCTLaboratoryProcedure.fsh",
     "startLine": 1,
     "endLine": 5
+  },
+  {
+    "outputFile": "ValueSet-vs-karyotyp.json",
+    "fshName": "ValueSetKaryotyp",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets\\ValueSetKaryotyp.fsh",
+    "startLine": 1,
+    "endLine": 8
   }
 ]
