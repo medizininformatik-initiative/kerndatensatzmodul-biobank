@@ -4,5 +4,9 @@
   filename: Extensions.page.md
 - name: Observation Karyotyp
   filename: Karyotyp.page.md
+- name: Observation Morphologie
+  filename: Morphologie.page.md
+- name: Observation Wachstumstyp
+  filename: Wachstumstyp.page.md
 - name: Suchparameter
   filename: Suchparameter.page.md
