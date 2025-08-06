@@ -1,0 +1,33 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "ValueSetKaryotyp",
+  "id": "vs-karyotyp",
+  "title": "ValueSet - Additive",
+  "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/vs-karyotyp",
+  "compose": {
+    "include": [
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "27159004",
+            "display": "Haploidy (cell structure)"
+          },
+          {
+            "code": "89304008",
+            "display": "Diploidy (cell structure)"
+          },
+          {
+            "code": "734875008",
+            "display": "Karyotype 46, XX (cell structure)"
+          },
+          {
+            "code": "734876009",
+            "display": "Karyotype 46, XY (cell structure)"
+          }
+        ]
+      }
+    ]
+  }
+}
