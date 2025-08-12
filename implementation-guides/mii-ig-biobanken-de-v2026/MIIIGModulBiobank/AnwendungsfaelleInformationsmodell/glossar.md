@@ -4,20 +4,21 @@ Auf dieser Seite wird erklärt, wie bestimmte Begriffe im Kontext dieses Impleme
 
 ### Primärprobe
 
-Auch Masterprobe genannt.
-Die Probe, wie sie gesammelt wurde, vor ihrer Verarbeitung.
+Auch Stammprobe oder Masterprobe genannt. Bezeichnet die Probe, wie sie von Patientinnen / Patienten entnommen wurde, vor ihrer Verarbeitung.
+
+Hinweis: In einigen Kontexten wird die Mutterprobe auch Masterprobe genannt. Im Kontext der Medizininformatik-Initiative bezeichnet eine Masterprobe aber eine Primärprobe.
 
 ### Mutterprobe
 
 Auch Aliquotgruppe genannt.
-Eine möglicherweise bereits verarbeitete Probe, von der Aliqoute erstellt wurden.
-Als eine Probe zählt 
-1.) Proben, die in allen Parametern übereinstimmen werden (Primärprobe + Probentyp) als eine Probe angesehen und einfach gezählt - bzw- dürfen nur einmal in den Store geladen werden. & 
-2.) Proben, die sich in mindestens einem Parameter (zentral oder nicht) unterscheiden sind verschiedene Proben und werden beide gezählt - bzw. in den Store hochgeladen. 
+Eine Zusammenfassung von Aliquots gleichen Probentyps, die von der gleichen möglicherweise bereits verarbeiteten Primärprobe abstammen.
+Proben, die sich in Probentyp oder Primärprobe unterscheiden, werden als verschiedene Mutterproben gezählt.
+
+Bei Machbarkeitsanfragen empfiehlt es sich die Mutterproben zu zählen, nicht die Aliquots. Eine Mutterprobe zählt als verfügbar, solange mindestes ein Aliquot verfügbar ist.
 
 ### Aliquot
 
-Eine Probe, von der identische Geschwisterproben existieren, die der selben Mutterprobe entstammen.
+Eine Probe, von der identische Geschwisterproben existieren können, die derselben Mutterprobe entstammen. Wenn ein Aliquot noch einmal aufgeteilt wird, bleibt es trotzdem ein Aliquot. Eine neue Mutterprobe entsteht erst durch eine erneute Prozessierung.
 
 ------
 
