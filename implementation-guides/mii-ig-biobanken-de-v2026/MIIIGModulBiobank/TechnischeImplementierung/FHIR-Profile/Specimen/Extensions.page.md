@@ -10,13 +10,13 @@ Um zu einer Verabeitung oder Lagerung die jeweils herrschenden Temperaturbedingu
 
 ##### Einstellung Blutversorgung
 
-Zeitpunkt der Einstellung der Bluversorgung während der Entnahme. Wird z.B. für die Berechnung der kalten bzw. warem Ischämiezeiten benötigt.
+Zeitpunkt der Einstellung der Bluversorgung während der Entnahme. Wird z.B. für die Berechnung der kalten bzw. warmen Ischämiezeiten benötigt.
 
 {{render:https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/EinstellungBlutversorgung}}
 
 ##### Verwaltende Organisation
 
-Die Organisation, die die Probe verwaltet, soll mithilfe dieser Extension referenziert werden. Anfragen zu den Proben sollen mittels dieser Verlinkung und der in der Organization hinterlegten Kontaktinformationen möglich sein.
+Die Organisation, die die Probe verwaltet, soll mithilfe dieser Extension referenziert werden. Anfragen zu den Proben sollen mittels dieser Verlinkung und den in der Organization hinterlegten Kontaktinformationen möglich sein.
 
 {{render:https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/VerwaltendeOrganisation}}
 
