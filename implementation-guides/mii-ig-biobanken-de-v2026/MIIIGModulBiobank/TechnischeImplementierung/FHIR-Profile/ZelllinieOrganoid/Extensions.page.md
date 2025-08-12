@@ -9,11 +9,19 @@ Mittels dieser Extension kann das angewendete Kulturprotokoll bei einer Zelllini
 
 ##### Zahl Aliquots
 
+Anzahl der Aliquots, wenn diese nicht als eigene FHIR-Ressourcen ausmodelliert werden.
+
 ##### Qualitätsprüfung
+
+Durchgeführte Qualitätsprüfungen, z.B. Messung der Viabilität, Test auf Mykoplasmen, STR-Analyse, Wiederauftaubarkeit / Wiederinkulturnahme.
 
 ##### Modifikationen
 
-##### Phenotype
+Vorgenommene Modifikationen, z.B. CRISPR-editiert, fluorszierend markiert.
+
+##### Phänotyp
+
+Phänotyp oder Diagnose der Zelllinie / des Organoids, wenn nicht patientenbezogen angebbar.
 
 ##### Proliferation
 
