@@ -1,8 +1,8 @@
 Instance: SPRECFixationTypeMap
 InstanceOf: http://hl7.org/fhir/StructureDefinition/ConceptMap
-Title: "SPREC 3.0 Fixation Type Mapping"
+Title: "SPREC 4.0 Fixation Type Mapping"
 Usage: #definition
-Description: "Mapping der SPREC 3.0 Fixation Types auf die im Modul verwendeten SNOMED CT Codes für Zusatzstoffe."
+Description: "Mapping der SPREC 4.0 Fixation Types auf die im Modul verwendeten SNOMED CT Codes für Zusatzstoffe."
 
 * insert Version
 * insert SP_Publisher
