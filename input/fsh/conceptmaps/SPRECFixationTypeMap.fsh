@@ -19,7 +19,7 @@ Description: "Mapping der SPREC 3.0 Fixation Types auf die im Modul verwendeten 
 * insert InitMapping(#ALD, "Aldehyde based")
 * insert AddMapping(768750002, "Product containing aldehyde (product\)", #wider)
 
-* insert InitMapping(#ALD, "Alcohol based")
+* insert InitMapping(#ETH, "Alcohol based")
 * insert AddMapping(333164008, "Product containing alcohol (product\)", #wider)
 
 * insert InitMapping(#FOR, "Nonbuffered formalin")
