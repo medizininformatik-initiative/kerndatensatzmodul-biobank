@@ -8,7 +8,7 @@ Description: "Mapping der SPREC 4.0 Fixation Types auf die im Modul verwendeten 
 * insert SP_Publisher
 
 * url = "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ConceptMap/SPRECFixationTypeMap"
-* title = "SPREC 3.0 Fixation Type Mapping"
+* title = "SPREC 4.0 Fixation Type Mapping"
 * status = #active
 
 * group.target = "http://snomed.info/sct"
