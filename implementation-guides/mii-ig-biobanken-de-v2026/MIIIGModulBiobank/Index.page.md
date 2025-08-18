@@ -31,7 +31,7 @@ Anmerkungen und Kritik wird in Form von 'Issues' im Simplifier Projekt stets ger
 * Deppenwiese, Noemi - MIRACUM
 * Engels, Cecilia - GBN
 * Kirsten, Toralf - SMITH
-* Rinaldi,Eugenia - HiGHmed
+* Rinaldi, Eugenia - HiGHmed
 * Siddiqui, Roman - MII-Koordinationsstelle
 
 ## Copyright-Hinweis, Nutzungshinweise
