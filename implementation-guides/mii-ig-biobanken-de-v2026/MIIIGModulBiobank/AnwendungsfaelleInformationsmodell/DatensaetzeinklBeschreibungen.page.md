@@ -1,8 +1,8 @@
 ## Datensätze inkl. Beschreibungen
 
-Die offizielle Version des Informationsmodells für das Erweiterungsmodul Biobank findet sich auf Art-Decor. Zur Vereinheitlichung der Repräsentation wurde das Informationsmodell zusätzlich als FHIR Logical Model abgebildet:
+Hier befindet sich die offizielle Version des Informationsmodells für das Kerndatensatzmodul Biobank als FHIR Logical Model:
 
-{{tree:biobank}}
+{{tree:mii_lm_biobank}}
 
 Es ist zu beachten, dass das Logical Model rein auf die Abbildung der Datenelemente und deren Beschreibung abzielt. Verwendete Datentypen sind nicht als verpflichtend anzusehen. Dies wird abschließend durch die FHIR-Profile festgelegt. Für jedes Element innerhalb des Logical Models existiert ein Mapping auf ein Element einer konkreten FHIR Ressource.
 
