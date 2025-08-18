@@ -7,7 +7,7 @@ topic: terminologien
 
 Soweit möglich sollen Terminologien und eindeutige Codes verwendet werden, die internationalen Standards entsprechen.
 
- Zur eindeutigen Identifizierung von [Additive](https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/additive ),[Containertyp](https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/containertyp),[Probenart](https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/probenart), [Verarbeitungstyp](https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/sct-lab-procedure) wird die Verwendung von [SNOMED CT](http://snomed.info/sct) empfohlen. 
+ Zur eindeutigen Identifizierung von [Additive](https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/additive ), [Containertyp](https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/containertyp), [Probenart](https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/probenart) und [Verarbeitungstyp](https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/sct-lab-procedure) wird die Verwendung von [SNOMED CT](https://www.snomed.org/) empfohlen. 
 
 Für [Body Site](https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/sct-body-structures)
  kann neben SNOMED CT auch die International Classification of Diseases for Oncology, v.3, Topography [(ICD-O-3)](https://terminology.hl7.org/2.1.0/CodeSystem-icd-o-3.html) verwendet werden.
@@ -24,7 +24,7 @@ Zusätzlich wurde ein eigener Code (_RESEARCH_) für den ContactType [definiert]
 
 **Standard PREanalytical Code (SPREC)**
 
-Der [SPREC 3.0](https://pubmed.ncbi.nlm.nih.gov/24849886/) (Standard PREanalytical Code) wurde entwickelt, um ein umfassendes und einfach zu implementierendes Werkzeug zur Dokumentation der präanalytischen Sammlung, Verarbeitung und Lagerung von Bioproben bereitzustellen.
+Der [SPREC 4.0](https://www.researchgate.net/publication/383061419_Standard_PREanalytical_Code_Version_40) (Standard PREanalytical Code) wurde entwickelt, um ein umfassendes und einfach zu implementierendes Werkzeug zur Dokumentation der präanalytischen Sammlung, Verarbeitung und Lagerung von Bioproben bereitzustellen.
 Viele Elemente der SPREC, wie z. B. Probentypen, sind bereits in SNOMED CT INTERNATIONAL enthalten, viele aber auch nicht. Insbesondere der Modus der Zentrifugation lässt sich mit den aktuellen SNOMED International Codes nicht darstellen.
  
 Die SNOMED CT Codes für SPREC-Begriffe wurden von der [SNOMED CT Spanish Extension](https://webs.somsns.es/cnr/Visor_EE.htm) als Ergebnis der Arbeit des Spanish Network of Biobanks  zu Definition des Biobank-Refsets in SNOMED CT veröffentlicht.
