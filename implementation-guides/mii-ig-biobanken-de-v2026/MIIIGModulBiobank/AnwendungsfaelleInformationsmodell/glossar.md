@@ -23,7 +23,7 @@ Eine Probe, von der identische Geschwisterproben existieren können, die derselb
 
 Ein Beispiel dieser Strukturierung von Proben ist hier dargestellt:
 
-{{render:guides-mii-ig-biobanken-de-v2026-images-probenebenen}}
+{{render:implementation-guides-mii-ig-biobanken-de-v2026-images-probenebenen}}
 
 ------
 
