@@ -1,6 +1,6 @@
 ## {{page-title}}
 
-Auf dieser Seite wird erklärt, wie bestimmte Begriffe im Kontext dieses Implementation Guide verwendet werden. Die Definitionen spiegeln den konsens des Modulteams wieder, werden aber u.U. von einzelnen Standorten oder anderen Gruppen anders verwendet.
+Auf dieser Seite wird erklärt, wie bestimmte Begriffe im Kontext dieses Implementation Guide verwendet werden. Die Definitionen spiegeln den Konsens des Modulteams wieder, werden aber u.U. von einzelnen Standorten oder anderen Gruppen anders verwendet.
 
 ### Primärprobe
 
@@ -13,11 +13,17 @@ Hinweis: In einigen Kontexten wird die Aliquotgruppe auch Masterprobe genannt. I
 Eine Zusammenfassung von Aliquots gleichen Probentyps, die von der gleichen möglicherweise bereits verarbeiteten Primärprobe abstammen.
 Proben, die sich in Probentyp oder Primärprobe unterscheiden, werden als verschiedene Aliquotgruppen gezählt.
 
-Bei Machbarkeitsanfragen empfiehlt es sich die Gruppe zu zählen, nicht alle einzelnen Aliquots. Eine Aliquotgruppe zählt als verfügbar, solange mindestes ein Aliquot verfügbar ist.
+Bei Machbarkeitsanfragen empfiehlt es sich die Gruppe zu zählen, nicht alle einzelnen Aliquots. Eine Aliquotgruppe zählt als verfügbar, solange mindestes ein Aliquot verfügbar ist. Werden direkt Primärproben eingefroren (z.B. PAX), sollen diese zusätzlich auch als Aliquotgruppe markiert werden, damit sie bei Machbarkeitsanfragen ebenfalls gezählt werden können.
+
 
 ### Aliquot
 
 Eine Probe, von der identische Geschwisterproben existieren können, die derselben Aliquotgruppe entstammen. Wenn ein Aliquot noch einmal aufgeteilt wird, bleiben beide Aliquots Teil der bestehenden Aliquotgruppe. Eine neue Gruppe entsteht erst durch eine erneute Prozessierung.
+
+
+Ein Beispiel dieser Strukturierung von Proben ist hier dargestellt:
+
+{{render:guides-mii-ig-biobanken-de-v2026-images-probenebenen}}
 
 ------
 
