@@ -21,18 +21,23 @@ Description: "Mapping der SPREC 4.0 Primary-Container-Containertypen auf die im 
 * insert AddAdditiveMapping(11713004, "Water (substance\)")
 
 * insert InitMapping(#CAT, "Serum separator tube without clot activator")
-* insert AddMapping(706052002, "Evacuated blood collection tube (physical object\)", #wider)
+* insert AddMapping(702256007, "Non-evacuated blood collection tube\, no additive (physical objec\)", #narrower)
+* group.element[=].target[=].comment = "Use only for non-evacuated blood collection tubes."
+* insert AddMapping(702278000, "Evacuated blood collection tube\, no additive and metal-free (physical object\)", #narrower)
+* group.element[=].target[=].comment = "Use only for metal-free evacuated blood collection tubes."
 
 * insert InitMapping(#CPD, "Citrate phosphate dextrose")
 * group.element[=].target.equivalence = #unmatched
 * insert AddAdditiveMapping(412546005, "Sodium citrate (substance\)")
 * insert AddAdditiveMapping(259296007, "Phosphate (substance\)")
 * insert AddAdditiveMapping(67079006, "Glucose (substance\)")
+* insert AddAdditiveMapping(11713004, "Water (substance\)")
 
 * insert InitMapping(#CIF, "Citrate fluoride")
 * group.element[=].target.equivalence = #unmatched
 * insert AddAdditiveMapping(412546005, "Sodium citrate (substance\)")
 * insert AddAdditiveMapping(372639009, "Fluoride (substance\)")
+* insert AddAdditiveMapping(11713004, "Water (substance\)")
 
 * insert InitMapping(#CPT, "Cell Preparation Tube citrate")
 * insert AddMapping(706052002, "Evacuated blood collection tube (physical object\)", #wider)
