@@ -99,7 +99,7 @@ Description: "Mapping der SPREC 4.0 Primary-Container-Containertypen auf die im 
 * insert AddAdditiveMapping(88480006, "Potassium (substance\)")
 
 * insert InitMapping(#PET, "Polyethylene tube sterile")
-* insert AddMapping(34234003:840560000=71463006\,840562008=261029002, "|Plastic tube\, device (physical object\)|:|Has compositional material| = |Polyethylene (substance\)|\,|Has device characteristic| = |Sterile (qualifier value\)|", #equivalent)
+* insert AddMapping(702269006:840560000=71463006, "|General specimen container\, no additive\, sterile (physical object\)|:|Has compositional material| = |Polyethylene (substance\)|", #equivalent)
 
 * insert InitMapping(#PI1, "S8820 protease inhibitor tablets or equivalent")
 * group.element[=].target.equivalence = #unmatched
