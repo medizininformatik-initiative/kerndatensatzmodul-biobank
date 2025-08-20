@@ -4,5 +4,9 @@ Id: Substance
 Title: "Profile - Substance - Additiv"
 Description: "Abbildung eines Additives, das zu einer Probe hinzugefügt werden kann"
 
+* insert Publisher
+* insert PR_CS_VS_Version
+* insert LicenseCodeableCCBY40
+
 * code and ingredient and category MS
 * code from additive (extensible)

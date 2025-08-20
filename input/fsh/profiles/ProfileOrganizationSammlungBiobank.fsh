@@ -4,6 +4,10 @@ Id: Organization
 Title: "Profile - Organization - Sammlung/Biobank"
 Description: "Darstellung der organisatorischen Daten einer Probensammlung oder Biobank."
 
+* insert Publisher
+* insert PR_CS_VS_Version
+* insert LicenseCodeableCCBY40
+
 * extension contains BeschreibungSammlung named beschreibung 0..1 MS
 * insert Translation(extension[BeschreibungSammlung] ^short, de-DE, Beschreibung der Sammlung/Biobank)
 * insert Translation(extension[BeschreibungSammlung] ^short, en-US, Description of the collection/biobank)

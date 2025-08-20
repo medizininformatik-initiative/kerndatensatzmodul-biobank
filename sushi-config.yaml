@@ -6,4 +6,4 @@ status: active
 dependencies:
   de.basisprofil.r4: 
     uri: https://ig.fhir.de/basisprofile-de/1.4.0/
-    version: 1.5.0
+    version: 1.5.4

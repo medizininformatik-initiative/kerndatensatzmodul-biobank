@@ -1,10 +1,36 @@
 {
   "resourceType": "StructureDefinition",
   "id": "SpecimenCore",
+  "extension": [
+    {
+      "url": "https://www.medizininformatik-initiative.de/fhir/modul-meta/StructureDefinition/mii-ex-meta-license-codeable",
+      "valueCodeableConcept": {
+        "coding": [
+          {
+            "code": "CC-BY-4.0",
+            "system": "http://hl7.org/fhir/spdx-license",
+            "display": "Creative Commons Attribution 4.0 International"
+          }
+        ]
+      }
+    }
+  ],
   "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/SpecimenCore",
+  "version": "2026.0.0-preview",
   "name": "ProfileSpecimenBioprobeCore",
   "title": "Profile - Specimen - Bioprobe - Core",
   "status": "active",
+  "publisher": "Medizininformatik Initiative",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "https://www.medizininformatik-initiative.de"
+        }
+      ]
+    }
+  ],
   "description": "Basisiprofil zur Abbildung einer MII Bioprobe. Nicht zur direkten Implementierung gedacht, Module leiten bei Bedarf eigene Profile von diesem Profil ab.",
   "fhirVersion": "4.0.1",
   "kind": "resource",
@@ -474,7 +500,7 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "Specimen collection"
+                  "valueString": "Specimen sampling"
                 }
               ]
             }
@@ -570,7 +596,7 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "Collection time"
+                  "valueString": "Sampling time"
                 }
               ]
             }
@@ -631,7 +657,7 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "Entnahmestelle"
+                  "valueString": "Anatomische Lokalisation"
                 }
               ]
             },
@@ -644,7 +670,7 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "Collection site"
+                  "valueString": "anatomical localisation"
                 }
               ]
             }
@@ -661,7 +687,7 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "Die Körperstelle, von der die Probe entnommen wurde."
+                  "valueString": "Die Körperstelle, von der die Probe entnommen wurde gemäß icd-o-3."
                 }
               ]
             },
@@ -674,7 +700,7 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "The body site from which the specimen was collected."
+                  "valueString": "The body site from which the specimen was collected according to icd-o-3."
                 }
               ]
             }
@@ -843,7 +869,7 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "Verarbeitungsprozess"
+                  "valueString": "Probenverarbeitung"
                 }
               ]
             },
@@ -1399,7 +1425,7 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "Kapazität"
+                  "valueString": "Containerkapazität"
                 }
               ]
             },
@@ -1539,7 +1565,7 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "Zusatzstoffe"
+                  "valueString": "Additiv"
                 }
               ]
             },

@@ -4,7 +4,6 @@
   "name": "ValueSetSCTLaboratoryProcedure",
   "id": "sct-lab-procedure",
   "title": "ValueSet - SNOMED CT Laboratory Procedure",
-  "version": "2025.0.4",
   "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/sct-lab-procedure",
   "compose": {
     "include": [

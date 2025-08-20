@@ -1,10 +1,36 @@
 {
   "resourceType": "StructureDefinition",
   "id": "ZellinieOrganoid",
+  "extension": [
+    {
+      "url": "https://www.medizininformatik-initiative.de/fhir/modul-meta/StructureDefinition/mii-ex-meta-license-codeable",
+      "valueCodeableConcept": {
+        "coding": [
+          {
+            "code": "CC-BY-4.0",
+            "system": "http://hl7.org/fhir/spdx-license",
+            "display": "Creative Commons Attribution 4.0 International"
+          }
+        ]
+      }
+    }
+  ],
   "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/ZellinieOrganoid",
+  "version": "2026.0.0-preview",
   "name": "ProfileSpecimenZellinieOrganoid",
   "title": "Profile - Specimen - ZellinieOrganoid",
   "status": "active",
+  "publisher": "Medizininformatik Initiative",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "https://www.medizininformatik-initiative.de"
+        }
+      ]
+    }
+  ],
   "description": "Abbildung einer MII Zellinie oder Organiods",
   "fhirVersion": "4.0.1",
   "kind": "resource",
@@ -25,6 +51,54 @@
             "code": "Extension",
             "profile": [
               "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/Kulturprotokoll"
+            ]
+          }
+        ],
+        "mustSupport": true
+      },
+      {
+        "id": "Specimen.extension:anzahlAliquots",
+        "path": "Specimen.extension",
+        "sliceName": "anzahlAliquots",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/AnzahlAliqouts"
+            ]
+          }
+        ],
+        "mustSupport": true
+      },
+      {
+        "id": "Specimen.extension:modifikationen",
+        "path": "Specimen.extension",
+        "sliceName": "modifikationen",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/cell-line-modification"
+            ]
+          }
+        ],
+        "mustSupport": true
+      },
+      {
+        "id": "Specimen.extension:anzahlPassagen",
+        "path": "Specimen.extension",
+        "sliceName": "anzahlPassagen",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/AnzahlPassagen"
             ]
           }
         ],

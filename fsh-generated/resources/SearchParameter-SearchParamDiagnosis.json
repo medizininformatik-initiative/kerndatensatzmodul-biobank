@@ -2,18 +2,6 @@
   "resourceType": "SearchParameter",
   "id": "SearchParamDiagnosis",
   "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/SearchParameter/diagnose",
-  "version": "2025.0.4",
-  "publisher": "Medizininformatik Initiative",
-  "contact": [
-    {
-      "telecom": [
-        {
-          "system": "url",
-          "value": "https://www.medizininformatik-initiative.de"
-        }
-      ]
-    }
-  ],
   "name": "diagnose",
   "status": "active",
   "experimental": true,

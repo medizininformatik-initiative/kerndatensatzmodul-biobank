@@ -1,0 +1,46 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "ValueSetCLOCellLineModification",
+  "id": "vs-clo-cellline-modification",
+  "title": "Modifikationen Zellinie",
+  "description": "Modifikationen an einer Zellinie",
+  "version": "2026.0.0-preview",
+  "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/vs-clo-cellline-modification",
+  "publisher": "Medizininformatik Initiative",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "https://www.medizininformatik-initiative.de"
+        }
+      ]
+    }
+  ],
+  "compose": {
+    "include": [
+      {
+        "system": "http://purl.obolibrary.org/obo/CLO_",
+        "concept": [
+          {
+            "code": "0037376",
+            "display": "derived from cell with isogenic modification of gene"
+          },
+          {
+            "code": "0037377",
+            "display": "derived from cell with knockin gene"
+          },
+          {
+            "code": "0037375",
+            "display": "derived from cell with knockout gene"
+          },
+          {
+            "code": "0037378",
+            "display": "derived from cell with transgenic modification"
+          }
+        ]
+      }
+    ]
+  }
+}

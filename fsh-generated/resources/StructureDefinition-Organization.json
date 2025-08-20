@@ -1,10 +1,36 @@
 {
   "resourceType": "StructureDefinition",
   "id": "Organization",
+  "extension": [
+    {
+      "url": "https://www.medizininformatik-initiative.de/fhir/modul-meta/StructureDefinition/mii-ex-meta-license-codeable",
+      "valueCodeableConcept": {
+        "coding": [
+          {
+            "code": "CC-BY-4.0",
+            "system": "http://hl7.org/fhir/spdx-license",
+            "display": "Creative Commons Attribution 4.0 International"
+          }
+        ]
+      }
+    }
+  ],
   "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/Organization",
+  "version": "2026.0.0-preview",
   "name": "ProfileOrganizationSammlungBiobank",
   "title": "Profile - Organization - Sammlung/Biobank",
   "status": "active",
+  "publisher": "Medizininformatik Initiative",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "https://www.medizininformatik-initiative.de"
+        }
+      ]
+    }
+  ],
   "description": "Darstellung der organisatorischen Daten einer Probensammlung oder Biobank.",
   "fhirVersion": "4.0.1",
   "kind": "resource",

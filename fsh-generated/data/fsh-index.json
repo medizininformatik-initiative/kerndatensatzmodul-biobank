@@ -88,12 +88,28 @@
     "endLine": 30
   },
   {
+    "outputFile": "StructureDefinition-AnzahlAliqouts.json",
+    "fshName": "ExtensionAnzahlAliqouts",
+    "fshType": "Extension",
+    "fshFile": "extensions\\ExtensionAnzahlAliquots.fsh",
+    "startLine": 1,
+    "endLine": 10
+  },
+  {
+    "outputFile": "StructureDefinition-AnzahlPassagen.json",
+    "fshName": "ExtensionAnzahlPassagen",
+    "fshType": "Extension",
+    "fshFile": "extensions\\ExtensionZahlPassagen.fsh",
+    "startLine": 1,
+    "endLine": 10
+  },
+  {
     "outputFile": "StructureDefinition-BeschreibungSammlung.json",
     "fshName": "ExtensionBeschreibungSammlung",
     "fshType": "Extension",
     "fshFile": "extensions\\ExtensionBeschreibungSammlung.fsh",
     "startLine": 1,
-    "endLine": 6
+    "endLine": 10
   },
   {
     "outputFile": "StructureDefinition-Biobank.json",
@@ -109,7 +125,7 @@
     "fshType": "Extension",
     "fshFile": "extensions\\ExtensionDiagnose.fsh",
     "startLine": 1,
-    "endLine": 6
+    "endLine": 10
   },
   {
     "outputFile": "StructureDefinition-EinstellungBlutversorgung.json",
@@ -117,7 +133,7 @@
     "fshType": "Extension",
     "fshFile": "extensions\\ExtensionEinstellungBlutversorgung.fsh",
     "startLine": 1,
-    "endLine": 6
+    "endLine": 10
   },
   {
     "outputFile": "StructureDefinition-KontaktRolle.json",
@@ -125,7 +141,7 @@
     "fshType": "Extension",
     "fshFile": "extensions\\ExtensionKontaktRolle.fsh",
     "startLine": 1,
-    "endLine": 6
+    "endLine": 10
   },
   {
     "outputFile": "StructureDefinition-Kulturprotokoll.json",
@@ -133,7 +149,7 @@
     "fshType": "Extension",
     "fshFile": "extensions\\ExtensionKulturprotokoll.fsh",
     "startLine": 1,
-    "endLine": 6
+    "endLine": 10
   },
   {
     "outputFile": "StructureDefinition-Observation-Karyotyp.json",
@@ -141,7 +157,39 @@
     "fshType": "Profile",
     "fshFile": "profiles\\ProfileObservationKaryotyp.fsh",
     "startLine": 1,
-    "endLine": 13
+    "endLine": 19
+  },
+  {
+    "outputFile": "StructureDefinition-Observation-Morphologie.json",
+    "fshName": "ProfileObservationMorphologie",
+    "fshType": "Profile",
+    "fshFile": "profiles\\ProfileObservationZellMorphologie.fsh",
+    "startLine": 1,
+    "endLine": 17
+  },
+  {
+    "outputFile": "StructureDefinition-Observation-Proliferation.json",
+    "fshName": "ProfileObservationProliferation",
+    "fshType": "Profile",
+    "fshFile": "profiles\\ProfileObservationProliferation.fsh",
+    "startLine": 1,
+    "endLine": 17
+  },
+  {
+    "outputFile": "StructureDefinition-Observation-Qualitaetspruefung.json",
+    "fshName": "ProfileObservationQualiaetspruefung",
+    "fshType": "Profile",
+    "fshFile": "profiles\\ProfileObservationQualitaetspruefung.fsh",
+    "startLine": 1,
+    "endLine": 26
+  },
+  {
+    "outputFile": "StructureDefinition-Observation-Wachstumstyp.json",
+    "fshName": "ProfileObservationWachstumstyp",
+    "fshType": "Profile",
+    "fshFile": "profiles\\ProfileObservationWachstumstyp.fsh",
+    "startLine": 1,
+    "endLine": 17
   },
   {
     "outputFile": "StructureDefinition-Organization.json",
@@ -149,7 +197,7 @@
     "fshType": "Profile",
     "fshFile": "profiles\\ProfileOrganizationSammlungBiobank.fsh",
     "startLine": 1,
-    "endLine": 64
+    "endLine": 68
   },
   {
     "outputFile": "StructureDefinition-Specimen.json",
@@ -157,7 +205,7 @@
     "fshType": "Profile",
     "fshFile": "profiles\\ProfileSpecimenBioprobe.fsh",
     "startLine": 1,
-    "endLine": 19
+    "endLine": 23
   },
   {
     "outputFile": "StructureDefinition-SpecimenCore.json",
@@ -165,7 +213,7 @@
     "fshType": "Profile",
     "fshFile": "profiles\\ProfileSpecimenBioprobeCore.fsh",
     "startLine": 1,
-    "endLine": 184
+    "endLine": 188
   },
   {
     "outputFile": "StructureDefinition-Substance.json",
@@ -173,7 +221,7 @@
     "fshType": "Profile",
     "fshFile": "profiles\\ProfileSubstanceAdditiv.fsh",
     "startLine": 1,
-    "endLine": 8
+    "endLine": 12
   },
   {
     "outputFile": "StructureDefinition-Temperaturbedingungen.json",
@@ -181,7 +229,7 @@
     "fshType": "Extension",
     "fshFile": "extensions\\ExtensionTemperaturbedingungen.fsh",
     "startLine": 1,
-    "endLine": 12
+    "endLine": 16
   },
   {
     "outputFile": "StructureDefinition-VerwaltendeOrganisation.json",
@@ -189,7 +237,7 @@
     "fshType": "Extension",
     "fshFile": "extensions\\ExtensionVerwaltendeOrganisation.fsh",
     "startLine": 1,
-    "endLine": 6
+    "endLine": 10
   },
   {
     "outputFile": "StructureDefinition-ZellinieOrganoid.json",
@@ -197,7 +245,15 @@
     "fshType": "Profile",
     "fshFile": "profiles\\ProfileSpecimenZellinieOrganiod.fsh",
     "startLine": 1,
-    "endLine": 9
+    "endLine": 16
+  },
+  {
+    "outputFile": "StructureDefinition-cell-line-modification.json",
+    "fshName": "ExtensionModifikationen",
+    "fshType": "Extension",
+    "fshFile": "extensions\\ExtensionModifikationen.fsh",
+    "startLine": 1,
+    "endLine": 21
   },
   {
     "outputFile": "Substance-Heparin.json",
@@ -213,7 +269,7 @@
     "fshType": "ValueSet",
     "fshFile": "valuesets\\ValueSetAdditive.fsh",
     "startLine": 1,
-    "endLine": 5
+    "endLine": 8
   },
   {
     "outputFile": "ValueSet-containertyp.json",
@@ -221,7 +277,7 @@
     "fshType": "ValueSet",
     "fshFile": "valuesets\\ValueSetContainertyp.fsh",
     "startLine": 1,
-    "endLine": 5
+    "endLine": 8
   },
   {
     "outputFile": "ValueSet-icd-o-3-topography.json",
@@ -229,7 +285,7 @@
     "fshType": "ValueSet",
     "fshFile": "valuesets\\ValueSetICDO3Topography.fsh",
     "startLine": 1,
-    "endLine": 5
+    "endLine": 8
   },
   {
     "outputFile": "ValueSet-probenart.json",
@@ -256,11 +312,43 @@
     "endLine": 5
   },
   {
+    "outputFile": "ValueSet-vs-cellline-morphology.json",
+    "fshName": "ValueSetCellLineMorphology",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets\\ValueSetCellLineMorphologie.fsh",
+    "startLine": 1,
+    "endLine": 9
+  },
+  {
+    "outputFile": "ValueSet-vs-cellline-proliferation.json",
+    "fshName": "ValueSetCellLineProliferation",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets\\ValueSetCellinieProliferation.fsh",
+    "startLine": 1,
+    "endLine": 13
+  },
+  {
+    "outputFile": "ValueSet-vs-clo-cellline-modification.json",
+    "fshName": "ValueSetCLOCellLineModification",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets\\ValueSetModifikationen.fsh",
+    "startLine": 1,
+    "endLine": 12
+  },
+  {
+    "outputFile": "ValueSet-vs-clo-grpwth-type.json",
+    "fshName": "ValueSetCLOWachstumpstyp",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets\\ValueSetWachstumstyp.fsh",
+    "startLine": 1,
+    "endLine": 7
+  },
+  {
     "outputFile": "ValueSet-vs-karyotyp.json",
     "fshName": "ValueSetKaryotyp",
     "fshType": "ValueSet",
     "fshFile": "valuesets\\ValueSetKaryotyp.fsh",
     "startLine": 1,
-    "endLine": 8
+    "endLine": 11
   }
 ]

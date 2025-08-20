@@ -3,6 +3,10 @@ Id: Temperaturbedingungen
 Title: "Extension - Temperaturbedingungen"
 Description: "Um zu einer Verabeitung oder Lagerung die jeweils herrschenden Temperaturbedingungen (in °C) anzugeben soll diese Extension verwendet werden. Dabei soll nach Möglichkeit immer ein Wertebereich inkl. oberer und unterer Grenze angegeben werden."
 
+* insert Publisher
+* insert PR_CS_VS_Version
+* insert LicenseCodeableCCBY40
+
 * value[x] only Range
 * valueRange.low ^patternQuantity.system = "http://unitsofmeasure.org"
 * valueRange.low ^patternQuantity.code = #Cel
