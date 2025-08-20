@@ -213,7 +213,7 @@
     "fshType": "Profile",
     "fshFile": "profiles\\ProfileSpecimenBioprobeCore.fsh",
     "startLine": 1,
-    "endLine": 188
+    "endLine": 190
   },
   {
     "outputFile": "StructureDefinition-Substance.json",
@@ -254,6 +254,14 @@
     "fshFile": "extensions\\ExtensionModifikationen.fsh",
     "startLine": 1,
     "endLine": 21
+  },
+  {
+    "outputFile": "StructureDefinition-mii-ex-biobank-feature-r5.json",
+    "fshName": "MII_EX_Biobank_Feature_R5",
+    "fshType": "Extension",
+    "fshFile": "extensions\\ExtensionR5Feature.fsh",
+    "startLine": 1,
+    "endLine": 16
   },
   {
     "outputFile": "Substance-Heparin.json",
