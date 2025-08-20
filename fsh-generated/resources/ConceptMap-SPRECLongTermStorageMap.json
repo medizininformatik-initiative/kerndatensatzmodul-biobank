@@ -2,8 +2,8 @@
   "resourceType": "ConceptMap",
   "id": "SPRECLongTermStorageMap",
   "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ConceptMap/SPRECLongTermStorageMap",
-  "title": "SPREC 3.0 Long-Term Storage Mapping",
-  "description": "Mapping der SPREC 3.0 Long-Term Storage Containertypen auf die im Modul verwendeten SNOMED CT Codes.",
+  "title": "SPREC 4.0 Long-Term Storage Mapping",
+  "description": "Mapping der SPREC 4.0 Long-Term Storage Containertypen auf die im Modul verwendeten SNOMED CT Codes.",
   "status": "active",
   "group": [
     {
@@ -14,8 +14,8 @@
           "display": "PP tube",
           "target": [
             {
-              "code": "34234003:840560000=256633009",
-              "display": "Plastic tube , device (physical object): Has compositional material=Polypropylene (substance)",
+              "code": "702269006:840560000=256633009",
+              "display": "General specimen container, no additive, sterile (physical object): Has compositional material=Polypropylene (substance)",
               "equivalence": "wider"
             }
           ]
@@ -25,8 +25,8 @@
           "display": "PP tube",
           "target": [
             {
-              "code": "34234003:840560000=256633009",
-              "display": "Plastic tube , device (physical object): Has compositional material=Polypropylene (substance)",
+              "code": "702269006:840560000=256633009",
+              "display": "General specimen container, no additive, sterile (physical object): Has compositional material=Polypropylene (substance)",
               "equivalence": "wider"
             }
           ]
@@ -36,8 +36,8 @@
           "display": "PP tube",
           "target": [
             {
-              "code": "34234003:840560000=256633009",
-              "display": "Plastic tube , device (physical object): Has compositional material=Polypropylene (substance)",
+              "code": "702269006:840560000=256633009",
+              "display": "General specimen container, no additive, sterile (physical object): Has compositional material=Polypropylene (substance)",
               "equivalence": "wider"
             }
           ]
@@ -47,8 +47,8 @@
           "display": "PP tube",
           "target": [
             {
-              "code": "34234003:840560000=256633009",
-              "display": "Plastic tube , device (physical object): Has compositional material=Polypropylene (substance)",
+              "code": "702269006:840560000=256633009",
+              "display": "General specimen container, no additive, sterile (physical object): Has compositional material=Polypropylene (substance)",
               "equivalence": "wider"
             }
           ]
@@ -58,8 +58,8 @@
           "display": "PP tube",
           "target": [
             {
-              "code": "34234003:840560000=256633009",
-              "display": "Plastic tube , device (physical object): Has compositional material=Polypropylene (substance)",
+              "code": "702269006:840560000=256633009",
+              "display": "General specimen container, no additive, sterile (physical object): Has compositional material=Polypropylene (substance)",
               "equivalence": "wider"
             }
           ]
@@ -69,8 +69,8 @@
           "display": "PP tube",
           "target": [
             {
-              "code": "34234003:840560000=256633009",
-              "display": "Plastic tube , device (physical object): Has compositional material=Polypropylene (substance)",
+              "code": "702269006:840560000=256633009",
+              "display": "General specimen container, no additive, sterile (physical object): Has compositional material=Polypropylene (substance)",
               "equivalence": "wider"
             }
           ]
@@ -80,8 +80,8 @@
           "display": "PP tube",
           "target": [
             {
-              "code": "34234003:840560000=256633009",
-              "display": "Plastic tube , device (physical object): Has compositional material=Polypropylene (substance)",
+              "code": "702269006:840560000=256633009",
+              "display": "General specimen container, no additive, sterile (physical object): Has compositional material=Polypropylene (substance)",
               "equivalence": "wider"
             }
           ]
@@ -91,8 +91,8 @@
           "display": "PP tube",
           "target": [
             {
-              "code": "34234003:840560000=256633009",
-              "display": "Plastic tube , device (physical object): Has compositional material=Polypropylene (substance)",
+              "code": "702269006:840560000=256633009",
+              "display": "General specimen container, no additive, sterile (physical object): Has compositional material=Polypropylene (substance)",
               "equivalence": "wider"
             }
           ]
@@ -102,8 +102,8 @@
           "display": "Cryotube",
           "target": [
             {
-              "code": "83059008",
-              "display": "Tube, device (physical object)",
+              "code": "702269006",
+              "display": "General specimen container, no additive, sterile (physical object)",
               "equivalence": "wider"
             }
           ]
@@ -113,8 +113,8 @@
           "display": "Cryotube",
           "target": [
             {
-              "code": "83059008",
-              "display": "Tube, device (physical object)",
+              "code": "702269006",
+              "display": "General specimen container, no additive, sterile (physical object)",
               "equivalence": "wider"
             }
           ]
@@ -124,8 +124,8 @@
           "display": "Cryotube",
           "target": [
             {
-              "code": "83059008",
-              "display": "Tube, device (physical object)",
+              "code": "702269006",
+              "display": "General specimen container, no additive, sterile (physical object)",
               "equivalence": "wider"
             }
           ]
@@ -135,8 +135,8 @@
           "display": "Cryotube",
           "target": [
             {
-              "code": "83059008",
-              "display": "Tube, device (physical object)",
+              "code": "702269006",
+              "display": "General specimen container, no additive, sterile (physical object)",
               "equivalence": "wider"
             }
           ]
@@ -149,7 +149,7 @@
               "code": "464601003",
               "display": "Tissue storage straw (physical object)",
               "equivalence": "narrower",
-              "comment": "Der SNOMED Code legt gilt nur für Tissue straws."
+              "comment": "Der SNOMED Code gilt nur für Tissue straws."
             }
           ]
         },
@@ -161,7 +161,7 @@
               "code": "464601003",
               "display": "Tissue storage straw (physical object)",
               "equivalence": "narrower",
-              "comment": "Der SNOMED Code legt gilt nur für Tissue straws."
+              "comment": "Der SNOMED Code gilt nur für Tissue straws."
             }
           ]
         },
@@ -173,7 +173,7 @@
               "code": "464601003",
               "display": "Tissue storage straw (physical object)",
               "equivalence": "narrower",
-              "comment": "Der SNOMED Code legt gilt nur für Tissue straws."
+              "comment": "Der SNOMED Code gilt nur für Tissue straws."
             }
           ]
         },
@@ -185,7 +185,7 @@
               "code": "464601003",
               "display": "Tissue storage straw (physical object)",
               "equivalence": "narrower",
-              "comment": "Der SNOMED Code legt gilt nur für Tissue straws."
+              "comment": "Der SNOMED Code gilt nur für Tissue straws."
             }
           ]
         },
@@ -197,7 +197,7 @@
               "code": "464601003",
               "display": "Tissue storage straw (physical object)",
               "equivalence": "narrower",
-              "comment": "Der SNOMED Code legt gilt nur für Tissue straws."
+              "comment": "Der SNOMED Code gilt nur für Tissue straws."
             }
           ]
         },

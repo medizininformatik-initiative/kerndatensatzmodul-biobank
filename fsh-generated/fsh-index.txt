@@ -4,8 +4,8 @@ CodeSystem-ContactType.json                              CodeSystemContactType  
 CodeSystem-MIABISCollectionType.json                     CodeSystemMIABISCollectionType       CodeSystem  codesystems\CodeSystemMIABISCollectionType.fsh     1 - 22
 ConceptMap-SPRECFixationTypeMap.json                     SPRECFixationTypeMap                 Instance    conceptmaps\SPRECFixationTypeMap.fsh               1 - 29
 ConceptMap-SPRECLongTermStorageMap.json                  SPRECLongTermStorageMap              Instance    conceptmaps\SPRECLongTermStorageMap.fsh            1 - 71
-ConceptMap-SPRECPrimaryContainerMap.json                 SPRECPrimaryContainerMap             Instance    conceptmaps\SPRECPrimaryContainerMap.fsh           1 - 102
-ConceptMap-SPRECSampleTypeMap.json                       SPRECSampleTypeMap                   Instance    conceptmaps\SPRECSampleTypeMap.fsh                 1 - 78
+ConceptMap-SPRECPrimaryContainerMap.json                 SPRECPrimaryContainerMap             Instance    conceptmaps\SPRECPrimaryContainerMap.fsh           1 - 140
+ConceptMap-SPRECSampleTypeMap.json                       SPRECSampleTypeMap                   Instance    conceptmaps\SPRECSampleTypeMap.fsh                 1 - 125
 Organization-BiobankMusterstadt.json                     BiobankMusterstadt                   Instance    instances\BiobankMusterstadt.fsh                   1 - 18
 Organization-Mustersammlung.json                         Mustersammlung                       Instance    instances\Mustersammlung.fsh                       1 - 18
 SearchParameter-SearchParamDiagnosis.json                SearchParamDiagnosis                 Instance    searchparameters\SearchParamDiagnosis.fsh          1 - 16

@@ -1,78 +1,125 @@
 Instance: SPRECSampleTypeMap
 InstanceOf: http://hl7.org/fhir/StructureDefinition/ConceptMap
-Title: "SPREC 3.0 Sample Type Mapping"
+Title: "SPREC 4.0 Sample Type Mapping"
 Usage: #definition
-Description: "Mapping der SPREC 3.0 Sample Types auf die im Modul verwendeten SNOMED CT Codes."
+Description: "Mapping der SPREC 4.0 Sample Types auf die im Modul verwendeten SNOMED CT Codes."
+
+* insert Version
+* insert SP_Publisher
 
 * url = "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ConceptMap/SPRECSampleTypeMap"
-* title = "SPREC 3.0 Sample Type Mapping"
+* title = "SPREC 4.0 Sample Type Mapping"
 * status = #active
 
 * group.target = "http://snomed.info/sct"
 
 * insert InitMapping(#ASC, "Ascites fluid")
 * insert AddMapping(309201001, "Ascitic fluid sample (specimen\)", #equivalent)
+
 * insert InitMapping (#AMN ,"Amniotic fluid")
 * insert AddMapping (119373006, "Amniotic fluid specimen (specimen\)", #equivalent)
+
 * insert InitMapping (#BAL, "Bronchoalveolar lavage")
 * insert AddMapping (258607008, "Bronchoalveolar lavage fluid sample (specimen\)", #equivalent)
+
 * insert InitMapping(#BLD, "Blood (whole\)")
-* insert AddMapping(420135007, "Whole blood (substance\)", #equivalent)
+* insert AddMapping(258580003, "Whole blood specimen (specimen\)", #equivalent)
+
 * insert InitMapping(#BMA, "Bone marrow aspirate")
 * insert AddMapping(396997002, "Specimen from bone marrow obtained by aspiration (specimen\)", #equivalent)
+
 * insert InitMapping(#BMK, "Breast milk")
 * insert AddMapping(446676001,"Expressed breast milk specimen (specimen\)",#equivalent)
+
 * insert InitMapping(#BUF, "Nondensity-gradient-centrifugation-separated buffy coat\, viable")
 * insert AddMapping(258587000, "Buffy coat (specimen\)", #wider)
+
 * insert InitMapping(#BFF, "Nondensity-gradient-centrifugation-separated buffy coat\, nonviable")
 * insert AddMapping(258587000, "Buffy coat (specimen\)", #wider)
+
 * insert InitMapping(#CEL, "Density-gradient-centrifugation-separated mononuclear cells\, viable")
 * insert AddMapping(404798000, "Peripheral blood mononuclear cell (cell\)", #wider)
+
 * insert InitMapping(#BON, "Bone")
 * insert AddMapping(430268003,"Specimen from bone (specimen\)", #equivalent)
+
 * insert InitMapping(#CRD, "Cord blood")
 * insert AddMapping(122556008,"Cord blood specimen (specimen\)", #equivalent)
-* insert InitMapping(#HAR, "Hair")
-* insert AddMapping(119326000, "Hair specimen (specimen\)",#equivalent)
-* insert InitMapping(#NAL, "Nails")
-* insert AddMapping(119327009, "Nail specimen (specimen\)", #equivalent)
-* insert InitMapping(#NAS, "Nasal washing")
-* insert AddMapping(16224371000119105, "Nasal lavage fluid sample (specimen\)", #equivalent)
-* insert InitMapping(#PLC, "Placenta")
-* insert AddMapping(119403008, "Specimen from placenta (specimen\)", #equivalent)
-* insert InitMapping(#PFL, "Pleural fluid")
-* insert AddMapping(418564007, "Pleural fluid specimen (specimen\)",#equivalent)
-* insert InitMapping(#RBC, "Red blood cells")
-* insert AddMapping(119351004, "Erythrocyte specimen (specimen\)", #equivalent)
-* insert InitMapping(#SEM, "Semen")
-* insert AddMapping(119347001, "Seminal fluid specimen (specimen\)", #equivalent)
-* insert InitMapping(#SPT, "Sputum")
-* insert AddMapping(119334006, "Sputum specimen (specimen\)", #equivalent)
-* insert InitMapping(#SYN, "Synovial fluid")	
-* insert AddMapping(119332005, "Synovial fluid specimen (specimen\)", #equivalent)
-* insert InitMapping(#TER, "Tears")
-* insert AddMapping(122594008, "Tears specimen (specimen\)", #equivalent)
-* insert InitMapping(#TTH, "Teeth")
-* insert AddMapping(430319000, "Specimen from tooth (specimen\)", #equivalent)
-* insert InitMapping(#SER, "Serum")
-* insert AddMapping(119364003, "Serum specimen (specimen\)", #equivalent)
+
 * insert InitMapping(#CSF, "Cerebrospinal fluid")
 * insert AddMapping(258450006,"Cerebrospinal fluid sample (specimen\)", #equivalent)
+
+* insert InitMapping(#EBC, "Exhaled breath condensate")
+* insert AddMapping(418468008,"Exhaled breath condensate (substance\)", #equivalent)
+
+* insert InitMapping(#FNA, "Cells from fine needle aspirate")
+* insert AddMapping(122550002,"Specimen obtained by fine needle aspiration procedure (specimen\)", #wider)
+
+* insert InitMapping(#HAR, "Hair")
+* insert AddMapping(119326000, "Hair specimen (specimen\)",#equivalent)
+
+* insert InitMapping(#NAL, "Nails")
+* insert AddMapping(119327009, "Nail specimen (specimen\)", #equivalent)
+
+* insert InitMapping(#NAS, "Nasal washing")
+* insert AddMapping(16224371000119105, "Nasal lavage fluid sample (specimen\)", #equivalent)
+
+* insert InitMapping(#PLC, "Placenta")
+* insert AddMapping(119403008, "Specimen from placenta (specimen\)", #equivalent)
+
+* insert InitMapping(#PFL, "Pleural fluid")
+* insert AddMapping(418564007, "Pleural fluid specimen (specimen\)",#equivalent)
+
+* insert InitMapping(#PTF, "Peritoneal fluid")
+* insert AddMapping(168139001, "Peritoneal fluid specimen (specimen\)",#equivalent)
+
+* insert InitMapping(#RBC, "Red blood cells")
+* insert AddMapping(119351004, "Erythrocyte specimen (specimen\)", #equivalent)
+
+* insert InitMapping(#SEM, "Semen")
+* insert AddMapping(119347001, "Seminal fluid specimen (specimen\)", #equivalent)
+
+* insert InitMapping(#SPT, "Sputum")
+* insert AddMapping(119334006, "Sputum specimen (specimen\)", #equivalent)
+
+* insert InitMapping(#SYN, "Synovial fluid")	
+* insert AddMapping(119332005, "Synovial fluid specimen (specimen\)", #equivalent)
+
+* insert InitMapping(#TER, "Tears")
+* insert AddMapping(122594008, "Tears specimen (specimen\)", #equivalent)
+
+* insert InitMapping(#TTH, "Teeth")
+* insert AddMapping(430319000, "Specimen from tooth (specimen\)", #equivalent)
+
+* insert InitMapping(#SER, "Serum")
+* insert AddMapping(119364003, "Serum specimen (specimen\)", #equivalent)
+
 * insert InitMapping(#SAL, "Saliva")
 * insert AddMapping(119342007,"Saliva specimen (specimen\)", #equivalent)
+
 * insert InitMapping(#STL, "Stool")
 * insert AddMapping(119339001,"Stool specimen (specimen\)", #equivalent)
+
+* insert InitMapping(#SWT, "Sweat")
+* insert AddMapping(122569007,"Sweat specimen (specimen\)", #equivalent)
+
 * insert InitMapping(#U24, "24 h urine")
 * insert AddMapping(276833005, "24 hour urine sample (specimen\)", #equivalent)
+
 * insert InitMapping(#URN, "Urine\, random (‘‘spot’’\)")
 * insert AddMapping(278020009,"Spot urine sample (specimen\)", #equivalent)
+
 * insert InitMapping(#URM, "Urine\, first morning")
 * insert AddMapping(258575007,"Early morning urine sample (specimen\)", #wider)
+
 * insert InitMapping(#URT, "Urine\, timed")
 * insert AddMapping(409821005," Timed urine specimen (specimen\)", #equivalent)
+
 * insert InitMapping(#DWB, "Dried whole blood (e.g.\, Guthrie cards\)")
 * insert AddMapping(119294007,"Dried blood specimen (specimen\)", #equivalent)
+
 * insert InitMapping(#PL1, "Plasma\, single spun")
 * insert AddMapping(119361006,"Plasma specimen (specimen\)", #wider)
+
 * insert InitMapping(#PL2, "Plasma\, double spun")
 * insert AddMapping(119361006,"Plasma specimen (specimen\)", #wider)

@@ -2,8 +2,8 @@
   "resourceType": "ConceptMap",
   "id": "SPRECFixationTypeMap",
   "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ConceptMap/SPRECFixationTypeMap",
-  "title": "SPREC 3.0 Fixation Type Mapping",
-  "description": "Mapping der SPREC 3.0 Fixation Types auf die im Modul verwendeten SNOMED CT Codes für Zusatzstoffe.",
+  "title": "SPREC 4.0 Fixation Type Mapping",
+  "description": "Mapping der SPREC 4.0 Fixation Types auf die im Modul verwendeten SNOMED CT Codes für Zusatzstoffe.",
   "status": "active",
   "group": [
     {
@@ -32,7 +32,7 @@
           ]
         },
         {
-          "code": "ALD",
+          "code": "ETH",
           "display": "Alcohol based",
           "target": [
             {
