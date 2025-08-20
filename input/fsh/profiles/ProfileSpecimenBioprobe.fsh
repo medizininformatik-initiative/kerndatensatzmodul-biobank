@@ -21,3 +21,6 @@ Description: "Abbildung einer MII Bioprobe"
 * insert Translation(extension[gehoertZu] ^short, en-US, Managing organization)
 * insert Translation(extension[gehoertZu] ^definition, de-DE, Zuordnung der Probe zu einer Sammlung oder Biobank\, die für die Verwaltung verantwortlich ist.)
 * insert Translation(extension[gehoertZu] ^definition, en-US, Assignment of the specimen to a collection or biobank responsible for its management.)
+
+* type.coding contains miabis-type 0..1 MS
+* type.coding[miabis-type] from https://fhir.bbmri-eric.eu/fhir/ValueSet/miabis-detailed-sample-type-vs (required)

@@ -191,6 +191,18 @@
             }
           ]
         }
+      },
+      {
+        "id": "Specimen.type.coding:miabis-type",
+        "path": "Specimen.type.coding",
+        "sliceName": "miabis-type",
+        "min": 0,
+        "max": "1",
+        "mustSupport": true,
+        "binding": {
+          "strength": "required",
+          "valueSet": "https://fhir.bbmri-eric.eu/fhir/ValueSet/miabis-detailed-sample-type-vs"
+        }
       }
     ]
   }

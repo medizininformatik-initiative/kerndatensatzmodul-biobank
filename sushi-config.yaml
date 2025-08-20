@@ -4,6 +4,5 @@ canonical: https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank
 # name: "KDS Biobanken"
 status: active
 dependencies:
-  de.basisprofil.r4: 
-    uri: https://ig.fhir.de/basisprofile-de/1.4.0/
-    version: 1.5.4
+  de.basisprofil.r4: 1.5.4
+  eu.miabis.r4: 0.2.0
