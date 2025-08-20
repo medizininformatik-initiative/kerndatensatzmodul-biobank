@@ -5,7 +5,7 @@
     "fshType": "CodeSystem",
     "fshFile": "codesystems\\CodeSystemProbenebene.fsh",
     "startLine": 1,
-    "endLine": 9
+    "endLine": 7
   },
   {
     "outputFile": "CodeSystem-ContactType.json",
@@ -316,6 +316,14 @@
     "fshName": "ValueSetProbenart",
     "fshType": "ValueSet",
     "fshFile": "valuesets\\ValueSetProbenart.fsh",
+    "startLine": 1,
+    "endLine": 5
+  },
+  {
+    "outputFile": "ValueSet-probenebene.json",
+    "fshName": "ValueSetProbenebene",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets\\ValueSetProbenebene.fsh",
     "startLine": 1,
     "endLine": 5
   },

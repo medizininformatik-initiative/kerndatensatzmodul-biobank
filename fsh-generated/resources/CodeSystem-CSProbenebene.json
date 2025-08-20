@@ -20,6 +20,5 @@
       "display": "Eine Probe, von der identische Geschwisterproben existieren oder existierten, die der selben Aliquotgruppe/Mutterprobe entstammen.\r\n"
     }
   ],
-  "valueSet": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/probenebene",
   "count": 3
 }

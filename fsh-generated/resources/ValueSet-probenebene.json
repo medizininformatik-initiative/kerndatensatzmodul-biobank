@@ -1,0 +1,15 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "ValueSetProbenebene",
+  "id": "probenebene",
+  "title": "ValueSet - Probenebene",
+  "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/probenebene",
+  "compose": {
+    "include": [
+      {
+        "system": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/CodeSystem/CSProbenebene"
+      }
+    ]
+  }
+}

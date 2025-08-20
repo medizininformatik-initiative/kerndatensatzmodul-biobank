@@ -8,4 +8,4 @@ Description: "Mittels dieser Extension kann ausgedrückt werden, welcher Probene
 * insert LicenseCodeableCCBY40
 
 * value[x] only Coding
-* valueCoding from https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/probenebene (required)
+* valueCoding from ValueSetProbenebene (required)

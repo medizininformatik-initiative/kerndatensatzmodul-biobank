@@ -1,5 +1,5 @@
 Output File                                              Name                                 Type        FSH File                                           Lines
-CodeSystem-CSProbenebene.json                            CodeSystemProbenebene                CodeSystem  codesystems\CodeSystemProbenebene.fsh              1 - 9
+CodeSystem-CSProbenebene.json                            CodeSystemProbenebene                CodeSystem  codesystems\CodeSystemProbenebene.fsh              1 - 7
 CodeSystem-ContactType.json                              CodeSystemContactType                CodeSystem  codesystems\CodeSystemContactType.fsh              1 - 5
 CodeSystem-MIABISCollectionType.json                     CodeSystemMIABISCollectionType       CodeSystem  codesystems\CodeSystemMIABISCollectionType.fsh     1 - 22
 ConceptMap-SPRECFixationTypeMap.json                     SPRECFixationTypeMap                 Instance    conceptmaps\SPRECFixationTypeMap.fsh               1 - 29
@@ -39,6 +39,7 @@ ValueSet-additive.json                                   ValueSetAdditive       
 ValueSet-containertyp.json                               ValueSetContainertyp                 ValueSet    valuesets\ValueSetContainertyp.fsh                 1 - 8
 ValueSet-icd-o-3-topography.json                         ValueSetICDO3Topography              ValueSet    valuesets\ValueSetICDO3Topography.fsh              1 - 8
 ValueSet-probenart.json                                  ValueSetProbenart                    ValueSet    valuesets\ValueSetProbenart.fsh                    1 - 5
+ValueSet-probenebene.json                                ValueSetProbenebene                  ValueSet    valuesets\ValueSetProbenebene.fsh                  1 - 5
 ValueSet-sct-body-structures.json                        ValueSetSCTBodyStructures            ValueSet    valuesets\ValueSetSCTBodyStructure.fsh             1 - 5
 ValueSet-sct-lab-procedure.json                          ValueSetSCTLaboratoryProcedure       ValueSet    valuesets\ValueSetSCTLaboratoryProcedure.fsh       1 - 5
 ValueSet-vs-cellline-morphology.json                     ValueSetCellLineMorphology           ValueSet    valuesets\ValueSetCellLineMorphologie.fsh          1 - 9
