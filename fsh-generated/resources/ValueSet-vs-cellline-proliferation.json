@@ -1,0 +1,60 @@
+{
+  "resourceType": "ValueSet",
+  "status": "active",
+  "name": "ValueSetCellLineProliferation",
+  "id": "vs-cellline-proliferation",
+  "title": "Proliferation Zellinie",
+  "description": "Proliferation an einer Zellinie",
+  "version": "2026.0.0-preview",
+  "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/vs-cellline-proliferation",
+  "publisher": "Medizininformatik Initiative",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "https://www.medizininformatik-initiative.de"
+        }
+      ]
+    }
+  ],
+  "compose": {
+    "include": [
+      {
+        "system": "http://purl.obolibrary.org/obo/PATO_",
+        "concept": [
+          {
+            "code": "0001422",
+            "display": "dead"
+          }
+        ]
+      },
+      {
+        "system": "http://purl.obolibrary.org/obo/PATO",
+        "concept": [
+          {
+            "code": "0001991",
+            "display": "immortal"
+          },
+          {
+            "code": "0000719",
+            "display": "viable"
+          }
+        ]
+      },
+      {
+        "system": "http://snomed.info/sct",
+        "concept": [
+          {
+            "code": "75540009",
+            "display": "High (qualifier value)"
+          },
+          {
+            "code": "62482003",
+            "display": "Low (qualifier value)"
+          }
+        ]
+      }
+    ]
+  }
+}

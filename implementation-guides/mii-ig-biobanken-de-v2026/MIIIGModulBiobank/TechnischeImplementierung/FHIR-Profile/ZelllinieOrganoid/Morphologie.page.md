@@ -5,11 +5,11 @@ Mittels einer Observation wird die Morphologie einer Zelllinie oder eines Organo
 NICHT ANGEPASST
 
 Canonical: 
-```https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/Observation-Karyotyp```
+```https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/Observation-Morphologie```
 
 **Differential**
 
-{{tree:https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/Observation-Karyotyp, diff}}
+{{tree:https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/Observation-Morphologie, diff}}
 
 <br>
 
@@ -27,7 +27,7 @@ Canonical:
 
 **Snapshot**
 
-{{tree:https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/Observation-Karyotyp, snapshot}}
+{{tree:https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/Observation-Morphologie, snapshot}}
 
 
 ---

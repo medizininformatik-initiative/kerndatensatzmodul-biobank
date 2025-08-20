@@ -3,7 +3,7 @@ Parent: Element
 Id: Biobank
 Description: "Logische Repräsentation des Erweiterungsmoduls Biobank"
 * ^url = "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/LogicalModel/Biobank"
-* insert PR_CS_VS_Version
+//* insert PR_CS_VS_Version
 
 * Bioprobe 0..* BackboneElement "Details zu einer Bioprobe"
   * Proben-ID 0..1 http://hl7.org/fhir/StructureDefinition/Identifier "Einrichtungsinterner Identifier der Probe"

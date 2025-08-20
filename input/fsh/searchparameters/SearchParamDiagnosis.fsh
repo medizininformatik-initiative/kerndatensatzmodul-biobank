@@ -3,8 +3,6 @@ InstanceOf: SearchParameter
 Title: "Diagnose der Probe Suchparameter"
 Usage: #definition
 
-* insert Version
-* insert SP_Publisher
 * url = "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/SearchParameter/diagnose"
 * name = "diagnose"
 * status = #active

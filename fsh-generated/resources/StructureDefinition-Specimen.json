@@ -1,11 +1,36 @@
 {
   "resourceType": "StructureDefinition",
   "id": "Specimen",
+  "extension": [
+    {
+      "url": "https://www.medizininformatik-initiative.de/fhir/modul-meta/StructureDefinition/mii-ex-meta-license-codeable",
+      "valueCodeableConcept": {
+        "coding": [
+          {
+            "code": "CC-BY-4.0",
+            "system": "http://hl7.org/fhir/spdx-license",
+            "display": "Creative Commons Attribution 4.0 International"
+          }
+        ]
+      }
+    }
+  ],
   "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/Specimen",
-  "version": "2025.0.4",
+  "version": "2026.0.0-preview",
   "name": "ProfileSpecimenBioprobe",
   "title": "Profile - Specimen - Bioprobe",
   "status": "active",
+  "publisher": "Medizininformatik Initiative",
+  "contact": [
+    {
+      "telecom": [
+        {
+          "system": "url",
+          "value": "https://www.medizininformatik-initiative.de"
+        }
+      ]
+    }
+  ],
   "description": "Abbildung einer MII Bioprobe",
   "fhirVersion": "4.0.1",
   "kind": "resource",
@@ -33,68 +58,6 @@
         "id": "Specimen.extension:festgestellteDiagnose",
         "path": "Specimen.extension",
         "sliceName": "festgestellteDiagnose",
-        "short": "Festgestellte Diagnose",
-        "_short": {
-          "extension": [
-            {
-              "url": "http://hl7.org/fhir/StructureDefinition/translation",
-              "extension": [
-                {
-                  "url": "lang",
-                  "valueCode": "de-DE"
-                },
-                {
-                  "url": "content",
-                  "valueString": "Festgestellte Diagnose"
-                }
-              ]
-            },
-            {
-              "url": "http://hl7.org/fhir/StructureDefinition/translation",
-              "extension": [
-                {
-                  "url": "lang",
-                  "valueCode": "en-US"
-                },
-                {
-                  "url": "content",
-                  "valueString": "Diagnosed condition"
-                }
-              ]
-            }
-          ]
-        },
-        "definition": "Verweis auf eine Diagnose, für die Material in der Probe enthalten ist.",
-        "_definition": {
-          "extension": [
-            {
-              "url": "http://hl7.org/fhir/StructureDefinition/translation",
-              "extension": [
-                {
-                  "url": "lang",
-                  "valueCode": "de-DE"
-                },
-                {
-                  "url": "content",
-                  "valueString": "Verweis auf eine Diagnose, für die Material in der Probe enthalten ist."
-                }
-              ]
-            },
-            {
-              "url": "http://hl7.org/fhir/StructureDefinition/translation",
-              "extension": [
-                {
-                  "url": "lang",
-                  "valueCode": "en-US"
-                },
-                {
-                  "url": "content",
-                  "valueString": "Reference to a diagnosis for which material is present in the specimen."
-                }
-              ]
-            }
-          ]
-        },
         "min": 0,
         "max": "1",
         "type": [
@@ -171,68 +134,6 @@
         "id": "Specimen.extension:gehoertZu",
         "path": "Specimen.extension",
         "sliceName": "gehoertZu",
-        "short": "Verwaltende Organisation",
-        "_short": {
-          "extension": [
-            {
-              "url": "http://hl7.org/fhir/StructureDefinition/translation",
-              "extension": [
-                {
-                  "url": "lang",
-                  "valueCode": "de-DE"
-                },
-                {
-                  "url": "content",
-                  "valueString": "Verwaltende Organisation"
-                }
-              ]
-            },
-            {
-              "url": "http://hl7.org/fhir/StructureDefinition/translation",
-              "extension": [
-                {
-                  "url": "lang",
-                  "valueCode": "en-US"
-                },
-                {
-                  "url": "content",
-                  "valueString": "Managing organization"
-                }
-              ]
-            }
-          ]
-        },
-        "definition": "Zuordnung der Probe zu einer Sammlung oder Biobank, die für die Verwaltung verantwortlich ist.",
-        "_definition": {
-          "extension": [
-            {
-              "url": "http://hl7.org/fhir/StructureDefinition/translation",
-              "extension": [
-                {
-                  "url": "lang",
-                  "valueCode": "de-DE"
-                },
-                {
-                  "url": "content",
-                  "valueString": "Zuordnung der Probe zu einer Sammlung oder Biobank, die für die Verwaltung verantwortlich ist."
-                }
-              ]
-            },
-            {
-              "url": "http://hl7.org/fhir/StructureDefinition/translation",
-              "extension": [
-                {
-                  "url": "lang",
-                  "valueCode": "en-US"
-                },
-                {
-                  "url": "content",
-                  "valueString": "Assignment of the specimen to a collection or biobank responsible for its management."
-                }
-              ]
-            }
-          ]
-        },
         "min": 0,
         "max": "1",
         "type": [

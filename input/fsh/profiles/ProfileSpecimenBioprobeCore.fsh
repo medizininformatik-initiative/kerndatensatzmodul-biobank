@@ -4,7 +4,9 @@ Id: SpecimenCore
 Title: "Profile - Specimen - Bioprobe - Core"
 Description: "Basisiprofil zur Abbildung einer MII Bioprobe. Nicht zur direkten Implementierung gedacht, Module leiten bei Bedarf eigene Profile von diesem Profil ab."
 
+* insert Publisher
 * insert PR_CS_VS_Version
+* insert LicenseCodeableCCBY40
 
 * identifier and type and container.specimenQuantity and status and note and parent and container and container.type and container.capacity 
 and container.additive[x] and collection and collection.collected[x] and collection.bodySite and collection.fastingStatus[x] and processing
