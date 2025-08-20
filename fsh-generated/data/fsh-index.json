@@ -1,5 +1,13 @@
 [
   {
+    "outputFile": "CodeSystem-CSProbenebene.json",
+    "fshName": "CodeSystemProbenebene",
+    "fshType": "CodeSystem",
+    "fshFile": "codesystems\\CodeSystemProbenebene.fsh",
+    "startLine": 1,
+    "endLine": 9
+  },
+  {
     "outputFile": "CodeSystem-ContactType.json",
     "fshName": "CodeSystemContactType",
     "fshType": "CodeSystem",
@@ -126,6 +134,14 @@
     "fshFile": "extensions\\ExtensionDiagnose.fsh",
     "startLine": 1,
     "endLine": 10
+  },
+  {
+    "outputFile": "StructureDefinition-Ebene.json",
+    "fshName": "ExtensionEbene",
+    "fshType": "Extension",
+    "fshFile": "extensions\\ExtensionEbene.fsh",
+    "startLine": 1,
+    "endLine": 11
   },
   {
     "outputFile": "StructureDefinition-EinstellungBlutversorgung.json",

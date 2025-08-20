@@ -70,6 +70,22 @@
         ]
       },
       {
+        "id": "Specimen.extension:probenebene",
+        "path": "Specimen.extension",
+        "sliceName": "probenebene",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/Ebene"
+            ]
+          }
+        ],
+        "mustSupport": true
+      },
+      {
         "id": "Specimen.identifier",
         "path": "Specimen.identifier",
         "mustSupport": true,
