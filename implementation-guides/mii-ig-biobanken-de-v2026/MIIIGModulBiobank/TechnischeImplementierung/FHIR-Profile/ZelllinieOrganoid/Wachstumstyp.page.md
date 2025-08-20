@@ -5,11 +5,11 @@ Mittels einer Observation wird der Wachstumstyptyp einer Zelllinie oder eines Or
 NICHT ANGEPASST
 
 Canonical: 
-```https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/Observation-Karyotyp```
+```https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/Observation-Wachstumstyp```
 
 **Differential**
 
-{{tree:https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/Observation-Karyotyp, diff}}
+{{tree:https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/Observation-Wachstumstyp, diff}}
 
 <br>
 
@@ -27,7 +27,7 @@ Canonical:
 
 **Snapshot**
 
-{{tree:https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/Observation-Karyotyp, snapshot}}
+{{tree:https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/Observation-Wachstumstyp, snapshot}}
 
 
 ---

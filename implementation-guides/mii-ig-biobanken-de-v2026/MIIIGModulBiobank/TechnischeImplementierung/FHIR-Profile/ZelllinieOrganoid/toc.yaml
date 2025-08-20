@@ -8,5 +8,7 @@
   filename: Morphologie.page.md
 - name: Observation Wachstumstyp
   filename: Wachstumstyp.page.md
+- name: Observation Proliferation
+  filename: Proliferation.page.md
 - name: Suchparameter
   filename: Suchparameter.page.md
