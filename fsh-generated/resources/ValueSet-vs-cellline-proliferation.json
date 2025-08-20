@@ -26,12 +26,7 @@
           {
             "code": "0001422",
             "display": "dead"
-          }
-        ]
-      },
-      {
-        "system": "http://purl.obolibrary.org/obo/PATO",
-        "concept": [
+          },
           {
             "code": "0001991",
             "display": "immortal"
