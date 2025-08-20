@@ -112,14 +112,6 @@
     "endLine": 10
   },
   {
-    "outputFile": "StructureDefinition-BeschreibungSammlung.json",
-    "fshName": "ExtensionBeschreibungSammlung",
-    "fshType": "Extension",
-    "fshFile": "extensions\\ExtensionBeschreibungSammlung.fsh",
-    "startLine": 1,
-    "endLine": 10
-  },
-  {
     "outputFile": "StructureDefinition-Biobank.json",
     "fshName": "MII_LM_Biobank",
     "fshType": "Logical",
@@ -213,7 +205,7 @@
     "fshType": "Profile",
     "fshFile": "profiles\\ProfileOrganizationSammlungBiobank.fsh",
     "startLine": 1,
-    "endLine": 68
+    "endLine": 70
   },
   {
     "outputFile": "StructureDefinition-Specimen.json",

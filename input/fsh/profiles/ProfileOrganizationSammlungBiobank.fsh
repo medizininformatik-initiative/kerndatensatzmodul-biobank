@@ -8,11 +8,13 @@ Description: "Darstellung der organisatorischen Daten einer Probensammlung oder 
 * insert PR_CS_VS_Version
 * insert LicenseCodeableCCBY40
 
-* extension contains BeschreibungSammlung named beschreibung 0..1 MS
-* insert Translation(extension[BeschreibungSammlung] ^short, de-DE, Beschreibung der Sammlung/Biobank)
-* insert Translation(extension[BeschreibungSammlung] ^short, en-US, Description of the collection/biobank)
-* insert Translation(extension[BeschreibungSammlung] ^definition, de-DE, Eine Freitextbeschreibung der Sammlung/Biobank\, die z.B. in einer Suche angezeigt werden kann.)
-* insert Translation(extension[BeschreibungSammlung] ^definition, en-US, A free-text description of the collection/biobank\, which can be displayed in a search\, for example.)
+* extension contains https://fhir.bbmri-eric.eu/fhir/StructureDefinition/miabis-organization-description-extension named beschreibung 0..1 MS
+            and https://fhir.bbmri-eric.eu/fhir/StructureDefinition/miabis-sample-collection-setting-extension named collectionSetting 0..1 MS
+            and https://fhir.bbmri-eric.eu/fhir/StructureDefinition/miabis-collection-design-extension named collectionDesign 0..1 MS
+* insert Translation(extension[beschreibung] ^short, de-DE, Beschreibung der Sammlung/Biobank)
+* insert Translation(extension[beschreibung] ^short, en-US, Description of the collection/biobank)
+* insert Translation(extension[beschreibung] ^definition, de-DE, Eine Freitextbeschreibung der Sammlung/Biobank\, die z.B. in einer Suche angezeigt werden kann.)
+* insert Translation(extension[beschreibung] ^definition, en-US, A free-text description of the collection/biobank\, which can be displayed in a search\, for example.)
 
 * identifier and type and name and alias and partOf and contact MS
 * insert Translation(alias ^short, de-DE, Akronym)

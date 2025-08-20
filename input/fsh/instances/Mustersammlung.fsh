@@ -3,7 +3,7 @@ InstanceOf: Organization
 Title: "Mustersammlung"
 Usage: #example
 
-* extension[BeschreibungSammlung].valueMarkdown = "Sammlung mit im Rahmen der Versorgung gewonnenen Proben."
+* extension[beschreibung].valueString = "Sammlung mit im Rahmen der Versorgung gewonnenen Proben."
 * type = MIABISCollectionType#HOSPITAL "Hospital"
 * name = "Mustersammlung"
 * partOf = Reference(BiobankMusterstadt)

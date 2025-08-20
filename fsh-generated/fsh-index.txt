@@ -13,7 +13,6 @@ Specimen-MusterprobeFluessig.json                        MusterprobeFluessig    
 Specimen-MusterprobeGewebe.json                          MusterprobeGewebe                    Instance    instances\MusterprobeGewebe.fsh                    1 - 30
 StructureDefinition-AnzahlAliqouts.json                  ExtensionAnzahlAliqouts              Extension   extensions\ExtensionAnzahlAliquots.fsh             1 - 10
 StructureDefinition-AnzahlPassagen.json                  ExtensionAnzahlPassagen              Extension   extensions\ExtensionZahlPassagen.fsh               1 - 10
-StructureDefinition-BeschreibungSammlung.json            ExtensionBeschreibungSammlung        Extension   extensions\ExtensionBeschreibungSammlung.fsh       1 - 10
 StructureDefinition-Biobank.json                         MII_LM_Biobank                       Logical     logicals\MII_LM_Biobank.fsh                        1 - 64
 StructureDefinition-Diagnose.json                        ExtensionDiagnose                    Extension   extensions\ExtensionDiagnose.fsh                   1 - 10
 StructureDefinition-Ebene.json                           ExtensionEbene                       Extension   extensions\ExtensionEbene.fsh                      1 - 11
@@ -25,7 +24,7 @@ StructureDefinition-Observation-Morphologie.json         ProfileObservationMorph
 StructureDefinition-Observation-Proliferation.json       ProfileObservationProliferation      Profile     profiles\ProfileObservationProliferation.fsh       1 - 17
 StructureDefinition-Observation-Qualitaetspruefung.json  ProfileObservationQualiaetspruefung  Profile     profiles\ProfileObservationQualitaetspruefung.fsh  1 - 26
 StructureDefinition-Observation-Wachstumstyp.json        ProfileObservationWachstumstyp       Profile     profiles\ProfileObservationWachstumstyp.fsh        1 - 17
-StructureDefinition-Organization.json                    ProfileOrganizationSammlungBiobank   Profile     profiles\ProfileOrganizationSammlungBiobank.fsh    1 - 68
+StructureDefinition-Organization.json                    ProfileOrganizationSammlungBiobank   Profile     profiles\ProfileOrganizationSammlungBiobank.fsh    1 - 70
 StructureDefinition-Specimen.json                        ProfileSpecimenBioprobe              Profile     profiles\ProfileSpecimenBioprobe.fsh               1 - 28
 StructureDefinition-SpecimenCore.json                    ProfileSpecimenBioprobeCore          Profile     profiles\ProfileSpecimenBioprobeCore.fsh           1 - 190
 StructureDefinition-Substance.json                       ProfileSubstanceAdditiv              Profile     profiles\ProfileSubstanceAdditiv.fsh               1 - 12
