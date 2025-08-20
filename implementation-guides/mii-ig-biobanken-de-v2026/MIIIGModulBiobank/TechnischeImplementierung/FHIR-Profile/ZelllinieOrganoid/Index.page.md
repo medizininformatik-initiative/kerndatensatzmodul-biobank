@@ -2,14 +2,14 @@
 
 Mittels der Specimen-Ressource können neben der Biorprobe auch Zellinien und Organoide abgebildet werden. Vom Modell her handelt es sich dabei um eine Erweiterung des Biorpben-Profiles um spezifische Felder miteles Exensions sowie das Specimen referenzierenden Observations. Welche Extensions und/oder Observations dabei passend sind hängt vom jeweiligen Anwendungsfall ab. 
 
-DER REST DIESER SEITE IST NOCH NICHT AN ZELLINIE / ORGANOID ANGEPASST!
+DER REST DIESER SEITE IST NOCH NICHT GANZ AN ZELLINIE / ORGANOID ANGEPASST!
 
 Canonical: 
-```https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/Specimen```
+```https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/ZellinieOrganoid```
 
 **Snapshot**
 
-{{tree:https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/Specimen, snaphot}}
+{{tree:https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/ZellinieOrganoid, snaphot}}
 
 <br>
 
@@ -75,7 +75,7 @@ Folgende Invarianten müssen bei der Implementierung des Profils beachtet werden
 
 Zur besseren Harmonisierung der Probenmodellierung zwischen den Modulen basieren die Specimen-Profile der einzelnen Module auf einem gemeinsamen Basisprofil für Specimen, von dem die einzelenen Module eigene Profile ableiten. Das Differential zeigt deshalb nur die Unterschiede zum Basisprofil an. Implementiert werden sollte immer das jeweilige modulspezifische Profil.
 
-{{tree:https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/Specimen, diff}}
+{{tree:https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/ZellinieOrganoid, diff}}
 
 
 ---
