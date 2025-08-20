@@ -10,5 +10,7 @@
   filename: Wachstumstyp.page.md
 - name: Observation Proliferation
   filename: Proliferation.page.md
+- name: Observation Qualitätsprüfung
+  filename: Qualitätsprüfung.page.md
 - name: Suchparameter
   filename: Suchparameter.page.md
