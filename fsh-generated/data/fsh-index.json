@@ -221,7 +221,7 @@
     "fshType": "Profile",
     "fshFile": "profiles\\ProfileSpecimenBioprobe.fsh",
     "startLine": 1,
-    "endLine": 26
+    "endLine": 28
   },
   {
     "outputFile": "StructureDefinition-SpecimenCore.json",

@@ -203,6 +203,26 @@
           "strength": "required",
           "valueSet": "https://fhir.bbmri-eric.eu/fhir/ValueSet/miabis-detailed-sample-type-vs"
         }
+      },
+      {
+        "id": "Specimen.processing",
+        "path": "Specimen.processing"
+      },
+      {
+        "id": "Specimen.processing.extension:temperature-miabis",
+        "path": "Specimen.processing.extension",
+        "sliceName": "temperature-miabis",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "https://fhir.bbmri-eric.eu/fhir/StructureDefinition/miabis-sample-storage-temperature-extension"
+            ]
+          }
+        ],
+        "mustSupport": true
       }
     ]
   }
