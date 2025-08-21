@@ -9,15 +9,15 @@
   "concept": [
     {
       "code": "PRIMÄRPROBE",
-      "display": "Auch Masterprobe genannt. Die Probe, wie sie gesammelt wurde, vor ihrer Verarbeitung."
+      "display": "Die Probe, wie sie gesammelt wurde, vor ihrer Verarbeitung."
     },
     {
       "code": "ALIQUOTGRUPPE",
-      "display": "Auch Mutterprobe genannt. Eine möglicherweise bereits verarbeitete Probe, von der möglicherweise Aliqoute erstellt wurden."
+      "display": "Eine Zusammenfassung von Aliquots gleichen Probentyps, die von der gleichen möglicherweise bereits verarbeiteten Primärprobe abstammen."
     },
     {
       "code": "ALIQUOT",
-      "display": "Eine Probe, von der identische Geschwisterproben existieren oder existierten, die der selben Aliquotgruppe/Mutterprobe entstammen.\r\n"
+      "display": "Eine Probe, von der identische Geschwisterproben existieren können, die derselben Aliquotgruppe entstammen. "
     }
   ],
   "count": 3
