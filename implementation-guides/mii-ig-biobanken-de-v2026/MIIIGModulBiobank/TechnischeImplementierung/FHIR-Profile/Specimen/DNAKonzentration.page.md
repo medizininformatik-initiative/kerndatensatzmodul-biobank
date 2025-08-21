@@ -6,7 +6,7 @@ Mittels einer Observation kann die Konzentration von DNA in einer Probe angegebe
 from
     StructureDefinition
 where
-    url = 'https://www.medizininformatik-initiative.de/fhir/ext/modul-bildgebung/StructureDefinition/mii-pr-bildgebung-kontrastmittelgabe'
+    url = 'https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/Observation-DNAKonzentration'
 select
     Name: name, Status: status, Version: version, Canonical: url, Basis: baseDefinition
 ```
@@ -20,7 +20,7 @@ select
         from
 	        StructureDefinition
         where
-	        url = 'hhttps://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/Observation-DNAKonzentration'
+	        url = 'https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/Observation-DNAKonzentration'
         select
 	        Beschreibung: description
         with
