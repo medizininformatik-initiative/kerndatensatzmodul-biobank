@@ -18,7 +18,7 @@ Bei Machbarkeitsanfragen empfiehlt es sich die Gruppe zu zählen, nicht alle ein
 
 ### Aliquot
 
-Eine Probe, von der identische Geschwisterproben existieren können, die derselben Aliquotgruppe entstammen. Wenn ein Aliquot noch einmal aufgeteilt wird, bleiben beide Aliquots Teil der bestehenden Aliquotgruppe. Eine neue Gruppe entsteht erst durch eine erneute Prozessierung.
+Eine Probe, von der identische Geschwisterproben existieren können, die derselben Aliquotgruppe angehören. Wenn ein Aliquot noch einmal aufgeteilt wird, bleiben beide Aliquots Teil der bestehenden Aliquotgruppe. Eine neue Gruppe entsteht erst durch eine erneute Prozessierung.
 
 
 Ein Beispiel dieser Strukturierung von Proben ist hier dargestellt:
