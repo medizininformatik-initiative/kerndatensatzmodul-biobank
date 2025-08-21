@@ -11,13 +11,13 @@ Referenz auf das Dokument des angewendeten Kulturprotokolls bei der Erzeugung ei
 
 Anzahl der Aliquots, wenn diese nicht als eigene FHIR-Ressourcen ausmodelliert werden.
 
-{{render:https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/cell-line-modification}}
+{{render:https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/AnzahlAliqouts}}
 
 ##### Modifikationen
 
 Vorgenommene Modifikationen.
 
-{{render:https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/Kulturprotokoll}}
+{{render:https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/cell-line-modification}}
 
 ##### Phänotyp
 
@@ -28,7 +28,3 @@ Phänotyp oder Diagnose der Zelllinie / des Organoids, wenn nicht patientenbezog
 Anzahl der durchgeführten Passagen zur Erzeugung einer Zelllinie oder eines Organoids.
 
 {{render:https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/AnzahlPassagen}}
-
-##### Kulturbedingungen
-
-Charakterisierung der Bedingungen während der Kultivierung von Zelllinien oder Organoiden, z.B. CO<sub>2</sub>-unabhängig, serumfrei, 3D-Kultur-fähig.
