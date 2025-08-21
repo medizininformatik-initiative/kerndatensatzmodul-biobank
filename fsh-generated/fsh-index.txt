@@ -20,6 +20,7 @@ StructureDefinition-Ebene.json                           ExtensionEbene         
 StructureDefinition-EinstellungBlutversorgung.json       ExtensionEinstellungBlutversorgung   Extension   extensions\ExtensionEinstellungBlutversorgung.fsh  1 - 10
 StructureDefinition-KontaktRolle.json                    ExtensionKontaktRolle                Extension   extensions\ExtensionKontaktRolle.fsh               1 - 10
 StructureDefinition-Kulturprotokoll.json                 ExtensionKulturprotokoll             Extension   extensions\ExtensionKulturprotokoll.fsh            1 - 10
+StructureDefinition-Observation-DNAKonzentration.json    ProfileObservationDNAKonzentration   Profile     profiles\ProfileObservationDNAKonzentration.fsh    1 - 20
 StructureDefinition-Observation-Karyotyp.json            ProfileObservationKaryotyp           Profile     profiles\ProfileObservationKaryotyp.fsh            1 - 19
 StructureDefinition-Observation-Morphologie.json         ProfileObservationMorphologie        Profile     profiles\ProfileObservationZellMorphologie.fsh     1 - 17
 StructureDefinition-Observation-Proliferation.json       ProfileObservationProliferation      Profile     profiles\ProfileObservationProliferation.fsh       1 - 17
@@ -42,6 +43,7 @@ ValueSet-probenart.json                                  ValueSetProbenart      
 ValueSet-probenebene.json                                ValueSetProbenebene                  ValueSet    valuesets\ValueSetProbenebene.fsh                  1 - 5
 ValueSet-sct-body-structures.json                        ValueSetSCTBodyStructures            ValueSet    valuesets\ValueSetSCTBodyStructure.fsh             1 - 5
 ValueSet-sct-lab-procedure.json                          ValueSetSCTLaboratoryProcedure       ValueSet    valuesets\ValueSetSCTLaboratoryProcedure.fsh       1 - 5
+ValueSet-ucum-dna-concentration-units.json               UCUMDNAConcentrationUnits            ValueSet    valuesets\ValueSetDNAKonzentrationUnits.fsh        1 - 7
 ValueSet-vs-cellline-morphology.json                     ValueSetCellLineMorphology           ValueSet    valuesets\ValueSetCellLineMorphologie.fsh          1 - 9
 ValueSet-vs-cellline-proliferation.json                  ValueSetCellLineProliferation        ValueSet    valuesets\ValueSetCellinieProliferation.fsh        1 - 13
 ValueSet-vs-clo-cellline-modification.json               ValueSetCLOCellLineModification      ValueSet    valuesets\ValueSetModifikationen.fsh               1 - 12

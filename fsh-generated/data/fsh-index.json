@@ -168,6 +168,14 @@
     "endLine": 10
   },
   {
+    "outputFile": "StructureDefinition-Observation-DNAKonzentration.json",
+    "fshName": "ProfileObservationDNAKonzentration",
+    "fshType": "Profile",
+    "fshFile": "profiles\\ProfileObservationDNAKonzentration.fsh",
+    "startLine": 1,
+    "endLine": 20
+  },
+  {
     "outputFile": "StructureDefinition-Observation-Karyotyp.json",
     "fshName": "ProfileObservationKaryotyp",
     "fshType": "Profile",
@@ -342,6 +350,14 @@
     "fshFile": "valuesets\\ValueSetSCTLaboratoryProcedure.fsh",
     "startLine": 1,
     "endLine": 5
+  },
+  {
+    "outputFile": "ValueSet-ucum-dna-concentration-units.json",
+    "fshName": "UCUMDNAConcentrationUnits",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets\\ValueSetDNAKonzentrationUnits.fsh",
+    "startLine": 1,
+    "endLine": 7
   },
   {
     "outputFile": "ValueSet-vs-cellline-morphology.json",
