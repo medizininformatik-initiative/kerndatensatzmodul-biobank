@@ -1,3 +1,9 @@
+---
+parent:
+topic: DNA-Konzentration
+subject: https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/Observation-DNAKonzentration
+---
+
 ## Observation (DNA-Konzentration)
 
 Mittels einer Observation kann die Konzentration von DNA in einer Probe angegeben werden.
