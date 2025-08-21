@@ -1,0 +1,3 @@
+## Kulturbedingungen
+
+Da der Begriff Kulturbedingungen sehr viele unterschiedliche Aspekte umfasst, wurde beschlossen kein spezielles Profil zu erstellen. Allerdings wird von Seiten des KDS Teams empfohlen, solche Informationen als *Observation* zu modellieren, wobei die zur Zellinie/ zum Organiod gehörende *Specimen* Ressource im *focus* Attribut referenziert werden soll. Mithilfe der *code* und *value* Angaben kann dann die geünschte Information z.B. über SNOMED CT oder CLO angegeben werden. Das KDS Team freut sich über Rückmeldungen und Umsetzungen an den Standorten, um hierzu in Zukunft detalliertere Vorschläge machen zu können.

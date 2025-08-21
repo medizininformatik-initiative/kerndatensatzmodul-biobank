@@ -1,4 +1,4 @@
-## Observation (Mutationen)
+## Mutationen
 
 Bei der Abbildung von in einer Zellinie/Organoid festgestellten Muationen wurde auf die Erstellung eines eigenen Profiles verzichtet. Stattdessen sollen die entsprechenen Profile aus dem Modul Molekulargenetischer Befundbericht genutzt werden, die hier eingebunden wurden. Vor der Implementierung wird empfohlen, die entsprechenden Seiten im Implementation Guide des Modules Molekulargenischer Befundbericht zu lesen, da dort weitere wichtige Hinweise zur Umsetzung zu finden sind. Im *focus* Feld der Observations MUSS jeweils auf die Specimen Ressource verlingt werden, die die Zellinie/ das Organoid repräsentiert.
 
