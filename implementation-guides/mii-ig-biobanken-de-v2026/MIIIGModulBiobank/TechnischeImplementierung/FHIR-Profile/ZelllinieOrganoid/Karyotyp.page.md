@@ -1,37 +1,50 @@
+---
+parent:
+topic: Observation Karyotyp
+subject: https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/mii-pr-biobank-observation-karyotyp
+---
+
 ## Observation (Karyotyp)
 
 Mittels einer Observation wird der Karyotyp einer Zelllinie oder eines Organoids abgebildet.
 
-Canonical: 
-```https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/Observation-Karyotyp```
+@```
+from
+    StructureDefinition
+where
+    url = 'https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/mii-pr-biobank-observation-karyotyp'
+select
+    Name: name, Status: status, Version: version, Canonical: url, Basis: baseDefinition
+```
 
-**Differential**
+### Inhalt
 
-{{tree:https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/Observation-Karyotyp, diff}}
-
-NICHT ANGEPASST
-<br>
-
-| FHIR Element | Erklärung |
-|--------------|-----------|
-| code | Code des Zusatzstoffes, bevorzugt in SNOMED CT. |
-
-<br>
-
-| FHIR Element | Logischer Datensatz |
-|--------------|-----------|
-| code | Biobank.Bioprobe.Primaercontainer.Additiv / Biobank.Bioprobe.Verarbeitungsprozess.Additiv |
-
----
-
-**Snapshot**
-
-{{tree:https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/Observation-Karyotyp, snapshot}}
-
-
----
-
-**Beispiel**
-
-{{json:medizininformatikinitiative-modulbiobank/heparin}}
-
+<tabs>
+  <tab title="Darstellung">{{tree, buttons}}</tab>
+  <tab title="Beschreibung">
+        @```
+        from
+	        StructureDefinition
+        where
+	        url = 'https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/mii-pr-biobank-observation-karyotyp'
+        select
+	        Beschreibung: description
+        with
+            no header
+        ```
+        @```
+        from
+            StructureDefinition
+        where
+            url = 'https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/mii-pr-biobank-observation-karyotyp'
+        for
+            differential.element
+            where
+                mustSupport = true
+            select Feldname: id, Kurzbeschreibung: short, Hinweise: comment
+        ```
+  </tab>
+  <tab title="XML">{{xml}}</tab>
+  <tab title="JSON">{{json}}</tab>
+  <tab title="Link">{{link}}</tab>
+</tabs>

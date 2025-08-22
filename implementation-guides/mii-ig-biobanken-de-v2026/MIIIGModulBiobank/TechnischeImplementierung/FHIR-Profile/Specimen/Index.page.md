@@ -1,44 +1,61 @@
+---
+parent:
+topic: Specimen-Bioprobe
+subject: https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/Specimen
+---
+
 ## Specimen (Bioprobe)
 
 Mittels eines Specimen wird eine Bioprobe abgebildet. 
 
 Hinweis: In vielen Kontexten haben die Begriffe Specimen und Sample differenzierte Bedeutungen. Sowohl FHIR als auch SNOMED CT sprechen i.d.R. von Specimen und kennen diese Differenzierung nicht, sie spielt daher im Rahmen der Vorgaben des Modules keine Rolle.
 
-Canonical: 
-```https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/Specimen```
+@```
+from
+    StructureDefinition
+where
+    url = 'https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/Specimen'
+select
+    Name: name, Status: status, Version: version, Canonical: url, Basis: baseDefinition
+```
 
-**Snapshot**
+### Inhalt
 
-{{tree:https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/Specimen, snaphot}}
+<tabs>
+  <tab title="Darstellung">{{tree, buttons}}</tab>
+  <tab title="Beschreibung">
+        @```
+        from
+	        StructureDefinition
+        where
+	        url = 'https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/Specimen'
+        select
+	        Beschreibung: description
+        with
+            no header
+        ```
+        @```
+        from
+            StructureDefinition
+        where
+            url = 'https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/Specimen'
+        for
+            differential.element
+            where
+                mustSupport = true
+            select Feldname: id, Kurzbeschreibung: short, Hinweise: comment
+        ```
+  </tab>
+  <tab title="XML">{{xml}}</tab>
+  <tab title="JSON">{{json}}</tab>
+  <tab title="Link">{{link}}</tab>
+</tabs>
 
-<br>
+Folgende Invarianten müssen bei der Implementierung des Profils beachtet werden:
 
-| FHIR Element | Erklärung |
-|--------------|-----------|
-| extension.diagnose | Falls keine Zuordnung der Probe zu einer Diagnose über einen Labor-/Pathologiebefund möglich ist, kann hier auf eine Condition verlinkt werden. In dieser soll immer auch die Quelle der Information angegeben werden, wenn auf eine neu erstellte Condition referenziert wird.|
-| extension.gehoertZu | Zuordnung der Probe zu einer Sammlung/Biobank |
-| identifier | Proben-ID(s) |
-| status | Verfügbarkeitsstatus der Probe |
-| type | Probenart als SNOMED-CT Code |
-| parent | Verlinkung auf Elternprobe(n) |
-| request | Verlinkung auf eine ServiceRequest Ressource, über die dann in reasonCode eine Indikation angegeben kann sowie eine Procedure über based on verlinken kann. In der Procedure können dann wiederum weitere Informationen zur Entnahme erfasst werden oder meherere Proben der selben Entnahme zugeordent werden.  |
-| collection.extension.einstellungBlutversorgung | Zeitpunkt der Einstellung der Blutversorgung sofern anwendbar |
-| collection.collected[x] | Zeitpunkt/Zeitraum der Probengewinnung |
-| collection.bodySite | Entnahmestelle, vorzugsweise als SNOMED oder ICD-O-3 Topographie Code |
-| collection.fastingStatusCodeableConcept | Nüchternstatus des:der Spender:in bei Probenentnahme |
-| processing | Verarbeitungs- oder Lagerprozess |
-| processing.extension.temperaturbedingungen | Temperaturbedingungen des Verarbeitungs- oder Lagerprozesses|
-| processing.procedure | Mithilfe dieses Codes wird zwischen Lager- und Verarbeitungsprozess sowie verschiedenen Verarbeitungsprozessen unterschieden. |
-| processing.additive | Zusatzstoff im Verarbeitungs- oder Lagerprozess |
-| prcessing.timePeriod | Mindestens Startzeitpunkt der Verarbeitungs-/Lagerprozesse |
-| container.type | Art des Probenbehältnisses in SNOMED CT |
-| container.capacity | Kapazität der Probencontainers |
-| container.specimenQuantity | Menge der Probe im Container |
-| container.additive  | Zusatzstoff im Probenbehältnis |
-| note | Freitextanmerkungen zur Probe |
+**Constraints**: @``` from StructureDefinition where url in ('https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/SpecimenCore'|'https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/Specimen') for differential.element.constraint select key,severity,human, expression```
 
-
-<br>
+---
 
 | FHIR Element | Logischer Datensatz |
 |--------------|-----------|
@@ -64,19 +81,6 @@ Canonical:
 | container.specimenQuantity | Biobank.Bioprobe.Probenmenge |
 | container.additive  | Biobank.Bioprobe.Primaercontainer.Verwendung Additiv |
 | note | Biobank.Bioprobe.Projektverwendung / Biobank.Bioprobe.Sonstige Eigenschaften |
-
-Folgende Invarianten müssen bei der Implementierung des Profils beachtet werden:
-
-**Constraints**: @``` from StructureDefinition where url in ('https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/SpecimenCore'|'https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/Specimen') for differential.element.constraint select key,severity,human, expression```
-
----
-
-**Differential**
-
-Zur besseren Harmonisierung der Probenmodellierung zwischen den Modulen basieren die Specimen-Profile der einzelnen Module auf einem gemeinsamen Basisprofil für Specimen, von dem die einzelenen Module eigene Profile ableiten. Das Differential zeigt deshalb nur die Unterschiede zum Basisprofil an. Implementiert werden sollte immer das jeweilige modulspezifische Profil.
-
-{{tree:https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/Specimen, diff}}
-
 
 ---
 
