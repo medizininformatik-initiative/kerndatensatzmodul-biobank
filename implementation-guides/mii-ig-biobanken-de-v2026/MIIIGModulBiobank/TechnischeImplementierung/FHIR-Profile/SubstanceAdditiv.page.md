@@ -48,16 +48,11 @@ select
   <tab title="JSON">{{json}}</tab>
   <tab title="Link">{{link}}</tab>
 </tabs>
-<br>
-
-| FHIR Element | 
-|--------------|
-| code | 
 
 <br>
 
 | FHIR  | Datensatz | Erklärung |
-|--------------|-----------|-----------|
+|----|----|----|
 | code | Biobank.Bioprobe.Primaercontainer.Additiv / Biobank.Bioprobe.Verarbeitungsprozess.Additiv | Code des Zusatzstoffes, bevorzugt in SNOMED CT. |
 
 ---
