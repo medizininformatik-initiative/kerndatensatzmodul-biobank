@@ -48,3 +48,16 @@ select
   <tab title="JSON">{{json}}</tab>
   <tab title="Link">{{link}}</tab>
 </tabs>
+
+---
+
+@```
+from StructureDefinition
+where url = 'https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/LogicalModel/Biobank'
+    for differential.element where id.contains('Bioprobe')
+    select
+        FHIR: mapping[0].map,
+        Datensatz: path,
+        Erklaerung: definition
+```
+---

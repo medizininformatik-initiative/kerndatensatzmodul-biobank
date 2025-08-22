@@ -50,15 +50,15 @@ select
 </tabs>
 <br>
 
-| FHIR Element | Erklärung |
-|--------------|-----------|
-| code | Code des Zusatzstoffes, bevorzugt in SNOMED CT. |
+| FHIR Element | 
+|--------------|
+| code | 
 
 <br>
 
-| FHIR Element | Logischer Datensatz |
-|--------------|-----------|
-| code | Biobank.Bioprobe.Primaercontainer.Additiv / Biobank.Bioprobe.Verarbeitungsprozess.Additiv |
+| FHIR  | Datensatz | Erklärung |
+|--------------|-----------|-----------|
+| code | Biobank.Bioprobe.Primaercontainer.Additiv / Biobank.Bioprobe.Verarbeitungsprozess.Additiv | Code des Zusatzstoffes, bevorzugt in SNOMED CT. |
 
 ---
 
