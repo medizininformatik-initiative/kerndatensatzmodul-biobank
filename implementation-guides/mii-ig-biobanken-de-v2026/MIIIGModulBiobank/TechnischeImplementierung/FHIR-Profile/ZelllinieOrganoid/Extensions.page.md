@@ -11,7 +11,7 @@ Referenz auf das Dokument des angewendeten Kulturprotokolls bei der Erzeugung ei
 
 Vorgenommene Modifikationen.
 
-{{render:https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/cell-line-modification}}
+{{render:https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/mii-ex-biobank-modifikationen}}
 
 ##### Phänotyp
 

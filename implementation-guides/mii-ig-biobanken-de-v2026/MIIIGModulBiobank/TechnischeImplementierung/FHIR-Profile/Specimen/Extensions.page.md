@@ -35,4 +35,4 @@ Mittels dieser Extension kann eine zur Probe gehörende Diagnose referenziert we
 
 Anzahl der Aliquots, wenn diese nicht als eigene FHIR-Ressourcen ausmodelliert werden.
 
-{{render:https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/mii-ex-biobank-anzahl-aliquots}
+{{render:https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/mii-ex-biobank-anzahl-aliquots}}
