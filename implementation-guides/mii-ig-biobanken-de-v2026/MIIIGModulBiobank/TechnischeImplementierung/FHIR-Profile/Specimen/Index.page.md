@@ -57,31 +57,15 @@ Folgende Invarianten müssen bei der Implementierung des Profils beachtet werden
 
 ---
 
-| FHIR Element | Logischer Datensatz |
-|--------------|-----------|
-| extension.diagnose | Biobank.Bioprobe.Diagnose |
-| extension.gehoertZu | Biobank.Bioprobe.gehoert zu |
-| identifier | Biobank.Bioprobe.Proben-ID |
-| status | Biobank.Bioprobe.Verfügbarkeitsstatus |
-| type | Biobank.Bioprobe.Probenart |
-| parent | Biobank.Bioprobe.Ist gewonnen aus |
-| request | Biobank.Bioprobe.Probenentnahme.Entnahme-ID |
-| collection.extension.einstellungBlutversorgung | Biobank.Bioprobe.Probenentnahme.Einstellung Blutversorgung |
-| collection.collected[x] | Biobank.Bioprobe.Probenentnahme.Entnahmezeitpunkt |
-| collection.bodySite | Biobank.Bioprobe.Probenentnahme.Entnahmestelle |
-| collection.fastingStatusCodeableConcept | Biobank.Bioprobe.Probenentnahme.Nuechternstatus  / Biobank.Bioprobe.Probenentnahme.Nuechternstatus Dauer |
-| processing | Biobank.Bioprobe.Verarbeitungsprozess |
-| processing.extension.temperaturbedingungen | Biobank.Bioprobe.Verarbeitungsprozess.Temperatur |
-| processing.procedure | Biobank.Bioprobe.Verarbeitungsprozess.Verarbeitungstyp / Biobank.Bioprobe.Verarbeitungsprozess.Modus |
-| processing.additive | Biobank.Bioprobe.Verarbeitungsprozess.Verwendung Additive |
-| prcessing.timePeriod.start | Biobank.Bioprobe.Verarbeitungsprozess.Startzeitpunkt / Bioprobe.Lagerprozess.Einfrierzeitpunkt |
-| prcessing.timePeriod.end | Biobank.Bioprobe.Verarbeitungsprozess.Endzeitpunkt Biobank.Bioprobe.Lagerprozess.Auftauzeitpunkt |
-| container.type | Biobank.Bioprobe.Primaercontainer.Containertyp |
-| container.capacity | Biobank.Bioprobe.Primaercontainer.Kapazitaet |
-| container.specimenQuantity | Biobank.Bioprobe.Probenmenge |
-| container.additive  | Biobank.Bioprobe.Primaercontainer.Verwendung Additiv |
-| note | Biobank.Bioprobe.Projektverwendung / Biobank.Bioprobe.Sonstige Eigenschaften |
-
+@```
+from StructureDefinition
+where url = 'https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/LogicalModel/Biobank'
+    for differential.element where id.contains('Bioprobe')
+    select
+        FHIR: mapping[0].map,
+        Datensatz: path,
+        Erklaerung: definition
+```
 ---
 
 **Beispiele**
