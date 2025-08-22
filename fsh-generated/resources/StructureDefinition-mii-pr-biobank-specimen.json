@@ -1,6 +1,6 @@
 {
   "resourceType": "StructureDefinition",
-  "id": "Specimen",
+  "id": "mii-pr-biobank-specimen",
   "extension": [
     {
       "url": "https://www.medizininformatik-initiative.de/fhir/modul-meta/StructureDefinition/mii-ex-meta-license-codeable",
@@ -17,9 +17,57 @@
   ],
   "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/Specimen",
   "version": "2026.0.0-preview",
-  "name": "ProfileSpecimenBioprobe",
-  "title": "Profile - Specimen - Bioprobe",
+  "name": "MII_PR_Biobank_Specimen_Bioprobe",
+  "_name": {
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/translation",
+        "extension": [
+          {
+            "url": "lang",
+            "valueCode": "en-US"
+          },
+          {
+            "url": "content",
+            "valueString": "MII_PR_Biobank_Specimen_Bioprobe"
+          }
+        ]
+      }
+    ]
+  },
+  "title": "MII PR Biobank Specimen Bioprobe",
+  "_title": {
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/translation",
+        "extension": [
+          {
+            "url": "lang",
+            "valueCode": "de-DE"
+          },
+          {
+            "url": "content",
+            "valueString": "Specimen Bioprobe"
+          }
+        ]
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/translation",
+        "extension": [
+          {
+            "url": "lang",
+            "valueCode": "en-US"
+          },
+          {
+            "url": "content",
+            "valueString": "Specimen Bioprobe"
+          }
+        ]
+      }
+    ]
+  },
   "status": "active",
+  "date": "2025-09-02",
   "publisher": "Medizininformatik Initiative",
   "contact": [
     {
@@ -32,6 +80,36 @@
     }
   ],
   "description": "Abbildung einer MII Bioprobe",
+  "_description": {
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/translation",
+        "extension": [
+          {
+            "url": "lang",
+            "valueCode": "de-DE"
+          },
+          {
+            "url": "content",
+            "valueString": "Abbildung einer MII Bioprobe"
+          }
+        ]
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/translation",
+        "extension": [
+          {
+            "url": "lang",
+            "valueCode": "en-US"
+          },
+          {
+            "url": "content",
+            "valueString": "Representation of a MII bioprobe"
+          }
+        ]
+      }
+    ]
+  },
   "fhirVersion": "4.0.1",
   "kind": "resource",
   "abstract": false,

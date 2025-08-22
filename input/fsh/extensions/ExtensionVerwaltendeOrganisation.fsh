@@ -19,4 +19,4 @@ Description: "Die Organisation, die die Probe verwaltet, soll mithilfe dieser Ex
 * ^url = "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/VerwaltendeOrganisation"
 
 
-* value[x] only Reference(ProfileOrganizationSammlungBiobank)
+* value[x] only Reference(MII_PR_Biobank_Organization_Sammlung_Biobank)

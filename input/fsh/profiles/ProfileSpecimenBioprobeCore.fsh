@@ -1,12 +1,29 @@
-Profile: ProfileSpecimenBioprobeCore
-Parent: http://hl7.org/fhir/StructureDefinition/Specimen
-Id: SpecimenCore
-Title: "Profile - Specimen - Bioprobe - Core"
+//Head
+Profile: MII_PR_Biobank_Specimen_Bioprobe_Core
+Parent: Specimen
+Id: mii-pr-biobank-specimen-core
+Title: "MII PR Biobank Specimen Bioprobe Core"
 Description: "Basisiprofil zur Abbildung einer MII Bioprobe. Nicht zur direkten Implementierung gedacht, Module leiten bei Bedarf eigene Profile von diesem Profil ab."
+* ^url = "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/SpecimenCore"
 
-* insert Publisher
+//Translation Meta
+* insert Translation(^name, en-US, MII_PR_Biobank_Specimen_Bioprobe_Core)
+* insert Translation(^title, de-DE, Specimen Bioprobe Core)
+* insert Translation(^title, en-US, Specimen Bioprobe Core)
+* insert Translation(^description, de-DE, Basisiprofil zur Abbildung einer MII Bioprobe. Nicht zur direkten Implementierung gedacht\, Module leiten bei Bedarf eigene Profile von diesem Profil ab.)
+* insert Translation(^description, en-US, Base profile for representing a MII bioprobe. Not intended for direct implementation\, modules derive their own profiles from this profile as needed.)
+
+//Meta
 * insert PR_CS_VS_Version
+* insert PR_CS_VS_Date
+* insert Publisher
 * insert LicenseCodeableCCBY40
+* id MS
+* meta MS
+* meta.source MS
+* meta.profile MS
+
+//Profile
 
 * extension contains MII_EX_Biobank_Feature_R5 named feature 0..1 and MII_EX_Biobank_Ebene named probenebene 0..1 MS
 
@@ -136,7 +153,7 @@ and processing.timePeriod and processing.procedure and processing.additive and r
 * container.type from MII_VS_Biobank_Containertyp_SCT (extensible)
 * container.type 1..1
 
-* container.additiveReference only Reference(ProfileSubstanceAdditiv)
+* container.additiveReference only Reference(MII_PR_Biobank_Substance_Additiv)
 
 //Entnahme
 
@@ -177,7 +194,7 @@ and processing.timePeriod and processing.procedure and processing.additive and r
 * processing.time[x] MS
 * processing.timePeriod.start MS
 * processing.timePeriod.end MS
-* processing.additive only Reference(ProfileSubstanceAdditiv)
+* processing.additive only Reference(MII_PR_Biobank_Substance_Additiv)
 
 * processing ^slicing.discriminator.type = #pattern
 * processing ^slicing.discriminator.path = "$this.procedure.coding"

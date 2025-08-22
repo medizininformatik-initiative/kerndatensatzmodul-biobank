@@ -1,12 +1,28 @@
-Profile: ProfileObservationDNAKonzentration
-Parent: http://hl7.org/fhir/StructureDefinition/Observation
-Id: Observation-DNAKonzentration
-Title: "Profile - Observation - DNAKonzentration"
+//Head
+Profile: MII_PR_Biobank_Observation_DNA_Konzentration
+Parent: Observation
+Id: mii-pr-biobank-observation-dna-konzentration
+Title: "MII PR Biobank Observation DNA Konzentration"
 Description: "Die DNA-Konzentration einer Probe"
 
-* insert Publisher
+//Translation Meta
+* insert Translation(^name, en-US, MII_PR_Biobank_Observation_DNA_Concentration)
+* insert Translation(^title, de-DE, Observation DNA Konzentration)
+* insert Translation(^title, en-US, Observation DNA Concentration)
+* insert Translation(^description, de-DE, Die DNA-Konzentration einer Probe)
+* insert Translation(^description, en-US, The DNA concentration of a specimen)
+
+//Meta
 * insert PR_CS_VS_Version
+* insert PR_CS_VS_Date
+* insert Publisher
 * insert LicenseCodeableCCBY40
+* id MS
+* meta MS
+* meta.source MS
+* meta.profile MS
+
+//Profile
 
 * code 1..1 MS
 * code = $LOINC#72496-3 "DNA double strand [Mass/volume] in Specimen"

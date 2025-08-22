@@ -1,12 +1,30 @@
-Profile: ProfileOrganizationSammlungBiobank
-Parent: http://hl7.org/fhir/StructureDefinition/Organization
-Id: Organization
-Title: "Profile - Organization - Sammlung/Biobank"
+//Head
+Profile: MII_PR_Biobank_Organization_Sammlung_Biobank
+Parent: Organization
+Id: mii-pr-biobank-organization
+Title: "MII PR Biobank Organization Sammlung Biobank"
 Description: "Darstellung der organisatorischen Daten einer Probensammlung oder Biobank."
+* ^url = "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/Organization"
 
-* insert Publisher
+//Translation Meta
+* insert Translation(^name, en-US, MII_PR_Biobank_Organization_Sammlung_Biobank)
+* insert Translation(^title, de-DE, Organization Sammlung Biobank)
+* insert Translation(^title, en-US, Organization Sample Collection Biobank)
+* insert Translation(^description, de-DE, Darstellung der organisatorischen Daten einer Probensammlung oder Biobank.)
+* insert Translation(^description, en-US, Representation of the organizational data of a sample collection or biobank.)
+
+//Meta
 * insert PR_CS_VS_Version
+* insert PR_CS_VS_Date
+* insert Publisher
 * insert LicenseCodeableCCBY40
+* id MS
+* meta MS
+* meta.source MS
+* meta.profile MS
+
+//Profile
+
 
 * extension contains https://fhir.bbmri-eric.eu/fhir/StructureDefinition/miabis-organization-description-extension named beschreibung 0..1 MS
             and https://fhir.bbmri-eric.eu/fhir/StructureDefinition/miabis-sample-collection-setting-extension named collectionSetting 0..1 MS

@@ -1,5 +1,5 @@
 Instance: MusterprobeGewebe
-InstanceOf: Specimen
+InstanceOf: MII_PR_Biobank_Specimen_Bioprobe
 Title: "Musterprobe Gewebe"
 Usage: #example
 

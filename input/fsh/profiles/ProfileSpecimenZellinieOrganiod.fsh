@@ -1,12 +1,26 @@
-Profile: ProfileSpecimenZellinieOrganoid
-Parent: ProfileSpecimenBioprobe
-Id: ZellinieOrganoid
-Title: "Profile - Specimen - ZellinieOrganoid"
+//Head
+Profile: MII_PR_Biobank_Specimen_Zellinie_Organoid
+Parent: MII_PR_Biobank_Specimen_Bioprobe
+Id: mii-pr-biobank-zellinie-organoid
+Title: "MII PR Biobank Specimen Zellinie Organoid"
 Description: "Abbildung einer MII Zellinie oder Organiods"
 
-* insert Publisher
+//Translation Meta
+* insert Translation(^name, en-US, MII_PR_Biobank_Specimen_Cellline_Organoid)
+* insert Translation(^title, de-DE, Specimen Zellinie Organoid)
+* insert Translation(^title, en-US, Specimen Cellline Organoid)
+* insert Translation(^description, de-DE, Abbildung einer MII Zellinie oder Organiods)
+* insert Translation(^description, en-US, Representation of a MII cell line or organoid)
+
+//Meta
 * insert PR_CS_VS_Version
+* insert PR_CS_VS_Date
+* insert Publisher
 * insert LicenseCodeableCCBY40
+* id MS
+* meta MS
+* meta.source MS
+* meta.profile MS
 
 //Bioprobe
 

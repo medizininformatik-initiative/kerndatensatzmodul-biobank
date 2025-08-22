@@ -1,5 +1,5 @@
 Instance: MusterprobeFluessig
-InstanceOf: Specimen
+InstanceOf: MII_PR_Biobank_Specimen_Bioprobe
 Title: "Musterprobe flüssig"
 Usage: #example
 

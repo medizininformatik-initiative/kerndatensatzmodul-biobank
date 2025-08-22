@@ -1,12 +1,30 @@
-Profile: ProfileSpecimenBioprobe
-Parent: SpecimenCore
-Id: Specimen
-Title: "Profile - Specimen - Bioprobe"
+//Head
+Profile: MII_PR_Biobank_Specimen_Bioprobe
+Parent: MII_PR_Biobank_Specimen_Bioprobe_Core
+Id: mii-pr-biobank-specimen
+Title: "MII PR Biobank Specimen Bioprobe"
 Description: "Abbildung einer MII Bioprobe"
+* ^url = "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/Specimen"
 
-* insert Publisher
+//Translation Meta
+* insert Translation(^name, en-US, MII_PR_Biobank_Specimen_Bioprobe)
+* insert Translation(^title, de-DE, Specimen Bioprobe)
+* insert Translation(^title, en-US, Specimen Bioprobe)
+* insert Translation(^description, de-DE, Abbildung einer MII Bioprobe)
+* insert Translation(^description, en-US, Representation of a MII bioprobe)
+
+//Meta
 * insert PR_CS_VS_Version
+* insert PR_CS_VS_Date
+* insert Publisher
 * insert LicenseCodeableCCBY40
+* id MS
+* meta MS
+* meta.source MS
+* meta.profile MS
+
+//Profile
+
 
 //Bioprobe
 

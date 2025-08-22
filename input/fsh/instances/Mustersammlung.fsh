@@ -1,5 +1,5 @@
 Instance: Mustersammlung
-InstanceOf: Organization
+InstanceOf: MII_PR_Biobank_Organization_Sammlung_Biobank
 Title: "Mustersammlung"
 Usage: #example
 

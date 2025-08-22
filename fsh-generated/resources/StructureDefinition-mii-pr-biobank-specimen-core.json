@@ -1,6 +1,6 @@
 {
   "resourceType": "StructureDefinition",
-  "id": "SpecimenCore",
+  "id": "mii-pr-biobank-specimen-core",
   "extension": [
     {
       "url": "https://www.medizininformatik-initiative.de/fhir/modul-meta/StructureDefinition/mii-ex-meta-license-codeable",
@@ -17,9 +17,57 @@
   ],
   "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/SpecimenCore",
   "version": "2026.0.0-preview",
-  "name": "ProfileSpecimenBioprobeCore",
-  "title": "Profile - Specimen - Bioprobe - Core",
+  "name": "MII_PR_Biobank_Specimen_Bioprobe_Core",
+  "_name": {
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/translation",
+        "extension": [
+          {
+            "url": "lang",
+            "valueCode": "en-US"
+          },
+          {
+            "url": "content",
+            "valueString": "MII_PR_Biobank_Specimen_Bioprobe_Core"
+          }
+        ]
+      }
+    ]
+  },
+  "title": "MII PR Biobank Specimen Bioprobe Core",
+  "_title": {
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/translation",
+        "extension": [
+          {
+            "url": "lang",
+            "valueCode": "de-DE"
+          },
+          {
+            "url": "content",
+            "valueString": "Specimen Bioprobe Core"
+          }
+        ]
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/translation",
+        "extension": [
+          {
+            "url": "lang",
+            "valueCode": "en-US"
+          },
+          {
+            "url": "content",
+            "valueString": "Specimen Bioprobe Core"
+          }
+        ]
+      }
+    ]
+  },
   "status": "active",
+  "date": "2025-09-02",
   "publisher": "Medizininformatik Initiative",
   "contact": [
     {
@@ -32,6 +80,36 @@
     }
   ],
   "description": "Basisiprofil zur Abbildung einer MII Bioprobe. Nicht zur direkten Implementierung gedacht, Module leiten bei Bedarf eigene Profile von diesem Profil ab.",
+  "_description": {
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/translation",
+        "extension": [
+          {
+            "url": "lang",
+            "valueCode": "de-DE"
+          },
+          {
+            "url": "content",
+            "valueString": "Basisiprofil zur Abbildung einer MII Bioprobe. Nicht zur direkten Implementierung gedacht, Module leiten bei Bedarf eigene Profile von diesem Profil ab."
+          }
+        ]
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/translation",
+        "extension": [
+          {
+            "url": "lang",
+            "valueCode": "en-US"
+          },
+          {
+            "url": "content",
+            "valueString": "Base profile for representing a MII bioprobe. Not intended for direct implementation, modules derive their own profiles from this profile as needed."
+          }
+        ]
+      }
+    ]
+  },
   "fhirVersion": "4.0.1",
   "kind": "resource",
   "abstract": false,
@@ -40,6 +118,26 @@
   "derivation": "constraint",
   "differential": {
     "element": [
+      {
+        "id": "Specimen.id",
+        "path": "Specimen.id",
+        "mustSupport": true
+      },
+      {
+        "id": "Specimen.meta",
+        "path": "Specimen.meta",
+        "mustSupport": true
+      },
+      {
+        "id": "Specimen.meta.source",
+        "path": "Specimen.meta.source",
+        "mustSupport": true
+      },
+      {
+        "id": "Specimen.meta.profile",
+        "path": "Specimen.meta.profile",
+        "mustSupport": true
+      },
       {
         "id": "Specimen.extension",
         "path": "Specimen.extension",

@@ -96,94 +96,6 @@
     "endLine": 64
   },
   {
-    "outputFile": "StructureDefinition-Observation-DNAKonzentration.json",
-    "fshName": "ProfileObservationDNAKonzentration",
-    "fshType": "Profile",
-    "fshFile": "profiles\\ProfileObservationDNAKonzentration.fsh",
-    "startLine": 1,
-    "endLine": 20
-  },
-  {
-    "outputFile": "StructureDefinition-Observation-Karyotyp.json",
-    "fshName": "ProfileObservationKaryotyp",
-    "fshType": "Profile",
-    "fshFile": "profiles\\ProfileObservationKaryotyp.fsh",
-    "startLine": 1,
-    "endLine": 19
-  },
-  {
-    "outputFile": "StructureDefinition-Observation-Morphologie.json",
-    "fshName": "ProfileObservationMorphologie",
-    "fshType": "Profile",
-    "fshFile": "profiles\\ProfileObservationZellMorphologie.fsh",
-    "startLine": 1,
-    "endLine": 17
-  },
-  {
-    "outputFile": "StructureDefinition-Observation-Proliferation.json",
-    "fshName": "ProfileObservationProliferation",
-    "fshType": "Profile",
-    "fshFile": "profiles\\ProfileObservationProliferation.fsh",
-    "startLine": 1,
-    "endLine": 17
-  },
-  {
-    "outputFile": "StructureDefinition-Observation-Qualitaetspruefung.json",
-    "fshName": "ProfileObservationQualiaetspruefung",
-    "fshType": "Profile",
-    "fshFile": "profiles\\ProfileObservationQualitaetspruefung.fsh",
-    "startLine": 1,
-    "endLine": 26
-  },
-  {
-    "outputFile": "StructureDefinition-Observation-Wachstumstyp.json",
-    "fshName": "ProfileObservationWachstumstyp",
-    "fshType": "Profile",
-    "fshFile": "profiles\\ProfileObservationWachstumstyp.fsh",
-    "startLine": 1,
-    "endLine": 17
-  },
-  {
-    "outputFile": "StructureDefinition-Organization.json",
-    "fshName": "ProfileOrganizationSammlungBiobank",
-    "fshType": "Profile",
-    "fshFile": "profiles\\ProfileOrganizationSammlungBiobank.fsh",
-    "startLine": 1,
-    "endLine": 66
-  },
-  {
-    "outputFile": "StructureDefinition-Specimen.json",
-    "fshName": "ProfileSpecimenBioprobe",
-    "fshType": "Profile",
-    "fshFile": "profiles\\ProfileSpecimenBioprobe.fsh",
-    "startLine": 1,
-    "endLine": 30
-  },
-  {
-    "outputFile": "StructureDefinition-SpecimenCore.json",
-    "fshName": "ProfileSpecimenBioprobeCore",
-    "fshType": "Profile",
-    "fshFile": "profiles\\ProfileSpecimenBioprobeCore.fsh",
-    "startLine": 1,
-    "endLine": 190
-  },
-  {
-    "outputFile": "StructureDefinition-Substance.json",
-    "fshName": "ProfileSubstanceAdditiv",
-    "fshType": "Profile",
-    "fshFile": "profiles\\ProfileSubstanceAdditiv.fsh",
-    "startLine": 1,
-    "endLine": 12
-  },
-  {
-    "outputFile": "StructureDefinition-ZellinieOrganoid.json",
-    "fshName": "ProfileSpecimenZellinieOrganoid",
-    "fshType": "Profile",
-    "fshFile": "profiles\\ProfileSpecimenZellinieOrganiod.fsh",
-    "startLine": 1,
-    "endLine": 15
-  },
-  {
     "outputFile": "StructureDefinition-mii-ex-biobank-anzahl-aliquots.json",
     "fshName": "MII_EX_Biobank_Anzahl_Aliquots",
     "fshType": "Extension",
@@ -270,6 +182,94 @@
     "fshFile": "extensions\\ExtensionVerwaltendeOrganisation.fsh",
     "startLine": 2,
     "endLine": 22
+  },
+  {
+    "outputFile": "StructureDefinition-mii-pr-biobank-observation-dna-konzentration.json",
+    "fshName": "MII_PR_Biobank_Observation_DNA_Konzentration",
+    "fshType": "Profile",
+    "fshFile": "profiles\\ProfileObservationDNAKonzentration.fsh",
+    "startLine": 2,
+    "endLine": 36
+  },
+  {
+    "outputFile": "StructureDefinition-mii-pr-biobank-observation-karyotyp.json",
+    "fshName": "MII_PR_Biobank_Observation_Karyotyp",
+    "fshType": "Profile",
+    "fshFile": "profiles\\ProfileObservationKaryotyp.fsh",
+    "startLine": 2,
+    "endLine": 35
+  },
+  {
+    "outputFile": "StructureDefinition-mii-pr-biobank-observation-morphologie.json",
+    "fshName": "MII_PR_Biobank_Observation_Morphologie",
+    "fshType": "Profile",
+    "fshFile": "profiles\\ProfileObservationZellMorphologie.fsh",
+    "startLine": 2,
+    "endLine": 33
+  },
+  {
+    "outputFile": "StructureDefinition-mii-pr-biobank-observation-proliferation.json",
+    "fshName": "MII_PR_Biobank_Observation_Proliferation",
+    "fshType": "Profile",
+    "fshFile": "profiles\\ProfileObservationProliferation.fsh",
+    "startLine": 2,
+    "endLine": 33
+  },
+  {
+    "outputFile": "StructureDefinition-mii-pr-biobank-observation-qualitaetspruefung.json",
+    "fshName": "MII_PR_Biobank_Observation_Qualitaetspruefung",
+    "fshType": "Profile",
+    "fshFile": "profiles\\ProfileObservationQualitaetspruefung.fsh",
+    "startLine": 2,
+    "endLine": 43
+  },
+  {
+    "outputFile": "StructureDefinition-mii-pr-biobank-observation-wachstumstyp.json",
+    "fshName": "MII_PR_Biobank_Observation_Wachstumstyp",
+    "fshType": "Profile",
+    "fshFile": "profiles\\ProfileObservationWachstumstyp.fsh",
+    "startLine": 2,
+    "endLine": 33
+  },
+  {
+    "outputFile": "StructureDefinition-mii-pr-biobank-organization.json",
+    "fshName": "MII_PR_Biobank_Organization_Sammlung_Biobank",
+    "fshType": "Profile",
+    "fshFile": "profiles\\ProfileOrganizationSammlungBiobank.fsh",
+    "startLine": 2,
+    "endLine": 84
+  },
+  {
+    "outputFile": "StructureDefinition-mii-pr-biobank-specimen-core.json",
+    "fshName": "MII_PR_Biobank_Specimen_Bioprobe_Core",
+    "fshType": "Profile",
+    "fshFile": "profiles\\ProfileSpecimenBioprobeCore.fsh",
+    "startLine": 2,
+    "endLine": 207
+  },
+  {
+    "outputFile": "StructureDefinition-mii-pr-biobank-specimen.json",
+    "fshName": "MII_PR_Biobank_Specimen_Bioprobe",
+    "fshType": "Profile",
+    "fshFile": "profiles\\ProfileSpecimenBioprobe.fsh",
+    "startLine": 2,
+    "endLine": 48
+  },
+  {
+    "outputFile": "StructureDefinition-mii-pr-biobank-substance-additiv.json",
+    "fshName": "MII_PR_Biobank_Substance_Additiv",
+    "fshType": "Profile",
+    "fshFile": "profiles\\ProfileSubstanceAdditiv.fsh",
+    "startLine": 2,
+    "endLine": 29
+  },
+  {
+    "outputFile": "StructureDefinition-mii-pr-biobank-zellinie-organoid.json",
+    "fshName": "MII_PR_Biobank_Specimen_Zellinie_Organoid",
+    "fshType": "Profile",
+    "fshFile": "profiles\\ProfileSpecimenZellinieOrganiod.fsh",
+    "startLine": 2,
+    "endLine": 29
   },
   {
     "outputFile": "Substance-Heparin.json",

@@ -1,6 +1,6 @@
 {
   "resourceType": "StructureDefinition",
-  "id": "ZellinieOrganoid",
+  "id": "mii-pr-biobank-zellinie-organoid",
   "extension": [
     {
       "url": "https://www.medizininformatik-initiative.de/fhir/modul-meta/StructureDefinition/mii-ex-meta-license-codeable",
@@ -15,11 +15,59 @@
       }
     }
   ],
-  "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/ZellinieOrganoid",
+  "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/mii-pr-biobank-zellinie-organoid",
   "version": "2026.0.0-preview",
-  "name": "ProfileSpecimenZellinieOrganoid",
-  "title": "Profile - Specimen - ZellinieOrganoid",
+  "name": "MII_PR_Biobank_Specimen_Zellinie_Organoid",
+  "_name": {
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/translation",
+        "extension": [
+          {
+            "url": "lang",
+            "valueCode": "en-US"
+          },
+          {
+            "url": "content",
+            "valueString": "MII_PR_Biobank_Specimen_Cellline_Organoid"
+          }
+        ]
+      }
+    ]
+  },
+  "title": "MII PR Biobank Specimen Zellinie Organoid",
+  "_title": {
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/translation",
+        "extension": [
+          {
+            "url": "lang",
+            "valueCode": "de-DE"
+          },
+          {
+            "url": "content",
+            "valueString": "Specimen Zellinie Organoid"
+          }
+        ]
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/translation",
+        "extension": [
+          {
+            "url": "lang",
+            "valueCode": "en-US"
+          },
+          {
+            "url": "content",
+            "valueString": "Specimen Cellline Organoid"
+          }
+        ]
+      }
+    ]
+  },
   "status": "active",
+  "date": "2025-09-02",
   "publisher": "Medizininformatik Initiative",
   "contact": [
     {
@@ -32,6 +80,36 @@
     }
   ],
   "description": "Abbildung einer MII Zellinie oder Organiods",
+  "_description": {
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/translation",
+        "extension": [
+          {
+            "url": "lang",
+            "valueCode": "de-DE"
+          },
+          {
+            "url": "content",
+            "valueString": "Abbildung einer MII Zellinie oder Organiods"
+          }
+        ]
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/translation",
+        "extension": [
+          {
+            "url": "lang",
+            "valueCode": "en-US"
+          },
+          {
+            "url": "content",
+            "valueString": "Representation of a MII cell line or organoid"
+          }
+        ]
+      }
+    ]
+  },
   "fhirVersion": "4.0.1",
   "kind": "resource",
   "abstract": false,

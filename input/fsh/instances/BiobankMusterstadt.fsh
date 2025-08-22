@@ -1,5 +1,5 @@
 Instance: BiobankMusterstadt
-InstanceOf: Organization
+InstanceOf: MII_PR_Biobank_Organization_Sammlung_Biobank
 Title: "Biobank Musterstadt"
 Usage: #example
 

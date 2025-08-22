@@ -1,5 +1,5 @@
 Instance: Heparin
-InstanceOf: Substance
+InstanceOf: MII_PR_Biobank_Substance_Additiv
 Title: "Heparin"
 Usage: #example
 

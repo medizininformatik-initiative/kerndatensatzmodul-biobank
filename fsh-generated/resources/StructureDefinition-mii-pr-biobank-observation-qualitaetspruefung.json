@@ -1,6 +1,6 @@
 {
   "resourceType": "StructureDefinition",
-  "id": "Observation-Qualitaetspruefung",
+  "id": "mii-pr-biobank-observation-qualitaetspruefung",
   "extension": [
     {
       "url": "https://www.medizininformatik-initiative.de/fhir/modul-meta/StructureDefinition/mii-ex-meta-license-codeable",
@@ -15,11 +15,59 @@
       }
     }
   ],
-  "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/Observation-Qualitaetspruefung",
+  "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/mii-pr-biobank-observation-qualitaetspruefung",
   "version": "2026.0.0-preview",
-  "name": "ProfileObservationQualiaetspruefung",
-  "title": "Profile - Observation - Qualitätsprüfung",
+  "name": "MII_PR_Biobank_Observation_Qualitaetspruefung",
+  "_name": {
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/translation",
+        "extension": [
+          {
+            "url": "lang",
+            "valueCode": "en-US"
+          },
+          {
+            "url": "content",
+            "valueString": "MII_PR_Biobank_Observation_Quality_Check"
+          }
+        ]
+      }
+    ]
+  },
+  "title": "MII PR Biobank Observation Qualitätsprüfung",
+  "_title": {
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/translation",
+        "extension": [
+          {
+            "url": "lang",
+            "valueCode": "de-DE"
+          },
+          {
+            "url": "content",
+            "valueString": "Observation Qualitätsprüfung"
+          }
+        ]
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/translation",
+        "extension": [
+          {
+            "url": "lang",
+            "valueCode": "en-US"
+          },
+          {
+            "url": "content",
+            "valueString": "Observation Quality Check"
+          }
+        ]
+      }
+    ]
+  },
   "status": "active",
+  "date": "2025-09-02",
   "publisher": "Medizininformatik Initiative",
   "contact": [
     {
@@ -32,6 +80,36 @@
     }
   ],
   "description": "Art und Ergebnis einer an einer Zelline oder einem Organiod durchgeführten Qualitätsprüfung",
+  "_description": {
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/translation",
+        "extension": [
+          {
+            "url": "lang",
+            "valueCode": "de-DE"
+          },
+          {
+            "url": "content",
+            "valueString": "Art und Ergebnis einer an einer Zelline oder einem Organiod durchgeführten Qualitätsprüfung"
+          }
+        ]
+      },
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/translation",
+        "extension": [
+          {
+            "url": "lang",
+            "valueCode": "en-US"
+          },
+          {
+            "url": "content",
+            "valueString": "Type and result of a quality check performed on a cell line or organoid"
+          }
+        ]
+      }
+    ]
+  },
   "fhirVersion": "4.0.1",
   "kind": "resource",
   "abstract": false,
@@ -40,6 +118,26 @@
   "derivation": "constraint",
   "differential": {
     "element": [
+      {
+        "id": "Observation.id",
+        "path": "Observation.id",
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.meta",
+        "path": "Observation.meta",
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.meta.source",
+        "path": "Observation.meta.source",
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.meta.profile",
+        "path": "Observation.meta.profile",
+        "mustSupport": true
+      },
       {
         "id": "Observation.code",
         "path": "Observation.code",
@@ -63,7 +161,7 @@
           {
             "code": "Reference",
             "targetProfile": [
-              "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/Specimen"
+              "http://hl7.org/fhir/StructureDefinition/Specimen"
             ]
           }
         ],
