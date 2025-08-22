@@ -93,7 +93,7 @@
     "fshType": "Logical",
     "fshFile": "logicals\\MII_LM_Biobank.fsh",
     "startLine": 1,
-    "endLine": 64
+    "endLine": 78
   },
   {
     "outputFile": "StructureDefinition-mii-ex-biobank-anzahl-aliquots.json",

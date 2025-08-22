@@ -159,8 +159,8 @@
         ]
       },
       {
-        "id": "Biobank.Bioprobe.Ist-gewonnen-aus",
-        "path": "Biobank.Bioprobe.Ist-gewonnen-aus",
+        "id": "Biobank.Bioprobe.Entstanden-aus",
+        "path": "Biobank.Bioprobe.Entstanden-aus",
         "short": "Referenz auf Bioprobe",
         "definition": "Referenz auf Bioprobe",
         "min": 0,
@@ -212,6 +212,25 @@
           {
             "identity": "FHIR",
             "map": "Specimen.extension[gehoertZu]"
+          }
+        ]
+      },
+      {
+        "id": "Biobank.Bioprobe.Anzahl-Aliqouts",
+        "path": "Biobank.Bioprobe.Anzahl-Aliqouts",
+        "short": "Anzahl der Aliqouts.",
+        "definition": "Anzahl der Aliqouts.",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "integer"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "FHIR",
+            "map": "Specimen.extension[anzahlAliquots]"
           }
         ]
       },
@@ -698,6 +717,234 @@
         ]
       },
       {
+        "id": "Biobank.Bioprobe.Zelllinie_Organoid",
+        "path": "Biobank.Bioprobe.Zelllinie_Organoid",
+        "short": "Beschreibung einer Zelllinie/eines Organoides. Alle Attribute der Bioprobe sind hier ebenfalls anwendbar.",
+        "definition": "Beschreibung einer Zelllinie/eines Organoides. Alle Attribute der Bioprobe sind hier ebenfalls anwendbar.",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "BackboneElement"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "FHIR",
+            "map": "Specimen"
+          }
+        ]
+      },
+      {
+        "id": "Biobank.Bioprobe.Zelllinie_Organoid.Phänotyp-Diagnose",
+        "path": "Biobank.Bioprobe.Zelllinie_Organoid.Phänotyp-Diagnose",
+        "short": "Phänotyp oder Diagnose der Zelllinie / des Organoids, wenn nicht patientenbezogen angebbar.",
+        "definition": "Phänotyp oder Diagnose der Zelllinie / des Organoids, wenn nicht patientenbezogen angebbar.",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "Reference"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "FHIR",
+            "map": "Specimen.extension[diagnose] / https://www.medizininformatik-initiative.de/fhir/ext/modul-onko/StructureDefinition/mii-pr-onko-tnm-klassifikation"
+          }
+        ]
+      },
+      {
+        "id": "Biobank.Bioprobe.Zelllinie_Organoid.Karyotyp",
+        "path": "Biobank.Bioprobe.Zelllinie_Organoid.Karyotyp",
+        "short": "Karyotyp der Zelllinie/Organoids.",
+        "definition": "Karyotyp der Zelllinie/Organoids.",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "FHIR",
+            "map": "Observation(https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/mii-pr-biobank-observation-karyotyp)"
+          }
+        ]
+      },
+      {
+        "id": "Biobank.Bioprobe.Zelllinie_Organoid.Morphologie",
+        "path": "Biobank.Bioprobe.Zelllinie_Organoid.Morphologie",
+        "short": "Morphologie der Zelllinie/Organoids.",
+        "definition": "Morphologie der Zelllinie/Organoids.",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "FHIR",
+            "map": "Observation(https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/mii-pr-biobank-observation-morphologie)"
+          }
+        ]
+      },
+      {
+        "id": "Biobank.Bioprobe.Zelllinie_Organoid.Mutationen",
+        "path": "Biobank.Bioprobe.Zelllinie_Organoid.Mutationen",
+        "short": "Mögliche Mutationen der Zelllinie/Organoids.",
+        "definition": "Mögliche Mutationen der Zelllinie/Organoids.",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "Reference"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "FHIR",
+            "map": "Observation(Modul MolGen)"
+          }
+        ]
+      },
+      {
+        "id": "Biobank.Bioprobe.Zelllinie_Organoid.Wachstumstyp",
+        "path": "Biobank.Bioprobe.Zelllinie_Organoid.Wachstumstyp",
+        "short": "Wachstumstyp der Zelllinie/Organoids.",
+        "definition": "Wachstumstyp der Zelllinie/Organoids.",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "FHIR",
+            "map": "Observation(https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/mii-pr-biobank-observation-wachstumstyp)"
+          }
+        ]
+      },
+      {
+        "id": "Biobank.Bioprobe.Zelllinie_Organoid.Zellproliferation",
+        "path": "Biobank.Bioprobe.Zelllinie_Organoid.Zellproliferation",
+        "short": "Art der Zellproliferation der Zelllinie/Organoids.",
+        "definition": "Art der Zellproliferation der Zelllinie/Organoids.",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "FHIR",
+            "map": "Observation(https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/mii-pr-biobank-observation-proliferation)"
+          }
+        ]
+      },
+      {
+        "id": "Biobank.Bioprobe.Zelllinie_Organoid.Passage",
+        "path": "Biobank.Bioprobe.Zelllinie_Organoid.Passage",
+        "short": "Anzahl der Passagen.",
+        "definition": "Anzahl der Passagen.",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "integer"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "FHIR",
+            "map": "Specimen.extension[anzahlPassagen]"
+          }
+        ]
+      },
+      {
+        "id": "Biobank.Bioprobe.Zelllinie_Organoid.Modifikationen",
+        "path": "Biobank.Bioprobe.Zelllinie_Organoid.Modifikationen",
+        "short": "Optional: Vorgenommene Modifikationen.",
+        "definition": "Optional: Vorgenommene Modifikationen.",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "FHIR",
+            "map": "Specimen.extension[modifikationen]"
+          }
+        ]
+      },
+      {
+        "id": "Biobank.Bioprobe.Zelllinie_Organoid.Qualitätsprüfung",
+        "path": "Biobank.Bioprobe.Zelllinie_Organoid.Qualitätsprüfung",
+        "short": "Z.B. Viabilität, Test auf Mykoplasmen, Wiederauftaubarkeit / Wiederinkulturnahme.",
+        "definition": "Z.B. Viabilität, Test auf Mykoplasmen, Wiederauftaubarkeit / Wiederinkulturnahme.",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "FHIR",
+            "map": "Observation(https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/mii-pr-biobank-observation-qualitaetspruefung)"
+          }
+        ]
+      },
+      {
+        "id": "Biobank.Bioprobe.Zelllinie_Organoid.Protokoll-Kultur",
+        "path": "Biobank.Bioprobe.Zelllinie_Organoid.Protokoll-Kultur",
+        "short": "Kulturprotokoll der Zelllinie/Organoids.",
+        "definition": "Kulturprotokoll der Zelllinie/Organoids.",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Reference"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "FHIR",
+            "map": "Specimen.extension[kulturprotokoll]"
+          }
+        ]
+      },
+      {
+        "id": "Biobank.Bioprobe.Zelllinie_Organoid.Kulturbedigungen",
+        "path": "Biobank.Bioprobe.Zelllinie_Organoid.Kulturbedigungen",
+        "short": "Kulturbedingungen der Zelllinie/Organoids.",
+        "definition": "Kulturbedingungen der Zelllinie/Organoids.",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ],
+        "mapping": [
+          {
+            "identity": "FHIR",
+            "map": "Observation"
+          }
+        ]
+      },
+      {
         "id": "Biobank.Probensammlung-Biobank",
         "path": "Biobank.Probensammlung-Biobank",
         "short": "Organisation, die Proben verwaltet",
@@ -940,7 +1187,7 @@
         "mapping": [
           {
             "identity": "FHIR",
-            "map": "Biobank.type"
+            "map": "Biobank.extension[collectionSetting] / Biobank.extension[collectionDesign]"
           }
         ]
       },

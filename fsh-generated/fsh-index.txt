@@ -10,7 +10,7 @@ Organization-Mustersammlung.json                                        Mustersa
 SearchParameter-SearchParamDiagnosis.json                               SearchParamDiagnosis                           Instance    searchparameters\SearchParamDiagnosis.fsh          1 - 16
 Specimen-MusterprobeFluessig.json                                       MusterprobeFluessig                            Instance    instances\MusterprobeFluessig.fsh                  1 - 42
 Specimen-MusterprobeGewebe.json                                         MusterprobeGewebe                              Instance    instances\MusterprobeGewebe.fsh                    1 - 30
-StructureDefinition-Biobank.json                                        MII_LM_Biobank                                 Logical     logicals\MII_LM_Biobank.fsh                        1 - 64
+StructureDefinition-Biobank.json                                        MII_LM_Biobank                                 Logical     logicals\MII_LM_Biobank.fsh                        1 - 78
 StructureDefinition-mii-ex-biobank-anzahl-aliquots.json                 MII_EX_Biobank_Anzahl_Aliquots                 Extension   extensions\ExtensionAnzahlAliquots.fsh             2 - 19
 StructureDefinition-mii-ex-biobank-anzahl-passagen.json                 MII_EX_Biobank_Anzahl_Passagen                 Extension   extensions\ExtensionZahlPassagen.fsh               2 - 18
 StructureDefinition-mii-ex-biobank-diagnose.json                        MII_EX_Biobank_Diagnose                        Extension   extensions\ExtensionDiagnose.fsh                   2 - 21
