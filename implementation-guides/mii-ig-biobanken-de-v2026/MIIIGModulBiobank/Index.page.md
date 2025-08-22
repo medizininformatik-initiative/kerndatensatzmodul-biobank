@@ -5,9 +5,9 @@ Im Folgenden werden die Use Case des Moduls, sowie die dazugehörigen FHIR Profi
 
 | Veröffentlichung   |   |
 |---------|---|
-| Datum   | 10.08.2023 |
-| Version | 1.0.1       |
-| Status  | Active       |
+| Datum   |  09.09.2026 |
+| Version | 2026.0.0-ballot      |
+| Status  | Draft       |
 | Realm   | DE          | 
 
 ## Inhaltsverzeichnis
