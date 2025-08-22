@@ -1,10 +1,14 @@
-ValueSet: ValueSetCellLineProliferation
-Id: vs-cellline-proliferation
-Title: "Proliferation Zellinie"
-Description: "Proliferation an einer Zellinie"
+ValueSet: MII_VS_Biobank_CellLine_Proliferation
+Id: mii-vs-biobank-cellline-proliferation
+Title: "MII VS Biobank Proliferation Zellinie"
+Description: "Proliferationstatus einer Zellinie/eines Organoids"
 
 * insert Publisher
 * insert PR_CS_VS_Version
+* insert PR_CS_VS_Date
+* insert LicenseCodeableCCBY40
+* insert SNOMED_Copyright
+* ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 
 * include http://purl.obolibrary.org/obo/PATO_#0001422 "dead"
 * include http://purl.obolibrary.org/obo/PATO_#0001991 "immortal"

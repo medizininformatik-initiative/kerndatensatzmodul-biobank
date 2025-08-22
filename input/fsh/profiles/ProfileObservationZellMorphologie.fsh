@@ -14,4 +14,4 @@ Description: "Morphologie einer Zelline oder eines Organiods"
 * focus only Reference(Specimen)
 * value[x] 1..1 MS
 * value[x] only CodeableConcept
-* valueCodeableConcept from ValueSetCellLineMorphology (extensible)
+* valueCodeableConcept from MII_VS_Biobank_Cellline_Morphology_SCT (extensible)

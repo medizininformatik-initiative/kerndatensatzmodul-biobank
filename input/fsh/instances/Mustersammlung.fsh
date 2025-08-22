@@ -4,7 +4,7 @@ Title: "Mustersammlung"
 Usage: #example
 
 * extension[beschreibung].valueString = "Sammlung mit im Rahmen der Versorgung gewonnenen Proben."
-* type = MIABISCollectionType#HOSPITAL "Hospital"
+//* type = MIABISCollectionType#HOSPITAL "Hospital"
 * name = "Mustersammlung"
 * partOf = Reference(BiobankMusterstadt)
 * contact[forschungskontakt].extension[rolle].valueString = "Forschungskoordinatorin"

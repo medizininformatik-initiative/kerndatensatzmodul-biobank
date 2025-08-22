@@ -125,7 +125,7 @@ and processing.timePeriod and processing.procedure and processing.additive and r
 * type.coding ^slicing.rules = #open
 
 * type.coding contains sct 1..*
-* type.coding[sct] from probenart (extensible)
+* type.coding[sct] from MII_VS_Biobank_Probenart_SCT (extensible)
 * type.coding[sct].system = $SCT
 
 * subject 1..1
@@ -133,7 +133,7 @@ and processing.timePeriod and processing.procedure and processing.additive and r
 
 //Container
 
-* container.type from containertyp (extensible)
+* container.type from MII_VS_Biobank_Containertyp_SCT (extensible)
 * container.type 1..1
 
 * container.additiveReference only Reference(ProfileSubstanceAdditiv)
@@ -154,9 +154,9 @@ and processing.timePeriod and processing.procedure and processing.additive and r
 
 * collection.bodySite.coding contains sct 0..1 MS and icd-o-3 0..1 MS
 
-* collection.bodySite.coding[sct] from sct-body-structures (required)
+* collection.bodySite.coding[sct] from MII_VS_Biobank_BodyStructures_SCT (required)
 * collection.bodySite.coding[sct].system = $SCT
-* collection.bodySite.coding[icd-o-3] from icd-o-3-topography (required)
+* collection.bodySite.coding[icd-o-3] from https://www.medizininformatik-initiative.de/fhir/ext/modul-onko/ValueSet/mii-vs-onko-icdo3-topographie (required)
 * collection.bodySite.coding[icd-o-3].system = "http://terminology.hl7.org/CodeSystem/icd-o-3"
 
 * collection.collected[x] 1..1
@@ -165,7 +165,7 @@ and processing.timePeriod and processing.procedure and processing.additive and r
 
 * processing.extension contains Temperaturbedingungen named temperaturbedingungen 1..1 MS
 * processing.procedure 1..1 MS
-* processing.procedure from sct-lab-procedure (example)
+* processing.procedure from MII_VS_Biobank_Laboratory_Procedure_SCT (example)
 
 * processing.procedure.coding ^slicing.discriminator.type = #pattern
 * processing.procedure.coding ^slicing.discriminator.path = "$this.system"

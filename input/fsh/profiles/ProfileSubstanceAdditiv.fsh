@@ -9,4 +9,4 @@ Description: "Abbildung eines Additives, das zu einer Probe hinzugefügt werden 
 * insert LicenseCodeableCCBY40
 
 * code and ingredient and category MS
-* code from additive (extensible)
+* code from MII_VS_Biobank_Substance_Additive_SCT (extensible)

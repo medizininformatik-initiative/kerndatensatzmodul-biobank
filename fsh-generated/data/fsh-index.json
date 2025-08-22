@@ -1,27 +1,19 @@
 [
   {
-    "outputFile": "CodeSystem-CSProbenebene.json",
-    "fshName": "CodeSystemProbenebene",
-    "fshType": "CodeSystem",
-    "fshFile": "codesystems\\CodeSystemProbenebene.fsh",
-    "startLine": 1,
-    "endLine": 7
-  },
-  {
-    "outputFile": "CodeSystem-ContactType.json",
-    "fshName": "CodeSystemContactType",
+    "outputFile": "CodeSystem-mii-cs-biobank-contact-type.json",
+    "fshName": "MII_CS_Biobank_Contact_Type",
     "fshType": "CodeSystem",
     "fshFile": "codesystems\\CodeSystemContactType.fsh",
     "startLine": 1,
-    "endLine": 5
+    "endLine": 20
   },
   {
-    "outputFile": "CodeSystem-MIABISCollectionType.json",
-    "fshName": "CodeSystemMIABISCollectionType",
+    "outputFile": "CodeSystem-mii-cs-biobank-probenebene.json",
+    "fshName": "MII_CS_Biobank_Probenebene",
     "fshType": "CodeSystem",
-    "fshFile": "codesystems\\CodeSystemMIABISCollectionType.fsh",
+    "fshFile": "codesystems\\CodeSystemProbenebene.fsh",
     "startLine": 1,
-    "endLine": 22
+    "endLine": 19
   },
   {
     "outputFile": "ConceptMap-SPRECFixationTypeMap.json",
@@ -108,6 +100,14 @@
     "fshName": "ExtensionAnzahlPassagen",
     "fshType": "Extension",
     "fshFile": "extensions\\ExtensionZahlPassagen.fsh",
+    "startLine": 1,
+    "endLine": 10
+  },
+  {
+    "outputFile": "StructureDefinition-BeschreibungSammlung.json",
+    "fshName": "ExtensionBeschreibungSammlung",
+    "fshType": "Extension",
+    "fshFile": "extensions\\ExtensionBeschreibungSammlung.fsh",
     "startLine": 1,
     "endLine": 10
   },
@@ -213,7 +213,7 @@
     "fshType": "Profile",
     "fshFile": "profiles\\ProfileOrganizationSammlungBiobank.fsh",
     "startLine": 1,
-    "endLine": 70
+    "endLine": 66
   },
   {
     "outputFile": "StructureDefinition-Specimen.json",
@@ -288,36 +288,92 @@
     "endLine": 6
   },
   {
-    "outputFile": "ValueSet-additive.json",
-    "fshName": "ValueSetAdditive",
+    "outputFile": "ValueSet-mii-vs-biobank-body-structures-sct.json",
+    "fshName": "MII_VS_Biobank_BodyStructures_SCT",
     "fshType": "ValueSet",
-    "fshFile": "valuesets\\ValueSetAdditive.fsh",
+    "fshFile": "valuesets\\ValueSetSCTBodyStructure.fsh",
     "startLine": 1,
-    "endLine": 8
+    "endLine": 12
   },
   {
-    "outputFile": "ValueSet-containertyp.json",
-    "fshName": "ValueSetContainertyp",
+    "outputFile": "ValueSet-mii-vs-biobank-cellline-modification-clo.json",
+    "fshName": "MII_VS_Biobank_Cellline_Modification_CLO",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets\\ValueSetModifikationen.fsh",
+    "startLine": 1,
+    "endLine": 15
+  },
+  {
+    "outputFile": "ValueSet-mii-vs-biobank-cellline-morphology-sct.json",
+    "fshName": "MII_VS_Biobank_Cellline_Morphology_SCT",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets\\ValueSetCellLineMorphologie.fsh",
+    "startLine": 1,
+    "endLine": 13
+  },
+  {
+    "outputFile": "ValueSet-mii-vs-biobank-cellline-proliferation.json",
+    "fshName": "MII_VS_Biobank_CellLine_Proliferation",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets\\ValueSetCellinieProliferation.fsh",
+    "startLine": 1,
+    "endLine": 17
+  },
+  {
+    "outputFile": "ValueSet-mii-vs-biobank-containertyp-sct.json",
+    "fshName": "MII_VS_Biobank_Containertyp_SCT",
     "fshType": "ValueSet",
     "fshFile": "valuesets\\ValueSetContainertyp.fsh",
     "startLine": 1,
-    "endLine": 8
+    "endLine": 12
   },
   {
-    "outputFile": "ValueSet-icd-o-3-topography.json",
-    "fshName": "ValueSetICDO3Topography",
+    "outputFile": "ValueSet-mii-vs-biobank-dna-concentration-units-ucum.json",
+    "fshName": "MII_VS_Biobank_DNA_Concentration_Units_UCUM",
     "fshType": "ValueSet",
-    "fshFile": "valuesets\\ValueSetICDO3Topography.fsh",
+    "fshFile": "valuesets\\ValueSetDNAKonzentrationUnits.fsh",
     "startLine": 1,
-    "endLine": 8
+    "endLine": 15
   },
   {
-    "outputFile": "ValueSet-probenart.json",
-    "fshName": "ValueSetProbenart",
+    "outputFile": "ValueSet-mii-vs-biobank-karyotyp-sct.json",
+    "fshName": "MII_VS_Biobank_Karyotyp_SCT",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets\\ValueSetKaryotyp.fsh",
+    "startLine": 1,
+    "endLine": 15
+  },
+  {
+    "outputFile": "ValueSet-mii-vs-biobank-laboratory-procedure-sct.json",
+    "fshName": "MII_VS_Biobank_Laboratory_Procedure_SCT",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets\\ValueSetSCTLaboratoryProcedure.fsh",
+    "startLine": 1,
+    "endLine": 12
+  },
+  {
+    "outputFile": "ValueSet-mii-vs-biobank-probenart-sct.json",
+    "fshName": "MII_VS_Biobank_Probenart_SCT",
     "fshType": "ValueSet",
     "fshFile": "valuesets\\ValueSetProbenart.fsh",
     "startLine": 1,
-    "endLine": 5
+    "endLine": 12
+  },
+  {
+    "outputFile": "ValueSet-mii-vs-biobank-substance-additive-sct.json",
+    "fshName": "MII_VS_Biobank_Substance_Additive_SCT",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets\\ValueSetAdditive.fsh",
+    "startLine": 1,
+    "endLine": 12
+  },
+  {
+    "outputFile": "ValueSet-mii-vs-biobank-wachstumstyp-clo.json",
+    "fshName": "MII_VS_Biobank_Wachstumpstyp_CLO",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets\\ValueSetWachstumstyp.fsh",
+    "startLine": 1,
+    "endLine": 14
   },
   {
     "outputFile": "ValueSet-probenebene.json",
@@ -326,69 +382,5 @@
     "fshFile": "valuesets\\ValueSetProbenebene.fsh",
     "startLine": 1,
     "endLine": 5
-  },
-  {
-    "outputFile": "ValueSet-sct-body-structures.json",
-    "fshName": "ValueSetSCTBodyStructures",
-    "fshType": "ValueSet",
-    "fshFile": "valuesets\\ValueSetSCTBodyStructure.fsh",
-    "startLine": 1,
-    "endLine": 5
-  },
-  {
-    "outputFile": "ValueSet-sct-lab-procedure.json",
-    "fshName": "ValueSetSCTLaboratoryProcedure",
-    "fshType": "ValueSet",
-    "fshFile": "valuesets\\ValueSetSCTLaboratoryProcedure.fsh",
-    "startLine": 1,
-    "endLine": 5
-  },
-  {
-    "outputFile": "ValueSet-ucum-dna-concentration-units.json",
-    "fshName": "UCUMDNAConcentrationUnits",
-    "fshType": "ValueSet",
-    "fshFile": "valuesets\\ValueSetDNAKonzentrationUnits.fsh",
-    "startLine": 1,
-    "endLine": 7
-  },
-  {
-    "outputFile": "ValueSet-vs-cellline-morphology.json",
-    "fshName": "ValueSetCellLineMorphology",
-    "fshType": "ValueSet",
-    "fshFile": "valuesets\\ValueSetCellLineMorphologie.fsh",
-    "startLine": 1,
-    "endLine": 9
-  },
-  {
-    "outputFile": "ValueSet-vs-cellline-proliferation.json",
-    "fshName": "ValueSetCellLineProliferation",
-    "fshType": "ValueSet",
-    "fshFile": "valuesets\\ValueSetCellinieProliferation.fsh",
-    "startLine": 1,
-    "endLine": 13
-  },
-  {
-    "outputFile": "ValueSet-vs-clo-cellline-modification.json",
-    "fshName": "ValueSetCLOCellLineModification",
-    "fshType": "ValueSet",
-    "fshFile": "valuesets\\ValueSetModifikationen.fsh",
-    "startLine": 1,
-    "endLine": 12
-  },
-  {
-    "outputFile": "ValueSet-vs-clo-grpwth-type.json",
-    "fshName": "ValueSetCLOWachstumpstyp",
-    "fshType": "ValueSet",
-    "fshFile": "valuesets\\ValueSetWachstumstyp.fsh",
-    "startLine": 1,
-    "endLine": 7
-  },
-  {
-    "outputFile": "ValueSet-vs-karyotyp.json",
-    "fshName": "ValueSetKaryotyp",
-    "fshType": "ValueSet",
-    "fshFile": "valuesets\\ValueSetKaryotyp.fsh",
-    "startLine": 1,
-    "endLine": 11
   }
 ]

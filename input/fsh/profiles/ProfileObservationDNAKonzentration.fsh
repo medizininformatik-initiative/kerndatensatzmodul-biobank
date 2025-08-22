@@ -15,6 +15,6 @@ Description: "Die DNA-Konzentration einer Probe"
 * value[x] 1..1 MS
 * value[x] only Quantity
 * valueQuantity.system 1..1
-* valueQuantity.code from UCUMDNAConcentrationUnits (required)
+* valueQuantity.code from MII_VS_Biobank_DNA_Concentration_Units_UCUM (required)
 
 * effective[x] 0..1 MS

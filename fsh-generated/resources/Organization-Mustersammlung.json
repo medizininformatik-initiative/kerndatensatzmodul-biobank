@@ -52,17 +52,6 @@
       "valueString": "Sammlung mit im Rahmen der Versorgung gewonnenen Proben."
     }
   ],
-  "type": [
-    {
-      "coding": [
-        {
-          "code": "HOSPITAL",
-          "system": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/CodeSystem/MIABISCollectionType",
-          "display": "Hospital"
-        }
-      ]
-    }
-  ],
   "name": "Mustersammlung",
   "partOf": {
     "reference": "Organization/BiobankMusterstadt"

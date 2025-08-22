@@ -14,4 +14,4 @@ Description: "Proliferation einer Zelline oder eines Organiods"
 * focus only Reference(Specimen)
 * value[x] 1..1 MS
 * value[x] only CodeableConcept
-* valueCodeableConcept from ValueSetCellLineProliferation (extensible)
+* valueCodeableConcept from MII_VS_Biobank_CellLine_Proliferation (extensible)

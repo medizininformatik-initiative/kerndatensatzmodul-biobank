@@ -1,7 +1,7 @@
 Profile: ProfileObservationWachstumstyp
 Parent: http://hl7.org/fhir/StructureDefinition/Observation
 Id: Observation-Wachstumstyp
-Title: "Profile - Observation - KWachstumstyp"
+Title: "Profile - Observation - Wachstumstyp"
 Description: "Wachstumstyp einer Zelline oder eines Organiods"
 
 * insert Publisher
@@ -14,4 +14,4 @@ Description: "Wachstumstyp einer Zelline oder eines Organiods"
 * focus only Reference(Specimen)
 * value[x] 1..1 MS
 * value[x] only CodeableConcept
-* valueCodeableConcept from ValueSetCLOWachstumpstyp (extensible)
+* valueCodeableConcept from MII_VS_Biobank_Wachstumpstyp_CLO (extensible)

@@ -46,11 +46,7 @@ Description: "Darstellung der organisatorischen Daten einer Probensammlung oder 
 * insert Translation(name ^definition, de-DE, Der vollständige Name der Sammlung oder Biobank.)
 * insert Translation(name ^definition, en-US, The full name of the collection or biobank.)
 
-* type from https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/miabis-collection-type (extensible)
-* insert Translation(type ^short, de-DE, Sammlungstyp)
-* insert Translation(type ^short, en-US, Collection type)
-* insert Translation(type ^definition, de-DE, Der Typ der Sammlung oder Biobank\, basierend auf MIABIS.)
-* insert Translation(type ^definition, en-US, The type of the collection or biobank\, based on MIABIS.)
+* type 
 
 * contact ^slicing.discriminator.type = #pattern
 * contact ^slicing.discriminator.path = "purpose"
@@ -60,7 +56,7 @@ Description: "Darstellung der organisatorischen Daten einer Probensammlung oder 
 
 * contact[forschungskontakt].extension contains KontaktRolle named rolle 1..1 MS
 
-* contact[forschungskontakt].purpose = ContactType#RESEARCH
+* contact[forschungskontakt].purpose = MII_CS_Biobank_Contact_Type#RESEARCH
 * contact[forschungskontakt].name.family 1..1 MS
 * contact[forschungskontakt].name.given 1..* MS
 

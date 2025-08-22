@@ -14,6 +14,6 @@ Description: "Der an einer Zelline oder einem Organiod festgestellte Karyotyo"
 * focus only Reference(Specimen)
 * value[x] 1..1 MS
 * value[x] only CodeableConcept
-* valueCodeableConcept from ValueSetKaryotyp (extensible)
+* valueCodeableConcept from MII_VS_Biobank_Karyotyp_SCT (extensible)
 
 * effective[x] 1..1 MS

@@ -18,7 +18,7 @@
   "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/Observation-Wachstumstyp",
   "version": "2026.0.0-preview",
   "name": "ProfileObservationWachstumstyp",
-  "title": "Profile - Observation - KWachstumstyp",
+  "title": "Profile - Observation - Wachstumstyp",
   "status": "active",
   "publisher": "Medizininformatik Initiative",
   "contact": [
@@ -81,7 +81,7 @@
         "mustSupport": true,
         "binding": {
           "strength": "extensible",
-          "valueSet": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/vs-clo-grpwth-type"
+          "valueSet": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/mii-vs-biobank-wachstumstyp-clo"
         }
       }
     ]

@@ -13,7 +13,7 @@ Description: "Erweiterung zur Beschreibung von Modifikationen an Zelllinien, ein
     protokoll 0..1 MS
 
 * extension[artDerModifikation].value[x] only CodeableConcept
-* extension[artDerModifikation].value[x] from ValueSetCLOCellLineModification (required)
+* extension[artDerModifikation].value[x] from MII_VS_Biobank_Cellline_Modification_CLO (required)
 
 * extension[zielGen].value[x] only Coding
 * extension[zielGen].valueCoding.system = "http://www.genenames.org"
