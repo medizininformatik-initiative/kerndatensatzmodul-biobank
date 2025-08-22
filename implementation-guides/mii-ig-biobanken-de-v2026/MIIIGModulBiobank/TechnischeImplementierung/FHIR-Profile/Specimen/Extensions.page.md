@@ -1,12 +1,17 @@
 #### Extensions
 
 
+##### Probenebene
+
+Mittels dieser Extension kann ausgedrückt werden, welcher Probenebene dieses Specimen zuzuordnen ist.
+
+{{render:https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/mii-ex-biobank-ebene}}
+
 ##### Temperaturbedingungen
 
 Um zu einer Verabeitung oder Lagerung die jeweils herrschenden Temperaturbedingungen (in °C) anzugeben soll diese Extension verwendet werden. Dabei soll nach Möglichkeit immer ein Wertebereich inkl. oberer und unterer Grenze angegeben werden.
 
 {{render:https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/Temperaturbedingungen}}
-
 
 ##### Einstellung Blutversorgung
 
@@ -20,10 +25,14 @@ Die Organisation, die die Probe verwaltet, soll mithilfe dieser Extension refere
 
 {{render:https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/VerwaltendeOrganisation}}
 
-
-
 ##### Diagnose
 
 Mittels dieser Extension kann eine zur Probe gehörende Diagnose referenziert werden. Dies ist vor allem für Fälle gedacht, wo eine Zuordnung über Pathologiebericht oder Laborbefund nicht möglich ist.
 
 {{render:https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/Diagnose}}
+
+##### Zahl Aliquots
+
+Anzahl der Aliquots, wenn diese nicht als eigene FHIR-Ressourcen ausmodelliert werden.
+
+{{render:https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/mii-ex-biobank-anzahl-aliquots}

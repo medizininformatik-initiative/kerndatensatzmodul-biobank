@@ -1,6 +1,6 @@
 {
   "resourceType": "StructureDefinition",
-  "id": "Ebene",
+  "id": "mii-ex-biobank-ebene",
   "extension": [
     {
       "url": "https://www.medizininformatik-initiative.de/fhir/modul-meta/StructureDefinition/mii-ex-meta-license-codeable",
@@ -15,10 +15,44 @@
       }
     }
   ],
-  "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/Ebene",
+  "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/mii-ex-biobank-ebene",
   "version": "2026.0.0-preview",
-  "name": "ExtensionEbene",
-  "title": "Extension - Ebene",
+  "name": "MII_EX_Biobank_Ebene",
+  "_name": {
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/translation",
+        "extension": [
+          {
+            "url": "lang",
+            "valueCode": "en-US"
+          },
+          {
+            "url": "content",
+            "valueString": "MII_EX_Biobank_Level"
+          }
+        ]
+      }
+    ]
+  },
+  "title": "MII EEX Biobank Ebene",
+  "_title": {
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/translation",
+        "extension": [
+          {
+            "url": "lang",
+            "valueCode": "en-US"
+          },
+          {
+            "url": "content",
+            "valueString": "Extension - Level"
+          }
+        ]
+      }
+    ]
+  },
   "status": "active",
   "publisher": "Medizininformatik Initiative",
   "contact": [
@@ -32,13 +66,30 @@
     }
   ],
   "description": "Mittels dieser Extension kann ausgedrückt werden, welcher Probenebene dieses Specimen zuzuordnen ist.",
+  "_description": {
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/translation",
+        "extension": [
+          {
+            "url": "lang",
+            "valueCode": "en-US"
+          },
+          {
+            "url": "content",
+            "valueString": "This extension allows expressing to which specimen level this specimen is assigned."
+          }
+        ]
+      }
+    ]
+  },
   "fhirVersion": "4.0.1",
   "kind": "complex-type",
   "abstract": false,
   "context": [
     {
       "type": "element",
-      "expression": "Element"
+      "expression": "Specimen"
     }
   ],
   "type": "Extension",
@@ -49,7 +100,7 @@
       {
         "id": "Extension",
         "path": "Extension",
-        "short": "Extension - Ebene",
+        "short": "MII EEX Biobank Ebene",
         "definition": "Mittels dieser Extension kann ausgedrückt werden, welcher Probenebene dieses Specimen zuzuordnen ist."
       },
       {
@@ -60,7 +111,7 @@
       {
         "id": "Extension.url",
         "path": "Extension.url",
-        "fixedUri": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/Ebene"
+        "fixedUri": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/mii-ex-biobank-ebene"
       },
       {
         "id": "Extension.value[x]",

@@ -5,13 +5,7 @@
 
 Referenz auf das Dokument des angewendeten Kulturprotokolls bei der Erzeugung einer Zelllinie oder eines Organoids.
 
-{{render:https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/Kulturprotokoll}}
-
-##### Zahl Aliquots
-
-Anzahl der Aliquots, wenn diese nicht als eigene FHIR-Ressourcen ausmodelliert werden.
-
-{{render:https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/AnzahlAliqouts}}
+{{render:https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/mii-ex-biobank-kulturprotokoll}}
 
 ##### Modifikationen
 
@@ -27,4 +21,4 @@ Phänotyp oder Diagnose der Zelllinie / des Organoids, wenn nicht patientenbezog
 
 Anzahl der durchgeführten Passagen zur Erzeugung einer Zelllinie oder eines Organoids.
 
-{{render:https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/AnzahlPassagen}}
+{{render:https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/mii-ex-biobank-anzahl-passagen}}

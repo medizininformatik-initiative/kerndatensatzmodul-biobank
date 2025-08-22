@@ -1,6 +1,6 @@
 {
   "resourceType": "StructureDefinition",
-  "id": "cell-line-modification",
+  "id": "mii-ex-biobank-modifikationen",
   "extension": [
     {
       "url": "https://www.medizininformatik-initiative.de/fhir/modul-meta/StructureDefinition/mii-ex-meta-license-codeable",
@@ -15,10 +15,44 @@
       }
     }
   ],
-  "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/cell-line-modification",
+  "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/mii-ex-biobank-modifikationen",
   "version": "2026.0.0-preview",
-  "name": "ExtensionModifikationen",
-  "title": "Zelllinien-Modifikation Extension",
+  "name": "MII_EX_Biobank_Modifikationen",
+  "_name": {
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/translation",
+        "extension": [
+          {
+            "url": "lang",
+            "valueCode": "en-US"
+          },
+          {
+            "url": "content",
+            "valueString": "MII_EX_Biobank_Cell_Line_Modification"
+          }
+        ]
+      }
+    ]
+  },
+  "title": "MII EX Biobank Zelllinien-Modifikation",
+  "_title": {
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/translation",
+        "extension": [
+          {
+            "url": "lang",
+            "valueCode": "en-US"
+          },
+          {
+            "url": "content",
+            "valueString": "MII EX Biobank Cell Line Modification"
+          }
+        ]
+      }
+    ]
+  },
   "status": "active",
   "publisher": "Medizininformatik Initiative",
   "contact": [
@@ -32,13 +66,30 @@
     }
   ],
   "description": "Erweiterung zur Beschreibung von Modifikationen an Zelllinien, einschließlich Art der Modifikation, Zielgen und Referenz zum Protokoll.",
+  "_description": {
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/translation",
+        "extension": [
+          {
+            "url": "lang",
+            "valueCode": "en-US"
+          },
+          {
+            "url": "content",
+            "valueString": "Extension for describing modifications to cell lines, including type of modification, target gene, and reference to the protocol."
+          }
+        ]
+      }
+    ]
+  },
   "fhirVersion": "4.0.1",
   "kind": "complex-type",
   "abstract": false,
   "context": [
     {
       "type": "element",
-      "expression": "Element"
+      "expression": "Specimen"
     }
   ],
   "type": "Extension",
@@ -49,7 +100,7 @@
       {
         "id": "Extension",
         "path": "Extension",
-        "short": "Zelllinien-Modifikation Extension",
+        "short": "MII EX Biobank Zelllinien-Modifikation",
         "definition": "Erweiterung zur Beschreibung von Modifikationen an Zelllinien, einschließlich Art der Modifikation, Zielgen und Referenz zum Protokoll."
       },
       {
@@ -148,7 +199,7 @@
       {
         "id": "Extension.url",
         "path": "Extension.url",
-        "fixedUri": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/cell-line-modification"
+        "fixedUri": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/mii-ex-biobank-modifikationen"
       },
       {
         "id": "Extension.value[x]",

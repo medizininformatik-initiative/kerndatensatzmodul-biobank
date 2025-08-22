@@ -54,7 +54,7 @@ Description: "Darstellung der organisatorischen Daten einer Probensammlung oder 
 
 * contact contains forschungskontakt 1..* MS
 
-* contact[forschungskontakt].extension contains KontaktRolle named rolle 1..1 MS
+* contact[forschungskontakt].extension contains MII_EX_Biobank_KontaktRolle named rolle 1..1 MS
 
 * contact[forschungskontakt].purpose = MII_CS_Biobank_Contact_Type#RESEARCH
 * contact[forschungskontakt].name.family 1..1 MS

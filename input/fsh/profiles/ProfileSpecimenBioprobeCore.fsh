@@ -8,7 +8,7 @@ Description: "Basisiprofil zur Abbildung einer MII Bioprobe. Nicht zur direkten 
 * insert PR_CS_VS_Version
 * insert LicenseCodeableCCBY40
 
-* extension contains MII_EX_Biobank_Feature_R5 named feature 0..1 and ExtensionEbene named probenebene 0..1 MS
+* extension contains MII_EX_Biobank_Feature_R5 named feature 0..1 and MII_EX_Biobank_Ebene named probenebene 0..1 MS
 
 * identifier and type and container.specimenQuantity and status and note and parent and container and container.type and container.capacity 
 and container.additive[x] and collection and collection.collected[x] and collection.bodySite and collection.fastingStatus[x] and processing
@@ -142,7 +142,7 @@ and processing.timePeriod and processing.procedure and processing.additive and r
 
 * collection 1..1
 
-* collection.extension contains EinstellungBlutversorgung named einstellungBlutversorgung 0..1 MS
+* collection.extension contains MII_EX_Biobank_Einstellung_Blutversorgung named einstellungBlutversorgung 0..1 MS
 
 * collection.fastingStatusCodeableConcept from 	http://terminology.hl7.org/ValueSet/v2-0916 (required)
 
@@ -163,7 +163,7 @@ and processing.timePeriod and processing.procedure and processing.additive and r
 
 //Verarbeitung/Lagerprozess
 
-* processing.extension contains Temperaturbedingungen named temperaturbedingungen 1..1 MS
+* processing.extension contains MII_EX_Biobank_Temperaturbedingungen named temperaturbedingungen 1..1 MS
 * processing.procedure 1..1 MS
 * processing.procedure from MII_VS_Biobank_Laboratory_Procedure_SCT (example)
 

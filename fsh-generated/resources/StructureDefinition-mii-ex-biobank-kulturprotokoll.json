@@ -1,6 +1,6 @@
 {
   "resourceType": "StructureDefinition",
-  "id": "Kulturprotokoll",
+  "id": "mii-ex-biobank-kulturprotokoll",
   "extension": [
     {
       "url": "https://www.medizininformatik-initiative.de/fhir/modul-meta/StructureDefinition/mii-ex-meta-license-codeable",
@@ -15,10 +15,44 @@
       }
     }
   ],
-  "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/Kulturprotokoll",
+  "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/mii-ex-biobank-kulturprotokoll",
   "version": "2026.0.0-preview",
-  "name": "ExtensionKulturprotokoll",
-  "title": "Extension - Kulturprotokoll",
+  "name": "MII_EX_Biobank_Kulturprotokoll",
+  "_name": {
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/translation",
+        "extension": [
+          {
+            "url": "lang",
+            "valueCode": "en-US"
+          },
+          {
+            "url": "content",
+            "valueString": "MII_EX_Biobank_Culture_Protocol"
+          }
+        ]
+      }
+    ]
+  },
+  "title": "MII EX Biobank Kulturprotokoll",
+  "_title": {
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/translation",
+        "extension": [
+          {
+            "url": "lang",
+            "valueCode": "en-US"
+          },
+          {
+            "url": "content",
+            "valueString": "MII EX Biobank Culture Protocol"
+          }
+        ]
+      }
+    ]
+  },
   "status": "active",
   "publisher": "Medizininformatik Initiative",
   "contact": [
@@ -32,13 +66,30 @@
     }
   ],
   "description": "Protokoll der Kultur der Zellinie oder des Organiods.",
+  "_description": {
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/translation",
+        "extension": [
+          {
+            "url": "lang",
+            "valueCode": "en-US"
+          },
+          {
+            "url": "content",
+            "valueString": "Protocol of the culture of the cell line or organoid."
+          }
+        ]
+      }
+    ]
+  },
   "fhirVersion": "4.0.1",
   "kind": "complex-type",
   "abstract": false,
   "context": [
     {
       "type": "element",
-      "expression": "Element"
+      "expression": "Specimen"
     }
   ],
   "type": "Extension",
@@ -49,7 +100,7 @@
       {
         "id": "Extension",
         "path": "Extension",
-        "short": "Extension - Kulturprotokoll",
+        "short": "MII EX Biobank Kulturprotokoll",
         "definition": "Protokoll der Kultur der Zellinie oder des Organiods."
       },
       {
@@ -60,7 +111,7 @@
       {
         "id": "Extension.url",
         "path": "Extension.url",
-        "fixedUri": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/Kulturprotokoll"
+        "fixedUri": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/mii-ex-biobank-kulturprotokoll"
       },
       {
         "id": "Extension.value[x]",

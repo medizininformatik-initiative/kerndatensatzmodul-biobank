@@ -1,6 +1,6 @@
 {
   "resourceType": "StructureDefinition",
-  "id": "AnzahlPassagen",
+  "id": "mii-ex-biobank-anzahl-passagen",
   "extension": [
     {
       "url": "https://www.medizininformatik-initiative.de/fhir/modul-meta/StructureDefinition/mii-ex-meta-license-codeable",
@@ -15,10 +15,44 @@
       }
     }
   ],
-  "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/AnzahlPassagen",
+  "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/mii-ex-biobank-anzahl-passagen",
   "version": "2026.0.0-preview",
-  "name": "ExtensionAnzahlPassagen",
-  "title": "Extension - Anzahl Passagen",
+  "name": "MII_EX_Biobank_Anzahl_Passagen",
+  "_name": {
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/translation",
+        "extension": [
+          {
+            "url": "lang",
+            "valueCode": "en-US"
+          },
+          {
+            "url": "content",
+            "valueString": "MII_EX_Biobank_Number_of_Passages"
+          }
+        ]
+      }
+    ]
+  },
+  "title": "MII EX Biobank Anzahl Passagen",
+  "_title": {
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/translation",
+        "extension": [
+          {
+            "url": "lang",
+            "valueCode": "en-US"
+          },
+          {
+            "url": "content",
+            "valueString": "MII EX Biobank Number of Passages"
+          }
+        ]
+      }
+    ]
+  },
   "status": "active",
   "publisher": "Medizininformatik Initiative",
   "contact": [
@@ -32,13 +66,30 @@
     }
   ],
   "description": "Zahl der Passagen, die die Zellinie oder das Organiod durchlaufen hat.",
+  "_description": {
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/translation",
+        "extension": [
+          {
+            "url": "lang",
+            "valueCode": "en-US"
+          },
+          {
+            "url": "content",
+            "valueString": "Number of passages that the cell line or organoid has undergone."
+          }
+        ]
+      }
+    ]
+  },
   "fhirVersion": "4.0.1",
   "kind": "complex-type",
   "abstract": false,
   "context": [
     {
       "type": "element",
-      "expression": "Element"
+      "expression": "Specimen"
     }
   ],
   "type": "Extension",
@@ -49,7 +100,7 @@
       {
         "id": "Extension",
         "path": "Extension",
-        "short": "Extension - Anzahl Passagen",
+        "short": "MII EX Biobank Anzahl Passagen",
         "definition": "Zahl der Passagen, die die Zellinie oder das Organiod durchlaufen hat."
       },
       {
@@ -60,7 +111,7 @@
       {
         "id": "Extension.url",
         "path": "Extension.url",
-        "fixedUri": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/AnzahlPassagen"
+        "fixedUri": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/mii-ex-biobank-anzahl-passagen"
       },
       {
         "id": "Extension.value[x]",

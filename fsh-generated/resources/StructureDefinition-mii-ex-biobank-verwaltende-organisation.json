@@ -1,6 +1,6 @@
 {
   "resourceType": "StructureDefinition",
-  "id": "VerwaltendeOrganisation",
+  "id": "mii-ex-biobank-verwaltende-organisation",
   "extension": [
     {
       "url": "https://www.medizininformatik-initiative.de/fhir/modul-meta/StructureDefinition/mii-ex-meta-license-codeable",
@@ -17,8 +17,42 @@
   ],
   "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/VerwaltendeOrganisation",
   "version": "2026.0.0-preview",
-  "name": "ExtensionVerwaltendeOrganisation",
-  "title": "Extension - Verwaltende Organisation",
+  "name": "MII_EX_Biobank_Verwaltende_Organisation",
+  "_name": {
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/translation",
+        "extension": [
+          {
+            "url": "lang",
+            "valueCode": "en-US"
+          },
+          {
+            "url": "content",
+            "valueString": "MII_EX_Biobank_Managing_Organization"
+          }
+        ]
+      }
+    ]
+  },
+  "title": "MII EX Biobank Verwaltende Organisation",
+  "_title": {
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/translation",
+        "extension": [
+          {
+            "url": "lang",
+            "valueCode": "en-US"
+          },
+          {
+            "url": "content",
+            "valueString": "MII EX Biobank Managing Organization"
+          }
+        ]
+      }
+    ]
+  },
   "status": "active",
   "publisher": "Medizininformatik Initiative",
   "contact": [
@@ -32,13 +66,30 @@
     }
   ],
   "description": "Die Organisation, die die Probe verwaltet, soll mithilfe dieser Extension referenziert werden. Anfragen zu den Proben sollen mittels dieser Verlinkung und der in der Organization hinterlegten Kontaktinformationen möglich sein.",
+  "_description": {
+    "extension": [
+      {
+        "url": "http://hl7.org/fhir/StructureDefinition/translation",
+        "extension": [
+          {
+            "url": "lang",
+            "valueCode": "en-US"
+          },
+          {
+            "url": "content",
+            "valueString": "The organization managing the specimen should be referenced using this extension. Requests regarding the specimens should be possible via this link and the contact information stored in the organization."
+          }
+        ]
+      }
+    ]
+  },
   "fhirVersion": "4.0.1",
   "kind": "complex-type",
   "abstract": false,
   "context": [
     {
       "type": "element",
-      "expression": "Element"
+      "expression": "Specimen"
     }
   ],
   "type": "Extension",
@@ -49,7 +100,7 @@
       {
         "id": "Extension",
         "path": "Extension",
-        "short": "Extension - Verwaltende Organisation",
+        "short": "MII EX Biobank Verwaltende Organisation",
         "definition": "Die Organisation, die die Probe verwaltet, soll mithilfe dieser Extension referenziert werden. Anfragen zu den Proben sollen mittels dieser Verlinkung und der in der Organization hinterlegten Kontaktinformationen möglich sein."
       },
       {

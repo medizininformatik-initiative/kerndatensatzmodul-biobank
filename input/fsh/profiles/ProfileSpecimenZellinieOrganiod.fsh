@@ -10,7 +10,6 @@ Description: "Abbildung einer MII Zellinie oder Organiods"
 
 //Bioprobe
 
-* extension contains ExtensionKulturprotokoll named kulturprotokoll 0..1 MS 
-                    and ExtensionAnzahlAliqouts named anzahlAliquots 0..1 MS 
-                    and ExtensionModifikationen named modifikationen 0..* MS
-                    and ExtensionAnzahlPassagen named anzahlPassagen 0..1 MS
+* extension contains MII_EX_Biobank_Kulturprotokoll named kulturprotokoll 0..1 MS 
+                    and MII_EX_Biobank_Modifikationen named modifikationen 0..* MS
+                    and MII_EX_Biobank_Anzahl_Passagen named anzahlPassagen 0..1 MS

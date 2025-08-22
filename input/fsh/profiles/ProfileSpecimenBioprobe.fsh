@@ -10,7 +10,9 @@ Description: "Abbildung einer MII Bioprobe"
 
 //Bioprobe
 
-* extension contains Diagnose named festgestellteDiagnose 0..1 MS and VerwaltendeOrganisation named gehoertZu 0..1 MS
+* extension contains MII_EX_Biobank_Diagnose named festgestellteDiagnose 0..1 MS 
+                and MII_EX_Biobank_Verwaltende_Organisation named gehoertZu 0..1 MS 
+                and MII_EX_Biobank_Anzahl_Aliquots named anzahlAliquots 0..1 MS 
 
 * insert Translation(extension[festgestellteDiagnose] ^short, de-DE, Festgestellte Diagnose)
 * insert Translation(extension[festgestellteDiagnose] ^short, en-US, Diagnosed condition)

@@ -88,76 +88,12 @@
     "endLine": 30
   },
   {
-    "outputFile": "StructureDefinition-AnzahlAliqouts.json",
-    "fshName": "ExtensionAnzahlAliqouts",
-    "fshType": "Extension",
-    "fshFile": "extensions\\ExtensionAnzahlAliquots.fsh",
-    "startLine": 1,
-    "endLine": 10
-  },
-  {
-    "outputFile": "StructureDefinition-AnzahlPassagen.json",
-    "fshName": "ExtensionAnzahlPassagen",
-    "fshType": "Extension",
-    "fshFile": "extensions\\ExtensionZahlPassagen.fsh",
-    "startLine": 1,
-    "endLine": 10
-  },
-  {
-    "outputFile": "StructureDefinition-BeschreibungSammlung.json",
-    "fshName": "ExtensionBeschreibungSammlung",
-    "fshType": "Extension",
-    "fshFile": "extensions\\ExtensionBeschreibungSammlung.fsh",
-    "startLine": 1,
-    "endLine": 10
-  },
-  {
     "outputFile": "StructureDefinition-Biobank.json",
     "fshName": "MII_LM_Biobank",
     "fshType": "Logical",
     "fshFile": "logicals\\MII_LM_Biobank.fsh",
     "startLine": 1,
     "endLine": 64
-  },
-  {
-    "outputFile": "StructureDefinition-Diagnose.json",
-    "fshName": "ExtensionDiagnose",
-    "fshType": "Extension",
-    "fshFile": "extensions\\ExtensionDiagnose.fsh",
-    "startLine": 1,
-    "endLine": 10
-  },
-  {
-    "outputFile": "StructureDefinition-Ebene.json",
-    "fshName": "ExtensionEbene",
-    "fshType": "Extension",
-    "fshFile": "extensions\\ExtensionEbene.fsh",
-    "startLine": 1,
-    "endLine": 11
-  },
-  {
-    "outputFile": "StructureDefinition-EinstellungBlutversorgung.json",
-    "fshName": "ExtensionEinstellungBlutversorgung",
-    "fshType": "Extension",
-    "fshFile": "extensions\\ExtensionEinstellungBlutversorgung.fsh",
-    "startLine": 1,
-    "endLine": 10
-  },
-  {
-    "outputFile": "StructureDefinition-KontaktRolle.json",
-    "fshName": "ExtensionKontaktRolle",
-    "fshType": "Extension",
-    "fshFile": "extensions\\ExtensionKontaktRolle.fsh",
-    "startLine": 1,
-    "endLine": 10
-  },
-  {
-    "outputFile": "StructureDefinition-Kulturprotokoll.json",
-    "fshName": "ExtensionKulturprotokoll",
-    "fshType": "Extension",
-    "fshFile": "extensions\\ExtensionKulturprotokoll.fsh",
-    "startLine": 1,
-    "endLine": 10
   },
   {
     "outputFile": "StructureDefinition-Observation-DNAKonzentration.json",
@@ -221,7 +157,7 @@
     "fshType": "Profile",
     "fshFile": "profiles\\ProfileSpecimenBioprobe.fsh",
     "startLine": 1,
-    "endLine": 28
+    "endLine": 30
   },
   {
     "outputFile": "StructureDefinition-SpecimenCore.json",
@@ -240,36 +176,52 @@
     "endLine": 12
   },
   {
-    "outputFile": "StructureDefinition-Temperaturbedingungen.json",
-    "fshName": "ExtensionTemperaturbedingungen",
-    "fshType": "Extension",
-    "fshFile": "extensions\\ExtensionTemperaturbedingungen.fsh",
-    "startLine": 1,
-    "endLine": 16
-  },
-  {
-    "outputFile": "StructureDefinition-VerwaltendeOrganisation.json",
-    "fshName": "ExtensionVerwaltendeOrganisation",
-    "fshType": "Extension",
-    "fshFile": "extensions\\ExtensionVerwaltendeOrganisation.fsh",
-    "startLine": 1,
-    "endLine": 10
-  },
-  {
     "outputFile": "StructureDefinition-ZellinieOrganoid.json",
     "fshName": "ProfileSpecimenZellinieOrganoid",
     "fshType": "Profile",
     "fshFile": "profiles\\ProfileSpecimenZellinieOrganiod.fsh",
     "startLine": 1,
-    "endLine": 16
+    "endLine": 15
   },
   {
-    "outputFile": "StructureDefinition-cell-line-modification.json",
-    "fshName": "ExtensionModifikationen",
+    "outputFile": "StructureDefinition-mii-ex-biobank-anzahl-aliquots.json",
+    "fshName": "MII_EX_Biobank_Anzahl_Aliquots",
     "fshType": "Extension",
-    "fshFile": "extensions\\ExtensionModifikationen.fsh",
-    "startLine": 1,
+    "fshFile": "extensions\\ExtensionAnzahlAliquots.fsh",
+    "startLine": 2,
+    "endLine": 19
+  },
+  {
+    "outputFile": "StructureDefinition-mii-ex-biobank-anzahl-passagen.json",
+    "fshName": "MII_EX_Biobank_Anzahl_Passagen",
+    "fshType": "Extension",
+    "fshFile": "extensions\\ExtensionZahlPassagen.fsh",
+    "startLine": 2,
+    "endLine": 18
+  },
+  {
+    "outputFile": "StructureDefinition-mii-ex-biobank-diagnose.json",
+    "fshName": "MII_EX_Biobank_Diagnose",
+    "fshType": "Extension",
+    "fshFile": "extensions\\ExtensionDiagnose.fsh",
+    "startLine": 2,
     "endLine": 21
+  },
+  {
+    "outputFile": "StructureDefinition-mii-ex-biobank-ebene.json",
+    "fshName": "MII_EX_Biobank_Ebene",
+    "fshType": "Extension",
+    "fshFile": "extensions\\ExtensionEbene.fsh",
+    "startLine": 2,
+    "endLine": 19
+  },
+  {
+    "outputFile": "StructureDefinition-mii-ex-biobank-einstellung-blutversorgung.json",
+    "fshName": "MII_EX_Biobank_Einstellung_Blutversorgung",
+    "fshType": "Extension",
+    "fshFile": "extensions\\ExtensionEinstellungBlutversorgung.fsh",
+    "startLine": 2,
+    "endLine": 20
   },
   {
     "outputFile": "StructureDefinition-mii-ex-biobank-feature-r5.json",
@@ -278,6 +230,46 @@
     "fshFile": "extensions\\ExtensionR5Feature.fsh",
     "startLine": 1,
     "endLine": 16
+  },
+  {
+    "outputFile": "StructureDefinition-mii-ex-biobank-kontaktrolle.json",
+    "fshName": "MII_EX_Biobank_KontaktRolle",
+    "fshType": "Extension",
+    "fshFile": "extensions\\ExtensionKontaktRolle.fsh",
+    "startLine": 2,
+    "endLine": 21
+  },
+  {
+    "outputFile": "StructureDefinition-mii-ex-biobank-kulturprotokoll.json",
+    "fshName": "MII_EX_Biobank_Kulturprotokoll",
+    "fshType": "Extension",
+    "fshFile": "extensions\\ExtensionKulturprotokoll.fsh",
+    "startLine": 2,
+    "endLine": 19
+  },
+  {
+    "outputFile": "StructureDefinition-mii-ex-biobank-modifikationen.json",
+    "fshName": "MII_EX_Biobank_Modifikationen",
+    "fshType": "Extension",
+    "fshFile": "extensions\\ExtensionModifikationen.fsh",
+    "startLine": 2,
+    "endLine": 29
+  },
+  {
+    "outputFile": "StructureDefinition-mii-ex-biobank-temperaturbedingungen.json",
+    "fshName": "MII_EX_Biobank_Temperaturbedingungen",
+    "fshType": "Extension",
+    "fshFile": "extensions\\ExtensionTemperaturbedingungen.fsh",
+    "startLine": 2,
+    "endLine": 29
+  },
+  {
+    "outputFile": "StructureDefinition-mii-ex-biobank-verwaltende-organisation.json",
+    "fshName": "MII_EX_Biobank_Verwaltende_Organisation",
+    "fshType": "Extension",
+    "fshFile": "extensions\\ExtensionVerwaltendeOrganisation.fsh",
+    "startLine": 2,
+    "endLine": 22
   },
   {
     "outputFile": "Substance-Heparin.json",
