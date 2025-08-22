@@ -64,7 +64,7 @@
           {
             "code": "Extension",
             "profile": [
-              "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/BeschreibungSammlung"
+              "https://fhir.bbmri-eric.eu/fhir/StructureDefinition/miabis-organization-description-extension"
             ]
           }
         ],
@@ -129,6 +129,38 @@
             }
           ]
         }
+      },
+      {
+        "id": "Organization.extension:collectionSetting",
+        "path": "Organization.extension",
+        "sliceName": "collectionSetting",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "https://fhir.bbmri-eric.eu/fhir/StructureDefinition/miabis-sample-collection-setting-extension"
+            ]
+          }
+        ],
+        "mustSupport": true
+      },
+      {
+        "id": "Organization.extension:collectionDesign",
+        "path": "Organization.extension",
+        "sliceName": "collectionDesign",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "https://fhir.bbmri-eric.eu/fhir/StructureDefinition/miabis-collection-design-extension"
+            ]
+          }
+        ],
+        "mustSupport": true
       },
       {
         "id": "Organization.identifier",
