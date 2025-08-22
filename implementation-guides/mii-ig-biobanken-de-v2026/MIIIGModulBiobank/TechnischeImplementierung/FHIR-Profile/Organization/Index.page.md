@@ -49,25 +49,16 @@ select
   <tab title="Link">{{link}}</tab>
 </tabs>
 
-<br>
-
-| FHIR Element | Logischer Datensatz |
-|--------------|-----------|
-| extension.beschreibung | Biobank.Beschreibung |
-| identifier       | Biobank.Probensammlung - Biobank.Sammlungs-ID       |
-| identifier[bbmri-eric-id]       | Biobank.Probensammlung - Biobank.BBMRI-ERIC-ID        |
-| type       | Biobank.Probensammlung - Biobank.Sammlungstyp |
-| name       | Biobank.Probensammlung - Biobank.Name |
-| alias       | Biobank.Probensammlung - Biobank.Akronym|
-| partOf       | Biobank.Probensammlung - Biobank.besteht aus|
-| contact[forschungskontakt] | Biobank.Kontakt |
-| contact[forschungskontakt].extension.rolle | Biobank.Kontakt.Rolle |
-| contact[forschungskontakt].name.family | Biobank.Kontakt.Nachname |
-| contact[forschungskontakt].name.given | Biobank.Kontakt.Vorname |
-| contact[forschungskontakt].telecom[email] | Biobank.Kontakt.E-Mail |
-| contact[forschungskontakt].address | Biobank.Kontakt.Adresse |
-
-
+---
+@```
+from StructureDefinition
+where url = 'https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/LogicalModel/Biobank'
+    for differential.element where id.contains('Probensammlung-Biobank')
+    select
+        FHIR: mapping[0].map,
+        Datensatz: path,
+        Erklaerung: definition
+```
 ---
 
 **Beispiele**
