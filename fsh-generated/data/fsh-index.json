@@ -16,36 +16,36 @@
     "endLine": 19
   },
   {
-    "outputFile": "ConceptMap-SPRECFixationTypeMap.json",
-    "fshName": "SPRECFixationTypeMap",
+    "outputFile": "ConceptMap-mii-cm-biobank-fixation-type-sprec-sct.json",
+    "fshName": "mii-cm-biobank-fixation-type-sprec-sct",
     "fshType": "Instance",
     "fshFile": "conceptmaps\\SPRECFixationTypeMap.fsh",
     "startLine": 1,
-    "endLine": 29
+    "endLine": 34
   },
   {
-    "outputFile": "ConceptMap-SPRECLongTermStorageMap.json",
-    "fshName": "SPRECLongTermStorageMap",
+    "outputFile": "ConceptMap-mii-cm-biobank-long-term-storage-sprec-sct.json",
+    "fshName": "mii-cm-biobank-long-term-storage-sprec-sct",
     "fshType": "Instance",
     "fshFile": "conceptmaps\\SPRECLongTermStorageMap.fsh",
     "startLine": 1,
-    "endLine": 71
+    "endLine": 77
   },
   {
-    "outputFile": "ConceptMap-SPRECPrimaryContainerMap.json",
-    "fshName": "SPRECPrimaryContainerMap",
+    "outputFile": "ConceptMap-mii-cm-biobank-primary-container-sprec-sct.json",
+    "fshName": "mii-cm-biobank-primary-container-sprec-sct",
     "fshType": "Instance",
     "fshFile": "conceptmaps\\SPRECPrimaryContainerMap.fsh",
     "startLine": 1,
-    "endLine": 140
+    "endLine": 146
   },
   {
-    "outputFile": "ConceptMap-SPRECSampleTypeMap.json",
-    "fshName": "SPRECSampleTypeMap",
+    "outputFile": "ConceptMap-mii-cm-biobank-sample-type-sprec-sct.json",
+    "fshName": "mii-cm-biobank-sample-type-sprec-sct",
     "fshType": "Instance",
     "fshFile": "conceptmaps\\SPRECSampleTypeMap.fsh",
     "startLine": 1,
-    "endLine": 125
+    "endLine": 128
   },
   {
     "outputFile": "Organization-BiobankMusterstadt.json",

@@ -14,14 +14,6 @@ Für [Body Site](https://www.medizininformatik-initiative.de/fhir/ext/modul-biob
 
 Die entsprechenden Value Sets wurden erstellt.
 
-**MIABIS Collection Types**
-
-Für die Art der Sammlung/Biobank sollen die entsprechenden MIABIS Codes verwendet werden. Da diese bisher nicht als FHIR CodeSystem vorliegen, wurde ein eigenes CodeSystem erstellt.
-
-{{render:MIABISCollectionType }}
-
-Zusätzlich wurde ein eigener Code (_RESEARCH_) für den ContactType [definiert](https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/CodeSystem/ContactType), um den für Forschungsanfragen zuständigen Kontakt zu kennzeichnen.
-
 **Standard PREanalytical Code (SPREC)**
 
 Der [SPREC 4.0](https://www.researchgate.net/publication/383061419_Standard_PREanalytical_Code_Version_40) (Standard PREanalytical Code) wurde entwickelt, um ein umfassendes und einfach zu implementierendes Werkzeug zur Dokumentation der präanalytischen Sammlung, Verarbeitung und Lagerung von Bioproben bereitzustellen.
@@ -56,23 +48,23 @@ Die im Folgenden aufgeführten Mappings sind als ConceptsMaps maschinenlesbar al
 
 Die Codes werden typischerweise im Specimen.type verwendet werden.
 
-{{render:SPRECSampleTypeMap }}
+{{render:https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ConceptMap/mii-cm-biobank-sample-type-sprec-sct }}
 
 #### Fixierungsart
 
 Die Codes werden typischerweise in einer Substance verwendet werden, die als Additiv referenziert wird.
 
-{{render:SPRECFixationTypeMap }}
+{{render:https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ConceptMap/mii-cm-biobank-fixation-type-sprec-sct }}
 
 #### Primärcontainer
 
 Diese ConceptMap kann nur als Tabelle dargestellt werden, da die aus dem SPREC-Code abgeleiteten Informationen zum einen den Specimen.container.type, zum anderen den Code der im Specimen.container.additive verlinkten Substance betreffen. Die Informationen zum Container sind im target selbst, die zur Substance im target.product enthalten. Die Kapazität des Containers, die teilweise mit im SPREC codiert ist, soll gesondert über Specimen.container.capacity abgebildet werden (als Quantity). Die Temperaturbedingungen der Lagerung sollen ebenfalls gesondert über die [Extension Temperaturbedingungen](extensions) erfasst werden.
 
-{{table: SPRECPrimaryContainerMap }}
+{{table: https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ConceptMap/mii-cm-biobank-primary-container-sprec-sct }}
 
 #### Langzeitlagerung
 
 Diese ConceptMap kann nur als Tabelle dargestellt werden, da die aus dem SPREC-Code abgeleiteten Informationen zum einen den Specimen.container.type, zum anderen den Code der im Specimen.container.additive verlinkten Substance betreffen. Die Informationen zum Container sind im target selbst, die zur Substance im target.product enthalten. Die Kapazität des Containers, die teilweise mit im SPREC codiert ist, soll gesondert über Specimen.container.capacity abgebildet werden (als Quantity). Die Temperaturbedingungen der Lagerung sollen ebenfalls gesondert über die [Extension Temperaturbedingungen](extensions) erfasst werden.
 
-{{table: SPRECLongTermStorageMap }}
+{{table: https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ConceptMap/mii-cm-biobank-long-term-storage-sprec-sct }}
 

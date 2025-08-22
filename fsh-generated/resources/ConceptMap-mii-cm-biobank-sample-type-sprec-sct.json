@@ -1,7 +1,7 @@
 {
   "resourceType": "ConceptMap",
-  "id": "SPRECSampleTypeMap",
-  "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ConceptMap/SPRECSampleTypeMap",
+  "id": "mii-cm-biobank-sample-type-sprec-sct",
+  "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ConceptMap/mii-cm-biobank-sample-type-sprec-sct",
   "title": "SPREC 4.0 Sample Type Mapping",
   "description": "Mapping der SPREC 4.0 Sample Types auf die im Modul verwendeten SNOMED CT Codes.",
   "version": "2026.0.0-preview",
@@ -16,9 +16,25 @@
       ]
     }
   ],
+  "extension": [
+    {
+      "url": "https://www.medizininformatik-initiative.de/fhir/modul-meta/StructureDefinition/mii-ex-meta-license-codeable",
+      "valueCodeableConcept": {
+        "coding": [
+          {
+            "code": "CC-BY-4.0",
+            "system": "http://hl7.org/fhir/spdx-license",
+            "display": "Creative Commons Attribution 4.0 International"
+          }
+        ]
+      }
+    }
+  ],
+  "copyright": "This concept map includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement. It also includes content from SPREC 4.0, https://doi.org/10.1089/bio.2024.0010",
   "status": "active",
   "group": [
     {
+      "source": "http://www.isber.org/sprec/type-of-sample",
       "target": "http://snomed.info/sct",
       "element": [
         {

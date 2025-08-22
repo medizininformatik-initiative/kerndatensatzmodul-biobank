@@ -1,13 +1,18 @@
-Instance: SPRECFixationTypeMap
+Instance: mii-cm-biobank-fixation-type-sprec-sct
 InstanceOf: http://hl7.org/fhir/StructureDefinition/ConceptMap
-Title: "SPREC 4.0 Fixation Type Mapping"
+Title: "MII CM Biobank Fixation Type SPREC 4.0 SCT"
 Usage: #definition
 Description: "Mapping der SPREC 4.0 Fixation Types auf die im Modul verwendeten SNOMED CT Codes für Zusatzstoffe."
 
-* url = "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ConceptMap/SPRECFixationTypeMap"
-* title = "SPREC 4.0 Fixation Type Mapping"
+* insert Version
+* insert SP_Publisher
+* insert LicenseCodeableCCBY40Instance
+* insert SNOMED_SPREC_Copyright_CM
+
+* url = "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ConceptMap/mii-cm-biobank-fixation-type-sprec-sct"
 * status = #active
 
+* group.source = "http://www.isber.org/sprec/fixation-stabilization-type"
 * group.target = "http://snomed.info/sct"
 
 * insert InitMapping(#ACA, "Nonaldehyde with acetic acid")

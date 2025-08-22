@@ -1,10 +1,10 @@
 Output File                                                             Name                                           Type        FSH File                                           Lines
 CodeSystem-mii-cs-biobank-contact-type.json                             MII_CS_Biobank_Contact_Type                    CodeSystem  codesystems\CodeSystemContactType.fsh              1 - 20
 CodeSystem-mii-cs-biobank-probenebene.json                              MII_CS_Biobank_Probenebene                     CodeSystem  codesystems\CodeSystemProbenebene.fsh              1 - 19
-ConceptMap-SPRECFixationTypeMap.json                                    SPRECFixationTypeMap                           Instance    conceptmaps\SPRECFixationTypeMap.fsh               1 - 29
-ConceptMap-SPRECLongTermStorageMap.json                                 SPRECLongTermStorageMap                        Instance    conceptmaps\SPRECLongTermStorageMap.fsh            1 - 71
-ConceptMap-SPRECPrimaryContainerMap.json                                SPRECPrimaryContainerMap                       Instance    conceptmaps\SPRECPrimaryContainerMap.fsh           1 - 140
-ConceptMap-SPRECSampleTypeMap.json                                      SPRECSampleTypeMap                             Instance    conceptmaps\SPRECSampleTypeMap.fsh                 1 - 125
+ConceptMap-mii-cm-biobank-fixation-type-sprec-sct.json                  mii-cm-biobank-fixation-type-sprec-sct         Instance    conceptmaps\SPRECFixationTypeMap.fsh               1 - 34
+ConceptMap-mii-cm-biobank-long-term-storage-sprec-sct.json              mii-cm-biobank-long-term-storage-sprec-sct     Instance    conceptmaps\SPRECLongTermStorageMap.fsh            1 - 77
+ConceptMap-mii-cm-biobank-primary-container-sprec-sct.json              mii-cm-biobank-primary-container-sprec-sct     Instance    conceptmaps\SPRECPrimaryContainerMap.fsh           1 - 146
+ConceptMap-mii-cm-biobank-sample-type-sprec-sct.json                    mii-cm-biobank-sample-type-sprec-sct           Instance    conceptmaps\SPRECSampleTypeMap.fsh                 1 - 128
 Organization-BiobankMusterstadt.json                                    BiobankMusterstadt                             Instance    instances\BiobankMusterstadt.fsh                   1 - 18
 Organization-Mustersammlung.json                                        Mustersammlung                                 Instance    instances\Mustersammlung.fsh                       1 - 18
 SearchParameter-SearchParamDiagnosis.json                               SearchParamDiagnosis                           Instance    searchparameters\SearchParamDiagnosis.fsh          1 - 16

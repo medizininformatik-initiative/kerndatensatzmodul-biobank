@@ -33,7 +33,7 @@
       }
     }
   ],
-  "copyright": "his value set includes content from UCUM, which is vopyright 1999-2024 Regenstrief Institute, Inc. All rights reserved. Licensed under the UCUM License, Version 1.1 (the “License”); you may not use this file except in compliance with the License. You may obtain a copy of the License at https://unitsofmeasure.org/license",
+  "copyright": "This value set includes content from UCUM, which is vopyright 1999-2024 Regenstrief Institute, Inc. All rights reserved. Licensed under the UCUM License, Version 1.1 (the “License”); you may not use this file except in compliance with the License. You may obtain a copy of the License at https://unitsofmeasure.org/license",
   "meta": {
     "profile": [
       "http://hl7.org/fhir/StructureDefinition/shareablevalueset"

@@ -1,13 +1,19 @@
-Instance: SPRECPrimaryContainerMap
+Instance: mii-cm-biobank-primary-container-sprec-sct
 InstanceOf: http://hl7.org/fhir/StructureDefinition/ConceptMap
-Title: "SPREC 4.0 Primary Container Mapping"
+Title: "MII CM Biobank Primary Container SPREC 4.0  SCT"
 Usage: #definition
 Description: "Mapping der SPREC 4.0 Primary-Container-Containertypen auf die im Modul verwendeten SNOMED CT Codes."
 
-* url = "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ConceptMap/SPRECPrimaryContainerMap"
+* insert Version
+* insert SP_Publisher
+* insert LicenseCodeableCCBY40Instance
+* insert SNOMED_SPREC_Copyright_CM
+
+* url = "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ConceptMap/mii-cm-biobank-primary-container-sprec-sct"
 * title = "SPREC 4.0 Primary Container Mapping"
 * status = #active
 
+* group.source = "http://www.isber.org/sprec/type-of-primary-container"
 * group.target = "http://snomed.info/sct"
 
 * insert InitMapping(#ACD, "Acid citrate dextrose")

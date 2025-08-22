@@ -1,16 +1,19 @@
-Instance: SPRECSampleTypeMap
+Instance: mii-cm-biobank-sample-type-sprec-sct
 InstanceOf: http://hl7.org/fhir/StructureDefinition/ConceptMap
-Title: "SPREC 4.0 Sample Type Mapping"
+Title: "MII CM Biobank Sample Type SPREC 4.0 SCT"
 Usage: #definition
 Description: "Mapping der SPREC 4.0 Sample Types auf die im Modul verwendeten SNOMED CT Codes."
 
 * insert Version
 * insert SP_Publisher
+* insert LicenseCodeableCCBY40Instance
+* insert SNOMED_SPREC_Copyright_CM
 
-* url = "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ConceptMap/SPRECSampleTypeMap"
+* url = "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ConceptMap/mii-cm-biobank-sample-type-sprec-sct"
 * title = "SPREC 4.0 Sample Type Mapping"
 * status = #active
 
+* group.source = "http://www.isber.org/sprec/type-of-sample"
 * group.target = "http://snomed.info/sct"
 
 * insert InitMapping(#ASC, "Ascites fluid")

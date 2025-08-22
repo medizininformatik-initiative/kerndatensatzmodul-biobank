@@ -1,13 +1,19 @@
-Instance: SPRECLongTermStorageMap
+Instance: mii-cm-biobank-long-term-storage-sprec-sct
 InstanceOf: http://hl7.org/fhir/StructureDefinition/ConceptMap
-Title: "SPREC 4.0 Long-Term Storage Containertypen Mapping"
+Title: "MII CM Biobank Long-Term Storage SPREC 4.0 SCT"
 Usage: #definition
 Description: "Mapping der SPREC 4.0 Long-Term Storage Containertypen auf die im Modul verwendeten SNOMED CT Codes."
 
-* url = "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ConceptMap/SPRECLongTermStorageMap"
+* insert Version
+* insert SP_Publisher
+* insert LicenseCodeableCCBY40Instance
+* insert SNOMED_SPREC_Copyright_CM
+
+* url = "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ConceptMap/mii-cm-biobank-long-term-storage-sprec-sct"
 * title = "SPREC 4.0 Long-Term Storage Mapping"
 * status = #active
 
+* group.source = "http://www.isber.org/sprec/long-term-storage"
 * group.target = "http://snomed.info/sct"
 
 * insert InitMapping(#A ,"PP tube")
