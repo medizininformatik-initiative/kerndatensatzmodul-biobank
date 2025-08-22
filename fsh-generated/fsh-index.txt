@@ -43,6 +43,6 @@ ValueSet-mii-vs-biobank-dna-concentration-units-ucum.json               MII_VS_B
 ValueSet-mii-vs-biobank-karyotyp-sct.json                               MII_VS_Biobank_Karyotyp_SCT                    ValueSet    valuesets\ValueSetKaryotyp.fsh                     1 - 15
 ValueSet-mii-vs-biobank-laboratory-procedure-sct.json                   MII_VS_Biobank_Laboratory_Procedure_SCT        ValueSet    valuesets\ValueSetSCTLaboratoryProcedure.fsh       1 - 12
 ValueSet-mii-vs-biobank-probenart-sct.json                              MII_VS_Biobank_Probenart_SCT                   ValueSet    valuesets\ValueSetProbenart.fsh                    1 - 12
+ValueSet-mii-vs-biobank-probenebene.json                                MII_VS_Biobank_Probenebene                     ValueSet    valuesets\ValueSetProbenebene.fsh                  1 - 11
 ValueSet-mii-vs-biobank-substance-additive-sct.json                     MII_VS_Biobank_Substance_Additive_SCT          ValueSet    valuesets\ValueSetAdditive.fsh                     1 - 12
 ValueSet-mii-vs-biobank-wachstumstyp-clo.json                           MII_VS_Biobank_Wachstumpstyp_CLO               ValueSet    valuesets\ValueSetWachstumstyp.fsh                 1 - 14
-ValueSet-probenebene.json                                               ValueSetProbenebene                            ValueSet    valuesets\ValueSetProbenebene.fsh                  1 - 5

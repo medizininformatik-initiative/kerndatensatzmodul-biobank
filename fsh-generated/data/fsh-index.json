@@ -352,6 +352,14 @@
     "endLine": 12
   },
   {
+    "outputFile": "ValueSet-mii-vs-biobank-probenebene.json",
+    "fshName": "MII_VS_Biobank_Probenebene",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets\\ValueSetProbenebene.fsh",
+    "startLine": 1,
+    "endLine": 11
+  },
+  {
     "outputFile": "ValueSet-mii-vs-biobank-substance-additive-sct.json",
     "fshName": "MII_VS_Biobank_Substance_Additive_SCT",
     "fshType": "ValueSet",
@@ -366,13 +374,5 @@
     "fshFile": "valuesets\\ValueSetWachstumstyp.fsh",
     "startLine": 1,
     "endLine": 14
-  },
-  {
-    "outputFile": "ValueSet-probenebene.json",
-    "fshName": "ValueSetProbenebene",
-    "fshType": "ValueSet",
-    "fshFile": "valuesets\\ValueSetProbenebene.fsh",
-    "startLine": 1,
-    "endLine": 5
   }
 ]

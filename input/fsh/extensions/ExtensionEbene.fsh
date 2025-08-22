@@ -16,4 +16,4 @@ Description: "Mittels dieser Extension kann ausgedrückt werden, welcher Probene
 * insert ExtensionContext(Specimen)
 
 * value[x] only Coding
-* valueCoding from ValueSetProbenebene (required)
+* valueCoding from MII_VS_Biobank_Probenebene (required)
