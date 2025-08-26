@@ -1,11 +1,11 @@
 # Kerndatensatz Modul 'Biobank'
 
 Die vorliegende Spezifikation beschreibt die FHIR Repräsentation des Kerndatensatz Moduls 'Biobank' der Medizinformatik-Initative.
-Im Folgenden werden die Use Case des Moduls, sowie die dazugehörigen FHIR Profile und Terminologie Ressourcen in ihrer verbindlichen Form beschrieben.
+Im Folgenden werden die Use Cases des Moduls, sowie die dazugehörigen FHIR Profile und Terminologie Ressourcen in ihrer verbindlichen Form beschrieben.
 
 | Veröffentlichung   |   |
 |---------|---|
-| Datum   |  09.09.2026 |
+| Datum   | 09.09.2026 |
 | Version | 2026.0.0-ballot      |
 | Status  | Draft       |
 | Realm   | DE          | 
@@ -29,10 +29,15 @@ Anmerkungen und Kritik wird in Form von 'Issues' im Simplifier Projekt stets ger
 
 * Buckow, Karoline - MII-Koordinationsstelle
 * Deppenwiese, Noemi - MIRACUM
-* Engels, Cecilia - GBN
+* Engels, Cecilia - GBN, DKTK
+* Kirsten, Romy - Integrated Biobank Mannheim
 * Kirsten, Toralf - SMITH
 * Rinaldi, Eugenia - HiGHmed
+* Menche, Constantin - DKTK
+* Miriam, Rößner - MIRACUM
 * Siddiqui, Roman - MII-Koordinationsstelle
+* Skowronek, Patrick - DKTK
+* Schönfeld, Ida - BioBank Dresden
 
 ## Copyright-Hinweis, Nutzungshinweise
 Copyright © 2021: TMF e. V., Charlottenstraße 42, 10117 Berlin
