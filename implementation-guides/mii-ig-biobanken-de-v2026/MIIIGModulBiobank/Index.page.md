@@ -37,7 +37,7 @@ Anmerkungen und Kritik wird in Form von 'Issues' im Simplifier Projekt stets ger
 * Rinaldi, Eugenia - HiGHmed
 * Schönfeld, Ida - BioBank Dresden
 * Siddiqui, Roman - MII-Koordinationsstelle
-* Skowronek, Patrick - DKTK
+* Skowronek, Patrick - UMM, DKFZ, DKTK, DZIF
 
 
 ## Copyright-Hinweis, Nutzungshinweise
