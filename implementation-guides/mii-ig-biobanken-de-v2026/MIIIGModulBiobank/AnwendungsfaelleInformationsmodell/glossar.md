@@ -4,22 +4,21 @@ Auf dieser Seite wird erklärt, wie bestimmte Begriffe im Kontext dieses Impleme
 
 ### Primärprobe
 
-Auch Stammprobe oder Masterprobe genannt. Bezeichnet die Probe, wie sie von Patientinnen / Patienten entnommen wurde, vor ihrer Verarbeitung.
+Auch Stammprobe oder Masterprobe genannt. Bezeichnet die Probe, wie sie von dem Donor / der Donorin entnommen wurde - vor ihrer Verarbeitung.
 
 Hinweis: In einigen Kontexten wird die Aliquotgruppe auch Masterprobe genannt. Im Kontext der Medizininformatik-Initiative bezeichnet eine Masterprobe aber eine Primärprobe.
 
 ### Aliquotgruppe
 
-Eine Zusammenfassung von Aliquots gleichen Probentyps, die von der gleichen möglicherweise bereits verarbeiteten Primärprobe abstammen.
+Eine Zusammenfassung aller Aliquote gleichen Probentyps, die von der gleichen möglicherweise bereits verarbeiteten Primärprobe abstammen.
+
 Proben, die sich in Probentyp oder Primärprobe unterscheiden, werden als verschiedene Aliquotgruppen gezählt.
 
-Bei Machbarkeitsanfragen empfiehlt es sich die Gruppe zu zählen, nicht alle einzelnen Aliquots. Eine Aliquotgruppe zählt als verfügbar, solange mindestes ein Aliquot verfügbar ist. Werden direkt Primärproben eingefroren (z.B. PAX), sollen diese zusätzlich auch als Aliquotgruppe markiert werden, damit sie bei Machbarkeitsanfragen ebenfalls gezählt werden können.
-
+Bei Machbarkeitsanfragen empfiehlt es sich die Aliquotgruppen zu zählen, nicht alle einzelnen Aliquote. Eine Aliquotgruppe zählt als verfügbar, solange mindestes ein Aliquot verfügbar ist. Werden direkt Primärproben eingefroren (z.B. PAX), sollen diese zusätzlich auch als Aliquotgruppe markiert werden, damit sie bei Machbarkeitsanfragen ebenfalls gezählt werden können.
 
 ### Aliquot
 
-Eine Probe, von der identische Geschwisterproben existieren können, die derselben Aliquotgruppe angehören. Wenn ein Aliquot noch einmal aufgeteilt wird, bleiben beide Aliquots Teil der bestehenden Aliquotgruppe. Eine neue Gruppe entsteht erst durch eine erneute Prozessierung.
-
+Eine Probe, von der es identische Geschwisterproben gibt, die zur gleichen Gruppe gehören. Wenn ein Aliquot noch einmal aufgeteilt wird, bleiben beide Aliquote Teil der bestehenden Aliquotgruppe. Eine neue Gruppe entsteht erst, wenn der Prozess wiederholt wird.
 
 Ein Beispiel dieser Strukturierung von Proben ist hier dargestellt:
 
@@ -29,8 +28,10 @@ Ein Beispiel dieser Strukturierung von Proben ist hier dargestellt:
 
 ### Kontrollprobe
 
-- a) Eine Probe, die explizit als "gesunde" Probe zusammen mit einer "erkrankten" Probe gesammelt wurde, z.B. gesundes Gewebe neben erkranktem Gewebe.
+- a) Eine Probe, die explizit als "gesunde" Probe zusammen mit einer "erkrankten" Probe (matching samples) gesammelt wurde, z.B. gesundes Gewebe neben erkranktem Gewebe.
 - b) Eine Probe, die im Rahmen einer bestimmten Forschungsfrage genutzt werden kann, um mit anderen, explizit als "erkrankt" definierten Proben verglichen zu werden. Dabei kann die Kontrollprobe z.B. einer Populationskohorte entstammen oder einer Sammlung zu einer anderen, nicht verwandten Erkrankung.
+
+------
 
 ### Derivat
 Abbildung idR als Aliquotgruppe mit ein bis x Aliquots
