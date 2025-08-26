@@ -32,12 +32,13 @@ Anmerkungen und Kritik wird in Form von 'Issues' im Simplifier Projekt stets ger
 * Engels, Cecilia - GBN, DKTK
 * Kirsten, Romy - Integrated Biobank Mannheim
 * Kirsten, Toralf - SMITH
-* Rinaldi, Eugenia - HiGHmed
 * Menche, Constantin - DKTK
 * Miriam, Rößner - MIRACUM
+* Rinaldi, Eugenia - HiGHmed
+* Schönfeld, Ida - BioBank Dresden
 * Siddiqui, Roman - MII-Koordinationsstelle
 * Skowronek, Patrick - DKTK
-* Schönfeld, Ida - BioBank Dresden
+
 
 ## Copyright-Hinweis, Nutzungshinweise
 Copyright © 2021: TMF e. V., Charlottenstraße 42, 10117 Berlin
