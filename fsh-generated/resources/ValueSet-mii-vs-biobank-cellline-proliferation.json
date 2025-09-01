@@ -42,18 +42,18 @@
   "compose": {
     "include": [
       {
-        "system": "http://purl.obolibrary.org/obo/PATO_",
+        "system": "http://purl.obolibrary.org/obo/pato.owl",
         "concept": [
           {
-            "code": "0001422",
+            "code": "PATO:0001422",
             "display": "dead"
           },
           {
-            "code": "0001991",
+            "code": "PATO:0001991",
             "display": "immortal"
           },
           {
-            "code": "0000719",
+            "code": "PATO:0000719",
             "display": "viable"
           }
         ]

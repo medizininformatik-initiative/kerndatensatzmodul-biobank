@@ -144,8 +144,8 @@
         "patternCodeableConcept": {
           "coding": [
             {
-              "code": "0010006",
-              "system": "http://purl.obolibrary.org/obo/PATO_",
+              "code": "PATO:0010006",
+              "system": "http://purl.obolibrary.org/obo/pato.owl",
               "display": "cell morphology"
             }
           ]

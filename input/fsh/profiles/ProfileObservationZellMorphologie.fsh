@@ -25,7 +25,7 @@ Description: "Morphologie einer Zelline oder eines Organiods"
 //Profile
 
 * code 1..1 MS
-* code = http://purl.obolibrary.org/obo/PATO_#0010006 "cell morphology"
+* code = http://purl.obolibrary.org/obo/pato.owl#PATO:0010006 "cell morphology"
 * focus 1..1 MS
 * focus only Reference(Specimen)
 * value[x] 1..1 MS

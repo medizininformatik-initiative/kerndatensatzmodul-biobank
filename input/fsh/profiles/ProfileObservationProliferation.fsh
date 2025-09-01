@@ -25,7 +25,7 @@ Description: "Proliferation einer Zelline oder eines Organiods"
 //Profile
 
 * code 1..1 MS
-* code = http://purl.obolibrary.org/obo/GO_#0008283 "cell population proliferation"
+* code = http://purl.obolibrary.org/obo/go.owl#GO:0008283 "cell population proliferation"
 * focus 1..1 MS
 * focus only Reference(Specimen)
 * value[x] 1..1 MS

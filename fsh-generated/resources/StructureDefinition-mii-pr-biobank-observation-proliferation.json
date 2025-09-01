@@ -144,8 +144,8 @@
         "patternCodeableConcept": {
           "coding": [
             {
-              "code": "0008283",
-              "system": "http://purl.obolibrary.org/obo/GO_",
+              "code": "GO:0008283",
+              "system": "http://purl.obolibrary.org/obo/go.owl",
               "display": "cell population proliferation"
             }
           ]

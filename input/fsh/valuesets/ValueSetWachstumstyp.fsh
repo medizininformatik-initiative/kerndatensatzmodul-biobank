@@ -10,5 +10,5 @@ Description: "Wachstumstyp einer Zellkultur"
 * insert SNOMED_Copyright
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 
-* include $CLO#0000028 "adherent cell culture growth mode"
-* include $CLO#0000029 "suspension cell culture growth mode"
+* include $CLO#CLO:0000028 "adherent cell culture growth mode"
+* include $CLO#CLO:0000029 "suspension cell culture growth mode"

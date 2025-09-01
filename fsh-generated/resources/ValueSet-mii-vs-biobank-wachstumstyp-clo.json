@@ -42,14 +42,14 @@
   "compose": {
     "include": [
       {
-        "system": "http://purl.obolibrary.org/obo/CLO_",
+        "system": "http://purl.obolibrary.org/obo/clo.owl",
         "concept": [
           {
-            "code": "0000028",
+            "code": "CLO:0000028",
             "display": "adherent cell culture growth mode"
           },
           {
-            "code": "0000029",
+            "code": "CLO:0000029",
             "display": "suspension cell culture growth mode"
           }
         ]

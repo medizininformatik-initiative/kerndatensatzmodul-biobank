@@ -25,7 +25,7 @@ Description: "Wachstumstyp einer Zelline oder eines Organiods"
 //Profile
 
 * code 1..1 MS
-* code = $CLO#0000030 "cell culture growth mode"
+* code = $CLO#CLO:0000030 "cell culture growth mode"
 * focus 1..1 MS
 * focus only Reference(Specimen)
 * value[x] 1..1 MS

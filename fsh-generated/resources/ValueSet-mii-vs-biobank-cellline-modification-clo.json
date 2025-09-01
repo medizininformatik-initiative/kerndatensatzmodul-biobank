@@ -41,22 +41,22 @@
   "compose": {
     "include": [
       {
-        "system": "http://purl.obolibrary.org/obo/CLO_",
+        "system": "http://purl.obolibrary.org/obo/clo.owl",
         "concept": [
           {
-            "code": "0037376",
+            "code": "CLO:0037376",
             "display": "derived from cell with isogenic modification of gene"
           },
           {
-            "code": "0037377",
+            "code": "CLO:0037377",
             "display": "derived from cell with knockin gene"
           },
           {
-            "code": "0037375",
+            "code": "CLO:0037375",
             "display": "derived from cell with knockout gene"
           },
           {
-            "code": "0037378",
+            "code": "CLO:0037378",
             "display": "derived from cell with transgenic modification"
           }
         ]

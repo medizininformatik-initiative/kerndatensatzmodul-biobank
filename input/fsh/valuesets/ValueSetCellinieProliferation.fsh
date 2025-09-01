@@ -10,8 +10,8 @@ Description: "Proliferationstatus einer Zellinie/eines Organoids"
 * insert SNOMED_Copyright
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
 
-* include http://purl.obolibrary.org/obo/PATO_#0001422 "dead"
-* include http://purl.obolibrary.org/obo/PATO_#0001991 "immortal"
-* include http://purl.obolibrary.org/obo/PATO_#0000719 "viable"
+* include http://purl.obolibrary.org/obo/pato.owl#PATO:0001422 "dead"
+* include http://purl.obolibrary.org/obo/pato.owl#PATO:0001991 "immortal"
+* include http://purl.obolibrary.org/obo/pato.owl#PATO:0000719 "viable"
 * include $SCT#75540009 "High (qualifier value)"
 * include $SCT#62482003 "Low (qualifier value)"

@@ -144,8 +144,8 @@
         "patternCodeableConcept": {
           "coding": [
             {
-              "code": "0000030",
-              "system": "http://purl.obolibrary.org/obo/CLO_",
+              "code": "CLO:0000030",
+              "system": "http://purl.obolibrary.org/obo/clo.owl",
               "display": "cell culture growth mode"
             }
           ]
