@@ -1,7 +1,7 @@
 //Head
 Extension: MII_EX_Biobank_Ebene
 Id: mii-ex-biobank-ebene
-Title: "MII EEX Biobank Ebene"
+Title: "MII EX Biobank Ebene"
 Description: "Mittels dieser Extension kann ausgedrückt werden, welcher Probenebene dieses Specimen zuzuordnen ist."
 
 //Translation

@@ -62,15 +62,18 @@
   "concept": [
     {
       "code": "PRIMÄRPROBE",
-      "display": "Die Probe, wie sie gesammelt wurde, vor ihrer Verarbeitung."
+      "display": "Primärprobe",
+      "definition": "Die Probe, wie sie gesammelt wurde, vor ihrer Verarbeitung."
     },
     {
       "code": "ALIQUOTGRUPPE",
-      "display": "Eine Zusammenfassung von Aliquots gleichen Probentyps, die von der gleichen möglicherweise bereits verarbeiteten Primärprobe abstammen."
+      "display": "Aliqoutgruppe",
+      "definition": "Eine Zusammenfassung von Aliquots gleichen Probentyps, die von der gleichen möglicherweise bereits verarbeiteten Primärprobe abstammen."
     },
     {
       "code": "ALIQUOT",
-      "display": "Eine Probe, von der identische Geschwisterproben existieren können, die derselben Aliquotgruppe angehören. "
+      "display": "Aliqout",
+      "definition": "Eine Probe, von der identische Geschwisterproben existieren können, die derselben Aliquotgruppe angehören. "
     }
   ],
   "meta": {

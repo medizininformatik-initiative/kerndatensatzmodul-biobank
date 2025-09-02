@@ -221,7 +221,7 @@
     "fshType": "Instance",
     "fshFile": "instances\\MusterprobeFluessig.fsh",
     "startLine": 1,
-    "endLine": 42
+    "endLine": 46
   },
   {
     "outputFile": "Specimen-MusterprobeGewebe.json",
@@ -229,7 +229,7 @@
     "fshType": "Instance",
     "fshFile": "instances\\MusterprobeGewebe.fsh",
     "startLine": 1,
-    "endLine": 30
+    "endLine": 43
   },
   {
     "outputFile": "StructureDefinition-Biobank.json",

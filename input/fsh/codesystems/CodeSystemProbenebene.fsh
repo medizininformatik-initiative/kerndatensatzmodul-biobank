@@ -14,6 +14,6 @@ Description: "Codes um die Probenebene anzugeben"
 * insert LicenseCodeableCCBY40 
 * insert PR_CS_VS_Date
 
-* #PRIMÄRPROBE "Die Probe, wie sie gesammelt wurde, vor ihrer Verarbeitung."
-* #ALIQUOTGRUPPE "Eine Zusammenfassung von Aliquots gleichen Probentyps, die von der gleichen möglicherweise bereits verarbeiteten Primärprobe abstammen."
-* #ALIQUOT "Eine Probe, von der identische Geschwisterproben existieren können, die derselben Aliquotgruppe angehören. "
+* #PRIMÄRPROBE "Primärprobe" "Die Probe, wie sie gesammelt wurde, vor ihrer Verarbeitung."
+* #ALIQUOTGRUPPE "Aliqoutgruppe" "Eine Zusammenfassung von Aliquots gleichen Probentyps, die von der gleichen möglicherweise bereits verarbeiteten Primärprobe abstammen."
+* #ALIQUOT "Aliqout" "Eine Probe, von der identische Geschwisterproben existieren können, die derselben Aliquotgruppe angehören. "

@@ -141,7 +141,7 @@ and processing.timePeriod and processing.procedure and processing.additive and r
 * type.coding ^slicing.discriminator.path = "$this.system"
 * type.coding ^slicing.rules = #open
 
-* type.coding contains sct 1..*
+* type.coding contains sct 1..* MS
 * type.coding[sct] from MII_VS_Biobank_Probenart_SCT (extensible)
 * type.coding[sct].system = $SCT
 

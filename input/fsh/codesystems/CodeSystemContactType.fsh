@@ -17,4 +17,4 @@ Description: "Contact Type für Organization.contact"
 
 * ^content = #complete
 
-* #RESEARCH "Contact for researchers about sample and data requests"
+* #RESEARCH "Research" "Contact for researchers about sample and data requests"

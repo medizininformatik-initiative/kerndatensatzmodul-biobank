@@ -35,7 +35,7 @@
       }
     ]
   },
-  "title": "MII EEX Biobank Ebene",
+  "title": "MII EX Biobank Ebene",
   "_title": {
     "extension": [
       {
@@ -100,7 +100,7 @@
       {
         "id": "Extension",
         "path": "Extension",
-        "short": "MII EEX Biobank Ebene",
+        "short": "MII EX Biobank Ebene",
         "definition": "Mittels dieser Extension kann ausgedrückt werden, welcher Probenebene dieses Specimen zuzuordnen ist."
       },
       {

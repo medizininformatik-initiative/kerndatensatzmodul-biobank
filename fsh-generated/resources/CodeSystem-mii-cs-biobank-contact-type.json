@@ -62,7 +62,8 @@
   "concept": [
     {
       "code": "RESEARCH",
-      "display": "Contact for researchers about sample and data requests"
+      "display": "Research",
+      "definition": "Contact for researchers about sample and data requests"
     }
   ],
   "meta": {
