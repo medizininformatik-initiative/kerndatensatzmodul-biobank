@@ -70,3 +70,9 @@ Folgende Suchparameter sind für das Modul Biobank relevant, auch in Kombination
 ```
 
 ---
+
+**Beispiele**
+
+Beispiel Organoid:
+
+{{json:fsh-generated/resources/Specimen-OrganoidLunge.json}}

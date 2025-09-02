@@ -60,3 +60,8 @@ Folgende Suchparameter sind für das Modul Biobank relevant, auch in Kombination
 ```
 
 ---
+
+
+**Beispiele**
+
+{{json:fsh-generated/resources/Observation-KaryotypOrganoidLunge.json}}

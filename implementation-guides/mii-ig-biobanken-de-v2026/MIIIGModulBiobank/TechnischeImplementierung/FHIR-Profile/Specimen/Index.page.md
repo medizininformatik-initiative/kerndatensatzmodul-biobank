@@ -90,3 +90,11 @@ Beispiel Flüssigprobe:
 Beispiel Aliqoutgruppe:
 
 {{json:fsh-generated/resources/Specimen-AliquotgruppeBuffyCoat.json}}
+
+Beispiel Aliqout:
+
+{{json:fsh-generated/resources/Specimen-AliquotBuffyCoat2.json}}
+
+Beispiel verarbeitete neue Aliqoutgruppe:
+
+{{json:fsh-generated/resources/Specimen-AliquotgruppeDNA.json}}
