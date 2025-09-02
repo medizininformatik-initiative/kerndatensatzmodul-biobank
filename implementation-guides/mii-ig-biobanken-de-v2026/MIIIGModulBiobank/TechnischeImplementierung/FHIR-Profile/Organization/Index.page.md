@@ -75,11 +75,11 @@ Folgende Suchparameter sind für das Modul Biobank relevant, auch in Kombination
 
 Beispiel Biobank:
 
-{{json:fsh-generated/resources/Organization-BiobankMusterstadt}}
+{{json:medizininformatikinitiative-modulbiobank/biobankmusterstadt}}
 
 Beispiel Sammlung:
 
 
-{{json:fsh-generated/resources/Organization-Mustersammlung}}
+{{json:medizininformatikinitiative-modulbiobank/mustersammlung}}
 
 
