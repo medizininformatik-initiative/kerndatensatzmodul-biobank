@@ -1,5 +1,13 @@
 [
   {
+    "outputFile": "CapabilityStatement-mii-cps-biobank-capabilitystatement.json",
+    "fshName": "mii-cps-biobank-capabilitystatement",
+    "fshType": "Instance",
+    "fshFile": "CapabilityStatement.fsh",
+    "startLine": 31,
+    "endLine": 167
+  },
+  {
     "outputFile": "CodeSystem-mii-cs-biobank-contact-type.json",
     "fshName": "MII_CS_Biobank_Contact_Type",
     "fshType": "CodeSystem",
@@ -64,12 +72,148 @@
     "endLine": 18
   },
   {
-    "outputFile": "SearchParameter-SearchParamDiagnosis.json",
-    "fshName": "SearchParamDiagnosis",
+    "outputFile": "SearchParameter-mii-sp-biobank-organization-beschreibung.json",
+    "fshName": "mii-sp-biobank-organization-beschreibung",
     "fshType": "Instance",
-    "fshFile": "searchparameters\\SearchParamDiagnosis.fsh",
+    "fshFile": "searchparameters\\mii-sp-beschreibung.fsh",
     "startLine": 1,
-    "endLine": 16
+    "endLine": 15
+  },
+  {
+    "outputFile": "SearchParameter-mii-sp-biobank-organization-collection-design.json",
+    "fshName": "mii-sp-biobank-organization-collection-design",
+    "fshType": "Instance",
+    "fshFile": "searchparameters\\mii-sp-biobank-design.fsh",
+    "startLine": 1,
+    "endLine": 15
+  },
+  {
+    "outputFile": "SearchParameter-mii-sp-biobank-organization-collection-setting.json",
+    "fshName": "mii-sp-biobank-organization-collection-setting",
+    "fshType": "Instance",
+    "fshFile": "searchparameters\\mii-sp-biobank-setting.fsh",
+    "startLine": 1,
+    "endLine": 15
+  },
+  {
+    "outputFile": "SearchParameter-mii-sp-biobank-organization-contact-rolle.json",
+    "fshName": "mii-sp-biobank-organization-contact-rolle",
+    "fshType": "Instance",
+    "fshFile": "searchparameters\\mii-sp-contact-rolle.fsh",
+    "startLine": 1,
+    "endLine": 15
+  },
+  {
+    "outputFile": "SearchParameter-mii-sp-biobank-specimen-anzahl-aliquots.json",
+    "fshName": "mii-sp-biobank-specimen-anzahl-aliquots",
+    "fshType": "Instance",
+    "fshFile": "searchparameters\\mii-sp-biobank-anzahl-aliqouts.fsh",
+    "startLine": 1,
+    "endLine": 15
+  },
+  {
+    "outputFile": "SearchParameter-mii-sp-biobank-specimen-anzahl-passagen.json",
+    "fshName": "mii-sp-biobank-specimen-anzahl-passagen",
+    "fshType": "Instance",
+    "fshFile": "searchparameters\\mii-sp-biobank-anzahl-passagen.fsh",
+    "startLine": 1,
+    "endLine": 15
+  },
+  {
+    "outputFile": "SearchParameter-mii-sp-biobank-specimen-art-der-modifikation.json",
+    "fshName": "mii-sp-biobank-specimen-art-der-modifikation",
+    "fshType": "Instance",
+    "fshFile": "searchparameters\\mii-sp-biobank-modifikation.fsh",
+    "startLine": 1,
+    "endLine": 15
+  },
+  {
+    "outputFile": "SearchParameter-mii-sp-biobank-specimen-container-capacity.json",
+    "fshName": "mii-sp-biobank-specimen-container-capacity",
+    "fshType": "Instance",
+    "fshFile": "searchparameters\\mii-sp-biobank-container-capacity.fsh",
+    "startLine": 1,
+    "endLine": 15
+  },
+  {
+    "outputFile": "SearchParameter-mii-sp-biobank-specimen-container-specimen-quantity.json",
+    "fshName": "mii-sp-biobank-specimen-container-specimen-quantity",
+    "fshType": "Instance",
+    "fshFile": "searchparameters\\mii-sp-biobank-container-specimen-quantity.fsh",
+    "startLine": 1,
+    "endLine": 15
+  },
+  {
+    "outputFile": "SearchParameter-mii-sp-biobank-specimen-einstellung-blutversorgung.json",
+    "fshName": "mii-sp-biobank-specimen-einstellung-blutversorgung",
+    "fshType": "Instance",
+    "fshFile": "searchparameters\\mii-sp-biobank-einstellung-blutversorgung.fsh",
+    "startLine": 1,
+    "endLine": 15
+  },
+  {
+    "outputFile": "SearchParameter-mii-sp-biobank-specimen-fasting-status.json",
+    "fshName": "mii-sp-biobank-specimen-fasting-status",
+    "fshType": "Instance",
+    "fshFile": "searchparameters\\mii-sp-biobank-fasting-status.fsh",
+    "startLine": 1,
+    "endLine": 15
+  },
+  {
+    "outputFile": "SearchParameter-mii-sp-biobank-specimen-gehoert-zu.json",
+    "fshName": "mii-sp-biobank-specimen-gehoert-zu",
+    "fshType": "Instance",
+    "fshFile": "searchparameters\\mii-sp-biobank-gehoert-zu.fsh",
+    "startLine": 1,
+    "endLine": 15
+  },
+  {
+    "outputFile": "SearchParameter-mii-sp-biobank-specimen-kulturprotokoll.json",
+    "fshName": "mii-sp-biobank-specimen-kulturprotokoll",
+    "fshType": "Instance",
+    "fshFile": "searchparameters\\mii-sp-biobank-kulturprotokoll.fsh",
+    "startLine": 1,
+    "endLine": 15
+  },
+  {
+    "outputFile": "SearchParameter-mii-sp-biobank-specimen-modifikationen.json",
+    "fshName": "mii-sp-biobank-specimen-modifikationen",
+    "fshType": "Instance",
+    "fshFile": "searchparameters\\mii-sp-biobank-modifikation.fsh",
+    "startLine": 33,
+    "endLine": 51
+  },
+  {
+    "outputFile": "SearchParameter-mii-sp-biobank-specimen-note.json",
+    "fshName": "mii-sp-biobank-specimen-note",
+    "fshType": "Instance",
+    "fshFile": "searchparameters\\mii-sp-biobank-note.fsh",
+    "startLine": 1,
+    "endLine": 15
+  },
+  {
+    "outputFile": "SearchParameter-mii-sp-biobank-specimen-probenebene.json",
+    "fshName": "mii-sp-biobank-specimen-probenebene",
+    "fshType": "Instance",
+    "fshFile": "searchparameters\\mii-sp-biobank-probenebene.fsh",
+    "startLine": 1,
+    "endLine": 15
+  },
+  {
+    "outputFile": "SearchParameter-mii-sp-biobank-specimen-processing-temp.json",
+    "fshName": "mii-sp-biobank-specimen-processing-temp",
+    "fshType": "Instance",
+    "fshFile": "searchparameters\\mii-sp-biobank-processing-temp.fsh",
+    "startLine": 1,
+    "endLine": 15
+  },
+  {
+    "outputFile": "SearchParameter-mii-sp-biobank-specimen-zielgen.json",
+    "fshName": "mii-sp-biobank-specimen-zielgen",
+    "fshType": "Instance",
+    "fshFile": "searchparameters\\mii-sp-biobank-modifikation.fsh",
+    "startLine": 17,
+    "endLine": 31
   },
   {
     "outputFile": "Specimen-MusterprobeFluessig.json",
@@ -237,7 +381,7 @@
     "fshType": "Profile",
     "fshFile": "profiles\\ProfileOrganizationSammlungBiobank.fsh",
     "startLine": 2,
-    "endLine": 84
+    "endLine": 82
   },
   {
     "outputFile": "StructureDefinition-mii-pr-biobank-specimen-core.json",

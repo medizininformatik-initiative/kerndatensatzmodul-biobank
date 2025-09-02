@@ -34,7 +34,7 @@ Description: "Darstellung der organisatorischen Daten einer Probensammlung oder 
 * insert Translation(extension[beschreibung] ^definition, de-DE, Eine Freitextbeschreibung der Sammlung/Biobank\, die z.B. in einer Suche angezeigt werden kann.)
 * insert Translation(extension[beschreibung] ^definition, en-US, A free-text description of the collection/biobank\, which can be displayed in a search\, for example.)
 
-* identifier and type and name and alias and partOf and contact MS
+* identifier and name and alias and partOf and contact MS
 * insert Translation(alias ^short, de-DE, Akronym)
 * insert Translation(alias ^short, en-US, Acronym)
 * insert Translation(alias ^definition, de-DE, Das Akronym oder der Kurztitel der Sammlung oder Biobank.)
@@ -63,8 +63,6 @@ Description: "Darstellung der organisatorischen Daten einer Probensammlung oder 
 * insert Translation(name ^short, en-US, Name)
 * insert Translation(name ^definition, de-DE, Der vollständige Name der Sammlung oder Biobank.)
 * insert Translation(name ^definition, en-US, The full name of the collection or biobank.)
-
-* type 
 
 * contact ^slicing.discriminator.type = #pattern
 * contact ^slicing.discriminator.path = "purpose"

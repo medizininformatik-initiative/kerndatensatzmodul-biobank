@@ -346,11 +346,6 @@
         }
       },
       {
-        "id": "Organization.type",
-        "path": "Organization.type",
-        "mustSupport": true
-      },
-      {
         "id": "Organization.name",
         "path": "Organization.name",
         "min": 1,
