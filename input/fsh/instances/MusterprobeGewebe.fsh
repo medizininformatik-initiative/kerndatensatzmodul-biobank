@@ -4,7 +4,9 @@ Title: "Musterprobe Gewebe"
 Usage: #example
 
 * extension[gehoertZu].valueReference = Reference(Mustersammlung)
-* extension[festgestellteDiagnose].valueReference = Reference(Diagnose/diag-001)
+* extension[festgestellteDiagnose].valueReference = Reference(Diagnose/mii-exa-test-data-patient-1-diagnose-1)
+* extension[probenebene].valueCoding = https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/CodeSystem/mii-cs-biobank-probenebene#PRIMÄRPROBE "Primärprobe"
+* extension[probenebene].valueCoding = https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/CodeSystem/mii-cs-biobank-probenebene#ALIQUOTGRUPPE "Aliqoutgruppe"
 
 * identifier.system = "https://biobank.uk-musterstadt.de/fhir/sid/proben"
 * identifier.value = "6789"
@@ -14,7 +16,7 @@ Usage: #example
 * subject.reference = "Patient/mii-exa-test-data-patient-1"
 
 * receivedTime = "2018-06-08T15:43:00+01:00"
-* request = Reference(ServiceRequest/sr-001) //TODO
+* request = Reference(GewebeBiopsie)
 
 
 

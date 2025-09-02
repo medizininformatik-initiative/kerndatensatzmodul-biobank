@@ -56,6 +56,70 @@
     "endLine": 128
   },
   {
+    "outputFile": "DocumentReference-Kulturprotokoll.json",
+    "fshName": "Kulturprotokoll",
+    "fshType": "Instance",
+    "fshFile": "instances\\Kulturprotokoll.fsh",
+    "startLine": 1,
+    "endLine": 11
+  },
+  {
+    "outputFile": "DocumentReference-ProtocolCRISPRTP53.json",
+    "fshName": "ProtocolCRISPRTP53",
+    "fshType": "Instance",
+    "fshFile": "instances\\ModifikationProtokoll.fsh",
+    "startLine": 1,
+    "endLine": 11
+  },
+  {
+    "outputFile": "Observation-DNAConcentrationObs1.json",
+    "fshName": "DNAConcentrationObs1",
+    "fshType": "Instance",
+    "fshFile": "instances\\DNAKonzentration.fsh",
+    "startLine": 1,
+    "endLine": 13
+  },
+  {
+    "outputFile": "Observation-KaryotypOrganoidLunge.json",
+    "fshName": "KaryotypOrganoidLunge",
+    "fshType": "Instance",
+    "fshFile": "instances\\Karyotyp.fsh",
+    "startLine": 1,
+    "endLine": 10
+  },
+  {
+    "outputFile": "Observation-MorphologieOrganoidLunge.json",
+    "fshName": "MorphologieOrganoidLunge",
+    "fshType": "Instance",
+    "fshFile": "instances\\MorphologieOrganoid.fsh",
+    "startLine": 1,
+    "endLine": 10
+  },
+  {
+    "outputFile": "Observation-ProliferationOrganoidLunge.json",
+    "fshName": "ProliferationOrganoidLunge",
+    "fshType": "Instance",
+    "fshFile": "instances\\Proliferation.fsh",
+    "startLine": 1,
+    "endLine": 10
+  },
+  {
+    "outputFile": "Observation-QualitaetspruefungBuffyCoat.json",
+    "fshName": "QualitaetspruefungBuffyCoat",
+    "fshType": "Instance",
+    "fshFile": "instances\\Qualitaetspruefung_BuffyCoat.fsh",
+    "startLine": 1,
+    "endLine": 12
+  },
+  {
+    "outputFile": "Observation-WachstumstypOrganoidLunge.json",
+    "fshName": "WachstumstypOrganoidLunge",
+    "fshType": "Instance",
+    "fshFile": "instances\\Wachstumstyp.fsh",
+    "startLine": 1,
+    "endLine": 10
+  },
+  {
     "outputFile": "Organization-BiobankMusterstadt.json",
     "fshName": "BiobankMusterstadt",
     "fshType": "Instance",
@@ -69,7 +133,7 @@
     "fshType": "Instance",
     "fshFile": "instances\\Mustersammlung.fsh",
     "startLine": 1,
-    "endLine": 18
+    "endLine": 19
   },
   {
     "outputFile": "SearchParameter-mii-sp-biobank-organization-beschreibung.json",
@@ -216,12 +280,60 @@
     "endLine": 31
   },
   {
+    "outputFile": "ServiceRequest-GewebeBiopsie.json",
+    "fshName": "GewebeBiopsie",
+    "fshType": "Instance",
+    "fshFile": "instances\\ServiceRequest.fsh",
+    "startLine": 1,
+    "endLine": 11
+  },
+  {
+    "outputFile": "Specimen-AliquotBuffyCoat1.json",
+    "fshName": "AliquotBuffyCoat1",
+    "fshType": "Instance",
+    "fshFile": "instances\\Aliquot1_BuffyCoat.fsh",
+    "startLine": 1,
+    "endLine": 25
+  },
+  {
+    "outputFile": "Specimen-AliquotBuffyCoat2.json",
+    "fshName": "AliquotBuffyCoat2",
+    "fshType": "Instance",
+    "fshFile": "instances\\Aliqout2_BuffyCoat.fsh",
+    "startLine": 1,
+    "endLine": 41
+  },
+  {
+    "outputFile": "Specimen-AliquotgruppeBuffyCoat.json",
+    "fshName": "AliquotgruppeBuffyCoat",
+    "fshType": "Instance",
+    "fshFile": "instances\\Aliqoutgruppe_BuffyCoat.fsh",
+    "startLine": 1,
+    "endLine": 34
+  },
+  {
+    "outputFile": "Specimen-AliquotgruppeDNA.json",
+    "fshName": "AliquotgruppeDNA",
+    "fshType": "Instance",
+    "fshFile": "instances\\Aliquotgruppe_DNA.fsh",
+    "startLine": 1,
+    "endLine": 27
+  },
+  {
+    "outputFile": "Specimen-AliquotgruppePlasma.json",
+    "fshName": "AliquotgruppePlasma",
+    "fshType": "Instance",
+    "fshFile": "instances\\Aliqoutgruppe_Plasma.fsh",
+    "startLine": 1,
+    "endLine": 34
+  },
+  {
     "outputFile": "Specimen-MusterprobeFluessig.json",
     "fshName": "MusterprobeFluessig",
     "fshType": "Instance",
     "fshFile": "instances\\MusterprobeFluessig.fsh",
     "startLine": 1,
-    "endLine": 46
+    "endLine": 39
   },
   {
     "outputFile": "Specimen-MusterprobeGewebe.json",
@@ -229,7 +341,15 @@
     "fshType": "Instance",
     "fshFile": "instances\\MusterprobeGewebe.fsh",
     "startLine": 1,
-    "endLine": 43
+    "endLine": 45
+  },
+  {
+    "outputFile": "Specimen-OrganoidLunge.json",
+    "fshName": "OrganoidLunge",
+    "fshType": "Instance",
+    "fshFile": "instances\\Organoid_lunge.fsh",
+    "startLine": 1,
+    "endLine": 31
   },
   {
     "outputFile": "StructureDefinition-Biobank.json",
@@ -365,7 +485,7 @@
     "fshType": "Profile",
     "fshFile": "profiles\\ProfileObservationQualitaetspruefung.fsh",
     "startLine": 2,
-    "endLine": 43
+    "endLine": 42
   },
   {
     "outputFile": "StructureDefinition-mii-pr-biobank-observation-wachstumstyp.json",

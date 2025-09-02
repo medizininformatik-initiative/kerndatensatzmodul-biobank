@@ -16,7 +16,15 @@
     {
       "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/Diagnose",
       "valueReference": {
-        "reference": "Diagnose/diag-001"
+        "reference": "Diagnose/mii-exa-test-data-patient-1-diagnose-1"
+      }
+    },
+    {
+      "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/mii-ex-biobank-ebene",
+      "valueCoding": {
+        "code": "ALIQUOTGRUPPE",
+        "system": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/CodeSystem/mii-cs-biobank-probenebene",
+        "display": "Aliqoutgruppe"
       }
     }
   ],
@@ -175,7 +183,7 @@
   "receivedTime": "2018-06-08T15:43:00+01:00",
   "request": [
     {
-      "reference": "ServiceRequest/sr-001"
+      "reference": "ServiceRequest/GewebeBiopsie"
     }
   ],
   "container": [

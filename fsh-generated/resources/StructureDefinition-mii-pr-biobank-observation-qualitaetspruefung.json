@@ -79,7 +79,7 @@
       ]
     }
   ],
-  "description": "Art und Ergebnis einer an einer Zelline oder einem Organiod durchgeführten Qualitätsprüfung",
+  "description": "Art und Ergebnis einer an einer Probe, einer Zelline oder einem Organiod durchgeführten Qualitätsprüfung",
   "_description": {
     "extension": [
       {
@@ -91,7 +91,7 @@
           },
           {
             "url": "content",
-            "valueString": "Art und Ergebnis einer an einer Zelline oder einem Organiod durchgeführten Qualitätsprüfung"
+            "valueString": "Art und Ergebnis einer an einer Probe, einer Zelline oder einem Organiod durchgeführten Qualitätsprüfung"
           }
         ]
       },
@@ -104,7 +104,7 @@
           },
           {
             "url": "content",
-            "valueString": "Type and result of a quality check performed on a cell line or organoid"
+            "valueString": "Type and result of a quality check performed on specimen, a cell line or organoid"
           }
         ]
       }

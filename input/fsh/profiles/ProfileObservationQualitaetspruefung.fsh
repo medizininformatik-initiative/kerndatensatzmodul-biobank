@@ -3,14 +3,13 @@ Profile: MII_PR_Biobank_Observation_Qualitaetspruefung
 Parent: Observation
 Id: mii-pr-biobank-observation-qualitaetspruefung
 Title: "MII PR Biobank Observation Qualitätsprüfung"
-Description: "Art und Ergebnis einer an einer Zelline oder einem Organiod durchgeführten Qualitätsprüfung"
+Description: "Art und Ergebnis einer an einer Probe, einer Zelline oder einem Organiod durchgeführten Qualitätsprüfung"
 
-//Translation Meta
 * insert Translation(^name, en-US, MII_PR_Biobank_Observation_Quality_Check)
 * insert Translation(^title, de-DE, Observation Qualitätsprüfung)
 * insert Translation(^title, en-US, Observation Quality Check)
-* insert Translation(^description, de-DE, Art und Ergebnis einer an einer Zelline oder einem Organiod durchgeführten Qualitätsprüfung)
-* insert Translation(^description, en-US, Type and result of a quality check performed on a cell line or organoid)
+* insert Translation(^description, de-DE, Art und Ergebnis einer an einer Probe\, einer Zelline oder einem Organiod durchgeführten Qualitätsprüfung)
+* insert Translation(^description, en-US, Type and result of a quality check performed on specimen\, a cell line or organoid)
 
 //Meta
 * insert PR_CS_VS_Version

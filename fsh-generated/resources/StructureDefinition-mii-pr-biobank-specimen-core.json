@@ -157,7 +157,7 @@
         "path": "Specimen.extension",
         "sliceName": "feature",
         "min": 0,
-        "max": "1",
+        "max": "*",
         "type": [
           {
             "code": "Extension",
@@ -172,7 +172,7 @@
         "path": "Specimen.extension",
         "sliceName": "probenebene",
         "min": 0,
-        "max": "1",
+        "max": "*",
         "type": [
           {
             "code": "Extension",
