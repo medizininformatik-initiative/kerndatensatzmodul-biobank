@@ -1,4 +1,4 @@
-## {{page-title}}
+# {{page-title}}
 
 Auf dieser Seite wird erklärt, wie bestimmte Begriffe im Kontext dieses Implementation Guide verwendet werden. Die Definitionen spiegeln den Konsens des Modulteams wieder, werden aber u.U. von einzelnen Standorten oder anderen Gruppen anders verwendet.
 
