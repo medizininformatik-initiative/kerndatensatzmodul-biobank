@@ -1,4 +1,4 @@
-# Kerndatensatz Modul **Biobank**
+# Kerndatensatz Modul Biobank
 
 Die vorliegende Spezifikation beschreibt die FHIR Repräsentation des Kerndatensatz Moduls **Biobank** der Medizinformatik-Initative.
 Im Folgenden werden die Use Cases des Moduls, sowie die dazugehörigen FHIR Profile und Terminologie Ressourcen in ihrer verbindlichen Form beschrieben.
