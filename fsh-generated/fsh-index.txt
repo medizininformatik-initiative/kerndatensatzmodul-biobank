@@ -1,5 +1,5 @@
 Output File                                                               Name                                                 Type        FSH File                                                         Lines
-CapabilityStatement-mii-cps-biobank-capabilitystatement.json              mii-cps-biobank-capabilitystatement                  Instance    CapabilityStatement.fsh                                          31 - 167
+CapabilityStatement-mii-cps-biobank-capabilitystatement.json              mii-cps-biobank-capabilitystatement                  Instance    CapabilityStatement.fsh                                          31 - 152
 CodeSystem-mii-cs-biobank-contact-type.json                               MII_CS_Biobank_Contact_Type                          CodeSystem  codesystems\CodeSystemContactType.fsh                            1 - 20
 CodeSystem-mii-cs-biobank-probenebene.json                                MII_CS_Biobank_Probenebene                           CodeSystem  codesystems\CodeSystemProbenebene.fsh                            1 - 19
 ConceptMap-mii-cm-biobank-fixation-type-sprec-sct.json                    mii-cm-biobank-fixation-type-sprec-sct               Instance    conceptmaps\SPRECFixationTypeMap.fsh                             1 - 34
