@@ -89,4 +89,4 @@ Beispiel Flüssigprobe:
 
 Beispiel Aliqoutgruppe:
 
-{{json:fsh-generated/resources/Specimen-AliquotgruppeBuffyCoat}}
+{{json:fsh-generated/resources/Specimen-AliquotgruppeBuffyCoat.json}}
