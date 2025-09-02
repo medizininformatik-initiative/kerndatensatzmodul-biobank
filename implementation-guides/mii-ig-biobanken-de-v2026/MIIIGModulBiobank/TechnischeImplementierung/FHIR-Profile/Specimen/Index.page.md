@@ -86,3 +86,7 @@ Beispiel Gewebeprobe:
 Beispiel Flüssigprobe:
 
 {{json:medizininformatikinitiative-modulbiobank/musterprobefluessig}}
+
+Beispiel Aliqoutgruppe:
+
+{{json:fsh-generated/resources/Specimen-AliquotgruppeBuffyCoat}}
