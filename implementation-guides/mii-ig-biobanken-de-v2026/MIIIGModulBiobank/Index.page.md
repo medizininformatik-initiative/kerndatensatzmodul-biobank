@@ -30,6 +30,7 @@ Anmerkungen und Kritik wird in Form von 'Issues' im Simplifier Projekt stets ger
 * Buckow, Karoline - MII-Koordinationsstelle
 * Deppenwiese, Noemi - MIRACUM
 * Engels, Cecilia - GBN, DKTK
+* Geiger, Jörg - ibdw, Würzburg
 * Kirsten, Romy - Integrated Biobank Mannheim
 * Kirsten, Toralf - SMITH
 * Menche, Constantin - DKTK
