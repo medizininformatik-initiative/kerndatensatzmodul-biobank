@@ -33,6 +33,7 @@ Anmerkungen und Kritik wird in Form von 'Issues' im Simplifier Projekt stets ger
 * Geiger, Jörg - ibdw, Würzburg
 * Kirsten, Romy - Integrated Biobank Mannheim
 * Kirsten, Toralf - SMITH
+* Klar, Rhena - MIRACUM
 * Menche, Constantin - DKTK
 * Miriam, Rößner - MIRACUM
 * Rinaldi, Eugenia - HiGHmed
