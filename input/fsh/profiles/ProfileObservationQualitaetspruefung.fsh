@@ -40,3 +40,4 @@ Description: "Art und Ergebnis einer an einer Probe, einer Zelline oder einem Or
 * component[type].value[x] only CodeableConcept or string
 * component[result].code = $SCT#79409006 "Resulting in (attribute)"
 * component[result].value[x] only CodeableConcept
+* component[result].valueCodeableConcept from http://loinc.org/vs/LL3837-3 (preferred)

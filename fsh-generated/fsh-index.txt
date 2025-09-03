@@ -59,7 +59,7 @@ StructureDefinition-mii-pr-biobank-observation-dna-konzentration.json     MII_PR
 StructureDefinition-mii-pr-biobank-observation-karyotyp.json              MII_PR_Biobank_Observation_Karyotyp                  Profile     profiles\ProfileObservationKaryotyp.fsh                          2 - 35
 StructureDefinition-mii-pr-biobank-observation-morphologie.json           MII_PR_Biobank_Observation_Morphologie               Profile     profiles\ProfileObservationZellMorphologie.fsh                   2 - 33
 StructureDefinition-mii-pr-biobank-observation-proliferation.json         MII_PR_Biobank_Observation_Proliferation             Profile     profiles\ProfileObservationProliferation.fsh                     2 - 33
-StructureDefinition-mii-pr-biobank-observation-qualitaetspruefung.json    MII_PR_Biobank_Observation_Qualitaetspruefung        Profile     profiles\ProfileObservationQualitaetspruefung.fsh                2 - 42
+StructureDefinition-mii-pr-biobank-observation-qualitaetspruefung.json    MII_PR_Biobank_Observation_Qualitaetspruefung        Profile     profiles\ProfileObservationQualitaetspruefung.fsh                2 - 43
 StructureDefinition-mii-pr-biobank-observation-wachstumstyp.json          MII_PR_Biobank_Observation_Wachstumstyp              Profile     profiles\ProfileObservationWachstumstyp.fsh                      2 - 33
 StructureDefinition-mii-pr-biobank-organization.json                      MII_PR_Biobank_Organization_Sammlung_Biobank         Profile     profiles\ProfileOrganizationSammlungBiobank.fsh                  2 - 82
 StructureDefinition-mii-pr-biobank-specimen-core.json                     MII_PR_Biobank_Specimen_Bioprobe_Core                Profile     profiles\ProfileSpecimenBioprobeCore.fsh                         2 - 207

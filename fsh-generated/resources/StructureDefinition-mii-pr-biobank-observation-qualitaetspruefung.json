@@ -253,7 +253,11 @@
           {
             "code": "CodeableConcept"
           }
-        ]
+        ],
+        "binding": {
+          "strength": "preferred",
+          "valueSet": "http://loinc.org/vs/LL3837-3"
+        }
       }
     ]
   }
