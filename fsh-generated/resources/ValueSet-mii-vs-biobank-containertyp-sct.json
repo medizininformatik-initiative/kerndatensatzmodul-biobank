@@ -4,7 +4,7 @@
   "name": "MII_VS_Biobank_Containertyp_SCT",
   "id": "mii-vs-biobank-containertyp-sct",
   "title": "MII VS Biobank Containertyp SCT",
-  "version": "2026.0.0-preview",
+  "version": "2026.0.0-ballot",
   "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/mii-vs-biobank-containertyp-sct",
   "publisher": "Medizininformatik Initiative",
   "contact": [

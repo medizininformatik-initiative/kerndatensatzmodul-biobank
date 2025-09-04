@@ -4,7 +4,7 @@
   "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ConceptMap/mii-cm-biobank-long-term-storage-sprec-sct",
   "title": "SPREC 4.0 Long-Term Storage Mapping",
   "description": "Mapping der SPREC 4.0 Long-Term Storage Containertypen auf die im Modul verwendeten SNOMED CT Codes.",
-  "version": "2026.0.0-preview",
+  "version": "2026.0.0-ballot",
   "publisher": "Medizininformatik Initiative",
   "contact": [
     {

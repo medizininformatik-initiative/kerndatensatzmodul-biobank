@@ -5,7 +5,7 @@
   "id": "mii-vs-biobank-cellline-modification-clo",
   "title": "MII VS Biobank Cellline Modification CLO",
   "description": "Arten der Modifikationen an einer Zellinie",
-  "version": "2026.0.0-preview",
+  "version": "2026.0.0-ballot",
   "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/mii-vs-biobank-cellline-modification-clo",
   "publisher": "Medizininformatik Initiative",
   "contact": [

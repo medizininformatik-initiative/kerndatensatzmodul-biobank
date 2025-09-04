@@ -2,7 +2,7 @@
   "resourceType": "CapabilityStatement",
   "id": "mii-cps-biobank-capabilitystatement",
   "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/CapabilityStatement/metadata",
-  "version": "2026.0.0-preview",
+  "version": "2026.0.0-ballot",
   "publisher": "Medizininformatik Initiative",
   "contact": [
     {

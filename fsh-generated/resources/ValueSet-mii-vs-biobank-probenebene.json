@@ -4,7 +4,7 @@
   "name": "MII_VS_Biobank_Probenebene",
   "id": "mii-vs-biobank-probenebene",
   "title": "MII VS Biobank Probenebene",
-  "version": "2026.0.0-preview",
+  "version": "2026.0.0-ballot",
   "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/mii-vs-biobank-probenebene",
   "publisher": "Medizininformatik Initiative",
   "contact": [

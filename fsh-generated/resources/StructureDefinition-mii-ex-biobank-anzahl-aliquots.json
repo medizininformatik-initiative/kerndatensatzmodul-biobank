@@ -16,7 +16,7 @@
     }
   ],
   "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/mii-ex-biobank-anzahl-aliquots",
-  "version": "2026.0.0-preview",
+  "version": "2026.0.0-ballot",
   "name": "MII_EX_Biobank_Anzahl_Aliquots",
   "_name": {
     "extension": [

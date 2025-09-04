@@ -4,7 +4,7 @@
   "name": "MII_VS_Biobank_Laboratory_Procedure_SCT",
   "id": "mii-vs-biobank-laboratory-procedure-sct",
   "title": "MII VS Biobank Laboratory Procedure SCT",
-  "version": "2026.0.0-preview",
+  "version": "2026.0.0-ballot",
   "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/mii-vs-biobank-laboratory-procedure-sct",
   "publisher": "Medizininformatik Initiative",
   "contact": [
