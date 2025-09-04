@@ -267,7 +267,7 @@
           "discriminator": [
             {
               "type": "pattern",
-              "path": "system"
+              "path": "$this.system"
             }
           ],
           "rules": "open"

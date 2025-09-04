@@ -46,7 +46,7 @@ Description: "Darstellung der organisatorischen Daten einer Probensammlung oder 
 * insert Translation(partOf ^definition, en-US, Refers to a parent collection or biobank to which this belongs.)
 
 * identifier ^slicing.discriminator.type = #pattern
-* identifier ^slicing.discriminator.path = "system"
+* identifier ^slicing.discriminator.path = "$this.system"
 * identifier ^slicing.rules = #open
 
 * identifier contains bbmri-eric-id 0..1 MS
