@@ -183,7 +183,6 @@ and processing.timePeriod and processing.procedure and processing.additive and r
 
 * processing.extension contains MII_EX_Biobank_Temperaturbedingungen named temperaturbedingungen 1..1 MS
 * processing.procedure 1..1 MS
-* processing.procedure from MII_VS_Biobank_Laboratory_Procedure_SCT (example)
 
 * processing.procedure.coding ^slicing.discriminator.type = #value
 * processing.procedure.coding ^slicing.discriminator.path = "$this.system"
@@ -191,6 +190,7 @@ and processing.timePeriod and processing.procedure and processing.additive and r
 
 * processing.procedure.coding contains sct 1..* MS
 * processing.procedure.coding[sct].system = $SCT
+* processing.procedure.coding[sct] from MII_VS_Biobank_Laboratory_Procedure_SCT (preferred)
 
 * processing.time[x] MS
 * processing.timePeriod.start MS

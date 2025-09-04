@@ -1099,10 +1099,6 @@
         "path": "Specimen.processing.procedure",
         "min": 1,
         "mustSupport": true,
-        "binding": {
-          "strength": "example",
-          "valueSet": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/mii-vs-biobank-laboratory-procedure-sct"
-        },
         "_short": {
           "extension": [
             {
@@ -1184,7 +1180,11 @@
         "sliceName": "sct",
         "min": 1,
         "max": "*",
-        "mustSupport": true
+        "mustSupport": true,
+        "binding": {
+          "strength": "preferred",
+          "valueSet": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/mii-vs-biobank-laboratory-procedure-sct"
+        }
       },
       {
         "id": "Specimen.processing.procedure.coding:sct.system",
