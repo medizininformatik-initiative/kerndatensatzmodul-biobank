@@ -36,7 +36,7 @@ SearchParameter-mii-sp-biobank-specimen-probenebene.json                  mii-sp
 SearchParameter-mii-sp-biobank-specimen-processing-temp.json              mii-sp-biobank-specimen-processing-temp              Instance    searchparameters\mii-sp-biobank-processing-temp.fsh              1 - 15
 SearchParameter-mii-sp-biobank-specimen-zielgen.json                      mii-sp-biobank-specimen-zielgen                      Instance    searchparameters\mii-sp-biobank-modifikation.fsh                 17 - 31
 ServiceRequest-GewebeBiopsie.json                                         GewebeBiopsie                                        Instance    instances\ServiceRequest.fsh                                     1 - 11
-Specimen-AliquotBuffyCoat1.json                                           AliquotBuffyCoat1                                    Instance    instances\Aliquot1_BuffyCoat.fsh                                 1 - 25
+Specimen-AliquotBuffyCoat1.json                                           AliquotBuffyCoat1                                    Instance    instances\Aliquot1_BuffyCoat.fsh                                 1 - 26
 Specimen-AliquotBuffyCoat2.json                                           AliquotBuffyCoat2                                    Instance    instances\Aliqout2_BuffyCoat.fsh                                 1 - 41
 Specimen-AliquotgruppeBuffyCoat.json                                      AliquotgruppeBuffyCoat                               Instance    instances\Aliqoutgruppe_BuffyCoat.fsh                            1 - 34
 Specimen-AliquotgruppeDNA.json                                            AliquotgruppeDNA                                     Instance    instances\Aliquotgruppe_DNA.fsh                                  1 - 27

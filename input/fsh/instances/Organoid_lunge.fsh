@@ -16,7 +16,7 @@ Usage: #example
 * identifier.value = "6789-ORG-1"
 * status = #available
 * type.coding[+] = https://fhir.bbmri-eric.eu/fhir/CodeSystem/miabis-detailed-sample-type#Organoid "Organoids"
-* type.coding[+].system = $SCT#123038009 "Specimen (specimen)"
+* type.coding[+] = $SCT#123038009 "Specimen (specimen)"
 * subject.reference = "Patient/mii-exa-test-data-patient-1"
 * collection.collectedDateTime = "2018-06-08T15:34:00+01:00"
 

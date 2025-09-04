@@ -105,7 +105,9 @@
         "display": "Organoids"
       },
       {
-        "system": "123038009"
+        "code": "123038009",
+        "system": "http://snomed.info/sct",
+        "display": "Specimen (specimen)"
       }
     ]
   },

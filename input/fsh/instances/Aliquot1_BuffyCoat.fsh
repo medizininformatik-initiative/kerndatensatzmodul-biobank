@@ -9,6 +9,7 @@ Usage: #example
 * identifier.value = "12345-BC-1"
 * status = #available
 * type.coding[+] = https://fhir.bbmri-eric.eu/fhir/CodeSystem/miabis-detailed-samply-type-cs#BuffyCoat "Buffy coat"
+* type.coding[+] = $SCT#258587000 "Buffy coat (specimen)"
 
 * subject.reference = "Patient/mii-exa-test-data-patient-1"
 * collection.collectedDateTime = "2018-06-07T15:54:00+01:00"
