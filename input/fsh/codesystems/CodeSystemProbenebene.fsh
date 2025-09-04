@@ -15,5 +15,5 @@ Description: "Codes um die Probenebene anzugeben"
 * insert PR_CS_VS_Date
 
 * #PRIMÄRPROBE "Primärprobe" "Die Probe, wie sie gesammelt wurde, vor ihrer Verarbeitung."
-* #ALIQUOTGRUPPE "Aliqoutgruppe" "Eine Zusammenfassung von Aliquots gleichen Probentyps, die von der gleichen möglicherweise bereits verarbeiteten Primärprobe abstammen."
+* #ALIQUOTGRUPPE "Aliquotgruppe" "Eine Zusammenfassung von Aliquots gleichen Probentyps, die von der gleichen möglicherweise bereits verarbeiteten Primärprobe abstammen."
 * #ALIQUOT "Aliqout" "Eine Probe, von der identische Geschwisterproben existieren können, die derselben Aliquotgruppe angehören. "
