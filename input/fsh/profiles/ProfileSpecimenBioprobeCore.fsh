@@ -28,8 +28,8 @@ Description: "Basisiprofil zur Abbildung einer MII Bioprobe. Nicht zur direkten 
 * extension contains MII_EX_Biobank_Feature_R5 named feature 0..* and MII_EX_Biobank_Ebene named probenebene 0..* MS
 
 * identifier and type and container.specimenQuantity and status and note and parent and container and container.type and container.capacity 
-and container.additive[x] and collection and collection.collected[x] and collection.bodySite and collection.fastingStatus[x] and processing
-and processing.timePeriod and processing.procedure and processing.additive and request and subject MS
+and container.additive[x] and collection and collection.collected[x] and collection.bodySite and collection.quantity and collection.fastingStatus[x] and processing
+and processing.timePeriod and processing.procedure and processing.additive and request and subject and receivedTime MS
 
 * insert Translation(identifier ^short, de-DE, Proben-ID)
 * insert Translation(identifier ^short, en-US, Specimen ID)
@@ -43,8 +43,8 @@ and processing.timePeriod and processing.procedure and processing.additive and r
 
 * insert Translation(container.specimenQuantity ^short, de-DE, Probenmenge)
 * insert Translation(container.specimenQuantity ^short, en-US, Specimen quantity)
-* insert Translation(container.specimenQuantity ^definition, de-DE, Die Menge des gesammelten Materials.)
-* insert Translation(container.specimenQuantity ^definition, en-US, The amount of material collected.)
+* insert Translation(container.specimenQuantity ^definition, de-DE, Die Menge des vorhandenen Materials.)
+* insert Translation(container.specimenQuantity ^definition, en-US, The amount of material available.)
 
 * insert Translation(status ^short, de-DE, Verfügbarkeitsstatus)
 * insert Translation(status ^short, en-US, Availability status)
@@ -91,10 +91,20 @@ and processing.timePeriod and processing.procedure and processing.additive and r
 * insert Translation(collection.collected[x] ^definition, de-DE, Der Zeitpunkt\, zu dem die Probe entnommen oder gesammelt wurde.)
 * insert Translation(collection.collected[x] ^definition, en-US, The time when the specimen was collected or obtained.)
 
+* insert Translation(collection.quantity ^short, de-DE, Probenmenge)
+* insert Translation(collection.quantity ^short, en-US, Specimen quantity)
+* insert Translation(collection.quantity ^definition, de-DE, Die Menge des gesammelten Materials.)
+* insert Translation(collection.quantity ^definition, en-US, The amount of material collected.)
+
 * insert Translation(collection.bodySite ^short, de-DE, Anatomische Lokalisation)
 * insert Translation(collection.bodySite ^short, en-US, anatomical localisation)
-* insert Translation(collection.bodySite ^definition, de-DE, Die Körperstelle\, von der die Probe entnommen wurde gemäß icd-o-3.)
-* insert Translation(collection.bodySite ^definition, en-US, The body site from which the specimen was collected according to icd-o-3.)
+* insert Translation(collection.bodySite ^definition, de-DE, Die Körperstelle\, von der die Probe entnommen wurde.)
+* insert Translation(collection.bodySite ^definition, en-US, The body site from which the specimen was collected.)
+
+// * insert Translation(collection.bodySite.coding:icd-o-3 ^short, de-DE, Anatomische Lokalisation  - ICD-O-3 )
+// * insert Translation(collection.bodySite.coding:icd-o-3 ^short, en-US, anatomical localisation - ICD-O-3 )
+// * insert Translation(collection.bodySite.coding:icd-o-3 ^definition, de-DE, Die Körperstelle\, von der die Probe entnommen wurde gemäß icd-o-3.)
+// * insert Translation(collection.bodySite.coding:icd-o-3 ^definition, en-US, The body site from which the specimen was collected according to icd-o-3.)
 
 * insert Translation(collection.fastingStatus[x] ^short, de-DE, Nüchternstatus)
 * insert Translation(collection.fastingStatus[x] ^short, en-US, Fasting status)
@@ -178,6 +188,9 @@ and processing.timePeriod and processing.procedure and processing.additive and r
 * collection.bodySite.coding[icd-o-3].system = "http://terminology.hl7.org/CodeSystem/icd-o-3"
 
 * collection.collected[x] 1..1
+
+* collection.quantity.extension contains http://hl7.org/fhir/StructureDefinition/iso21090-PQ-translation named pqTranslation 0..*
+                        and http://hl7.org/fhir/StructureDefinition/quantity-precision named quantityPrecision 0..1
 
 //Verarbeitung/Lagerprozess
 

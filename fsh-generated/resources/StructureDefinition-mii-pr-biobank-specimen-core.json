@@ -486,6 +486,11 @@
         }
       },
       {
+        "id": "Specimen.receivedTime",
+        "path": "Specimen.receivedTime",
+        "mustSupport": true
+      },
+      {
         "id": "Specimen.parent",
         "path": "Specimen.parent",
         "mustSupport": true,
@@ -778,6 +783,101 @@
         }
       },
       {
+        "id": "Specimen.collection.quantity",
+        "path": "Specimen.collection.quantity",
+        "mustSupport": true,
+        "_short": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "de-DE"
+                },
+                {
+                  "url": "content",
+                  "valueString": "Probenmenge"
+                }
+              ]
+            },
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "en-US"
+                },
+                {
+                  "url": "content",
+                  "valueString": "Specimen quantity"
+                }
+              ]
+            }
+          ]
+        },
+        "_definition": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "de-DE"
+                },
+                {
+                  "url": "content",
+                  "valueString": "Die Menge des gesammelten Materials."
+                }
+              ]
+            },
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "en-US"
+                },
+                {
+                  "url": "content",
+                  "valueString": "The amount of material collected."
+                }
+              ]
+            }
+          ]
+        }
+      },
+      {
+        "id": "Specimen.collection.quantity.extension:pqTranslation",
+        "path": "Specimen.collection.quantity.extension",
+        "sliceName": "pqTranslation",
+        "min": 0,
+        "max": "*",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://hl7.org/fhir/StructureDefinition/iso21090-PQ-translation"
+            ]
+          }
+        ]
+      },
+      {
+        "id": "Specimen.collection.quantity.extension:quantityPrecision",
+        "path": "Specimen.collection.quantity.extension",
+        "sliceName": "quantityPrecision",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://hl7.org/fhir/StructureDefinition/quantity-precision"
+            ]
+          }
+        ]
+      },
+      {
         "id": "Specimen.collection.bodySite",
         "path": "Specimen.collection.bodySite",
         "constraint": [
@@ -831,7 +931,7 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "Die Körperstelle, von der die Probe entnommen wurde gemäß icd-o-3."
+                  "valueString": "Die Körperstelle, von der die Probe entnommen wurde."
                 }
               ]
             },
@@ -844,7 +944,7 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "The body site from which the specimen was collected according to icd-o-3."
+                  "valueString": "The body site from which the specimen was collected."
                 }
               ]
             }
@@ -1670,7 +1770,7 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "Die Menge des gesammelten Materials."
+                  "valueString": "Die Menge des vorhandenen Materials."
                 }
               ]
             },
@@ -1683,7 +1783,7 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "The amount of material collected."
+                  "valueString": "The amount of material available."
                 }
               ]
             }

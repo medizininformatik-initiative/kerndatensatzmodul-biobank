@@ -63,7 +63,7 @@ StructureDefinition-mii-pr-biobank-observation-proliferation.json         MII_PR
 StructureDefinition-mii-pr-biobank-observation-qualitaetspruefung.json    MII_PR_Biobank_Observation_Qualitaetspruefung        Profile     profiles\ProfileObservationQualitaetspruefung.fsh                2 - 43
 StructureDefinition-mii-pr-biobank-observation-wachstumstyp.json          MII_PR_Biobank_Observation_Wachstumstyp              Profile     profiles\ProfileObservationWachstumstyp.fsh                      2 - 33
 StructureDefinition-mii-pr-biobank-organization.json                      MII_PR_Biobank_Organization_Sammlung_Biobank         Profile     profiles\ProfileOrganizationSammlungBiobank.fsh                  2 - 82
-StructureDefinition-mii-pr-biobank-specimen-core.json                     MII_PR_Biobank_Specimen_Bioprobe_Core                Profile     profiles\ProfileSpecimenBioprobeCore.fsh                         2 - 209
+StructureDefinition-mii-pr-biobank-specimen-core.json                     MII_PR_Biobank_Specimen_Bioprobe_Core                Profile     profiles\ProfileSpecimenBioprobeCore.fsh                         2 - 222
 StructureDefinition-mii-pr-biobank-specimen.json                          MII_PR_Biobank_Specimen_Bioprobe                     Profile     profiles\ProfileSpecimenBioprobe.fsh                             2 - 49
 StructureDefinition-mii-pr-biobank-substance-additiv.json                 MII_PR_Biobank_Substance_Additiv                     Profile     profiles\ProfileSubstanceAdditiv.fsh                             2 - 29
 StructureDefinition-mii-pr-biobank-zellinie-organoid.json                 MII_PR_Biobank_Specimen_Zellinie_Organoid            Profile     profiles\ProfileSpecimenZellinieOrganiod.fsh                     2 - 29
