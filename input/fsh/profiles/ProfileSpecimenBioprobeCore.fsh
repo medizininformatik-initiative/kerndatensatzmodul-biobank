@@ -137,7 +137,7 @@ and processing.timePeriod and processing.procedure and processing.additive and r
 * status 1..1
 
 * type 1..1
-* type.coding ^slicing.discriminator.type = #pattern
+* type.coding ^slicing.discriminator.type = #value
 * type.coding ^slicing.discriminator.path = "$this.system"
 * type.coding ^slicing.rules = #open
 
@@ -165,7 +165,7 @@ and processing.timePeriod and processing.procedure and processing.additive and r
 
 * collection.bodySite obeys mii-bb-1
 
-* collection.bodySite.coding ^slicing.discriminator.type = #pattern
+* collection.bodySite.coding ^slicing.discriminator.type = #value
 * collection.bodySite.coding ^slicing.discriminator.path = "$this.system"
 * collection.bodySite.coding ^slicing.rules = #open
 
@@ -184,7 +184,7 @@ and processing.timePeriod and processing.procedure and processing.additive and r
 * processing.procedure 1..1 MS
 * processing.procedure from MII_VS_Biobank_Laboratory_Procedure_SCT (example)
 
-* processing.procedure.coding ^slicing.discriminator.type = #pattern
+* processing.procedure.coding ^slicing.discriminator.type = #value
 * processing.procedure.coding ^slicing.discriminator.path = "$this.system"
 * processing.procedure.coding ^slicing.rules = #open
 
