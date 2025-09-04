@@ -9,5 +9,5 @@ Usage: #example
 * valueQuantity.value = 40
 * valueQuantity.unit = "ng/µL"
 * valueQuantity.system = "http://unitsofmeasure.org"
-* valueQuantity.code = #ng/ul
+* valueQuantity.code = #ng/uL
 * effectiveDateTime = "2018-09-07T13:40:00+01:00"
