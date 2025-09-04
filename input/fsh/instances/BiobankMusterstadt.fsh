@@ -4,6 +4,7 @@ Title: "Biobank Musterstadt"
 Usage: #example
 
 * extension[beschreibung].valueString = "Biobank des Krankenhauses Musterstadt."
+* identifier[bbmri-eric-id].system = "http://www.bbmri-eric.eu/"
 * identifier[bbmri-eric-id].value = "de-12345"
 * name = "Biobank Musterstadt"
 * contact[forschungskontakt].extension[rolle].valueString = "Direktor"

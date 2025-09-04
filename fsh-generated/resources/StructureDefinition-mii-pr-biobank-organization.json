@@ -266,7 +266,7 @@
         "slicing": {
           "discriminator": [
             {
-              "type": "pattern",
+              "type": "value",
               "path": "$this.system"
             }
           ],
@@ -280,9 +280,6 @@
         "sliceName": "bbmri-eric-id",
         "min": 0,
         "max": "1",
-        "patternIdentifier": {
-          "system": "http://www.bbmri-eric.eu/"
-        },
         "mustSupport": true,
         "_short": {
           "extension": [
@@ -344,6 +341,11 @@
             }
           ]
         }
+      },
+      {
+        "id": "Organization.identifier:bbmri-eric-id.system",
+        "path": "Organization.identifier.system",
+        "patternUri": "http://www.bbmri-eric.eu/"
       },
       {
         "id": "Organization.name",

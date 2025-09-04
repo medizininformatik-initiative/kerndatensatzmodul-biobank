@@ -45,13 +45,13 @@ Description: "Darstellung der organisatorischen Daten einer Probensammlung oder 
 * insert Translation(partOf ^definition, de-DE, Verweist auf eine übergeordnete Sammlung oder Biobank\, zu der diese gehört.)
 * insert Translation(partOf ^definition, en-US, Refers to a parent collection or biobank to which this belongs.)
 
-* identifier ^slicing.discriminator.type = #pattern
+* identifier ^slicing.discriminator.type = #value
 * identifier ^slicing.discriminator.path = "$this.system"
 * identifier ^slicing.rules = #open
 
 * identifier contains bbmri-eric-id 0..1 MS
 
-* identifier[bbmri-eric-id] ^patternIdentifier.system = "http://www.bbmri-eric.eu/"
+* identifier[bbmri-eric-id].system = "http://www.bbmri-eric.eu/"
 
 * insert Translation(identifier[bbmri-eric-id] ^short, de-DE, BBMRI-ERIC ID)
 * insert Translation(identifier[bbmri-eric-id] ^short, en-US, BBMRI-ERIC ID)
