@@ -64,4 +64,10 @@ Folgende Suchparameter sind für das Modul Biobank relevant, auch in Kombination
 
 **Beispiele**
 
+Pass/Fail Check:
+
 {{json:fsh-generated/resources/Observation-QualitaetspruefungBuffyCoat.json}}
+
+Quantitatives Ergebnis:
+
+{{json:fsh-generated/resources/Observation-QualitaetspruefungPlasma.json}}

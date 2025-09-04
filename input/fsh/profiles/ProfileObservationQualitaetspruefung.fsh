@@ -39,5 +39,5 @@ Description: "Art und Ergebnis einer an einer Probe, einer Zelline oder einem Or
 * component[type].code = $SCT#246423001 "Test protocol used (attribute)"
 * component[type].value[x] only CodeableConcept or string
 * component[result].code = $SCT#79409006 "Resulting in (attribute)"
-* component[result].value[x] only CodeableConcept
+* component[result].value[x] only CodeableConcept or Quantity
 * component[result].valueCodeableConcept from http://loinc.org/vs/LL3837-3 (preferred)

@@ -13,6 +13,7 @@ Observation-KaryotypOrganoidLunge.json                                    Karyot
 Observation-MorphologieOrganoidLunge.json                                 MorphologieOrganoidLunge                             Instance    instances\MorphologieOrganoid.fsh                                1 - 10
 Observation-ProliferationOrganoidLunge.json                               ProliferationOrganoidLunge                           Instance    instances\Proliferation.fsh                                      1 - 10
 Observation-QualitaetspruefungBuffyCoat.json                              QualitaetspruefungBuffyCoat                          Instance    instances\Qualitaetspruefung_BuffyCoat.fsh                       1 - 12
+Observation-QualitaetspruefungPlasma.json                                 QualitaetspruefungPlasma                             Instance    instances\Qualitaetspruefung_Plasma.fsh                          1 - 15
 Observation-WachstumstypOrganoidLunge.json                                WachstumstypOrganoidLunge                            Instance    instances\Wachstumstyp.fsh                                       1 - 10
 Organization-BiobankMusterstadt.json                                      BiobankMusterstadt                                   Instance    instances\BiobankMusterstadt.fsh                                 1 - 18
 Organization-Mustersammlung.json                                          Mustersammlung                                       Instance    instances\Mustersammlung.fsh                                     1 - 19

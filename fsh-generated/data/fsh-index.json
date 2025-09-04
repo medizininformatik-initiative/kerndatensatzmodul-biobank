@@ -112,6 +112,14 @@
     "endLine": 12
   },
   {
+    "outputFile": "Observation-QualitaetspruefungPlasma.json",
+    "fshName": "QualitaetspruefungPlasma",
+    "fshType": "Instance",
+    "fshFile": "instances\\Qualitaetspruefung_Plasma.fsh",
+    "startLine": 1,
+    "endLine": 15
+  },
+  {
     "outputFile": "Observation-WachstumstypOrganoidLunge.json",
     "fshName": "WachstumstypOrganoidLunge",
     "fshType": "Instance",
