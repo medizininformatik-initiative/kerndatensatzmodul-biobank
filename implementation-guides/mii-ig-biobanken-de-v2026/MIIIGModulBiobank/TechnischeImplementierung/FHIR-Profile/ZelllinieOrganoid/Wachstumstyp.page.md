@@ -6,7 +6,7 @@ subject: https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/Stru
 
 ## Observation (Wachstumstyp)
 
-Mittels einer Observation wird der Wachstumstyptyp einer Zelllinie oder eines Organoids abgebildet.
+Mittels einer Observation wird der Wachstumstyp einer Zelllinie oder eines Organoids abgebildet.
 
 @```
 from
