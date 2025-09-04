@@ -517,7 +517,7 @@
     "fshType": "Profile",
     "fshFile": "profiles\\ProfileSpecimenBioprobeCore.fsh",
     "startLine": 2,
-    "endLine": 207
+    "endLine": 208
   },
   {
     "outputFile": "StructureDefinition-mii-pr-biobank-specimen.json",
@@ -525,7 +525,7 @@
     "fshType": "Profile",
     "fshFile": "profiles\\ProfileSpecimenBioprobe.fsh",
     "startLine": 2,
-    "endLine": 48
+    "endLine": 49
   },
   {
     "outputFile": "StructureDefinition-mii-pr-biobank-substance-additiv.json",

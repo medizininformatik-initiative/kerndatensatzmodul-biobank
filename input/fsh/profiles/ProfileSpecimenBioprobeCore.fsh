@@ -142,8 +142,9 @@ and processing.timePeriod and processing.procedure and processing.additive and r
 * type.coding ^slicing.rules = #open
 
 * type.coding contains sct 1..* MS
-* type.coding[sct] from MII_VS_Biobank_Probenart_SCT (extensible)
 * type.coding[sct].system = $SCT
+* type.coding[sct] from MII_VS_Biobank_Probenart_SCT (extensible)
+
 
 * subject 1..1
 * subject only Reference(Patient)

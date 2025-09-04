@@ -299,6 +299,11 @@
         }
       },
       {
+        "id": "Specimen.type.coding:miabis-type.system",
+        "path": "Specimen.type.coding.system",
+        "patternUri": "https://fhir.bbmri-eric.eu/fhir/CodeSystem/miabis-detailed-samply-type-cs"
+      },
+      {
         "id": "Specimen.processing",
         "path": "Specimen.processing"
       },
