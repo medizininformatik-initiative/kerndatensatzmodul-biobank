@@ -30,7 +30,7 @@ Usage: #example
 
 * processing[+].extension[temperaturbedingungen].valueRange.low.value = 15
 * processing[=].extension[temperaturbedingungen].valueRange.high.value = 25
-* processing[=].extension[temperature-miabis].valueCodeableConcept = https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/CodeSystem/miabis-storage-temperature-cs#RT
+* processing[=].extension[temperature-miabis].valueCodeableConcept = https://fhir.bbmri-eric.eu/fhir/CodeSystem/miabis-storage-temperature-cs#RT
 * processing[=].procedure = $SCT#702943006 "Deoxyribonucleic acid extraction technique (qualifier value)"
 * processing[=].timePeriod.start = "2018-09-07T13:07:00+01:00"
 * processing[=].timePeriod.end = "2018-09-07T13:37:00+01:00"

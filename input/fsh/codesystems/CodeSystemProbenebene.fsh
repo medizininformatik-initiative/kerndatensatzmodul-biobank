@@ -16,4 +16,4 @@ Description: "Codes um die Probenebene anzugeben"
 
 * #PRIMÄRPROBE "Primärprobe" "Die Probe, wie sie gesammelt wurde, vor ihrer Verarbeitung."
 * #ALIQUOTGRUPPE "Aliquotgruppe" "Eine Zusammenfassung von Aliquots gleichen Probentyps, die von der gleichen möglicherweise bereits verarbeiteten Primärprobe abstammen."
-* #ALIQUOT "Aliqout" "Eine Probe, von der identische Geschwisterproben existieren können, die derselben Aliquotgruppe angehören. "
+* #ALIQUOT "Aliquot" "Eine Probe, von der identische Geschwisterproben existieren können, die derselben Aliquotgruppe angehören. "
