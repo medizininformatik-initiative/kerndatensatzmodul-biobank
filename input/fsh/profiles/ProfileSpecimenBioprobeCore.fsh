@@ -169,7 +169,7 @@ and processing.timePeriod and processing.procedure and processing.additive and r
 * collection.bodySite.coding ^slicing.discriminator.path = "$this.system"
 * collection.bodySite.coding ^slicing.rules = #open
 
-* collection.bodySite.coding contains sct 0..1 MS and icd-o-3 0..1 MS
+* collection.bodySite.coding contains sct 0..* MS and icd-o-3 0..* MS
 
 * collection.bodySite.coding[sct] from MII_VS_Biobank_BodyStructures_SCT (required)
 * collection.bodySite.coding[sct].system = $SCT
