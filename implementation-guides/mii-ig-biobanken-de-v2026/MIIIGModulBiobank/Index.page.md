@@ -29,15 +29,16 @@ Anmerkungen und Kritik wird in Form von 'Issues' im Simplifier Projekt stets ger
 
 * Buckow, Karoline - MII-Koordinationsstelle
 * Deppenwiese, Noemi - MIRACUM
-* Engels, Cecilia - GBN, DKTK
-* Geiger, Jörg - ibdw, Würzburg
-* Kirsten, Romy - Integrated Biobank Mannheim
+* Engels, Cecilia - German Biobank Network (GBN), Deutsches Konsortium für Translationale Krebsforschung (DKTK)
+* Geiger, Jörg - Interdisziplinäre Biomaterial und Datenbank Würzburg (ibdw)
+* Kirsten, Romy - Integrated Biobank Mannheim (IBM)
 * Kirsten, Toralf - SMITH
 * Klar, Rhena - MIRACUM
-* Menche, Constantin - DKTK
+* Köhler, Stefanie - Central Biobank Erlangen (CeBE) 
+* Menche, Constantin - Deutsches Konsortium für Translationale Krebsforschung (DKTK)
 * Rinaldi, Eugenia - HiGHmed
 * Rößner, Miriam - MIRACUM
-* Schönfeld, Ida - BioBank Dresden
+* Schönfeld, Ida - BioBank Dresden (BBD)
 * Siddiqui, Roman - MII-Koordinationsstelle
 * Skowronek, Patrick - UMM, DKFZ, DKTK, DZIF
 
