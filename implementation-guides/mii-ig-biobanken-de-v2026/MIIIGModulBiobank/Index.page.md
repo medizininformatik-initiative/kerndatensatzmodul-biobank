@@ -35,8 +35,8 @@ Anmerkungen und Kritik wird in Form von 'Issues' im Simplifier Projekt stets ger
 * Kirsten, Toralf - SMITH
 * Klar, Rhena - MIRACUM
 * Menche, Constantin - DKTK
-* Miriam, Rößner - MIRACUM
 * Rinaldi, Eugenia - HiGHmed
+* Rößner, Miriam - MIRACUM
 * Schönfeld, Ida - BioBank Dresden
 * Siddiqui, Roman - MII-Koordinationsstelle
 * Skowronek, Patrick - UMM, DKFZ, DKTK, DZIF
