@@ -4,15 +4,15 @@ Wie auf der Seite [Referenzen](/MIIIGModulBiobank-Referenzen.html) erklärt, ist
 
 |SPREC |KDS FHIR Path |Mapping Info|
 |---|---|---|
-|Type of sample| Specimen.type | siehe auch [ConceptMap](https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ConceptMap/mii-cm-biobank-sample-type-sprec-sct) |
-|Type of primary container| Specimen.container.type + Specimen.container.additive | siehe auch [ConceptMap](https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ConceptMap/mii-cm-biobank-primary-container-sprec-sct) |
+|Type of sample| Specimen.type | siehe auch [ConceptMap](https://simplifier.net/resolve?scope=&canonical=https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ConceptMap/mii-cm-biobank-sample-type-sprec-sct) |
+|Type of primary container| Specimen.container.type + Specimen.container.additive | siehe auch [ConceptMap](https://simplifier.net/resolve?scope=&canonical=https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ConceptMap/mii-cm-biobank-primary-container-sprec-sct) |
 |Precentrifugation| Specimen.processing:lagerprozess.extension:temperaturbedingungen + Specimen.processing:lagerprozess.timePeriod ||
 |Centrifugation| Specimen.processing.procedure + Specimen.processing.extension:temperaturbedingungen + Specimen.processing.timePeriod ||
 |Second centrifugation| Specimen.processing.procedure + Specimen.processing.extension:temperaturbedingungen + Specimen.processing.timePeriod ||
 |Postcentrifugation delay| Specimen.processing:lagerprozess.extension:temperaturbedingungen + Specimen.processing:lagerprozess.timePeriod ||
-|Long-term storage| Specimen.processing:lagerprozess.extension:temperaturbedingungen + Specimen.container.type + Specimen.container.capacity | siehe auch [ConceptMap](https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ConceptMap/mii-cm-biobank-long-term-storage-sprec-sct) |
+|Long-term storage| Specimen.processing:lagerprozess.extension:temperaturbedingungen + Specimen.container.type + Specimen.container.capacity | siehe auch [ConceptMap](https://simplifier.net/resolve?scope=&canonical=https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ConceptMap/mii-cm-biobank-long-term-storage-sprec-sct) |
 |Type of collection| Specimen.collection.method ||
 |Warm ischemia time| Specimen.collection.extension:einstellungBlutversorgung + Specimen.collection.collectedDateTime | Berechung aus zwei konkreten Zeitangaben. |
 |Cold ischemia time| Specimen.processing:lagerprozess.timePeriod | Der Transport einer Gewebeprobe kann als Lagerprozess bei Raumtemperatur modelliert werden. |
-|Fixation/stabilization type| Specimen.processing.type + Specimen.processing.additive | siehe auch [ConceptMap](https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ConceptMap/mii-cm-biobank-fixation-type-sprec-sct) |
+|Fixation/stabilization type| Specimen.processing.type + Specimen.processing.additive | siehe auch [ConceptMap](https://simplifier.net/resolve?scope=&canonical=https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ConceptMap/mii-cm-biobank-fixation-type-sprec-sct) |
 |Fixation time| Specimen.processing.timePeriod | |
