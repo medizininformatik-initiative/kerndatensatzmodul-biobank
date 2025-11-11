@@ -28,15 +28,23 @@ Das Spanish Network of Biobanks  und das Spanish National Release Center haben s
 |----------|-------------|
 | 1001000257109 |  Centrifugation at less than 1000g (relative centrifugal force) for 30 minutes without braking ramp at room temperature between 18 and 28 degrees Celsius |
 | 911000257109 |  Centrifugation at less than 3000g (relative centrifugal force) between 10 and 15 minutes with braking ramp at room temperature between 18 and 28 degrees Celsius |
-| 931000257100 |  Centrifugation at less than 3000g (relative centrifugal force) between 10 and 15 minutes with braking ramp at temperature between 2 and 10 degrees Celsius|
-| 901000257107 | Centrifugation at less than 3000g (relative centrifugal force) between 10 and 15 minutes without braking ramp at room temperature between 18 and 28 degrees Celsius |
+| 931000257100 |  Centrifugation at less than 3000g (relative centrifugal force) between 10 and 15 minutes with braking ramp at temperature between 2 and 10 degrees Celsius |
+| 901000257107 |  Centrifugation at less than 3000g (relative centrifugal force) between 10 and 15 minutes without braking ramp at room temperature between 18 and 28 degrees Celsius |
 | 921000257102 |  Centrifugation at less than 3000g (relative centrifugal force) between 10 and 15 minutes without braking ramp at temperature between 2 and 10 degrees Celsius |
+| 2094511000122105 |  Centrifugation at less than 3000g (relative centrifugal force) more than 15 minutes with braking ramp at temperature between 2 and 10 degrees Celsius |
+| 2094501000122107 |  Centrifugation at less than 3000g (relative centrifugal force) more than 15 minutes without braking ramp at temperature between 2 and 10 degrees Celsius |
 | 981000257101 |  Centrifugation at more than 10000g (relative centrifugal force) between 10 and 15 minutes with braking ramp at room temperature between 18 and 28 degrees Celsius |
 | 991000257104 |  Centrifugation at more than 10000g (relative centrifugal force) between 10 and 15 minutes with braking ramp at temperature between 2 and 10 degrees Celsius |
+| 2094521000122104 |  Centrifugation between 10000 y 80000g (relative centrifugal force) between 30 and 120 minutes with braking ramp at temperature between 2 and 10 degrees Celsius |
+| 2094491000122101 |  Centrifugation between 3000 - 6000 g (relative centrifugal force) in less than 10 minutes without brake ramp at room temperature between 18 and 28 degrees Celsius |
 | 941000257105 |  Centrifugation between 3000 and 6000g (relative centrifugal force) between 10 and 15 minutes with braking ramp at room temperature between 18 and 28 degrees Celsius |
 | 951000257108 |  Centrifugation between 3000 and 6000g (relative centrifugal force) between 10 and 15 minutes with braking ramp at room temperature between 2 and 10 degrees Celsius |
-| 961000257106 | Centrifugation between 6000 and 10000g (relative centrifugal force) between 10 and 15 minutes with braking ramp at room temperature between 18 and 28 degrees Celsius |
+| 2094541000122109 |  Centrifugation between 3000 and 6000g (relative centrifugal force) 15 to 30 minutes with brake ramp at room temperature between 18 and 28 degrees Celsius |
+| 2094551000122106 |  Centrifugation between 3000 and 6000g (relative centrifugal force) 15 to 30 minutes without brake ramp at room temperature between 18 and 28 degrees Celsius |
+| 2094561000122108 |  Centrifugation between 3000 and 6000g (relative centrifugal force) 30 to 60 minutes without brake ramp at room temperature between 18 and 28 degrees Celsius |
+| 961000257106 |  Centrifugation between 6000 and 10000g (relative centrifugal force) between 10 and 15 minutes with braking ramp at room temperature between 18 and 28 degrees Celsius |
 | 971000257103 |  Centrifugation between 6000 and 10000g (relative centrifugal force) between 10 and 15 minutes with braking ramp at room temperature between 2 and 10 degrees Celsius |
+| 2094531000122101 |  Ultracentrifugation at more than 80000g (relative centrifugal force) at temperature between 2 and 10 degrees Celsius |
 
 Für die Achsen des SPREC, die sich bereits auf existierende SNOMED Codes mappen lassen, wurden ConceptMaps entwickelt. Diese umfassen nicht immer alle möglichen Ausprägungen, da aufgrund der SPREC Werte nicht immer ein eindeutiges Mapping möglich ist. Hier sollte ein Mapping aufgrund der im Quellsystem verfügbaren Daten erfolgen, alternativ kann auf die oben beschriebenen spanischen Codes ausgewichen werden.
 
