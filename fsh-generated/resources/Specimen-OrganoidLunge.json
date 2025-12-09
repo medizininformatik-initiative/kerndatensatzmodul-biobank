@@ -32,7 +32,7 @@
           "valueCoding": {
             "code": "TP53",
             "system": "http://www.genenames.org",
-            "display": "Tumor protein p53"
+            "display": "tumor protein p53"
           }
         },
         {

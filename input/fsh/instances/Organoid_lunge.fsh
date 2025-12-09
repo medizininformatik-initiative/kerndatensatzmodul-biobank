@@ -6,7 +6,7 @@ Usage: #example
 * extension[kulturprotokoll].valueReference = Reference(Kulturprotokoll)
 
 * extension[modifikationen].extension[artDerModifikation].valueCodeableConcept = http://purl.obolibrary.org/obo/clo.owl#CLO:0037375 "derived from cell with knockout gene"
-* extension[modifikationen].extension[zielGen].valueCoding = http://www.genenames.org#TP53 "Tumor protein p53"
+* extension[modifikationen].extension[zielGen].valueCoding = http://www.genenames.org#TP53 "tumor protein p53"
 * extension[modifikationen].extension[protokoll].valueReference = Reference(ProtocolCRISPRTP53)
 
 * extension[anzahlPassagen].valueInteger = 3
