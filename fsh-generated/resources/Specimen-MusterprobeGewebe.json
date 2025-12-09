@@ -24,7 +24,7 @@
       "valueCoding": {
         "code": "ALIQUOTGRUPPE",
         "system": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/CodeSystem/mii-cs-biobank-probenebene",
-        "display": "Aliqoutgruppe"
+        "display": "Aliquotgruppe"
       }
     }
   ],

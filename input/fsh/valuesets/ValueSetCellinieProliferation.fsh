@@ -9,6 +9,8 @@ Description: "Proliferationstatus einer Zellinie/eines Organoids"
 * insert LicenseCodeableCCBY40
 * insert SNOMED_Copyright
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+* ^experimental = false
+* ^description = "Value Set for Proliferation Status of Cell Lines/Organoids"
 
 * include http://purl.obolibrary.org/obo/pato.owl#PATO:0001422 "dead"
 * include http://purl.obolibrary.org/obo/pato.owl#PATO:0001991 "immortal"

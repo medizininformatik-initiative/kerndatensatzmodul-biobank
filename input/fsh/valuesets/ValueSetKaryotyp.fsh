@@ -8,6 +8,8 @@ Title: "MII VS Biobank Karyotyp SCT"
 * insert LicenseCodeableCCBY40
 * insert SNOMED_Copyright
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+* ^experimental = false
+* ^description = "Value Set for Karyotypes (SNOMED CT)"
 
 * include $SCT#27159004 "Haploidy (cell structure)"
 * include $SCT#89304008 "Diploidy (cell structure)"

@@ -10,6 +10,8 @@ Description: "Erlaubte UCUM-Einheiten für DNA-Konzentrationen."
 * insert UCUM_Copyright
 
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+* ^experimental = false
+* ^description = "Value Set for DNA Concentration Units (UCUM)"
 
 * include http://unitsofmeasure.org#ng/uL "nanogram per microliter"
 * include http://unitsofmeasure.org#pg/uL "picogram per microliter"

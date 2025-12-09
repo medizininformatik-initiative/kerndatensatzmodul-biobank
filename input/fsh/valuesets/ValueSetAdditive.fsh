@@ -8,5 +8,7 @@ Title: "MII VS Biobank Substance Additive"
 * insert LicenseCodeableCCBY40
 * insert SNOMED_Copyright
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+* ^experimental = false
+* ^description = "Value Set for Substance Additives (SNOMED CT)"
 
 * include codes from system $SCT where concept descendent-of #105590001

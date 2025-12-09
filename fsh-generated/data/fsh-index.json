@@ -557,7 +557,7 @@
     "fshType": "ValueSet",
     "fshFile": "valuesets\\ValueSetSCTBodyStructure.fsh",
     "startLine": 1,
-    "endLine": 12
+    "endLine": 14
   },
   {
     "outputFile": "ValueSet-mii-vs-biobank-cellline-modification-clo.json",
@@ -565,7 +565,7 @@
     "fshType": "ValueSet",
     "fshFile": "valuesets\\ValueSetModifikationen.fsh",
     "startLine": 1,
-    "endLine": 15
+    "endLine": 17
   },
   {
     "outputFile": "ValueSet-mii-vs-biobank-cellline-morphology-sct.json",
@@ -573,7 +573,7 @@
     "fshType": "ValueSet",
     "fshFile": "valuesets\\ValueSetCellLineMorphologie.fsh",
     "startLine": 1,
-    "endLine": 13
+    "endLine": 15
   },
   {
     "outputFile": "ValueSet-mii-vs-biobank-cellline-proliferation.json",
@@ -581,7 +581,7 @@
     "fshType": "ValueSet",
     "fshFile": "valuesets\\ValueSetCellinieProliferation.fsh",
     "startLine": 1,
-    "endLine": 17
+    "endLine": 19
   },
   {
     "outputFile": "ValueSet-mii-vs-biobank-containertyp-sct.json",
@@ -589,7 +589,7 @@
     "fshType": "ValueSet",
     "fshFile": "valuesets\\ValueSetContainertyp.fsh",
     "startLine": 1,
-    "endLine": 12
+    "endLine": 14
   },
   {
     "outputFile": "ValueSet-mii-vs-biobank-dna-concentration-units-ucum.json",
@@ -597,7 +597,7 @@
     "fshType": "ValueSet",
     "fshFile": "valuesets\\ValueSetDNAKonzentrationUnits.fsh",
     "startLine": 1,
-    "endLine": 15
+    "endLine": 17
   },
   {
     "outputFile": "ValueSet-mii-vs-biobank-karyotyp-sct.json",
@@ -605,7 +605,7 @@
     "fshType": "ValueSet",
     "fshFile": "valuesets\\ValueSetKaryotyp.fsh",
     "startLine": 1,
-    "endLine": 15
+    "endLine": 17
   },
   {
     "outputFile": "ValueSet-mii-vs-biobank-laboratory-procedure-sct.json",
@@ -613,7 +613,7 @@
     "fshType": "ValueSet",
     "fshFile": "valuesets\\ValueSetSCTLaboratoryProcedure.fsh",
     "startLine": 1,
-    "endLine": 12
+    "endLine": 14
   },
   {
     "outputFile": "ValueSet-mii-vs-biobank-probenart-sct.json",
@@ -621,7 +621,7 @@
     "fshType": "ValueSet",
     "fshFile": "valuesets\\ValueSetProbenart.fsh",
     "startLine": 1,
-    "endLine": 12
+    "endLine": 14
   },
   {
     "outputFile": "ValueSet-mii-vs-biobank-probenebene.json",
@@ -629,7 +629,7 @@
     "fshType": "ValueSet",
     "fshFile": "valuesets\\ValueSetProbenebene.fsh",
     "startLine": 1,
-    "endLine": 11
+    "endLine": 13
   },
   {
     "outputFile": "ValueSet-mii-vs-biobank-substance-additive-sct.json",
@@ -637,7 +637,7 @@
     "fshType": "ValueSet",
     "fshFile": "valuesets\\ValueSetAdditive.fsh",
     "startLine": 1,
-    "endLine": 12
+    "endLine": 14
   },
   {
     "outputFile": "ValueSet-mii-vs-biobank-wachstumstyp-clo.json",
@@ -645,6 +645,6 @@
     "fshType": "ValueSet",
     "fshFile": "valuesets\\ValueSetWachstumstyp.fsh",
     "startLine": 1,
-    "endLine": 14
+    "endLine": 16
   }
 ]

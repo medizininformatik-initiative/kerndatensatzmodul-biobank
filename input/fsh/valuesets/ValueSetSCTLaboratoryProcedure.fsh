@@ -8,5 +8,7 @@ Title: "MII VS Biobank Laboratory Procedure SCT"
 * insert LicenseCodeableCCBY40
 * insert SNOMED_Copyright
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+* ^experimental = false
+* ^description = "Value Set for Specimen Processing Laboratory Procedures (SNOMED CT)"
 
 * include codes from system $SCT where concept descendent-of #108252007

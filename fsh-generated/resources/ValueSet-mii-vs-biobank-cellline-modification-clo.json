@@ -4,7 +4,7 @@
   "name": "MII_VS_Biobank_Cellline_Modification_CLO",
   "id": "mii-vs-biobank-cellline-modification-clo",
   "title": "MII VS Biobank Cellline Modification CLO",
-  "description": "Arten der Modifikationen an einer Zellinie",
+  "description": "Value Set for Types of Cell Line Modifications (CLO)",
   "version": "2026.0.0-ballot",
   "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/mii-vs-biobank-cellline-modification-clo",
   "publisher": "Medizininformatik Initiative",
@@ -38,6 +38,7 @@
       "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
     ]
   },
+  "experimental": false,
   "compose": {
     "include": [
       {

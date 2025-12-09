@@ -7,5 +7,7 @@ Title: "MII VS Biobank Probenebene"
 * insert PR_CS_VS_Date
 * insert LicenseCodeableCCBY40
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+* ^experimental = false
+* ^description = "Value Set for specimen hierarchy levels in Biobanking"
 
 * include codes from system MII_CS_Biobank_Probenebene

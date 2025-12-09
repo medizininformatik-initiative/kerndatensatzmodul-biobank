@@ -9,5 +9,7 @@ Description: "Beschreibt die morphologischen Eigenschaften von Zelllinien"
 * insert LicenseCodeableCCBY40
 * insert SNOMED_Copyright
 * ^meta.profile = "http://hl7.org/fhir/StructureDefinition/shareablevalueset"
+* ^experimental = false
+* ^description = "Value Set for Morphological Characteristics of Cell Lines"
 
 * include codes from system $SCT where concept descendent-of #107673000
