@@ -1,0 +1,34 @@
+name: CI (FHIR Validation )
+
+on:
+  push:
+    branches: [ master, main ]
+    tags:
+    - 'v[0-9]+.[0-9]+.[0-9]+*'
+  pull_request:
+    branches: [ master, main ]
+  workflow_dispatch:
+  release:
+    types: [published]
+
+jobs:
+  DOTNET_FHIR_VALIDATION:
+    if: github.event_name != 'release'
+    uses: ./.github/workflows/ci_dotnet_validation.yml
+    with:
+      ref: ${{ github.event.pull_request.head.ref || github.ref }}
+      SUSHI_VERSION: ${{ vars.SUSHI_VERSION }}
+    secrets: inherit
+
+  JAVA_FHIR_VALIDATION:
+    if: github.event_name != 'release'
+    uses: ./.github/workflows/ci_java_validation.yml
+    with:
+      ref: ${{ github.event.pull_request.head.ref || github.ref }}
+      PATH_TO_CONFORMANCE_RESOURCES: fsh-generated/resources
+      PATH_TO_EXAMPLES: fsh-generated/resources
+      JAVA_VALIDATION_ENABLED: true
+      JAVA_VALIDATION_OPTIONS: ${{ vars.JAVA_VALIDATION_OPTIONS }}
+      JAVA_VALIDATOR_VERSION: ${{ vars.JAVA_VALIDATOR_VERSION }}
+    secrets: inherit
+
