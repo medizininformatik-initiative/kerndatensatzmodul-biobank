@@ -36,7 +36,7 @@ Usage: #example
 
 * processing[+].extension[temperaturbedingungen].valueRange.low.value = -85
 * processing[=].extension[temperaturbedingungen].valueRange.high.value = -60
-* processing[=].extension[temperature-miabis].valueCodeableConcept.coding[0] = https://fhir.bbmri-eric.eu/fhir/CodeSystem/miabis-sample-storage-temperature#-60to-85 "between -60 and -85 degrees Celsius"
+* processing[=].extension[temperature-miabis].valueCodeableConcept.coding[0] = https://fhir.bbmri-eric.eu/fhir/CodeSystem/miabis-storage-temperature#-60to-85 "between -60 and -85 degrees Celsius"
 * processing[=].procedure.coding[+] =  $SCT#1186936003 "Storage of specimen (procedure)"
 * processing[=].procedure.coding[+] = $SCT#27872000 "Specimen freezing (procedure)"
 * processing[=].timePeriod.start = "2018-06-08T15:49:00+01:00"
