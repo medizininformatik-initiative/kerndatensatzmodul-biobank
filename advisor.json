@@ -4,6 +4,10 @@
     "VALIDATION_HL7_WG_NEEDED",
     "UNABLE_TO_INFER_CODESYSTEM",
     "MSG_DRAFT@SearchParameter.extension[0].value.ofType(CodeableConcept)",
-    "http://hl7.org/fhir/StructureDefinition/DomainResource#dom-6"
+    "http://hl7.org/fhir/StructureDefinition/DomainResource#dom-6",
+    "Observation.​component[1].​value.​ofType(CodeableConcept)",
+    "StructureDefinition.​snapshot.​element[109]",
+    "StructureDefinition.​snapshot.​element[121]",
+    "StructureDefinition.​snapshot.​element[124]"
   ]
 }
