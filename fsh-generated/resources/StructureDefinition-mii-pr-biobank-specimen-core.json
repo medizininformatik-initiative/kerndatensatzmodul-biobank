@@ -1096,7 +1096,7 @@
           "discriminator": [
             {
               "type": "value",
-              "path": "$this.procedure.coding"
+              "path": "$this.procedure"
             }
           ],
           "rules": "open"

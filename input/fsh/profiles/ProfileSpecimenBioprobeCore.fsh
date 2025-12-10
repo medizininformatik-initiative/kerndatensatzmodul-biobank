@@ -202,7 +202,7 @@ and processing.timePeriod and processing.procedure and processing.additive and r
 * processing.additive only Reference(MII_PR_Biobank_Substance_Additiv)
 
 * processing ^slicing.discriminator.type = #value
-* processing ^slicing.discriminator.path = "$this.procedure.coding"
+* processing ^slicing.discriminator.path = "$this.procedure"
 * processing ^slicing.rules = #open
 
 * processing contains lagerprozess 0..* MS
