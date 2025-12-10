@@ -209,7 +209,7 @@ and processing.timePeriod and processing.procedure and processing.additive and r
 * processing[lagerprozess].time[x] 1..1
 * processing[lagerprozess].time[x] only Period
 * processing[lagerprozess].timePeriod.start 1..1
-* processing[lagerprozess].procedure.coding = $SCT#1186936003
+* processing[lagerprozess].procedure = $SCT#1186936003
 
 * processing.procedure 1..1 MS
 

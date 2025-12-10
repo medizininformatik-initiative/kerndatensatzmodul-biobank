@@ -1489,15 +1489,14 @@
       {
         "id": "Specimen.processing:lagerprozess.procedure",
         "path": "Specimen.processing.procedure",
-        "min": 1
-      },
-      {
-        "id": "Specimen.processing:lagerprozess.procedure.coding",
-        "path": "Specimen.processing.procedure.coding",
         "min": 1,
-        "patternCoding": {
-          "code": "1186936003",
-          "system": "http://snomed.info/sct"
+        "patternCodeableConcept": {
+          "coding": [
+            {
+              "code": "1186936003",
+              "system": "http://snomed.info/sct"
+            }
+          ]
         }
       },
       {
