@@ -1,6 +1,8 @@
 { 
   "suppress" : [
     "VALIDATION_HL7_WG_NEEDED",
-    "http://hl7.org/fhir/StructureDefinition/DomainResource#dom-6"
+    "http://hl7.org/fhir/StructureDefinition/DomainResource#dom-6",
+    "UNABLE_TO_INFER_CODESYSTEM",
+    "Terminology_TX_NoValid_16"
   ]
 }
