@@ -63,15 +63,6 @@
               "valueCode": "SHALL"
             }
           ],
-          "profile": "http://hl7.org/fhir/StructureDefinition/Specimen",
-          "_profile": {
-            "extension": [
-              {
-                "url": "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation",
-                "valueCode": "SHALL"
-              }
-            ]
-          },
           "supportedProfile": [
             "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/Specimen|2026.0.0",
             "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/mii-pr-biobank-zellinie-organoid|2026.0.0"
@@ -172,7 +163,7 @@
             },
             {
               "name": "probenebene",
-              "definition": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/SearchParameter/mii-sp-biobank-specimen-probenebene",
+              "definition": "https://www.medizininformatik-initiative.de/fhir/ext/modul-meta/SearchParameter/mii-sp-meta-specimen-probenebene",
               "type": "token",
               "extension": [
                 {
@@ -183,7 +174,7 @@
             },
             {
               "name": "gehoert-zu",
-              "definition": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/SearchParameter/mii-sp-biobank-specimen-gehoert-zu",
+              "definition": "https://www.medizininformatik-initiative.de/fhir/ext/modul-meta/SearchParameter/mii-sp-meta-specimen-gehoert-zu",
               "type": "reference",
               "extension": [
                 {
@@ -194,7 +185,7 @@
             },
             {
               "name": "anzahl-aliqouts",
-              "definition": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/SearchParameter/mii-sp-biobank-specimen-anzahl-aliquots",
+              "definition": "https://www.medizininformatik-initiative.de/fhir/ext/modul-meta/SearchParameter/mii-sp-meta-specimen-anzahl-aliquots",
               "type": "number",
               "extension": [
                 {
@@ -282,7 +273,7 @@
             },
             {
               "name": "einstellung-blutversorgung",
-              "definition": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/SearchParameter/mii-sp-biobank-specimen-einstellung-blutversorgung",
+              "definition": "https://www.medizininformatik-initiative.de/fhir/ext/modul-meta/SearchParameter/mii-sp-meta-specimen-einstellung-blutversorgung",
               "type": "date",
               "extension": [
                 {
@@ -315,7 +306,7 @@
             },
             {
               "name": "fasting-status",
-              "definition": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/SearchParameter/mii-sp-biobank-specimen-fasting-status",
+              "definition": "https://www.medizininformatik-initiative.de/fhir/ext/modul-meta/SearchParameter/mii-sp-meta-specimen-fasting-status",
               "type": "token",
               "extension": [
                 {
@@ -326,7 +317,7 @@
             },
             {
               "name": "processing-temp",
-              "definition": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/SearchParameter/mii-sp-biobank-specimen-processing-temp",
+              "definition": "https://www.medizininformatik-initiative.de/fhir/ext/modul-meta/SearchParameter/mii-sp-meta-specimen-processing-temp",
               "type": "quantity",
               "extension": [
                 {
@@ -381,7 +372,7 @@
             },
             {
               "name": "container-capacity",
-              "definition": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/SearchParameter/mii-sp-biobank-specimen-container-capacity",
+              "definition": "https://www.medizininformatik-initiative.de/fhir/ext/modul-meta/SearchParameter/mii-sp-meta-specimen-container-capacity",
               "type": "quantity",
               "extension": [
                 {
@@ -392,7 +383,7 @@
             },
             {
               "name": "container-specimen-quantity",
-              "definition": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/SearchParameter/mii-sp-biobank-specimen-container-specimen-quantity",
+              "definition": "https://www.medizininformatik-initiative.de/fhir/ext/modul-meta/SearchParameter/mii-sp-meta-specimen-container-specimen-quantity",
               "type": "quantity",
               "extension": [
                 {
@@ -414,7 +405,7 @@
             },
             {
               "name": "note",
-              "definition": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/SearchParameter/mii-sp-biobank-specimen-note",
+              "definition": "https://www.medizininformatik-initiative.de/fhir/ext/modul-meta/SearchParameter/mii-sp-meta-specimen-note",
               "type": "string",
               "extension": [
                 {
@@ -425,7 +416,7 @@
             },
             {
               "name": "kulturprotokoll",
-              "definition": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/SearchParameter/mii-sp-biobank-specimen-kulturprotokoll",
+              "definition": "https://www.medizininformatik-initiative.de/fhir/ext/modul-meta/SearchParameter/mii-sp-meta-specimen-kulturprotokoll",
               "type": "reference",
               "extension": [
                 {
@@ -436,7 +427,7 @@
             },
             {
               "name": "anzahl-passagen",
-              "definition": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/SearchParameter/mii-sp-biobank-specimen-anzahl-passagen",
+              "definition": "https://www.medizininformatik-initiative.de/fhir/ext/modul-meta/SearchParameter/mii-sp-meta-specimen-anzahl-passagen",
               "type": "number",
               "extension": [
                 {
@@ -447,7 +438,7 @@
             },
             {
               "name": "modifikationen",
-              "definition": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/SearchParameter/mii-sp-biobank-specimen-modifikationen",
+              "definition": "https://www.medizininformatik-initiative.de/fhir/ext/modul-meta/SearchParameter/mii-sp-meta-specimen-modifikationen",
               "type": "composite",
               "extension": [
                 {
@@ -466,15 +457,6 @@
               "valueCode": "SHALL"
             }
           ],
-          "profile": "http://hl7.org/fhir/StructureDefinition/Substance",
-          "_profile": {
-            "extension": [
-              {
-                "url": "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation",
-                "valueCode": "SHALL"
-              }
-            ]
-          },
           "supportedProfile": [
             "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/Substance|2026.0.0"
           ],
@@ -585,15 +567,6 @@
               "valueCode": "SHALL"
             }
           ],
-          "profile": "http://hl7.org/fhir/StructureDefinition/Organization",
-          "_profile": {
-            "extension": [
-              {
-                "url": "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation",
-                "valueCode": "SHALL"
-              }
-            ]
-          },
           "supportedProfile": [
             "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/Organization|2026.0.0"
           ],
@@ -674,7 +647,7 @@
             },
             {
               "name": "beschreibung",
-              "definition": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/SearchParameter/mii-sp-biobank-organization-beschreibung",
+              "definition": "https://www.medizininformatik-initiative.de/fhir/ext/modul-meta/SearchParameter/mii-sp-meta-organization-beschreibung",
               "type": "string",
               "extension": [
                 {
@@ -685,7 +658,7 @@
             },
             {
               "name": "collection-setting",
-              "definition": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/SearchParameter/mii-sp-biobank-organization-collection-setting",
+              "definition": "https://www.medizininformatik-initiative.de/fhir/ext/modul-meta/SearchParameter/mii-sp-meta-organization-collection-setting",
               "type": "token",
               "extension": [
                 {
@@ -696,7 +669,7 @@
             },
             {
               "name": "collection-design",
-              "definition": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/SearchParameter/mii-sp-biobank-organization-collection-design",
+              "definition": "https://www.medizininformatik-initiative.de/fhir/ext/modul-meta/SearchParameter/mii-sp-meta-organization-collection-design",
               "type": "token",
               "extension": [
                 {
@@ -729,7 +702,7 @@
             },
             {
               "name": "contact-rolle",
-              "definition": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/SearchParameter/mii-sp-biobank-organization-contact-rolle",
+              "definition": "https://www.medizininformatik-initiative.de/fhir/ext/modul-meta/SearchParameter/mii-sp-meta-organization-contact-rolle",
               "type": "token",
               "extension": [
                 {
@@ -748,15 +721,6 @@
               "valueCode": "SHALL"
             }
           ],
-          "profile": "http://hl7.org/fhir/StructureDefinition/Observation",
-          "_profile": {
-            "extension": [
-              {
-                "url": "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation",
-                "valueCode": "SHALL"
-              }
-            ]
-          },
           "supportedProfile": [
             "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/mii-pr-biobank-observation-dna-konzentration|2026.0.0",
             "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/mii-pr-biobank-observation-karyotyp|2026.0.0",
