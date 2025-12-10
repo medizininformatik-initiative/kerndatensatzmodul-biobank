@@ -19,3 +19,11 @@ jobs:
       JAVA_VALIDATION_OPTIONS: ${{ vars.JAVA_VALIDATION_OPTIONS }}
       JAVA_VALIDATOR_VERSION: ${{ vars.JAVA_VALIDATOR_VERSION }}
     secrets: inherit
+
+  DOTNET_FHIR_VALIDATION:
+    if: github.event_name != 'release'
+    uses: medizininformatik-initiative/kerndatensatz-meta/.github/workflows/ci_dotnet_validation.yml
+    with:
+      ref: ${{ github.event.pull_request.head.ref || github.ref }}
+      SUSHI_VERSION: ${{ vars.SUSHI_VERSION }}
+    secrets: inherit
