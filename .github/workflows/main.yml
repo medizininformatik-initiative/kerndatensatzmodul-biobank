@@ -22,7 +22,7 @@ jobs:
 
   DOTNET_FHIR_VALIDATION:
     if: github.event_name != 'release'
-    uses: medizininformatik-initiative/kerndatensatz-meta/.github/workflows/ci_dotnet_validation.yml
+    uses: medizininformatik-initiative/kerndatensatz-meta/.github/workflows/ci_dotnet_validation.yml@master
     with:
       ref: ${{ github.event.pull_request.head.ref || github.ref }}
       SUSHI_VERSION: ${{ vars.SUSHI_VERSION }}
