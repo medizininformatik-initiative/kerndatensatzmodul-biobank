@@ -304,6 +304,11 @@
         "patternUri": "https://fhir.bbmri-eric.eu/fhir/CodeSystem/miabis-detailed-samply-type-cs"
       },
       {
+        "id": "Specimen.collection.method",
+        "path": "Specimen.collection.method",
+        "mustSupport": true
+      },
+      {
         "id": "Specimen.processing",
         "path": "Specimen.processing"
       },
