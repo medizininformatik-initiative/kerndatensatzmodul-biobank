@@ -206,6 +206,7 @@ and processing.timePeriod and processing.procedure and processing.additive and r
 * processing ^slicing.rules = #open
 
 * processing contains lagerprozess 0..* MS
+* processing[lagerprozess].extension 1..* MS
 * processing[lagerprozess].time[x] 1..1
 * processing[lagerprozess].time[x] only Period
 * processing[lagerprozess].timePeriod.start 1..1
