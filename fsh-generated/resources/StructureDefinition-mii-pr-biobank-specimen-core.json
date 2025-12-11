@@ -1544,6 +1544,11 @@
         "mustSupport": true
       },
       {
+        "id": "Specimen.processing:lagerprozess.extension",
+        "path": "Specimen.processing.extension",
+        "mustSupport": true
+      },
+      {
         "id": "Specimen.processing:lagerprozess.extension:temperaturbedingungen",
         "path": "Specimen.processing.extension",
         "sliceName": "temperaturbedingungen",
