@@ -4,7 +4,7 @@
   "name": "MII_VS_Biobank_BodyStructures_SCT",
   "id": "mii-vs-biobank-body-structures-sct",
   "title": "MII VS Biobank BodyStructures SCT",
-  "version": "2026.0.0-ballot",
+  "version": "2026.0.0",
   "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/mii-vs-biobank-body-structures-sct",
   "publisher": "Medizininformatik Initiative",
   "contact": [

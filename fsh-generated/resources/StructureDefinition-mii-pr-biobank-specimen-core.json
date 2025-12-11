@@ -16,7 +16,7 @@
     }
   ],
   "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/SpecimenCore",
-  "version": "2026.0.0-ballot",
+  "version": "2026.0.0",
   "name": "MII_PR_Biobank_Specimen_Bioprobe_Core",
   "_name": {
     "extension": [
@@ -137,6 +137,20 @@
         "id": "Specimen.meta.profile",
         "path": "Specimen.meta.profile",
         "mustSupport": true
+      },
+      {
+        "id": "Specimen.extension",
+        "path": "Specimen.extension",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "value",
+              "path": "url"
+            }
+          ],
+          "ordered": false,
+          "rules": "open"
+        }
       },
       {
         "id": "Specimen.extension:feature",
@@ -685,6 +699,20 @@
         }
       },
       {
+        "id": "Specimen.collection.extension",
+        "path": "Specimen.collection.extension",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "value",
+              "path": "url"
+            }
+          ],
+          "ordered": false,
+          "rules": "open"
+        }
+      },
+      {
         "id": "Specimen.collection.extension:einstellungBlutversorgung",
         "path": "Specimen.collection.extension",
         "sliceName": "einstellungBlutversorgung",
@@ -1199,6 +1227,16 @@
       {
         "id": "Specimen.processing.extension",
         "path": "Specimen.processing.extension",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "value",
+              "path": "url"
+            }
+          ],
+          "ordered": false,
+          "rules": "open"
+        },
         "min": 1
       },
       {

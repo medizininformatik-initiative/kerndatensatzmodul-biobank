@@ -5,7 +5,7 @@
   "id": "mii-vs-biobank-dna-concentration-units-ucum",
   "title": "MII VS Biobank DNA Concentration Units UCUM",
   "description": "Value Set for DNA Concentration Units (UCUM)",
-  "version": "2026.0.0-ballot",
+  "version": "2026.0.0",
   "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/mii-vs-biobank-dna-concentration-units-ucum",
   "publisher": "Medizininformatik Initiative",
   "contact": [

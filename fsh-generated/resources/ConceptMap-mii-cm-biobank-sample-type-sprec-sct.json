@@ -4,7 +4,7 @@
   "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ConceptMap/mii-cm-biobank-sample-type-sprec-sct",
   "title": "SPREC 4.0 Sample Type Mapping",
   "description": "Mapping der SPREC 4.0 Sample Types auf die im Modul verwendeten SNOMED CT Codes.",
-  "version": "2026.0.0-ballot",
+  "version": "2026.0.0",
   "publisher": "Medizininformatik Initiative",
   "contact": [
     {

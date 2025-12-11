@@ -4,7 +4,7 @@
   "name": "MII_VS_Biobank_Karyotyp_SCT",
   "id": "mii-vs-biobank-karyotyp-sct",
   "title": "MII VS Biobank Karyotyp SCT",
-  "version": "2026.0.0-ballot",
+  "version": "2026.0.0",
   "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/mii-vs-biobank-karyotyp-sct",
   "publisher": "Medizininformatik Initiative",
   "contact": [

@@ -1,7 +1,5 @@
 ## Beschreibung Modul 'Biobank'
 
-{{render:guides-mii-ig-biobanken-de-v2026-images-2025-06-12-de-kds-abb-1}}
-
 Bioproben werden prospektiv in Form von krankheitsspezifischen sowie populationsbezogenen Biobanken gesammelt. Sowohl die übergeordnete Biobank in ihrer Organisation, ihre verschiedenen Sammlungen in ihrem Fokus und ihrer Zusammensetzung, als auch die individuellen Proben müssen für eine sinnvolle Verwendung strukturiert beschrieben werden. Relevante Merkmale zur Probensammlung umfassen unter anderem die abgedeckten Krankheitsbilder, Probentypen und Zugangswege (hierbei handelt es sich um Metadaten). Probenspezifische Daten sollten Angaben zu Probentyp, Probenmaterial, Menge, Gewinnung, präanalytischer Verarbeitung (inkl. Aliquotierung, Pooling) und Lagerung enthalten. Klinische Daten zur Probe werden ausdrücklich nicht von diesem Modul abgedeckt, sondern sollten über die für die jeweilige Datenart vorgesehenen Modulen bereitgestellt werden.
 
 

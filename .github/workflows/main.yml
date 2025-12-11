@@ -20,7 +20,9 @@ jobs:
       JAVA_VALIDATOR_VERSION: ${{ vars.JAVA_VALIDATOR_VERSION }}
       VALIDATION_REPORT_INCLUDE: errors
       VALIDATION_REPORT_FILTERS: |
+        #Skip issue with LOINC defined VS
         Observation-QualitaetspruefungBuffyCoat.json||*There is no declared filter called LIST*|Observation.​component[1].​value.​ofType(CodeableConcept)
+        #Skip issue with CLO prefix
         Specimen-OrganoidLunge.json||*in the CodeSystem 'http://purl.obolibrary.org/obo/clo.owl'*|Specimen.​extension[1].​extension[0].​value.​ofType(CodeableConcept).​coding[0].​code
     secrets: inherit
 

@@ -2,6 +2,7 @@
   "resourceType": "StructureDefinition",
   "id": "mii-ex-biobank-feature-r5",
   "url": "http://hl7.org/fhir/5.0/StructureDefinition/extension-Specimen.feature",
+  "version": "2026.0.0",
   "name": "MII_EX_Biobank_Feature_R5",
   "title": "MII EX Biobank Feature R5",
   "status": "active",

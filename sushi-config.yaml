@@ -1,10 +1,11 @@
 FSHOnly: true
+version: 2026.0.0
 fhirVersion: 4.0.1
 canonical: https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank
 # name: "KDS Biobanken"
 status: active
 dependencies:
-  de.medizininformatikinitiative.kerndatensatz.meta: 2026.0.0
-  de.basisprofil.r4: 1.5.4
+  de.medizininformatikinitiative.kerndatensatz.meta: 2026.x.x
+  de.basisprofil.r4: 1.5.x
   eu.miabis.r4: 0.2.0
   #Removed onco denpendency a it lead to circular dependency issues

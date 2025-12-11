@@ -16,7 +16,7 @@
     }
   ],
   "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/VerwaltendeOrganisation",
-  "version": "2026.0.0-ballot",
+  "version": "2026.0.0",
   "name": "MII_EX_Biobank_Verwaltende_Organisation",
   "_name": {
     "extension": [

@@ -16,7 +16,7 @@
     }
   ],
   "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/mii-pr-biobank-observation-morphologie",
-  "version": "2026.0.0-ballot",
+  "version": "2026.0.0",
   "name": "MII_PR_Biobank_Observation_Morphologie",
   "_name": {
     "extension": [

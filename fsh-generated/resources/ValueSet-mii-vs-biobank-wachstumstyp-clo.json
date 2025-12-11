@@ -5,7 +5,7 @@
   "id": "mii-vs-biobank-wachstumstyp-clo",
   "title": "MII VS Biobank Wachstumpstyp CLO",
   "description": "Value Set for Cell Culture Growth Types (CLO)",
-  "version": "2026.0.0-ballot",
+  "version": "2026.0.0",
   "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/mii-vs-biobank-wachstumstyp-clo",
   "publisher": "Medizininformatik Initiative",
   "contact": [
