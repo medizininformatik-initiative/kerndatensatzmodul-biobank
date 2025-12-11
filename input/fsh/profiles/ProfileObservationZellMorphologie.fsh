@@ -25,9 +25,14 @@ Description: "Morphologie einer Zelline oder eines Organiods"
 //Profile
 
 * code 1..1 MS
+* code.coding.system 1..1 MS
+* code.coding.code 1..1 MS
 * code = http://purl.obolibrary.org/obo/pato.owl#PATO:0010006 "cell morphology"
 * focus 1..1 MS
 * focus only Reference(Specimen)
 * value[x] 1..1 MS
 * value[x] only CodeableConcept
 * valueCodeableConcept from MII_VS_Biobank_Cellline_Morphology_SCT (extensible)
+* valueCodeableConcept.coding 1..1 MS
+* valueCodeableConcept.coding.system 1..1 MS
+* valueCodeableConcept.coding.code 1..1 MS

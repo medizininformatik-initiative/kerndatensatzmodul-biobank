@@ -5,10 +5,10 @@ Im Folgenden werden die Use Cases des Moduls, sowie die dazugehörigen FHIR Prof
 
 | Veröffentlichung   |   |
 |---------|---|
-| Datum   | 09.09.2025 |
-| Version | 2026.0.0-ballot      |
-| Status  | Ballot       |
-| Realm   | DE          | 
+| Datum   | 11.12.2025 |
+| Version | 2026.0.0     |
+| Status  | Active       |
+| Realm   | DE/EN        | 
 
 ## Inhaltsverzeichnis
 
@@ -36,8 +36,12 @@ Anmerkungen und Kritik wird in Form von 'Issues' im Simplifier Projekt stets ger
 * Klar, Rhena - MIRACUM
 * Köhler, Stefanie - Central Biobank Erlangen (CeBE) 
 * Menche, Constantin - Deutsches Konsortium für Translationale Krebsforschung (DKTK)
+* Otto, Christoph - Experimentelle Viszeralchirurgie, Klinik für Chirurgie I, Universitätsklinikum Würzburg, Deutschland
+* Rech, Anne - Experimentelle Viszeralchirurgie, Klinik für Chirurgie I, Universitätsklinikum Würzburg, Deutschland
 * Rinaldi, Eugenia - HiGHmed
+* Roßmann, Kerstin - Experimentelle Viszeralchirurgie, Klinik für Chirurgie I, Universitätsklinikum Würzburg, Deutschland
 * Rößner, Miriam - MIRACUM
+* Saati, Mahasen - Experimentelle Viszeralchirurgie, Klinik für Chirurgie I, Universitätsklinikum Würzburg, Deutschland
 * Schönfeld, Ida - BioBank Dresden (BBD)
 * Siddiqui, Roman - MII-Koordinationsstelle
 * Skowronek, Patrick - UMM, DKFZ, DKTK, DZIF

@@ -5,7 +5,7 @@
   "id": "mii-vs-biobank-cellline-modification-clo",
   "title": "MII VS Biobank Cellline Modification CLO",
   "description": "Value Set for Types of Cell Line Modifications (CLO)",
-  "version": "2026.0.0-ballot",
+  "version": "2026.0.0",
   "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/mii-vs-biobank-cellline-modification-clo",
   "publisher": "Medizininformatik Initiative",
   "contact": [

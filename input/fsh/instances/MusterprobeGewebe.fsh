@@ -11,8 +11,8 @@ Usage: #example
 * identifier.system = "https://biobank.uk-musterstadt.de/fhir/sid/proben"
 * identifier.value = "6789"
 * status = #available
-* type.coding[+] = https://fhir.bbmri-eric.eu/fhir/CodeSystem/miabis-detailed-sample-type#TissueFreshFrozen "Tissue (fresh frozen)"
-* type.coding[+].system = $SCT#16214371000119104 "Specimen from lung obtained by needle biopsy (specimen)"
+* type.coding[miabis-type] = https://fhir.bbmri-eric.eu/fhir/CodeSystem/miabis-detailed-samply-type-cs#TissueFreshFrozen "Tissue (fresh frozen)"
+* type.coding[sct] = $SCT#16214371000119104 "Specimen from lung obtained by needle biopsy (specimen)"
 * subject.reference = "Patient/mii-exa-test-data-patient-1"
 
 * receivedTime = "2018-06-08T15:43:00+01:00"
@@ -32,14 +32,17 @@ Usage: #example
 * processing[=].extension[temperature-miabis].valueCodeableConcept = https://fhir.bbmri-eric.eu/fhir/CodeSystem/miabis-storage-temperature-cs#RT "Room temperature"
 * processing[=].procedure =  $SCT#1186936003 "Storage of specimen (procedure)"
 * processing[=].timePeriod.start = "2018-06-08T15:34:00+01:00"
-* processing[=].timePeriod.end = "2018-06-08T15:42:00+01:00"
+* processing[=].timePeriod.end = "2018-06-08T15:46:00+01:00"
 
 * processing[+].extension[temperaturbedingungen].valueRange.low.value = -85
 * processing[=].extension[temperaturbedingungen].valueRange.high.value = -60
-* processing[=].extension[temperature-miabis].valueCodeableConcept.coding[0] = https://fhir.bbmri-eric.eu/fhir/CodeSystem/miabis-sample-storage-temperature#-60to-85 "between -60 and -85 degrees Celsius"
+* processing[=].extension[temperature-miabis].valueCodeableConcept.coding[0] = https://fhir.bbmri-eric.eu/fhir/CodeSystem/miabis-storage-temperature-cs#-60to-85 "between -60 and -85 degrees Celsius"
 * processing[=].procedure.coding[+] =  $SCT#1186936003 "Storage of specimen (procedure)"
 * processing[=].procedure.coding[+] = $SCT#27872000 "Specimen freezing (procedure)"
 * processing[=].timePeriod.start = "2018-06-08T15:49:00+01:00"
 
 * container.type = http://snomed.info/sct#83059008 "Tube, device (physical object)"
-* container.specimenQuantity = 5 'g'
+* container.specimenQuantity.value = 5
+* container.specimenQuantity.system = $UCUM
+* container.specimenQuantity.code = #g
+* container.specimenQuantity.unit = "g"

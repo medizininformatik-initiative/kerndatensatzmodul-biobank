@@ -8,8 +8,8 @@ Usage: #example
 * identifier.system = "https://biobank.uk-musterstadt.de/fhir/sid/proben"
 * identifier.value = "12345"
 * status = #available
-* type.coding[+] = $SCT#122555007 "Venous blood specimen (specimen)"
-* type.coding[+] = https://fhir.bbmri-eric.eu/fhir/CodeSystem/miabis-detailed-samply-type-cs#WholeBlood "Whole blood"
+* type.coding[sct] = $SCT#122555007 "Venous blood specimen (specimen)"
+* type.coding[miabis-type] = https://fhir.bbmri-eric.eu/fhir/CodeSystem/miabis-detailed-samply-type-cs#WholeBlood "Whole blood"
 
 * subject.reference = "Patient/mii-exa-test-data-patient-1"
 * receivedTime = "2018-06-07T15:50:00+01:00"
@@ -19,12 +19,12 @@ Usage: #example
 * collection.method = $SCT#22778000 "Venipuncture (procedure)"
 * collection.bodySite = $SCT#128553008 "Structure of antecubital vein (body structure)"
 
-* processing[+].extension[temperaturbedingungen].valueRange.low.value = 15
-* processing[=].extension[temperaturbedingungen].valueRange.high.value = 25
-* processing[=].extension[temperature-miabis].valueCodeableConcept = https://fhir.bbmri-eric.eu/fhir/CodeSystem/miabis-storage-temperature-cs#RT "Room temperature"
-* processing[=].procedure =  $SCT#1186936003 "Storage of specimen (procedure)"
-* processing[=].timePeriod.start = "2018-06-07T15:54:00+01:00"
-* processing[=].timePeriod.end = "2018-06-07T16:27:00+01:00"
+* processing[lagerprozess].extension[temperaturbedingungen].valueRange.low.value = 15
+* processing[lagerprozess].extension[temperaturbedingungen].valueRange.high.value = 25
+* processing[lagerprozess].extension[temperature-miabis].valueCodeableConcept = https://fhir.bbmri-eric.eu/fhir/CodeSystem/miabis-storage-temperature-cs#RT "Room temperature"
+* processing[lagerprozess].procedure =  $SCT#1186936003 "Storage of specimen (procedure)"
+* processing[lagerprozess].timePeriod.start = "2018-06-07T15:54:00+01:00"
+* processing[lagerprozess].timePeriod.end = "2018-06-07T16:27:00+01:00"
 
 * processing[+].extension[temperaturbedingungen].valueRange.low.value = 15
 * processing[=].extension[temperaturbedingungen].valueRange.high.value = 25
@@ -34,6 +34,12 @@ Usage: #example
 * processing[=].timePeriod.end = "2018-06-07T16:37:00+01:00"
 
 * container.type = http://snomed.info/sct#83059008 "Tube, device (physical object)"
-* container.capacity = 10 'ml'
-* container.specimenQuantity = 10 'ml'
+* container.capacity.value = 10
+* container.capacity.system = $UCUM
+* container.capacity.code = #ml
+* container.capacity.unit = "ml"
+* container.specimenQuantity.value = 10
+* container.specimenQuantity.system = $UCUM
+* container.specimenQuantity.code = #ml
+* container.specimenQuantity.unit = "ml"
 * container.additiveReference = Reference(Heparin)

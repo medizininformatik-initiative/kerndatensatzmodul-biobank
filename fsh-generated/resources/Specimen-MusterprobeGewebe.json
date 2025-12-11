@@ -6,6 +6,39 @@
       "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/Specimen"
     ]
   },
+  "type": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "16214371000119104",
+        "display": "Specimen from lung obtained by needle biopsy (specimen)"
+      },
+      {
+        "system": "https://fhir.bbmri-eric.eu/fhir/CodeSystem/miabis-detailed-samply-type-cs",
+        "code": "TissueFreshFrozen",
+        "display": "Tissue (fresh frozen)"
+      }
+    ]
+  },
+  "container": [
+    {
+      "specimenQuantity": {
+        "system": "http://unitsofmeasure.org",
+        "value": 5,
+        "code": "g",
+        "unit": "g"
+      },
+      "type": {
+        "coding": [
+          {
+            "code": "83059008",
+            "system": "http://snomed.info/sct",
+            "display": "Tube, device (physical object)"
+          }
+        ]
+      }
+    }
+  ],
   "extension": [
     {
       "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/VerwaltendeOrganisation",
@@ -96,15 +129,15 @@
       "procedure": {
         "coding": [
           {
-            "code": "1186936003",
             "system": "http://snomed.info/sct",
+            "code": "1186936003",
             "display": "Storage of specimen (procedure)"
           }
         ]
       },
       "timePeriod": {
         "start": "2018-06-08T15:34:00+01:00",
-        "end": "2018-06-08T15:42:00+01:00"
+        "end": "2018-06-08T15:46:00+01:00"
       }
     },
     {
@@ -132,7 +165,7 @@
             "coding": [
               {
                 "code": "-60to-85",
-                "system": "https://fhir.bbmri-eric.eu/fhir/CodeSystem/miabis-sample-storage-temperature",
+                "system": "https://fhir.bbmri-eric.eu/fhir/CodeSystem/miabis-storage-temperature-cs",
                 "display": "between -60 and -85 degrees Celsius"
               }
             ]
@@ -142,8 +175,8 @@
       "procedure": {
         "coding": [
           {
-            "code": "1186936003",
             "system": "http://snomed.info/sct",
+            "code": "1186936003",
             "display": "Storage of specimen (procedure)"
           },
           {
@@ -165,18 +198,6 @@
     }
   ],
   "status": "available",
-  "type": {
-    "coding": [
-      {
-        "code": "TissueFreshFrozen",
-        "system": "https://fhir.bbmri-eric.eu/fhir/CodeSystem/miabis-detailed-sample-type",
-        "display": "Tissue (fresh frozen)"
-      },
-      {
-        "system": "16214371000119104"
-      }
-    ]
-  },
   "subject": {
     "reference": "Patient/mii-exa-test-data-patient-1"
   },
@@ -184,24 +205,6 @@
   "request": [
     {
       "reference": "ServiceRequest/GewebeBiopsie"
-    }
-  ],
-  "container": [
-    {
-      "type": {
-        "coding": [
-          {
-            "code": "83059008",
-            "system": "http://snomed.info/sct",
-            "display": "Tube, device (physical object)"
-          }
-        ]
-      },
-      "specimenQuantity": {
-        "value": 5,
-        "code": "g",
-        "system": "http://unitsofmeasure.org"
-      }
     }
   ]
 }

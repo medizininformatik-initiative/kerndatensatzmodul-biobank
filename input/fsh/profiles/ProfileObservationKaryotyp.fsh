@@ -26,10 +26,16 @@ Description: "Der an einer Zelline oder einem Organiod festgestellte Karyotyo"
 
 * code 1..1 MS
 * code = $SCT#734840008 "Karyotype (cell structure)"
+* code.coding 1..1 MS
+* code.coding.system 1..1 MS
+* code.coding.code 1..1 MS
 * focus 1..1 MS
 * focus only Reference(Specimen)
 * value[x] 1..1 MS
 * value[x] only CodeableConcept
 * valueCodeableConcept from MII_VS_Biobank_Karyotyp_SCT (extensible)
+* valueCodeableConcept.coding 1..1 MS
+* valueCodeableConcept.coding.system 1..1 MS
+* valueCodeableConcept.coding.code 1..1 MS
 
 * effective[x] 1..1 MS

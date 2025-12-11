@@ -9,8 +9,8 @@ Usage: #example
 * identifier.system = "https://biobank.uk-musterstadt.de/fhir/sid/proben"
 * identifier.value = "12345-PL"
 * status = #available
-* type.coding[+] = https://fhir.bbmri-eric.eu/fhir/CodeSystem/miabis-detailed-samply-type-cs#Plasma "Plasma"
-* type.coding[+] = $SCT#119361006 "Plasma specimen (specimen)"
+* type.coding[miabis-type] = https://fhir.bbmri-eric.eu/fhir/CodeSystem/miabis-detailed-samply-type-cs#Plasma "Plasma"
+* type.coding[sct] = $SCT#119361006 "Plasma specimen (specimen)"
 
 * subject.reference = "Patient/mii-exa-test-data-patient-1"
 * collection.collectedDateTime = "2018-06-07T15:54:00+01:00"
@@ -31,4 +31,7 @@ Usage: #example
 * processing[=].timePeriod.start = "2018-06-07T17:17:00+01:00"
 
 * container.type = http://snomed.info/sct#83059008 "Tube, device (physical object)"
-* container.specimenQuantity = 5 'ml'
+* container.specimenQuantity.value = 5
+* container.specimenQuantity.system = $UCUM
+* container.specimenQuantity.code = #ml
+* container.specimenQuantity.unit = "ml"

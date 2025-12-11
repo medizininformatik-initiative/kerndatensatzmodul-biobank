@@ -46,4 +46,12 @@ Description: "Abbildung einer MII Bioprobe"
 * type.coding contains miabis-type 0..1 MS
 * type.coding[miabis-type] from https://fhir.bbmri-eric.eu/fhir/ValueSet/miabis-detailed-sample-type-vs (required)
 * type.coding[miabis-type].system = "https://fhir.bbmri-eric.eu/fhir/CodeSystem/miabis-detailed-samply-type-cs"
+* collection.method MS
+* collection.method.coding MS
+* collection.method.coding.system 1..1 MS
+* collection.method.coding.code 1..1 MS
 * processing.extension contains https://fhir.bbmri-eric.eu/fhir/StructureDefinition/miabis-sample-storage-temperature-extension named temperature-miabis 0..1 MS
+* container 1.. MS
+* container.type.coding 1.. MS
+* container.type.coding.code 1.. MS
+* container.type.coding.system 1.. MS

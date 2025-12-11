@@ -24,7 +24,7 @@
   "valueCodeableConcept": {
     "coding": [
       {
-        "code": "274091000",
+        "code": "125393006",
         "system": "http://snomed.info/sct",
         "display": "Cell structure alteration (morphologic abnormality)"
       }
