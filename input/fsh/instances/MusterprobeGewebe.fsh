@@ -27,12 +27,12 @@ Usage: #example
 * collection.method = $SCT#274319000 "Needle biopsy of lung (procedure)"
 
 
-* processing[lagerprozess].extension[temperaturbedingungen].valueRange.low.value = 15
-* processing[lagerprozess].extension[temperaturbedingungen].valueRange.high.value = 25
-* processing[lagerprozess].extension[temperature-miabis].valueCodeableConcept = https://fhir.bbmri-eric.eu/fhir/CodeSystem/miabis-storage-temperature-cs#RT "Room temperature"
-* processing[lagerprozess].procedure =  $SCT#1186936003 "Storage of specimen (procedure)"
-* processing[lagerprozess].timePeriod.start = "2018-06-08T15:34:00+01:00"
-* processing[lagerprozess].timePeriod.end = "2018-06-08T15:46:00+01:00"
+* processing[+].extension[temperaturbedingungen].valueRange.low.value = 15
+* processing[=].extension[temperaturbedingungen].valueRange.high.value = 25
+* processing[=].extension[temperature-miabis].valueCodeableConcept = https://fhir.bbmri-eric.eu/fhir/CodeSystem/miabis-storage-temperature-cs#RT "Room temperature"
+* processing[=].procedure =  $SCT#1186936003 "Storage of specimen (procedure)"
+* processing[=].timePeriod.start = "2018-06-08T15:34:00+01:00"
+* processing[=].timePeriod.end = "2018-06-08T15:46:00+01:00"
 
 * processing[+].extension[temperaturbedingungen].valueRange.low.value = -85
 * processing[=].extension[temperaturbedingungen].valueRange.high.value = -60

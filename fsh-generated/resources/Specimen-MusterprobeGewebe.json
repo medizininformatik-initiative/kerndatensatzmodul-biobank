@@ -102,6 +102,52 @@
               "system": "http://unitsofmeasure.org",
               "code": "Cel",
               "unit": "°C",
+              "value": 15
+            },
+            "high": {
+              "system": "http://unitsofmeasure.org",
+              "code": "Cel",
+              "unit": "°C",
+              "value": 25
+            }
+          },
+          "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/Temperaturbedingungen"
+        },
+        {
+          "url": "https://fhir.bbmri-eric.eu/fhir/StructureDefinition/miabis-sample-storage-temperature-extension",
+          "valueCodeableConcept": {
+            "coding": [
+              {
+                "code": "RT",
+                "system": "https://fhir.bbmri-eric.eu/fhir/CodeSystem/miabis-storage-temperature-cs",
+                "display": "Room temperature"
+              }
+            ]
+          }
+        }
+      ],
+      "procedure": {
+        "coding": [
+          {
+            "system": "http://snomed.info/sct",
+            "code": "1186936003",
+            "display": "Storage of specimen (procedure)"
+          }
+        ]
+      },
+      "timePeriod": {
+        "start": "2018-06-08T15:34:00+01:00",
+        "end": "2018-06-08T15:46:00+01:00"
+      }
+    },
+    {
+      "extension": [
+        {
+          "valueRange": {
+            "low": {
+              "system": "http://unitsofmeasure.org",
+              "code": "Cel",
+              "unit": "°C",
               "value": -85
             },
             "high": {
@@ -129,20 +175,19 @@
       "procedure": {
         "coding": [
           {
-            "code": "1186936003",
             "system": "http://snomed.info/sct",
+            "code": "1186936003",
             "display": "Storage of specimen (procedure)"
           },
           {
-            "system": "http://snomed.info/sct",
             "code": "27872000",
+            "system": "http://snomed.info/sct",
             "display": "Specimen freezing (procedure)"
           }
         ]
       },
       "timePeriod": {
-        "start": "2018-06-08T15:49:00+01:00",
-        "end": "2018-06-08T15:46:00+01:00"
+        "start": "2018-06-08T15:49:00+01:00"
       }
     }
   ],
