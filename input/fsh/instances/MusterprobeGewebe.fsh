@@ -32,7 +32,7 @@ Usage: #example
 * processing[lagerprozess].extension[temperature-miabis].valueCodeableConcept = https://fhir.bbmri-eric.eu/fhir/CodeSystem/miabis-storage-temperature-cs#RT "Room temperature"
 * processing[lagerprozess].procedure =  $SCT#1186936003 "Storage of specimen (procedure)"
 * processing[lagerprozess].timePeriod.start = "2018-06-08T15:34:00+01:00"
-* processing[lagerprozess].timePeriod.end = "2018-06-08T15:42:00+01:00"
+* processing[lagerprozess].timePeriod.end = "2018-06-08T15:46:00+01:00"
 
 * processing[+].extension[temperaturbedingungen].valueRange.low.value = -85
 * processing[=].extension[temperaturbedingungen].valueRange.high.value = -60
