@@ -327,6 +327,11 @@
           }
         ],
         "mustSupport": true
+      },
+      {
+        "id": "Specimen.container",
+        "path": "Specimen.container",
+        "min": 1
       }
     ]
   }
