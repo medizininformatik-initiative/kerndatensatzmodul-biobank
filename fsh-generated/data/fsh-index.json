@@ -5,13 +5,13 @@
     "fshType": "Instance",
     "fshFile": "CapabilityStatement.fsh",
     "startLine": 31,
-    "endLine": 152
+    "endLine": 148
   },
   {
     "outputFile": "CodeSystem-mii-cs-biobank-contact-type.json",
     "fshName": "MII_CS_Biobank_Contact_Type",
     "fshType": "CodeSystem",
-    "fshFile": "codesystems/CodeSystemContactType.fsh",
+    "fshFile": "codesystems\\CodeSystemContactType.fsh",
     "startLine": 1,
     "endLine": 20
   },
@@ -19,7 +19,7 @@
     "outputFile": "CodeSystem-mii-cs-biobank-probenebene.json",
     "fshName": "MII_CS_Biobank_Probenebene",
     "fshType": "CodeSystem",
-    "fshFile": "codesystems/CodeSystemProbenebene.fsh",
+    "fshFile": "codesystems\\CodeSystemProbenebene.fsh",
     "startLine": 1,
     "endLine": 19
   },
@@ -27,7 +27,7 @@
     "outputFile": "ConceptMap-mii-cm-biobank-fixation-type-sprec-sct.json",
     "fshName": "mii-cm-biobank-fixation-type-sprec-sct",
     "fshType": "Instance",
-    "fshFile": "conceptmaps/SPRECFixationTypeMap.fsh",
+    "fshFile": "conceptmaps\\SPRECFixationTypeMap.fsh",
     "startLine": 1,
     "endLine": 34
   },
@@ -35,7 +35,7 @@
     "outputFile": "ConceptMap-mii-cm-biobank-long-term-storage-sprec-sct.json",
     "fshName": "mii-cm-biobank-long-term-storage-sprec-sct",
     "fshType": "Instance",
-    "fshFile": "conceptmaps/SPRECLongTermStorageMap.fsh",
+    "fshFile": "conceptmaps\\SPRECLongTermStorageMap.fsh",
     "startLine": 1,
     "endLine": 77
   },
@@ -43,7 +43,7 @@
     "outputFile": "ConceptMap-mii-cm-biobank-primary-container-sprec-sct.json",
     "fshName": "mii-cm-biobank-primary-container-sprec-sct",
     "fshType": "Instance",
-    "fshFile": "conceptmaps/SPRECPrimaryContainerMap.fsh",
+    "fshFile": "conceptmaps\\SPRECPrimaryContainerMap.fsh",
     "startLine": 1,
     "endLine": 146
   },
@@ -51,7 +51,7 @@
     "outputFile": "ConceptMap-mii-cm-biobank-sample-type-sprec-sct.json",
     "fshName": "mii-cm-biobank-sample-type-sprec-sct",
     "fshType": "Instance",
-    "fshFile": "conceptmaps/SPRECSampleTypeMap.fsh",
+    "fshFile": "conceptmaps\\SPRECSampleTypeMap.fsh",
     "startLine": 1,
     "endLine": 128
   },
@@ -59,7 +59,7 @@
     "outputFile": "DocumentReference-Kulturprotokoll.json",
     "fshName": "Kulturprotokoll",
     "fshType": "Instance",
-    "fshFile": "instances/Kulturprotokoll.fsh",
+    "fshFile": "instances\\Kulturprotokoll.fsh",
     "startLine": 1,
     "endLine": 11
   },
@@ -67,7 +67,7 @@
     "outputFile": "DocumentReference-ProtocolCRISPRTP53.json",
     "fshName": "ProtocolCRISPRTP53",
     "fshType": "Instance",
-    "fshFile": "instances/ModifikationProtokoll.fsh",
+    "fshFile": "instances\\ModifikationProtokoll.fsh",
     "startLine": 1,
     "endLine": 11
   },
@@ -75,7 +75,7 @@
     "outputFile": "Observation-DNAConcentrationObs1.json",
     "fshName": "DNAConcentrationObs1",
     "fshType": "Instance",
-    "fshFile": "instances/DNAKonzentration.fsh",
+    "fshFile": "instances\\DNAKonzentration.fsh",
     "startLine": 1,
     "endLine": 13
   },
@@ -83,7 +83,7 @@
     "outputFile": "Observation-KaryotypOrganoidLunge.json",
     "fshName": "KaryotypOrganoidLunge",
     "fshType": "Instance",
-    "fshFile": "instances/Karyotyp.fsh",
+    "fshFile": "instances\\Karyotyp.fsh",
     "startLine": 1,
     "endLine": 10
   },
@@ -91,7 +91,7 @@
     "outputFile": "Observation-MorphologieOrganoidLunge.json",
     "fshName": "MorphologieOrganoidLunge",
     "fshType": "Instance",
-    "fshFile": "instances/MorphologieOrganoid.fsh",
+    "fshFile": "instances\\MorphologieOrganoid.fsh",
     "startLine": 1,
     "endLine": 10
   },
@@ -99,7 +99,7 @@
     "outputFile": "Observation-ProliferationOrganoidLunge.json",
     "fshName": "ProliferationOrganoidLunge",
     "fshType": "Instance",
-    "fshFile": "instances/Proliferation.fsh",
+    "fshFile": "instances\\Proliferation.fsh",
     "startLine": 1,
     "endLine": 10
   },
@@ -107,7 +107,7 @@
     "outputFile": "Observation-QualitaetspruefungBuffyCoat.json",
     "fshName": "QualitaetspruefungBuffyCoat",
     "fshType": "Instance",
-    "fshFile": "instances/Qualitaetspruefung_BuffyCoat.fsh",
+    "fshFile": "instances\\Qualitaetspruefung_BuffyCoat.fsh",
     "startLine": 1,
     "endLine": 12
   },
@@ -115,7 +115,7 @@
     "outputFile": "Observation-QualitaetspruefungPlasma.json",
     "fshName": "QualitaetspruefungPlasma",
     "fshType": "Instance",
-    "fshFile": "instances/Qualitaetspruefung_Plasma.fsh",
+    "fshFile": "instances\\Qualitaetspruefung_Plasma.fsh",
     "startLine": 1,
     "endLine": 15
   },
@@ -123,7 +123,7 @@
     "outputFile": "Observation-WachstumstypOrganoidLunge.json",
     "fshName": "WachstumstypOrganoidLunge",
     "fshType": "Instance",
-    "fshFile": "instances/Wachstumstyp.fsh",
+    "fshFile": "instances\\Wachstumstyp.fsh",
     "startLine": 1,
     "endLine": 10
   },
@@ -131,7 +131,7 @@
     "outputFile": "Organization-BiobankMusterstadt.json",
     "fshName": "BiobankMusterstadt",
     "fshType": "Instance",
-    "fshFile": "instances/BiobankMusterstadt.fsh",
+    "fshFile": "instances\\BiobankMusterstadt.fsh",
     "startLine": 1,
     "endLine": 19
   },
@@ -139,159 +139,15 @@
     "outputFile": "Organization-Mustersammlung.json",
     "fshName": "Mustersammlung",
     "fshType": "Instance",
-    "fshFile": "instances/Mustersammlung.fsh",
+    "fshFile": "instances\\Mustersammlung.fsh",
     "startLine": 1,
     "endLine": 19
-  },
-  {
-    "outputFile": "SearchParameter-mii-sp-biobank-organization-beschreibung.json",
-    "fshName": "mii-sp-biobank-organization-beschreibung",
-    "fshType": "Instance",
-    "fshFile": "searchparameters/mii-sp-beschreibung.fsh",
-    "startLine": 1,
-    "endLine": 15
-  },
-  {
-    "outputFile": "SearchParameter-mii-sp-biobank-organization-collection-design.json",
-    "fshName": "mii-sp-biobank-organization-collection-design",
-    "fshType": "Instance",
-    "fshFile": "searchparameters/mii-sp-biobank-design.fsh",
-    "startLine": 1,
-    "endLine": 15
-  },
-  {
-    "outputFile": "SearchParameter-mii-sp-biobank-organization-collection-setting.json",
-    "fshName": "mii-sp-biobank-organization-collection-setting",
-    "fshType": "Instance",
-    "fshFile": "searchparameters/mii-sp-biobank-setting.fsh",
-    "startLine": 1,
-    "endLine": 15
-  },
-  {
-    "outputFile": "SearchParameter-mii-sp-biobank-organization-contact-rolle.json",
-    "fshName": "mii-sp-biobank-organization-contact-rolle",
-    "fshType": "Instance",
-    "fshFile": "searchparameters/mii-sp-contact-rolle.fsh",
-    "startLine": 1,
-    "endLine": 15
-  },
-  {
-    "outputFile": "SearchParameter-mii-sp-biobank-specimen-anzahl-aliquots.json",
-    "fshName": "mii-sp-biobank-specimen-anzahl-aliquots",
-    "fshType": "Instance",
-    "fshFile": "searchparameters/mii-sp-biobank-anzahl-aliqouts.fsh",
-    "startLine": 1,
-    "endLine": 15
-  },
-  {
-    "outputFile": "SearchParameter-mii-sp-biobank-specimen-anzahl-passagen.json",
-    "fshName": "mii-sp-biobank-specimen-anzahl-passagen",
-    "fshType": "Instance",
-    "fshFile": "searchparameters/mii-sp-biobank-anzahl-passagen.fsh",
-    "startLine": 1,
-    "endLine": 15
-  },
-  {
-    "outputFile": "SearchParameter-mii-sp-biobank-specimen-art-der-modifikation.json",
-    "fshName": "mii-sp-biobank-specimen-art-der-modifikation",
-    "fshType": "Instance",
-    "fshFile": "searchparameters/mii-sp-biobank-modifikation.fsh",
-    "startLine": 1,
-    "endLine": 15
-  },
-  {
-    "outputFile": "SearchParameter-mii-sp-biobank-specimen-container-capacity.json",
-    "fshName": "mii-sp-biobank-specimen-container-capacity",
-    "fshType": "Instance",
-    "fshFile": "searchparameters/mii-sp-biobank-container-capacity.fsh",
-    "startLine": 1,
-    "endLine": 15
-  },
-  {
-    "outputFile": "SearchParameter-mii-sp-biobank-specimen-container-specimen-quantity.json",
-    "fshName": "mii-sp-biobank-specimen-container-specimen-quantity",
-    "fshType": "Instance",
-    "fshFile": "searchparameters/mii-sp-biobank-container-specimen-quantity.fsh",
-    "startLine": 1,
-    "endLine": 15
-  },
-  {
-    "outputFile": "SearchParameter-mii-sp-biobank-specimen-einstellung-blutversorgung.json",
-    "fshName": "mii-sp-biobank-specimen-einstellung-blutversorgung",
-    "fshType": "Instance",
-    "fshFile": "searchparameters/mii-sp-biobank-einstellung-blutversorgung.fsh",
-    "startLine": 1,
-    "endLine": 15
-  },
-  {
-    "outputFile": "SearchParameter-mii-sp-biobank-specimen-fasting-status.json",
-    "fshName": "mii-sp-biobank-specimen-fasting-status",
-    "fshType": "Instance",
-    "fshFile": "searchparameters/mii-sp-biobank-fasting-status.fsh",
-    "startLine": 1,
-    "endLine": 15
-  },
-  {
-    "outputFile": "SearchParameter-mii-sp-biobank-specimen-gehoert-zu.json",
-    "fshName": "mii-sp-biobank-specimen-gehoert-zu",
-    "fshType": "Instance",
-    "fshFile": "searchparameters/mii-sp-biobank-gehoert-zu.fsh",
-    "startLine": 1,
-    "endLine": 15
-  },
-  {
-    "outputFile": "SearchParameter-mii-sp-biobank-specimen-kulturprotokoll.json",
-    "fshName": "mii-sp-biobank-specimen-kulturprotokoll",
-    "fshType": "Instance",
-    "fshFile": "searchparameters/mii-sp-biobank-kulturprotokoll.fsh",
-    "startLine": 1,
-    "endLine": 15
-  },
-  {
-    "outputFile": "SearchParameter-mii-sp-biobank-specimen-modifikationen.json",
-    "fshName": "mii-sp-biobank-specimen-modifikationen",
-    "fshType": "Instance",
-    "fshFile": "searchparameters/mii-sp-biobank-modifikation.fsh",
-    "startLine": 33,
-    "endLine": 51
-  },
-  {
-    "outputFile": "SearchParameter-mii-sp-biobank-specimen-note.json",
-    "fshName": "mii-sp-biobank-specimen-note",
-    "fshType": "Instance",
-    "fshFile": "searchparameters/mii-sp-biobank-note.fsh",
-    "startLine": 1,
-    "endLine": 15
-  },
-  {
-    "outputFile": "SearchParameter-mii-sp-biobank-specimen-probenebene.json",
-    "fshName": "mii-sp-biobank-specimen-probenebene",
-    "fshType": "Instance",
-    "fshFile": "searchparameters/mii-sp-biobank-probenebene.fsh",
-    "startLine": 1,
-    "endLine": 15
-  },
-  {
-    "outputFile": "SearchParameter-mii-sp-biobank-specimen-processing-temp.json",
-    "fshName": "mii-sp-biobank-specimen-processing-temp",
-    "fshType": "Instance",
-    "fshFile": "searchparameters/mii-sp-biobank-processing-temp.fsh",
-    "startLine": 1,
-    "endLine": 15
-  },
-  {
-    "outputFile": "SearchParameter-mii-sp-biobank-specimen-zielgen.json",
-    "fshName": "mii-sp-biobank-specimen-zielgen",
-    "fshType": "Instance",
-    "fshFile": "searchparameters/mii-sp-biobank-modifikation.fsh",
-    "startLine": 17,
-    "endLine": 31
   },
   {
     "outputFile": "ServiceRequest-GewebeBiopsie.json",
     "fshName": "GewebeBiopsie",
     "fshType": "Instance",
-    "fshFile": "instances/ServiceRequest.fsh",
+    "fshFile": "instances\\ServiceRequest.fsh",
     "startLine": 1,
     "endLine": 11
   },
@@ -299,71 +155,71 @@
     "outputFile": "Specimen-AliquotBuffyCoat1.json",
     "fshName": "AliquotBuffyCoat1",
     "fshType": "Instance",
-    "fshFile": "instances/Aliquot1_BuffyCoat.fsh",
+    "fshFile": "instances\\Aliquot1_BuffyCoat.fsh",
     "startLine": 1,
-    "endLine": 26
+    "endLine": 32
   },
   {
     "outputFile": "Specimen-AliquotBuffyCoat2.json",
     "fshName": "AliquotBuffyCoat2",
     "fshType": "Instance",
-    "fshFile": "instances/Aliqout2_BuffyCoat.fsh",
+    "fshFile": "instances\\Aliqout2_BuffyCoat.fsh",
     "startLine": 1,
-    "endLine": 41
+    "endLine": 47
   },
   {
     "outputFile": "Specimen-AliquotgruppeBuffyCoat.json",
     "fshName": "AliquotgruppeBuffyCoat",
     "fshType": "Instance",
-    "fshFile": "instances/Aliqoutgruppe_BuffyCoat.fsh",
+    "fshFile": "instances\\Aliqoutgruppe_BuffyCoat.fsh",
     "startLine": 1,
-    "endLine": 34
+    "endLine": 40
   },
   {
     "outputFile": "Specimen-AliquotgruppeDNA.json",
     "fshName": "AliquotgruppeDNA",
     "fshType": "Instance",
-    "fshFile": "instances/Aliquotgruppe_DNA.fsh",
+    "fshFile": "instances\\Aliquotgruppe_DNA.fsh",
     "startLine": 1,
-    "endLine": 27
+    "endLine": 33
   },
   {
     "outputFile": "Specimen-AliquotgruppePlasma.json",
     "fshName": "AliquotgruppePlasma",
     "fshType": "Instance",
-    "fshFile": "instances/Aliqoutgruppe_Plasma.fsh",
+    "fshFile": "instances\\Aliqoutgruppe_Plasma.fsh",
     "startLine": 1,
-    "endLine": 34
+    "endLine": 37
   },
   {
     "outputFile": "Specimen-MusterprobeFluessig.json",
     "fshName": "MusterprobeFluessig",
     "fshType": "Instance",
-    "fshFile": "instances/MusterprobeFluessig.fsh",
+    "fshFile": "instances\\MusterprobeFluessig.fsh",
     "startLine": 1,
-    "endLine": 39
+    "endLine": 45
   },
   {
     "outputFile": "Specimen-MusterprobeGewebe.json",
     "fshName": "MusterprobeGewebe",
     "fshType": "Instance",
-    "fshFile": "instances/MusterprobeGewebe.fsh",
+    "fshFile": "instances\\MusterprobeGewebe.fsh",
     "startLine": 1,
-    "endLine": 45
+    "endLine": 48
   },
   {
     "outputFile": "Specimen-OrganoidLunge.json",
     "fshName": "OrganoidLunge",
     "fshType": "Instance",
-    "fshFile": "instances/Organoid_lunge.fsh",
+    "fshFile": "instances\\Organoid_lunge.fsh",
     "startLine": 1,
-    "endLine": 31
+    "endLine": 34
   },
   {
     "outputFile": "StructureDefinition-Biobank.json",
     "fshName": "MII_LM_Biobank",
     "fshType": "Logical",
-    "fshFile": "logicals/MII_LM_Biobank.fsh",
+    "fshFile": "logicals\\MII_LM_Biobank.fsh",
     "startLine": 1,
     "endLine": 78
   },
@@ -371,7 +227,7 @@
     "outputFile": "StructureDefinition-mii-ex-biobank-anzahl-aliquots.json",
     "fshName": "MII_EX_Biobank_Anzahl_Aliquots",
     "fshType": "Extension",
-    "fshFile": "extensions/ExtensionAnzahlAliquots.fsh",
+    "fshFile": "extensions\\ExtensionAnzahlAliquots.fsh",
     "startLine": 2,
     "endLine": 19
   },
@@ -379,7 +235,7 @@
     "outputFile": "StructureDefinition-mii-ex-biobank-anzahl-passagen.json",
     "fshName": "MII_EX_Biobank_Anzahl_Passagen",
     "fshType": "Extension",
-    "fshFile": "extensions/ExtensionZahlPassagen.fsh",
+    "fshFile": "extensions\\ExtensionZahlPassagen.fsh",
     "startLine": 2,
     "endLine": 18
   },
@@ -387,7 +243,7 @@
     "outputFile": "StructureDefinition-mii-ex-biobank-diagnose.json",
     "fshName": "MII_EX_Biobank_Diagnose",
     "fshType": "Extension",
-    "fshFile": "extensions/ExtensionDiagnose.fsh",
+    "fshFile": "extensions\\ExtensionDiagnose.fsh",
     "startLine": 2,
     "endLine": 21
   },
@@ -395,7 +251,7 @@
     "outputFile": "StructureDefinition-mii-ex-biobank-ebene.json",
     "fshName": "MII_EX_Biobank_Ebene",
     "fshType": "Extension",
-    "fshFile": "extensions/ExtensionEbene.fsh",
+    "fshFile": "extensions\\ExtensionEbene.fsh",
     "startLine": 2,
     "endLine": 19
   },
@@ -403,7 +259,7 @@
     "outputFile": "StructureDefinition-mii-ex-biobank-einstellung-blutversorgung.json",
     "fshName": "MII_EX_Biobank_Einstellung_Blutversorgung",
     "fshType": "Extension",
-    "fshFile": "extensions/ExtensionEinstellungBlutversorgung.fsh",
+    "fshFile": "extensions\\ExtensionEinstellungBlutversorgung.fsh",
     "startLine": 2,
     "endLine": 20
   },
@@ -411,7 +267,7 @@
     "outputFile": "StructureDefinition-mii-ex-biobank-feature-r5.json",
     "fshName": "MII_EX_Biobank_Feature_R5",
     "fshType": "Extension",
-    "fshFile": "extensions/ExtensionR5Feature.fsh",
+    "fshFile": "extensions\\ExtensionR5Feature.fsh",
     "startLine": 1,
     "endLine": 16
   },
@@ -419,7 +275,7 @@
     "outputFile": "StructureDefinition-mii-ex-biobank-kontaktrolle.json",
     "fshName": "MII_EX_Biobank_KontaktRolle",
     "fshType": "Extension",
-    "fshFile": "extensions/ExtensionKontaktRolle.fsh",
+    "fshFile": "extensions\\ExtensionKontaktRolle.fsh",
     "startLine": 2,
     "endLine": 21
   },
@@ -427,7 +283,7 @@
     "outputFile": "StructureDefinition-mii-ex-biobank-kulturprotokoll.json",
     "fshName": "MII_EX_Biobank_Kulturprotokoll",
     "fshType": "Extension",
-    "fshFile": "extensions/ExtensionKulturprotokoll.fsh",
+    "fshFile": "extensions\\ExtensionKulturprotokoll.fsh",
     "startLine": 2,
     "endLine": 19
   },
@@ -435,7 +291,7 @@
     "outputFile": "StructureDefinition-mii-ex-biobank-modifikationen.json",
     "fshName": "MII_EX_Biobank_Modifikationen",
     "fshType": "Extension",
-    "fshFile": "extensions/ExtensionModifikationen.fsh",
+    "fshFile": "extensions\\ExtensionModifikationen.fsh",
     "startLine": 2,
     "endLine": 29
   },
@@ -443,7 +299,7 @@
     "outputFile": "StructureDefinition-mii-ex-biobank-temperaturbedingungen.json",
     "fshName": "MII_EX_Biobank_Temperaturbedingungen",
     "fshType": "Extension",
-    "fshFile": "extensions/ExtensionTemperaturbedingungen.fsh",
+    "fshFile": "extensions\\ExtensionTemperaturbedingungen.fsh",
     "startLine": 2,
     "endLine": 29
   },
@@ -451,7 +307,7 @@
     "outputFile": "StructureDefinition-mii-ex-biobank-verwaltende-organisation.json",
     "fshName": "MII_EX_Biobank_Verwaltende_Organisation",
     "fshType": "Extension",
-    "fshFile": "extensions/ExtensionVerwaltendeOrganisation.fsh",
+    "fshFile": "extensions\\ExtensionVerwaltendeOrganisation.fsh",
     "startLine": 2,
     "endLine": 22
   },
@@ -459,55 +315,55 @@
     "outputFile": "StructureDefinition-mii-pr-biobank-observation-dna-konzentration.json",
     "fshName": "MII_PR_Biobank_Observation_DNA_Konzentration",
     "fshType": "Profile",
-    "fshFile": "profiles/ProfileObservationDNAKonzentration.fsh",
+    "fshFile": "profiles\\ProfileObservationDNAKonzentration.fsh",
     "startLine": 2,
-    "endLine": 36
+    "endLine": 39
   },
   {
     "outputFile": "StructureDefinition-mii-pr-biobank-observation-karyotyp.json",
     "fshName": "MII_PR_Biobank_Observation_Karyotyp",
     "fshType": "Profile",
-    "fshFile": "profiles/ProfileObservationKaryotyp.fsh",
+    "fshFile": "profiles\\ProfileObservationKaryotyp.fsh",
     "startLine": 2,
-    "endLine": 35
+    "endLine": 41
   },
   {
     "outputFile": "StructureDefinition-mii-pr-biobank-observation-morphologie.json",
     "fshName": "MII_PR_Biobank_Observation_Morphologie",
     "fshType": "Profile",
-    "fshFile": "profiles/ProfileObservationZellMorphologie.fsh",
+    "fshFile": "profiles\\ProfileObservationZellMorphologie.fsh",
     "startLine": 2,
-    "endLine": 33
+    "endLine": 38
   },
   {
     "outputFile": "StructureDefinition-mii-pr-biobank-observation-proliferation.json",
     "fshName": "MII_PR_Biobank_Observation_Proliferation",
     "fshType": "Profile",
-    "fshFile": "profiles/ProfileObservationProliferation.fsh",
+    "fshFile": "profiles\\ProfileObservationProliferation.fsh",
     "startLine": 2,
-    "endLine": 33
+    "endLine": 39
   },
   {
     "outputFile": "StructureDefinition-mii-pr-biobank-observation-qualitaetspruefung.json",
     "fshName": "MII_PR_Biobank_Observation_Qualitaetspruefung",
     "fshType": "Profile",
-    "fshFile": "profiles/ProfileObservationQualitaetspruefung.fsh",
+    "fshFile": "profiles\\ProfileObservationQualitaetspruefung.fsh",
     "startLine": 2,
-    "endLine": 43
+    "endLine": 52
   },
   {
     "outputFile": "StructureDefinition-mii-pr-biobank-observation-wachstumstyp.json",
     "fshName": "MII_PR_Biobank_Observation_Wachstumstyp",
     "fshType": "Profile",
-    "fshFile": "profiles/ProfileObservationWachstumstyp.fsh",
+    "fshFile": "profiles\\ProfileObservationWachstumstyp.fsh",
     "startLine": 2,
-    "endLine": 33
+    "endLine": 38
   },
   {
     "outputFile": "StructureDefinition-mii-pr-biobank-organization.json",
     "fshName": "MII_PR_Biobank_Organization_Sammlung_Biobank",
     "fshType": "Profile",
-    "fshFile": "profiles/ProfileOrganizationSammlungBiobank.fsh",
+    "fshFile": "profiles\\ProfileOrganizationSammlungBiobank.fsh",
     "startLine": 2,
     "endLine": 82
   },
@@ -515,23 +371,23 @@
     "outputFile": "StructureDefinition-mii-pr-biobank-specimen-core.json",
     "fshName": "MII_PR_Biobank_Specimen_Bioprobe_Core",
     "fshType": "Profile",
-    "fshFile": "profiles/ProfileSpecimenBioprobeCore.fsh",
+    "fshFile": "profiles\\ProfileSpecimenBioprobeCore.fsh",
     "startLine": 2,
-    "endLine": 223
+    "endLine": 256
   },
   {
     "outputFile": "StructureDefinition-mii-pr-biobank-specimen.json",
     "fshName": "MII_PR_Biobank_Specimen_Bioprobe",
     "fshType": "Profile",
-    "fshFile": "profiles/ProfileSpecimenBioprobe.fsh",
+    "fshFile": "profiles\\ProfileSpecimenBioprobe.fsh",
     "startLine": 2,
-    "endLine": 49
+    "endLine": 57
   },
   {
     "outputFile": "StructureDefinition-mii-pr-biobank-substance-additiv.json",
     "fshName": "MII_PR_Biobank_Substance_Additiv",
     "fshType": "Profile",
-    "fshFile": "profiles/ProfileSubstanceAdditiv.fsh",
+    "fshFile": "profiles\\ProfileSubstanceAdditiv.fsh",
     "startLine": 2,
     "endLine": 29
   },
@@ -539,7 +395,7 @@
     "outputFile": "StructureDefinition-mii-pr-biobank-zellinie-organoid.json",
     "fshName": "MII_PR_Biobank_Specimen_Zellinie_Organoid",
     "fshType": "Profile",
-    "fshFile": "profiles/ProfileSpecimenZellinieOrganiod.fsh",
+    "fshFile": "profiles\\ProfileSpecimenZellinieOrganiod.fsh",
     "startLine": 2,
     "endLine": 29
   },
@@ -547,7 +403,7 @@
     "outputFile": "Substance-Heparin.json",
     "fshName": "Heparin",
     "fshType": "Instance",
-    "fshFile": "instances/Heparin.fsh",
+    "fshFile": "instances\\Heparin.fsh",
     "startLine": 1,
     "endLine": 6
   },
@@ -555,7 +411,7 @@
     "outputFile": "ValueSet-mii-vs-biobank-body-structures-sct.json",
     "fshName": "MII_VS_Biobank_BodyStructures_SCT",
     "fshType": "ValueSet",
-    "fshFile": "valuesets/ValueSetSCTBodyStructure.fsh",
+    "fshFile": "valuesets\\ValueSetSCTBodyStructure.fsh",
     "startLine": 1,
     "endLine": 14
   },
@@ -563,7 +419,7 @@
     "outputFile": "ValueSet-mii-vs-biobank-cellline-modification-clo.json",
     "fshName": "MII_VS_Biobank_Cellline_Modification_CLO",
     "fshType": "ValueSet",
-    "fshFile": "valuesets/ValueSetModifikationen.fsh",
+    "fshFile": "valuesets\\ValueSetModifikationen.fsh",
     "startLine": 1,
     "endLine": 17
   },
@@ -571,7 +427,7 @@
     "outputFile": "ValueSet-mii-vs-biobank-cellline-morphology-sct.json",
     "fshName": "MII_VS_Biobank_Cellline_Morphology_SCT",
     "fshType": "ValueSet",
-    "fshFile": "valuesets/ValueSetCellLineMorphologie.fsh",
+    "fshFile": "valuesets\\ValueSetCellLineMorphologie.fsh",
     "startLine": 1,
     "endLine": 15
   },
@@ -579,7 +435,7 @@
     "outputFile": "ValueSet-mii-vs-biobank-cellline-proliferation.json",
     "fshName": "MII_VS_Biobank_CellLine_Proliferation",
     "fshType": "ValueSet",
-    "fshFile": "valuesets/ValueSetCellinieProliferation.fsh",
+    "fshFile": "valuesets\\ValueSetCellinieProliferation.fsh",
     "startLine": 1,
     "endLine": 19
   },
@@ -587,7 +443,7 @@
     "outputFile": "ValueSet-mii-vs-biobank-containertyp-sct.json",
     "fshName": "MII_VS_Biobank_Containertyp_SCT",
     "fshType": "ValueSet",
-    "fshFile": "valuesets/ValueSetContainertyp.fsh",
+    "fshFile": "valuesets\\ValueSetContainertyp.fsh",
     "startLine": 1,
     "endLine": 14
   },
@@ -595,7 +451,7 @@
     "outputFile": "ValueSet-mii-vs-biobank-dna-concentration-units-ucum.json",
     "fshName": "MII_VS_Biobank_DNA_Concentration_Units_UCUM",
     "fshType": "ValueSet",
-    "fshFile": "valuesets/ValueSetDNAKonzentrationUnits.fsh",
+    "fshFile": "valuesets\\ValueSetDNAKonzentrationUnits.fsh",
     "startLine": 1,
     "endLine": 17
   },
@@ -603,7 +459,7 @@
     "outputFile": "ValueSet-mii-vs-biobank-karyotyp-sct.json",
     "fshName": "MII_VS_Biobank_Karyotyp_SCT",
     "fshType": "ValueSet",
-    "fshFile": "valuesets/ValueSetKaryotyp.fsh",
+    "fshFile": "valuesets\\ValueSetKaryotyp.fsh",
     "startLine": 1,
     "endLine": 17
   },
@@ -611,7 +467,7 @@
     "outputFile": "ValueSet-mii-vs-biobank-laboratory-procedure-sct.json",
     "fshName": "MII_VS_Biobank_Laboratory_Procedure_SCT",
     "fshType": "ValueSet",
-    "fshFile": "valuesets/ValueSetSCTLaboratoryProcedure.fsh",
+    "fshFile": "valuesets\\ValueSetSCTLaboratoryProcedure.fsh",
     "startLine": 1,
     "endLine": 14
   },
@@ -619,7 +475,7 @@
     "outputFile": "ValueSet-mii-vs-biobank-probenart-sct.json",
     "fshName": "MII_VS_Biobank_Probenart_SCT",
     "fshType": "ValueSet",
-    "fshFile": "valuesets/ValueSetProbenart.fsh",
+    "fshFile": "valuesets\\ValueSetProbenart.fsh",
     "startLine": 1,
     "endLine": 14
   },
@@ -627,7 +483,7 @@
     "outputFile": "ValueSet-mii-vs-biobank-probenebene.json",
     "fshName": "MII_VS_Biobank_Probenebene",
     "fshType": "ValueSet",
-    "fshFile": "valuesets/ValueSetProbenebene.fsh",
+    "fshFile": "valuesets\\ValueSetProbenebene.fsh",
     "startLine": 1,
     "endLine": 13
   },
@@ -635,7 +491,7 @@
     "outputFile": "ValueSet-mii-vs-biobank-substance-additive-sct.json",
     "fshName": "MII_VS_Biobank_Substance_Additive_SCT",
     "fshType": "ValueSet",
-    "fshFile": "valuesets/ValueSetAdditive.fsh",
+    "fshFile": "valuesets\\ValueSetAdditive.fsh",
     "startLine": 1,
     "endLine": 14
   },
@@ -643,7 +499,7 @@
     "outputFile": "ValueSet-mii-vs-biobank-wachstumstyp-clo.json",
     "fshName": "MII_VS_Biobank_Wachstumpstyp_CLO",
     "fshType": "ValueSet",
-    "fshFile": "valuesets/ValueSetWachstumstyp.fsh",
+    "fshFile": "valuesets\\ValueSetWachstumstyp.fsh",
     "startLine": 1,
     "endLine": 16
   }
