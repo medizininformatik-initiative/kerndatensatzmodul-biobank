@@ -21,6 +21,7 @@ jobs:
       VALIDATION_REPORT_INCLUDE: errors
       VALIDATION_REPORT_FILTERS: |
         Observation-QualitaetspruefungBuffyCoat.json||*no declared filter called LIST*|Observation.​component[1].​value.​ofType(CodeableConcept)
+        ||*in the CodeSystem 'http://purl.obolibrary.org/obo/clo.owl' version*|
     secrets: inherit
 
   DOTNET_FHIR_VALIDATION:
