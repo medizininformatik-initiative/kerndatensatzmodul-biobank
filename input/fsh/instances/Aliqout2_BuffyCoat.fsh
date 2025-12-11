@@ -8,8 +8,8 @@ Usage: #example
 * identifier.system = "https://biobank.uk-musterstadt.de/fhir/sid/proben"
 * identifier.value = "12345-BC-2"
 * status = #unavailable
-* type.coding[+] = https://fhir.bbmri-eric.eu/fhir/CodeSystem/miabis-detailed-samply-type-cs#BuffyCoat "Buffy coat"
-* type.coding[+] = $SCT#258587000 "Buffy coat (specimen)"
+* type.coding[miabis-type] = https://fhir.bbmri-eric.eu/fhir/CodeSystem/miabis-detailed-samply-type-cs#BuffyCoat "Buffy coat"
+* type.coding[sct] = $SCT#258587000 "Buffy coat (specimen)"
 
 * subject.reference = "Patient/mii-exa-test-data-patient-1"
 * collection.collectedDateTime = "2018-06-07T15:54:00+01:00"
@@ -37,5 +37,11 @@ Usage: #example
 
 
 * container.type = http://snomed.info/sct#83059008 "Tube, device (physical object)"
-* container.capacity = 0.5 'ml'
-* container.specimenQuantity = 0.05 'ml'
+* container.capacity.value = 0.5 
+* container.capacity.system = $UCUM
+* container.capacity.code = #ml
+* container.capacity.unit = "ml"
+* container.specimenQuantity.value = 0.05
+* container.specimenQuantity.system = $UCUM
+* container.specimenQuantity.code = #ml
+* container.specimenQuantity.unit = "ml"

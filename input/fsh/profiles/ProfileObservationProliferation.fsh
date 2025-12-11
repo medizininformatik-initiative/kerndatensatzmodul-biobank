@@ -26,8 +26,14 @@ Description: "Proliferation einer Zelline oder eines Organiods"
 
 * code 1..1 MS
 * code = http://purl.obolibrary.org/obo/go.owl#GO:0008283 "cell population proliferation"
+* code.coding 1..1 MS
+* code.coding.system 1..1 MS
+* code.coding.code 1..1 MS
 * focus 1..1 MS
 * focus only Reference(Specimen)
 * value[x] 1..1 MS
 * value[x] only CodeableConcept
 * valueCodeableConcept from MII_VS_Biobank_CellLine_Proliferation (extensible)
+* valueCodeableConcept.coding 1..1 MS
+* valueCodeableConcept.coding.system 1..1 MS
+* valueCodeableConcept.coding.code 1..1 MS

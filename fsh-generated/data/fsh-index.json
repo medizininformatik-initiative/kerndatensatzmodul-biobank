@@ -157,7 +157,7 @@
     "fshType": "Instance",
     "fshFile": "instances\\Aliquot1_BuffyCoat.fsh",
     "startLine": 1,
-    "endLine": 26
+    "endLine": 32
   },
   {
     "outputFile": "Specimen-AliquotBuffyCoat2.json",
@@ -165,7 +165,7 @@
     "fshType": "Instance",
     "fshFile": "instances\\Aliqout2_BuffyCoat.fsh",
     "startLine": 1,
-    "endLine": 41
+    "endLine": 47
   },
   {
     "outputFile": "Specimen-AliquotgruppeBuffyCoat.json",
@@ -173,7 +173,7 @@
     "fshType": "Instance",
     "fshFile": "instances\\Aliqoutgruppe_BuffyCoat.fsh",
     "startLine": 1,
-    "endLine": 34
+    "endLine": 40
   },
   {
     "outputFile": "Specimen-AliquotgruppeDNA.json",
@@ -181,7 +181,7 @@
     "fshType": "Instance",
     "fshFile": "instances\\Aliquotgruppe_DNA.fsh",
     "startLine": 1,
-    "endLine": 27
+    "endLine": 33
   },
   {
     "outputFile": "Specimen-AliquotgruppePlasma.json",
@@ -189,7 +189,7 @@
     "fshType": "Instance",
     "fshFile": "instances\\Aliqoutgruppe_Plasma.fsh",
     "startLine": 1,
-    "endLine": 34
+    "endLine": 37
   },
   {
     "outputFile": "Specimen-MusterprobeFluessig.json",
@@ -197,7 +197,7 @@
     "fshType": "Instance",
     "fshFile": "instances\\MusterprobeFluessig.fsh",
     "startLine": 1,
-    "endLine": 39
+    "endLine": 45
   },
   {
     "outputFile": "Specimen-MusterprobeGewebe.json",
@@ -205,7 +205,7 @@
     "fshType": "Instance",
     "fshFile": "instances\\MusterprobeGewebe.fsh",
     "startLine": 1,
-    "endLine": 45
+    "endLine": 48
   },
   {
     "outputFile": "Specimen-OrganoidLunge.json",
@@ -213,7 +213,7 @@
     "fshType": "Instance",
     "fshFile": "instances\\Organoid_lunge.fsh",
     "startLine": 1,
-    "endLine": 31
+    "endLine": 34
   },
   {
     "outputFile": "StructureDefinition-Biobank.json",
@@ -317,7 +317,7 @@
     "fshType": "Profile",
     "fshFile": "profiles\\ProfileObservationDNAKonzentration.fsh",
     "startLine": 2,
-    "endLine": 36
+    "endLine": 39
   },
   {
     "outputFile": "StructureDefinition-mii-pr-biobank-observation-karyotyp.json",
@@ -325,7 +325,7 @@
     "fshType": "Profile",
     "fshFile": "profiles\\ProfileObservationKaryotyp.fsh",
     "startLine": 2,
-    "endLine": 35
+    "endLine": 41
   },
   {
     "outputFile": "StructureDefinition-mii-pr-biobank-observation-morphologie.json",
@@ -333,7 +333,7 @@
     "fshType": "Profile",
     "fshFile": "profiles\\ProfileObservationZellMorphologie.fsh",
     "startLine": 2,
-    "endLine": 33
+    "endLine": 38
   },
   {
     "outputFile": "StructureDefinition-mii-pr-biobank-observation-proliferation.json",
@@ -341,7 +341,7 @@
     "fshType": "Profile",
     "fshFile": "profiles\\ProfileObservationProliferation.fsh",
     "startLine": 2,
-    "endLine": 33
+    "endLine": 39
   },
   {
     "outputFile": "StructureDefinition-mii-pr-biobank-observation-qualitaetspruefung.json",
@@ -349,7 +349,7 @@
     "fshType": "Profile",
     "fshFile": "profiles\\ProfileObservationQualitaetspruefung.fsh",
     "startLine": 2,
-    "endLine": 43
+    "endLine": 52
   },
   {
     "outputFile": "StructureDefinition-mii-pr-biobank-observation-wachstumstyp.json",
@@ -357,7 +357,7 @@
     "fshType": "Profile",
     "fshFile": "profiles\\ProfileObservationWachstumstyp.fsh",
     "startLine": 2,
-    "endLine": 33
+    "endLine": 38
   },
   {
     "outputFile": "StructureDefinition-mii-pr-biobank-organization.json",
@@ -373,7 +373,7 @@
     "fshType": "Profile",
     "fshFile": "profiles\\ProfileSpecimenBioprobeCore.fsh",
     "startLine": 2,
-    "endLine": 222
+    "endLine": 255
   },
   {
     "outputFile": "StructureDefinition-mii-pr-biobank-specimen.json",
@@ -381,7 +381,7 @@
     "fshType": "Profile",
     "fshFile": "profiles\\ProfileSpecimenBioprobe.fsh",
     "startLine": 2,
-    "endLine": 51
+    "endLine": 57
   },
   {
     "outputFile": "StructureDefinition-mii-pr-biobank-substance-additiv.json",

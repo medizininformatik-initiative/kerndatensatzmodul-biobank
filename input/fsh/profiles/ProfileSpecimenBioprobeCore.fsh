@@ -151,6 +151,9 @@ and processing.timePeriod and processing.procedure and processing.additive and r
 * type.coding ^slicing.discriminator.path = "$this.system"
 * type.coding ^slicing.rules = #open
 
+* type.coding.system 1..1 MS
+* type.coding.code 1..1 MS
+
 * type.coding contains sct 1..* MS
 * type.coding[sct].system = $SCT
 * type.coding[sct] from MII_VS_Biobank_Probenart_SCT (extensible)
@@ -163,6 +166,8 @@ and processing.timePeriod and processing.procedure and processing.additive and r
 
 * container.type from MII_VS_Biobank_Containertyp_SCT (extensible)
 * container.type 1..1
+* container.type.coding.system 1..1 MS
+* container.type.coding.code 1..1 MS
 
 * container.additiveReference only Reference(MII_PR_Biobank_Substance_Additiv)
 
@@ -173,12 +178,17 @@ and processing.timePeriod and processing.procedure and processing.additive and r
 * collection.extension contains MII_EX_Biobank_Einstellung_Blutversorgung named einstellungBlutversorgung 0..1 MS
 
 * collection.fastingStatusCodeableConcept from 	http://terminology.hl7.org/ValueSet/v2-0916 (required)
+* collection.fastingStatusCodeableConcept.coding.system 1..1 MS
+* collection.fastingStatusCodeableConcept.coding.code 1..1 MS
 
 * collection.bodySite obeys mii-bb-1
 
 * collection.bodySite.coding ^slicing.discriminator.type = #value
 * collection.bodySite.coding ^slicing.discriminator.path = "$this.system"
 * collection.bodySite.coding ^slicing.rules = #open
+
+* collection.bodySite.coding.system 1..1 MS
+* collection.bodySite.coding.code 1..1 MS
 
 * collection.bodySite.coding contains sct 0..* MS and icd-o-3 0..* MS
 
@@ -192,11 +202,20 @@ and processing.timePeriod and processing.procedure and processing.additive and r
 * collection.quantity.extension contains http://hl7.org/fhir/StructureDefinition/iso21090-PQ-translation named pqTranslation 0..*
                         and http://hl7.org/fhir/StructureDefinition/quantity-precision named quantityPrecision 0..1
 
+* collection
+  * quantity
+    * value 1.. MS
+    * unit 1.. MS
+    * system 1.. MS
+    * system = "http://unitsofmeasure.org"
+    * code 1.. MS
+
 //Verarbeitung/Lagerprozess
 
 * processing.extension contains MII_EX_Biobank_Temperaturbedingungen named temperaturbedingungen 1..1 MS
 
 * processing.time[x] MS
+* processing.timePeriod MS
 * processing.timePeriod.start MS
 * processing.timePeriod.end MS
 * processing.additive only Reference(MII_PR_Biobank_Substance_Additiv)
@@ -208,10 +227,13 @@ and processing.timePeriod and processing.procedure and processing.additive and r
 * processing contains lagerprozess 0..* MS
 * processing[lagerprozess].time[x] 1..1
 * processing[lagerprozess].time[x] only Period
+* processing[lagerprozess].timePeriod 1..1
 * processing[lagerprozess].timePeriod.start 1..1
 * processing[lagerprozess].procedure = $SCT#1186936003
 
 * processing.procedure 1..1 MS
+* processing.procedure.coding.system 1..1 MS
+* processing.procedure.coding.code 1..1 MS
 
 * processing.procedure.coding ^slicing.discriminator.type = #value
 * processing.procedure.coding ^slicing.discriminator.path = "$this.system"
@@ -220,3 +242,14 @@ and processing.timePeriod and processing.procedure and processing.additive and r
 * processing.procedure.coding contains sct 1..* MS
 * processing.procedure.coding[sct].system = $SCT
 * processing.procedure.coding[sct] from MII_VS_Biobank_Laboratory_Procedure_SCT (preferred)
+
+* container.capacity.value 1.. MS
+* container.capacity.unit 1.. MS
+* container.capacity.system 1.. MS
+* container.capacity.system = "http://unitsofmeasure.org"
+* container.capacity.code 1.. MS
+* container.specimenQuantity.value 1.. MS
+* container.specimenQuantity.unit 1.. MS
+* container.specimenQuantity.system 1.. MS
+* container.specimenQuantity.system = "http://unitsofmeasure.org"
+* container.specimenQuantity.code 1.. MS

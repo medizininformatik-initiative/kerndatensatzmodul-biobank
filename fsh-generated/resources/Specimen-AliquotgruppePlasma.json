@@ -6,6 +6,39 @@
       "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/Specimen"
     ]
   },
+  "type": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "119361006",
+        "display": "Plasma specimen (specimen)"
+      },
+      {
+        "system": "https://fhir.bbmri-eric.eu/fhir/CodeSystem/miabis-detailed-samply-type-cs",
+        "code": "Plasma",
+        "display": "Plasma"
+      }
+    ]
+  },
+  "container": [
+    {
+      "specimenQuantity": {
+        "system": "http://unitsofmeasure.org",
+        "value": 5,
+        "code": "ml",
+        "unit": "ml"
+      },
+      "type": {
+        "coding": [
+          {
+            "code": "83059008",
+            "system": "http://snomed.info/sct",
+            "display": "Tube, device (physical object)"
+          }
+        ]
+      }
+    }
+  ],
   "extension": [
     {
       "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/mii-ex-biobank-ebene",
@@ -56,8 +89,8 @@
       "procedure": {
         "coding": [
           {
-            "code": "1186936003",
             "system": "http://snomed.info/sct",
+            "code": "1186936003",
             "display": "Storage of specimen (procedure)"
           }
         ]
@@ -102,8 +135,8 @@
       "procedure": {
         "coding": [
           {
-            "code": "1186936003",
             "system": "http://snomed.info/sct",
+            "code": "1186936003",
             "display": "Storage of specimen (procedure)"
           }
         ]
@@ -125,42 +158,10 @@
     }
   ],
   "status": "available",
-  "type": {
-    "coding": [
-      {
-        "code": "Plasma",
-        "system": "https://fhir.bbmri-eric.eu/fhir/CodeSystem/miabis-detailed-samply-type-cs",
-        "display": "Plasma"
-      },
-      {
-        "code": "119361006",
-        "system": "http://snomed.info/sct",
-        "display": "Plasma specimen (specimen)"
-      }
-    ]
-  },
   "subject": {
     "reference": "Patient/mii-exa-test-data-patient-1"
   },
   "collection": {
     "collectedDateTime": "2018-06-07T15:54:00+01:00"
-  },
-  "container": [
-    {
-      "type": {
-        "coding": [
-          {
-            "code": "83059008",
-            "system": "http://snomed.info/sct",
-            "display": "Tube, device (physical object)"
-          }
-        ]
-      },
-      "specimenQuantity": {
-        "value": 5,
-        "code": "ml",
-        "system": "http://unitsofmeasure.org"
-      }
-    }
-  ]
+  }
 }

@@ -153,6 +153,25 @@
         "mustSupport": true
       },
       {
+        "id": "Observation.code.coding",
+        "path": "Observation.code.coding",
+        "min": 1,
+        "max": "1",
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.code.coding.system",
+        "path": "Observation.code.coding.system",
+        "min": 1,
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.code.coding.code",
+        "path": "Observation.code.coding.code",
+        "min": 1,
+        "mustSupport": true
+      },
+      {
         "id": "Observation.focus",
         "path": "Observation.focus",
         "min": 1,
@@ -216,6 +235,16 @@
       {
         "id": "Observation.component:type.value[x]",
         "path": "Observation.component.value[x]",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "type",
+              "path": "$this"
+            }
+          ],
+          "ordered": false,
+          "rules": "open"
+        },
         "type": [
           {
             "code": "CodeableConcept"
@@ -224,6 +253,37 @@
             "code": "string"
           }
         ]
+      },
+      {
+        "id": "Observation.component:type.value[x]:valueCodeableConcept",
+        "path": "Observation.component.value[x]",
+        "sliceName": "valueCodeableConcept",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ]
+      },
+      {
+        "id": "Observation.component:type.value[x]:valueCodeableConcept.coding",
+        "path": "Observation.component.value[x].coding",
+        "min": 1,
+        "max": "1",
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.component:type.value[x]:valueCodeableConcept.coding.system",
+        "path": "Observation.component.value[x].coding.system",
+        "min": 1,
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.component:type.value[x]:valueCodeableConcept.coding.code",
+        "path": "Observation.component.value[x].coding.code",
+        "min": 1,
+        "mustSupport": true
       },
       {
         "id": "Observation.component:result",
@@ -283,6 +343,25 @@
           "strength": "preferred",
           "valueSet": "http://loinc.org/vs/LL3837-3"
         }
+      },
+      {
+        "id": "Observation.component:result.value[x]:valueCodeableConcept.coding",
+        "path": "Observation.component.value[x].coding",
+        "min": 1,
+        "max": "1",
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.component:result.value[x]:valueCodeableConcept.coding.system",
+        "path": "Observation.component.value[x].coding.system",
+        "min": 1,
+        "mustSupport": true
+      },
+      {
+        "id": "Observation.component:result.value[x]:valueCodeableConcept.coding.code",
+        "path": "Observation.component.value[x].coding.code",
+        "min": 1,
+        "mustSupport": true
       }
     ]
   }

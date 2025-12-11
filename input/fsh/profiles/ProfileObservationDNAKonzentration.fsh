@@ -26,6 +26,9 @@ Description: "Die DNA-Konzentration einer Probe"
 
 * code 1..1 MS
 * code = $LOINC#72496-3 "DNA double strand [Mass/volume] in Specimen"
+* code.coding 1..1 MS
+* code.coding.system 1..1 MS
+* code.coding.code 1..1 MS
 * focus 1..1 MS
 * focus only Reference(Specimen)
 * value[x] 1..1 MS

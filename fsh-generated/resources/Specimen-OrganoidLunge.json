@@ -6,6 +6,39 @@
       "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/mii-pr-biobank-zellinie-organoid"
     ]
   },
+  "type": {
+    "coding": [
+      {
+        "system": "http://snomed.info/sct",
+        "code": "123038009",
+        "display": "Specimen (specimen)"
+      },
+      {
+        "system": "https://fhir.bbmri-eric.eu/fhir/CodeSystem/miabis-detailed-samply-type-cs",
+        "code": "Organoid",
+        "display": "Organoids"
+      }
+    ]
+  },
+  "container": [
+    {
+      "specimenQuantity": {
+        "system": "http://unitsofmeasure.org",
+        "value": 1,
+        "code": "ml",
+        "unit": "ml"
+      },
+      "type": {
+        "coding": [
+          {
+            "code": "83059008",
+            "system": "http://snomed.info/sct",
+            "display": "Tube, device (physical object)"
+          }
+        ]
+      }
+    }
+  ],
   "extension": [
     {
       "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/mii-ex-biobank-kulturprotokoll",
@@ -73,8 +106,8 @@
       "procedure": {
         "coding": [
           {
-            "code": "1186936003",
             "system": "http://snomed.info/sct",
+            "code": "1186936003",
             "display": "Storage of specimen (procedure)"
           }
         ]
@@ -97,42 +130,10 @@
     }
   ],
   "status": "available",
-  "type": {
-    "coding": [
-      {
-        "code": "Organoid",
-        "system": "https://fhir.bbmri-eric.eu/fhir/CodeSystem/miabis-detailed-sample-type",
-        "display": "Organoids"
-      },
-      {
-        "code": "123038009",
-        "system": "http://snomed.info/sct",
-        "display": "Specimen (specimen)"
-      }
-    ]
-  },
   "subject": {
     "reference": "Patient/mii-exa-test-data-patient-1"
   },
   "collection": {
     "collectedDateTime": "2018-06-08T15:34:00+01:00"
-  },
-  "container": [
-    {
-      "type": {
-        "coding": [
-          {
-            "code": "83059008",
-            "system": "http://snomed.info/sct",
-            "display": "Tube, device (physical object)"
-          }
-        ]
-      },
-      "specimenQuantity": {
-        "value": 1,
-        "code": "ml",
-        "system": "http://unitsofmeasure.org"
-      }
-    }
-  ]
+  }
 }

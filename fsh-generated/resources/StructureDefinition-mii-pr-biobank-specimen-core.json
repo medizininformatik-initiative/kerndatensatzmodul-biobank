@@ -139,6 +139,20 @@
         "mustSupport": true
       },
       {
+        "id": "Specimen.extension",
+        "path": "Specimen.extension",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "value",
+              "path": "url"
+            }
+          ],
+          "ordered": false,
+          "rules": "open"
+        }
+      },
+      {
         "id": "Specimen.extension:feature",
         "path": "Specimen.extension",
         "sliceName": "feature",
@@ -379,6 +393,18 @@
           "rules": "open"
         },
         "min": 1
+      },
+      {
+        "id": "Specimen.type.coding.system",
+        "path": "Specimen.type.coding.system",
+        "min": 1,
+        "mustSupport": true
+      },
+      {
+        "id": "Specimen.type.coding.code",
+        "path": "Specimen.type.coding.code",
+        "min": 1,
+        "mustSupport": true
       },
       {
         "id": "Specimen.type.coding:sct",
@@ -673,6 +699,20 @@
         }
       },
       {
+        "id": "Specimen.collection.extension",
+        "path": "Specimen.collection.extension",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "value",
+              "path": "url"
+            }
+          ],
+          "ordered": false,
+          "rules": "open"
+        }
+      },
+      {
         "id": "Specimen.collection.extension:einstellungBlutversorgung",
         "path": "Specimen.collection.extension",
         "sliceName": "einstellungBlutversorgung",
@@ -850,6 +890,31 @@
         ]
       },
       {
+        "id": "Specimen.collection.quantity.value",
+        "path": "Specimen.collection.quantity.value",
+        "min": 1,
+        "mustSupport": true
+      },
+      {
+        "id": "Specimen.collection.quantity.unit",
+        "path": "Specimen.collection.quantity.unit",
+        "min": 1,
+        "mustSupport": true
+      },
+      {
+        "id": "Specimen.collection.quantity.system",
+        "path": "Specimen.collection.quantity.system",
+        "min": 1,
+        "patternUri": "http://unitsofmeasure.org",
+        "mustSupport": true
+      },
+      {
+        "id": "Specimen.collection.quantity.code",
+        "path": "Specimen.collection.quantity.code",
+        "min": 1,
+        "mustSupport": true
+      },
+      {
         "id": "Specimen.collection.bodySite",
         "path": "Specimen.collection.bodySite",
         "constraint": [
@@ -935,6 +1000,18 @@
           ],
           "rules": "open"
         }
+      },
+      {
+        "id": "Specimen.collection.bodySite.coding.system",
+        "path": "Specimen.collection.bodySite.coding.system",
+        "min": 1,
+        "mustSupport": true
+      },
+      {
+        "id": "Specimen.collection.bodySite.coding.code",
+        "path": "Specimen.collection.bodySite.coding.code",
+        "min": 1,
+        "mustSupport": true
       },
       {
         "id": "Specimen.collection.bodySite.coding:sct",
@@ -1062,6 +1139,18 @@
         }
       },
       {
+        "id": "Specimen.collection.fastingStatus[x]:fastingStatusCodeableConcept.coding.system",
+        "path": "Specimen.collection.fastingStatus[x].coding.system",
+        "min": 1,
+        "mustSupport": true
+      },
+      {
+        "id": "Specimen.collection.fastingStatus[x]:fastingStatusCodeableConcept.coding.code",
+        "path": "Specimen.collection.fastingStatus[x].coding.code",
+        "min": 1,
+        "mustSupport": true
+      },
+      {
         "id": "Specimen.processing",
         "path": "Specimen.processing",
         "slicing": {
@@ -1138,6 +1227,16 @@
       {
         "id": "Specimen.processing.extension",
         "path": "Specimen.processing.extension",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "value",
+              "path": "url"
+            }
+          ],
+          "ordered": false,
+          "rules": "open"
+        },
         "min": 1
       },
       {
@@ -1235,6 +1334,18 @@
           "rules": "open"
         },
         "min": 1
+      },
+      {
+        "id": "Specimen.processing.procedure.coding.system",
+        "path": "Specimen.processing.procedure.coding.system",
+        "min": 1,
+        "mustSupport": true
+      },
+      {
+        "id": "Specimen.processing.procedure.coding.code",
+        "path": "Specimen.processing.procedure.coding.code",
+        "min": 1,
+        "mustSupport": true
       },
       {
         "id": "Specimen.processing.procedure.coding:sct",
@@ -1475,6 +1586,7 @@
         "id": "Specimen.processing:lagerprozess.time[x]:timePeriod",
         "path": "Specimen.processing.time[x]",
         "sliceName": "timePeriod",
+        "min": 1,
         "type": [
           {
             "code": "Period"
@@ -1622,6 +1734,18 @@
         }
       },
       {
+        "id": "Specimen.container.type.coding.system",
+        "path": "Specimen.container.type.coding.system",
+        "min": 1,
+        "mustSupport": true
+      },
+      {
+        "id": "Specimen.container.type.coding.code",
+        "path": "Specimen.container.type.coding.code",
+        "min": 1,
+        "mustSupport": true
+      },
+      {
         "id": "Specimen.container.capacity",
         "path": "Specimen.container.capacity",
         "mustSupport": true,
@@ -1687,6 +1811,31 @@
         }
       },
       {
+        "id": "Specimen.container.capacity.value",
+        "path": "Specimen.container.capacity.value",
+        "min": 1,
+        "mustSupport": true
+      },
+      {
+        "id": "Specimen.container.capacity.unit",
+        "path": "Specimen.container.capacity.unit",
+        "min": 1,
+        "mustSupport": true
+      },
+      {
+        "id": "Specimen.container.capacity.system",
+        "path": "Specimen.container.capacity.system",
+        "min": 1,
+        "patternUri": "http://unitsofmeasure.org",
+        "mustSupport": true
+      },
+      {
+        "id": "Specimen.container.capacity.code",
+        "path": "Specimen.container.capacity.code",
+        "min": 1,
+        "mustSupport": true
+      },
+      {
         "id": "Specimen.container.specimenQuantity",
         "path": "Specimen.container.specimenQuantity",
         "mustSupport": true,
@@ -1750,6 +1899,31 @@
             }
           ]
         }
+      },
+      {
+        "id": "Specimen.container.specimenQuantity.value",
+        "path": "Specimen.container.specimenQuantity.value",
+        "min": 1,
+        "mustSupport": true
+      },
+      {
+        "id": "Specimen.container.specimenQuantity.unit",
+        "path": "Specimen.container.specimenQuantity.unit",
+        "min": 1,
+        "mustSupport": true
+      },
+      {
+        "id": "Specimen.container.specimenQuantity.system",
+        "path": "Specimen.container.specimenQuantity.system",
+        "min": 1,
+        "patternUri": "http://unitsofmeasure.org",
+        "mustSupport": true
+      },
+      {
+        "id": "Specimen.container.specimenQuantity.code",
+        "path": "Specimen.container.specimenQuantity.code",
+        "min": 1,
+        "mustSupport": true
       },
       {
         "id": "Specimen.container.additive[x]",
