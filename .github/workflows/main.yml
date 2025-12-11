@@ -18,8 +18,8 @@ jobs:
       JAVA_VALIDATION_ENABLED: true
       JAVA_VALIDATION_OPTIONS: ${{ vars.JAVA_VALIDATION_OPTIONS }}
       JAVA_VALIDATOR_VERSION: ${{ vars.JAVA_VALIDATOR_VERSION }}
-      VALIDATION_REPORT_FILTERS: | 
-        Observation-QualitaetspruefungBuffyCoat.json| | |Observation.​component[1].​value.​ofType(CodeableConcept)
+      VALIDATION_REPORT_FILTERS: |
+        Observation-QualitaetspruefungBuffyCoat.json||*no declared filter called LIST*|Observation.​component[1].​value.​ofType(CodeableConcept)
     secrets: inherit
 
   DOTNET_FHIR_VALIDATION:
