@@ -68,13 +68,13 @@ Die Codes werden typischerweise in einer Substance verwendet werden, die als Add
 
 Diese ConceptMap kann nur als Tabelle dargestellt werden, da die aus dem SPREC-Code abgeleiteten Informationen zum einen den Specimen.container.type, zum anderen den Code der im Specimen.container.additive verlinkten Substance betreffen. Die Informationen zum Container sind im target selbst, die zur Substance im target.product enthalten. Die Kapazität des Containers, die teilweise mit im SPREC codiert ist, soll gesondert über Specimen.container.capacity abgebildet werden (als Quantity). Die Temperaturbedingungen der Lagerung sollen ebenfalls gesondert über die [Extension Temperaturbedingungen](extensions) erfasst werden.
 
-{{table:https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ConceptMap/mii-cm-biobank-primary-container-sprec-sct }}
+{{render:https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ConceptMap/mii-cm-biobank-primary-container-sprec-sct }}
 
 #### Langzeitlagerung
 
 Diese ConceptMap kann nur als Tabelle dargestellt werden, da die aus dem SPREC-Code abgeleiteten Informationen zum einen den Specimen.container.type, zum anderen den Code der im Specimen.container.additive verlinkten Substance betreffen. Die Informationen zum Container sind im target selbst, die zur Substance im target.product enthalten. Die Kapazität des Containers, die teilweise mit im SPREC codiert ist, soll gesondert über Specimen.container.capacity abgebildet werden (als Quantity). Die Temperaturbedingungen der Lagerung sollen ebenfalls gesondert über die [Extension Temperaturbedingungen](extensions) erfasst werden.
 
-{{table:https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ConceptMap/mii-cm-biobank-long-term-storage-sprec-sct }}
+{{render:https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ConceptMap/mii-cm-biobank-long-term-storage-sprec-sct }}
 
 **Cell Line Ontology**
 
