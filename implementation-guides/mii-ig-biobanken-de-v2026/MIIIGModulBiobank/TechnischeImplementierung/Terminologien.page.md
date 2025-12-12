@@ -7,7 +7,7 @@ topic: terminologien
 
 Soweit möglich sollen Terminologien und eindeutige Codes verwendet werden, die internationalen Standards entsprechen.
 
- Zur eindeutigen Identifizierung von [Additive](https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/additive ), [Containertyp](https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/containertyp), [Probenart](https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/probenart) und [Verarbeitungstyp](https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/sct-lab-procedure) wird die Verwendung von [SNOMED CT](https://www.snomed.org/) empfohlen. 
+ Zur eindeutigen Identifizierung von Additiven, Containertypen, Probenart und Verarbeitungstyp wird die Verwendung von [SNOMED CT](https://www.snomed.org/) empfohlen. Die ValueSets sind im Specimen-Profil hinterlegt. 
 
 Für [Body Site](https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/sct-body-structures)
  kann neben SNOMED CT auch die International Classification of Diseases for Oncology, v.3, Topography [(ICD-O-3)](https://terminology.hl7.org/2.1.0/CodeSystem-icd-o-3.html) verwendet werden.
