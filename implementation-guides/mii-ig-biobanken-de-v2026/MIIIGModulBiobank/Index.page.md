@@ -1,6 +1,6 @@
-# Kerndatensatz Modul Biobank
+# Kerndatensatz Modul Bioprobendaten
 
-Die vorliegende Spezifikation beschreibt die FHIR Repräsentation des Kerndatensatz Moduls **Biobank** der Medizininformatik-Initative.
+Die vorliegende Spezifikation beschreibt die FHIR Repräsentation des Kerndatensatz Moduls **Bioprobendaten** der Medizininformatik-Initative.
 Im Folgenden werden die Use Cases des Moduls, sowie die dazugehörigen FHIR Profile und Terminologie Ressourcen in ihrer verbindlichen Form beschrieben.
 
 | Veröffentlichung   |   |

@@ -1,6 +1,6 @@
 ## Datensätze inkl. Beschreibungen
 
-Hier befindet sich die offizielle Version des Informationsmodells für das Kerndatensatzmodul Biobank als FHIR Logical Model:
+Hier befindet sich die offizielle Version des Informationsmodells für das Kerndatensatzmodul Bioprobendaten als FHIR Logical Model:
 
 {{tree:mii_lm_biobank}}
 

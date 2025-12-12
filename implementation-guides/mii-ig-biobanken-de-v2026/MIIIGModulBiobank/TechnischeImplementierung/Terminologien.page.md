@@ -76,3 +76,6 @@ Diese ConceptMap kann nur als Tabelle dargestellt werden, da die aus dem SPREC-C
 
 {{table:https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ConceptMap/mii-cm-biobank-long-term-storage-sprec-sct }}
 
+**Cell Line Ontology**
+
+Für Angaben im Zusammenhang mit Zellinien und Organoiden sollen Codes aus der Cell Line Ontology verwendet werden. Dabei wurde sich für die Darstellungsweise mit Prefix "CLO:" entschieden. Da es hier noch keine Vorgabe durch HL/ International gibt, kann es zu Fehlern mit Terminologieservern kommen, die die Darstellung mit "CLO_" gewählt haben. Sollte es dazu zu Problemem mit technischer Infrastruktur kommen, bitten wir um Meldung im [MII-Zulip-Chat](https://mii.zulipchat.com), um das Thema gemeinsam mit der SU-TermServ weiter bearbeiten zu können.
