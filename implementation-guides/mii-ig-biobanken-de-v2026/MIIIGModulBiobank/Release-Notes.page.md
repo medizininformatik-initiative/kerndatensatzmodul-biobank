@@ -1,6 +1,10 @@
 ## {{page-title}}
 
 **Version: 2026.0.0**
+Fix:
+    - Fix eines Problemes mit der Kardinalität der Extensions in Specimen.processing
+
+**Version: 2026.0.0**
 
 Umsetzung der Kommentare zur Ballotierung:
     - collection.method MS
