@@ -1,0 +1,683 @@
+{
+ "generated": "2026-08-27",
+ "source_commit": "ec18029d523c51fd6eb3299b17d7e40112f8a097",
+ "artefacts": [
+  {
+   "kind": "RuleSet",
+   "name": "SupportResource",
+   "path": "input/fsh/CapabilityStatement.fsh"
+  },
+  {
+   "kind": "RuleSet",
+   "name": "Profile",
+   "path": "input/fsh/CapabilityStatement.fsh"
+  },
+  {
+   "kind": "RuleSet",
+   "name": "SupportProfile",
+   "path": "input/fsh/CapabilityStatement.fsh"
+  },
+  {
+   "kind": "RuleSet",
+   "name": "SupportInteraction",
+   "path": "input/fsh/CapabilityStatement.fsh"
+  },
+  {
+   "kind": "RuleSet",
+   "name": "SupportSearchParam",
+   "path": "input/fsh/CapabilityStatement.fsh"
+  },
+  {
+   "kind": "Instance",
+   "name": "mii-cps-biobank-capabilitystatement",
+   "path": "input/fsh/CapabilityStatement.fsh"
+  },
+  {
+   "kind": "Alias",
+   "name": "$SCT",
+   "path": "input/fsh/aliases.fsh"
+  },
+  {
+   "kind": "Alias",
+   "name": "$CLO",
+   "path": "input/fsh/aliases.fsh"
+  },
+  {
+   "kind": "Alias",
+   "name": "$LOINC",
+   "path": "input/fsh/aliases.fsh"
+  },
+  {
+   "kind": "Alias",
+   "name": "$UCUM",
+   "path": "input/fsh/aliases.fsh"
+  },
+  {
+   "kind": "Alias",
+   "name": "$exp",
+   "path": "input/fsh/aliases.fsh"
+  },
+  {
+   "kind": "CodeSystem",
+   "name": "MII_CS_Biobank_Contact_Type",
+   "path": "input/fsh/codesystems/CodeSystemContactType.fsh"
+  },
+  {
+   "kind": "CodeSystem",
+   "name": "MII_CS_Biobank_Probenebene",
+   "path": "input/fsh/codesystems/CodeSystemProbenebene.fsh"
+  },
+  {
+   "kind": "Instance",
+   "name": "mii-cm-biobank-fixation-type-sprec-sct",
+   "path": "input/fsh/conceptmaps/SPRECFixationTypeMap.fsh"
+  },
+  {
+   "kind": "Instance",
+   "name": "mii-cm-biobank-long-term-storage-sprec-sct",
+   "path": "input/fsh/conceptmaps/SPRECLongTermStorageMap.fsh"
+  },
+  {
+   "kind": "Instance",
+   "name": "mii-cm-biobank-primary-container-sprec-sct",
+   "path": "input/fsh/conceptmaps/SPRECPrimaryContainerMap.fsh"
+  },
+  {
+   "kind": "Instance",
+   "name": "mii-cm-biobank-sample-type-sprec-sct",
+   "path": "input/fsh/conceptmaps/SPRECSampleTypeMap.fsh"
+  },
+  {
+   "kind": "Extension",
+   "name": "MII_EX_Biobank_Anzahl_Aliquots",
+   "path": "input/fsh/extensions/ExtensionAnzahlAliquots.fsh"
+  },
+  {
+   "kind": "Extension",
+   "name": "MII_EX_Biobank_Diagnose",
+   "path": "input/fsh/extensions/ExtensionDiagnose.fsh"
+  },
+  {
+   "kind": "Extension",
+   "name": "MII_EX_Biobank_Ebene",
+   "path": "input/fsh/extensions/ExtensionEbene.fsh"
+  },
+  {
+   "kind": "Extension",
+   "name": "MII_EX_Biobank_Einstellung_Blutversorgung",
+   "path": "input/fsh/extensions/ExtensionEinstellungBlutversorgung.fsh"
+  },
+  {
+   "kind": "Extension",
+   "name": "MII_EX_Biobank_KontaktRolle",
+   "path": "input/fsh/extensions/ExtensionKontaktRolle.fsh"
+  },
+  {
+   "kind": "Extension",
+   "name": "MII_EX_Biobank_Kulturprotokoll",
+   "path": "input/fsh/extensions/ExtensionKulturprotokoll.fsh"
+  },
+  {
+   "kind": "Extension",
+   "name": "MII_EX_Biobank_Modifikationen",
+   "path": "input/fsh/extensions/ExtensionModifikationen.fsh"
+  },
+  {
+   "kind": "Extension",
+   "name": "MII_EX_Biobank_Feature_R5",
+   "path": "input/fsh/extensions/ExtensionR5Feature.fsh"
+  },
+  {
+   "kind": "Extension",
+   "name": "MII_EX_Biobank_Temperaturbedingungen",
+   "path": "input/fsh/extensions/ExtensionTemperaturbedingungen.fsh"
+  },
+  {
+   "kind": "Extension",
+   "name": "MII_EX_Biobank_Verwaltende_Organisation",
+   "path": "input/fsh/extensions/ExtensionVerwaltendeOrganisation.fsh"
+  },
+  {
+   "kind": "Extension",
+   "name": "MII_EX_Biobank_Anzahl_Passagen",
+   "path": "input/fsh/extensions/ExtensionZahlPassagen.fsh"
+  },
+  {
+   "kind": "Instance",
+   "name": "AliquotBuffyCoat2",
+   "path": "input/fsh/instances/Aliqout2_BuffyCoat.fsh"
+  },
+  {
+   "kind": "Instance",
+   "name": "AliquotgruppeBuffyCoat",
+   "path": "input/fsh/instances/Aliqoutgruppe_BuffyCoat.fsh"
+  },
+  {
+   "kind": "Instance",
+   "name": "AliquotgruppePlasma",
+   "path": "input/fsh/instances/Aliqoutgruppe_Plasma.fsh"
+  },
+  {
+   "kind": "Instance",
+   "name": "AliquotBuffyCoat1",
+   "path": "input/fsh/instances/Aliquot1_BuffyCoat.fsh"
+  },
+  {
+   "kind": "Instance",
+   "name": "AliquotgruppeDNA",
+   "path": "input/fsh/instances/Aliquotgruppe_DNA.fsh"
+  },
+  {
+   "kind": "Instance",
+   "name": "BiobankMusterstadt",
+   "path": "input/fsh/instances/BiobankMusterstadt.fsh"
+  },
+  {
+   "kind": "Instance",
+   "name": "DNAConcentrationObs1",
+   "path": "input/fsh/instances/DNAKonzentration.fsh"
+  },
+  {
+   "kind": "Instance",
+   "name": "Heparin",
+   "path": "input/fsh/instances/Heparin.fsh"
+  },
+  {
+   "kind": "Instance",
+   "name": "KaryotypOrganoidLunge",
+   "path": "input/fsh/instances/Karyotyp.fsh"
+  },
+  {
+   "kind": "Instance",
+   "name": "Kulturprotokoll",
+   "path": "input/fsh/instances/Kulturprotokoll.fsh"
+  },
+  {
+   "kind": "Instance",
+   "name": "ProtocolCRISPRTP53",
+   "path": "input/fsh/instances/ModifikationProtokoll.fsh"
+  },
+  {
+   "kind": "Instance",
+   "name": "MorphologieOrganoidLunge",
+   "path": "input/fsh/instances/MorphologieOrganoid.fsh"
+  },
+  {
+   "kind": "Instance",
+   "name": "MusterprobeFluessig",
+   "path": "input/fsh/instances/MusterprobeFluessig.fsh"
+  },
+  {
+   "kind": "Instance",
+   "name": "MusterprobeGewebe",
+   "path": "input/fsh/instances/MusterprobeGewebe.fsh"
+  },
+  {
+   "kind": "Instance",
+   "name": "Mustersammlung",
+   "path": "input/fsh/instances/Mustersammlung.fsh"
+  },
+  {
+   "kind": "Instance",
+   "name": "OrganoidLunge",
+   "path": "input/fsh/instances/Organoid_lunge.fsh"
+  },
+  {
+   "kind": "Instance",
+   "name": "ProliferationOrganoidLunge",
+   "path": "input/fsh/instances/Proliferation.fsh"
+  },
+  {
+   "kind": "Instance",
+   "name": "QualitaetspruefungBuffyCoat",
+   "path": "input/fsh/instances/Qualitaetspruefung_BuffyCoat.fsh"
+  },
+  {
+   "kind": "Instance",
+   "name": "QualitaetspruefungPlasma",
+   "path": "input/fsh/instances/Qualitaetspruefung_Plasma.fsh"
+  },
+  {
+   "kind": "Instance",
+   "name": "GewebeBiopsie",
+   "path": "input/fsh/instances/ServiceRequest.fsh"
+  },
+  {
+   "kind": "Instance",
+   "name": "WachstumstypOrganoidLunge",
+   "path": "input/fsh/instances/Wachstumstyp.fsh"
+  },
+  {
+   "kind": "Invariant",
+   "name": "mii-bb-1",
+   "path": "input/fsh/invariants/mii-bb-1.fsh"
+  },
+  {
+   "kind": "Logical",
+   "name": "MII_LM_Biobank",
+   "path": "input/fsh/logicals/MII_LM_Biobank.fsh"
+  },
+  {
+   "kind": "Mapping",
+   "name": "MII_LM_Biobank",
+   "path": "input/fsh/logicals/MII_LM_Biobank.fsh"
+  },
+  {
+   "kind": "Profile",
+   "name": "MII_PR_Biobank_Observation_DNA_Konzentration",
+   "path": "input/fsh/profiles/ProfileObservationDNAKonzentration.fsh"
+  },
+  {
+   "kind": "Profile",
+   "name": "MII_PR_Biobank_Observation_Karyotyp",
+   "path": "input/fsh/profiles/ProfileObservationKaryotyp.fsh"
+  },
+  {
+   "kind": "Profile",
+   "name": "MII_PR_Biobank_Observation_Proliferation",
+   "path": "input/fsh/profiles/ProfileObservationProliferation.fsh"
+  },
+  {
+   "kind": "Profile",
+   "name": "MII_PR_Biobank_Observation_Qualitaetspruefung",
+   "path": "input/fsh/profiles/ProfileObservationQualitaetspruefung.fsh"
+  },
+  {
+   "kind": "Profile",
+   "name": "MII_PR_Biobank_Observation_Wachstumstyp",
+   "path": "input/fsh/profiles/ProfileObservationWachstumstyp.fsh"
+  },
+  {
+   "kind": "Profile",
+   "name": "MII_PR_Biobank_Observation_Morphologie",
+   "path": "input/fsh/profiles/ProfileObservationZellMorphologie.fsh"
+  },
+  {
+   "kind": "Profile",
+   "name": "MII_PR_Biobank_Organization_Sammlung_Biobank",
+   "path": "input/fsh/profiles/ProfileOrganizationSammlungBiobank.fsh"
+  },
+  {
+   "kind": "Profile",
+   "name": "MII_PR_Biobank_Specimen_Bioprobe",
+   "path": "input/fsh/profiles/ProfileSpecimenBioprobe.fsh"
+  },
+  {
+   "kind": "Profile",
+   "name": "MII_PR_Biobank_Specimen_Bioprobe_Core",
+   "path": "input/fsh/profiles/ProfileSpecimenBioprobeCore.fsh"
+  },
+  {
+   "kind": "Profile",
+   "name": "MII_PR_Biobank_Specimen_Zellinie_Organoid",
+   "path": "input/fsh/profiles/ProfileSpecimenZellinieOrganiod.fsh"
+  },
+  {
+   "kind": "Profile",
+   "name": "MII_PR_Biobank_Substance_Additiv",
+   "path": "input/fsh/profiles/ProfileSubstanceAdditiv.fsh"
+  },
+  {
+   "kind": "RuleSet",
+   "name": "AddMapping(targetCode,",
+   "path": "input/fsh/rulesets/ConceptMapRuleSets.fsh"
+  },
+  {
+   "kind": "RuleSet",
+   "name": "AddAdditiveMapping(additiveCode,",
+   "path": "input/fsh/rulesets/ConceptMapRuleSets.fsh"
+  },
+  {
+   "kind": "RuleSet",
+   "name": "InitMapping(code,",
+   "path": "input/fsh/rulesets/ConceptMapRuleSets.fsh"
+  },
+  {
+   "kind": "RuleSet",
+   "name": "AddComment(comment)",
+   "path": "input/fsh/rulesets/ConceptMapRuleSets.fsh"
+  },
+  {
+   "kind": "RuleSet",
+   "name": "SNOMED_Copyright",
+   "path": "input/fsh/rulesets/copyright.fsh"
+  },
+  {
+   "kind": "RuleSet",
+   "name": "LOINC_Copyright",
+   "path": "input/fsh/rulesets/copyright.fsh"
+  },
+  {
+   "kind": "RuleSet",
+   "name": "UCUM_Copyright",
+   "path": "input/fsh/rulesets/copyright.fsh"
+  },
+  {
+   "kind": "RuleSet",
+   "name": "SNOMED_SPREC_Copyright_CM",
+   "path": "input/fsh/rulesets/copyright.fsh"
+  },
+  {
+   "kind": "RuleSet",
+   "name": "PR_CS_VS_Date",
+   "path": "input/fsh/rulesets/date.fsh"
+  },
+  {
+   "kind": "RuleSet",
+   "name": "Date",
+   "path": "input/fsh/rulesets/date.fsh"
+  },
+  {
+   "kind": "RuleSet",
+   "name": "ExtensionContext(path)",
+   "path": "input/fsh/rulesets/extension-context.fsh"
+  },
+  {
+   "kind": "Alias",
+   "name": "$spdx-license",
+   "path": "input/fsh/rulesets/license-terms.fsh"
+  },
+  {
+   "kind": "RuleSet",
+   "name": "LicenseCodeableCCBY40",
+   "path": "input/fsh/rulesets/license-terms.fsh"
+  },
+  {
+   "kind": "RuleSet",
+   "name": "LicenseCodeableCCBY40Instance",
+   "path": "input/fsh/rulesets/license-terms.fsh"
+  },
+  {
+   "kind": "RuleSet",
+   "name": "MetaProfile(canonical)",
+   "path": "input/fsh/rulesets/meta-profile.fsh"
+  },
+  {
+   "kind": "RuleSet",
+   "name": "Publisher",
+   "path": "input/fsh/rulesets/publisher.fsh"
+  },
+  {
+   "kind": "RuleSet",
+   "name": "SP_Publisher",
+   "path": "input/fsh/rulesets/publisher.fsh"
+  },
+  {
+   "kind": "RuleSet",
+   "name": "Translation(path,",
+   "path": "input/fsh/rulesets/translation.fsh"
+  },
+  {
+   "kind": "RuleSet",
+   "name": "Version",
+   "path": "input/fsh/rulesets/version.fsh"
+  },
+  {
+   "kind": "RuleSet",
+   "name": "PR_CS_VS_Version",
+   "path": "input/fsh/rulesets/version.fsh"
+  },
+  {
+   "kind": "ValueSet",
+   "name": "MII_VS_Biobank_Substance_Additive_SCT",
+   "path": "input/fsh/valuesets/ValueSetAdditive.fsh"
+  },
+  {
+   "kind": "ValueSet",
+   "name": "MII_VS_Biobank_Cellline_Morphology_SCT",
+   "path": "input/fsh/valuesets/ValueSetCellLineMorphologie.fsh"
+  },
+  {
+   "kind": "ValueSet",
+   "name": "MII_VS_Biobank_CellLine_Proliferation",
+   "path": "input/fsh/valuesets/ValueSetCellinieProliferation.fsh"
+  },
+  {
+   "kind": "ValueSet",
+   "name": "MII_VS_Biobank_Containertyp_SCT",
+   "path": "input/fsh/valuesets/ValueSetContainertyp.fsh"
+  },
+  {
+   "kind": "ValueSet",
+   "name": "MII_VS_Biobank_DNA_Concentration_Units_UCUM",
+   "path": "input/fsh/valuesets/ValueSetDNAKonzentrationUnits.fsh"
+  },
+  {
+   "kind": "ValueSet",
+   "name": "MII_VS_Biobank_Karyotyp_SCT",
+   "path": "input/fsh/valuesets/ValueSetKaryotyp.fsh"
+  },
+  {
+   "kind": "ValueSet",
+   "name": "MII_VS_Biobank_Cellline_Modification_CLO",
+   "path": "input/fsh/valuesets/ValueSetModifikationen.fsh"
+  },
+  {
+   "kind": "ValueSet",
+   "name": "MII_VS_Biobank_Probenart_SCT",
+   "path": "input/fsh/valuesets/ValueSetProbenart.fsh"
+  },
+  {
+   "kind": "ValueSet",
+   "name": "MII_VS_Biobank_Probenebene",
+   "path": "input/fsh/valuesets/ValueSetProbenebene.fsh"
+  },
+  {
+   "kind": "ValueSet",
+   "name": "MII_VS_Biobank_BodyStructures_SCT",
+   "path": "input/fsh/valuesets/ValueSetSCTBodyStructure.fsh"
+  },
+  {
+   "kind": "ValueSet",
+   "name": "MII_VS_Biobank_Laboratory_Procedure_SCT",
+   "path": "input/fsh/valuesets/ValueSetSCTLaboratoryProcedure.fsh"
+  },
+  {
+   "kind": "ValueSet",
+   "name": "MII_VS_Biobank_Wachstumpstyp_CLO",
+   "path": "input/fsh/valuesets/ValueSetWachstumstyp.fsh"
+  }
+ ],
+ "narrative": [
+  {
+   "path": "implementation-guides/mii-ig-biobanken-de-v2026/MIIIGModulBiobank/AnwendungsfaelleInformationsmodell/BeschreibungvonSzenarienfrdieAnwendungderModule.page.md",
+   "kind": "page"
+  },
+  {
+   "path": "implementation-guides/mii-ig-biobanken-de-v2026/MIIIGModulBiobank/AnwendungsfaelleInformationsmodell/DatensaetzeinklBeschreibungen.page.md",
+   "kind": "page"
+  },
+  {
+   "path": "implementation-guides/mii-ig-biobanken-de-v2026/MIIIGModulBiobank/AnwendungsfaelleInformationsmodell/UML.page.md",
+   "kind": "page"
+  },
+  {
+   "path": "implementation-guides/mii-ig-biobanken-de-v2026/MIIIGModulBiobank/AnwendungsfaelleInformationsmodell/glossar.md",
+   "kind": "page"
+  },
+  {
+   "path": "implementation-guides/mii-ig-biobanken-de-v2026/MIIIGModulBiobank/AnwendungsfaelleInformationsmodell/index.page.md",
+   "kind": "page"
+  },
+  {
+   "path": "implementation-guides/mii-ig-biobanken-de-v2026/MIIIGModulBiobank/AnwendungsfaelleInformationsmodell/toc.yaml",
+   "kind": "asset"
+  },
+  {
+   "path": "implementation-guides/mii-ig-biobanken-de-v2026/MIIIGModulBiobank/BeschreibungModul.page.md",
+   "kind": "page"
+  },
+  {
+   "path": "implementation-guides/mii-ig-biobanken-de-v2026/MIIIGModulBiobank/Index.page.md",
+   "kind": "page"
+  },
+  {
+   "path": "implementation-guides/mii-ig-biobanken-de-v2026/MIIIGModulBiobank/KontextimGesamtprojektBezgezuanderenModulen.page.md",
+   "kind": "page"
+  },
+  {
+   "path": "implementation-guides/mii-ig-biobanken-de-v2026/MIIIGModulBiobank/Referenzen.page.md",
+   "kind": "page"
+  },
+  {
+   "path": "implementation-guides/mii-ig-biobanken-de-v2026/MIIIGModulBiobank/Release-Notes.page.md",
+   "kind": "page"
+  },
+  {
+   "path": "implementation-guides/mii-ig-biobanken-de-v2026/MIIIGModulBiobank/TechnischeImplementierung/CapabilityStatement.page.md",
+   "kind": "page"
+  },
+  {
+   "path": "implementation-guides/mii-ig-biobanken-de-v2026/MIIIGModulBiobank/TechnischeImplementierung/FHIR-Profile/Index.page.md",
+   "kind": "page"
+  },
+  {
+   "path": "implementation-guides/mii-ig-biobanken-de-v2026/MIIIGModulBiobank/TechnischeImplementierung/FHIR-Profile/Organization/Extensions.page.md",
+   "kind": "page"
+  },
+  {
+   "path": "implementation-guides/mii-ig-biobanken-de-v2026/MIIIGModulBiobank/TechnischeImplementierung/FHIR-Profile/Organization/Index.page.md",
+   "kind": "page"
+  },
+  {
+   "path": "implementation-guides/mii-ig-biobanken-de-v2026/MIIIGModulBiobank/TechnischeImplementierung/FHIR-Profile/Organization/toc.yaml",
+   "kind": "asset"
+  },
+  {
+   "path": "implementation-guides/mii-ig-biobanken-de-v2026/MIIIGModulBiobank/TechnischeImplementierung/FHIR-Profile/Specimen/DNAKonzentration.page.md",
+   "kind": "page"
+  },
+  {
+   "path": "implementation-guides/mii-ig-biobanken-de-v2026/MIIIGModulBiobank/TechnischeImplementierung/FHIR-Profile/Specimen/Extensions.page.md",
+   "kind": "page"
+  },
+  {
+   "path": "implementation-guides/mii-ig-biobanken-de-v2026/MIIIGModulBiobank/TechnischeImplementierung/FHIR-Profile/Specimen/Index.page.md",
+   "kind": "page"
+  },
+  {
+   "path": "implementation-guides/mii-ig-biobanken-de-v2026/MIIIGModulBiobank/TechnischeImplementierung/FHIR-Profile/Specimen/Qualitaetspruefung.page.md",
+   "kind": "page"
+  },
+  {
+   "path": "implementation-guides/mii-ig-biobanken-de-v2026/MIIIGModulBiobank/TechnischeImplementierung/FHIR-Profile/Specimen/toc.yaml",
+   "kind": "asset"
+  },
+  {
+   "path": "implementation-guides/mii-ig-biobanken-de-v2026/MIIIGModulBiobank/TechnischeImplementierung/FHIR-Profile/SubstanceAdditiv.page.md",
+   "kind": "page"
+  },
+  {
+   "path": "implementation-guides/mii-ig-biobanken-de-v2026/MIIIGModulBiobank/TechnischeImplementierung/FHIR-Profile/ZelllinieOrganoid/Extensions.page.md",
+   "kind": "page"
+  },
+  {
+   "path": "implementation-guides/mii-ig-biobanken-de-v2026/MIIIGModulBiobank/TechnischeImplementierung/FHIR-Profile/ZelllinieOrganoid/Index.page.md",
+   "kind": "page"
+  },
+  {
+   "path": "implementation-guides/mii-ig-biobanken-de-v2026/MIIIGModulBiobank/TechnischeImplementierung/FHIR-Profile/ZelllinieOrganoid/Karyotyp.page.md",
+   "kind": "page"
+  },
+  {
+   "path": "implementation-guides/mii-ig-biobanken-de-v2026/MIIIGModulBiobank/TechnischeImplementierung/FHIR-Profile/ZelllinieOrganoid/Kulturbedingungen.page.md",
+   "kind": "page"
+  },
+  {
+   "path": "implementation-guides/mii-ig-biobanken-de-v2026/MIIIGModulBiobank/TechnischeImplementierung/FHIR-Profile/ZelllinieOrganoid/Morphologie.page.md",
+   "kind": "page"
+  },
+  {
+   "path": "implementation-guides/mii-ig-biobanken-de-v2026/MIIIGModulBiobank/TechnischeImplementierung/FHIR-Profile/ZelllinieOrganoid/Mutationen.page.md",
+   "kind": "page"
+  },
+  {
+   "path": "implementation-guides/mii-ig-biobanken-de-v2026/MIIIGModulBiobank/TechnischeImplementierung/FHIR-Profile/ZelllinieOrganoid/Phenotyp.page.md",
+   "kind": "page"
+  },
+  {
+   "path": "implementation-guides/mii-ig-biobanken-de-v2026/MIIIGModulBiobank/TechnischeImplementierung/FHIR-Profile/ZelllinieOrganoid/Proliferation.page.md",
+   "kind": "page"
+  },
+  {
+   "path": "implementation-guides/mii-ig-biobanken-de-v2026/MIIIGModulBiobank/TechnischeImplementierung/FHIR-Profile/ZelllinieOrganoid/Wachstumstyp.page.md",
+   "kind": "page"
+  },
+  {
+   "path": "implementation-guides/mii-ig-biobanken-de-v2026/MIIIGModulBiobank/TechnischeImplementierung/FHIR-Profile/ZelllinieOrganoid/toc.yaml",
+   "kind": "asset"
+  },
+  {
+   "path": "implementation-guides/mii-ig-biobanken-de-v2026/MIIIGModulBiobank/TechnischeImplementierung/FHIR-Profile/toc.yaml",
+   "kind": "asset"
+  },
+  {
+   "path": "implementation-guides/mii-ig-biobanken-de-v2026/MIIIGModulBiobank/TechnischeImplementierung/Index.page.md",
+   "kind": "page"
+  },
+  {
+   "path": "implementation-guides/mii-ig-biobanken-de-v2026/MIIIGModulBiobank/TechnischeImplementierung/Terminologien.page.md",
+   "kind": "page"
+  },
+  {
+   "path": "implementation-guides/mii-ig-biobanken-de-v2026/MIIIGModulBiobank/TechnischeImplementierung/toc.yaml",
+   "kind": "asset"
+  },
+  {
+   "path": "implementation-guides/mii-ig-biobanken-de-v2026/MIIIGModulBiobank/toc.yaml",
+   "kind": "asset"
+  },
+  {
+   "path": "implementation-guides/mii-ig-biobanken-de-v2026/guide.yaml",
+   "kind": "asset"
+  },
+  {
+   "path": "implementation-guides/mii-ig-biobanken-de-v2026/images/2025-06-12_de_KDS-Abb_1.png",
+   "kind": "asset"
+  },
+  {
+   "path": "implementation-guides/mii-ig-biobanken-de-v2026/images/Probenebenen.PNG",
+   "kind": "asset"
+  },
+  {
+   "path": "implementation-guides/mii-ig-biobanken-de-v2026/images/UML_10_11_2025.png",
+   "kind": "asset"
+  },
+  {
+   "path": "implementation-guides/mii-ig-biobanken-de-v2026/images/UML_28_05_2025.png",
+   "kind": "asset"
+  },
+  {
+   "path": "implementation-guides/mii-ig-biobanken-de-v2026/styles/styles/master.html",
+   "kind": "asset"
+  },
+  {
+   "path": "implementation-guides/mii-ig-biobanken-de-v2026/styles/styles/settings.style",
+   "kind": "asset"
+  },
+  {
+   "path": "implementation-guides/mii-ig-biobanken-de-v2026/styles/styles/style.css",
+   "kind": "asset"
+  },
+  {
+   "path": "implementation-guides/mii-ig-biobanken-de-v2026/toc.yaml",
+   "kind": "asset"
+  }
+ ],
+ "summary": {
+  "artefact_decls": {
+   "RuleSet": 24,
+   "Instance": 26,
+   "Alias": 6,
+   "CodeSystem": 2,
+   "Extension": 11,
+   "Invariant": 1,
+   "Logical": 1,
+   "Mapping": 1,
+   "Profile": 11,
+   "ValueSet": 12
+  },
+  "narrative_pages": 30,
+  "narrative_assets": 16
+ }
+}

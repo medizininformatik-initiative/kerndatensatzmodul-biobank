@@ -139,6 +139,20 @@
         "mustSupport": true
       },
       {
+        "id": "Specimen.extension",
+        "path": "Specimen.extension",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "value",
+              "path": "url"
+            }
+          ],
+          "ordered": false,
+          "rules": "open"
+        }
+      },
+      {
         "id": "Specimen.extension:feature",
         "path": "Specimen.extension",
         "sliceName": "feature",
@@ -685,6 +699,20 @@
         }
       },
       {
+        "id": "Specimen.collection.extension",
+        "path": "Specimen.collection.extension",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "value",
+              "path": "url"
+            }
+          ],
+          "ordered": false,
+          "rules": "open"
+        }
+      },
+      {
         "id": "Specimen.collection.extension:einstellungBlutversorgung",
         "path": "Specimen.collection.extension",
         "sliceName": "einstellungBlutversorgung",
@@ -1199,6 +1227,16 @@
       {
         "id": "Specimen.processing.extension",
         "path": "Specimen.processing.extension",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "value",
+              "path": "url"
+            }
+          ],
+          "ordered": false,
+          "rules": "open"
+        },
         "min": 1
       },
       {
