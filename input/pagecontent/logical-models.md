@@ -55,7 +55,7 @@ Note that the logical model aims purely at representing the data elements and th
 | `Bioprobe.Zelllinie_Organoid.Zellproliferation` | Art der Zellproliferation der Zelllinie/Organoids. | `Observation(https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/mii-pr-biobank-observation-proliferation)` |
 | `Bioprobe.Zelllinie_Organoid.Passage` | Anzahl der Passagen. | `Specimen.extension[anzahlPassagen]` |
 | `Bioprobe.Zelllinie_Organoid.Modifikationen` | Optional: Vorgenommene Modifikationen. | `Specimen.extension[modifikationen]` |
-| `Bioprobe.Zelllinie_Organoid.Qualitätsprüfung` | Z.B. Viabilität, Test auf Mykoplasmen, Wiederauftaubarkeit / Wiederinkulturnahme. | `Observation(https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/mii-pr-biobank-observation-qualitaetspruefung)` |
+| `Bioprobe.Zelllinie_Organoid.Qualitaetspruefung` | Z.B. Viabilität, Test auf Mykoplasmen, Wiederauftaubarkeit / Wiederinkulturnahme. | `Observation(https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/mii-pr-biobank-observation-qualitaetspruefung)` |
 | `Bioprobe.Zelllinie_Organoid.Protokoll-Kultur` | Kulturprotokoll der Zelllinie/Organoids. | `Specimen.extension[kulturprotokoll]` |
 | `Bioprobe.Zelllinie_Organoid.Kulturbedigungen` | Kulturbedingungen der Zelllinie/Organoids. | `Observation` |
 | `Probensammlung-Biobank` | Organisation, die Proben verwaltet | `Biobank` |

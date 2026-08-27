@@ -57,7 +57,7 @@ Description: "Logische Repräsentation des Erweiterungsmoduls Biobank"
     * Zellproliferation 0..1 http://hl7.org/fhir/StructureDefinition/CodeableConcept "Art der Zellproliferation der Zelllinie/Organoids."
     * Passage 0..1 http://hl7.org/fhir/StructureDefinition/integer "Anzahl der Passagen."
     * Modifikationen 0..* http://hl7.org/fhir/StructureDefinition/CodeableConcept "Optional: Vorgenommene Modifikationen."
-    * Qualitätsprüfung 0..* http://hl7.org/fhir/StructureDefinition/CodeableConcept "Z.B. Viabilität, Test auf Mykoplasmen, Wiederauftaubarkeit / Wiederinkulturnahme."
+    * Qualitaetspruefung 0..* http://hl7.org/fhir/StructureDefinition/CodeableConcept "Z.B. Viabilität, Test auf Mykoplasmen, Wiederauftaubarkeit / Wiederinkulturnahme."
     * Protokoll-Kultur 0..1 http://hl7.org/fhir/StructureDefinition/Reference "Kulturprotokoll der Zelllinie/Organoids."
     * Kulturbedigungen 0..* http://hl7.org/fhir/StructureDefinition/CodeableConcept "Kulturbedingungen der Zelllinie/Organoids."
 
@@ -126,7 +126,7 @@ Source: MII_LM_Biobank
     * Zellproliferation -> "Observation(https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/mii-pr-biobank-observation-proliferation)"
     * Passage -> "Specimen.extension[anzahlPassagen]"
     * Modifikationen -> "Specimen.extension[modifikationen]"
-    * Qualitätsprüfung -> "Observation(https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/mii-pr-biobank-observation-qualitaetspruefung)"
+    * Qualitaetspruefung -> "Observation(https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/mii-pr-biobank-observation-qualitaetspruefung)"
     * Protokoll-Kultur -> "Specimen.extension[kulturprotokoll]"
     * Kulturbedigungen -> "Observation"
 

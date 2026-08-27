@@ -1,6 +1,6 @@
 # IG-Statistik — biobank-migrated
 
-_Modus: `static` · Stand: 2026-08-27T17:27:38Z · Commit: `f5c0539`_
+_Modus: `static` · Stand: 2026-08-27T17:28:37Z · Commit: `2e8aafb`_
 
 ## Kennzahlen-Überblick
 
@@ -132,7 +132,7 @@ _Strategische Kennzahlen: Bindung an die Quellplattform (Lock-in), Anteil standa
 | Wiederverwendung externer Profile (Parents) | 82 % (9 von 11 Profil-Parents extern; abstrakte LM-Basistypen ausgeschlossen) |
 | FHIR-Version | R4 — aktuell verbreitet |
 | Dependency-Veraltung | 0 veraltet (Heuristik) |
-| Pflege-Kadenz | 52.7 Commits/Jahr · letzter Commit vor 0 Tagen |
+| Pflege-Kadenz | 52.8 Commits/Jahr · letzter Commit vor 0 Tagen |
 
 </div>
 
@@ -243,9 +243,9 @@ _Die FHIR-Pakete, auf denen der IG aufbaut, samt Version und ob diese fest oder 
 
 - Dependency-Gesundheit: old-style=keine; THO direkt gepinnt=True, Extensions-Pack=True; externe Parents: 0
 
-- Narrative-Quellen: **DUAL** — implementation-guides/ (letzter Commit 2026-02-11T16:33:25+01:00) UND pagecontent+intro-notes (letzter Commit 2026-08-27T19:26:12+02:00); vor der Migration entscheiden, welche Kopie maßgeblich ist (Frische, nicht Rang)
+- Narrative-Quellen: **DUAL** — implementation-guides/ (letzter Commit 2026-02-11T16:33:25+01:00) UND pagecontent+intro-notes (letzter Commit 2026-08-27T19:28:20+02:00); vor der Migration entscheiden, welche Kopie maßgeblich ist (Frische, nicht Rang)
 
-- QA-Baseline: output/qa.json → err=None warn=None (Thu, 27 Aug, 2026 19:27:21 +0200)
+- QA-Baseline: **keine im Baum** — für Vorher/Nachher-Beweise die unmigrierte Quelle bauen oder deren gerendertes qa beziehen
 
 ## Artefakte (Quelle: input/fsh (FSH-Deklarationen))
 

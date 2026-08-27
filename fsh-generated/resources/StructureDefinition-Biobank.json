@@ -889,8 +889,8 @@
         ]
       },
       {
-        "id": "Biobank.Bioprobe.Zelllinie_Organoid.Qualitätsprüfung",
-        "path": "Biobank.Bioprobe.Zelllinie_Organoid.Qualitätsprüfung",
+        "id": "Biobank.Bioprobe.Zelllinie_Organoid.Qualitaetspruefung",
+        "path": "Biobank.Bioprobe.Zelllinie_Organoid.Qualitaetspruefung",
         "short": "Z.B. Viabilität, Test auf Mykoplasmen, Wiederauftaubarkeit / Wiederinkulturnahme.",
         "definition": "Z.B. Viabilität, Test auf Mykoplasmen, Wiederauftaubarkeit / Wiederinkulturnahme.",
         "min": 0,
