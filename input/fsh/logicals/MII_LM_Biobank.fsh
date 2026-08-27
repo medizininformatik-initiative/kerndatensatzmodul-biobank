@@ -49,7 +49,7 @@ Description: "Logische Repräsentation des Erweiterungsmoduls Biobank"
   * Pathologiebefund 0..1 http://hl7.org/fhir/StructureDefinition/Reference "Referenz auf den zu einer Probe gehörenden Pathologiebefund"
 
   * Zelllinie_Organoid 0..1 BackboneElement "Beschreibung einer Zelllinie/eines Organoides. Alle Attribute der Bioprobe sind hier ebenfalls anwendbar."
-    * Phänotyp-Diagnose 0..* http://hl7.org/fhir/StructureDefinition/Reference "Phänotyp oder Diagnose der Zelllinie / des Organoids, wenn nicht patientenbezogen angebbar."
+    * Phaenotyp-Diagnose 0..* http://hl7.org/fhir/StructureDefinition/Reference "Phänotyp oder Diagnose der Zelllinie / des Organoids, wenn nicht patientenbezogen angebbar."
     * Karyotyp 0..1 http://hl7.org/fhir/StructureDefinition/CodeableConcept "Karyotyp der Zelllinie/Organoids."
     * Morphologie 0..1 http://hl7.org/fhir/StructureDefinition/CodeableConcept "Morphologie der Zelllinie/Organoids."
     * Mutationen 0..* http://hl7.org/fhir/StructureDefinition/Reference "Mögliche Mutationen der Zelllinie/Organoids."
@@ -118,7 +118,7 @@ Source: MII_LM_Biobank
     * Lagerungsbedingungen -> "Specimen.processing[lagerprozess].extension[temperaturbedingungen]"
 
   * Zelllinie_Organoid -> "Specimen"
-    * Phänotyp-Diagnose -> "Specimen.extension[diagnose] / https://www.medizininformatik-initiative.de/fhir/ext/modul-onko/StructureDefinition/mii-pr-onko-tnm-klassifikation"
+    * Phaenotyp-Diagnose -> "Specimen.extension[diagnose] / https://www.medizininformatik-initiative.de/fhir/ext/modul-onko/StructureDefinition/mii-pr-onko-tnm-klassifikation"
     * Karyotyp -> "Observation(https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/mii-pr-biobank-observation-karyotyp)"
     * Morphologie -> "Observation(https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/mii-pr-biobank-observation-morphologie)"
     * Mutationen -> "Observation(Modul MolGen)"

@@ -46,7 +46,7 @@ Es ist zu beachten, dass das Logical Model rein auf die Abbildung der Dateneleme
 | `Bioprobe.Laborbefund` | Referenz auf den zu einer Probe gehörenden Laborbefund |  |
 | `Bioprobe.Pathologiebefund` | Referenz auf den zu einer Probe gehörenden Pathologiebefund |  |
 | `Bioprobe.Zelllinie_Organoid` | Beschreibung einer Zelllinie/eines Organoides. Alle Attribute der Bioprobe sind hier ebenfalls anwendbar. | `Specimen` |
-| `Bioprobe.Zelllinie_Organoid.Phänotyp-Diagnose` | Phänotyp oder Diagnose der Zelllinie / des Organoids, wenn nicht patientenbezogen angebbar. | `Specimen.extension[diagnose] / https://www.medizininformatik-initiative.de/fhir/ext/modul-onko/StructureDefinition/mii-pr-onko-tnm-klassifikation` |
+| `Bioprobe.Zelllinie_Organoid.Phaenotyp-Diagnose` | Phänotyp oder Diagnose der Zelllinie / des Organoids, wenn nicht patientenbezogen angebbar. | `Specimen.extension[diagnose] / https://www.medizininformatik-initiative.de/fhir/ext/modul-onko/StructureDefinition/mii-pr-onko-tnm-klassifikation` |
 | `Bioprobe.Zelllinie_Organoid.Karyotyp` | Karyotyp der Zelllinie/Organoids. | `Observation(https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/mii-pr-biobank-observation-karyotyp)` |
 | `Bioprobe.Zelllinie_Organoid.Morphologie` | Morphologie der Zelllinie/Organoids. | `Observation(https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/mii-pr-biobank-observation-morphologie)` |
 | `Bioprobe.Zelllinie_Organoid.Mutationen` | Mögliche Mutationen der Zelllinie/Organoids. | `Observation(Modul MolGen)` |

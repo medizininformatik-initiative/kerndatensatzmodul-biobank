@@ -737,8 +737,8 @@
         ]
       },
       {
-        "id": "Biobank.Bioprobe.Zelllinie_Organoid.Phänotyp-Diagnose",
-        "path": "Biobank.Bioprobe.Zelllinie_Organoid.Phänotyp-Diagnose",
+        "id": "Biobank.Bioprobe.Zelllinie_Organoid.Phaenotyp-Diagnose",
+        "path": "Biobank.Bioprobe.Zelllinie_Organoid.Phaenotyp-Diagnose",
         "short": "Phänotyp oder Diagnose der Zelllinie / des Organoids, wenn nicht patientenbezogen angebbar.",
         "definition": "Phänotyp oder Diagnose der Zelllinie / des Organoids, wenn nicht patientenbezogen angebbar.",
         "min": 0,
