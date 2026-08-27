@@ -1,0 +1,21 @@
+{
+  "codeSystems" : [{
+    "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/CodeSystem/ContactType",
+    "version" : "2026.0.1",
+    "status" : "active",
+    "name" : "MII_CS_Biobank_Contact_Type",
+    "title" : "MII CS Biobank Contact Type",
+    "description" : "Contact Type für Organization.contact"
+  },
+  {
+    "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/CodeSystem/mii-cs-biobank-probenebene",
+    "version" : "2026.0.1",
+    "status" : "active",
+    "name" : "MII_CS_Biobank_Probenebene",
+    "title" : "MII CS Biobank Probenebene",
+    "description" : "Codes um die Probenebene anzugeben",
+    "uses" : {
+    },
+    "ValueSet-mii-vs-biobank-probenebene.html" : "MII VS Biobank Probenebene"
+  }]
+}

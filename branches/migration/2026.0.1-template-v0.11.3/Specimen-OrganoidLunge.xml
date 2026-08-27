@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Specimen xmlns="http://hl7.org/fhir">
+  <id value="OrganoidLunge"/>
+  <meta>
+    <profile value="https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/mii-pr-biobank-zellinie-organoid"/>
+  </meta>
+  <text>
+    <status value="extensions"/><div xmlns="http://www.w3.org/1999/xhtml"><div xml:lang="en" lang="en"><hr/><p><b>English</b></p><hr/><p class="res-header-id"><b>Generated Narrative: Specimen OrganoidLunge</b></p><a name="OrganoidLunge"> </a><a name="hcOrganoidLunge"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-mii-pr-biobank-zellinie-organoid.html">MII PR Biobank Specimen Zellinie Organoid</a></p></div><p><b>MII EX Biobank Kulturprotokoll</b>: <a href="DocumentReference-Kulturprotokoll.html">DocumentReference: status = current; date = 2018-06-20 09:00:00+0100; description = Standardprotokoll zur Kultivierung von Lungentumor-Organoiden</a></p><blockquote><p><b>MII EX Biobank Zelllinien-Modifikation</b></p><ul><li>artDerModifikation: <span title="Codes:{http://purl.obolibrary.org/obo/clo.owl CLO:0037375}">derived from cell with knockout gene</span></li><li>zielGen: www.genenames.org: TP53 (tumor protein p53)</li><li>protokoll: <a href="DocumentReference-ProtocolCRISPRTP53.html">DocumentReference: status = current; date = 2018-06-19 09:00:00+0100; description = CRISPR Knockout-Protokoll für TP53 in Lungentumor-Organoiden</a></li></ul></blockquote><p><b>MII EX Biobank Anzahl Passagen</b>: 3</p><p><b>identifier</b>: <code>https://biobank.uk-musterstadt.de/fhir/sid/proben</code>/6789-ORG-1</p><p><b>status</b>: Available</p><p><b>type</b>: <span title="Codes:{http://snomed.info/sct 123038009}, {https://fhir.bbmri-eric.eu/fhir/CodeSystem/miabis-detailed-samply-type-cs Organoid}">Specimen (specimen)</span></p><p><b>subject</b>: <a href="https://simplifier.net/resolve?scope=de.basisprofil.r4@1.5.4&amp;canonical=http://fhir.org/packages/de.basisprofil.r4/Patient/mii-exa-test-data-patient-1">Patient/mii-exa-test-data-patient-1</a></p><p><b>parent</b>: </p><p><b style="color: maroon">Exception Generating Narrative: Cannot invoke &quot;org.hl7.fhir.r5.renderers.utils.ResourceWrapper.fhirType()&quot; because &quot;resource&quot; is null </b></p></div><div xml:lang="de" lang="de"><hr/><p><b>German</b></p><hr/><p class="res-header-id"><b>Generated Narrative: Specimen OrganoidLunge</b></p><a name="de-OrganoidLunge"> </a><a name="de-hcOrganoidLunge"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-mii-pr-biobank-zellinie-organoid.html">MII PR Biobank Specimen Zellinie Organoid</a></p></div><p><b>MII EX Biobank Kulturprotokoll</b>: <a href="DocumentReference-Kulturprotokoll.html">DocumentReference: status = current; date = 2018-06-20 09:00:00+0100; description = Standardprotokoll zur Kultivierung von Lungentumor-Organoiden</a></p><blockquote><p><b>MII EX Biobank Zelllinien-Modifikation</b></p><ul><li>artDerModifikation: <span title="Codes:{http://purl.obolibrary.org/obo/clo.owl CLO:0037375}">derived from cell with knockout gene</span></li><li>zielGen: www.genenames.org: TP53 (tumor protein p53)</li><li>protokoll: <a href="DocumentReference-ProtocolCRISPRTP53.html">DocumentReference: status = current; date = 2018-06-19 09:00:00+0100; description = CRISPR Knockout-Protokoll für TP53 in Lungentumor-Organoiden</a></li></ul></blockquote><p><b>MII EX Biobank Anzahl Passagen</b>: 3</p><p><b>identifier</b>: <code>https://biobank.uk-musterstadt.de/fhir/sid/proben</code>/6789-ORG-1</p><p><b>status</b>: Available</p><p><b>type</b>: <span title="Codes:{http://snomed.info/sct 123038009}, {https://fhir.bbmri-eric.eu/fhir/CodeSystem/miabis-detailed-samply-type-cs Organoid}">Specimen (specimen)</span></p><p><b>subject</b>: <a href="https://simplifier.net/resolve?scope=de.basisprofil.r4@1.5.4&amp;canonical=http://fhir.org/packages/de.basisprofil.r4/Patient/mii-exa-test-data-patient-1">Patient/mii-exa-test-data-patient-1</a></p><p><b>parent</b>: </p><p><b style="color: maroon">Exception Generating Narrative: Cannot invoke &quot;org.hl7.fhir.r5.renderers.utils.ResourceWrapper.fhirType()&quot; because &quot;resource&quot; is null </b></p></div></div>
+  </text>
+  <extension url="https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/mii-ex-biobank-kulturprotokoll">
+    <valueReference>
+      <reference value="DocumentReference/Kulturprotokoll"/>
+    </valueReference>
+  </extension>
+  <extension url="https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/mii-ex-biobank-modifikationen">
+    <extension url="artDerModifikation">
+      <valueCodeableConcept>
+        <coding>
+          <system value="http://purl.obolibrary.org/obo/clo.owl"/>
+          <code value="CLO:0037375"/>
+          <display value="derived from cell with knockout gene"/>
+        </coding>
+      </valueCodeableConcept>
+    </extension>
+    <extension url="zielGen">
+      <valueCoding>
+        <system value="http://www.genenames.org"/>
+        <code value="TP53"/>
+        <display value="tumor protein p53"/>
+      </valueCoding>
+    </extension>
+    <extension url="protokoll">
+      <valueReference>
+        <reference value="DocumentReference/ProtocolCRISPRTP53"/>
+      </valueReference>
+    </extension>
+  </extension>
+  <extension url="https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/mii-ex-biobank-anzahl-passagen">
+    <valueInteger value="3"/>
+  </extension>
+  <identifier>
+    <system value="https://biobank.uk-musterstadt.de/fhir/sid/proben"/>
+    <value value="6789-ORG-1"/>
+  </identifier>
+  <status value="available"/>
+  <type>
+    <coding>
+      <system value="http://snomed.info/sct"/>
+      <code value="123038009"/>
+      <display value="Specimen (specimen)"/>
+    </coding>
+    <coding>
+      <system value="https://fhir.bbmri-eric.eu/fhir/CodeSystem/miabis-detailed-samply-type-cs"/>
+      <code value="Organoid"/>
+      <display value="Organoids"/>
+    </coding>
+  </type>
+  <subject>
+    <reference value="Patient/mii-exa-test-data-patient-1"/>
+  </subject>
+  <parent>
+    <reference value="Specimen/MusterprobeGewebe"/>
+  </parent>
+  <collection>
+    <collectedDateTime value="2018-06-08T15:34:00+01:00"/>
+  </collection>
+  <processing>
+    <extension url="https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/Temperaturbedingungen">
+      <valueRange>
+        <low>
+          <value value="37"/>
+          <unit value="°C"/>
+          <system value="http://unitsofmeasure.org"/>
+          <code value="Cel"/>
+        </low>
+        <high>
+          <value value="37"/>
+          <unit value="°C"/>
+          <system value="http://unitsofmeasure.org"/>
+          <code value="Cel"/>
+        </high>
+      </valueRange>
+    </extension>
+    <procedure>
+      <coding>
+        <system value="http://snomed.info/sct"/>
+        <code value="1186936003"/>
+        <display value="Storage of specimen (procedure)"/>
+      </coding>
+    </procedure>
+    <timePeriod>
+      <start value="2018-06-20T10:00:00+01:00"/>
+      <end value="2018-06-27T10:00:00+01:00"/>
+    </timePeriod>
+  </processing>
+  <container>
+    <type>
+      <coding>
+        <system value="http://snomed.info/sct"/>
+        <code value="83059008"/>
+        <display value="Tube, device (physical object)"/>
+      </coding>
+    </type>
+    <specimenQuantity>
+      <value value="1"/>
+      <unit value="ml"/>
+      <system value="http://unitsofmeasure.org"/>
+      <code value="ml"/>
+    </specimenQuantity>
+  </container>
+</Specimen>

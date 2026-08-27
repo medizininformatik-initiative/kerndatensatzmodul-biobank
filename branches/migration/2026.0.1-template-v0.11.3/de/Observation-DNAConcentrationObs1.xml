@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Observation xmlns="http://hl7.org/fhir">
+  <id value="DNAConcentrationObs1"/>
+  <meta>
+    <profile value="https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/mii-pr-biobank-observation-dna-konzentration"/>
+  </meta>
+  <language value="de"/>
+  <text>
+    <status value="generated"/><div xml:lang="de" lang="de"><hr/><p><b>German</b></p><hr/><p class="res-header-id"><b>Generated Narrative: Observation DNAConcentrationObs1</b></p><a name="de-DNAConcentrationObs1"> </a><a name="de-hcDNAConcentrationObs1"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-mii-pr-biobank-observation-dna-konzentration.html">MII PR Biobank Observation DNA Konzentration</a></p></div><p><b>status</b>: Final</p><p><b>code</b>: <span title="Codes:{http://loinc.org 72496-3}">DNA double strand [Mass/volume] in Specimen</span></p><p><b>focus</b>: <a href="Specimen-AliquotgruppeDNA.html">Specimen: extension = Aliquotgruppe (MII CS Biobank Probenebene#ALIQUOTGRUPPE),2; identifier = https://biobank.uk-musterstadt.de/fhir/sid/proben#12345-DNA-1; status = available; type = Deoxyribonucleic acid specimen (specimen); note = DNA Aliquots gewonnen aus Buffy-Coat</a></p><p><b>effective</b>: 2018-09-07 13:40:00+0100</p><p><b>value</b>: 40 ng/µL<span style="background: LightGoldenRodYellow"> (Details: UCUM  codeng/uL = 'ng/uL')</span></p></div>
+  </text>
+  <status value="final"/>
+  <code>
+    <coding>
+      <system value="http://loinc.org"/>
+      <code value="72496-3"/>
+      <display value="DNA double strand [Mass/volume] in Specimen"/>
+    </coding>
+  </code>
+  <focus>
+    <reference value="Specimen/AliquotgruppeDNA"/>
+  </focus>
+  <effectiveDateTime value="2018-09-07T13:40:00+01:00"/>
+  <valueQuantity>
+    <value value="40"/>
+    <unit value="ng/µL"/>
+    <system value="http://unitsofmeasure.org"/>
+    <code value="ng/uL"/>
+  </valueQuantity>
+</Observation>

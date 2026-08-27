@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Observation xmlns="http://hl7.org/fhir">
+  <id value="ProliferationOrganoidLunge"/>
+  <meta>
+    <profile value="https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/mii-pr-biobank-observation-proliferation"/>
+  </meta>
+  <language value="en"/>
+  <text>
+    <status value="generated"/><div xml:lang="en" lang="en"><hr/><p><b>English</b></p><hr/><p class="res-header-id"><b>Generated Narrative: Observation ProliferationOrganoidLunge</b></p><a name="ProliferationOrganoidLunge"> </a><a name="hcProliferationOrganoidLunge"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-mii-pr-biobank-observation-proliferation.html">MII PR Biobank Observation Proliferation</a></p></div><p><b>status</b>: Final</p><p><b>code</b>: <span title="Codes:{http://purl.obolibrary.org/obo/go.owl GO:0008283}">cell population proliferation</span></p><p><b>focus</b>: <a href="Specimen-OrganoidLunge.html">Specimen: extension = -&gt;DocumentReference: status = current; date = 2018-06-20 09:00:00+0100; description = Standardprotokoll zur Kultivierung von Lungentumor-Organoiden,,3; identifier = https://biobank.uk-musterstadt.de/fhir/sid/proben#6789-ORG-1; status = available; type = Specimen (specimen)</a></p><p><b>effective</b>: 2018-07-05 10:00:00+0100</p><p><b>value</b>: <span title="Codes:{http://purl.obolibrary.org/obo/pato.owl PATO:0000719}">viable</span></p></div>
+  </text>
+  <status value="final"/>
+  <code>
+    <coding>
+      <system value="http://purl.obolibrary.org/obo/go.owl"/>
+      <code value="GO:0008283"/>
+      <display value="cell population proliferation"/>
+    </coding>
+  </code>
+  <focus>
+    <reference value="Specimen/OrganoidLunge"/>
+  </focus>
+  <effectiveDateTime value="2018-07-05T10:00:00+01:00"/>
+  <valueCodeableConcept>
+    <coding>
+      <system value="http://purl.obolibrary.org/obo/pato.owl"/>
+      <code value="PATO:0000719"/>
+      <display value="viable"/>
+    </coding>
+  </valueCodeableConcept>
+</Observation>

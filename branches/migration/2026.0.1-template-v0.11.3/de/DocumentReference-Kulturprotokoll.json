@@ -1,0 +1,19 @@
+{
+  "resourceType" : "DocumentReference",
+  "id" : "Kulturprotokoll",
+  "language" : "de",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xml:lang=\"de\" lang=\"de\"><hr/><p><b>German</b></p><hr/><p class=\"res-header-id\"><b>Generated Narrative: DocumentReference Kulturprotokoll</b></p><a name=\"de-Kulturprotokoll\"> </a><a name=\"de-hcKulturprotokoll\"> </a><p><b>status</b>: Current</p><p><b>date</b>: 2018-06-20 09:00:00+0100</p><p><b>description</b>: Standardprotokoll zur Kultivierung von Lungentumor-Organoiden</p><blockquote><p><b>content</b></p><h3>Attachments</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>ContentType</b></td><td><b>Url</b></td><td><b>Title</b></td></tr><tr><td style=\"display: none\">*</td><td>application/pdf</td><td><a href=\"https://simplifier.net/resolve?scope=de.basisprofil.r4@1.5.4&amp;canonical=https://biobank.uk-musterstadt.de/protocols/LungOrganoidCulture_v1.pdf\">https://biobank.uk-musterstadt.de/protocols/LungOrganoidCulture_v1.pdf</a></td><td>Lungen-Organoid Kulturprotokoll v1</td></tr></table></blockquote></div>"
+  },
+  "status" : "current",
+  "date" : "2018-06-20T09:00:00+01:00",
+  "description" : "Standardprotokoll zur Kultivierung von Lungentumor-Organoiden",
+  "content" : [{
+    "attachment" : {
+      "contentType" : "application/pdf",
+      "url" : "https://biobank.uk-musterstadt.de/protocols/LungOrganoidCulture_v1.pdf",
+      "title" : "Lungen-Organoid Kulturprotokoll v1"
+    }
+  }]
+}

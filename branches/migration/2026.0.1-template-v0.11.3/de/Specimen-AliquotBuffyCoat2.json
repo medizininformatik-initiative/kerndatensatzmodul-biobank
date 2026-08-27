@@ -1,0 +1,184 @@
+{
+  "resourceType" : "Specimen",
+  "id" : "AliquotBuffyCoat2",
+  "meta" : {
+    "profile" : ["https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/Specimen"]
+  },
+  "language" : "de",
+  "text" : {
+    "status" : "extensions",
+    "div" : "<div xml:lang=\"de\" lang=\"de\"><hr/><p><b>German</b></p><hr/><p class=\"res-header-id\"><b>Generated Narrative: Specimen AliquotBuffyCoat2</b></p><a name=\"de-AliquotBuffyCoat2\"> </a><a name=\"de-hcAliquotBuffyCoat2\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-mii-pr-biobank-specimen.html\">MII PR Biobank Specimen Bioprobe</a></p></div><p><b>MII EX Biobank Ebene</b>: <a href=\"CodeSystem-mii-cs-biobank-probenebene.html#mii-cs-biobank-probenebene-ALIQUOT\">MII CS Biobank Probenebene: ALIQUOT</a> (Aliquot)</p><p><b>identifier</b>: <code>https://biobank.uk-musterstadt.de/fhir/sid/proben</code>/12345-BC-2</p><p><b>status</b>: Unavailable</p><p><b>type</b>: <span title=\"Codes:{http://snomed.info/sct 258587000}, {https://fhir.bbmri-eric.eu/fhir/CodeSystem/miabis-detailed-samply-type-cs BuffyCoat}\">Buffy coat (specimen)</span></p><p><b>subject</b>: <a href=\"https://simplifier.net/resolve?scope=de.basisprofil.r4@1.5.4&amp;canonical=http://fhir.org/packages/de.basisprofil.r4/Patient/mii-exa-test-data-patient-1\">Patient/mii-exa-test-data-patient-1</a></p><p><b>parent</b>: <a href=\"Specimen-AliquotgruppeBuffyCoat.html\">Specimen: extension = Aliquotgruppe (MII CS Biobank Probenebene#ALIQUOTGRUPPE),1; identifier = https://biobank.uk-musterstadt.de/fhir/sid/proben#12345-BC; status = available; type = Buffy coat (specimen); note = Buffy-Coat Aliquots für Genomik-Analysen</a></p><h3>Collections</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Collected[x]</b></td></tr><tr><td style=\"display: none\">*</td><td>2018-06-07 15:54:00+0100</td></tr></table><blockquote><p><b>processing</b></p><p><b>MII EX Biobank Temperaturbedingungen</b>: -196--150 °C</p><p><b>Sample storage temperature</b>: <span title=\"Codes:{https://fhir.bbmri-eric.eu/fhir/CodeSystem/miabis-storage-temperature-cs LN}\">liquid nitrogen, -150 to -196 degrees Celsius</span></p><p><b>procedure</b>: <span title=\"Codes:{http://snomed.info/sct 1186936003}\">Storage of specimen (procedure)</span></p><p><b>time</b>: 2018-06-07 17:07:00+0100 --&gt; 2018-09-07 13:02:00+0100</p></blockquote><blockquote><p><b>processing</b></p><p><b>MII EX Biobank Temperaturbedingungen</b>: 15-25 °C</p><p><b>Sample storage temperature</b>: <span title=\"Codes:{https://fhir.bbmri-eric.eu/fhir/CodeSystem/miabis-storage-temperature-cs RT}\">Room temperature</span></p><p><b>procedure</b>: <span title=\"Codes:{http://snomed.info/sct 1186936003}\">Storage of specimen (procedure)</span></p><p><b>time</b>: 2018-09-07 13:02:00+0100 --&gt; 2018-09-07 13:07:00+0100</p></blockquote><blockquote><p><b>processing</b></p><p><b>MII EX Biobank Temperaturbedingungen</b>: 15-25 °C</p><p><b>Sample storage temperature</b>: <span title=\"Codes:{https://fhir.bbmri-eric.eu/fhir/CodeSystem/miabis-storage-temperature-cs RT}\">Room temperature</span></p><p><b>procedure</b>: <span title=\"Codes:{http://snomed.info/sct 702943006}\">Deoxyribonucleic acid extraction technique (qualifier value)</span></p><p><b>time</b>: 2018-09-07 13:07:00+0100 --&gt; 2018-09-07 13:37:00+0100</p></blockquote><h3>Containers</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Type</b></td><td><b>Capacity</b></td><td><b>SpecimenQuantity</b></td></tr><tr><td style=\"display: none\">*</td><td><span title=\"Codes:{http://snomed.info/sct 83059008}\">Tube, device (physical object)</span></td><td>0.5 ml<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM  codeml = 'ml')</span></td><td>0.05 ml<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM  codeml = 'ml')</span></td></tr></table></div>"
+  },
+  "extension" : [{
+    "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/mii-ex-biobank-ebene",
+    "valueCoding" : {
+      "system" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/CodeSystem/mii-cs-biobank-probenebene",
+      "code" : "ALIQUOT",
+      "display" : "Aliquot"
+    }
+  }],
+  "identifier" : [{
+    "system" : "https://biobank.uk-musterstadt.de/fhir/sid/proben",
+    "value" : "12345-BC-2"
+  }],
+  "status" : "unavailable",
+  "type" : {
+    "coding" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "258587000",
+      "display" : "Buffy coat (specimen)"
+    },
+    {
+      "system" : "https://fhir.bbmri-eric.eu/fhir/CodeSystem/miabis-detailed-samply-type-cs",
+      "code" : "BuffyCoat",
+      "display" : "Buffy coat"
+    }]
+  },
+  "subject" : {
+    "reference" : "Patient/mii-exa-test-data-patient-1"
+  },
+  "parent" : [{
+    "reference" : "Specimen/AliquotgruppeBuffyCoat"
+  }],
+  "collection" : {
+    "collectedDateTime" : "2018-06-07T15:54:00+01:00"
+  },
+  "processing" : [{
+    "extension" : [{
+      "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/Temperaturbedingungen",
+      "valueRange" : {
+        "low" : {
+          "value" : -196,
+          "unit" : "°C",
+          "system" : "http://unitsofmeasure.org",
+          "code" : "Cel"
+        },
+        "high" : {
+          "value" : -150,
+          "unit" : "°C",
+          "system" : "http://unitsofmeasure.org",
+          "code" : "Cel"
+        }
+      }
+    },
+    {
+      "url" : "https://fhir.bbmri-eric.eu/fhir/StructureDefinition/miabis-sample-storage-temperature-extension",
+      "valueCodeableConcept" : {
+        "coding" : [{
+          "system" : "https://fhir.bbmri-eric.eu/fhir/CodeSystem/miabis-storage-temperature-cs",
+          "code" : "LN"
+        }]
+      }
+    }],
+    "procedure" : {
+      "coding" : [{
+        "system" : "http://snomed.info/sct",
+        "code" : "1186936003",
+        "display" : "Storage of specimen (procedure)"
+      }]
+    },
+    "timePeriod" : {
+      "start" : "2018-06-07T17:07:00+01:00",
+      "end" : "2018-09-07T13:02:00+01:00"
+    }
+  },
+  {
+    "extension" : [{
+      "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/Temperaturbedingungen",
+      "valueRange" : {
+        "low" : {
+          "value" : 15,
+          "unit" : "°C",
+          "system" : "http://unitsofmeasure.org",
+          "code" : "Cel"
+        },
+        "high" : {
+          "value" : 25,
+          "unit" : "°C",
+          "system" : "http://unitsofmeasure.org",
+          "code" : "Cel"
+        }
+      }
+    },
+    {
+      "url" : "https://fhir.bbmri-eric.eu/fhir/StructureDefinition/miabis-sample-storage-temperature-extension",
+      "valueCodeableConcept" : {
+        "coding" : [{
+          "system" : "https://fhir.bbmri-eric.eu/fhir/CodeSystem/miabis-storage-temperature-cs",
+          "code" : "RT"
+        }]
+      }
+    }],
+    "procedure" : {
+      "coding" : [{
+        "system" : "http://snomed.info/sct",
+        "code" : "1186936003",
+        "display" : "Storage of specimen (procedure)"
+      }]
+    },
+    "timePeriod" : {
+      "start" : "2018-09-07T13:02:00+01:00",
+      "end" : "2018-09-07T13:07:00+01:00"
+    }
+  },
+  {
+    "extension" : [{
+      "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/Temperaturbedingungen",
+      "valueRange" : {
+        "low" : {
+          "value" : 15,
+          "unit" : "°C",
+          "system" : "http://unitsofmeasure.org",
+          "code" : "Cel"
+        },
+        "high" : {
+          "value" : 25,
+          "unit" : "°C",
+          "system" : "http://unitsofmeasure.org",
+          "code" : "Cel"
+        }
+      }
+    },
+    {
+      "url" : "https://fhir.bbmri-eric.eu/fhir/StructureDefinition/miabis-sample-storage-temperature-extension",
+      "valueCodeableConcept" : {
+        "coding" : [{
+          "system" : "https://fhir.bbmri-eric.eu/fhir/CodeSystem/miabis-storage-temperature-cs",
+          "code" : "RT"
+        }]
+      }
+    }],
+    "procedure" : {
+      "coding" : [{
+        "system" : "http://snomed.info/sct",
+        "code" : "702943006",
+        "display" : "Deoxyribonucleic acid extraction technique (qualifier value)"
+      }]
+    },
+    "timePeriod" : {
+      "start" : "2018-09-07T13:07:00+01:00",
+      "end" : "2018-09-07T13:37:00+01:00"
+    }
+  }],
+  "container" : [{
+    "type" : {
+      "coding" : [{
+        "system" : "http://snomed.info/sct",
+        "code" : "83059008",
+        "display" : "Tube, device (physical object)"
+      }]
+    },
+    "capacity" : {
+      "value" : 0.5,
+      "unit" : "ml",
+      "system" : "http://unitsofmeasure.org",
+      "code" : "ml"
+    },
+    "specimenQuantity" : {
+      "value" : 0.05,
+      "unit" : "ml",
+      "system" : "http://unitsofmeasure.org",
+      "code" : "ml"
+    }
+  }]
+}

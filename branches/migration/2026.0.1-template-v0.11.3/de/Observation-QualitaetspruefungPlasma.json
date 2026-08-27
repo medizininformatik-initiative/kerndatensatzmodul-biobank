@@ -1,0 +1,55 @@
+{
+  "resourceType" : "Observation",
+  "id" : "QualitaetspruefungPlasma",
+  "meta" : {
+    "profile" : ["https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/mii-pr-biobank-observation-qualitaetspruefung"]
+  },
+  "language" : "de",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xml:lang=\"de\" lang=\"de\"><hr/><p><b>German</b></p><hr/><p class=\"res-header-id\"><b>Generated Narrative: Observation QualitaetspruefungPlasma</b></p><a name=\"de-QualitaetspruefungPlasma\"> </a><a name=\"de-hcQualitaetspruefungPlasma\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-mii-pr-biobank-observation-qualitaetspruefung.html\">MII PR Biobank Observation Qualitätsprüfung</a></p></div><p><b>status</b>: Final</p><p><b>code</b>: <span title=\"Codes:{http://snomed.info/sct 386404008}\">Quality monitoring (procedure)</span></p><p><b>focus</b>: <a href=\"Specimen-AliquotgruppePlasma.html\">Specimen: extension = Aliquotgruppe (MII CS Biobank Probenebene#ALIQUOTGRUPPE),4; identifier = https://biobank.uk-musterstadt.de/fhir/sid/proben#12345-PL; status = available; type = Plasma specimen (specimen)</a></p><p><b>effective</b>: 2018-06-08 09:04:00+0100</p><blockquote><p><b>component</b></p><p><b>code</b>: <span title=\"Codes:{http://snomed.info/sct 246423001}\">Test protocol used (attribute)</span></p><p><b>value</b>: <span title=\"Codes:{http://loinc.org 46425-5}\">Lipemic interference index of Serum or Plasma</span></p></blockquote><blockquote><p><b>component</b></p><p><b>code</b>: <span title=\"Codes:{http://snomed.info/sct 79409006}\">Resulting in (attribute)</span></p><p><b>value</b>: 3 [arb'U]/mL<span style=\"background: LightGoldenRodYellow\"> (Details: UCUM  code[arb'U]/mL = '[arb'U]/mL')</span></p></blockquote></div>"
+  },
+  "status" : "final",
+  "code" : {
+    "coding" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "386404008",
+      "display" : "Quality monitoring (procedure)"
+    }]
+  },
+  "focus" : [{
+    "reference" : "Specimen/AliquotgruppePlasma"
+  }],
+  "effectiveDateTime" : "2018-06-08T09:04:00+01:00",
+  "component" : [{
+    "code" : {
+      "coding" : [{
+        "system" : "http://snomed.info/sct",
+        "code" : "246423001",
+        "display" : "Test protocol used (attribute)"
+      }]
+    },
+    "valueCodeableConcept" : {
+      "coding" : [{
+        "system" : "http://loinc.org",
+        "code" : "46425-5",
+        "display" : "Lipemic interference index of Serum or Plasma"
+      }]
+    }
+  },
+  {
+    "code" : {
+      "coding" : [{
+        "system" : "http://snomed.info/sct",
+        "code" : "79409006",
+        "display" : "Resulting in (attribute)"
+      }]
+    },
+    "valueQuantity" : {
+      "value" : 3,
+      "unit" : "[arb'U]/mL",
+      "system" : "http://unitsofmeasure.org",
+      "code" : "[arb'U]/mL"
+    }
+  }]
+}

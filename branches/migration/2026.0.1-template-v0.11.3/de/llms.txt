@@ -1,0 +1,121 @@
+# de.medizininformatikinitiative.kerndatensatz.biobank#2026.0.1: MII IG Kerndatensatz-Modul Biobank(de)
+
+## Pages
+
+* [Startseite](index.md)
+* [Beispiele](examples.md)
+* [ValueSets](value-sets.md)
+* [Glossar](glossary.md)
+* [CodeSystems](code-systems.md)
+* [Versionierung](version-history.md)
+* [Extensions](extensions.md)
+* [Anleitung für Forschende](researcher-guidance.md)
+* [Metadaten-Übersicht](metadata.md)
+* [Anleitung für Implementierende](implementer-guidance.md)
+* [Profile](profiles.md)
+* [Artefaktübersicht](artifacts.md)
+* [Hinweise zur Übersetzung](translationinfo.md)
+* [Änderungshistorie](changes.md)
+* [Logische Modelle](logical-models.md)
+* [Anleitung](guidance.md)
+* [Downloads](downloads.md)
+* [Sicherheit und Datenschutz](security-and-privacy.md)
+* [CapabilityStatements](capability-statements.md)
+* [UML-Diagramme](uml-diagrams.md)
+
+## Resources
+
+### CodeSystems
+
+* [MII CS Biobank Contact Type](CodeSystem-mii-cs-biobank-contact-type.md)
+* [MII CS Biobank Probenebene](CodeSystem-mii-cs-biobank-probenebene.md)
+
+### ValueSets
+
+* [MII VS Biobank BodyStructures SCT](ValueSet-mii-vs-biobank-body-structures-sct.md)
+* [MII VS Biobank Cellline Modification CLO](ValueSet-mii-vs-biobank-cellline-modification-clo.md)
+* [MII VS Biobank Cellinie Morphology SCT](ValueSet-mii-vs-biobank-cellline-morphology-sct.md)
+* [MII VS Biobank Proliferation Zellinie](ValueSet-mii-vs-biobank-cellline-proliferation.md)
+* [MII VS Biobank Containertyp SCT](ValueSet-mii-vs-biobank-containertyp-sct.md)
+* [MII VS Biobank DNA Concentration Units UCUM](ValueSet-mii-vs-biobank-dna-concentration-units-ucum.md)
+* [MII VS Biobank Karyotyp SCT](ValueSet-mii-vs-biobank-karyotyp-sct.md)
+* [MII VS Biobank Laboratory Procedure SCT](ValueSet-mii-vs-biobank-laboratory-procedure-sct.md)
+* [MII VS Biobank Probenart SCT](ValueSet-mii-vs-biobank-probenart-sct.md)
+* [MII VS Biobank Probenebene](ValueSet-mii-vs-biobank-probenebene.md)
+* [MII VS Biobank Substance Additive](ValueSet-mii-vs-biobank-substance-additive-sct.md)
+* [MII VS Biobank Wachstumpstyp CLO](ValueSet-mii-vs-biobank-wachstumstyp-clo.md)
+
+### Logicals
+
+* [MII_LM_Biobank](StructureDefinition-Biobank.md)
+
+### Resource Profiles
+
+* [MII PR Biobank Observation DNA Konzentration](StructureDefinition-mii-pr-biobank-observation-dna-konzentration.md)
+* [MII PR Biobank Observation Karyotyp](StructureDefinition-mii-pr-biobank-observation-karyotyp.md)
+* [MII PR Biobank Observation Morphologie](StructureDefinition-mii-pr-biobank-observation-morphologie.md)
+* [MII PR Biobank Observation Proliferation](StructureDefinition-mii-pr-biobank-observation-proliferation.md)
+* [MII PR Biobank Observation Qualitätsprüfung](StructureDefinition-mii-pr-biobank-observation-qualitaetspruefung.md)
+* [MII PR Biobank Observation Wachstumstyp](StructureDefinition-mii-pr-biobank-observation-wachstumstyp.md)
+* [MII PR Biobank Organization Sammlung Biobank](StructureDefinition-mii-pr-biobank-organization.md)
+* [MII PR Biobank Specimen Bioprobe Core](StructureDefinition-mii-pr-biobank-specimen-core.md)
+* [MII PR Biobank Specimen Bioprobe](StructureDefinition-mii-pr-biobank-specimen.md)
+* [MII PR Biobank Substance Additiv](StructureDefinition-mii-pr-biobank-substance-additiv.md)
+* [MII PR Biobank Specimen Zellinie Organoid](StructureDefinition-mii-pr-biobank-zellinie-organoid.md)
+
+### Extensions
+
+* [MII EX Biobank Anzahl Aliquots](StructureDefinition-mii-ex-biobank-anzahl-aliquots.md)
+* [MII EX Biobank Anzahl Passagen](StructureDefinition-mii-ex-biobank-anzahl-passagen.md)
+* [MII EX Biobank Diagnose](StructureDefinition-mii-ex-biobank-diagnose.md)
+* [MII EX Biobank Ebene](StructureDefinition-mii-ex-biobank-ebene.md)
+* [MII EX Biobank Einstellung Blutversorgung](StructureDefinition-mii-ex-biobank-einstellung-blutversorgung.md)
+* [MII EX Biobank Feature R5](StructureDefinition-mii-ex-biobank-feature-r5.md)
+* [MII EX Biobank Rolle des Kontaktes](StructureDefinition-mii-ex-biobank-kontaktrolle.md)
+* [MII EX Biobank Kulturprotokoll](StructureDefinition-mii-ex-biobank-kulturprotokoll.md)
+* [MII EX Biobank Zelllinien-Modifikation](StructureDefinition-mii-ex-biobank-modifikationen.md)
+* [MII EX Biobank Temperaturbedingungen](StructureDefinition-mii-ex-biobank-temperaturbedingungen.md)
+* [MII EX Biobank Verwaltende Organisation](StructureDefinition-mii-ex-biobank-verwaltende-organisation.md)
+
+### CapabilityStatements
+
+* [MII CPS Biobank CapabilityStatement](CapabilityStatement-mii-cps-biobank-capabilitystatement.md)
+
+### ConceptMaps
+
+* [MII CM Biobank Fixation Type SPREC 4.0 SCT](ConceptMap-mii-cm-biobank-fixation-type-sprec-sct.md)
+* [SPREC 4.0 Long-Term Storage Mapping](ConceptMap-mii-cm-biobank-long-term-storage-sprec-sct.md)
+* [SPREC 4.0 Primary Container Mapping](ConceptMap-mii-cm-biobank-primary-container-sprec-sct.md)
+* [SPREC 4.0 Sample Type Mapping](ConceptMap-mii-cm-biobank-sample-type-sprec-sct.md)
+
+### ImplementationGuides
+
+* [MII IG Kerndatensatz-Modul Biobank](ImplementationGuide-mii-ig-biobank-de-v2026.md)
+
+### Parameters
+
+* [mii-param-biobank-manifest](Parameters-mii-param-biobank-manifest.md)
+
+### Examples
+
+* [Kulturprotokoll (DocumentReference)](DocumentReference-Kulturprotokoll.md)
+* [ProtocolCRISPRTP53 (DocumentReference)](DocumentReference-ProtocolCRISPRTP53.md)
+* [DNAConcentrationObs1 (Observation)](Observation-DNAConcentrationObs1.md)
+* [KaryotypOrganoidLunge (Observation)](Observation-KaryotypOrganoidLunge.md)
+* [MorphologieOrganoidLunge (Observation)](Observation-MorphologieOrganoidLunge.md)
+* [ProliferationOrganoidLunge (Observation)](Observation-ProliferationOrganoidLunge.md)
+* [QualitaetspruefungBuffyCoat (Observation)](Observation-QualitaetspruefungBuffyCoat.md)
+* [QualitaetspruefungPlasma (Observation)](Observation-QualitaetspruefungPlasma.md)
+* [WachstumstypOrganoidLunge (Observation)](Observation-WachstumstypOrganoidLunge.md)
+* [Biobank Musterstadt (Organization)](Organization-BiobankMusterstadt.md)
+* [Mustersammlung (Organization)](Organization-Mustersammlung.md)
+* [GewebeBiopsie (ServiceRequest)](ServiceRequest-GewebeBiopsie.md)
+* [AliquotBuffyCoat1 (Specimen)](Specimen-AliquotBuffyCoat1.md)
+* [AliquotBuffyCoat2 (Specimen)](Specimen-AliquotBuffyCoat2.md)
+* [AliquotgruppeBuffyCoat (Specimen)](Specimen-AliquotgruppeBuffyCoat.md)
+* [AliquotgruppeDNA (Specimen)](Specimen-AliquotgruppeDNA.md)
+* [AliquotgruppePlasma (Specimen)](Specimen-AliquotgruppePlasma.md)
+* [MusterprobeFluessig (Specimen)](Specimen-MusterprobeFluessig.md)
+* [MusterprobeGewebe (Specimen)](Specimen-MusterprobeGewebe.md)
+* [OrganoidLunge (Specimen)](Specimen-OrganoidLunge.md)
+* [Heparin (Substance)](Substance-Heparin.md)

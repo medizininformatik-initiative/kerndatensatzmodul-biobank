@@ -1,0 +1,155 @@
+{
+  "codeSystems" : [{
+    "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/mii-vs-biobank-body-structures-sct",
+    "version" : "2026.0.1",
+    "status" : "active",
+    "name" : "MII_VS_Biobank_BodyStructures_SCT",
+    "title" : "MII VS Biobank BodyStructures SCT",
+    "description" : "Value Set for Specimen Collection Body Structures (SNOMED CT)",
+    "systems" : ["http://snomed.info/sct"],
+    "uses" : {
+    },
+    "StructureDefinition-mii-pr-biobank-specimen-core.html" : "MII PR Biobank Specimen Bioprobe Core",
+    "StructureDefinition-mii-pr-biobank-zellinie-organoid.html" : "MII PR Biobank Specimen Zellinie Organoid",
+    "StructureDefinition-mii-pr-biobank-specimen.html" : "MII PR Biobank Specimen Bioprobe"
+  },
+  {
+    "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/mii-vs-biobank-cellline-modification-clo",
+    "version" : "2026.0.1",
+    "status" : "active",
+    "name" : "MII_VS_Biobank_Cellline_Modification_CLO",
+    "title" : "MII VS Biobank Cellline Modification CLO",
+    "description" : "Value Set for Types of Cell Line Modifications (CLO)",
+    "systems" : ["http://purl.obolibrary.org/obo/clo.owl"],
+    "uses" : {
+    },
+    "StructureDefinition-mii-ex-biobank-modifikationen.html" : "MII EX Biobank Zelllinien-Modifikation"
+  },
+  {
+    "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/mii-vs-biobank-cellline-morphology-sct",
+    "version" : "2026.0.1",
+    "status" : "active",
+    "name" : "MII_VS_Biobank_Cellline_Morphology_SCT",
+    "title" : "MII VS Biobank Cellinie Morphology SCT",
+    "description" : "Value Set for Morphological Characteristics of Cell Lines",
+    "systems" : ["http://snomed.info/sct"],
+    "uses" : {
+    },
+    "StructureDefinition-mii-pr-biobank-observation-morphologie.html" : "MII PR Biobank Observation Morphologie"
+  },
+  {
+    "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/mii-vs-biobank-cellline-proliferation",
+    "version" : "2026.0.1",
+    "status" : "active",
+    "name" : "MII_VS_Biobank_CellLine_Proliferation",
+    "title" : "MII VS Biobank Proliferation Zellinie",
+    "description" : "Value Set for Proliferation Status of Cell Lines/Organoids",
+    "systems" : ["http://purl.obolibrary.org/obo/pato.owl",
+    "http://snomed.info/sct"],
+    "uses" : {
+    },
+    "StructureDefinition-mii-pr-biobank-observation-proliferation.html" : "MII PR Biobank Observation Proliferation"
+  },
+  {
+    "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/mii-vs-biobank-containertyp-sct",
+    "version" : "2026.0.1",
+    "status" : "active",
+    "name" : "MII_VS_Biobank_Containertyp_SCT",
+    "title" : "MII VS Biobank Containertyp SCT",
+    "description" : "Value Set for Container Types (SNOMED CT)",
+    "systems" : ["http://snomed.info/sct"],
+    "uses" : {
+    },
+    "StructureDefinition-mii-pr-biobank-specimen-core.html" : "MII PR Biobank Specimen Bioprobe Core",
+    "StructureDefinition-mii-pr-biobank-zellinie-organoid.html" : "MII PR Biobank Specimen Zellinie Organoid",
+    "StructureDefinition-mii-pr-biobank-specimen.html" : "MII PR Biobank Specimen Bioprobe"
+  },
+  {
+    "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/mii-vs-biobank-dna-concentration-units-ucum",
+    "version" : "2026.0.1",
+    "status" : "active",
+    "name" : "MII_VS_Biobank_DNA_Concentration_Units_UCUM",
+    "title" : "MII VS Biobank DNA Concentration Units UCUM",
+    "description" : "Value Set for DNA Concentration Units (UCUM)",
+    "systems" : ["http://unitsofmeasure.org"],
+    "uses" : {
+    },
+    "StructureDefinition-mii-pr-biobank-observation-dna-konzentration.html" : "MII PR Biobank Observation DNA Konzentration"
+  },
+  {
+    "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/mii-vs-biobank-karyotyp-sct",
+    "version" : "2026.0.1",
+    "status" : "active",
+    "name" : "MII_VS_Biobank_Karyotyp_SCT",
+    "title" : "MII VS Biobank Karyotyp SCT",
+    "description" : "Value Set for Karyotypes (SNOMED CT)",
+    "systems" : ["http://snomed.info/sct"],
+    "uses" : {
+    },
+    "StructureDefinition-mii-pr-biobank-observation-karyotyp.html" : "MII PR Biobank Observation Karyotyp"
+  },
+  {
+    "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/mii-vs-biobank-laboratory-procedure-sct",
+    "version" : "2026.0.1",
+    "status" : "active",
+    "name" : "MII_VS_Biobank_Laboratory_Procedure_SCT",
+    "title" : "MII VS Biobank Laboratory Procedure SCT",
+    "description" : "Value Set for Specimen Processing Laboratory Procedures (SNOMED CT)",
+    "systems" : ["http://snomed.info/sct"],
+    "uses" : {
+    },
+    "StructureDefinition-mii-pr-biobank-specimen-core.html" : "MII PR Biobank Specimen Bioprobe Core",
+    "StructureDefinition-mii-pr-biobank-zellinie-organoid.html" : "MII PR Biobank Specimen Zellinie Organoid",
+    "StructureDefinition-mii-pr-biobank-specimen.html" : "MII PR Biobank Specimen Bioprobe"
+  },
+  {
+    "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/mii-vs-biobank-probenart-sct",
+    "version" : "2026.0.1",
+    "status" : "active",
+    "name" : "MII_VS_Biobank_Probenart_SCT",
+    "title" : "MII VS Biobank Probenart SCT",
+    "description" : "Value Set for Sample Types (SNOMED CT)",
+    "systems" : ["http://snomed.info/sct"],
+    "uses" : {
+    },
+    "StructureDefinition-mii-pr-biobank-specimen-core.html" : "MII PR Biobank Specimen Bioprobe Core",
+    "StructureDefinition-mii-pr-biobank-zellinie-organoid.html" : "MII PR Biobank Specimen Zellinie Organoid",
+    "StructureDefinition-mii-pr-biobank-specimen.html" : "MII PR Biobank Specimen Bioprobe"
+  },
+  {
+    "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/mii-vs-biobank-probenebene",
+    "version" : "2026.0.1",
+    "status" : "active",
+    "name" : "MII_VS_Biobank_Probenebene",
+    "title" : "MII VS Biobank Probenebene",
+    "description" : "Value Set for specimen hierarchy levels in Biobanking",
+    "systems" : ["https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/CodeSystem/mii-cs-biobank-probenebene"],
+    "uses" : {
+    },
+    "StructureDefinition-mii-ex-biobank-ebene.html" : "MII EX Biobank Ebene"
+  },
+  {
+    "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/mii-vs-biobank-substance-additive-sct",
+    "version" : "2026.0.1",
+    "status" : "active",
+    "name" : "MII_VS_Biobank_Substance_Additive_SCT",
+    "title" : "MII VS Biobank Substance Additive",
+    "description" : "Value Set for Substance Additives (SNOMED CT)",
+    "systems" : ["http://snomed.info/sct"],
+    "uses" : {
+    },
+    "StructureDefinition-mii-pr-biobank-substance-additiv.html" : "MII PR Biobank Substance Additiv"
+  },
+  {
+    "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/mii-vs-biobank-wachstumstyp-clo",
+    "version" : "2026.0.1",
+    "status" : "active",
+    "name" : "MII_VS_Biobank_Wachstumpstyp_CLO",
+    "title" : "MII VS Biobank Wachstumpstyp CLO",
+    "description" : "Value Set for Cell Culture Growth Types (CLO)",
+    "systems" : ["http://purl.obolibrary.org/obo/clo.owl"],
+    "uses" : {
+    },
+    "StructureDefinition-mii-pr-biobank-observation-wachstumstyp.html" : "MII PR Biobank Observation Wachstumstyp"
+  }]
+}

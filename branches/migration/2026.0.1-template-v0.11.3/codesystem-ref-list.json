@@ -1,0 +1,86 @@
+{
+  "codeSystems" : [{
+    "url" : "http://purl.obolibrary.org/obo/pato.owl",
+    "version" : "http://purl.obolibrary.org/obo/pato/releases/2018-11-12/pato.owl",
+    "status" : "active",
+    "name" : "Phenotypic Quality Ontology",
+    "title" : "Phenotypic Quality Ontology",
+    "description" : "",
+    "uses" : {
+    },
+    "ValueSet-mii-vs-biobank-cellline-proliferation.html" : "MII VS Biobank Proliferation Zellinie"
+  },
+  {
+    "url" : "http://snomed.info/sct",
+    "version" : null,
+    "status" : "active",
+    "name" : "SNOMED_CT",
+    "title" : "SNOMED CT (all versions)",
+    "description" : "SNOMED CT is the most comprehensive and precise clinical health terminology product in the world, owned and distributed around the world by The International Health Terminology Standards Development Organisation (IHTSDO).",
+    "oids" : ["2.16.840.1.113883.6.96"],
+    "uses" : {
+    },
+    "ValueSet-mii-vs-biobank-cellline-morphology-sct.html" : "MII VS Biobank Cellinie Morphology SCT",
+    "ValueSet-mii-vs-biobank-containertyp-sct.html" : "MII VS Biobank Containertyp SCT",
+    "ConceptMap-mii-cm-biobank-long-term-storage-sprec-sct.html" : "SPREC 4.0 Long-Term Storage Mapping",
+    "ValueSet-mii-vs-biobank-substance-additive-sct.html" : "MII VS Biobank Substance Additive",
+    "ValueSet-mii-vs-biobank-laboratory-procedure-sct.html" : "MII VS Biobank Laboratory Procedure SCT",
+    "ValueSet-mii-vs-biobank-cellline-proliferation.html" : "MII VS Biobank Proliferation Zellinie",
+    "http://hl7.org/fhir/R4/valueset-substance-code.html" : "Substance Code",
+    "http://hl7.org/fhir/R4/valueset-referencerange-appliesto.html" : "Observation Reference Range Applies To Codes",
+    "ValueSet-mii-vs-biobank-karyotyp-sct.html" : "MII VS Biobank Karyotyp SCT",
+    "http://hl7.org/fhir/R4/valueset-specimen-collection-method.html" : "FHIR Specimen Collection Method",
+    "ValueSet-mii-vs-biobank-probenart-sct.html" : "MII VS Biobank Probenart SCT",
+    "http://hl7.org/fhir/R4/valueset-body-site.html" : "SNOMED CT Body Structures",
+    "ConceptMap-mii-cm-biobank-primary-container-sprec-sct.html" : "SPREC 4.0 Primary Container Mapping",
+    "ConceptMap-mii-cm-biobank-sample-type-sprec-sct.html" : "SPREC 4.0 Sample Type Mapping",
+    "http://hl7.org/fhir/R4/valueset-observation-methods.html" : "Observation Methods",
+    "ConceptMap-mii-cm-biobank-fixation-type-sprec-sct.html" : "MII CM Biobank Fixation Type SPREC 4.0 SCT",
+    "ValueSet-mii-vs-biobank-body-structures-sct.html" : "MII VS Biobank BodyStructures SCT"
+  },
+  {
+    "url" : "http://terminology.hl7.org/CodeSystem/v2-0916",
+    "version" : "3.0.0",
+    "status" : "active",
+    "name" : "RelevantClincialInformation",
+    "title" : "relevantClincialInformation",
+    "description" : "Code system of concepts specifying additional clinical information about the patient or specimen to report the supporting and/or suspected diagnosis and clinical findings on requests for interpreted diagnostic studies. Used in HL7 Version 2.x messaging in the OBR segment.",
+    "oids" : ["2.16.840.1.113883.18.422"],
+    "uses" : {
+    },
+    "http://terminology.hl7.org/7.3.0/ValueSet-v2-0916.html" : "hl7VS-relevantClincialInformation"
+  },
+  {
+    "url" : "http://unitsofmeasure.org",
+    "version" : "2.2",
+    "status" : "active",
+    "name" : "UCUM",
+    "title" : null,
+    "description" : "This is a place holder for the code system which is fully supported through internal means (not by this code system)",
+    "uses" : {
+    },
+    "ValueSet-mii-vs-biobank-dna-concentration-units-ucum.html" : "MII VS Biobank DNA Concentration Units UCUM"
+  },
+  {
+    "url" : "https://fhir.bbmri-eric.eu/fhir/CodeSystem/miabis-detailed-samply-type-cs",
+    "version" : null,
+    "status" : "active",
+    "name" : "DetailedSampleTypeCS",
+    "title" : "DetailedSampleType",
+    "description" : "Code system for the detailed sample type of a sample",
+    "uses" : {
+    },
+    "https://simplifier.net/resolve?scope=eu.miabis.r4@0.2.0&canonical=https://fhir.bbmri-eric.eu/fhir/ValueSet/miabis-detailed-sample-type-vs" : "DetailedSampleTypeVS"
+  },
+  {
+    "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/CodeSystem/mii-cs-biobank-probenebene",
+    "version" : "2026.0.1",
+    "status" : "active",
+    "name" : "MII_CS_Biobank_Probenebene",
+    "title" : "MII CS Biobank Probenebene",
+    "description" : "Codes um die Probenebene anzugeben",
+    "uses" : {
+    },
+    "ValueSet-mii-vs-biobank-probenebene.html" : "MII VS Biobank Probenebene"
+  }]
+}

@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ConceptMap xmlns="http://hl7.org/fhir">
+  <id value="mii-cm-biobank-primary-container-sprec-sct"/>
+  <language value="de"/>
+  <text>
+    <status value="generated"/><div xml:lang="de" lang="de"><hr/><p><b>German</b></p><hr/><p class="res-header-id"><b>Generated Narrative: ConceptMap mii-cm-biobank-primary-container-sprec-sct</b></p><a name="de-mii-cm-biobank-primary-container-sprec-sct"> </a><a name="de-hcmii-cm-biobank-primary-container-sprec-sct"> </a><p>This mapping does not specify any particular context of use.</p><br/><p>Mapping from <code>http://www.isber.org/sprec/type-of-primary-container</code> to <a href="http://hl7.org/fhir/R4/codesystem-snomedct.html">SNOMED CT (all versions)</a></p><table class="grid"><tr><td colspan="2"><b>Source Concept Details</b></td><td><b>Relationship</b></td><td colspan="3"><b>Target Concept Details</b></td><td><b>Comment</b></td></tr><tr><td colspan="2"><b>Codes</b> from http://www.isber.org/sprec/type-of-primary-container</td><td/><td colspan="2"><b>Codes</b> from <a href="http://hl7.org/fhir/R4/codesystem-snomedct.html" title="http://snomed.info/sct">SNOMED CT (all versions)</a></td><td><b>Specimen#Specimen.container.additive[x]</b></td><td/></tr><tr><td style="border-right-width: 0px; border-bottom-style: none">ACD</td><td style="border-left-width: 0px">Acid citrate dextrose</td><td colspan="4" style="background-color: #efefef">(not mapped)</td></tr><tr><td style="border-right-width: 0px; border-bottom-style: none">CAT</td><td style="border-left-width: 0px; border-bottom-style: none">Serum separator tube without clot activator</td><td><a href="http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">702256007</td><td style="border-left-width: 0px">Non-evacuated blood collection tube, no additive (physical objec)</td><td/><td>Use only for non-evacuated blood collection tubes.</td></tr><tr><td style="border-right-width: 0px; border-top-style: none"/><td style="border-top-style: none; border-left-width: 0px"/><td><a href="http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">702278000</td><td style="border-left-width: 0px">Evacuated blood collection tube, no additive and metal-free (physical object)</td><td/><td>Use only for metal-free evacuated blood collection tubes.</td></tr><tr><td style="border-right-width: 0px; border-bottom-style: none">CPD</td><td style="border-left-width: 0px">Citrate phosphate dextrose</td><td colspan="4" style="background-color: #efefef">(not mapped)</td></tr><tr><td style="border-right-width: 0px; border-bottom-style: none">CIF</td><td style="border-left-width: 0px">Citrate fluoride</td><td colspan="4" style="background-color: #efefef">(not mapped)</td></tr><tr><td style="border-right-width: 0px">CPT</td><td style="border-left-width: 0px">Cell Preparation Tube citrate</td><td><a href="http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#wider" title="wider">maps to wider concept</a></td><td style="border-right-width: 0px">706052002</td><td style="border-left-width: 0px">Evacuated blood collection tube (physical object)</td><td>59351004</td><td/></tr><tr><td style="border-right-width: 0px">CPH</td><td style="border-left-width: 0px">Cell Preparation Tube heparin</td><td><a href="http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#wider" title="wider">maps to wider concept</a></td><td style="border-right-width: 0px">706052002</td><td style="border-left-width: 0px">Evacuated blood collection tube (physical object)</td><td>372877000</td><td/></tr><tr><td style="border-right-width: 0px; border-bottom-style: none">CSV</td><td style="border-left-width: 0px">Aldehyde-based stabilizer for CTCs</td><td colspan="4" style="background-color: #efefef">(not mapped)</td></tr><tr><td style="border-right-width: 0px; border-bottom-style: none">EDG</td><td style="border-left-width: 0px">EDTA and gel</td><td colspan="4" style="background-color: #efefef">(not mapped)</td></tr><tr><td style="border-right-width: 0px">GLS</td><td style="border-left-width: 0px">Glass</td><td><a href="http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">76123001</td><td style="border-left-width: 0px">Glass tube, device (physical object)</td><td/><td/></tr><tr><td style="border-right-width: 0px">HEP</td><td style="border-left-width: 0px">Lithium heparin</td><td><a href="http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">702284002</td><td style="border-left-width: 0px">Non-evacuated blood collection tube, lithium heparin (physical object)</td><td>85899009</td><td>Use only for non-evacuated blood collection tubes.</td></tr><tr><td style="border-right-width: 0px; border-bottom-style: none">HIR</td><td style="border-left-width: 0px">Hirudin</td><td colspan="4" style="background-color: #efefef">(not mapped)</td></tr><tr><td style="border-right-width: 0px">LHB</td><td style="border-left-width: 0px">Lithium heparin and rubber plug</td><td><a href="http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#wider" title="wider">maps to wider concept</a></td><td style="border-right-width: 0px">702284002</td><td style="border-left-width: 0px">Non-evacuated blood collection tube, lithium heparin (physical object)</td><td>85899009</td><td/></tr><tr><td style="border-right-width: 0px; border-bottom-style: none">LHG</td><td style="border-left-width: 0px; border-bottom-style: none">Lithium heparin and gel</td><td><a href="http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">767390000</td><td style="border-left-width: 0px">Evacuated blood collection tube with heparin lithium and gel separator (physical object)</td><td/><td>Use only for evacuated blood collection tubes.</td></tr><tr><td style="border-right-width: 0px; border-top-style: none; border-bottom-style: none"/><td style="border-left-width: 0px; border-top-style: none; border-bottom-style: none"/><td><a href="http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">702285001</td><td style="border-left-width: 0px">Sterile lithium heparin non-evacuated blood collection tube with gel separator (physical object)</td><td/><td>Use only for sterile non-evacuated blood collection tubes.</td></tr><tr><td style="border-right-width: 0px; border-top-style: none"/><td style="border-top-style: none; border-left-width: 0px"/><td><a href="http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">702300005</td><td style="border-left-width: 0px">Non-evacuated blood collection tube, lithium heparin/gel separator, non-sterile (physical object)</td><td>85899009</td><td>Use only for non-sterile non-evacuated blood collection tubes.</td></tr><tr><td style="border-right-width: 0px">ORG</td><td style="border-left-width: 0px">Oragene collection container or equivalent</td><td><a href="http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">706058003</td><td style="border-left-width: 0px">Secretory specimen container (physical object)</td><td/><td/></tr><tr><td style="border-right-width: 0px">OMN</td><td style="border-left-width: 0px">Stool collection container with DNA stabilizer</td><td><a href="http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#wider" title="wider">maps to wider concept</a></td><td style="border-right-width: 0px">706047007</td><td style="border-left-width: 0px">Fecal specimen container (physical object)</td><td/><td/></tr><tr><td style="border-right-width: 0px">PAX</td><td style="border-left-width: 0px">PAXgene blood RNA</td><td><a href="http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#wider" title="wider">maps to wider concept</a></td><td style="border-right-width: 0px">702280006</td><td style="border-left-width: 0px">Evacuated blood collection tube, ribonucleic acid stabilizer (physical object)</td><td/><td/></tr><tr><td style="border-right-width: 0px; border-bottom-style: none">PED</td><td style="border-left-width: 0px">Potassium EDTA</td><td colspan="4" style="background-color: #efefef">(not mapped)</td></tr><tr><td style="border-right-width: 0px">PET</td><td style="border-left-width: 0px">Polyethylene tube sterile</td><td><a href="http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">702269006:840560000=71463006</td><td style="border-left-width: 0px">|General specimen container, no additive, sterile (physical object)|:|Has compositional material| = |Polyethylene (substance)|</td><td/><td/></tr><tr><td style="border-right-width: 0px; border-bottom-style: none">PI1</td><td style="border-left-width: 0px">S8820 protease inhibitor tablets or equivalent</td><td colspan="4" style="background-color: #efefef">(not mapped)</td></tr><tr><td style="border-right-width: 0px; border-bottom-style: none">PIX</td><td style="border-left-width: 0px">Protease inhibitors</td><td colspan="4" style="background-color: #efefef">(not mapped)</td></tr><tr><td style="border-right-width: 0px">PPS</td><td style="border-left-width: 0px">Polypropylene tube sterile</td><td><a href="http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#equivalent" title="equivalent">is equivalent to</a></td><td style="border-right-width: 0px">702269006:840560000=256633009</td><td style="border-left-width: 0px">General specimen container, no additive, sterile (physical object)|:|Has compositional material| = |Polypropylene (substance)|</td><td/><td/></tr><tr><td style="border-right-width: 0px">SCI</td><td style="border-left-width: 0px">Sodium citrate</td><td><a href="http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">702296009</td><td style="border-left-width: 0px">Non-evacuated blood collection tube, sodium citrate (physical object)</td><td>412546005</td><td>Use only for non-evacuated blood collection tubes.</td></tr><tr><td style="border-right-width: 0px; border-bottom-style: none">SED</td><td style="border-left-width: 0px">Sodium EDTA</td><td colspan="4" style="background-color: #efefef">(not mapped)</td></tr><tr><td style="border-right-width: 0px">SHP</td><td style="border-left-width: 0px">Sodium heparin</td><td><a href="http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">767382000</td><td style="border-left-width: 0px">Evacuated blood collection tube with heparin sodium (physical object) </td><td>50045009</td><td>Use only for evacuated blood collection tubes.</td></tr><tr><td style="border-right-width: 0px">SPO</td><td style="border-left-width: 0px">Sodium fluoride/potassium oxalate</td><td><a href="http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">702287009</td><td style="border-left-width: 0px">Non-evacuated blood collection tube, potassium oxalate/sodium fluoride (physical object) </td><td>6910009</td><td>Use only for non-evacuated blood collection tubes.</td></tr><tr><td style="border-right-width: 0px; border-bottom-style: none">SST</td><td style="border-left-width: 0px; border-bottom-style: none">Serum separator tube with clot activator</td><td><a href="http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">702297000</td><td style="border-left-width: 0px">Non-evacuated blood collection tube, clot activator (physical object) </td><td/><td>Use only for non-evacuated blood collection tubes.</td></tr><tr><td style="border-right-width: 0px; border-top-style: none"/><td style="border-top-style: none; border-left-width: 0px"/><td><a href="http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#narrower" title="narrower">narrower</a></td><td style="border-right-width: 0px">767384004</td><td style="border-left-width: 0px">Evacuated blood collection tube with clot activator (physical object) </td><td/><td>Use only for evacuated blood collection tubes.</td></tr><tr><td style="border-right-width: 0px">TEM</td><td style="border-left-width: 0px">Tempus tube</td><td><a href="http://hl7.org/fhir/R4/codesystem-concept-map-equivalence.html#wider" title="wider">maps to wider concept</a></td><td style="border-right-width: 0px">702280006</td><td style="border-left-width: 0px">Evacuated blood collection tube, ribonucleic acid stabilizer (physical object)</td><td/><td/></tr></table></div>
+  </text>
+  <extension url="https://www.medizininformatik-initiative.de/fhir/modul-meta/StructureDefinition/mii-ex-meta-license-codeable">
+    <valueCodeableConcept>
+      <coding>
+        <system value="http://hl7.org/fhir/spdx-license"/>
+        <code value="CC-BY-4.0"/>
+        <display value="Creative Commons Attribution 4.0 International"/>
+      </coding>
+    </valueCodeableConcept>
+  </extension>
+  <url value="https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ConceptMap/mii-cm-biobank-primary-container-sprec-sct"/>
+  <version value="2026.0.1"/>
+  <title value="SPREC 4.0 Primary Container Mapping"/>
+  <status value="active"/>
+  <date value="2026-08-27T17:44:24+00:00"/>
+  <publisher value="Medizininformatik Initiative"/>
+  <contact>
+    <name value="Medizininformatik Initiative"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.medizininformatik-initiative.de/"/>
+    </telecom>
+  </contact>
+  <description value="Mapping der SPREC 4.0 Primary-Container-Containertypen auf die im Modul verwendeten SNOMED CT Codes."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="DE"/>
+      <display value="Germany"/>
+    </coding>
+  </jurisdiction>
+  <copyright value="This concept map includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement. It also includes content from SPREC 4.0, https://doi.org/10.1089/bio.2024.0010"/>
+  <group>
+    <source value="http://www.isber.org/sprec/type-of-primary-container"/>
+    <target value="http://snomed.info/sct"/>
+    <element>
+      <code value="ACD"/>
+      <display value="Acid citrate dextrose"/>
+      <target>
+        <equivalence value="unmatched"/>
+      </target>
+    </element>
+    <element>
+      <code value="CAT"/>
+      <display value="Serum separator tube without clot activator"/>
+      <target>
+        <code value="702256007"/>
+        <display value="Non-evacuated blood collection tube, no additive (physical objec)"/>
+        <equivalence value="narrower"/>
+        <comment value="Use only for non-evacuated blood collection tubes."/>
+      </target>
+      <target>
+        <code value="702278000"/>
+        <display value="Evacuated blood collection tube, no additive and metal-free (physical object)"/>
+        <equivalence value="narrower"/>
+        <comment value="Use only for metal-free evacuated blood collection tubes."/>
+      </target>
+    </element>
+    <element>
+      <code value="CPD"/>
+      <display value="Citrate phosphate dextrose"/>
+      <target>
+        <equivalence value="unmatched"/>
+      </target>
+    </element>
+    <element>
+      <code value="CIF"/>
+      <display value="Citrate fluoride"/>
+      <target>
+        <equivalence value="unmatched"/>
+      </target>
+    </element>
+    <element>
+      <code value="CPT"/>
+      <display value="Cell Preparation Tube citrate"/>
+      <target>
+        <code value="706052002"/>
+        <display value="Evacuated blood collection tube (physical object)"/>
+        <equivalence value="wider"/>
+        <product>
+          <property value="http://hl7.org/fhir/StructureDefinition/Specimen#Specimen.container.additive[x]"/>
+          <value value="59351004"/>
+        </product>
+      </target>
+    </element>
+    <element>
+      <code value="CPH"/>
+      <display value="Cell Preparation Tube heparin"/>
+      <target>
+        <code value="706052002"/>
+        <display value="Evacuated blood collection tube (physical object)"/>
+        <equivalence value="wider"/>
+        <product>
+          <property value="http://hl7.org/fhir/StructureDefinition/Specimen#Specimen.container.additive[x]"/>
+          <value value="372877000"/>
+        </product>
+      </target>
+    </element>
+    <element>
+      <code value="CSV"/>
+      <display value="Aldehyde-based stabilizer for CTCs"/>
+      <target>
+        <equivalence value="unmatched"/>
+      </target>
+    </element>
+    <element>
+      <code value="EDG"/>
+      <display value="EDTA and gel"/>
+      <target>
+        <equivalence value="unmatched"/>
+      </target>
+    </element>
+    <element>
+      <code value="GLS"/>
+      <display value="Glass"/>
+      <target>
+        <code value="76123001"/>
+        <display value="Glass tube, device (physical object)"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="HEP"/>
+      <display value="Lithium heparin"/>
+      <target>
+        <code value="702284002"/>
+        <display value="Non-evacuated blood collection tube, lithium heparin (physical object)"/>
+        <equivalence value="narrower"/>
+        <comment value="Use only for non-evacuated blood collection tubes."/>
+        <product>
+          <property value="http://hl7.org/fhir/StructureDefinition/Specimen#Specimen.container.additive[x]"/>
+          <value value="85899009"/>
+        </product>
+        <product>
+          <property value="http://hl7.org/fhir/StructureDefinition/Specimen#Specimen.container.additive[x]"/>
+          <value value="372877000"/>
+        </product>
+      </target>
+    </element>
+    <element>
+      <code value="HIR"/>
+      <display value="Hirudin"/>
+      <target>
+        <equivalence value="unmatched"/>
+      </target>
+    </element>
+    <element>
+      <code value="LHB"/>
+      <display value="Lithium heparin and rubber plug"/>
+      <target>
+        <code value="702284002"/>
+        <display value="Non-evacuated blood collection tube, lithium heparin (physical object)"/>
+        <equivalence value="wider"/>
+        <product>
+          <property value="http://hl7.org/fhir/StructureDefinition/Specimen#Specimen.container.additive[x]"/>
+          <value value="85899009"/>
+        </product>
+        <product>
+          <property value="http://hl7.org/fhir/StructureDefinition/Specimen#Specimen.container.additive[x]"/>
+          <value value="372877000"/>
+        </product>
+        <product>
+          <property value="http://hl7.org/fhir/StructureDefinition/Specimen#Specimen.container.additive[x]"/>
+          <value value="43230003"/>
+        </product>
+      </target>
+    </element>
+    <element>
+      <code value="LHG"/>
+      <display value="Lithium heparin and gel"/>
+      <target>
+        <code value="767390000"/>
+        <display value="Evacuated blood collection tube with heparin lithium and gel separator (physical object)"/>
+        <equivalence value="narrower"/>
+        <comment value="Use only for evacuated blood collection tubes."/>
+      </target>
+      <target>
+        <code value="702285001"/>
+        <display value="Sterile lithium heparin non-evacuated blood collection tube with gel separator (physical object)"/>
+        <equivalence value="narrower"/>
+        <comment value="Use only for sterile non-evacuated blood collection tubes."/>
+      </target>
+      <target>
+        <code value="702300005"/>
+        <display value="Non-evacuated blood collection tube, lithium heparin/gel separator, non-sterile (physical object)"/>
+        <equivalence value="narrower"/>
+        <comment value="Use only for non-sterile non-evacuated blood collection tubes."/>
+        <product>
+          <property value="http://hl7.org/fhir/StructureDefinition/Specimen#Specimen.container.additive[x]"/>
+          <value value="85899009"/>
+        </product>
+        <product>
+          <property value="http://hl7.org/fhir/StructureDefinition/Specimen#Specimen.container.additive[x]"/>
+          <value value="372877000"/>
+        </product>
+      </target>
+    </element>
+    <element>
+      <code value="ORG"/>
+      <display value="Oragene collection container or equivalent"/>
+      <target>
+        <code value="706058003"/>
+        <display value="Secretory specimen container (physical object)"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="OMN"/>
+      <display value="Stool collection container with DNA stabilizer"/>
+      <target>
+        <code value="706047007"/>
+        <display value="Fecal specimen container (physical object)"/>
+        <equivalence value="wider"/>
+      </target>
+    </element>
+    <element>
+      <code value="PAX"/>
+      <display value="PAXgene blood RNA"/>
+      <target>
+        <code value="702280006"/>
+        <display value="Evacuated blood collection tube, ribonucleic acid stabilizer (physical object)"/>
+        <equivalence value="wider"/>
+      </target>
+    </element>
+    <element>
+      <code value="PED"/>
+      <display value="Potassium EDTA"/>
+      <target>
+        <equivalence value="unmatched"/>
+      </target>
+    </element>
+    <element>
+      <code value="PET"/>
+      <display value="Polyethylene tube sterile"/>
+      <target>
+        <code value="702269006:840560000=71463006"/>
+        <display value="|General specimen container, no additive, sterile (physical object)|:|Has compositional material| = |Polyethylene (substance)|"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="PI1"/>
+      <display value="S8820 protease inhibitor tablets or equivalent"/>
+      <target>
+        <equivalence value="unmatched"/>
+      </target>
+    </element>
+    <element>
+      <code value="PIX"/>
+      <display value="Protease inhibitors"/>
+      <target>
+        <equivalence value="unmatched"/>
+      </target>
+    </element>
+    <element>
+      <code value="PPS"/>
+      <display value="Polypropylene tube sterile"/>
+      <target>
+        <code value="702269006:840560000=256633009"/>
+        <display value="General specimen container, no additive, sterile (physical object)|:|Has compositional material| = |Polypropylene (substance)|"/>
+        <equivalence value="equivalent"/>
+      </target>
+    </element>
+    <element>
+      <code value="SCI"/>
+      <display value="Sodium citrate"/>
+      <target>
+        <code value="702296009"/>
+        <display value="Non-evacuated blood collection tube, sodium citrate (physical object)"/>
+        <equivalence value="narrower"/>
+        <comment value="Use only for non-evacuated blood collection tubes."/>
+        <product>
+          <property value="http://hl7.org/fhir/StructureDefinition/Specimen#Specimen.container.additive[x]"/>
+          <value value="412546005"/>
+        </product>
+      </target>
+    </element>
+    <element>
+      <code value="SED"/>
+      <display value="Sodium EDTA"/>
+      <target>
+        <equivalence value="unmatched"/>
+      </target>
+    </element>
+    <element>
+      <code value="SHP"/>
+      <display value="Sodium heparin"/>
+      <target>
+        <code value="767382000"/>
+        <display value="Evacuated blood collection tube with heparin sodium (physical object) "/>
+        <equivalence value="narrower"/>
+        <comment value="Use only for evacuated blood collection tubes."/>
+        <product>
+          <property value="http://hl7.org/fhir/StructureDefinition/Specimen#Specimen.container.additive[x]"/>
+          <value value="50045009"/>
+        </product>
+      </target>
+    </element>
+    <element>
+      <code value="SPO"/>
+      <display value="Sodium fluoride/potassium oxalate"/>
+      <target>
+        <code value="702287009"/>
+        <display value="Non-evacuated blood collection tube, potassium oxalate/sodium fluoride (physical object) "/>
+        <equivalence value="narrower"/>
+        <comment value="Use only for non-evacuated blood collection tubes."/>
+        <product>
+          <property value="http://hl7.org/fhir/StructureDefinition/Specimen#Specimen.container.additive[x]"/>
+          <value value="6910009"/>
+        </product>
+        <product>
+          <property value="http://hl7.org/fhir/StructureDefinition/Specimen#Specimen.container.additive[x]"/>
+          <value value="34261003"/>
+        </product>
+      </target>
+    </element>
+    <element>
+      <code value="SST"/>
+      <display value="Serum separator tube with clot activator"/>
+      <target>
+        <code value="702297000"/>
+        <display value="Non-evacuated blood collection tube, clot activator (physical object) "/>
+        <equivalence value="narrower"/>
+        <comment value="Use only for non-evacuated blood collection tubes."/>
+      </target>
+      <target>
+        <code value="767384004"/>
+        <display value="Evacuated blood collection tube with clot activator (physical object) "/>
+        <equivalence value="narrower"/>
+        <comment value="Use only for evacuated blood collection tubes."/>
+      </target>
+    </element>
+    <element>
+      <code value="TEM"/>
+      <display value="Tempus tube"/>
+      <target>
+        <code value="702280006"/>
+        <display value="Evacuated blood collection tube, ribonucleic acid stabilizer (physical object)"/>
+        <equivalence value="wider"/>
+      </target>
+    </element>
+  </group>
+</ConceptMap>

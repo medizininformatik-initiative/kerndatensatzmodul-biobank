@@ -1,0 +1,913 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Bundle xmlns="http://hl7.org/fhir">
+  <id value="b7a62baa-b292-40c8-992a-a5dce7a216d0"/>
+  <meta>
+    <lastUpdated value="2026-08-27T17:44:24.560+00:00"/>
+  </meta>
+  <type value="collection"/>
+  <entry>
+    <fullUrl value="https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/mii-vs-biobank-dna-concentration-units-ucum"/>
+    <resource>
+      <ValueSet>
+        <meta>
+          <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
+        </meta>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml" data-fhir="generated">
+            <p class="res-header-id"/>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion from tx.fhir.org based on 
+              <a href="http://tx.fhir.org/r4/ValueSet/x-ucum">codesystem UCUM v2.2 (CodeSystem)</a>
+              <span class="copy-text-inline">
+                <button data-clipboard-text="http://unitsofmeasure.org|2.2" title="Click to Copy URL" class="btn-copy"> </button>
+              </span>
+            </p>
+            <p>This value set contains 2 concepts</p>
+            <table class="codes" data-fhir="generated">
+              <tr>
+                <td>
+                  <b>System</b>
+                </td>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display (en)</b>
+                </td>
+                <td>
+                  <b>JSON</b>
+                </td>
+                <td>
+                  <b>XML</b>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://unitsofmeasure.org-ng/uL"> </a>
+                  <code>http://unitsofmeasure.org</code>
+                </td>
+                <td style="white-space:nowrap">  ng/uL</td>
+                <td>ng/uL</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://unitsofmeasure.org&quot;, &quot;version&quot;: &quot;2.2&quot;, &quot;code&quot;: &quot;ng/uL&quot;, &quot;display&quot;: &quot;ng/uL&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://unitsofmeasure.org&quot;&gt;&lt;version value=&quot;2.2&quot;&gt;&lt;code value=&quot;ng/uL&quot;&gt;&lt;display value=&quot;ng/uL&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://unitsofmeasure.org-pg/uL"> </a>
+                  <code>http://unitsofmeasure.org</code>
+                </td>
+                <td style="white-space:nowrap">  pg/uL</td>
+                <td>pg/uL</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://unitsofmeasure.org&quot;, &quot;version&quot;: &quot;2.2&quot;, &quot;code&quot;: &quot;pg/uL&quot;, &quot;display&quot;: &quot;pg/uL&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://unitsofmeasure.org&quot;&gt;&lt;version value=&quot;2.2&quot;&gt;&lt;code value=&quot;pg/uL&quot;&gt;&lt;display value=&quot;pg/uL&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/mii-vs-biobank-dna-concentration-units-ucum"/>
+        <version value="2026.0.1"/>
+        <name value="MII_VS_Biobank_DNA_Concentration_Units_UCUM"/>
+        <title value="MII VS Biobank DNA Concentration Units UCUM"/>
+        <status value="active"/>
+        <experimental value="false"/>
+        <date value="2025-09-02"/>
+        <jurisdiction>
+          <coding>
+            <system value="urn:iso:std:iso:3166"/>
+            <code value="DE"/>
+            <display value="Germany"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:3ef917c5-59b7-431f-a475-4374d2f75b1e"/>
+          <timestamp value="2026-08-27T17:46:07+00:00"/>
+          <total value="2"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="en"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-valueset"/>
+            <valueUri value="null"/>
+          </parameter>
+          <parameter>
+            <name value="includeDefinition"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="http://unitsofmeasure.org|2.2"/>
+          </parameter>
+          <contains>
+            <system value="http://unitsofmeasure.org"/>
+            <code value="ng/uL"/>
+            <display value="ng/uL"/>
+          </contains>
+          <contains>
+            <system value="http://unitsofmeasure.org"/>
+            <code value="pg/uL"/>
+            <display value="pg/uL"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/mii-vs-biobank-dna-concentration-units-ucum"/>
+    <resource>
+      <ValueSet>
+        <meta>
+          <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
+        </meta>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml" data-fhir="generated">
+            <p class="res-header-id"/>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion from tx.fhir.org based on 
+              <a href="http://tx.fhir.org/r4/ValueSet/x-ucum">codesystem UCUM v2.2 (CodeSystem)</a>
+              <span class="copy-text-inline">
+                <button data-clipboard-text="http://unitsofmeasure.org|2.2" title="Click to Copy URL" class="btn-copy"> </button>
+              </span>
+            </p>
+            <p>This value set contains 2 concepts</p>
+            <table class="codes" data-fhir="generated">
+              <tr>
+                <td>
+                  <b>System</b>
+                </td>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display (en)</b>
+                </td>
+                <td>
+                  <b>JSON</b>
+                </td>
+                <td>
+                  <b>XML</b>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://unitsofmeasure.org-ng/uL"> </a>
+                  <code>http://unitsofmeasure.org</code>
+                </td>
+                <td style="white-space:nowrap">  ng/uL</td>
+                <td>ng/uL</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://unitsofmeasure.org&quot;, &quot;version&quot;: &quot;2.2&quot;, &quot;code&quot;: &quot;ng/uL&quot;, &quot;display&quot;: &quot;ng/uL&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://unitsofmeasure.org&quot;&gt;&lt;version value=&quot;2.2&quot;&gt;&lt;code value=&quot;ng/uL&quot;&gt;&lt;display value=&quot;ng/uL&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://unitsofmeasure.org-pg/uL"> </a>
+                  <code>http://unitsofmeasure.org</code>
+                </td>
+                <td style="white-space:nowrap">  pg/uL</td>
+                <td>pg/uL</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://unitsofmeasure.org&quot;, &quot;version&quot;: &quot;2.2&quot;, &quot;code&quot;: &quot;pg/uL&quot;, &quot;display&quot;: &quot;pg/uL&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://unitsofmeasure.org&quot;&gt;&lt;version value=&quot;2.2&quot;&gt;&lt;code value=&quot;pg/uL&quot;&gt;&lt;display value=&quot;pg/uL&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/mii-vs-biobank-dna-concentration-units-ucum"/>
+        <version value="2026.0.1"/>
+        <name value="MII_VS_Biobank_DNA_Concentration_Units_UCUM"/>
+        <title value="MII VS Biobank DNA Concentration Units UCUM"/>
+        <status value="active"/>
+        <experimental value="false"/>
+        <date value="2025-09-02"/>
+        <jurisdiction>
+          <coding>
+            <system value="urn:iso:std:iso:3166"/>
+            <code value="DE"/>
+            <display value="Germany"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:3ef917c5-59b7-431f-a475-4374d2f75b1e"/>
+          <timestamp value="2026-08-27T17:46:07+00:00"/>
+          <total value="2"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="en"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-valueset"/>
+            <valueUri value="null"/>
+          </parameter>
+          <parameter>
+            <name value="includeDefinition"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="http://unitsofmeasure.org|2.2"/>
+          </parameter>
+          <contains>
+            <system value="http://unitsofmeasure.org"/>
+            <code value="ng/uL"/>
+            <display value="ng/uL"/>
+          </contains>
+          <contains>
+            <system value="http://unitsofmeasure.org"/>
+            <code value="pg/uL"/>
+            <display value="pg/uL"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/mii-vs-biobank-dna-concentration-units-ucum"/>
+    <resource>
+      <ValueSet>
+        <meta>
+          <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
+        </meta>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml" data-fhir="generated">
+            <p class="res-header-id"/>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion from tx.fhir.org based on 
+              <a href="http://tx.fhir.org/r4/ValueSet/x-ucum">codesystem UCUM v2.2 (CodeSystem)</a>
+              <span class="copy-text-inline">
+                <button data-clipboard-text="http://unitsofmeasure.org|2.2" title="Click to Copy URL" class="btn-copy"> </button>
+              </span>
+            </p>
+            <p>This value set contains 2 concepts</p>
+            <table class="codes" data-fhir="generated">
+              <tr>
+                <td>
+                  <b>System</b>
+                </td>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display (de)</b>
+                </td>
+                <td>
+                  <b>JSON</b>
+                </td>
+                <td>
+                  <b>XML</b>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://unitsofmeasure.org-ng/uL"> </a>
+                  <code>http://unitsofmeasure.org</code>
+                </td>
+                <td style="white-space:nowrap">  ng/uL</td>
+                <td/>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://unitsofmeasure.org&quot;, &quot;version&quot;: &quot;2.2&quot;, &quot;code&quot;: &quot;ng/uL&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://unitsofmeasure.org&quot;&gt;&lt;version value=&quot;2.2&quot;&gt;&lt;code value=&quot;ng/uL&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-http://unitsofmeasure.org-pg/uL"> </a>
+                  <code>http://unitsofmeasure.org</code>
+                </td>
+                <td style="white-space:nowrap">  pg/uL</td>
+                <td/>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;http://unitsofmeasure.org&quot;, &quot;version&quot;: &quot;2.2&quot;, &quot;code&quot;: &quot;pg/uL&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;http://unitsofmeasure.org&quot;&gt;&lt;version value=&quot;2.2&quot;&gt;&lt;code value=&quot;pg/uL&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/mii-vs-biobank-dna-concentration-units-ucum"/>
+        <version value="2026.0.1"/>
+        <name value="MII_VS_Biobank_DNA_Concentration_Units_UCUM"/>
+        <title value="MII VS Biobank DNA Concentration Units UCUM"/>
+        <status value="active"/>
+        <experimental value="false"/>
+        <date value="2025-09-02"/>
+        <jurisdiction>
+          <coding>
+            <system value="urn:iso:std:iso:3166"/>
+            <code value="DE"/>
+            <display value="Germany"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:9c6a1b70-98fd-4a26-97c5-d9df0f000de2"/>
+          <timestamp value="2026-08-27T17:46:08+00:00"/>
+          <total value="2"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="de"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-valueset"/>
+            <valueUri value="null"/>
+          </parameter>
+          <parameter>
+            <name value="includeDefinition"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="http://unitsofmeasure.org|2.2"/>
+          </parameter>
+          <contains>
+            <system value="http://unitsofmeasure.org"/>
+            <code value="ng/uL"/>
+          </contains>
+          <contains>
+            <system value="http://unitsofmeasure.org"/>
+            <code value="pg/uL"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/mii-vs-biobank-probenebene"/>
+    <resource>
+      <ValueSet>
+        <meta>
+          <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
+        </meta>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml" data-fhir="generated">
+            <p class="res-header-id"/>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
+              <a href="CodeSystem-mii-cs-biobank-probenebene.html">codesystem MII CS Biobank Probenebene v2026.0.1 (CodeSystem)</a>
+              <span class="copy-text-inline">
+                <button data-clipboard-text="https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/CodeSystem/mii-cs-biobank-probenebene|2026.0.1" title="Click to Copy URL" class="btn-copy"> </button>
+              </span>
+            </p>
+            <p>This value set contains 3 concepts</p>
+            <table class="codes" data-fhir="generated">
+              <tr>
+                <td>
+                  <b>System</b>
+                </td>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display (en)</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+                <td>
+                  <b>JSON</b>
+                </td>
+                <td>
+                  <b>XML</b>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/CodeSystem/mii-cs-biobank-probenebene-PRIM|c4RPROBE"> </a>
+                  <code>https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/CodeSystem/mii-cs-biobank-probenebene</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-mii-cs-biobank-probenebene.html#mii-cs-biobank-probenebene-PRIM.196RPROBE">PRIMÄRPROBE</a>
+                </td>
+                <td>Primärprobe</td>
+                <td>Die Probe, wie sie gesammelt wurde, vor ihrer Verarbeitung.</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/CodeSystem/mii-cs-biobank-probenebene&quot;, &quot;version&quot;: &quot;2026.0.1&quot;, &quot;code&quot;: &quot;PRIMÄRPROBE&quot;, &quot;display&quot;: &quot;Primärprobe&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/CodeSystem/mii-cs-biobank-probenebene&quot;&gt;&lt;version value=&quot;2026.0.1&quot;&gt;&lt;code value=&quot;PRIMÄRPROBE&quot;&gt;&lt;display value=&quot;Primärprobe&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/CodeSystem/mii-cs-biobank-probenebene-ALIQUOTGRUPPE"> </a>
+                  <code>https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/CodeSystem/mii-cs-biobank-probenebene</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-mii-cs-biobank-probenebene.html#mii-cs-biobank-probenebene-ALIQUOTGRUPPE">ALIQUOTGRUPPE</a>
+                </td>
+                <td>Aliquotgruppe</td>
+                <td>Eine Zusammenfassung von Aliquots gleichen Probentyps, die von der gleichen möglicherweise bereits verarbeiteten Primärprobe abstammen.</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/CodeSystem/mii-cs-biobank-probenebene&quot;, &quot;version&quot;: &quot;2026.0.1&quot;, &quot;code&quot;: &quot;ALIQUOTGRUPPE&quot;, &quot;display&quot;: &quot;Aliquotgruppe&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/CodeSystem/mii-cs-biobank-probenebene&quot;&gt;&lt;version value=&quot;2026.0.1&quot;&gt;&lt;code value=&quot;ALIQUOTGRUPPE&quot;&gt;&lt;display value=&quot;Aliquotgruppe&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/CodeSystem/mii-cs-biobank-probenebene-ALIQUOT"> </a>
+                  <code>https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/CodeSystem/mii-cs-biobank-probenebene</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-mii-cs-biobank-probenebene.html#mii-cs-biobank-probenebene-ALIQUOT">ALIQUOT</a>
+                </td>
+                <td>Aliquot</td>
+                <td>Eine Probe, von der identische Geschwisterproben existieren können, die derselben Aliquotgruppe angehören. </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/CodeSystem/mii-cs-biobank-probenebene&quot;, &quot;version&quot;: &quot;2026.0.1&quot;, &quot;code&quot;: &quot;ALIQUOT&quot;, &quot;display&quot;: &quot;Aliquot&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/CodeSystem/mii-cs-biobank-probenebene&quot;&gt;&lt;version value=&quot;2026.0.1&quot;&gt;&lt;code value=&quot;ALIQUOT&quot;&gt;&lt;display value=&quot;Aliquot&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/mii-vs-biobank-probenebene"/>
+        <version value="2026.0.1"/>
+        <name value="MII_VS_Biobank_Probenebene"/>
+        <title value="MII VS Biobank Probenebene"/>
+        <status value="active"/>
+        <experimental value="false"/>
+        <date value="2025-09-02"/>
+        <jurisdiction>
+          <coding>
+            <system value="urn:iso:std:iso:3166"/>
+            <code value="DE"/>
+            <display value="Germany"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:4fb3bfee-983d-48f4-a300-b3fd7748dfa2"/>
+          <timestamp value="2026-08-27T17:46:19+00:00"/>
+          <total value="3"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="en"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="system-version"/>
+            <valueUri value="https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/CodeSystem/mii-cs-biobank-probenebene|2026.0.1"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/CodeSystem/mii-cs-biobank-probenebene|2026.0.1"/>
+          </parameter>
+          <contains>
+            <system value="https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/CodeSystem/mii-cs-biobank-probenebene"/>
+            <code value="PRIMÄRPROBE"/>
+            <display value="Primärprobe"/>
+          </contains>
+          <contains>
+            <system value="https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/CodeSystem/mii-cs-biobank-probenebene"/>
+            <code value="ALIQUOTGRUPPE"/>
+            <display value="Aliquotgruppe"/>
+          </contains>
+          <contains>
+            <system value="https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/CodeSystem/mii-cs-biobank-probenebene"/>
+            <code value="ALIQUOT"/>
+            <display value="Aliquot"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/mii-vs-biobank-probenebene"/>
+    <resource>
+      <ValueSet>
+        <meta>
+          <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
+        </meta>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml" data-fhir="generated">
+            <p class="res-header-id"/>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
+              <a href="CodeSystem-mii-cs-biobank-probenebene.html">codesystem MII CS Biobank Probenebene v2026.0.1 (CodeSystem)</a>
+              <span class="copy-text-inline">
+                <button data-clipboard-text="https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/CodeSystem/mii-cs-biobank-probenebene|2026.0.1" title="Click to Copy URL" class="btn-copy"> </button>
+              </span>
+            </p>
+            <p>This value set contains 3 concepts</p>
+            <table class="codes" data-fhir="generated">
+              <tr>
+                <td>
+                  <b>System</b>
+                </td>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display (en)</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+                <td>
+                  <b>JSON</b>
+                </td>
+                <td>
+                  <b>XML</b>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/CodeSystem/mii-cs-biobank-probenebene-PRIM|c4RPROBE"> </a>
+                  <code>https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/CodeSystem/mii-cs-biobank-probenebene</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-mii-cs-biobank-probenebene.html#mii-cs-biobank-probenebene-PRIM.196RPROBE">PRIMÄRPROBE</a>
+                </td>
+                <td>Primärprobe</td>
+                <td>Die Probe, wie sie gesammelt wurde, vor ihrer Verarbeitung.</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/CodeSystem/mii-cs-biobank-probenebene&quot;, &quot;version&quot;: &quot;2026.0.1&quot;, &quot;code&quot;: &quot;PRIMÄRPROBE&quot;, &quot;display&quot;: &quot;Primärprobe&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/CodeSystem/mii-cs-biobank-probenebene&quot;&gt;&lt;version value=&quot;2026.0.1&quot;&gt;&lt;code value=&quot;PRIMÄRPROBE&quot;&gt;&lt;display value=&quot;Primärprobe&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/CodeSystem/mii-cs-biobank-probenebene-ALIQUOTGRUPPE"> </a>
+                  <code>https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/CodeSystem/mii-cs-biobank-probenebene</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-mii-cs-biobank-probenebene.html#mii-cs-biobank-probenebene-ALIQUOTGRUPPE">ALIQUOTGRUPPE</a>
+                </td>
+                <td>Aliquotgruppe</td>
+                <td>Eine Zusammenfassung von Aliquots gleichen Probentyps, die von der gleichen möglicherweise bereits verarbeiteten Primärprobe abstammen.</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/CodeSystem/mii-cs-biobank-probenebene&quot;, &quot;version&quot;: &quot;2026.0.1&quot;, &quot;code&quot;: &quot;ALIQUOTGRUPPE&quot;, &quot;display&quot;: &quot;Aliquotgruppe&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/CodeSystem/mii-cs-biobank-probenebene&quot;&gt;&lt;version value=&quot;2026.0.1&quot;&gt;&lt;code value=&quot;ALIQUOTGRUPPE&quot;&gt;&lt;display value=&quot;Aliquotgruppe&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/CodeSystem/mii-cs-biobank-probenebene-ALIQUOT"> </a>
+                  <code>https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/CodeSystem/mii-cs-biobank-probenebene</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-mii-cs-biobank-probenebene.html#mii-cs-biobank-probenebene-ALIQUOT">ALIQUOT</a>
+                </td>
+                <td>Aliquot</td>
+                <td>Eine Probe, von der identische Geschwisterproben existieren können, die derselben Aliquotgruppe angehören. </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/CodeSystem/mii-cs-biobank-probenebene&quot;, &quot;version&quot;: &quot;2026.0.1&quot;, &quot;code&quot;: &quot;ALIQUOT&quot;, &quot;display&quot;: &quot;Aliquot&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/CodeSystem/mii-cs-biobank-probenebene&quot;&gt;&lt;version value=&quot;2026.0.1&quot;&gt;&lt;code value=&quot;ALIQUOT&quot;&gt;&lt;display value=&quot;Aliquot&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/mii-vs-biobank-probenebene"/>
+        <version value="2026.0.1"/>
+        <name value="MII_VS_Biobank_Probenebene"/>
+        <title value="MII VS Biobank Probenebene"/>
+        <status value="active"/>
+        <experimental value="false"/>
+        <date value="2025-09-02"/>
+        <jurisdiction>
+          <coding>
+            <system value="urn:iso:std:iso:3166"/>
+            <code value="DE"/>
+            <display value="Germany"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:4fb3bfee-983d-48f4-a300-b3fd7748dfa2"/>
+          <timestamp value="2026-08-27T17:46:19+00:00"/>
+          <total value="3"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="en"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="system-version"/>
+            <valueUri value="https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/CodeSystem/mii-cs-biobank-probenebene|2026.0.1"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/CodeSystem/mii-cs-biobank-probenebene|2026.0.1"/>
+          </parameter>
+          <contains>
+            <system value="https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/CodeSystem/mii-cs-biobank-probenebene"/>
+            <code value="PRIMÄRPROBE"/>
+            <display value="Primärprobe"/>
+          </contains>
+          <contains>
+            <system value="https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/CodeSystem/mii-cs-biobank-probenebene"/>
+            <code value="ALIQUOTGRUPPE"/>
+            <display value="Aliquotgruppe"/>
+          </contains>
+          <contains>
+            <system value="https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/CodeSystem/mii-cs-biobank-probenebene"/>
+            <code value="ALIQUOT"/>
+            <display value="Aliquot"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+  <entry>
+    <fullUrl value="https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/mii-vs-biobank-probenebene"/>
+    <resource>
+      <ValueSet>
+        <meta>
+          <profile value="http://hl7.org/fhir/StructureDefinition/shareablevalueset"/>
+        </meta>
+        <text>
+          <status value="generated"/>
+          <div xmlns="http://www.w3.org/1999/xhtml" data-fhir="generated">
+            <p class="res-header-id"/>
+            <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
+              <a href="CodeSystem-mii-cs-biobank-probenebene.html">codesystem MII CS Biobank Probenebene v2026.0.1 (CodeSystem)</a>
+              <span class="copy-text-inline">
+                <button data-clipboard-text="https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/CodeSystem/mii-cs-biobank-probenebene|2026.0.1" title="Click to Copy URL" class="btn-copy"> </button>
+              </span>
+            </p>
+            <p>This value set contains 3 concepts</p>
+            <table class="codes" data-fhir="generated">
+              <tr>
+                <td>
+                  <b>System</b>
+                </td>
+                <td style="white-space:nowrap">
+                  <b>Code</b>
+                </td>
+                <td>
+                  <b>Display (de)</b>
+                </td>
+                <td>
+                  <b>Definition</b>
+                </td>
+                <td>
+                  <b>JSON</b>
+                </td>
+                <td>
+                  <b>XML</b>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/CodeSystem/mii-cs-biobank-probenebene-PRIM|c4RPROBE"> </a>
+                  <code>https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/CodeSystem/mii-cs-biobank-probenebene</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-mii-cs-biobank-probenebene.html#mii-cs-biobank-probenebene-PRIM.196RPROBE">PRIMÄRPROBE</a>
+                </td>
+                <td/>
+                <td>Die Probe, wie sie gesammelt wurde, vor ihrer Verarbeitung.</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/CodeSystem/mii-cs-biobank-probenebene&quot;, &quot;version&quot;: &quot;2026.0.1&quot;, &quot;code&quot;: &quot;PRIMÄRPROBE&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/CodeSystem/mii-cs-biobank-probenebene&quot;&gt;&lt;version value=&quot;2026.0.1&quot;&gt;&lt;code value=&quot;PRIMÄRPROBE&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/CodeSystem/mii-cs-biobank-probenebene-ALIQUOTGRUPPE"> </a>
+                  <code>https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/CodeSystem/mii-cs-biobank-probenebene</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-mii-cs-biobank-probenebene.html#mii-cs-biobank-probenebene-ALIQUOTGRUPPE">ALIQUOTGRUPPE</a>
+                </td>
+                <td/>
+                <td>Eine Zusammenfassung von Aliquots gleichen Probentyps, die von der gleichen möglicherweise bereits verarbeiteten Primärprobe abstammen.</td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/CodeSystem/mii-cs-biobank-probenebene&quot;, &quot;version&quot;: &quot;2026.0.1&quot;, &quot;code&quot;: &quot;ALIQUOTGRUPPE&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/CodeSystem/mii-cs-biobank-probenebene&quot;&gt;&lt;version value=&quot;2026.0.1&quot;&gt;&lt;code value=&quot;ALIQUOTGRUPPE&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+              <tr>
+                <td>
+                  <a name="x-https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/CodeSystem/mii-cs-biobank-probenebene-ALIQUOT"> </a>
+                  <code>https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/CodeSystem/mii-cs-biobank-probenebene</code>
+                </td>
+                <td style="white-space:nowrap">  
+                  <a href="CodeSystem-mii-cs-biobank-probenebene.html#mii-cs-biobank-probenebene-ALIQUOT">ALIQUOT</a>
+                </td>
+                <td/>
+                <td>Eine Probe, von der identische Geschwisterproben existieren können, die derselben Aliquotgruppe angehören. </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/CodeSystem/mii-cs-biobank-probenebene&quot;, &quot;version&quot;: &quot;2026.0.1&quot;, &quot;code&quot;: &quot;ALIQUOT&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+                <td>
+                  <span class="copy-text-inline">
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/CodeSystem/mii-cs-biobank-probenebene&quot;&gt;&lt;version value=&quot;2026.0.1&quot;&gt;&lt;code value=&quot;ALIQUOT&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                  </span>
+                </td>
+              </tr>
+            </table>
+          </div>
+        </text>
+        <url value="https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/mii-vs-biobank-probenebene"/>
+        <version value="2026.0.1"/>
+        <name value="MII_VS_Biobank_Probenebene"/>
+        <title value="MII VS Biobank Probenebene"/>
+        <status value="active"/>
+        <experimental value="false"/>
+        <date value="2025-09-02"/>
+        <jurisdiction>
+          <coding>
+            <system value="urn:iso:std:iso:3166"/>
+            <code value="DE"/>
+            <display value="Germany"/>
+          </coding>
+        </jurisdiction>
+        <expansion>
+          <identifier value="urn:uuid:9be2c27d-dd51-4216-b203-fe007e6fee45"/>
+          <timestamp value="2026-08-27T17:46:19+00:00"/>
+          <total value="3"/>
+          <offset value="0"/>
+          <parameter>
+            <name value="displayLanguage"/>
+            <valueCode value="de"/>
+          </parameter>
+          <parameter>
+            <name value="count"/>
+            <valueInteger value="1000"/>
+          </parameter>
+          <parameter>
+            <name value="offset"/>
+            <valueInteger value="0"/>
+          </parameter>
+          <parameter>
+            <name value="excludeNested"/>
+            <valueBoolean value="false"/>
+          </parameter>
+          <parameter>
+            <name value="system-version"/>
+            <valueUri value="https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/CodeSystem/mii-cs-biobank-probenebene|2026.0.1"/>
+          </parameter>
+          <parameter>
+            <name value="used-codesystem"/>
+            <valueUri value="https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/CodeSystem/mii-cs-biobank-probenebene|2026.0.1"/>
+          </parameter>
+          <contains>
+            <system value="https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/CodeSystem/mii-cs-biobank-probenebene"/>
+            <code value="PRIMÄRPROBE"/>
+          </contains>
+          <contains>
+            <system value="https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/CodeSystem/mii-cs-biobank-probenebene"/>
+            <code value="ALIQUOTGRUPPE"/>
+          </contains>
+          <contains>
+            <system value="https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/CodeSystem/mii-cs-biobank-probenebene"/>
+            <code value="ALIQUOT"/>
+          </contains>
+        </expansion>
+      </ValueSet>
+    </resource>
+  </entry>
+</Bundle>
