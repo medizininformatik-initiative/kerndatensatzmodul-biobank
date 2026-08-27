@@ -1,0 +1,3 @@
+• biobank-source               [lokaler Pfad, static] -> biobank-source-report.md + biobank-source-stats.json
+• biobank-migrated             [lokaler Pfad, static] -> mii-ig-biobank-de-v2026-report.md + mii-ig-biobank-de-v2026-stats.json
+• Vergleichsreport (2 IGs) -> compare-report.md

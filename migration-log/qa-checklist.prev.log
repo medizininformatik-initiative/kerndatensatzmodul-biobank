@@ -1,0 +1,4 @@
+usage: qa-checklist.py [-h] [--log-dir LOG_DIR] [--findings FINDINGS]
+                       [--claims CLAIMS] [--derived DERIVED] [--map MAP]
+                       [--out OUT]
+qa-checklist.py: error: unrecognized arguments: --target .
