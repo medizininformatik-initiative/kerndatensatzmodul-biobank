@@ -1,34 +1,22 @@
 <!-- markdownlint-disable MD041 -->
-<!-- Source: kerndatensatz-basis input/pagecontent/guidance.md (MII module page set).
-     "Guidance" overview page. Replace the [TODO] prompts; the sub-page structure
-     follows kerndatensatz-basis. German mirror:
-     input/translations/de/pagecontent/guidance.md — keep both in step. -->
+<!-- TODO:REVIEW machine translation of source page guidance.md (de) -->
 
-This section collects the domain guidance for implementing and using the
-**Biobank** module.
-
-### General Implementation Guidance
-
-* **[Datasets and Descriptions](logical-models.html)** — the module's data
-  elements, described as logical models. (This entry shares its target with
-  *Artifacts → Logical Models*; neither Artifacts-Summary anchor is usable as
-  a link target — see
-  [`docs/page-structure.md`](https://github.com/medizininformatik-initiative/kerndatensatzmodul-biobank/blob/main/docs/page-structure.md) in this repository.)
-* **[UML Diagrams](uml-diagrams.html)** — visual representation of the data
-  models and their relationships.
-
-### Audience-Specific Guidance
-
-* **[Guidance for Researchers](researcher-guidance.html)** — for researchers
-  using the module's data.
-* **[Guidance for Implementers](implementer-guidance.html)** — technical
-  guidance for DIC implementers.
-
-> [TODO: Add the module-specific guidance that is relevant to all audiences —
-> e.g. the domain scope or its delimitations.]
+<!-- DERIVED:stand-in source=MIIIGModulBiobank/AnwendungsfaelleInformationsmodell/Index.page.md gate=B -->
+> These introductory lines and the link list were newly written during the migration (the source hub page was intentionally empty).
 {: .ig-highlight .ig-highlight-grey}
 
----
-For the KDS-wide conformance requirements see the
-[Conformance rules of the Meta module](https://github.com/medizininformatik-initiative/kerndatensatz-meta/wiki/Conformance);
-for the technical artifacts see [Profiles](profiles.html).
+This page describes the module's application scenarios; the subpages cover individual aspects in more depth:
+
+* [Guidance for Implementers](implementer-guidance.html) – context within the overall project and references (SPREC, MIABIS, BBMRI-ERIC, GBN)
+* [UML Diagrams](uml-diagrams.html) – the information model as a UML class diagram
+* [Glossary](glossary.html) – term definitions (primary specimen, aliquot group, aliquot, …)
+
+### Description of scenarios for applying the modules
+
+#### Specimen search
+
+In a federated network of heterogeneous biobanks at different university sites throughout Germany, this module enables data harmonisation with as little loss of local information as possible and enrichment of the specimens by adding further clinical parameters. Established applications of this harmonisation that allow researchers to search for comparable biospecimens across Germany are the [Sample Locator](https://samplelocator.bbmri.de/) and the [German Portal for Medical Research Data](https://forschen-fuer-gesundheit.de/). They allow researchers to formulate queries centrally and receive answers from all participating sites.
+
+#### Considering specimen quality in analyses
+
+To obtain reproducible results it is necessary to use biospecimens with comparable quality parameters, such as delay times (ischemia), storage cycles, processing steps, etc. The module supports biomedical research by making such parameters representable.

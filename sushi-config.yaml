@@ -231,6 +231,8 @@ pages:
       title: Guidance for Implementers
     uml-diagrams.md:
       title: UML Diagrams
+    glossary.md:
+      title: Glossary
 
   # The only Conformance-cluster PAGE of this guide; the MII-wide conformance
   # topics are menu links to the Meta module (see input/includes/menu.xml).
@@ -243,10 +245,6 @@ pages:
     title: Extensions
   capability-statements.md:
     title: Capability Statements
-  search-parameters.md: # OPTIONAL (0..1) — see docs/optional-pages.md
-    title: Search Parameters
-  operations.md: # OPTIONAL (0..1) — see docs/optional-pages.md
-    title: Operations
   logical-models.md:
     title: Logical Models
   value-sets.md: # OPTIONAL (0..1) — see docs/optional-pages.md
@@ -283,10 +281,6 @@ pages:
   translationinfo.md:
     title: Translation Information
 
-  # DEMONSTRATION page shipped with the scaffold — delete this entry, the page
-  # and its German mirror once you have taken what you need from it.
-  rendering-artifacts.md:
-    title: Rendering Artifacts (demo)
 
 #
 #

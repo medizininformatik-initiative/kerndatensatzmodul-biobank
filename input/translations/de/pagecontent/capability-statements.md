@@ -1,7 +1,11 @@
 <!-- markdownlint-disable MD041 -->
-### CapabilityStatements
 
-Die CapabilityStatements des Moduls **Biobank** beschreiben die erwarteten Server-/Client-Fähigkeiten (unterstützte Ressourcen und Interaktionen).
+Um eine dezentrale Datenauswertung mittels des Deutschen Forschungsdatenportals für Gesundheit der Medizininformatik-Initiative zu ermöglichen, MUSS die [capabilities-Interaktion](https://hl7.org/fhir/R4/capabilitystatement.html) unterstützt werden, sodass durch den FHIR-Server unter `[BASE-URL]/metadata` ein CapabilityStatement exponiert wird. Innerhalb dieses CapabilityStatement MUSS angegeben werden, welche Profile inkl. Version sowie welche Suchparameter unterstützt werden.
 
-> [TODO: Verweisen Sie auf das/die CapabilityStatement(s) Ihres Moduls, oder entfernen Sie diese Seite.]
-{: .ig-highlight .ig-highlight-grey}
+Nachfolgend wird aufgelistet, welche Inhalte verpflichtend im CapabilityStatement angegeben werden MÜSSEN. Darüber hinaus MUSS eine Konformität zu dem nachfolgenden CapabilityStatement in der jeweiligen CapabilityStatement-Instanz unter [`CapabilityStatement.instantiates`](https://www.hl7.org/fhir/capabilitystatement-definitions.html#CapabilityStatement.instantiates) angegeben werden.
+
+Canonical: `https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/CapabilityStatement/metadata`
+
+Artefaktseite: [MII CPS Biobank CapabilityStatement](CapabilityStatement-mii-cps-biobank-capabilitystatement.html)
+
+{% include CapabilityStatement-mii-cps-biobank-capabilitystatement-html.xhtml %}

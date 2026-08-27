@@ -1,123 +1,64 @@
 <!-- markdownlint-disable MD041 -->
-<!--
-  HOME PAGE — GERMAN TRANSLATION of the source page input/pagecontent/index.md
-  (English is the IG's default language). The structure follows the standard MII
-  module IG page set (MII IG template and kerndatensatz-basis). Replace the
-  {{...}} placeholders and the bracketed [TODO ...] prompts with your module's
-  real content, then delete these HTML comments. Keep the section headings — a
-  reviewer expects them. See docs/recipes/add-translation.md; keep this file in
-  step with the English source.
--->
 
-### Einleitung
+Die vorliegende Spezifikation beschreibt die FHIR-Repräsentation des Kerndatensatz-Moduls **Bioprobendaten** der Medizininformatik-Initiative (MII).
+Im Folgenden werden die Use Cases des Moduls sowie die dazugehörigen FHIR-Profile und Terminologie-Ressourcen in ihrer verbindlichen Form beschrieben.
 
-Diese Spezifikation beschreibt die FHIR-Repräsentation des
-Kerndatensatz-(KDS-)Moduls **Biobank** der Medizininformatik-Initiative
-(MII). Sie beschreibt die Anwendungsfälle des Moduls sowie die zugehörigen
-FHIR-Profile, Extensions und Terminologie-Ressourcen in ihrer verbindlichen
-Form. Der MII-Kerndatensatz dient der standardisierten Nutzung klinischer
-Routinedaten für die medizinische Forschung.
+### Beschreibung des Moduls „Bioprobendaten"
 
-> [TODO: Beschreiben Sie in ein bis zwei Sätzen den fachlichen Gegenstand Ihres
-> Moduls — welche Daten es abdeckt und wofür sie genutzt werden.]
-{: .ig-highlight .ig-highlight-grey}
+Bioproben werden prospektiv in Form von krankheitsspezifischen sowie populationsbezogenen Biobanken gesammelt. Sowohl die übergeordnete Biobank in ihrer Organisation, ihre verschiedenen Sammlungen in ihrem Fokus und ihrer Zusammensetzung, als auch die individuellen Proben müssen für eine sinnvolle Verwendung strukturiert beschrieben werden. Relevante Merkmale zur Probensammlung umfassen unter anderem die abgedeckten Krankheitsbilder, Probentypen und Zugangswege (hierbei handelt es sich um Metadaten). Probenspezifische Daten sollten Angaben zu Probentyp, Probenmaterial, Menge, Gewinnung, präanalytischer Verarbeitung (inkl. Aliquotierung, Pooling) und Lagerung enthalten. Klinische Daten zur Probe werden ausdrücklich nicht von diesem Modul abgedeckt, sondern sollten über die für die jeweilige Datenart vorgesehenen Module bereitgestellt werden.
 
-| Veröffentlichung |               |
-|------------------|---------------|
-| Datum            | 2026-02-11 |
-| Version          | 2026.0.1 (CalVer `JJJJ.n.n`) |
-| Status           | active        |
-| Realm            | DE            |
+Eine Bioprobe kann über eine Entnahme einem/einer Donor/Donorin (Modul Person) zugeordnet werden. Gleichzeitig erlaubt die Entnahme-Entität die Verknüpfung einer Diagnose (Modul Diagnose) als Indikation. Bei der Beschreibung der Bioprobe selbst wurde beschlossen, auf SNOMED CT Codes zur Angabe der Probenart zu setzen. Ein Mapping anderer Standards zur Codierung des Probentyps, insbesondere SPREC 4.0 und MIABIS Sample Type, wird als Teil des Implementation Guides bereitgestellt. Im vorliegenden Informationsmodell sollen Additive getrennt vom eigentlichen Probenmaterial erfasst werden. So erlaubt der mit der Bioprobe verbundene Primärcontainer neben der Angabe des Containertyps die Angabe eines Additivs. Hier sollen ebenfalls SNOMED CT Codes zum Einsatz kommen. Weitere Additive können als Teil von Verarbeitungsschritten erfasst werden. Mittels der Verarbeitungsschritte kann auch die Gewinnung einer oder mehrerer Probe(n) aus einer anderen Probe modelliert werden. Falls Daten zum Verarbeitungsschritt fehlen, kann dies auch über eine direkte Verknüpfung der entsprechenden Proben geschehen.
 
-### Zielgruppe
+Die Bioprobe kann außerdem Pathologiebefunden (Modul Pathologie), Laborbefunden (Modul Labor) sowie Diagnosen (Modul Diagnose) zugeordnet werden, um sie mit weiteren klinischen Informationen zu verbinden.
 
-Dieser Implementierungsleitfaden richtet sich an:
+Die Lagerung einer Bioprobe kann durch eine Reihe von Lagerprozessen, die jeweils Beginn, Ende und Lagerungsbedingungen umfassen, nachvollzogen werden. Lagerprozesse werden wie auch jede Bioprobe einer Probensammlung/Biobank zugeordnet, die als Kontaktstelle für Anfragen zur Probe fungiert. Eine Zuordnung von z.B. untergeordneten Sammlungen zu einer Biobank ist hier über eine Referenz möglich. Zusätzlich können weitere aus dem auf MIABIS aufbauenden BBMRI-ERIC-Directory-Datenmodell übernommene Attribute wie Name oder Sammlungstyp erfasst werden. Um mit der eine Probe verwaltenden Organisation in Verbindung treten zu können, ist außerdem die Angabe eines Kontakts vorgesehen.
 
-<div class="ig-highlight ig-highlight-blue">
-<h5>Implementierende</h5>
-<p>Datenintegrationszentren (DIZ), Software-Entwickelnde und System-Architekt:innen, die FHIR-basierte Lösungen umsetzen.<br/>
-→ siehe <a href="profiles.html">Profile</a> und <a href="logical-models.html">Logische Modelle</a>.</p>
-</div>
-
-<div class="ig-highlight ig-highlight-green">
-<h5>Forschende</h5>
-<p>Wissenschaftler:innen, die KDS-Daten für die medizinische Forschung nutzen.<br/>
-→ siehe <a href="researcher-guidance.html">Anleitung für Forschende</a>.</p>
-</div>
-
-### Inhalt dieses Leitfadens
-
-- **[Anleitung](guidance.html)** — Einstieg und fachliche Hinweise.
-- **Konformität** — die KDS-weiten Konformitätsregeln (Anforderungssprache,
-  Must-Support, Umgang mit fehlenden Daten) pflegt zentral das
-  [Meta-Modul](https://github.com/medizininformatik-initiative/kerndatensatz-meta/wiki/Conformance);
-  die modul-spezifischen Aspekte zu
-  [Sicherheit und Datenschutz](security-and-privacy.html) sind Teil dieses
-  Leitfadens.
-- **[Profile](profiles.html)** und die weiteren
-  **[Artefakt-Seiten](artifacts.html)** — die technischen Artefakte.
-- **[Beispiele](examples.html)** — Beispielinstanzen.
-- **[Abhängigkeiten](ImplementationGuide-mii-ig-biobank-de-v2026.html)** — die
-  ImplementationGuide-Ressource mit Abhängigkeitstabelle, versionsübergreifender
-  Analyse und Urheberrechtshinweisen.
-
-### Verwandte Leitfäden
-
-Dieses Modul ist Teil des MII-Kerndatensatzes; die weiteren KDS-Module und ihre
-Abhängigkeiten sind unter
-[medizininformatik-initiative.de](https://www.medizininformatik-initiative.de/)
-beschrieben.
-
-> [TODO: Nennen Sie die formalen Abhängigkeiten (siehe `dependencies` in
-> `sushi-config.yaml`) und verwandte Leitfäden Ihres Moduls.]
-{: .ig-highlight .ig-highlight-grey}
-
-Weitere FHIR-Implementierungsleitfäden finden Sie im offiziellen
-**[FHIR IG Registry](https://fhir.org/guides/registry/)** (Quelle:
-[`FHIR/ig-registry`](https://github.com/FHIR/ig-registry)).
+Auch wenn der SPREC-4.0-Code nicht direkt Teil des Datenmodells ist, finden sich doch alle darin enthaltenen Datenelemente im vorliegenden Datenmodell wieder.
 
 ### Impressum
 
-Dieser Leitfaden ist im Rahmen der Medizininformatik-Initiative erstellt worden
-und unterliegt per Governance-Prozess dem Abstimmungsverfahren des
-Interoperabilitätsforums und der Technischen Komitees von HL7 Deutschland e. V.
+Dieser Leitfaden ist im Rahmen der Medizininformatik-Initiative erstellt worden und unterliegt per Governance-Prozess dem Abstimmungsverfahren des Interoperabilitätsforums und der Technischen Komitees von HL7 Deutschland e. V.
 
 ### Ansprechpartner
 
-Fragen zu dieser Publikation können im HL7-FHIR-Zulip
-[chat.fhir.org](https://chat.fhir.org) im Stream `german/mi-initiative` oder im
-MII-Zulip [mii.zulipchat.com](https://mii.zulipchat.com/) im Stream
-`MII-Kerndatensatz` gestellt werden.
-Anmerkungen und Kritik werden als *Issues* auf
-[GitHub](https://github.com/medizininformatik-initiative/kerndatensatzmodul-biobank/issues) entgegengenommen.
+* Buckow, Karoline – MII-Koordinationsstelle
+* Deppenwiese, Noemi – MIRACUM
 
-> [TODO: Nennen Sie die fachlichen Ansprechpartner:innen Ihres Moduls.]
-{: .ig-highlight .ig-highlight-grey}
+Fragen zu der vorliegenden Publikation können jederzeit unter [chat.fhir.org](https://chat.fhir.org) im Stream „german/mi-initiative" gestellt werden.
 
-### Autor:innen (in alphabetischer Reihenfolge)
+Anmerkungen und Kritik werden in Form von Issues im [GitHub-Repository](https://github.com/medizininformatik-initiative/kerndatensatzmodul-biobank/issues) stets gern entgegengenommen.
 
-> [TODO: Listen Sie die Autor:innen des Moduls mit Institution auf.]
-{: .ig-highlight .ig-highlight-grey}
+### Autoren (in alphabetischer Reihenfolge)
 
-### Urheberrecht und Lizenz
+* Buckow, Karoline – MII-Koordinationsstelle
+* Deppenwiese, Noemi – MIRACUM
+* Engels, Cecilia – German Biobank Network (GBN), Deutsches Konsortium für Translationale Krebsforschung (DKTK)
+* Geiger, Jörg – Interdisziplinäre Biomaterial- und Datenbank Würzburg (ibdw)
+* Kirsten, Romy – Integrated Biobank Mannheim (IBM)
+* Kirsten, Toralf – SMITH
+* Klar, Rhena – MIRACUM
+* Köhler, Stefanie – Central Biobank Erlangen (CeBE)
+* Menche, Constantin – Deutsches Konsortium für Translationale Krebsforschung (DKTK)
+* Otto, Christoph – Experimentelle Viszeralchirurgie, Klinik für Chirurgie I, Universitätsklinikum Würzburg
+* Rech, Anne – Experimentelle Viszeralchirurgie, Klinik für Chirurgie I, Universitätsklinikum Würzburg
+* Rinaldi, Eugenia – HiGHmed
+* Roßmann, Kerstin – Experimentelle Viszeralchirurgie, Klinik für Chirurgie I, Universitätsklinikum Würzburg
+* Rößner, Miriam – MIRACUM
+* Saati, Mahasen – Experimentelle Viszeralchirurgie, Klinik für Chirurgie I, Universitätsklinikum Würzburg
+* Schönfeld, Ida – BioBank Dresden (BBD)
+* Siddiqui, Roman – MII-Koordinationsstelle
+* Skowronek, Patrick – UMM, DKFZ, DKTK, DZIF
 
-© 2021+ TMF e. V., Charlottenstraße 42, 10117 Berlin
+### Copyright-Hinweis, Nutzungshinweise
 
-Dieses Werk ist lizenziert unter der
-[Creative Commons Namensnennung 4.0 International Lizenz (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/deed.de).
+Copyright © 2021: TMF e. V., Charlottenstraße 42, 10117 Berlin
 
-Für die Nutzungsrechte der zugrunde liegenden FHIR-Technologie siehe die
-FHIR-Basisspezifikation.
+Der Inhalt dieser Spezifikation ist öffentlich. Die Nachnutzungs- bzw. Veröffentlichungsansprüche sind nicht beschränkt.
 
-Einige der verwendeten Codesysteme werden von anderen Organisationen
-veröffentlicht und gepflegt; es gilt das Urheberrecht der jeweiligen Herausgeber.
+Zu den Nutzungsrechten der zugrunde liegenden FHIR-Technologie siehe die FHIR-Basis-Spezifikation.
 
-### Haftungsausschluss
+Einige verwendete Codesysteme werden von anderen Organisationen herausgegeben und gepflegt. Es gilt das Copyright der dort jeweils aufgeführten Herausgeber (Publisher).
 
-Der Inhalt dieses Dokuments ist öffentlich. Bitte beachten Sie, dass Teile
-dieses Dokuments auf FHIR Version R4 basieren, dessen Urheberrecht bei
-HL7 International liegt.
+### Disclaimer
 
-Obwohl diese Publikation mit größter Sorgfalt erstellt wurde, können die
-Autor:innen keine Haftung für direkte oder indirekte Schäden übernehmen, die
-aus dem Inhalt dieser Spezifikation entstehen könnten.
+Der Inhalt dieses Dokuments ist öffentlich. Zu beachten ist, dass Teile dieses Dokuments auf FHIR Version R4 beruhen, für die das Copyright von HL7 International gilt.

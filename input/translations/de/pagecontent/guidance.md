@@ -1,32 +1,21 @@
 <!-- markdownlint-disable MD041 -->
-<!-- Übersichtsseite "Anleitung". Ersetzen Sie die [TODO]-Hinweise; die
-     Unterseiten-Struktur folgt kerndatensatz-basis. -->
 
-Dieser Abschnitt bündelt die fachlichen Hinweise zur Umsetzung und Nutzung des
-Moduls **Biobank**.
-
-### Allgemeine Umsetzungshinweise
-
-* **[Datensätze und Beschreibungen](logical-models.html)** — die Datenelemente
-  des Moduls, beschrieben als logische Modelle. (Dieser Eintrag teilt sein Ziel
-  mit *Artefakte → Logische Modelle*; keiner der Anker der Artefakt-Übersicht
-  ist als Linkziel nutzbar — siehe
-  [`docs/page-structure.md`](https://github.com/medizininformatik-initiative/kerndatensatzmodul-biobank/blob/main/docs/page-structure.md) in diesem Repository.)
-* **[UML-Diagramme](uml-diagrams.html)** — visuelle Darstellung der Datenmodelle
-  und ihrer Beziehungen.
-
-### Zielgruppenspezifische Hinweise
-
-* **[Anleitung für Forschende](researcher-guidance.html)** — für Forschende, die
-  Moduldaten nutzen.
-* **[Anleitung für Implementierende](implementer-guidance.html)** — technische
-  Hinweise für DIZ-Implementierende.
-
-> [TODO: Ergänzen Sie modul-spezifische Hinweise, die für alle Zielgruppen
-> relevant sind — z. B. den fachlichen Geltungsbereich oder Abgrenzungen.]
+<!-- DERIVED:stand-in source=MIIIGModulBiobank/AnwendungsfaelleInformationsmodell/Index.page.md gate=B -->
+> Diese Einleitungszeilen und die Linkliste sind bei der Migration neu entstanden (die Quell-Hubseite war absichtlich leer).
 {: .ig-highlight .ig-highlight-grey}
 
----
-Für die KDS-weiten Konformitätsanforderungen siehe die
-[Konformitätsregeln des Meta-Moduls](https://github.com/medizininformatik-initiative/kerndatensatz-meta/wiki/Conformance);
-für die technischen Artefakte siehe [Profile](profiles.html).
+Diese Seite beschreibt die Anwendungsszenarien des Moduls; die Unterseiten vertiefen einzelne Aspekte:
+
+* [Hinweise für Implementierer:innen](implementer-guidance.html) – Kontext im Gesamtprojekt und Referenzen (SPREC, MIABIS, BBMRI-ERIC, GBN)
+* [UML-Diagramme](uml-diagrams.html) – das Informationsmodell als UML-Klassendiagramm
+* [Glossar](glossary.html) – Begriffsdefinitionen (Primärprobe, Aliquotgruppe, Aliquot, …)
+
+### Beschreibung von Szenarien für die Anwendung der Module
+
+#### Probensuche
+
+In einem föderierten Netzwerk heterogener Biobanken an unterschiedlichen Universitätsstandorten in ganz Deutschland ermöglicht dieses Modul die Datenharmonisierung unter möglichst geringem Verlust der lokalen Information und Aufwertung der Proben durch Addition zusätzlicher klinischer Parameter. Bereits etablierte Anwendungen dieser Harmonisierung, die es Forschenden ermöglichen, deutschlandweit nach vergleichbaren Bioproben zu suchen, sind der [Sample Locator](https://samplelocator.bbmri.de/) und das [Forschungsdatenportal für Gesundheit](https://forschen-fuer-gesundheit.de/). Damit können Forschende an zentraler Stelle Anfragen formulieren und erhalten Antworten aus allen teilnehmenden Standorten.
+
+#### Berücksichtigung der Probenqualität bei Auswertungen
+
+Um reproduzierbare Ergebnisse zu erhalten, ist es notwendig, dass Bioproben mit vergleichbaren Qualitätsparametern, wie Verzögerungszeiten (Ischämie), Lagerzyklen, Verarbeitungsschritten usw. eingesetzt werden. Das Modul unterstützt die biomedizinische Forschung, indem es solche Parameter abbildbar macht.
