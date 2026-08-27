@@ -4,7 +4,7 @@
 > This overview was newly written during the migration; the source listed the examples per profile page.
 {: .ig-highlight .ig-highlight-grey}
 
-This page lists the example instances of the **Biobank** module. The complete, automatically generated list can be found in the [artifact overview](artifacts.html#example-example-instances).
+This page lists the example instances of the **Biobank** module. The complete, automatically generated list can be found in the [artifact overview](artifacts.html).
 
 ### Biospecimen (Specimen)
 

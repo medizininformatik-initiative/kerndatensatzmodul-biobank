@@ -1,6 +1,6 @@
 # IG-Statistik — biobank-migrated
 
-_Modus: `static` · Stand: 2026-08-27T17:28:37Z · Commit: `2e8aafb`_
+_Modus: `static` · Stand: 2026-08-27T17:29:55Z · Commit: `13508a4`_
 
 ## Kennzahlen-Überblick
 
@@ -132,7 +132,7 @@ _Strategische Kennzahlen: Bindung an die Quellplattform (Lock-in), Anteil standa
 | Wiederverwendung externer Profile (Parents) | 82 % (9 von 11 Profil-Parents extern; abstrakte LM-Basistypen ausgeschlossen) |
 | FHIR-Version | R4 — aktuell verbreitet |
 | Dependency-Veraltung | 0 veraltet (Heuristik) |
-| Pflege-Kadenz | 52.8 Commits/Jahr · letzter Commit vor 0 Tagen |
+| Pflege-Kadenz | 53.0 Commits/Jahr · letzter Commit vor 0 Tagen |
 
 </div>
 
@@ -150,7 +150,7 @@ _Entscheidungsrelevante Risiken für die Freigabe: Terminologie-Lizenzen, unterd
 | Unterdrückte QA-Warnungen | 8 (davon 0 breit) → gering |
 | Datenschutz-Seite (Substanz) | fehlt/nur Stub (0 Wörter) |
 | PII-artige Beispieldaten | keine erkannt |
-| Bus-Faktor (Wissenskonzentration) | 61 % Top-Autor → mittel |
+| Bus-Faktor (Wissenskonzentration) | 60 % Top-Autor → mittel |
 | Breaking-Change-Risiko ggü. Vorversion | — (nur per Build/Vorversions-Diff) |
 
 </div>
@@ -243,7 +243,7 @@ _Die FHIR-Pakete, auf denen der IG aufbaut, samt Version und ob diese fest oder 
 
 - Dependency-Gesundheit: old-style=keine; THO direkt gepinnt=True, Extensions-Pack=True; externe Parents: 0
 
-- Narrative-Quellen: **DUAL** — implementation-guides/ (letzter Commit 2026-02-11T16:33:25+01:00) UND pagecontent+intro-notes (letzter Commit 2026-08-27T19:28:20+02:00); vor der Migration entscheiden, welche Kopie maßgeblich ist (Frische, nicht Rang)
+- Narrative-Quellen: **DUAL** — implementation-guides/ (letzter Commit 2026-02-11T16:33:25+01:00) UND pagecontent+intro-notes (letzter Commit 2026-08-27T19:29:35+02:00); vor der Migration entscheiden, welche Kopie maßgeblich ist (Frische, nicht Rang)
 
 - QA-Baseline: **keine im Baum** — für Vorher/Nachher-Beweise die unmigrierte Quelle bauen oder deren gerendertes qa beziehen
 

@@ -1,6 +1,6 @@
 # IG-Statistik — biobank-source
 
-_Modus: `static` · Stand: 2026-08-27T17:28:37Z · Commit: `ec18029`_
+_Modus: `static` · Stand: 2026-08-27T17:29:55Z · Commit: `ec18029`_
 
 ## Kennzahlen-Überblick
 

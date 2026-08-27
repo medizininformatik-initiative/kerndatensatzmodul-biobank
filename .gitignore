@@ -21,3 +21,6 @@ node_modules/
 # --- OS / editor noise ---
 .DS_Store
 *.log
+# IG Publisher build artifacts at repo root (per onkologie migration precedent)
+translations/
+Requirements-fromNarrative.json

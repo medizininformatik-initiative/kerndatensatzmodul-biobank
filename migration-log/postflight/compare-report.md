@@ -66,7 +66,7 @@ _Interne FSH-Konstrukte (informativ, kein Befund): biobank-migrated: 0 fehlend, 
 | Median Wörter / Seite | 128 | 154 |
 | Hersteller-Lock-in /100 | 90 | 52 |
 | Standard-Terminologie % | 99 | 99 |
-| Bus-Faktor % (Top-Autor) | 61 | 61 |
+| Bus-Faktor % (Top-Autor) | 61 | 60 |
 
 </div>
 

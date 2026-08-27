@@ -3,7 +3,7 @@
 | Side | Measurement |
 |---|---|
 | pre | preflight-analysis.json (biobank-source, ec18029, 2026-08-27T16:46:01Z) |
-| post | postflight-analysis.json (biobank-migrated, 2e8aafb, 2026-08-27T17:28:37Z) |
+| post | postflight-analysis.json (biobank-migrated, 13508a4, 2026-08-27T17:29:55Z) |
 
 Verdicts: **unchanged** 23 · **improved** 1 · **expected-change** 4 · **REGRESSION** 2 · **not-measurable** 4.
 

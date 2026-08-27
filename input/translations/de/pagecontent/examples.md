@@ -3,7 +3,7 @@
 > Diese Übersicht ist bei der Migration neu entstanden; die Quelle listete die Beispiele je Profilseite.
 {: .ig-highlight .ig-highlight-grey}
 
-Diese Seite listet die Beispielinstanzen des Moduls **Biobank**. Die vollständige, automatisch generierte Liste findet sich in der [Artefakt-Übersicht](artifacts.html#example-example-instances).
+Diese Seite listet die Beispielinstanzen des Moduls **Biobank**. Die vollständige, automatisch generierte Liste findet sich in der [Artefakt-Übersicht](artifacts.html).
 
 ### Bioprobe (Specimen)
 
