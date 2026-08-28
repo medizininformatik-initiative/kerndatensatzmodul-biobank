@@ -139,20 +139,6 @@
         "mustSupport": true
       },
       {
-        "id": "Organization.extension",
-        "path": "Organization.extension",
-        "slicing": {
-          "discriminator": [
-            {
-              "type": "value",
-              "path": "url"
-            }
-          ],
-          "ordered": false,
-          "rules": "open"
-        }
-      },
-      {
         "id": "Organization.extension:beschreibung",
         "path": "Organization.extension",
         "sliceName": "beschreibung",
@@ -569,16 +555,6 @@
       {
         "id": "Organization.contact:forschungskontakt.extension",
         "path": "Organization.contact.extension",
-        "slicing": {
-          "discriminator": [
-            {
-              "type": "value",
-              "path": "url"
-            }
-          ],
-          "ordered": false,
-          "rules": "open"
-        },
         "min": 1
       },
       {
