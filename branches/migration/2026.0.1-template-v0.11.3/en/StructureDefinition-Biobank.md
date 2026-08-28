@@ -40,7 +40,7 @@ Other representations of profile: [CSV](../StructureDefinition-Biobank.csv), [Ex
   "version" : "2026.0.1",
   "name" : "MII_LM_Biobank",
   "status" : "active",
-  "date" : "2026-08-28T06:34:01+00:00",
+  "date" : "2026-08-28T06:38:44+00:00",
   "publisher" : "Medizininformatik Initiative",
   "contact" : [{
     "name" : "Medizininformatik Initiative",
