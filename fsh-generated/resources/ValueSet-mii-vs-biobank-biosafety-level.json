@@ -56,7 +56,7 @@
       }
     ]
   },
-  "version": "2026.0.1",
+  "version": "2027.0.0-ballot.rc1",
   "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/mii-vs-biobank-biosafety-level",
   "extension": [
     {
