@@ -37,7 +37,7 @@ Mapping der SPREC 4.0 Primary-Container-Containertypen auf die im Modul verwende
   "version" : "2026.0.1",
   "title" : "SPREC 4.0 Primary Container Mapping",
   "status" : "active",
-  "date" : "2026-08-28T07:06:33+00:00",
+  "date" : "2026-08-28T07:19:00+00:00",
   "publisher" : "Medizininformatik Initiative",
   "contact" : [{
     "name" : "Medizininformatik Initiative",
