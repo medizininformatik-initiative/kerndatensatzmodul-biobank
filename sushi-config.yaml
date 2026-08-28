@@ -8,4 +8,5 @@ dependencies:
   de.medizininformatikinitiative.kerndatensatz.meta: 2026.0.x
   de.basisprofil.r4: 1.5.x
   eu.miabis.r4: 0.2.0
+  hl7.fhir.eu.laboratory: 2.0.0
   #Removed onco denpendency a it lead to circular dependency issues

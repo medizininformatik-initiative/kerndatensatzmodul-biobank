@@ -170,6 +170,38 @@
         "mustSupport": true
       },
       {
+        "id": "Specimen.extension:infektiositaetsstatus",
+        "path": "Specimen.extension",
+        "sliceName": "infektiositaetsstatus",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/mii-ex-biobank-infektiositaetsstatus"
+            ]
+          }
+        ],
+        "mustSupport": true
+      },
+      {
+        "id": "Specimen.extension:focus",
+        "path": "Specimen.extension",
+        "sliceName": "focus",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://hl7.eu/fhir/laboratory/StructureDefinition/specimen-focus"
+            ]
+          }
+        ],
+        "mustSupport": true
+      },
+      {
         "id": "Specimen.identifier",
         "path": "Specimen.identifier",
         "mustSupport": true,
