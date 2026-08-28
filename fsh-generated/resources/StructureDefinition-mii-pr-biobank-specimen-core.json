@@ -139,6 +139,20 @@
         "mustSupport": true
       },
       {
+        "id": "Specimen.extension",
+        "path": "Specimen.extension",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "value",
+              "path": "url"
+            }
+          ],
+          "ordered": false,
+          "rules": "open"
+        }
+      },
+      {
         "id": "Specimen.extension:feature",
         "path": "Specimen.extension",
         "sliceName": "feature",
@@ -164,6 +178,38 @@
             "code": "Extension",
             "profile": [
               "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/mii-ex-biobank-ebene"
+            ]
+          }
+        ],
+        "mustSupport": true
+      },
+      {
+        "id": "Specimen.extension:infektiositaetsstatus",
+        "path": "Specimen.extension",
+        "sliceName": "infektiositaetsstatus",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/mii-ex-biobank-infektiositaetsstatus"
+            ]
+          }
+        ],
+        "mustSupport": true
+      },
+      {
+        "id": "Specimen.extension:focus",
+        "path": "Specimen.extension",
+        "sliceName": "focus",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "Extension",
+            "profile": [
+              "http://hl7.eu/fhir/laboratory/StructureDefinition/specimen-focus"
             ]
           }
         ],
@@ -685,6 +731,20 @@
         }
       },
       {
+        "id": "Specimen.collection.extension",
+        "path": "Specimen.collection.extension",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "value",
+              "path": "url"
+            }
+          ],
+          "ordered": false,
+          "rules": "open"
+        }
+      },
+      {
         "id": "Specimen.collection.extension:einstellungBlutversorgung",
         "path": "Specimen.collection.extension",
         "sliceName": "einstellungBlutversorgung",
@@ -1199,6 +1259,16 @@
       {
         "id": "Specimen.processing.extension",
         "path": "Specimen.processing.extension",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "value",
+              "path": "url"
+            }
+          ],
+          "ordered": false,
+          "rules": "open"
+        },
         "min": 1
       },
       {

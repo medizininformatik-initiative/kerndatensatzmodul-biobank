@@ -25,7 +25,10 @@ Description: "Basisiprofil zur Abbildung einer MII Bioprobe. Nicht zur direkten 
 
 //Profile
 
-* extension contains MII_EX_Biobank_Feature_R5 named feature 0..* and MII_EX_Biobank_Ebene named probenebene 0..* MS
+* extension contains MII_EX_Biobank_Feature_R5 named feature 0..* 
+  and MII_EX_Biobank_Ebene named probenebene 0..* MS 
+  and MII_EX_Biobank_Infektiositaetsstatus named infektiositaetsstatus 0..1 MS
+  and http://hl7.eu/fhir/laboratory/StructureDefinition/specimen-focus named focus 0..1 MS
 
 * identifier and type and container.specimenQuantity and status and note and parent and container and container.type and container.capacity 
 and container.additive[x] and collection and collection.collected[x] and collection.bodySite and collection.quantity and collection.fastingStatus[x] and processing

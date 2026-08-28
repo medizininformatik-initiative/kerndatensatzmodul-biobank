@@ -381,7 +381,7 @@
     "fshType": "Profile",
     "fshFile": "profiles\\ProfileSpecimenBioprobeCore.fsh",
     "startLine": 2,
-    "endLine": 264
+    "endLine": 267
   },
   {
     "outputFile": "StructureDefinition-mii-pr-biobank-specimen.json",
