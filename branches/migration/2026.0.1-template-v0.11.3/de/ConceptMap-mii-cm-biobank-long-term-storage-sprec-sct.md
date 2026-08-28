@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Offizielle URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ConceptMap/mii-cm-biobank-long-term-storage-sprec-sct | *Version*:2026.0.1 |
-| Active Stand: 2026-08-27 | *Maschinenlesbarer Name*: |
+| Active Stand: 2026-08-28 | *Maschinenlesbarer Name*: |
 | **Copyright/Rechtliches**: This concept map includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement. It also includes content from SPREC 4.0, https://doi.org/10.1089/bio.2024.0010 | |
 
  
@@ -37,7 +37,7 @@ Mapping der SPREC 4.0 Long-Term Storage Containertypen auf die im Modul verwende
   "version" : "2026.0.1",
   "title" : "SPREC 4.0 Long-Term Storage Mapping",
   "status" : "active",
-  "date" : "2026-08-27T17:51:13+00:00",
+  "date" : "2026-08-28T06:20:20+00:00",
   "publisher" : "Medizininformatik Initiative",
   "contact" : [{
     "name" : "Medizininformatik Initiative",

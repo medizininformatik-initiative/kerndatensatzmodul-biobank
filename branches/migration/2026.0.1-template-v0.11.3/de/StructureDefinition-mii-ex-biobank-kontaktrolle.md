@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Offizielle URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/KontaktRolle | *Version*:2026.0.1 |
-| Active Stand: 2026-08-27 | *Maschinenlesbarer Name*:MII_EX_Biobank_KontaktRolle |
+| Active Stand: 2026-08-28 | *Maschinenlesbarer Name*:MII_EX_Biobank_KontaktRolle |
 
 Mittels dieser Extension soll die Rolle der Kontaktperson in der probenverwaltenden Organisation angegeben werden, z.B. Principal Investigator, Direktor usw.
 
@@ -110,7 +110,7 @@ Weitere Repräsentationen des Profils: [CSV](../StructureDefinition-mii-ex-bioba
     }]
   },
   "status" : "active",
-  "date" : "2026-08-27T17:51:13+00:00",
+  "date" : "2026-08-28T06:20:20+00:00",
   "publisher" : "Medizininformatik Initiative",
   "contact" : [{
     "name" : "Medizininformatik Initiative",

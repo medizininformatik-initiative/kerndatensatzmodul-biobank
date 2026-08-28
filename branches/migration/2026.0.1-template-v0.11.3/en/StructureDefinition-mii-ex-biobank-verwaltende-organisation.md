@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/VerwaltendeOrganisation | *Version*:2026.0.1 |
-| Active as of 2026-08-27 | *Computable Name*:MII_EX_Biobank_Verwaltende_Organisation |
+| Active as of 2026-08-28 | *Computable Name*:MII_EX_Biobank_Verwaltende_Organisation |
 
 The organization managing the specimen should be referenced using this extension. Requests regarding the specimens should be possible via this link and the contact information stored in the organization.
 
@@ -81,7 +81,7 @@ Other representations of profile: [CSV](../StructureDefinition-mii-ex-biobank-ve
     }]
   },
   "status" : "active",
-  "date" : "2026-08-27T17:51:13+00:00",
+  "date" : "2026-08-28T06:20:20+00:00",
   "publisher" : "Medizininformatik Initiative",
   "contact" : [{
     "name" : "Medizininformatik Initiative",
