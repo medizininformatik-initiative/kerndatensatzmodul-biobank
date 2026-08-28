@@ -272,6 +272,14 @@
     "endLine": 16
   },
   {
+    "outputFile": "StructureDefinition-mii-ex-biobank-infektiositaetsstatus.json",
+    "fshName": "MII_EX_Biobank_Infektiositaetsstatus",
+    "fshType": "Extension",
+    "fshFile": "extensions\\ExtensionInfektiositaetsstatus.fsh",
+    "startLine": 1,
+    "endLine": 23
+  },
+  {
     "outputFile": "StructureDefinition-mii-ex-biobank-kontaktrolle.json",
     "fshName": "MII_EX_Biobank_KontaktRolle",
     "fshType": "Extension",
@@ -406,6 +414,14 @@
     "fshFile": "instances\\Heparin.fsh",
     "startLine": 1,
     "endLine": 6
+  },
+  {
+    "outputFile": "ValueSet-mii-vs-biobank-biosafety-level.json",
+    "fshName": "MII_VS_Biobank_Biosafety_Level",
+    "fshType": "ValueSet",
+    "fshFile": "valuesets\\ValueSetInfextiositaetsstatus.fsh",
+    "startLine": 1,
+    "endLine": 22
   },
   {
     "outputFile": "ValueSet-mii-vs-biobank-body-structures-sct.json",
