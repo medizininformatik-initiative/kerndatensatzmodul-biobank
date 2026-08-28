@@ -9,5 +9,5 @@ dependencies:
   de.basisprofil.r4: 1.6.0
   eu.miabis.r4: 0.2.0
   hl7.fhir.eu.laboratory: 2.0.0
-  hl7.terminology.r4: 7.1.0
+  #hl7.terminology.r4: 7.1.0
   #Removed onco denpendency a it lead to circular dependency issues
