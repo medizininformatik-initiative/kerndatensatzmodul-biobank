@@ -123,6 +123,7 @@ Publisher-QA (`output/qa.txt`): **73 Errors / 391 Warnings / 0 Broken Links.** D
 | QA-4 | 7 | PATO-Codes unbekannt (pato.owl-Release 2018 am tx-Server) | Quell-Beispiele unverändert | SU-TermServ |
 | QA-5 | 2 | `CodeSystem.caseSensitive` fehlt (beide CodeSysteme) | Quell-FSH; trivialer Fix, bewusst NICHT in der Migration angefasst (kein normativer Eingriff) | Modul, nächster Content-PR |
 | QA-6 | 1 | R5-Cross-Version-URL (`hl7.org/fhir/5.0/…`) triggert die HL7-wg-Regel | URL-Wahl der Quelle (als `special-url` deklariert) | dokumentieren / suppressen |
+| QA-8 | 2 | Validierungs-Workflows rot: (a) SU-TermServ-/ZTS-Secrets im Repo nicht gesetzt (Terminologie-Paket-Download scheitert, CRMI-Profile dadurch unauflösbar) — Einrichtung per `docs/secrets.md` + `scripts/set-su-termserv-secrets.sh`; (b) QC-Regeln melden Quell-IDs (Logical Model `Biobank`, Beispiel-IDs ohne `mii-exa-`-Präfix) und die versionslose R5-Extension `mii-ex-biobank-feature-r5` | Secrets: Repo-Setup; IDs/Version: Quellzustand, per Guardrail 1 nicht in der Migration geändert | Repo-Admin (Secrets); Modul-Backlog (IDs) |
 | QA-7 | — | `prepost-delta` exit 1: `identity.name` (→ DEC-2, Vergleichsartefakt) und `dual_source=true` — der Quellbaum `implementation-guides/**` bleibt bis Gate D im Repo | dokumentierter Migrationszustand | nach Gate D: Retirement-PR für `implementation-guides/**` |
 
 ## Gate 0 — pre-flight scope (evidence behind the queues; not a sign-off)
