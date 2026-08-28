@@ -33,7 +33,7 @@ jobs:
         #Code 'package' existiert erst in neuerem THO als der vom Validator aufgeloesten Version 5.2.0 (artifact-versionPolicy)
         ImplementationGuide-mii-ig-biobank-de-v2026.json||*Unknown code 'package' in the CodeSystem 'http://terminology.hl7.org/CodeSystem/artifact-version-policy-codes'*|ImplementationGuide.extension*
         #Paketaufloesungs-Artefakt: Validator zieht crmi als Ballot-tgz von packages2, dessen Canonical vom IG-Canonical abweicht
-        ImplementationGuide-mii-ig-biobank-de-v2026.json||*IG_DEPENDENCY_CLASH_CANONICAL*|ImplementationGuide.dependsOn*
+        ImplementationGuide-mii-ig-biobank-de-v2026.json||*The packageId hl7.fhir.uv.crmi points to the canonical*|ImplementationGuide.dependsOn*
     secrets: inherit
 
   DOTNET_FHIR_VALIDATION:
