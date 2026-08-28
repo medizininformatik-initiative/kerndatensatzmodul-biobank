@@ -7,8 +7,8 @@
   "status" : "active",
   "package-id" : "de.medizininformatikinitiative.kerndatensatz.biobank",
   "ig-ver" : "2026.0.1",
-  "date" : "Fri, 28 Aug, 2026 06:20:20 +0000",
-  "dateISO8601" : "2026-08-28T06:20:20+00:00",
+  "date" : "Fri, 28 Aug, 2026 06:34:01 +0000",
+  "dateISO8601" : "2026-08-28T06:34:01+00:00",
   "errs" : 73,
   "warnings" : 391,
   "hints" : 1893,
@@ -16,5 +16,5 @@
   "suppressed-warnings" : 0,
   "version" : "4.0.1",
   "tool" : "5.0.0 (3)",
-  "maxMemory" : 2528198920
+  "maxMemory" : 2508432720
 }
