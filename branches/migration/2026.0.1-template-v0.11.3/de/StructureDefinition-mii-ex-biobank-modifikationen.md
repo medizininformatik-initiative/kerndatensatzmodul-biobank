@@ -118,7 +118,7 @@ Weitere Repräsentationen des Profils: [CSV](../StructureDefinition-mii-ex-bioba
     }]
   },
   "status" : "active",
-  "date" : "2026-08-28T07:01:07+00:00",
+  "date" : "2026-08-28T07:06:33+00:00",
   "publisher" : "Medizininformatik Initiative",
   "contact" : [{
     "name" : "Medizininformatik Initiative",
