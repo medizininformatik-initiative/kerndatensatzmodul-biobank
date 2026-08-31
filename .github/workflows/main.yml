@@ -10,7 +10,10 @@ on:
 jobs:
 
   JAVA_FHIR_VALIDATION:
-    uses: medizininformatik-initiative/kerndatensatz-meta/.github/workflows/ci_java_validation.yml@master
+    # TEST (temporär, vor Merge zurück auf @master): Staging-Terminologieserver
+    # ontoserver-staging.su-termserv.de via meta-Branch staging-tx-test — nur
+    # dieses Modul testet Staging, alle anderen bleiben auf @master.
+    uses: medizininformatik-initiative/kerndatensatz-meta/.github/workflows/ci_java_validation.yml@staging-tx-test
     with:
       ref: ${{ github.event.pull_request.head.ref }}
       PATH_TO_CONFORMANCE_RESOURCES: fsh-generated/resources
