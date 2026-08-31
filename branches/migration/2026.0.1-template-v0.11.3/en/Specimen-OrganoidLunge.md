@@ -17,7 +17,7 @@ Profile: [MII PR Biobank Specimen Zellinie Organoid](StructureDefinition-mii-pr-
 **MII EX Biobank Kulturprotokoll**: [DocumentReference: status = current; date = 2018-06-20 09:00:00+0100; description = Standardprotokoll zur Kultivierung von Lungentumor-Organoiden](DocumentReference-Kulturprotokoll.md)
 
 > **MII EX Biobank Zelllinien-Modifikation**
-* artDerModifikation: derived from cell with knockout gene
+* artDerModifikation: derives from cell with knockout gene
 * zielGen: www.genenames.org: TP53 (tumor protein p53)
 * protokoll: [DocumentReference: status = current; date = 2018-06-19 09:00:00+0100; description = CRISPR Knockout-Protokoll für TP53 in Lungentumor-Organoiden](DocumentReference-ProtocolCRISPRTP53.md)
 
@@ -59,7 +59,7 @@ Profile: [MII PR Biobank Specimen Zellinie Organoid](StructureDefinition-mii-pr-
         "coding" : [{
           "system" : "http://purl.obolibrary.org/obo/clo.owl",
           "code" : "CLO:0037375",
-          "display" : "derived from cell with knockout gene"
+          "display" : "derives from cell with knockout gene"
         }]
       }
     },
