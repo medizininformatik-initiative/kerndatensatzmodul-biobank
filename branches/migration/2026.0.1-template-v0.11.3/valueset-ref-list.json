@@ -11,16 +11,16 @@
     "sources" : ["2.16.840.1.113883.4.642.3.141"],
     "uses" : {
     },
-    "StructureDefinition-mii-pr-biobank-observation-proliferation.html" : "MII PR Biobank Observation Proliferation",
-    "StructureDefinition-mii-pr-biobank-specimen-core.html" : "MII PR Biobank Specimen Bioprobe Core",
     "StructureDefinition-mii-pr-biobank-observation-qualitaetspruefung.html" : "MII PR Biobank Observation Qualitätsprüfung",
-    "StructureDefinition-mii-pr-biobank-observation-dna-konzentration.html" : "MII PR Biobank Observation DNA Konzentration",
-    "StructureDefinition-mii-pr-biobank-observation-karyotyp.html" : "MII PR Biobank Observation Karyotyp",
     "StructureDefinition-mii-pr-biobank-observation-morphologie.html" : "MII PR Biobank Observation Morphologie",
-    "StructureDefinition-mii-pr-biobank-observation-wachstumstyp.html" : "MII PR Biobank Observation Wachstumstyp",
-    "StructureDefinition-mii-pr-biobank-zellinie-organoid.html" : "MII PR Biobank Specimen Zellinie Organoid",
     "StructureDefinition-mii-ex-biobank-feature-r5.html" : "MII EX Biobank Feature R5",
-    "StructureDefinition-mii-pr-biobank-specimen.html" : "MII PR Biobank Specimen Bioprobe"
+    "StructureDefinition-mii-pr-biobank-specimen-core.html" : "MII PR Biobank Specimen Bioprobe Core",
+    "StructureDefinition-mii-pr-biobank-observation-proliferation.html" : "MII PR Biobank Observation Proliferation",
+    "StructureDefinition-mii-pr-biobank-zellinie-organoid.html" : "MII PR Biobank Specimen Zellinie Organoid",
+    "StructureDefinition-mii-pr-biobank-specimen.html" : "MII PR Biobank Specimen Bioprobe",
+    "StructureDefinition-mii-pr-biobank-observation-karyotyp.html" : "MII PR Biobank Observation Karyotyp",
+    "StructureDefinition-mii-pr-biobank-observation-wachstumstyp.html" : "MII PR Biobank Observation Wachstumstyp",
+    "StructureDefinition-mii-pr-biobank-observation-dna-konzentration.html" : "MII PR Biobank Observation DNA Konzentration"
   },
   {
     "url" : "http://loinc.org/vs/LL3837-3",

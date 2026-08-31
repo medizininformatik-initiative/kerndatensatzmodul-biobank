@@ -87,7 +87,7 @@ No Expansion for this valueset (Unknown Code System)
       },
       {
         "code" : "CLO:0037375",
-        "display" : "derived from cell with knockout gene"
+        "display" : "derives from cell with knockout gene"
       },
       {
         "code" : "CLO:0037378",
