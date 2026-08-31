@@ -55,7 +55,7 @@
               {
                 "code": "CLO:0037375",
                 "system": "http://purl.obolibrary.org/obo/clo.owl",
-                "display": "derived from cell with knockout gene"
+                "display": "derives from cell with knockout gene"
               }
             ]
           }
