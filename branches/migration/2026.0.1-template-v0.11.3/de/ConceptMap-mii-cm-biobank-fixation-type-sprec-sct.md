@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Offizielle URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ConceptMap/mii-cm-biobank-fixation-type-sprec-sct | *Version*:2026.0.1 |
-| Active Stand: 2026-08-28 | *Maschinenlesbarer Name*: |
+| Active Stand: 2026-08-31 | *Maschinenlesbarer Name*: |
 | **Copyright/Rechtliches**: This concept map includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement. It also includes content from SPREC 4.0, https://doi.org/10.1089/bio.2024.0010 | |
 
  
@@ -37,7 +37,7 @@ Mapping der SPREC 4.0 Fixation Types auf die im Modul verwendeten SNOMED CT Code
   "version" : "2026.0.1",
   "title" : "MII CM Biobank Fixation Type SPREC 4.0 SCT",
   "status" : "active",
-  "date" : "2026-08-28T07:19:00+00:00",
+  "date" : "2026-08-31T13:45:53+00:00",
   "publisher" : "Medizininformatik Initiative",
   "contact" : [{
     "name" : "Medizininformatik Initiative",

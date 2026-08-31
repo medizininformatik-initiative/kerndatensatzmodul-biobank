@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:http://hl7.org/fhir/5.0/StructureDefinition/extension-Specimen.feature | *Version*:2026.0.1 |
-| Active as of 2026-08-28 | *Computable Name*:MII_EX_Biobank_Feature_R5 |
+| Active as of 2026-08-31 | *Computable Name*:MII_EX_Biobank_Feature_R5 |
 
 Die Extension ermöglicht es im Specimen das feature aus R5 zu nutzen.
 
@@ -45,7 +45,7 @@ Other representations of profile: [CSV](../StructureDefinition-mii-ex-biobank-fe
   "title" : "MII EX Biobank Feature R5",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-08-28T07:19:00+00:00",
+  "date" : "2026-08-31T13:45:53+00:00",
   "publisher" : "Medizininformatik Initiative",
   "contact" : [{
     "name" : "Medizininformatik Initiative",

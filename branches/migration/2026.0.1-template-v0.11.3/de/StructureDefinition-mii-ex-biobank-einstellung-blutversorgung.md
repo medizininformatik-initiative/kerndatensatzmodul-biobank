@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Offizielle URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/EinstellungBlutversorgung | *Version*:2026.0.1 |
-| Active Stand: 2026-08-28 | *Maschinenlesbarer Name*:MII_EX_Biobank_Einstellung_Blutversorgung |
+| Active Stand: 2026-08-31 | *Maschinenlesbarer Name*:MII_EX_Biobank_Einstellung_Blutversorgung |
 
 Zeitpunkt der Einstellung der Bluversorgung während der Entnahme. Wird z.B. für die Berechnung der kalten bzw. warem Ischämiezeiten benötigt.
 
@@ -110,7 +110,7 @@ Weitere Repräsentationen des Profils: [CSV](../StructureDefinition-mii-ex-bioba
     }]
   },
   "status" : "active",
-  "date" : "2026-08-28T07:19:00+00:00",
+  "date" : "2026-08-31T13:45:53+00:00",
   "publisher" : "Medizininformatik Initiative",
   "contact" : [{
     "name" : "Medizininformatik Initiative",

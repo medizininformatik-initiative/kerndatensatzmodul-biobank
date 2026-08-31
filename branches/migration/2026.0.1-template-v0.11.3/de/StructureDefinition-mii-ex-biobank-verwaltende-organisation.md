@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Offizielle URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/VerwaltendeOrganisation | *Version*:2026.0.1 |
-| Active Stand: 2026-08-28 | *Maschinenlesbarer Name*:MII_EX_Biobank_Verwaltende_Organisation |
+| Active Stand: 2026-08-31 | *Maschinenlesbarer Name*:MII_EX_Biobank_Verwaltende_Organisation |
 
 Die Organisation, die die Probe verwaltet, soll mithilfe dieser Extension referenziert werden. Anfragen zu den Proben sollen mittels dieser Verlinkung und der in der Organization hinterlegten Kontaktinformationen möglich sein.
 
@@ -110,7 +110,7 @@ Weitere Repräsentationen des Profils: [CSV](../StructureDefinition-mii-ex-bioba
     }]
   },
   "status" : "active",
-  "date" : "2026-08-28T07:19:00+00:00",
+  "date" : "2026-08-31T13:45:53+00:00",
   "publisher" : "Medizininformatik Initiative",
   "contact" : [{
     "name" : "Medizininformatik Initiative",

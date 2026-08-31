@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/mii-ex-biobank-modifikationen | *Version*:2026.0.1 |
-| Active as of 2026-08-28 | *Computable Name*:MII_EX_Biobank_Modifikationen |
+| Active as of 2026-08-31 | *Computable Name*:MII_EX_Biobank_Modifikationen |
 
 Extension for describing modifications to cell lines, including type of modification, target gene, and reference to the protocol.
 
@@ -81,7 +81,7 @@ Other representations of profile: [CSV](../StructureDefinition-mii-ex-biobank-mo
     }]
   },
   "status" : "active",
-  "date" : "2026-08-28T07:19:00+00:00",
+  "date" : "2026-08-31T13:45:53+00:00",
   "publisher" : "Medizininformatik Initiative",
   "contact" : [{
     "name" : "Medizininformatik Initiative",
