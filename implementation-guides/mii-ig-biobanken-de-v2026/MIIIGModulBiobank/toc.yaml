@@ -8,6 +8,8 @@
   filename: KontextimGesamtprojektBezgezuanderenModulen.page.md
 - name: Referenzen
   filename: Referenzen.page.md
+- name: SPREC
+  filename: SPREC.page.md
 - name: Anwendungsfälle / Informationsmodell
   filename: AnwendungsfaelleInformationsmodell
 - name: Technische Implementierung
