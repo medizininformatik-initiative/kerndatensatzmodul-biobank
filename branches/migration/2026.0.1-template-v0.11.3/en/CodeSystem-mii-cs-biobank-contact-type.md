@@ -1,4 +1,4 @@
-# MII CS Biobank Contact Type - MII IG Kerndatensatz-Modul Biobank v2026.0.1
+# MII CS Biobank Contact Type - MII IG Kerndatensatz-Modul Biobank v2027.0.0-ballot.rc1
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/CodeSystem/ContactType | *Version*:2026.0.1 |
+| *Official URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/CodeSystem/ContactType | *Version*:2027.0.0-ballot.rc1 |
 | Active as of 2025-09-02 | *Computable Name*:MII_CS_Biobank_Contact_Type |
 
  
@@ -44,7 +44,7 @@ This Code system is referenced in the definition of the following value sets:
     }
   }],
   "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/CodeSystem/ContactType",
-  "version" : "2026.0.1",
+  "version" : "2027.0.0-ballot.rc1",
   "name" : "MII_CS_Biobank_Contact_Type",
   "_name" : {
     "extension" : [{
@@ -105,6 +105,7 @@ This Code system is referenced in the definition of the following value sets:
       "display" : "Germany"
     }]
   }],
+  "caseSensitive" : true,
   "content" : "complete",
   "count" : 1,
   "concept" : [{

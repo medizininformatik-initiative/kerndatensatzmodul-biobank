@@ -7,7 +7,7 @@
   "language" : "de",
   "text" : {
     "status" : "generated",
-    "div" : "<div xml:lang=\"de\" lang=\"de\"><hr/><p><b>German</b></p><hr/><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem mii-cs-biobank-contact-type</b></p><a name=\"de-mii-cs-biobank-contact-type\"> </a><a name=\"de-hcmii-cs-biobank-contact-type\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"http://hl7.org/fhir/uv/crmi/STU2/StructureDefinition-shareablecodesystem.html\">Shareable CodeSystem</a></p></div><p>This  code system <code>https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/CodeSystem/ContactType</code> defines the following code:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">RESEARCH<a name=\"de-mii-cs-biobank-contact-type-RESEARCH\"> </a></td><td>Research</td><td>Contact for researchers about sample and data requests</td></tr></table></div>"
+    "div" : "<div xml:lang=\"de\" lang=\"de\"><hr/><p><b>German</b></p><hr/><p class=\"res-header-id\"><b>Generated Narrative: CodeSystem mii-cs-biobank-contact-type</b></p><a name=\"de-mii-cs-biobank-contact-type\"> </a><a name=\"de-hcmii-cs-biobank-contact-type\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"http://hl7.org/fhir/uv/crmi/STU2/StructureDefinition-shareablecodesystem.html\">Shareable CodeSystem</a></p></div><p>This case-sensitive code system <code>https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/CodeSystem/ContactType</code> defines the following code:</p><table class=\"codes\"><tr><td style=\"white-space:nowrap\"><b>Code</b></td><td><b>Display</b></td><td><b>Definition</b></td></tr><tr><td style=\"white-space:nowrap\">RESEARCH<a name=\"de-mii-cs-biobank-contact-type-RESEARCH\"> </a></td><td>Research</td><td>Contact for researchers about sample and data requests</td></tr></table></div>"
   },
   "extension" : [{
     "url" : "https://www.medizininformatik-initiative.de/fhir/modul-meta/StructureDefinition/mii-ex-meta-license-codeable",
@@ -20,7 +20,7 @@
     }
   }],
   "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/CodeSystem/ContactType",
-  "version" : "2026.0.1",
+  "version" : "2027.0.0-ballot.rc1",
   "name" : "MII_CS_Biobank_Contact_Type",
   "title" : "MII CS Biobank Contact Type",
   "status" : "active",
@@ -42,6 +42,7 @@
       "display" : "Germany"
     }]
   }],
+  "caseSensitive" : true,
   "content" : "complete",
   "count" : 1,
   "concept" : [{

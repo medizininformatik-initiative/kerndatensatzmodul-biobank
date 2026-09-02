@@ -1,4 +1,4 @@
-# MII PR Biobank Specimen Bioprobe Core - MII IG Kerndatensatz-Modul Biobank v2026.0.1
+# MII PR Biobank Specimen Bioprobe Core - MII IG Kerndatensatz-Modul Biobank v2027.0.0-ballot.rc1
 
 * [**Inhaltsverzeichnis**](toc.md)
 * [**Artefaktübersicht**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Offizielle URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/SpecimenCore | *Version*:2026.0.1 |
+| *Offizielle URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/SpecimenCore | *Version*:2027.0.0-ballot.rc1 |
 | Active Stand: 2025-09-02 | *Maschinenlesbarer Name*:MII_PR_Biobank_Specimen_Bioprobe_Core |
 
  
@@ -49,7 +49,7 @@ Diese Struktur ist abgeleitet von [Specimen](http://hl7.org/fhir/R4/specimen.htm
 ** Summary **
 
 Mandatory: 9 elements(31 nested mandatory elements)
- Must-Support: 61 elements
+ Must-Support: 63 elements
 
 **Structures**
 
@@ -63,6 +63,8 @@ This structure refers to these extensions:
 
 * [http://hl7.org/fhir/5.0/StructureDefinition/extension-Specimen.feature](StructureDefinition-mii-ex-biobank-feature-r5.md)
 * [https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/mii-ex-biobank-ebene](StructureDefinition-mii-ex-biobank-ebene.md)
+* [https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/mii-ex-biobank-infektiositaetsstatus](StructureDefinition-mii-ex-biobank-infektiositaetsstatus.md)
+* [http://hl7.eu/fhir/laboratory/StructureDefinition/specimen-focus](http://hl7.eu/fhir/laboratory/2.0.0/StructureDefinition-specimen-focus.html)
 * [https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/EinstellungBlutversorgung](StructureDefinition-mii-ex-biobank-einstellung-blutversorgung.md)
 * [http://hl7.org/fhir/StructureDefinition/iso21090-PQ-translation](http://hl7.org/fhir/extensions/5.3.0/StructureDefinition-iso21090-PQ-translation.html)
 * [http://hl7.org/fhir/StructureDefinition/quantity-precision](http://hl7.org/fhir/extensions/5.3.0/StructureDefinition-quantity-precision.html)
@@ -105,7 +107,7 @@ Diese Struktur ist abgeleitet von [Specimen](http://hl7.org/fhir/R4/specimen.htm
 ** Summary **
 
 Mandatory: 9 elements(31 nested mandatory elements)
- Must-Support: 61 elements
+ Must-Support: 63 elements
 
 **Structures**
 
@@ -119,6 +121,8 @@ This structure refers to these extensions:
 
 * [http://hl7.org/fhir/5.0/StructureDefinition/extension-Specimen.feature](StructureDefinition-mii-ex-biobank-feature-r5.md)
 * [https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/mii-ex-biobank-ebene](StructureDefinition-mii-ex-biobank-ebene.md)
+* [https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/mii-ex-biobank-infektiositaetsstatus](StructureDefinition-mii-ex-biobank-infektiositaetsstatus.md)
+* [http://hl7.eu/fhir/laboratory/StructureDefinition/specimen-focus](http://hl7.eu/fhir/laboratory/2.0.0/StructureDefinition-specimen-focus.html)
 * [https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/EinstellungBlutversorgung](StructureDefinition-mii-ex-biobank-einstellung-blutversorgung.md)
 * [http://hl7.org/fhir/StructureDefinition/iso21090-PQ-translation](http://hl7.org/fhir/extensions/5.3.0/StructureDefinition-iso21090-PQ-translation.html)
 * [http://hl7.org/fhir/StructureDefinition/quantity-precision](http://hl7.org/fhir/extensions/5.3.0/StructureDefinition-quantity-precision.html)
@@ -159,7 +163,7 @@ Weitere Repräsentationen des Profils: [CSV](../StructureDefinition-mii-pr-bioba
     }
   }],
   "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/SpecimenCore",
-  "version" : "2026.0.1",
+  "version" : "2027.0.0-ballot.rc1",
   "name" : "MII_PR_Biobank_Specimen_Bioprobe_Core",
   "_name" : {
     "extension" : [{
@@ -314,6 +318,30 @@ Weitere Repräsentationen des Profils: [CSV](../StructureDefinition-mii-pr-bioba
       "type" : [{
         "code" : "Extension",
         "profile" : ["https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/mii-ex-biobank-ebene"]
+      }],
+      "mustSupport" : true
+    },
+    {
+      "id" : "Specimen.extension:infektiositaetsstatus",
+      "path" : "Specimen.extension",
+      "sliceName" : "infektiositaetsstatus",
+      "min" : 0,
+      "max" : "1",
+      "type" : [{
+        "code" : "Extension",
+        "profile" : ["https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/mii-ex-biobank-infektiositaetsstatus"]
+      }],
+      "mustSupport" : true
+    },
+    {
+      "id" : "Specimen.extension:focus",
+      "path" : "Specimen.extension",
+      "sliceName" : "focus",
+      "min" : 0,
+      "max" : "1",
+      "type" : [{
+        "code" : "Extension",
+        "profile" : ["http://hl7.eu/fhir/laboratory/StructureDefinition/specimen-focus"]
       }],
       "mustSupport" : true
     },

@@ -1,4 +1,4 @@
-# Organoid Lungenbiopsie - MII IG Kerndatensatz-Modul Biobank v2026.0.1
+# Organoid Lungenbiopsie - MII IG Kerndatensatz-Modul Biobank v2027.0.0-ballot.rc1
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -18,7 +18,7 @@ Profile: [MII PR Biobank Specimen Zellinie Organoid](StructureDefinition-mii-pr-
 
 > **MII EX Biobank Zelllinien-Modifikation**
 * artDerModifikation: derives from cell with knockout gene
-* zielGen: www.genenames.org: TP53 (tumor protein p53)
+* zielGen: [HUGO Gene Nomenclature Committee Genes: TP53](http://terminology.hl7.org/6.3.0/CodeSystem-v3-hgnc.html#v3-hgnc-TP53) (tumor protein p53)
 * protokoll: [DocumentReference: status = current; date = 2018-06-19 09:00:00+0100; description = CRISPR Knockout-Protokoll für TP53 in Lungentumor-Organoiden](DocumentReference-ProtocolCRISPRTP53.md)
 
 **MII EX Biobank Anzahl Passagen**: 3
@@ -29,7 +29,7 @@ Profile: [MII PR Biobank Specimen Zellinie Organoid](StructureDefinition-mii-pr-
 
 **type**: Specimen (specimen)
 
-**subject**: [Patient/mii-exa-test-data-patient-1](https://simplifier.net/resolve?scope=de.basisprofil.r4@1.5.4&canonical=http://fhir.org/packages/de.basisprofil.r4/Patient/mii-exa-test-data-patient-1)
+**subject**: [Patient/mii-exa-test-data-patient-1](https://simplifier.net/resolve?scope=de.basisprofil.r4@1.6.0&canonical=http://fhir.org/packages/de.basisprofil.r4/Patient/mii-exa-test-data-patient-1)
 
 **parent**: 
 

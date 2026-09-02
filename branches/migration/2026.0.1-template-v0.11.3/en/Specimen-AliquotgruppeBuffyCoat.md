@@ -1,4 +1,4 @@
-# Buffy-Coat Aliquotgruppe - MII IG Kerndatensatz-Modul Biobank v2026.0.1
+# Buffy-Coat Aliquotgruppe - MII IG Kerndatensatz-Modul Biobank v2027.0.0-ballot.rc1
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -24,7 +24,7 @@ Profile: [MII PR Biobank Specimen Bioprobe](StructureDefinition-mii-pr-biobank-s
 
 **type**: Buffy coat (specimen)
 
-**subject**: [Patient/mii-exa-test-data-patient-1](https://simplifier.net/resolve?scope=de.basisprofil.r4@1.5.4&canonical=http://fhir.org/packages/de.basisprofil.r4/Patient/mii-exa-test-data-patient-1)
+**subject**: [Patient/mii-exa-test-data-patient-1](https://simplifier.net/resolve?scope=de.basisprofil.r4@1.6.0&canonical=http://fhir.org/packages/de.basisprofil.r4/Patient/mii-exa-test-data-patient-1)
 
 **parent**: [Specimen: extension = Primärprobe (MII CS Biobank Probenebene#PRIMÄRPROBE),->Organization Mustersammlung; identifier = https://biobank.uk-musterstadt.de/fhir/sid/proben#12345; status = available; type = Venous blood specimen (specimen); receivedTime = 2018-06-07 15:50:00+0100](Specimen-MusterprobeFluessig.md)
 

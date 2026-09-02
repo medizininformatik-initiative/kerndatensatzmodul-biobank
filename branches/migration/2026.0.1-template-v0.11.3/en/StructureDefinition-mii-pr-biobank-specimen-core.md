@@ -1,4 +1,4 @@
-# MII PR Biobank Specimen Bioprobe Core - MII IG Kerndatensatz-Modul Biobank v2026.0.1
+# MII PR Biobank Specimen Bioprobe Core - MII IG Kerndatensatz-Modul Biobank v2027.0.0-ballot.rc1
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/SpecimenCore | *Version*:2026.0.1 |
+| *Official URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/SpecimenCore | *Version*:2027.0.0-ballot.rc1 |
 | Active as of 2025-09-02 | *Computable Name*:MII_PR_Biobank_Specimen_Bioprobe_Core |
 
  
@@ -47,7 +47,7 @@ Other representations of profile: [CSV](../StructureDefinition-mii-pr-biobank-sp
     }
   }],
   "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/SpecimenCore",
-  "version" : "2026.0.1",
+  "version" : "2027.0.0-ballot.rc1",
   "name" : "MII_PR_Biobank_Specimen_Bioprobe_Core",
   "_name" : {
     "extension" : [{
@@ -202,6 +202,30 @@ Other representations of profile: [CSV](../StructureDefinition-mii-pr-biobank-sp
       "type" : [{
         "code" : "Extension",
         "profile" : ["https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/mii-ex-biobank-ebene"]
+      }],
+      "mustSupport" : true
+    },
+    {
+      "id" : "Specimen.extension:infektiositaetsstatus",
+      "path" : "Specimen.extension",
+      "sliceName" : "infektiositaetsstatus",
+      "min" : 0,
+      "max" : "1",
+      "type" : [{
+        "code" : "Extension",
+        "profile" : ["https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/mii-ex-biobank-infektiositaetsstatus"]
+      }],
+      "mustSupport" : true
+    },
+    {
+      "id" : "Specimen.extension:focus",
+      "path" : "Specimen.extension",
+      "sliceName" : "focus",
+      "min" : 0,
+      "max" : "1",
+      "type" : [{
+        "code" : "Extension",
+        "profile" : ["http://hl7.eu/fhir/laboratory/StructureDefinition/specimen-focus"]
       }],
       "mustSupport" : true
     },

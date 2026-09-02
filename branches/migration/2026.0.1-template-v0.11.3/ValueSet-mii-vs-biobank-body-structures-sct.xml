@@ -18,7 +18,7 @@
     </valueCodeableConcept>
   </extension>
   <url value="https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/mii-vs-biobank-body-structures-sct"/>
-  <version value="2026.0.1"/>
+  <version value="2027.0.0-ballot.rc1"/>
   <name value="MII_VS_Biobank_BodyStructures_SCT"/>
   <title value="MII VS Biobank BodyStructures SCT"/>
   <status value="active"/>

@@ -1,4 +1,4 @@
-# de.medizininformatikinitiative.kerndatensatz.biobank#2026.0.1: MII IG Kerndatensatz-Modul Biobank(en)
+# de.medizininformatikinitiative.kerndatensatz.biobank#2027.0.0-ballot.rc1: MII IG Kerndatensatz-Modul Biobank(en)
 
 ## Pages
 
@@ -32,6 +32,7 @@
 
 ### ValueSets
 
+* [Biosafety-Level Einstufung (ValueSet)](ValueSet-mii-vs-biobank-biosafety-level.md)
 * [MII VS Biobank BodyStructures SCT](ValueSet-mii-vs-biobank-body-structures-sct.md)
 * [MII VS Biobank Cellline Modification CLO](ValueSet-mii-vs-biobank-cellline-modification-clo.md)
 * [MII VS Biobank Cellinie Morphology SCT](ValueSet-mii-vs-biobank-cellline-morphology-sct.md)
@@ -71,6 +72,7 @@
 * [MII EX Biobank Ebene](StructureDefinition-mii-ex-biobank-ebene.md)
 * [MII EX Biobank Einstellung Blutversorgung](StructureDefinition-mii-ex-biobank-einstellung-blutversorgung.md)
 * [MII EX Biobank Feature R5](StructureDefinition-mii-ex-biobank-feature-r5.md)
+* [Infektiositätsstatus](StructureDefinition-mii-ex-biobank-infektiositaetsstatus.md)
 * [MII EX Biobank Rolle des Kontaktes](StructureDefinition-mii-ex-biobank-kontaktrolle.md)
 * [MII EX Biobank Kulturprotokoll](StructureDefinition-mii-ex-biobank-kulturprotokoll.md)
 * [MII EX Biobank Zelllinien-Modifikation](StructureDefinition-mii-ex-biobank-modifikationen.md)

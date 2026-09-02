@@ -20,7 +20,7 @@
     }
   }],
   "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/mii-vs-biobank-dna-concentration-units-ucum",
-  "version" : "2026.0.1",
+  "version" : "2027.0.0-ballot.rc1",
   "name" : "MII_VS_Biobank_DNA_Concentration_Units_UCUM",
   "title" : "MII VS Biobank DNA Concentration Units UCUM",
   "status" : "active",

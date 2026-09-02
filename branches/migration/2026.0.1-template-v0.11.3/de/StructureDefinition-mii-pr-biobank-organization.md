@@ -1,4 +1,4 @@
-# MII PR Biobank Organization Sammlung Biobank - MII IG Kerndatensatz-Modul Biobank v2026.0.1
+# MII PR Biobank Organization Sammlung Biobank - MII IG Kerndatensatz-Modul Biobank v2027.0.0-ballot.rc1
 
 * [**Inhaltsverzeichnis**](toc.md)
 * [**Artefaktübersicht**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Offizielle URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/Organization | *Version*:2026.0.1 |
+| *Offizielle URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/Organization | *Version*:2027.0.0-ballot.rc1 |
 | Active Stand: 2025-09-02 | *Maschinenlesbarer Name*:MII_PR_Biobank_Organization_Sammlung_Biobank |
 
  
@@ -62,7 +62,7 @@ Mandatory: 8 elements(2 nested mandatory elements)
 
 This structure refers to these other structures:
 
-* [Adresse, deutsches Basisprofil (http://fhir.de/StructureDefinition/address-de-basis)](https://simplifier.net/resolve?scope=de.basisprofil.r4@1.5.4&canonical=http://fhir.de/StructureDefinition/address-de-basis)
+* [Adresse, deutsches Basisprofil (http://fhir.de/StructureDefinition/address-de-basis)](https://simplifier.net/resolve?scope=de.basisprofil.r4@1.6.0&canonical=http://fhir.de/StructureDefinition/address-de-basis)
 
 **Extensions**
 
@@ -107,7 +107,7 @@ Mandatory: 8 elements(2 nested mandatory elements)
 
 This structure refers to these other structures:
 
-* [Adresse, deutsches Basisprofil (http://fhir.de/StructureDefinition/address-de-basis)](https://simplifier.net/resolve?scope=de.basisprofil.r4@1.5.4&canonical=http://fhir.de/StructureDefinition/address-de-basis)
+* [Adresse, deutsches Basisprofil (http://fhir.de/StructureDefinition/address-de-basis)](https://simplifier.net/resolve?scope=de.basisprofil.r4@1.6.0&canonical=http://fhir.de/StructureDefinition/address-de-basis)
 
 **Extensions**
 
@@ -148,7 +148,7 @@ Weitere Repräsentationen des Profils: [CSV](../StructureDefinition-mii-pr-bioba
     }
   }],
   "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/Organization",
-  "version" : "2026.0.1",
+  "version" : "2027.0.0-ballot.rc1",
   "name" : "MII_PR_Biobank_Organization_Sammlung_Biobank",
   "_name" : {
     "extension" : [{

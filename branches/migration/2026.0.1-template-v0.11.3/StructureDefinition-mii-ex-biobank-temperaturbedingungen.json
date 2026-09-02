@@ -16,7 +16,7 @@
     }
   }],
   "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/Temperaturbedingungen",
-  "version" : "2026.0.1",
+  "version" : "2027.0.0-ballot.rc1",
   "name" : "MII_EX_Biobank_Temperaturbedingungen",
   "_name" : {
     "extension" : [{
@@ -46,7 +46,7 @@
     }]
   },
   "status" : "active",
-  "date" : "2026-08-31T14:36:12+00:00",
+  "date" : "2026-09-02T09:13:27+00:00",
   "publisher" : "Medizininformatik Initiative",
   "contact" : [{
     "name" : "Medizininformatik Initiative",

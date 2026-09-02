@@ -1,4 +1,4 @@
-# MII EX Biobank Kulturprotokoll - MII IG Kerndatensatz-Modul Biobank v2026.0.1
+# MII EX Biobank Kulturprotokoll - MII IG Kerndatensatz-Modul Biobank v2027.0.0-ballot.rc1
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/mii-ex-biobank-kulturprotokoll | *Version*:2026.0.1 |
-| Active as of 2026-08-31 | *Computable Name*:MII_EX_Biobank_Kulturprotokoll |
+| *Official URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/mii-ex-biobank-kulturprotokoll | *Version*:2027.0.0-ballot.rc1 |
+| Active as of 2026-09-02 | *Computable Name*:MII_EX_Biobank_Kulturprotokoll |
 
 Protocol of the culture of the cell line or organoid.
 
@@ -51,7 +51,7 @@ Other representations of profile: [CSV](../StructureDefinition-mii-ex-biobank-ku
     }
   }],
   "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/mii-ex-biobank-kulturprotokoll",
-  "version" : "2026.0.1",
+  "version" : "2027.0.0-ballot.rc1",
   "name" : "MII_EX_Biobank_Kulturprotokoll",
   "_name" : {
     "extension" : [{
@@ -81,7 +81,7 @@ Other representations of profile: [CSV](../StructureDefinition-mii-ex-biobank-ku
     }]
   },
   "status" : "active",
-  "date" : "2026-08-31T14:36:12+00:00",
+  "date" : "2026-09-02T09:13:27+00:00",
   "publisher" : "Medizininformatik Initiative",
   "contact" : [{
     "name" : "Medizininformatik Initiative",

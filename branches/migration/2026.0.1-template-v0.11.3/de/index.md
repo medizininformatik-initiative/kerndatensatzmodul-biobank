@@ -1,4 +1,4 @@
-# Startseite - MII IG Kerndatensatz-Modul Biobank v2026.0.1
+# Startseite - MII IG Kerndatensatz-Modul Biobank v2027.0.0-ballot.rc1
 
 * [**Inhaltsverzeichnis**](toc.md)
 * **Startseite**
@@ -7,7 +7,7 @@
 
 | | |
 | :--- | :--- |
-| *Offizielle URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ImplementationGuide/mii-ig-biobank-de-v2026 | *Version*:2026.0.1 |
+| *Offizielle URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ImplementationGuide/mii-ig-biobank-de-v2026 | *Version*:2027.0.0-ballot.rc1 |
 | Active Stand: 2026-02-11 | *Maschinenlesbarer Name*:MII_IG_Biobank_DE |
 
 Die vorliegende Spezifikation beschreibt die FHIR-Repräsentation des Kerndatensatz-Moduls **Bioprobendaten** der Medizininformatik-Initiative (MII). Im Folgenden werden die Use Cases des Moduls sowie die dazugehörigen FHIR-Profile und Terminologie-Ressourcen in ihrer verbindlichen Form beschrieben.

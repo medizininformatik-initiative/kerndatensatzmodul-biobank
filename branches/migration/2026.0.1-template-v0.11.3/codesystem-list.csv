@@ -1,3 +1,3 @@
 URL,Version,Status,OIDs,Name,Title,Description,Used
-https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/CodeSystem/ContactType,2026.0.1,active,,MII_CS_Biobank_Contact_Type,MII CS Biobank Contact Type,"Contact Type für Organization.contact",
-https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/CodeSystem/mii-cs-biobank-probenebene,2026.0.1,active,,MII_CS_Biobank_Probenebene,MII CS Biobank Probenebene,"Codes um die Probenebene anzugeben","ValueSet/mii-vs-biobank-probenebene"
+https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/CodeSystem/ContactType,2027.0.0-ballot.rc1,active,,MII_CS_Biobank_Contact_Type,MII CS Biobank Contact Type,"Contact Type für Organization.contact",
+https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/CodeSystem/mii-cs-biobank-probenebene,2027.0.0-ballot.rc1,active,,MII_CS_Biobank_Probenebene,MII CS Biobank Probenebene,"Codes um die Probenebene anzugeben","ValueSet/mii-vs-biobank-probenebene"

@@ -1,4 +1,4 @@
-# Metadaten-Übersicht - MII IG Kerndatensatz-Modul Biobank v2026.0.1
+# Metadaten-Übersicht - MII IG Kerndatensatz-Modul Biobank v2027.0.0-ballot.rc1
 
 * [**Inhaltsverzeichnis**](toc.md)
 * **Metadaten-Übersicht**

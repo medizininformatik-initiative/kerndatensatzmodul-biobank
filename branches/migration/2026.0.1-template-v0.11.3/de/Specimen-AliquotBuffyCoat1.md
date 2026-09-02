@@ -1,4 +1,4 @@
-# Buffy-Coat Einzelaliquot 50 µl - MII IG Kerndatensatz-Modul Biobank v2026.0.1
+# Buffy-Coat Einzelaliquot 50 µl - MII IG Kerndatensatz-Modul Biobank v2027.0.0-ballot.rc1
 
 * [**Inhaltsverzeichnis**](toc.md)
 * [**Artefaktübersicht**](artifacts.md)
@@ -22,7 +22,7 @@ Profile: [MII PR Biobank Specimen Bioprobe](StructureDefinition-mii-pr-biobank-s
 
 **type**: Buffy coat (specimen)
 
-**subject**: [Patient/mii-exa-test-data-patient-1](https://simplifier.net/resolve?scope=de.basisprofil.r4@1.5.4&canonical=http://fhir.org/packages/de.basisprofil.r4/Patient/mii-exa-test-data-patient-1)
+**subject**: [Patient/mii-exa-test-data-patient-1](https://simplifier.net/resolve?scope=de.basisprofil.r4@1.6.0&canonical=http://fhir.org/packages/de.basisprofil.r4/Patient/mii-exa-test-data-patient-1)
 
 **parent**: [Specimen: extension = Aliquotgruppe (MII CS Biobank Probenebene#ALIQUOTGRUPPE),1; identifier = https://biobank.uk-musterstadt.de/fhir/sid/proben#12345-BC; status = available; type = Buffy coat (specimen); note = Buffy-Coat Aliquots für Genomik-Analysen](Specimen-AliquotgruppeBuffyCoat.md)
 

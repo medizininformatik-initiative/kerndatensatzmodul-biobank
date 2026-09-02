@@ -40,7 +40,7 @@
     },
     {
       "url" : "version",
-      "valueString" : "2026.0.1"
+      "valueString" : "2027.0.0-ballot.rc1"
     },
     {
       "url" : "uri",
@@ -140,7 +140,7 @@
     }
   }],
   "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ImplementationGuide/mii-ig-biobank-de-v2026",
-  "version" : "2026.0.1",
+  "version" : "2027.0.0-ballot.rc1",
   "name" : "MII_IG_Biobank_DE",
   "title" : "MII IG Kerndatensatz-Modul Biobank",
   "status" : "active",
@@ -169,19 +169,25 @@
     "id" : "de_basisprofil_r4",
     "uri" : "http://fhir.org/packages/de.basisprofil.r4/ImplementationGuide/de.basisprofil.r4",
     "packageId" : "de.basisprofil.r4",
-    "version" : "1.5.4"
+    "version" : "1.6.0"
   },
   {
     "id" : "de_medizininformatikinitiative_kerndatensatz_meta",
     "uri" : "https://www.medizininformatik-initiative.de/fhir/modul-meta/ImplementationGuide/mii-ig-meta",
     "packageId" : "de.medizininformatikinitiative.kerndatensatz.meta",
-    "version" : "2026.0.0"
+    "version" : "2027.0.0-ballot.rc3"
   },
   {
     "id" : "eu_miabis_r4",
     "uri" : "http://fhir.org/packages/eu.miabis.r4/ImplementationGuide/eu.miabis.r4",
     "packageId" : "eu.miabis.r4",
     "version" : "0.2.0"
+  },
+  {
+    "id" : "hl7_fhir_eu_laboratory",
+    "uri" : "http://hl7.eu/fhir/laboratory/ImplementationGuide/hl7.fhir.eu.laboratory",
+    "packageId" : "hl7.fhir.eu.laboratory",
+    "version" : "2.0.0"
   },
   {
     "id" : "hl7_fhir_uv_crmi",
@@ -193,7 +199,7 @@
     "id" : "hl7_terminology_r4",
     "uri" : "http://terminology.hl7.org/ImplementationGuide/hl7.terminology",
     "packageId" : "hl7.terminology.r4",
-    "version" : "7.3.0"
+    "version" : "7.1.0"
   },
   {
     "id" : "hl7_fhir_uv_extensions_r4",
@@ -220,7 +226,7 @@
       },
       {
         "url" : "value",
-        "valueString" : "Release"
+        "valueString" : "ballot"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -725,7 +731,7 @@
       },
       {
         "url" : "value",
-        "valueString" : "Release"
+        "valueString" : "ballot"
       }],
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-parameter"
     },
@@ -1216,6 +1222,18 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "ValueSet"
+      }],
+      "reference" : {
+        "reference" : "ValueSet/mii-vs-biobank-biosafety-level"
+      },
+      "name" : "Biosafety-Level Einstufung (ValueSet)",
+      "description" : "ValueSet zur Auswahl der Biosafety-Level-Einstufung einer Probe (SNOMED CT), inklusive eines Codes für 'keine Infektionsgefahr bekannt'.",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "Specimen"
       }],
       "reference" : {
@@ -1290,6 +1308,18 @@
       },
       "name" : "Heparin",
       "exampleCanonical" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/Substance"
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "StructureDefinition:extension"
+      }],
+      "reference" : {
+        "reference" : "StructureDefinition/mii-ex-biobank-infektiositaetsstatus"
+      },
+      "name" : "Infektiositätsstatus",
+      "description" : "Extension zur Angabe des Infektiositätsstatus einer Probe anhand der Biosafety-Level-Einstufung (BSL-1 bis BSL-4, SNOMED CT) bzw. der Angabe, dass keine Infektionsgefahr bekannt ist.",
+      "exampleBoolean" : false
     },
     {
       "extension" : [{

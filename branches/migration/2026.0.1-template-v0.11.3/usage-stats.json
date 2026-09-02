@@ -1,6 +1,6 @@
 {
   "package": "de.medizininformatikinitiative.kerndatensatz.biobank",
-  "version": "2026.0.1",
+  "version": "2027.0.0-ballot.rc1",
   "fhirVersion": "4.0.1",
   "jurisdiction": "DE",
   "extensions": [
@@ -120,6 +120,13 @@
       "title": "MII EX Biobank Ebene",
       "types": [
         "Coding"
+      ]
+    },
+    {
+      "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/mii-ex-biobank-infektiositaetsstatus",
+      "title": "Infektiositätsstatus",
+      "types": [
+        "CodeableConcept"
       ]
     },
     {
@@ -243,6 +250,9 @@
     ]
   },
   "usage": {
+    "http://hl7.eu/fhir/laboratory/StructureDefinition/specimen-focus": [
+      "Specimen"
+    ],
     "http://hl7.org/fhir/5.0/StructureDefinition/extension-Specimen.feature": [
       "Specimen"
     ],
@@ -337,7 +347,10 @@
       "StructureDefinition.name",
       "StructureDefinition.snapshot.element.definition",
       "StructureDefinition.snapshot.element.short",
-      "StructureDefinition.title"
+      "StructureDefinition.title",
+      "ValueSet.description",
+      "ValueSet.name",
+      "ValueSet.title"
     ],
     "http://hl7.org/fhir/tools/StructureDefinition/expansion-parameters": [
       "ImplementationGuide.definition"
@@ -393,6 +406,9 @@
       "Specimen"
     ],
     "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/mii-ex-biobank-ebene": [
+      "Specimen"
+    ],
+    "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/mii-ex-biobank-infektiositaetsstatus": [
       "Specimen"
     ],
     "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/mii-ex-biobank-kulturprotokoll": [

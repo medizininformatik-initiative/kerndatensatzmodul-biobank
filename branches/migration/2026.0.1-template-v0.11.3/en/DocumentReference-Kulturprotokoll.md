@@ -1,4 +1,4 @@
-# Lungen-Organoid Kulturprotokoll - MII IG Kerndatensatz-Modul Biobank v2026.0.1
+# Lungen-Organoid Kulturprotokoll - MII IG Kerndatensatz-Modul Biobank v2027.0.0-ballot.rc1
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -25,7 +25,7 @@
 | | | | |
 | :--- | :--- | :--- | :--- |
 | - | **ContentType** | **Url** | **Title** |
-| * | application/pdf | [https://biobank.uk-musterstadt.de/protocols/LungOrganoidCulture_v1.pdf](https://simplifier.net/resolve?scope=de.basisprofil.r4@1.5.4&canonical=https://biobank.uk-musterstadt.de/protocols/LungOrganoidCulture_v1.pdf) | Lungen-Organoid Kulturprotokoll v1 |
+| * | application/pdf | [https://biobank.uk-musterstadt.de/protocols/LungOrganoidCulture_v1.pdf](https://simplifier.net/resolve?scope=de.basisprofil.r4@1.6.0&canonical=https://biobank.uk-musterstadt.de/protocols/LungOrganoidCulture_v1.pdf) | Lungen-Organoid Kulturprotokoll v1 |
 
 
 

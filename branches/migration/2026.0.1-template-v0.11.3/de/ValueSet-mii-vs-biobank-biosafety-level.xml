@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<ValueSet xmlns="http://hl7.org/fhir">
+  <id value="mii-vs-biobank-biosafety-level"/>
+  <language value="de"/>
+  <text>
+    <status value="generated"/><div xml:lang="de" lang="de"><hr/><p><b>German</b></p><hr/><p class="res-header-id"><b>Generated Narrative: ValueSet mii-vs-biobank-biosafety-level</b></p><a name="de-mii-vs-biobank-biosafety-level"> </a><a name="de-hcmii-vs-biobank-biosafety-level"> </a><ul><li>Include these codes as defined in <a href="http://www.snomed.org/"><code>http://snomed.info/sct</code></a><span title="Version is not explicitly stated. No matching Code System found"> version Not Stated (use latest from terminology server)</span><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td><a href="http://snomed.info/id/409600007">409600007</a></td><td>Biosafety level 1 (qualifier value)</td></tr><tr><td><a href="http://snomed.info/id/409603009">409603009</a></td><td>Biosafety level 2 (qualifier value)</td></tr><tr><td><a href="http://snomed.info/id/409604003">409604003</a></td><td>Biosafety level 3 (qualifier value)</td></tr><tr><td><a href="http://snomed.info/id/409605002">409605002</a></td><td>Biosafety level 4 (qualifier value)</td></tr><tr><td><a href="http://snomed.info/id/261665006">261665006</a></td><td>Unknown (qualifier value)</td></tr></table></li></ul></div>
+  </text>
+  <extension url="https://www.medizininformatik-initiative.de/fhir/modul-meta/StructureDefinition/mii-ex-meta-license-codeable">
+    <valueCodeableConcept>
+      <coding>
+        <system value="http://hl7.org/fhir/spdx-license"/>
+        <code value="CC-BY-4.0"/>
+        <display value="Creative Commons Attribution 4.0 International"/>
+      </coding>
+    </valueCodeableConcept>
+  </extension>
+  <url value="https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/mii-vs-biobank-biosafety-level"/>
+  <version value="2027.0.0-ballot.rc1"/>
+  <name value="MII_VS_Biobank_Biosafety_Level"/>
+  <title value="Biosafety-Level Einstufung (ValueSet)"/>
+  <status value="active"/>
+  <date value="2026-09-02T09:13:27+00:00"/>
+  <publisher value="Medizininformatik Initiative"/>
+  <contact>
+    <name value="Medizininformatik Initiative"/>
+    <telecom>
+      <system value="url"/>
+      <value value="https://www.medizininformatik-initiative.de/"/>
+    </telecom>
+  </contact>
+  <description value="ValueSet zur Auswahl der Biosafety-Level-Einstufung einer Probe (SNOMED CT), inklusive eines Codes für 'keine Infektionsgefahr bekannt'."/>
+  <jurisdiction>
+    <coding>
+      <system value="urn:iso:std:iso:3166"/>
+      <code value="DE"/>
+      <display value="Germany"/>
+    </coding>
+  </jurisdiction>
+  <compose>
+    <include>
+      <system value="http://snomed.info/sct"/>
+      <concept>
+        <code value="409600007"/>
+        <display value="Biosafety level 1 (qualifier value)"/>
+      </concept>
+      <concept>
+        <code value="409603009"/>
+        <display value="Biosafety level 2 (qualifier value)"/>
+      </concept>
+      <concept>
+        <code value="409604003"/>
+        <display value="Biosafety level 3 (qualifier value)"/>
+      </concept>
+      <concept>
+        <code value="409605002"/>
+        <display value="Biosafety level 4 (qualifier value)"/>
+      </concept>
+      <concept>
+        <code value="261665006"/>
+        <display value="Unknown (qualifier value)"/>
+      </concept>
+    </include>
+  </compose>
+</ValueSet>

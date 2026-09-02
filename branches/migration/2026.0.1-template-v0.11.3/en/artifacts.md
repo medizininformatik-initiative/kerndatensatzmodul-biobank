@@ -1,4 +1,4 @@
-# Artifacts Summary - MII IG Kerndatensatz-Modul Biobank v2026.0.1
+# Artifacts Summary - MII IG Kerndatensatz-Modul Biobank v2027.0.0-ballot.rc1
 
 * [**Table of Contents**](toc.md)
 * **Artifacts Summary**
@@ -47,6 +47,7 @@ These define constraints on FHIR data types for systems conforming to this imple
 
 | | |
 | :--- | :--- |
+| [ Infektiositätsstatus  ](StructureDefinition-mii-ex-biobank-infektiositaetsstatus.md) | Extension zur Angabe des Infektiositätsstatus einer Probe anhand der Biosafety-Level-Einstufung (BSL-1 bis BSL-4, SNOMED CT) bzw. der Angabe, dass keine Infektionsgefahr bekannt ist. |
 | [ MII EX Biobank Anzahl Aliquots  ](StructureDefinition-mii-ex-biobank-anzahl-aliquots.md) | Die Extension ermöglicht es, die Anzahl der vorhandenen Aliquots zu einer Aliquot-Gruppe anzugeben. |
 | [ MII EX Biobank Anzahl Passagen  ](StructureDefinition-mii-ex-biobank-anzahl-passagen.md) | Zahl der Passagen, die die Zellinie oder das Organiod durchlaufen hat. |
 | [ MII EX Biobank Diagnose  ](StructureDefinition-mii-ex-biobank-diagnose.md) | Mittels dieser Extension kann ausgedrückt werden, dass Material mit der referenzierten Diagnose in der Probe enthalten ist. |
@@ -65,6 +66,7 @@ These define sets of codes used by systems conforming to this implementation gui
 
 | | |
 | :--- | :--- |
+| [ Biosafety-Level Einstufung (ValueSet)  ](ValueSet-mii-vs-biobank-biosafety-level.md) | ValueSet zur Auswahl der Biosafety-Level-Einstufung einer Probe (SNOMED CT), inklusive eines Codes für 'keine Infektionsgefahr bekannt'. |
 | [ MII VS Biobank BodyStructures SCT  ](ValueSet-mii-vs-biobank-body-structures-sct.md) | Value Set for Specimen Collection Body Structures (SNOMED CT) |
 | [ MII VS Biobank Cellinie Morphology SCT  ](ValueSet-mii-vs-biobank-cellline-morphology-sct.md) | Value Set for Morphological Characteristics of Cell Lines |
 | [ MII VS Biobank Cellline Modification CLO  ](ValueSet-mii-vs-biobank-cellline-modification-clo.md) | Value Set for Types of Cell Line Modifications (CLO) |

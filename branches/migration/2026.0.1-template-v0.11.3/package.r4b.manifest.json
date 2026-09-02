@@ -1,6 +1,6 @@
 {
-  "version" : "2026.0.1",
-  "date" : "20260831143612",
+  "version" : "2027.0.0-ballot.rc1",
+  "date" : "20260902091327",
   "notForPublication" : true,
   "name" : "de.medizininformatikinitiative.kerndatensatz.biobank.r4b"
 }

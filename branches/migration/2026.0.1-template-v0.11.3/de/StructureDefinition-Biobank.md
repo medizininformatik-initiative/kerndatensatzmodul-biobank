@@ -1,4 +1,4 @@
-# MII_LM_Biobank - MII IG Kerndatensatz-Modul Biobank v2026.0.1
+# MII_LM_Biobank - MII IG Kerndatensatz-Modul Biobank v2027.0.0-ballot.rc1
 
 * [**Inhaltsverzeichnis**](toc.md)
 * [**Artefaktübersicht**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Offizielle URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/LogicalModel/Biobank | *Version*:2026.0.1 |
-| Active Stand: 2026-08-31 | *Maschinenlesbarer Name*:MII_LM_Biobank |
+| *Offizielle URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/LogicalModel/Biobank | *Version*:2027.0.0-ballot.rc1 |
+| Active Stand: 2026-09-02 | *Maschinenlesbarer Name*:MII_LM_Biobank |
 
  
 Logische Repräsentation des Erweiterungsmoduls Biobank 
@@ -69,10 +69,10 @@ Weitere Repräsentationen des Profils: [CSV](../StructureDefinition-Biobank.csv)
   "resourceType" : "StructureDefinition",
   "id" : "Biobank",
   "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/LogicalModel/Biobank",
-  "version" : "2026.0.1",
+  "version" : "2027.0.0-ballot.rc1",
   "name" : "MII_LM_Biobank",
   "status" : "active",
-  "date" : "2026-08-31T14:36:12+00:00",
+  "date" : "2026-09-02T09:13:27+00:00",
   "publisher" : "Medizininformatik Initiative",
   "contact" : [{
     "name" : "Medizininformatik Initiative",

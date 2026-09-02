@@ -1,7 +1,19 @@
 {
   "codeSystems" : [{
+    "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/mii-vs-biobank-biosafety-level",
+    "version" : "2027.0.0-ballot.rc1",
+    "status" : "active",
+    "name" : "MII_VS_Biobank_Biosafety_Level",
+    "title" : "Biosafety-Level Einstufung (ValueSet)",
+    "description" : "ValueSet zur Auswahl der Biosafety-Level-Einstufung einer Probe (SNOMED CT), inklusive eines Codes für 'keine Infektionsgefahr bekannt'.",
+    "systems" : ["http://snomed.info/sct"],
+    "uses" : {
+    },
+    "StructureDefinition-mii-ex-biobank-infektiositaetsstatus.html" : "Infektiositätsstatus"
+  },
+  {
     "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/mii-vs-biobank-body-structures-sct",
-    "version" : "2026.0.1",
+    "version" : "2027.0.0-ballot.rc1",
     "status" : "active",
     "name" : "MII_VS_Biobank_BodyStructures_SCT",
     "title" : "MII VS Biobank BodyStructures SCT",
@@ -15,7 +27,7 @@
   },
   {
     "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/mii-vs-biobank-cellline-modification-clo",
-    "version" : "2026.0.1",
+    "version" : "2027.0.0-ballot.rc1",
     "status" : "active",
     "name" : "MII_VS_Biobank_Cellline_Modification_CLO",
     "title" : "MII VS Biobank Cellline Modification CLO",
@@ -27,7 +39,7 @@
   },
   {
     "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/mii-vs-biobank-cellline-morphology-sct",
-    "version" : "2026.0.1",
+    "version" : "2027.0.0-ballot.rc1",
     "status" : "active",
     "name" : "MII_VS_Biobank_Cellline_Morphology_SCT",
     "title" : "MII VS Biobank Cellinie Morphology SCT",
@@ -39,7 +51,7 @@
   },
   {
     "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/mii-vs-biobank-cellline-proliferation",
-    "version" : "2026.0.1",
+    "version" : "2027.0.0-ballot.rc1",
     "status" : "active",
     "name" : "MII_VS_Biobank_CellLine_Proliferation",
     "title" : "MII VS Biobank Proliferation Zellinie",
@@ -52,7 +64,7 @@
   },
   {
     "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/mii-vs-biobank-containertyp-sct",
-    "version" : "2026.0.1",
+    "version" : "2027.0.0-ballot.rc1",
     "status" : "active",
     "name" : "MII_VS_Biobank_Containertyp_SCT",
     "title" : "MII VS Biobank Containertyp SCT",
@@ -66,7 +78,7 @@
   },
   {
     "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/mii-vs-biobank-dna-concentration-units-ucum",
-    "version" : "2026.0.1",
+    "version" : "2027.0.0-ballot.rc1",
     "status" : "active",
     "name" : "MII_VS_Biobank_DNA_Concentration_Units_UCUM",
     "title" : "MII VS Biobank DNA Concentration Units UCUM",
@@ -78,7 +90,7 @@
   },
   {
     "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/mii-vs-biobank-karyotyp-sct",
-    "version" : "2026.0.1",
+    "version" : "2027.0.0-ballot.rc1",
     "status" : "active",
     "name" : "MII_VS_Biobank_Karyotyp_SCT",
     "title" : "MII VS Biobank Karyotyp SCT",
@@ -90,7 +102,7 @@
   },
   {
     "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/mii-vs-biobank-laboratory-procedure-sct",
-    "version" : "2026.0.1",
+    "version" : "2027.0.0-ballot.rc1",
     "status" : "active",
     "name" : "MII_VS_Biobank_Laboratory_Procedure_SCT",
     "title" : "MII VS Biobank Laboratory Procedure SCT",
@@ -104,7 +116,7 @@
   },
   {
     "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/mii-vs-biobank-probenart-sct",
-    "version" : "2026.0.1",
+    "version" : "2027.0.0-ballot.rc1",
     "status" : "active",
     "name" : "MII_VS_Biobank_Probenart_SCT",
     "title" : "MII VS Biobank Probenart SCT",
@@ -118,7 +130,7 @@
   },
   {
     "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/mii-vs-biobank-probenebene",
-    "version" : "2026.0.1",
+    "version" : "2027.0.0-ballot.rc1",
     "status" : "active",
     "name" : "MII_VS_Biobank_Probenebene",
     "title" : "MII VS Biobank Probenebene",
@@ -130,7 +142,7 @@
   },
   {
     "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/mii-vs-biobank-substance-additive-sct",
-    "version" : "2026.0.1",
+    "version" : "2027.0.0-ballot.rc1",
     "status" : "active",
     "name" : "MII_VS_Biobank_Substance_Additive_SCT",
     "title" : "MII VS Biobank Substance Additive",
@@ -142,7 +154,7 @@
   },
   {
     "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/mii-vs-biobank-wachstumstyp-clo",
-    "version" : "2026.0.1",
+    "version" : "2027.0.0-ballot.rc1",
     "status" : "active",
     "name" : "MII_VS_Biobank_Wachstumpstyp_CLO",
     "title" : "MII VS Biobank Wachstumpstyp CLO",

@@ -1,4 +1,4 @@
-# MII VS Biobank Wachstumpstyp CLO - MII IG Kerndatensatz-Modul Biobank v2026.0.1
+# MII VS Biobank Wachstumpstyp CLO - MII IG Kerndatensatz-Modul Biobank v2027.0.0-ballot.rc1
 
 * [**Inhaltsverzeichnis**](toc.md)
 * [**Artefaktübersicht**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Offizielle URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/mii-vs-biobank-wachstumstyp-clo | *Version*:2026.0.1 |
+| *Offizielle URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/mii-vs-biobank-wachstumstyp-clo | *Version*:2027.0.0-ballot.rc1 |
 | Active Stand: 2025-09-02 | *Maschinenlesbarer Name*:MII_VS_Biobank_Wachstumpstyp_CLO |
 | **Copyright/Rechtliches**: This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement | |
 
@@ -53,7 +53,7 @@ No Expansion for this valueset (Unknown Code System)
     }
   }],
   "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/mii-vs-biobank-wachstumstyp-clo",
-  "version" : "2026.0.1",
+  "version" : "2027.0.0-ballot.rc1",
   "name" : "MII_VS_Biobank_Wachstumpstyp_CLO",
   "title" : "MII VS Biobank Wachstumpstyp CLO",
   "status" : "active",

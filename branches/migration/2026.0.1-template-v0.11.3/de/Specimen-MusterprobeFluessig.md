@@ -1,4 +1,4 @@
-# Musterprobe flüssig - MII IG Kerndatensatz-Modul Biobank v2026.0.1
+# Musterprobe flüssig - MII IG Kerndatensatz-Modul Biobank v2027.0.0-ballot.rc1
 
 * [**Inhaltsverzeichnis**](toc.md)
 * [**Artefaktübersicht**](artifacts.md)
@@ -24,7 +24,7 @@ Profile: [MII PR Biobank Specimen Bioprobe](StructureDefinition-mii-pr-biobank-s
 
 **type**: Venous blood specimen (specimen)
 
-**subject**: [Patient/mii-exa-test-data-patient-1](https://simplifier.net/resolve?scope=de.basisprofil.r4@1.5.4&canonical=http://fhir.org/packages/de.basisprofil.r4/Patient/mii-exa-test-data-patient-1)
+**subject**: [Patient/mii-exa-test-data-patient-1](https://simplifier.net/resolve?scope=de.basisprofil.r4@1.6.0&canonical=http://fhir.org/packages/de.basisprofil.r4/Patient/mii-exa-test-data-patient-1)
 
 **receivedTime**: 2018-06-07 15:50:00+0100
 

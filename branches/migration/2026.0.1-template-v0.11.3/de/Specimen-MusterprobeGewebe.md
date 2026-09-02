@@ -1,4 +1,4 @@
-# Musterprobe Gewebe - MII IG Kerndatensatz-Modul Biobank v2026.0.1
+# Musterprobe Gewebe - MII IG Kerndatensatz-Modul Biobank v2027.0.0-ballot.rc1
 
 * [**Inhaltsverzeichnis**](toc.md)
 * [**Artefaktübersicht**](artifacts.md)
@@ -16,7 +16,7 @@ Profile: [MII PR Biobank Specimen Bioprobe](StructureDefinition-mii-pr-biobank-s
 
 **MII EX Biobank Verwaltende Organisation**: [Organization Mustersammlung](Organization-Mustersammlung.md)
 
-**MII EX Biobank Diagnose**: [Diagnose/mii-exa-test-data-patient-1-diagnose-1](https://simplifier.net/resolve?scope=de.basisprofil.r4@1.5.4&canonical=http://fhir.org/packages/de.basisprofil.r4/Diagnose/mii-exa-test-data-patient-1-diagnose-1)
+**MII EX Biobank Diagnose**: [Diagnose/mii-exa-test-data-patient-1-diagnose-1](https://simplifier.net/resolve?scope=de.basisprofil.r4@1.6.0&canonical=http://fhir.org/packages/de.basisprofil.r4/Diagnose/mii-exa-test-data-patient-1-diagnose-1)
 
 **MII EX Biobank Ebene**: [MII CS Biobank Probenebene: ALIQUOTGRUPPE](CodeSystem-mii-cs-biobank-probenebene.md#mii-cs-biobank-probenebene-ALIQUOTGRUPPE) (Aliquotgruppe)
 
@@ -26,7 +26,7 @@ Profile: [MII PR Biobank Specimen Bioprobe](StructureDefinition-mii-pr-biobank-s
 
 **type**: Specimen from lung obtained by needle biopsy (specimen)
 
-**subject**: [Patient/mii-exa-test-data-patient-1](https://simplifier.net/resolve?scope=de.basisprofil.r4@1.5.4&canonical=http://fhir.org/packages/de.basisprofil.r4/Patient/mii-exa-test-data-patient-1)
+**subject**: [Patient/mii-exa-test-data-patient-1](https://simplifier.net/resolve?scope=de.basisprofil.r4@1.6.0&canonical=http://fhir.org/packages/de.basisprofil.r4/Patient/mii-exa-test-data-patient-1)
 
 **receivedTime**: 2018-06-08 15:43:00+0100
 

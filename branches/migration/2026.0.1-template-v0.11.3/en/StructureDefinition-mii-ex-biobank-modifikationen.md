@@ -1,4 +1,4 @@
-# MII EX Biobank Zelllinien-Modifikation - MII IG Kerndatensatz-Modul Biobank v2026.0.1
+# MII EX Biobank Zelllinien-Modifikation - MII IG Kerndatensatz-Modul Biobank v2027.0.0-ballot.rc1
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/mii-ex-biobank-modifikationen | *Version*:2026.0.1 |
-| Active as of 2026-08-31 | *Computable Name*:MII_EX_Biobank_Modifikationen |
+| *Official URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/mii-ex-biobank-modifikationen | *Version*:2027.0.0-ballot.rc1 |
+| Active as of 2026-09-02 | *Computable Name*:MII_EX_Biobank_Modifikationen |
 
 Extension for describing modifications to cell lines, including type of modification, target gene, and reference to the protocol.
 
@@ -51,7 +51,7 @@ Other representations of profile: [CSV](../StructureDefinition-mii-ex-biobank-mo
     }
   }],
   "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/mii-ex-biobank-modifikationen",
-  "version" : "2026.0.1",
+  "version" : "2027.0.0-ballot.rc1",
   "name" : "MII_EX_Biobank_Modifikationen",
   "_name" : {
     "extension" : [{
@@ -81,7 +81,7 @@ Other representations of profile: [CSV](../StructureDefinition-mii-ex-biobank-mo
     }]
   },
   "status" : "active",
-  "date" : "2026-08-31T14:36:12+00:00",
+  "date" : "2026-09-02T09:13:27+00:00",
   "publisher" : "Medizininformatik Initiative",
   "contact" : [{
     "name" : "Medizininformatik Initiative",

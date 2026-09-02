@@ -35,7 +35,7 @@
       <valueId value="de.medizininformatikinitiative.kerndatensatz.biobank"/>
     </extension>
     <extension url="version">
-      <valueString value="2026.0.1"/>
+      <valueString value="2027.0.0-ballot.rc1"/>
     </extension>
     <extension url="uri">
       <valueUri value="https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank"/>
@@ -121,7 +121,7 @@
     </valueCodeableConcept>
   </extension>
   <url value="https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ImplementationGuide/mii-ig-biobank-de-v2026"/>
-  <version value="2026.0.1"/>
+  <version value="2027.0.0-ballot.rc1"/>
   <name value="MII_IG_Biobank_DE"/>
   <title value="MII IG Kerndatensatz-Modul Biobank"/>
   <status value="active"/>
@@ -149,17 +149,22 @@
   <dependsOn id="de_basisprofil_r4">
     <uri value="http://fhir.org/packages/de.basisprofil.r4/ImplementationGuide/de.basisprofil.r4"/>
     <packageId value="de.basisprofil.r4"/>
-    <version value="1.5.4"/>
+    <version value="1.6.0"/>
   </dependsOn>
   <dependsOn id="de_medizininformatikinitiative_kerndatensatz_meta">
     <uri value="https://www.medizininformatik-initiative.de/fhir/modul-meta/ImplementationGuide/mii-ig-meta"/>
     <packageId value="de.medizininformatikinitiative.kerndatensatz.meta"/>
-    <version value="2026.0.0"/>
+    <version value="2027.0.0-ballot.rc3"/>
   </dependsOn>
   <dependsOn id="eu_miabis_r4">
     <uri value="http://fhir.org/packages/eu.miabis.r4/ImplementationGuide/eu.miabis.r4"/>
     <packageId value="eu.miabis.r4"/>
     <version value="0.2.0"/>
+  </dependsOn>
+  <dependsOn id="hl7_fhir_eu_laboratory">
+    <uri value="http://hl7.eu/fhir/laboratory/ImplementationGuide/hl7.fhir.eu.laboratory"/>
+    <packageId value="hl7.fhir.eu.laboratory"/>
+    <version value="2.0.0"/>
   </dependsOn>
   <dependsOn id="hl7_fhir_uv_crmi">
     <uri value="http://hl7.org/fhir/uv/crmi/ImplementationGuide/hl7.fhir.uv.crmi"/>
@@ -169,7 +174,7 @@
   <dependsOn id="hl7_terminology_r4">
     <uri value="http://terminology.hl7.org/ImplementationGuide/hl7.terminology"/>
     <packageId value="hl7.terminology.r4"/>
-    <version value="7.3.0"/>
+    <version value="7.1.0"/>
   </dependsOn>
   <dependsOn id="hl7_fhir_uv_extensions_r4">
     <uri value="http://hl7.org/fhir/extensions/ImplementationGuide/hl7.fhir.uv.extensions"/>
@@ -190,7 +195,7 @@
         <valueString value="releaselabel"/>
       </extension>
       <extension url="value">
-        <valueString value="Release"/>
+        <valueString value="ballot"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -558,7 +563,7 @@
         <valueCode value="releaselabel"/>
       </extension>
       <extension url="value">
-        <valueString value="Release"/>
+        <valueString value="ballot"/>
       </extension>
     </extension>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-parameter">
@@ -917,6 +922,17 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="ValueSet"/>
+      </extension>
+      <reference>
+        <reference value="ValueSet/mii-vs-biobank-biosafety-level"/>
+      </reference>
+      <name value="Biosafety-Level Einstufung (ValueSet)"/>
+      <description value="ValueSet zur Auswahl der Biosafety-Level-Einstufung einer Probe (SNOMED CT), inklusive eines Codes für 'keine Infektionsgefahr bekannt'."/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="Specimen"/>
       </extension>
       <reference>
@@ -985,6 +1001,17 @@
       </reference>
       <name value="Heparin"/>
       <exampleCanonical value="https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/Substance"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="StructureDefinition:extension"/>
+      </extension>
+      <reference>
+        <reference value="StructureDefinition/mii-ex-biobank-infektiositaetsstatus"/>
+      </reference>
+      <name value="Infektiositätsstatus"/>
+      <description value="Extension zur Angabe des Infektiositätsstatus einer Probe anhand der Biosafety-Level-Einstufung (BSL-1 bis BSL-4, SNOMED CT) bzw. der Angabe, dass keine Infektionsgefahr bekannt ist."/>
+      <exampleBoolean value="false"/>
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">

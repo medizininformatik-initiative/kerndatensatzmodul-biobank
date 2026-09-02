@@ -1,4 +1,4 @@
-# Needle Biopsy Lung - Biobank - MII IG Kerndatensatz-Modul Biobank v2026.0.1
+# Needle Biopsy Lung - Biobank - MII IG Kerndatensatz-Modul Biobank v2027.0.0-ballot.rc1
 
 * [**Inhaltsverzeichnis**](toc.md)
 * [**Artefaktübersicht**](artifacts.md)
@@ -18,7 +18,7 @@
 
 **code**: Needle biopsy of lung (procedure)
 
-**subject**: [Patient/mii-exa-test-data-patient-1](https://simplifier.net/resolve?scope=de.basisprofil.r4@1.5.4&canonical=http://fhir.org/packages/de.basisprofil.r4/Patient/mii-exa-test-data-patient-1)
+**subject**: [Patient/mii-exa-test-data-patient-1](https://simplifier.net/resolve?scope=de.basisprofil.r4@1.6.0&canonical=http://fhir.org/packages/de.basisprofil.r4/Patient/mii-exa-test-data-patient-1)
 
 **authoredOn**: 2018-06-08 15:30:00+0100
 

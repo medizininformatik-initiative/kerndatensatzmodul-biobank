@@ -1,4 +1,4 @@
-# MII CPS Biobank CapabilityStatement - MII IG Kerndatensatz-Modul Biobank v2026.0.1
+# MII CPS Biobank CapabilityStatement - MII IG Kerndatensatz-Modul Biobank v2027.0.0-ballot.rc1
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/CapabilityStatement/metadata | *Version*:2026.0.1 |
+| *Official URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/CapabilityStatement/metadata | *Version*:2027.0.0-ballot.rc1 |
 | Active as of 2025-09-02 | *Computable Name*:MII_CPS_Biobank_CapabilityStatement |
 
  
@@ -35,7 +35,7 @@ Das vorliegende CapabilityStatement beschreibt alle verpflichtenden Interaktione
     }
   }],
   "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/CapabilityStatement/metadata",
-  "version" : "2026.0.1",
+  "version" : "2027.0.0-ballot.rc1",
   "name" : "MII_CPS_Biobank_CapabilityStatement",
   "title" : "MII CPS Biobank CapabilityStatement",
   "status" : "active",

@@ -59,6 +59,14 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","MII EX Biobank Ebene","Mittels dieser Extension kann ausgedrückt werden, welcher Probenebene dieses Specimen zuzuordnen ist.","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"Specimen.extension:infektiositaetsstatus","Specimen.extension","infektiositaetsstatus","","",0,1,"Y","","","Extension {[CanonicalType[https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/mii-ex-biobank-infektiositaetsstatus]]} {[]}
+","Infektiositätsstatus","Extension zur Angabe des Infektiositätsstatus einer Probe anhand der Biosafety-Level-Einstufung (BSL-1 bis BSL-4, SNOMED CT) bzw. der Angabe, dass keine Infektionsgefahr bekannt ist.","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
+"Specimen.extension:focus","Specimen.extension","focus","","",0,1,"Y","","","Extension {[CanonicalType[http://hl7.eu/fhir/laboratory/StructureDefinition/specimen-focus]]} {[]}
+","Specimen Focus","Specimen focus, Extension to represent the entity from which the specimen is collected when it is not the subject of record.","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
+","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
+ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Specimen.extension:festgestellteDiagnose","Specimen.extension","festgestellteDiagnose","","",0,1,"Y","","","Extension {[CanonicalType[https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/Diagnose]]} {[]}
 ","","Mittels dieser Extension kann ausgedrückt werden, dass Material mit der referenzierten Diagnose in der Probe enthalten ist.","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"

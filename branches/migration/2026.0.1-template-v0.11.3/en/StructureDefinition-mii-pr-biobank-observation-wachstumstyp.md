@@ -1,4 +1,4 @@
-# MII PR Biobank Observation Wachstumstyp - MII IG Kerndatensatz-Modul Biobank v2026.0.1
+# MII PR Biobank Observation Wachstumstyp - MII IG Kerndatensatz-Modul Biobank v2027.0.0-ballot.rc1
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/mii-pr-biobank-observation-wachstumstyp | *Version*:2026.0.1 |
+| *Official URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/mii-pr-biobank-observation-wachstumstyp | *Version*:2027.0.0-ballot.rc1 |
 | Active as of 2025-09-02 | *Computable Name*:MII_PR_Biobank_Observation_Wachstumstyp |
 
  
@@ -56,7 +56,7 @@ Other representations of profile: [CSV](../StructureDefinition-mii-pr-biobank-ob
     }
   }],
   "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/mii-pr-biobank-observation-wachstumstyp",
-  "version" : "2026.0.1",
+  "version" : "2027.0.0-ballot.rc1",
   "name" : "MII_PR_Biobank_Observation_Wachstumstyp",
   "_name" : {
     "extension" : [{

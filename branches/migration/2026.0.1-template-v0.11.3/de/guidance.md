@@ -1,4 +1,4 @@
-# Anleitung - MII IG Kerndatensatz-Modul Biobank v2026.0.1
+# Anleitung - MII IG Kerndatensatz-Modul Biobank v2027.0.0-ballot.rc1
 
 * [**Inhaltsverzeichnis**](toc.md)
 * **Anleitung**

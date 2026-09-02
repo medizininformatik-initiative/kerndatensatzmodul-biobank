@@ -72,6 +72,19 @@
     "http://hl7.org/fhir/R4/valueset-substance-status.html" : "FHIRSubstanceStatus"
   },
   {
+    "url" : "http://loinc.org",
+    "version" : "3.1.0",
+    "status" : "active",
+    "name" : "LOINC",
+    "title" : "Logical Observation Identifiers, Names and Codes (LOINC)",
+    "description" : "LOINC provides a set of universal names and ID codes for identifying laboratory and clinical test results.1,2 LOINC facilitates the exchange and pooling of results, such as blood hemoglobin, serum potassium, or vital signs, for clinical care, outcomes management, and research. LOINC's universal identifiers (names and codes) can be used in the context of order and observation exchanges between information systems that use syntax standards such as HL73, CEN TC251, ISO TC215, ASTM4, and DICOM. Specifically, the identifier can be used as the coded value for an observation in any other standard that uses the observation/observation value paradigm, whether messages, documents, application programming interface (API), etc. For example, LOINC codes are used widely in the OBX segment Observation Identifier field (OBX-3) of an ORU HL7 (HL7 version 2.x or ASTM 1238-9410) message that may be sent between a Clinical Laboratory Information Management Systems (LIMS) and Electronic Health Record Systems (EHR).5, 6 In this way, LOINC codes provide universal identifiers that allow the exchange of clinical data between heterogeneous computing environments.",
+    "oids" : ["2.16.840.1.113883.6.1"],
+    "uses" : {
+    },
+    "https://loinc.org/LL3837-3" : "LOINC Answer Codes for LL3837-3",
+    "http://hl7.org/fhir/R4/valueset-observation-codes.html" : "LOINC Codes"
+  },
+  {
     "url" : "http://purl.obolibrary.org/obo/pato.owl",
     "version" : "http://purl.obolibrary.org/obo/pato/releases/2018-11-12/pato.owl",
     "status" : "active",
@@ -92,23 +105,24 @@
     "oids" : ["2.16.840.1.113883.6.96"],
     "uses" : {
     },
-    "ValueSet-mii-vs-biobank-cellline-morphology-sct.html" : "MII VS Biobank Cellinie Morphology SCT",
-    "ValueSet-mii-vs-biobank-containertyp-sct.html" : "MII VS Biobank Containertyp SCT",
-    "ConceptMap-mii-cm-biobank-long-term-storage-sprec-sct.html" : "SPREC 4.0 Long-Term Storage Mapping",
-    "ValueSet-mii-vs-biobank-substance-additive-sct.html" : "MII VS Biobank Substance Additive",
-    "ValueSet-mii-vs-biobank-laboratory-procedure-sct.html" : "MII VS Biobank Laboratory Procedure SCT",
-    "ValueSet-mii-vs-biobank-cellline-proliferation.html" : "MII VS Biobank Proliferation Zellinie",
-    "http://hl7.org/fhir/R4/valueset-substance-code.html" : "Substance Code",
-    "http://hl7.org/fhir/R4/valueset-referencerange-appliesto.html" : "Observation Reference Range Applies To Codes",
-    "ValueSet-mii-vs-biobank-karyotyp-sct.html" : "MII VS Biobank Karyotyp SCT",
     "http://hl7.org/fhir/R4/valueset-specimen-collection-method.html" : "FHIR Specimen Collection Method",
-    "ValueSet-mii-vs-biobank-probenart-sct.html" : "MII VS Biobank Probenart SCT",
-    "http://hl7.org/fhir/R4/valueset-body-site.html" : "SNOMED CT Body Structures",
-    "ConceptMap-mii-cm-biobank-primary-container-sprec-sct.html" : "SPREC 4.0 Primary Container Mapping",
-    "ConceptMap-mii-cm-biobank-sample-type-sprec-sct.html" : "SPREC 4.0 Sample Type Mapping",
-    "http://hl7.org/fhir/R4/valueset-observation-methods.html" : "Observation Methods",
+    "ValueSet-mii-vs-biobank-body-structures-sct.html" : "MII VS Biobank BodyStructures SCT",
     "ConceptMap-mii-cm-biobank-fixation-type-sprec-sct.html" : "MII CM Biobank Fixation Type SPREC 4.0 SCT",
-    "ValueSet-mii-vs-biobank-body-structures-sct.html" : "MII VS Biobank BodyStructures SCT"
+    "ValueSet-mii-vs-biobank-laboratory-procedure-sct.html" : "MII VS Biobank Laboratory Procedure SCT",
+    "http://hl7.org/fhir/R4/valueset-referencerange-appliesto.html" : "Observation Reference Range Applies To Codes",
+    "ConceptMap-mii-cm-biobank-sample-type-sprec-sct.html" : "SPREC 4.0 Sample Type Mapping",
+    "http://hl7.org/fhir/R4/valueset-substance-code.html" : "Substance Code",
+    "ValueSet-mii-vs-biobank-karyotyp-sct.html" : "MII VS Biobank Karyotyp SCT",
+    "http://hl7.org/fhir/R4/valueset-body-site.html" : "SNOMED CT Body Structures",
+    "ValueSet-mii-vs-biobank-cellline-proliferation.html" : "MII VS Biobank Proliferation Zellinie",
+    "ValueSet-mii-vs-biobank-biosafety-level.html" : "Biosafety-Level Einstufung (ValueSet)",
+    "ConceptMap-mii-cm-biobank-primary-container-sprec-sct.html" : "SPREC 4.0 Primary Container Mapping",
+    "ValueSet-mii-vs-biobank-substance-additive-sct.html" : "MII VS Biobank Substance Additive",
+    "ConceptMap-mii-cm-biobank-long-term-storage-sprec-sct.html" : "SPREC 4.0 Long-Term Storage Mapping",
+    "ValueSet-mii-vs-biobank-cellline-morphology-sct.html" : "MII VS Biobank Cellinie Morphology SCT",
+    "ValueSet-mii-vs-biobank-probenart-sct.html" : "MII VS Biobank Probenart SCT",
+    "ValueSet-mii-vs-biobank-containertyp-sct.html" : "MII VS Biobank Containertyp SCT",
+    "http://hl7.org/fhir/R4/valueset-observation-methods.html" : "Observation Methods"
   },
   {
     "url" : "http://terminology.hl7.org/CodeSystem/common-tags",
@@ -136,7 +150,7 @@
   },
   {
     "url" : "http://terminology.hl7.org/CodeSystem/data-absent-reason",
-    "version" : "2.0.0",
+    "version" : "1.0.0",
     "status" : "active",
     "name" : "DataAbsentReason",
     "title" : "DataAbsentReason",
@@ -216,7 +230,7 @@
     "oids" : ["2.16.840.1.113883.18.229"],
     "uses" : {
     },
-    "http://terminology.hl7.org/7.3.0/ValueSet-v2-0371.html" : "hl7VS-additivePreservative"
+    "http://terminology.hl7.org/7.2.0/ValueSet-v2-0371.html" : "hl7VS-additivePreservative"
   },
   {
     "url" : "http://terminology.hl7.org/CodeSystem/v2-0373",
@@ -240,7 +254,7 @@
     "oids" : ["2.16.840.1.113883.18.311"],
     "uses" : {
     },
-    "http://terminology.hl7.org/7.3.0/ValueSet-v2-0487.html" : "hl7VS-specimenType"
+    "http://terminology.hl7.org/7.2.0/ValueSet-v2-0487.html" : "hl7VS-specimenType"
   },
   {
     "url" : "http://terminology.hl7.org/CodeSystem/v2-0493",
@@ -252,7 +266,7 @@
     "oids" : ["2.16.840.1.113883.18.317"],
     "uses" : {
     },
-    "http://terminology.hl7.org/7.3.0/ValueSet-v2-0493.html" : "hl7VS-specimenCondition"
+    "http://terminology.hl7.org/7.2.0/ValueSet-v2-0493.html" : "hl7VS-specimenCondition"
   },
   {
     "url" : "http://terminology.hl7.org/CodeSystem/v2-0916",
@@ -264,7 +278,7 @@
     "oids" : ["2.16.840.1.113883.18.422"],
     "uses" : {
     },
-    "http://terminology.hl7.org/7.3.0/ValueSet-v2-0916.html" : "hl7VS-relevantClincialInformation"
+    "http://terminology.hl7.org/7.2.0/ValueSet-v2-0916.html" : "hl7VS-relevantClincialInformation"
   },
   {
     "url" : "http://terminology.hl7.org/CodeSystem/v3-ObservationInterpretation",
@@ -280,11 +294,11 @@
   },
   {
     "url" : "http://unitsofmeasure.org",
-    "version" : "2.2",
+    "version" : "3.0.1",
     "status" : "active",
     "name" : "UCUM",
-    "title" : null,
-    "description" : "This is a place holder for the code system which is fully supported through internal means (not by this code system)",
+    "title" : "Unified Code for Units of Measure (UCUM)",
+    "description" : "The Unified Code for Units of Measure (UCUM) is a code system intended to include all units of measures being contemporarily used in international science, engineering, and business. The purpose is to facilitate unambiguous electronic communication of quantities together with their units. The focus is on electronic communication, as opposed to communication between humans. A typical application of The Unified Code for Units of Measure are electronic data interchange (EDI) protocols, but there is nothing that prevents it from being used in other types of machine communication.",
     "uses" : {
     },
     "ValueSet-mii-vs-biobank-dna-concentration-units-ucum.html" : "MII VS Biobank DNA Concentration Units UCUM"
@@ -302,7 +316,7 @@
   },
   {
     "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/CodeSystem/mii-cs-biobank-probenebene",
-    "version" : "2026.0.1",
+    "version" : "2027.0.0-ballot.rc1",
     "status" : "active",
     "name" : "MII_CS_Biobank_Probenebene",
     "title" : "MII CS Biobank Probenebene",
@@ -310,5 +324,16 @@
     "uses" : {
     },
     "ValueSet-mii-vs-biobank-probenebene.html" : "MII VS Biobank Probenebene"
+  },
+  {
+    "url" : "urn:ietf:bcp:47",
+    "version" : "2.0.1",
+    "status" : "active",
+    "name" : "Ietf3066",
+    "title" : "Tags for the Identification of Languages",
+    "description" : "Older value from OID registry.  Superceded; see recommendations in BCP-47.",
+    "uses" : {
+    },
+    "http://hl7.org/fhir/R4/valueset-languages.html" : "Common Languages"
   }]
 }
