@@ -1,4 +1,4 @@
-# Biosafety-Level Einstufung (ValueSet) - MII IG Kerndatensatz-Modul Biobank v2027.0.0-ballot.rc1
+# Biosafety-Level Einstufung (ValueSet) - MII IG Kerndatensatz-Modul Biobank v2027.0.0-ballot.rc2
 
 * [**Inhaltsverzeichnis**](toc.md)
 * [**Artefaktübersicht**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Offizielle URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/mii-vs-biobank-biosafety-level | *Version*:2027.0.0-ballot.rc1 |
+| *Offizielle URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/mii-vs-biobank-biosafety-level | *Version*:2027.0.0-ballot.rc2 |
 | Active Stand: 2026-09-02 | *Maschinenlesbarer Name*:MII_VS_Biobank_Biosafety_Level |
 
  
@@ -49,7 +49,7 @@ No Expansion for this valueset (Unsupported Code System Version)
     }
   }],
   "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/mii-vs-biobank-biosafety-level",
-  "version" : "2027.0.0-ballot.rc1",
+  "version" : "2027.0.0-ballot.rc2",
   "name" : "MII_VS_Biobank_Biosafety_Level",
   "_name" : {
     "extension" : [{
@@ -79,7 +79,7 @@ No Expansion for this valueset (Unsupported Code System Version)
     }]
   },
   "status" : "active",
-  "date" : "2026-09-02T09:13:27+00:00",
+  "date" : "2026-09-02T09:37:04+00:00",
   "publisher" : "Medizininformatik Initiative",
   "contact" : [{
     "name" : "Medizininformatik Initiative",

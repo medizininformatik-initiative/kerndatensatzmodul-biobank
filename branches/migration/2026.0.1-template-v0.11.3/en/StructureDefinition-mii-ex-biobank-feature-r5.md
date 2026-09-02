@@ -1,4 +1,4 @@
-# MII EX Biobank Feature R5 - MII IG Kerndatensatz-Modul Biobank v2027.0.0-ballot.rc1
+# MII EX Biobank Feature R5 - MII IG Kerndatensatz-Modul Biobank v2027.0.0-ballot.rc2
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:http://hl7.org/fhir/5.0/StructureDefinition/extension-Specimen.feature | *Version*:2027.0.0-ballot.rc1 |
+| *Official URL*:http://hl7.org/fhir/5.0/StructureDefinition/extension-Specimen.feature | *Version*:2027.0.0-ballot.rc2 |
 | Active as of 2026-09-02 | *Computable Name*:MII_EX_Biobank_Feature_R5 |
 
 Die Extension ermöglicht es im Specimen das feature aus R5 zu nutzen.
@@ -40,12 +40,12 @@ Other representations of profile: [CSV](../StructureDefinition-mii-ex-biobank-fe
   "resourceType" : "StructureDefinition",
   "id" : "mii-ex-biobank-feature-r5",
   "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Specimen.feature",
-  "version" : "2027.0.0-ballot.rc1",
+  "version" : "2027.0.0-ballot.rc2",
   "name" : "MII_EX_Biobank_Feature_R5",
   "title" : "MII EX Biobank Feature R5",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-09-02T09:13:27+00:00",
+  "date" : "2026-09-02T09:37:04+00:00",
   "publisher" : "Medizininformatik Initiative",
   "contact" : [{
     "name" : "Medizininformatik Initiative",

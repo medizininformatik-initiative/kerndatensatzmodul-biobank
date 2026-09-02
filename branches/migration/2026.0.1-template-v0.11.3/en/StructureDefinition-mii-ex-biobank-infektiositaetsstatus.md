@@ -1,4 +1,4 @@
-# Infektiositätsstatus - MII IG Kerndatensatz-Modul Biobank v2027.0.0-ballot.rc1
+# Infektiositätsstatus - MII IG Kerndatensatz-Modul Biobank v2027.0.0-ballot.rc2
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/mii-ex-biobank-infektiositaetsstatus | *Version*:2027.0.0-ballot.rc1 |
+| *Official URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/mii-ex-biobank-infektiositaetsstatus | *Version*:2027.0.0-ballot.rc2 |
 | Active as of 2026-09-02 | *Computable Name*:MII_EX_Biobank_Infektiositaetsstatus |
 
 The extension specifies the infectiosity status of a specimen based on the biosafety level classification ranging from BSL-1 to BSL-4 or an indication that no infection risk is known.
@@ -50,7 +50,7 @@ Other representations of profile: [CSV](../StructureDefinition-mii-ex-biobank-in
     }
   }],
   "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/mii-ex-biobank-infektiositaetsstatus",
-  "version" : "2027.0.0-ballot.rc1",
+  "version" : "2027.0.0-ballot.rc2",
   "name" : "MII_EX_Biobank_Infektiositaetsstatus",
   "_name" : {
     "extension" : [{
@@ -80,7 +80,7 @@ Other representations of profile: [CSV](../StructureDefinition-mii-ex-biobank-in
     }]
   },
   "status" : "active",
-  "date" : "2026-09-02T09:13:27+00:00",
+  "date" : "2026-09-02T09:37:04+00:00",
   "publisher" : "Medizininformatik Initiative",
   "contact" : [{
     "name" : "Medizininformatik Initiative",

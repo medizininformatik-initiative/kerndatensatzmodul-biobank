@@ -19,7 +19,7 @@
     </valueCodeableConcept>
   </extension>
   <url value="https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/mii-vs-biobank-cellline-morphology-sct"/>
-  <version value="2027.0.0-ballot.rc1"/>
+  <version value="2027.0.0-ballot.rc2"/>
   <name value="MII_VS_Biobank_Cellline_Morphology_SCT"/>
   <title value="MII VS Biobank Cellinie Morphology SCT"/>
   <status value="active"/>

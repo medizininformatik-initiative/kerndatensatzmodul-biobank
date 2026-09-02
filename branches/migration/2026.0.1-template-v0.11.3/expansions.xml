@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
 <Bundle xmlns="http://hl7.org/fhir">
-  <id value="631aaeb1-0c8f-4c1a-bacd-ab0278ac6f6f"/>
+  <id value="82805402-acbf-4bde-8e23-10bfc6cc8f80"/>
   <meta>
-    <lastUpdated value="2026-09-02T09:13:27.032+00:00"/>
+    <lastUpdated value="2026-09-02T09:37:04.312+00:00"/>
   </meta>
   <type value="collection"/>
   <entry>
@@ -18,9 +18,9 @@
           <div xmlns="http://www.w3.org/1999/xhtml" data-fhir="generated">
             <p class="res-header-id"/>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
-              <a href="CodeSystem-mii-cs-biobank-probenebene.html">codesystem MII CS Biobank Probenebene v2027.0.0-ballot.rc1 (CodeSystem)</a>
+              <a href="CodeSystem-mii-cs-biobank-probenebene.html">codesystem MII CS Biobank Probenebene v2027.0.0-ballot.rc2 (CodeSystem)</a>
               <span class="copy-text-inline">
-                <button data-clipboard-text="https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/CodeSystem/mii-cs-biobank-probenebene|2027.0.0-ballot.rc1" title="Click to Copy URL" class="btn-copy"> </button>
+                <button data-clipboard-text="https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/CodeSystem/mii-cs-biobank-probenebene|2027.0.0-ballot.rc2" title="Click to Copy URL" class="btn-copy"> </button>
               </span>
             </p>
             <p>This value set contains 3 concepts</p>
@@ -57,12 +57,12 @@
                 <td>Die Probe, wie sie gesammelt wurde, vor ihrer Verarbeitung.</td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/CodeSystem/mii-cs-biobank-probenebene&quot;, &quot;version&quot;: &quot;2027.0.0-ballot.rc1&quot;, &quot;code&quot;: &quot;PRIMÄRPROBE&quot;, &quot;display&quot;: &quot;Primärprobe&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/CodeSystem/mii-cs-biobank-probenebene&quot;, &quot;version&quot;: &quot;2027.0.0-ballot.rc2&quot;, &quot;code&quot;: &quot;PRIMÄRPROBE&quot;, &quot;display&quot;: &quot;Primärprobe&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/CodeSystem/mii-cs-biobank-probenebene&quot;&gt;&lt;version value=&quot;2027.0.0-ballot.rc1&quot;&gt;&lt;code value=&quot;PRIMÄRPROBE&quot;&gt;&lt;display value=&quot;Primärprobe&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/CodeSystem/mii-cs-biobank-probenebene&quot;&gt;&lt;version value=&quot;2027.0.0-ballot.rc2&quot;&gt;&lt;code value=&quot;PRIMÄRPROBE&quot;&gt;&lt;display value=&quot;Primärprobe&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
               </tr>
@@ -78,12 +78,12 @@
                 <td>Eine Zusammenfassung von Aliquots gleichen Probentyps, die von der gleichen möglicherweise bereits verarbeiteten Primärprobe abstammen.</td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/CodeSystem/mii-cs-biobank-probenebene&quot;, &quot;version&quot;: &quot;2027.0.0-ballot.rc1&quot;, &quot;code&quot;: &quot;ALIQUOTGRUPPE&quot;, &quot;display&quot;: &quot;Aliquotgruppe&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/CodeSystem/mii-cs-biobank-probenebene&quot;, &quot;version&quot;: &quot;2027.0.0-ballot.rc2&quot;, &quot;code&quot;: &quot;ALIQUOTGRUPPE&quot;, &quot;display&quot;: &quot;Aliquotgruppe&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/CodeSystem/mii-cs-biobank-probenebene&quot;&gt;&lt;version value=&quot;2027.0.0-ballot.rc1&quot;&gt;&lt;code value=&quot;ALIQUOTGRUPPE&quot;&gt;&lt;display value=&quot;Aliquotgruppe&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/CodeSystem/mii-cs-biobank-probenebene&quot;&gt;&lt;version value=&quot;2027.0.0-ballot.rc2&quot;&gt;&lt;code value=&quot;ALIQUOTGRUPPE&quot;&gt;&lt;display value=&quot;Aliquotgruppe&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
               </tr>
@@ -99,12 +99,12 @@
                 <td>Eine Probe, von der identische Geschwisterproben existieren können, die derselben Aliquotgruppe angehören. </td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/CodeSystem/mii-cs-biobank-probenebene&quot;, &quot;version&quot;: &quot;2027.0.0-ballot.rc1&quot;, &quot;code&quot;: &quot;ALIQUOT&quot;, &quot;display&quot;: &quot;Aliquot&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/CodeSystem/mii-cs-biobank-probenebene&quot;, &quot;version&quot;: &quot;2027.0.0-ballot.rc2&quot;, &quot;code&quot;: &quot;ALIQUOT&quot;, &quot;display&quot;: &quot;Aliquot&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/CodeSystem/mii-cs-biobank-probenebene&quot;&gt;&lt;version value=&quot;2027.0.0-ballot.rc1&quot;&gt;&lt;code value=&quot;ALIQUOT&quot;&gt;&lt;display value=&quot;Aliquot&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/CodeSystem/mii-cs-biobank-probenebene&quot;&gt;&lt;version value=&quot;2027.0.0-ballot.rc2&quot;&gt;&lt;code value=&quot;ALIQUOT&quot;&gt;&lt;display value=&quot;Aliquot&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
               </tr>
@@ -112,7 +112,7 @@
           </div>
         </text>
         <url value="https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/mii-vs-biobank-probenebene"/>
-        <version value="2027.0.0-ballot.rc1"/>
+        <version value="2027.0.0-ballot.rc2"/>
         <name value="MII_VS_Biobank_Probenebene"/>
         <title value="MII VS Biobank Probenebene"/>
         <status value="active"/>
@@ -126,8 +126,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:77b07e14-b7c8-4e21-9df4-48fd104f6678"/>
-          <timestamp value="2026-09-02T09:15:37+00:00"/>
+          <identifier value="urn:uuid:1f0b81b1-2a4d-4cca-a8fa-56c7ffcfb91c"/>
+          <timestamp value="2026-09-02T09:39:27+00:00"/>
           <total value="3"/>
           <offset value="0"/>
           <parameter>
@@ -148,11 +148,11 @@
           </parameter>
           <parameter>
             <name value="system-version"/>
-            <valueUri value="https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/CodeSystem/mii-cs-biobank-probenebene|2027.0.0-ballot.rc1"/>
+            <valueUri value="https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/CodeSystem/mii-cs-biobank-probenebene|2027.0.0-ballot.rc2"/>
           </parameter>
           <parameter>
             <name value="used-codesystem"/>
-            <valueUri value="https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/CodeSystem/mii-cs-biobank-probenebene|2027.0.0-ballot.rc1"/>
+            <valueUri value="https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/CodeSystem/mii-cs-biobank-probenebene|2027.0.0-ballot.rc2"/>
           </parameter>
           <contains>
             <system value="https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/CodeSystem/mii-cs-biobank-probenebene"/>
@@ -185,9 +185,9 @@
           <div xmlns="http://www.w3.org/1999/xhtml" data-fhir="generated">
             <p class="res-header-id"/>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
-              <a href="CodeSystem-mii-cs-biobank-probenebene.html">codesystem MII CS Biobank Probenebene v2027.0.0-ballot.rc1 (CodeSystem)</a>
+              <a href="CodeSystem-mii-cs-biobank-probenebene.html">codesystem MII CS Biobank Probenebene v2027.0.0-ballot.rc2 (CodeSystem)</a>
               <span class="copy-text-inline">
-                <button data-clipboard-text="https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/CodeSystem/mii-cs-biobank-probenebene|2027.0.0-ballot.rc1" title="Click to Copy URL" class="btn-copy"> </button>
+                <button data-clipboard-text="https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/CodeSystem/mii-cs-biobank-probenebene|2027.0.0-ballot.rc2" title="Click to Copy URL" class="btn-copy"> </button>
               </span>
             </p>
             <p>This value set contains 3 concepts</p>
@@ -224,12 +224,12 @@
                 <td>Die Probe, wie sie gesammelt wurde, vor ihrer Verarbeitung.</td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/CodeSystem/mii-cs-biobank-probenebene&quot;, &quot;version&quot;: &quot;2027.0.0-ballot.rc1&quot;, &quot;code&quot;: &quot;PRIMÄRPROBE&quot;, &quot;display&quot;: &quot;Primärprobe&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/CodeSystem/mii-cs-biobank-probenebene&quot;, &quot;version&quot;: &quot;2027.0.0-ballot.rc2&quot;, &quot;code&quot;: &quot;PRIMÄRPROBE&quot;, &quot;display&quot;: &quot;Primärprobe&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/CodeSystem/mii-cs-biobank-probenebene&quot;&gt;&lt;version value=&quot;2027.0.0-ballot.rc1&quot;&gt;&lt;code value=&quot;PRIMÄRPROBE&quot;&gt;&lt;display value=&quot;Primärprobe&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/CodeSystem/mii-cs-biobank-probenebene&quot;&gt;&lt;version value=&quot;2027.0.0-ballot.rc2&quot;&gt;&lt;code value=&quot;PRIMÄRPROBE&quot;&gt;&lt;display value=&quot;Primärprobe&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
               </tr>
@@ -245,12 +245,12 @@
                 <td>Eine Zusammenfassung von Aliquots gleichen Probentyps, die von der gleichen möglicherweise bereits verarbeiteten Primärprobe abstammen.</td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/CodeSystem/mii-cs-biobank-probenebene&quot;, &quot;version&quot;: &quot;2027.0.0-ballot.rc1&quot;, &quot;code&quot;: &quot;ALIQUOTGRUPPE&quot;, &quot;display&quot;: &quot;Aliquotgruppe&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/CodeSystem/mii-cs-biobank-probenebene&quot;, &quot;version&quot;: &quot;2027.0.0-ballot.rc2&quot;, &quot;code&quot;: &quot;ALIQUOTGRUPPE&quot;, &quot;display&quot;: &quot;Aliquotgruppe&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/CodeSystem/mii-cs-biobank-probenebene&quot;&gt;&lt;version value=&quot;2027.0.0-ballot.rc1&quot;&gt;&lt;code value=&quot;ALIQUOTGRUPPE&quot;&gt;&lt;display value=&quot;Aliquotgruppe&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/CodeSystem/mii-cs-biobank-probenebene&quot;&gt;&lt;version value=&quot;2027.0.0-ballot.rc2&quot;&gt;&lt;code value=&quot;ALIQUOTGRUPPE&quot;&gt;&lt;display value=&quot;Aliquotgruppe&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
               </tr>
@@ -266,12 +266,12 @@
                 <td>Eine Probe, von der identische Geschwisterproben existieren können, die derselben Aliquotgruppe angehören. </td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/CodeSystem/mii-cs-biobank-probenebene&quot;, &quot;version&quot;: &quot;2027.0.0-ballot.rc1&quot;, &quot;code&quot;: &quot;ALIQUOT&quot;, &quot;display&quot;: &quot;Aliquot&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/CodeSystem/mii-cs-biobank-probenebene&quot;, &quot;version&quot;: &quot;2027.0.0-ballot.rc2&quot;, &quot;code&quot;: &quot;ALIQUOT&quot;, &quot;display&quot;: &quot;Aliquot&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/CodeSystem/mii-cs-biobank-probenebene&quot;&gt;&lt;version value=&quot;2027.0.0-ballot.rc1&quot;&gt;&lt;code value=&quot;ALIQUOT&quot;&gt;&lt;display value=&quot;Aliquot&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/CodeSystem/mii-cs-biobank-probenebene&quot;&gt;&lt;version value=&quot;2027.0.0-ballot.rc2&quot;&gt;&lt;code value=&quot;ALIQUOT&quot;&gt;&lt;display value=&quot;Aliquot&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
               </tr>
@@ -279,7 +279,7 @@
           </div>
         </text>
         <url value="https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/mii-vs-biobank-probenebene"/>
-        <version value="2027.0.0-ballot.rc1"/>
+        <version value="2027.0.0-ballot.rc2"/>
         <name value="MII_VS_Biobank_Probenebene"/>
         <title value="MII VS Biobank Probenebene"/>
         <status value="active"/>
@@ -293,8 +293,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:77b07e14-b7c8-4e21-9df4-48fd104f6678"/>
-          <timestamp value="2026-09-02T09:15:37+00:00"/>
+          <identifier value="urn:uuid:1f0b81b1-2a4d-4cca-a8fa-56c7ffcfb91c"/>
+          <timestamp value="2026-09-02T09:39:27+00:00"/>
           <total value="3"/>
           <offset value="0"/>
           <parameter>
@@ -315,11 +315,11 @@
           </parameter>
           <parameter>
             <name value="system-version"/>
-            <valueUri value="https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/CodeSystem/mii-cs-biobank-probenebene|2027.0.0-ballot.rc1"/>
+            <valueUri value="https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/CodeSystem/mii-cs-biobank-probenebene|2027.0.0-ballot.rc2"/>
           </parameter>
           <parameter>
             <name value="used-codesystem"/>
-            <valueUri value="https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/CodeSystem/mii-cs-biobank-probenebene|2027.0.0-ballot.rc1"/>
+            <valueUri value="https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/CodeSystem/mii-cs-biobank-probenebene|2027.0.0-ballot.rc2"/>
           </parameter>
           <contains>
             <system value="https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/CodeSystem/mii-cs-biobank-probenebene"/>
@@ -352,9 +352,9 @@
           <div xmlns="http://www.w3.org/1999/xhtml" data-fhir="generated">
             <p class="res-header-id"/>
             <p style="border: black 1px dotted; background-color: #EEEEEE; padding: 8px; margin-bottom: 8px">Expansion performed internally based on 
-              <a href="CodeSystem-mii-cs-biobank-probenebene.html">codesystem MII CS Biobank Probenebene v2027.0.0-ballot.rc1 (CodeSystem)</a>
+              <a href="CodeSystem-mii-cs-biobank-probenebene.html">codesystem MII CS Biobank Probenebene v2027.0.0-ballot.rc2 (CodeSystem)</a>
               <span class="copy-text-inline">
-                <button data-clipboard-text="https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/CodeSystem/mii-cs-biobank-probenebene|2027.0.0-ballot.rc1" title="Click to Copy URL" class="btn-copy"> </button>
+                <button data-clipboard-text="https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/CodeSystem/mii-cs-biobank-probenebene|2027.0.0-ballot.rc2" title="Click to Copy URL" class="btn-copy"> </button>
               </span>
             </p>
             <p>This value set contains 3 concepts</p>
@@ -391,12 +391,12 @@
                 <td>Die Probe, wie sie gesammelt wurde, vor ihrer Verarbeitung.</td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/CodeSystem/mii-cs-biobank-probenebene&quot;, &quot;version&quot;: &quot;2027.0.0-ballot.rc1&quot;, &quot;code&quot;: &quot;PRIMÄRPROBE&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/CodeSystem/mii-cs-biobank-probenebene&quot;, &quot;version&quot;: &quot;2027.0.0-ballot.rc2&quot;, &quot;code&quot;: &quot;PRIMÄRPROBE&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/CodeSystem/mii-cs-biobank-probenebene&quot;&gt;&lt;version value=&quot;2027.0.0-ballot.rc1&quot;&gt;&lt;code value=&quot;PRIMÄRPROBE&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/CodeSystem/mii-cs-biobank-probenebene&quot;&gt;&lt;version value=&quot;2027.0.0-ballot.rc2&quot;&gt;&lt;code value=&quot;PRIMÄRPROBE&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
               </tr>
@@ -412,12 +412,12 @@
                 <td>Eine Zusammenfassung von Aliquots gleichen Probentyps, die von der gleichen möglicherweise bereits verarbeiteten Primärprobe abstammen.</td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/CodeSystem/mii-cs-biobank-probenebene&quot;, &quot;version&quot;: &quot;2027.0.0-ballot.rc1&quot;, &quot;code&quot;: &quot;ALIQUOTGRUPPE&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/CodeSystem/mii-cs-biobank-probenebene&quot;, &quot;version&quot;: &quot;2027.0.0-ballot.rc2&quot;, &quot;code&quot;: &quot;ALIQUOTGRUPPE&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/CodeSystem/mii-cs-biobank-probenebene&quot;&gt;&lt;version value=&quot;2027.0.0-ballot.rc1&quot;&gt;&lt;code value=&quot;ALIQUOTGRUPPE&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/CodeSystem/mii-cs-biobank-probenebene&quot;&gt;&lt;version value=&quot;2027.0.0-ballot.rc2&quot;&gt;&lt;code value=&quot;ALIQUOTGRUPPE&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
               </tr>
@@ -433,12 +433,12 @@
                 <td>Eine Probe, von der identische Geschwisterproben existieren können, die derselben Aliquotgruppe angehören. </td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/CodeSystem/mii-cs-biobank-probenebene&quot;, &quot;version&quot;: &quot;2027.0.0-ballot.rc1&quot;, &quot;code&quot;: &quot;ALIQUOT&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="{&quot;system&quot;: &quot;https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/CodeSystem/mii-cs-biobank-probenebene&quot;, &quot;version&quot;: &quot;2027.0.0-ballot.rc2&quot;, &quot;code&quot;: &quot;ALIQUOT&quot;}" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
                 <td>
                   <span class="copy-text-inline">
-                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/CodeSystem/mii-cs-biobank-probenebene&quot;&gt;&lt;version value=&quot;2027.0.0-ballot.rc1&quot;&gt;&lt;code value=&quot;ALIQUOT&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
+                    <button data-clipboard-text="&lt;coding&gt;&lt;system value=&quot;https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/CodeSystem/mii-cs-biobank-probenebene&quot;&gt;&lt;version value=&quot;2027.0.0-ballot.rc2&quot;&gt;&lt;code value=&quot;ALIQUOT&quot;&gt;&lt;/coding&gt;" title="Click to Copy as Coding" class="btn-copy"> </button>
                   </span>
                 </td>
               </tr>
@@ -446,7 +446,7 @@
           </div>
         </text>
         <url value="https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/mii-vs-biobank-probenebene"/>
-        <version value="2027.0.0-ballot.rc1"/>
+        <version value="2027.0.0-ballot.rc2"/>
         <name value="MII_VS_Biobank_Probenebene"/>
         <title value="MII VS Biobank Probenebene"/>
         <status value="active"/>
@@ -460,8 +460,8 @@
           </coding>
         </jurisdiction>
         <expansion>
-          <identifier value="urn:uuid:5241c544-4783-423b-b19d-b1ffa91ec3b7"/>
-          <timestamp value="2026-09-02T09:15:38+00:00"/>
+          <identifier value="urn:uuid:f151d76e-4afb-4eb9-8d37-cfce177fabd5"/>
+          <timestamp value="2026-09-02T09:39:27+00:00"/>
           <total value="3"/>
           <offset value="0"/>
           <parameter>
@@ -482,11 +482,11 @@
           </parameter>
           <parameter>
             <name value="system-version"/>
-            <valueUri value="https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/CodeSystem/mii-cs-biobank-probenebene|2027.0.0-ballot.rc1"/>
+            <valueUri value="https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/CodeSystem/mii-cs-biobank-probenebene|2027.0.0-ballot.rc2"/>
           </parameter>
           <parameter>
             <name value="used-codesystem"/>
-            <valueUri value="https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/CodeSystem/mii-cs-biobank-probenebene|2027.0.0-ballot.rc1"/>
+            <valueUri value="https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/CodeSystem/mii-cs-biobank-probenebene|2027.0.0-ballot.rc2"/>
           </parameter>
           <contains>
             <system value="https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/CodeSystem/mii-cs-biobank-probenebene"/>

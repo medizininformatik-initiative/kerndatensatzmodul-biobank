@@ -1,4 +1,4 @@
-# MII VS Biobank Laboratory Procedure SCT - MII IG Kerndatensatz-Modul Biobank v2027.0.0-ballot.rc1
+# MII VS Biobank Laboratory Procedure SCT - MII IG Kerndatensatz-Modul Biobank v2027.0.0-ballot.rc2
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/mii-vs-biobank-laboratory-procedure-sct | *Version*:2027.0.0-ballot.rc1 |
+| *Official URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/mii-vs-biobank-laboratory-procedure-sct | *Version*:2027.0.0-ballot.rc2 |
 | Active as of 2025-09-02 | *Computable Name*:MII_VS_Biobank_Laboratory_Procedure_SCT |
 | **Copyright/Legal**: This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement | |
 
@@ -53,7 +53,7 @@ No Expansion for this valueset (Unsupported Code System Version)
     }
   }],
   "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/mii-vs-biobank-laboratory-procedure-sct",
-  "version" : "2027.0.0-ballot.rc1",
+  "version" : "2027.0.0-ballot.rc2",
   "name" : "MII_VS_Biobank_Laboratory_Procedure_SCT",
   "title" : "MII VS Biobank Laboratory Procedure SCT",
   "status" : "active",

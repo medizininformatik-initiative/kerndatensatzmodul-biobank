@@ -1,4 +1,4 @@
-# MII VS Biobank Probenebene - MII IG Kerndatensatz-Modul Biobank v2027.0.0-ballot.rc1
+# MII VS Biobank Probenebene - MII IG Kerndatensatz-Modul Biobank v2027.0.0-ballot.rc2
 
 * [**Inhaltsverzeichnis**](toc.md)
 * [**Artefaktübersicht**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Offizielle URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/mii-vs-biobank-probenebene | *Version*:2027.0.0-ballot.rc1 |
+| *Offizielle URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/mii-vs-biobank-probenebene | *Version*:2027.0.0-ballot.rc2 |
 | Active Stand: 2025-09-02 | *Maschinenlesbarer Name*:MII_VS_Biobank_Probenebene |
 
  
@@ -50,7 +50,7 @@ Value Set for specimen hierarchy levels in Biobanking
     }
   }],
   "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/mii-vs-biobank-probenebene",
-  "version" : "2027.0.0-ballot.rc1",
+  "version" : "2027.0.0-ballot.rc2",
   "name" : "MII_VS_Biobank_Probenebene",
   "title" : "MII VS Biobank Probenebene",
   "status" : "active",

@@ -1,4 +1,4 @@
-# Biobank Musterstadt - MII IG Kerndatensatz-Modul Biobank v2027.0.0-ballot.rc1
+# Biobank Musterstadt - MII IG Kerndatensatz-Modul Biobank v2027.0.0-ballot.rc2
 
 * [**Inhaltsverzeichnis**](toc.md)
 * [**Artefaktübersicht**](artifacts.md)

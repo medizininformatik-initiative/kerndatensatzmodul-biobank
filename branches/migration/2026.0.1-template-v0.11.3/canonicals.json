@@ -2,310 +2,310 @@
   "id" : "mii-ex-biobank-feature-r5",
   "type" : "StructureDefinition",
   "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Specimen.feature",
-  "version" : "2027.0.0-ballot.rc1",
+  "version" : "2027.0.0-ballot.rc2",
   "name" : "MII_EX_Biobank_Feature_R5"
 },
 {
   "id" : "mii-cps-biobank-capabilitystatement",
   "type" : "CapabilityStatement",
   "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/CapabilityStatement/metadata",
-  "version" : "2027.0.0-ballot.rc1",
+  "version" : "2027.0.0-ballot.rc2",
   "name" : "MII_CPS_Biobank_CapabilityStatement"
 },
 {
   "id" : "mii-cs-biobank-contact-type",
   "type" : "CodeSystem",
   "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/CodeSystem/ContactType",
-  "version" : "2027.0.0-ballot.rc1",
+  "version" : "2027.0.0-ballot.rc2",
   "name" : "MII_CS_Biobank_Contact_Type"
 },
 {
   "id" : "mii-cs-biobank-probenebene",
   "type" : "CodeSystem",
   "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/CodeSystem/mii-cs-biobank-probenebene",
-  "version" : "2027.0.0-ballot.rc1",
+  "version" : "2027.0.0-ballot.rc2",
   "name" : "MII_CS_Biobank_Probenebene"
 },
 {
   "id" : "mii-cm-biobank-fixation-type-sprec-sct",
   "type" : "ConceptMap",
   "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ConceptMap/mii-cm-biobank-fixation-type-sprec-sct",
-  "version" : "2027.0.0-ballot.rc1"
+  "version" : "2027.0.0-ballot.rc2"
 },
 {
   "id" : "mii-cm-biobank-long-term-storage-sprec-sct",
   "type" : "ConceptMap",
   "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ConceptMap/mii-cm-biobank-long-term-storage-sprec-sct",
-  "version" : "2027.0.0-ballot.rc1"
+  "version" : "2027.0.0-ballot.rc2"
 },
 {
   "id" : "mii-cm-biobank-primary-container-sprec-sct",
   "type" : "ConceptMap",
   "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ConceptMap/mii-cm-biobank-primary-container-sprec-sct",
-  "version" : "2027.0.0-ballot.rc1"
+  "version" : "2027.0.0-ballot.rc2"
 },
 {
   "id" : "mii-cm-biobank-sample-type-sprec-sct",
   "type" : "ConceptMap",
   "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ConceptMap/mii-cm-biobank-sample-type-sprec-sct",
-  "version" : "2027.0.0-ballot.rc1"
+  "version" : "2027.0.0-ballot.rc2"
 },
 {
   "id" : "mii-ig-biobank-de-v2026",
   "type" : "ImplementationGuide",
   "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ImplementationGuide/mii-ig-biobank-de-v2026",
-  "version" : "2027.0.0-ballot.rc1",
+  "version" : "2027.0.0-ballot.rc2",
   "name" : "MII_IG_Biobank_DE"
 },
 {
   "id" : "mii-ex-biobank-diagnose",
   "type" : "StructureDefinition",
   "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/Diagnose",
-  "version" : "2027.0.0-ballot.rc1",
+  "version" : "2027.0.0-ballot.rc2",
   "name" : "MII_EX_Biobank_Diagnose"
 },
 {
   "id" : "mii-ex-biobank-einstellung-blutversorgung",
   "type" : "StructureDefinition",
   "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/EinstellungBlutversorgung",
-  "version" : "2027.0.0-ballot.rc1",
+  "version" : "2027.0.0-ballot.rc2",
   "name" : "MII_EX_Biobank_Einstellung_Blutversorgung"
 },
 {
   "id" : "mii-ex-biobank-kontaktrolle",
   "type" : "StructureDefinition",
   "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/KontaktRolle",
-  "version" : "2027.0.0-ballot.rc1",
+  "version" : "2027.0.0-ballot.rc2",
   "name" : "MII_EX_Biobank_KontaktRolle"
 },
 {
   "id" : "Biobank",
   "type" : "StructureDefinition",
   "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/LogicalModel/Biobank",
-  "version" : "2027.0.0-ballot.rc1",
+  "version" : "2027.0.0-ballot.rc2",
   "name" : "MII_LM_Biobank"
 },
 {
   "id" : "mii-pr-biobank-organization",
   "type" : "StructureDefinition",
   "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/Organization",
-  "version" : "2027.0.0-ballot.rc1",
+  "version" : "2027.0.0-ballot.rc2",
   "name" : "MII_PR_Biobank_Organization_Sammlung_Biobank"
 },
 {
   "id" : "mii-pr-biobank-specimen",
   "type" : "StructureDefinition",
   "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/Specimen",
-  "version" : "2027.0.0-ballot.rc1",
+  "version" : "2027.0.0-ballot.rc2",
   "name" : "MII_PR_Biobank_Specimen_Bioprobe"
 },
 {
   "id" : "mii-pr-biobank-specimen-core",
   "type" : "StructureDefinition",
   "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/SpecimenCore",
-  "version" : "2027.0.0-ballot.rc1",
+  "version" : "2027.0.0-ballot.rc2",
   "name" : "MII_PR_Biobank_Specimen_Bioprobe_Core"
 },
 {
   "id" : "mii-pr-biobank-substance-additiv",
   "type" : "StructureDefinition",
   "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/Substance",
-  "version" : "2027.0.0-ballot.rc1",
+  "version" : "2027.0.0-ballot.rc2",
   "name" : "MII_PR_Biobank_Substance_Additiv"
 },
 {
   "id" : "mii-ex-biobank-temperaturbedingungen",
   "type" : "StructureDefinition",
   "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/Temperaturbedingungen",
-  "version" : "2027.0.0-ballot.rc1",
+  "version" : "2027.0.0-ballot.rc2",
   "name" : "MII_EX_Biobank_Temperaturbedingungen"
 },
 {
   "id" : "mii-ex-biobank-verwaltende-organisation",
   "type" : "StructureDefinition",
   "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/VerwaltendeOrganisation",
-  "version" : "2027.0.0-ballot.rc1",
+  "version" : "2027.0.0-ballot.rc2",
   "name" : "MII_EX_Biobank_Verwaltende_Organisation"
 },
 {
   "id" : "mii-ex-biobank-anzahl-aliquots",
   "type" : "StructureDefinition",
   "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/mii-ex-biobank-anzahl-aliquots",
-  "version" : "2027.0.0-ballot.rc1",
+  "version" : "2027.0.0-ballot.rc2",
   "name" : "MII_EX_Biobank_Anzahl_Aliquots"
 },
 {
   "id" : "mii-ex-biobank-anzahl-passagen",
   "type" : "StructureDefinition",
   "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/mii-ex-biobank-anzahl-passagen",
-  "version" : "2027.0.0-ballot.rc1",
+  "version" : "2027.0.0-ballot.rc2",
   "name" : "MII_EX_Biobank_Anzahl_Passagen"
 },
 {
   "id" : "mii-ex-biobank-ebene",
   "type" : "StructureDefinition",
   "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/mii-ex-biobank-ebene",
-  "version" : "2027.0.0-ballot.rc1",
+  "version" : "2027.0.0-ballot.rc2",
   "name" : "MII_EX_Biobank_Ebene"
 },
 {
   "id" : "mii-ex-biobank-infektiositaetsstatus",
   "type" : "StructureDefinition",
   "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/mii-ex-biobank-infektiositaetsstatus",
-  "version" : "2027.0.0-ballot.rc1",
+  "version" : "2027.0.0-ballot.rc2",
   "name" : "MII_EX_Biobank_Infektiositaetsstatus"
 },
 {
   "id" : "mii-ex-biobank-kulturprotokoll",
   "type" : "StructureDefinition",
   "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/mii-ex-biobank-kulturprotokoll",
-  "version" : "2027.0.0-ballot.rc1",
+  "version" : "2027.0.0-ballot.rc2",
   "name" : "MII_EX_Biobank_Kulturprotokoll"
 },
 {
   "id" : "mii-ex-biobank-modifikationen",
   "type" : "StructureDefinition",
   "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/mii-ex-biobank-modifikationen",
-  "version" : "2027.0.0-ballot.rc1",
+  "version" : "2027.0.0-ballot.rc2",
   "name" : "MII_EX_Biobank_Modifikationen"
 },
 {
   "id" : "mii-pr-biobank-observation-dna-konzentration",
   "type" : "StructureDefinition",
   "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/mii-pr-biobank-observation-dna-konzentration",
-  "version" : "2027.0.0-ballot.rc1",
+  "version" : "2027.0.0-ballot.rc2",
   "name" : "MII_PR_Biobank_Observation_DNA_Konzentration"
 },
 {
   "id" : "mii-pr-biobank-observation-karyotyp",
   "type" : "StructureDefinition",
   "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/mii-pr-biobank-observation-karyotyp",
-  "version" : "2027.0.0-ballot.rc1",
+  "version" : "2027.0.0-ballot.rc2",
   "name" : "MII_PR_Biobank_Observation_Karyotyp"
 },
 {
   "id" : "mii-pr-biobank-observation-morphologie",
   "type" : "StructureDefinition",
   "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/mii-pr-biobank-observation-morphologie",
-  "version" : "2027.0.0-ballot.rc1",
+  "version" : "2027.0.0-ballot.rc2",
   "name" : "MII_PR_Biobank_Observation_Morphologie"
 },
 {
   "id" : "mii-pr-biobank-observation-proliferation",
   "type" : "StructureDefinition",
   "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/mii-pr-biobank-observation-proliferation",
-  "version" : "2027.0.0-ballot.rc1",
+  "version" : "2027.0.0-ballot.rc2",
   "name" : "MII_PR_Biobank_Observation_Proliferation"
 },
 {
   "id" : "mii-pr-biobank-observation-qualitaetspruefung",
   "type" : "StructureDefinition",
   "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/mii-pr-biobank-observation-qualitaetspruefung",
-  "version" : "2027.0.0-ballot.rc1",
+  "version" : "2027.0.0-ballot.rc2",
   "name" : "MII_PR_Biobank_Observation_Qualitaetspruefung"
 },
 {
   "id" : "mii-pr-biobank-observation-wachstumstyp",
   "type" : "StructureDefinition",
   "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/mii-pr-biobank-observation-wachstumstyp",
-  "version" : "2027.0.0-ballot.rc1",
+  "version" : "2027.0.0-ballot.rc2",
   "name" : "MII_PR_Biobank_Observation_Wachstumstyp"
 },
 {
   "id" : "mii-pr-biobank-zellinie-organoid",
   "type" : "StructureDefinition",
   "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/mii-pr-biobank-zellinie-organoid",
-  "version" : "2027.0.0-ballot.rc1",
+  "version" : "2027.0.0-ballot.rc2",
   "name" : "MII_PR_Biobank_Specimen_Zellinie_Organoid"
 },
 {
   "id" : "mii-vs-biobank-biosafety-level",
   "type" : "ValueSet",
   "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/mii-vs-biobank-biosafety-level",
-  "version" : "2027.0.0-ballot.rc1",
+  "version" : "2027.0.0-ballot.rc2",
   "name" : "MII_VS_Biobank_Biosafety_Level"
 },
 {
   "id" : "mii-vs-biobank-body-structures-sct",
   "type" : "ValueSet",
   "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/mii-vs-biobank-body-structures-sct",
-  "version" : "2027.0.0-ballot.rc1",
+  "version" : "2027.0.0-ballot.rc2",
   "name" : "MII_VS_Biobank_BodyStructures_SCT"
 },
 {
   "id" : "mii-vs-biobank-cellline-modification-clo",
   "type" : "ValueSet",
   "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/mii-vs-biobank-cellline-modification-clo",
-  "version" : "2027.0.0-ballot.rc1",
+  "version" : "2027.0.0-ballot.rc2",
   "name" : "MII_VS_Biobank_Cellline_Modification_CLO"
 },
 {
   "id" : "mii-vs-biobank-cellline-morphology-sct",
   "type" : "ValueSet",
   "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/mii-vs-biobank-cellline-morphology-sct",
-  "version" : "2027.0.0-ballot.rc1",
+  "version" : "2027.0.0-ballot.rc2",
   "name" : "MII_VS_Biobank_Cellline_Morphology_SCT"
 },
 {
   "id" : "mii-vs-biobank-cellline-proliferation",
   "type" : "ValueSet",
   "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/mii-vs-biobank-cellline-proliferation",
-  "version" : "2027.0.0-ballot.rc1",
+  "version" : "2027.0.0-ballot.rc2",
   "name" : "MII_VS_Biobank_CellLine_Proliferation"
 },
 {
   "id" : "mii-vs-biobank-containertyp-sct",
   "type" : "ValueSet",
   "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/mii-vs-biobank-containertyp-sct",
-  "version" : "2027.0.0-ballot.rc1",
+  "version" : "2027.0.0-ballot.rc2",
   "name" : "MII_VS_Biobank_Containertyp_SCT"
 },
 {
   "id" : "mii-vs-biobank-dna-concentration-units-ucum",
   "type" : "ValueSet",
   "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/mii-vs-biobank-dna-concentration-units-ucum",
-  "version" : "2027.0.0-ballot.rc1",
+  "version" : "2027.0.0-ballot.rc2",
   "name" : "MII_VS_Biobank_DNA_Concentration_Units_UCUM"
 },
 {
   "id" : "mii-vs-biobank-karyotyp-sct",
   "type" : "ValueSet",
   "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/mii-vs-biobank-karyotyp-sct",
-  "version" : "2027.0.0-ballot.rc1",
+  "version" : "2027.0.0-ballot.rc2",
   "name" : "MII_VS_Biobank_Karyotyp_SCT"
 },
 {
   "id" : "mii-vs-biobank-laboratory-procedure-sct",
   "type" : "ValueSet",
   "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/mii-vs-biobank-laboratory-procedure-sct",
-  "version" : "2027.0.0-ballot.rc1",
+  "version" : "2027.0.0-ballot.rc2",
   "name" : "MII_VS_Biobank_Laboratory_Procedure_SCT"
 },
 {
   "id" : "mii-vs-biobank-probenart-sct",
   "type" : "ValueSet",
   "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/mii-vs-biobank-probenart-sct",
-  "version" : "2027.0.0-ballot.rc1",
+  "version" : "2027.0.0-ballot.rc2",
   "name" : "MII_VS_Biobank_Probenart_SCT"
 },
 {
   "id" : "mii-vs-biobank-probenebene",
   "type" : "ValueSet",
   "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/mii-vs-biobank-probenebene",
-  "version" : "2027.0.0-ballot.rc1",
+  "version" : "2027.0.0-ballot.rc2",
   "name" : "MII_VS_Biobank_Probenebene"
 },
 {
   "id" : "mii-vs-biobank-substance-additive-sct",
   "type" : "ValueSet",
   "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/mii-vs-biobank-substance-additive-sct",
-  "version" : "2027.0.0-ballot.rc1",
+  "version" : "2027.0.0-ballot.rc2",
   "name" : "MII_VS_Biobank_Substance_Additive_SCT"
 },
 {
   "id" : "mii-vs-biobank-wachstumstyp-clo",
   "type" : "ValueSet",
   "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/mii-vs-biobank-wachstumstyp-clo",
-  "version" : "2027.0.0-ballot.rc1",
+  "version" : "2027.0.0-ballot.rc2",
   "name" : "MII_VS_Biobank_Wachstumpstyp_CLO"
 }]

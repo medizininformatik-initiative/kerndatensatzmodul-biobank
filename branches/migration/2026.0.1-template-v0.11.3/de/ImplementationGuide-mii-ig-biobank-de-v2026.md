@@ -1,4 +1,4 @@
-# MII ImplementationGuide Ressource - MII IG Kerndatensatz-Modul Biobank v2027.0.0-ballot.rc1
+# MII ImplementationGuide Ressource - MII IG Kerndatensatz-Modul Biobank v2027.0.0-ballot.rc2
 
 * [**Inhaltsverzeichnis**](toc.md)
 * **MII ImplementationGuide Ressource**
@@ -119,7 +119,7 @@ Expansionsparameter sind Query-Parameter, die an eine `ValueSet`- `$expand`-Oper
     },
     {
       "url" : "version",
-      "valueString" : "2027.0.0-ballot.rc1"
+      "valueString" : "2027.0.0-ballot.rc2"
     },
     {
       "url" : "uri",
@@ -219,7 +219,7 @@ Expansionsparameter sind Query-Parameter, die an eine `ValueSet`- `$expand`-Oper
     }
   }],
   "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ImplementationGuide/mii-ig-biobank-de-v2026",
-  "version" : "2027.0.0-ballot.rc1",
+  "version" : "2027.0.0-ballot.rc2",
   "name" : "MII_IG_Biobank_DE",
   "title" : "MII IG Kerndatensatz-Modul Biobank",
   "status" : "active",

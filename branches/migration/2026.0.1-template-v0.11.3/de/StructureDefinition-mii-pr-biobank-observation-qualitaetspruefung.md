@@ -1,4 +1,4 @@
-# MII PR Biobank Observation Qualitätsprüfung - MII IG Kerndatensatz-Modul Biobank v2027.0.0-ballot.rc1
+# MII PR Biobank Observation Qualitätsprüfung - MII IG Kerndatensatz-Modul Biobank v2027.0.0-ballot.rc2
 
 * [**Inhaltsverzeichnis**](toc.md)
 * [**Artefaktübersicht**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Offizielle URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/mii-pr-biobank-observation-qualitaetspruefung | *Version*:2027.0.0-ballot.rc1 |
+| *Offizielle URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/mii-pr-biobank-observation-qualitaetspruefung | *Version*:2027.0.0-ballot.rc2 |
 | Active Stand: 2025-09-02 | *Maschinenlesbarer Name*:MII_PR_Biobank_Observation_Qualitaetspruefung |
 
  
@@ -123,7 +123,7 @@ Weitere Repräsentationen des Profils: [CSV](../StructureDefinition-mii-pr-bioba
     }
   }],
   "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/mii-pr-biobank-observation-qualitaetspruefung",
-  "version" : "2027.0.0-ballot.rc1",
+  "version" : "2027.0.0-ballot.rc2",
   "name" : "MII_PR_Biobank_Observation_Qualitaetspruefung",
   "_name" : {
     "extension" : [{

@@ -23,7 +23,7 @@
     </valueCodeableConcept>
   </extension>
   <url value="https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/mii-pr-biobank-zellinie-organoid"/>
-  <version value="2027.0.0-ballot.rc1"/>
+  <version value="2027.0.0-ballot.rc2"/>
   <name value="MII_PR_Biobank_Specimen_Zellinie_Organoid"/>
   <title value="MII PR Biobank Specimen Zellinie Organoid"/>
   <status value="active"/>
@@ -62,7 +62,7 @@
   <derivation value="constraint"/>
   <snapshot>
     <extension url="http://hl7.org/fhir/tools/StructureDefinition/snapshot-base-version">
-      <valueString value="2027.0.0-ballot.rc1"/>
+      <valueString value="2027.0.0-ballot.rc2"/>
     </extension>
     <element id="Specimen">
       <path value="Specimen"/>

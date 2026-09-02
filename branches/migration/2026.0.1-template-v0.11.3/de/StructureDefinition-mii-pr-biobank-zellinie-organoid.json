@@ -17,7 +17,7 @@
     }
   }],
   "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/mii-pr-biobank-zellinie-organoid",
-  "version" : "2027.0.0-ballot.rc1",
+  "version" : "2027.0.0-ballot.rc2",
   "name" : "MII_PR_Biobank_Specimen_Zellinie_Organoid",
   "title" : "MII PR Biobank Specimen Zellinie Organoid",
   "status" : "active",
@@ -57,7 +57,7 @@
   "snapshot" : {
     "extension" : [{
       "url" : "http://hl7.org/fhir/tools/StructureDefinition/snapshot-base-version",
-      "valueString" : "2027.0.0-ballot.rc1"
+      "valueString" : "2027.0.0-ballot.rc2"
     }],
     "element" : [{
       "id" : "Specimen",

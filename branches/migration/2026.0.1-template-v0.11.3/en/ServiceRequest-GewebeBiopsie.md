@@ -1,4 +1,4 @@
-# Needle Biopsy Lung - Biobank - MII IG Kerndatensatz-Modul Biobank v2027.0.0-ballot.rc1
+# Needle Biopsy Lung - Biobank - MII IG Kerndatensatz-Modul Biobank v2027.0.0-ballot.rc2
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)

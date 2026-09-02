@@ -1,4 +1,4 @@
-# Artifacts Summary - MII IG Kerndatensatz-Modul Biobank v2027.0.0-ballot.rc1
+# Artifacts Summary - MII IG Kerndatensatz-Modul Biobank v2027.0.0-ballot.rc2
 
 * [**Table of Contents**](toc.md)
 * **Artifacts Summary**

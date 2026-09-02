@@ -1,4 +1,4 @@
-# MII CS Biobank Probenebene - MII IG Kerndatensatz-Modul Biobank v2027.0.0-ballot.rc1
+# MII CS Biobank Probenebene - MII IG Kerndatensatz-Modul Biobank v2027.0.0-ballot.rc2
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/CodeSystem/mii-cs-biobank-probenebene | *Version*:2027.0.0-ballot.rc1 |
+| *Official URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/CodeSystem/mii-cs-biobank-probenebene | *Version*:2027.0.0-ballot.rc2 |
 | Active as of 2025-09-02 | *Computable Name*:MII_CS_Biobank_Probenebene |
 
  
@@ -44,7 +44,7 @@ This Code system is referenced in the definition of the following value sets:
     }
   }],
   "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/CodeSystem/mii-cs-biobank-probenebene",
-  "version" : "2027.0.0-ballot.rc1",
+  "version" : "2027.0.0-ballot.rc2",
   "name" : "MII_CS_Biobank_Probenebene",
   "_name" : {
     "extension" : [{

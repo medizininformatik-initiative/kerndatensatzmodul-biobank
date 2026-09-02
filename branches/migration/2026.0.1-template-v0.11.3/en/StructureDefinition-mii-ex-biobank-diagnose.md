@@ -1,4 +1,4 @@
-# MII EX Biobank Diagnose - MII IG Kerndatensatz-Modul Biobank v2027.0.0-ballot.rc1
+# MII EX Biobank Diagnose - MII IG Kerndatensatz-Modul Biobank v2027.0.0-ballot.rc2
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/Diagnose | *Version*:2027.0.0-ballot.rc1 |
+| *Official URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/Diagnose | *Version*:2027.0.0-ballot.rc2 |
 | Active as of 2026-09-02 | *Computable Name*:MII_EX_Biobank_Diagnose |
 
 This extension allows expressing that material with the referenced diagnosis is contained in the specimen.
@@ -51,7 +51,7 @@ Other representations of profile: [CSV](../StructureDefinition-mii-ex-biobank-di
     }
   }],
   "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/Diagnose",
-  "version" : "2027.0.0-ballot.rc1",
+  "version" : "2027.0.0-ballot.rc2",
   "name" : "MII_EX_Biobank_Diagnose",
   "_name" : {
     "extension" : [{
@@ -81,7 +81,7 @@ Other representations of profile: [CSV](../StructureDefinition-mii-ex-biobank-di
     }]
   },
   "status" : "active",
-  "date" : "2026-09-02T09:13:27+00:00",
+  "date" : "2026-09-02T09:37:04+00:00",
   "publisher" : "Medizininformatik Initiative",
   "contact" : [{
     "name" : "Medizininformatik Initiative",

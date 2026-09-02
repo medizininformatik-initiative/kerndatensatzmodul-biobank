@@ -1,4 +1,4 @@
-# MII VS Biobank Cellline Modification CLO - MII IG Kerndatensatz-Modul Biobank v2027.0.0-ballot.rc1
+# MII VS Biobank Cellline Modification CLO - MII IG Kerndatensatz-Modul Biobank v2027.0.0-ballot.rc2
 
 * [**Inhaltsverzeichnis**](toc.md)
 * [**Artefaktübersicht**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Offizielle URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/mii-vs-biobank-cellline-modification-clo | *Version*:2027.0.0-ballot.rc1 |
+| *Offizielle URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/mii-vs-biobank-cellline-modification-clo | *Version*:2027.0.0-ballot.rc2 |
 | Active Stand: 2025-09-02 | *Maschinenlesbarer Name*:MII_VS_Biobank_Cellline_Modification_CLO |
 
  
@@ -52,7 +52,7 @@ No Expansion for this valueset (Unknown Code System)
     }
   }],
   "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/mii-vs-biobank-cellline-modification-clo",
-  "version" : "2027.0.0-ballot.rc1",
+  "version" : "2027.0.0-ballot.rc2",
   "name" : "MII_VS_Biobank_Cellline_Modification_CLO",
   "title" : "MII VS Biobank Cellline Modification CLO",
   "status" : "active",

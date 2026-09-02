@@ -1,4 +1,4 @@
-# MII PR Biobank Specimen Bioprobe - MII IG Kerndatensatz-Modul Biobank v2027.0.0-ballot.rc1
+# MII PR Biobank Specimen Bioprobe - MII IG Kerndatensatz-Modul Biobank v2027.0.0-ballot.rc2
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/Specimen | *Version*:2027.0.0-ballot.rc1 |
+| *Official URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/Specimen | *Version*:2027.0.0-ballot.rc2 |
 | Active as of 2025-09-02 | *Computable Name*:MII_PR_Biobank_Specimen_Bioprobe |
 
  
@@ -49,7 +49,7 @@ Other representations of profile: [CSV](../StructureDefinition-mii-pr-biobank-sp
     }
   }],
   "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/Specimen",
-  "version" : "2027.0.0-ballot.rc1",
+  "version" : "2027.0.0-ballot.rc2",
   "name" : "MII_PR_Biobank_Specimen_Bioprobe",
   "_name" : {
     "extension" : [{

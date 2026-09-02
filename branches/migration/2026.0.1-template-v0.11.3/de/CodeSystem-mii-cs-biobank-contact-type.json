@@ -20,7 +20,7 @@
     }
   }],
   "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/CodeSystem/ContactType",
-  "version" : "2027.0.0-ballot.rc1",
+  "version" : "2027.0.0-ballot.rc2",
   "name" : "MII_CS_Biobank_Contact_Type",
   "title" : "MII CS Biobank Contact Type",
   "status" : "active",

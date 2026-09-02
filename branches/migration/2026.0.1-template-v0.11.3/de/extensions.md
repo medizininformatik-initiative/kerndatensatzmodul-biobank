@@ -1,4 +1,4 @@
-# Extensions - MII IG Kerndatensatz-Modul Biobank v2027.0.0-ballot.rc1
+# Extensions - MII IG Kerndatensatz-Modul Biobank v2027.0.0-ballot.rc2
 
 * [**Inhaltsverzeichnis**](toc.md)
 * **Extensions**

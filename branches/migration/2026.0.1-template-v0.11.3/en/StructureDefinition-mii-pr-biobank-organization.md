@@ -1,4 +1,4 @@
-# MII PR Biobank Organization Sammlung Biobank - MII IG Kerndatensatz-Modul Biobank v2027.0.0-ballot.rc1
+# MII PR Biobank Organization Sammlung Biobank - MII IG Kerndatensatz-Modul Biobank v2027.0.0-ballot.rc2
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,7 +8,7 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/Organization | *Version*:2027.0.0-ballot.rc1 |
+| *Official URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/Organization | *Version*:2027.0.0-ballot.rc2 |
 | Active as of 2025-09-02 | *Computable Name*:MII_PR_Biobank_Organization_Sammlung_Biobank |
 
  
@@ -58,7 +58,7 @@ Other representations of profile: [CSV](../StructureDefinition-mii-pr-biobank-or
     }
   }],
   "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/Organization",
-  "version" : "2027.0.0-ballot.rc1",
+  "version" : "2027.0.0-ballot.rc2",
   "name" : "MII_PR_Biobank_Organization_Sammlung_Biobank",
   "_name" : {
     "extension" : [{
