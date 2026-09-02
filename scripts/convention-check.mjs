@@ -184,7 +184,12 @@ export function evaluate({ sushiConfig = null, igIni = null, packageJson = null,
 
     field("M6 version", readTopLevel(sushiConfig, "version"), (v) => {
       if (isPlaceholder(v)) return { ok: true, parameterized: true };
-      return { ok: /^\d{4}\.\d+\.\d+$/.test(v), parameterized: false, reason: "version must be CalVer YYYY.n.n (modules never use SemVer)" };
+      // MODULE-LOCAL ADAPTATION (Biobank, 2026-09-02): CalVer plus optional
+      // ballot pre-release suffix (-ballot, -ballot.rcN, -ballotN, -rc.N) — MII
+      // ballot practice publishes such versions (registry: biobank
+      // 2026.0.0-ballot, 2027.0.0-ballot.rc1/rc2; meta 2027.0.0-ballot.rc3).
+      // Upstream: template M6 kennt bisher nur finales CalVer.
+      return { ok: /^\d{4}\.\d+\.\d+(-(ballot|rc)[.0-9a-z-]*)?$/.test(v), parameterized: false, reason: "version must be CalVer YYYY.n.n with optional ballot/rc pre-release suffix (modules never use SemVer)" };
     });
 
     // M7 — no floating label anywhere (always hard, both branches).
