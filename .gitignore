@@ -30,3 +30,7 @@ translations/
 Requirements-fromNarrative.json
 # migration-log ist der Audit-Trail der Template-Migration — wird mit dem Branch committet (Skill-Guardrail 7)
 !migration-log/**
+# Firely Bake build artifacts (lokaler Package-Bau)
+.bake/
+fhirpkg.lock.json
+*.tgz
