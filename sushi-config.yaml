@@ -189,7 +189,8 @@ dependencies:
   # profiles claimed under meta.profile above (template machinery, Gate A).
   hl7.fhir.uv.crmi: 2.0.0
   # HL7 Terminology (THO) — pinned DIRECTLY on purpose (publisher auto-add guard).
-  hl7.terminology.r4: 7.1.0 # aligned mit meta rc3, eu.laboratory und eu.base (alle pinnen 7.1.0)
+  # THO 7.1.0: aligned mit meta rc3, eu.laboratory und eu.base (alle pinnen 7.1.0).
+  hl7.terminology.r4: 7.1.0
   # HL7 Extensions Pack — same rationale as hl7.terminology.r4.
   hl7.fhir.uv.extensions.r4: 5.3.0
 #
