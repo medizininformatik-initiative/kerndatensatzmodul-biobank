@@ -2,7 +2,7 @@
   "resourceType": "StructureDefinition",
   "id": "Biobank",
   "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/LogicalModel/Biobank",
-  "version": "2027.0.0-ballot.rc1",
+  "version": "2027.0.0-ballot.rc2",
   "name": "MII_LM_Biobank",
   "status": "active",
   "description": "Logische Repräsentation des Erweiterungsmoduls Biobank",
@@ -737,8 +737,8 @@
         ]
       },
       {
-        "id": "Biobank.Bioprobe.Zelllinie_Organoid.Phänotyp-Diagnose",
-        "path": "Biobank.Bioprobe.Zelllinie_Organoid.Phänotyp-Diagnose",
+        "id": "Biobank.Bioprobe.Zelllinie_Organoid.Phaenotyp-Diagnose",
+        "path": "Biobank.Bioprobe.Zelllinie_Organoid.Phaenotyp-Diagnose",
         "short": "Phänotyp oder Diagnose der Zelllinie / des Organoids, wenn nicht patientenbezogen angebbar.",
         "definition": "Phänotyp oder Diagnose der Zelllinie / des Organoids, wenn nicht patientenbezogen angebbar.",
         "min": 0,
@@ -889,8 +889,8 @@
         ]
       },
       {
-        "id": "Biobank.Bioprobe.Zelllinie_Organoid.Qualitätsprüfung",
-        "path": "Biobank.Bioprobe.Zelllinie_Organoid.Qualitätsprüfung",
+        "id": "Biobank.Bioprobe.Zelllinie_Organoid.Qualitaetspruefung",
+        "path": "Biobank.Bioprobe.Zelllinie_Organoid.Qualitaetspruefung",
         "short": "Z.B. Viabilität, Test auf Mykoplasmen, Wiederauftaubarkeit / Wiederinkulturnahme.",
         "definition": "Z.B. Viabilität, Test auf Mykoplasmen, Wiederauftaubarkeit / Wiederinkulturnahme.",
         "min": 0,

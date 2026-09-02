@@ -1,0 +1,21 @@
+2026-08-27T16:46:58Z  INFO   5.1c  simplifier-discover  params  base=https://simplifier.net org=<none> module=<none> package=de.medizininformatikinitiative.kerndatensatz.biobank project=<none> guide=<none> pin=<propose> out=migration-log
+    Discovery only: nothing in the module repository is written, and no value is
+    claimed into the identity ledger -- a guide's version is not the module's
+    version (spec §5.1c).
+2026-08-27T16:46:59Z  INFO   5.1c  simplifier-discover  hop 2 package -> project  cmd=`curl -sL https://simplifier.net/packages/de.medizininformatikinitiative.kerndatensatz.biobank/latest`  http=200 package=de.medizininformatikinitiative.kerndatensatz.biobank project=medizininformatikinitiative-modulbiobank
+2026-08-27T16:46:59Z  INFO   5.1c  simplifier-discover  hop 3 project -> guide keys  cmd=`curl -sL https://simplifier.net/medizininformatikinitiative-modulbiobank/filterprojectguides`  http=200 bytes=3189 keys=2
+    keys: medizininformatikinitiative-modulbiobank-implementationguide mii-ig-biobank-de-v2026
+    NO TILDE in the path. `~filterprojectguides` and `~guides` return 200 and
+    yield nothing, and the project page itself is the client-rendered app
+    shell -- this endpoint is the one that answers (spec §5.1c).
+2026-08-27T16:47:00Z  WARN   5.1c  simplifier-discover  no-published-version: hop 4 lists only a preview  key=medizininformatikinitiative-modulbiobank-implementationguide preview=1 url=https://simplifier.net/published-guide/medizininformatikinitiative-modulbiobank-implementationguide/versions
+    `?version=current` is the LIVE EDITABLE project, so harvesting it makes the
+    migration unreproducible -- two runs could silently differ. Nothing is
+    pinned here; a human decides whether to publish a version first.
+2026-08-27T16:47:00Z  WARN   5.1c  simplifier-discover  no-published-version: hop 4 lists only a preview  key=mii-ig-biobank-de-v2026 preview=1 url=https://simplifier.net/published-guide/mii-ig-biobank-de-v2026/versions
+    `?version=current` is the LIVE EDITABLE project, so harvesting it makes the
+    migration unreproducible -- two runs could silently differ. Nothing is
+    pinned here; a human decides whether to publish a version first.
+2026-08-27T16:47:00Z  WARN   5.1c  simplifier-discover  no-discovery: the chain yielded no guide page  pages=0 exit=1
+    Read the WARNs above for the hop that stopped it. An empty result is a
+    finding for a human, never a licence to construct a key, a slug or a version.

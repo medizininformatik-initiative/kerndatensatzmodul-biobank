@@ -1,0 +1,2 @@
+M9 measured from migration-log/preflight-analysis.json artifacts: operations=0 searchparameters=0 extensions=11 valuesets=12 codesystems=2 logicals=1
+decision: REMOVE operations.md + search-parameters.md (0 artifacts, artifacts never deleted); KEEP extensions/value-sets/code-systems/logical-models/metadata/researcher-guidance; REMOVE rendering-artifacts.md (template demo page, per template instruction)

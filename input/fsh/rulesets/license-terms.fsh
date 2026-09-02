@@ -7,3 +7,8 @@ RuleSet: LicenseCodeableCCBY40
 RuleSet: LicenseCodeableCCBY40Instance
 * extension[+].url = "https://www.medizininformatik-initiative.de/fhir/modul-meta/StructureDefinition/mii-ex-meta-license-codeable"
 * extension[=].valueCodeableConcept = $spdx-license#CC-BY-4.0 "Creative Commons Attribution 4.0 International"
+
+// --- appended from mii-kds-module-template v0.11.3 (per-definition merge; module definitions win) ---
+RuleSet: LicenseCodeableCC0
+* ^meta.extension[+].url = "http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-license"
+* ^meta.extension[=].valueCode = #CC0-1.0

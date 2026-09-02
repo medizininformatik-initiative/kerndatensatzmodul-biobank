@@ -1,0 +1,11 @@
+page	lang	kind	source	gate	line	excerpt
+examples	default	bridge	MIIIGModulBiobank/TechnischeImplementierung/FHIR-Profile/Specimen/Index.page.md	B	3	This overview was newly written during the migration; the source listed the examples per profile page.
+examples	de	bridge	MIIIGModulBiobank/TechnischeImplementierung/FHIR-Profile/Specimen/Index.page.md	B	2	Diese Übersicht ist bei der Migration neu entstanden; die Quelle listete die Beispiele je Profilseite.
+extensions	default	bridge	MIIIGModulBiobank/TechnischeImplementierung/FHIR-Profile/Specimen/Extensions.page.md	B	56	The introductory sentence and this section were newly written during the migration (bridging text; the R5 extension had 
+extensions	de	bridge	MIIIGModulBiobank/TechnischeImplementierung/FHIR-Profile/Specimen/Extensions.page.md	B	55	Einleitungssatz und dieser Abschnitt sind bei der Migration neu entstanden (Brückentext; die R5-Extension hatte keine ei
+guidance	default	stand-in	MIIIGModulBiobank/AnwendungsfaelleInformationsmodell/Index.page.md	B	4	These introductory lines and the link list were newly written during the migration (the source hub page was intentionall
+guidance	de	stand-in	MIIIGModulBiobank/AnwendungsfaelleInformationsmodell/Index.page.md	B	3	Diese Einleitungszeilen und die Linkliste sind bei der Migration neu entstanden (die Quell-Hubseite war absichtlich leer
+profiles	default	bridge	MIIIGModulBiobank/TechnischeImplementierung/FHIR-Profile/Index.page.md	B	51	The following link list was newly written during the migration (bridging text to the profile pages).
+profiles	de	bridge	MIIIGModulBiobank/TechnischeImplementierung/FHIR-Profile/Index.page.md	B	50	Die folgende Linkliste ist bei der Migration neu entstanden (Brückentext zu den Profilseiten).
+value-sets	default	bridge	MIIIGModulBiobank/TechnischeImplementierung/Terminologien.page.md	B	3	Short bridging text, newly written during the migration; the domain terminology notes are on the [Code Systems](code-sys
+value-sets	de	bridge	MIIIGModulBiobank/TechnischeImplementierung/Terminologien.page.md	B	2	Kurzer Brückentext, bei der Migration neu entstanden; die fachlichen Terminologie-Hinweise stehen auf der Seite [CodeSys

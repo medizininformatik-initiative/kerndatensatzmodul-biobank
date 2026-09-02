@@ -1,7 +1,7 @@
 {
   "name": "de.medizininformatikinitiative.kerndatensatz.biobank",
-  "version": "2027.0.0-ballot.rc1",
-  "description": "Medizininformatik Initiative - Kerndatensatz Erweiterungsmodul Biobank / Bioprobendaten",
+  "version": "2027.0.0-ballot.rc2",
+  "description": "Medizininformatik Initiative - Kerndatensatz Erweiterungsmodul Biobank / Bioprobendaten v2027.0.0-ballot.rc2 (Ballot). Profile für Bioprobe (Specimen/SpecimenCore), Sammlung/Biobank (Organization), Zelllinie/Organoid inkl. Observations, Substance (Additiv); neu: Extension Infektiositätsstatus (Biosafety-Level) und Specimen.focus (EU Lab IG). Release Notes: https://simplifier.net/guide/mii-ig-biobank-de-v2026/MIIIGModulBiobank/Release-Notes?version=current",
   "author": "noemideppenwiese",
   "fhirVersions": [
     "4.0.1"
@@ -11,7 +11,8 @@
     "de.basisprofil.r4": "1.6.0",
     "hl7.fhir.r4.core": "4.0.1",
     "eu.miabis.r4": "0.2.0",
-    "de.medizininformatikinitiative.kerndatensatz.meta": "2026.0.0",
-    "hl7.fhir.eu.laboratory": "2.0.0"
+    "de.medizininformatikinitiative.kerndatensatz.meta": "2027.0.0-ballot.rc3",
+    "hl7.fhir.eu.laboratory": "2.0.0",
+    "hl7.terminology.r4": "7.1.0"
   }
 }

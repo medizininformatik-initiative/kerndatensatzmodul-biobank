@@ -1,0 +1,54 @@
+2026-08-27T16:48:23Z  INFO   2.1  package-identity  params  package=de.medizininformatikinitiative.kerndatensatz.biobank version=2026.0.1 registry=https://packages.simplifier.net work=/var/folders/fp/zh9lp0950ysg28_1vb5mhwcc0000gn/T/tmp.JXCkbEER6p
+    Reporting only: no file in the module repository is read or written here.
+    Recovered values are Gate-A evidence, never applied to existing metadata.
+2026-08-27T16:48:23Z  INFO   2.1  package-identity  version supplied by the operator  version=2026.0.1 source=--version package=de.medizininformatikinitiative.kerndatensatz.biobank
+2026-08-27T16:48:26Z  INFO   2.1  package-identity  fetched  cmd=`curl -sfL https://packages.simplifier.net/de.medizininformatikinitiative.kerndatensatz.biobank/2026.0.1 -o pkg.tgz && tar xzf pkg.tgz`  bytes=272411 json_files=63 manifest=package/package.json
+2026-08-27T16:48:26Z  INFO   2.1  package-identity  manifest field  name=de.medizininformatikinitiative.kerndatensatz.biobank  -- = packageId (spec §2.1)
+2026-08-27T16:48:26Z  INFO   2.1  package-identity  identity-claim  field=packageId value=de.medizininformatikinitiative.kerndatensatz.biobank tier=P source=package/package.json
+2026-08-27T16:48:26Z  INFO   2.1  package-identity  manifest field  version=2026.0.1  -- the module version -- authoritative for this RELEASE
+2026-08-27T16:48:26Z  INFO   2.1  package-identity  identity-claim  field=version value=2026.0.1 tier=P source=package/package.json
+2026-08-27T16:48:26Z  INFO   2.1  package-identity  manifest field  description=Medizininformatik Initiative - Kerndatensatz Erweiterungsmodul Biobank / Bioprobendaten
+2026-08-27T16:48:26Z  INFO   2.1  package-identity  identity-claim  field=description value=Medizininformatik Initiative - Kerndatensatz Erweiterungsmodul Biobank / Bioprobendaten tier=P source=package/package.json
+2026-08-27T16:48:26Z  INFO   2.1  package-identity  manifest field  fhirVersions=["4.0.1"]
+2026-08-27T16:48:26Z  INFO   2.1  package-identity  identity-claim  field=fhirVersions value=["4.0.1"] tier=P source=package/package.json
+2026-08-27T16:48:26Z  INFO   2.1  package-identity  manifest field  jurisdiction=urn:iso:std:iso:3166#DE
+2026-08-27T16:48:26Z  INFO   2.1  package-identity  identity-claim  field=jurisdiction value=urn:iso:std:iso:3166#DE tier=P source=package/package.json
+2026-08-27T16:48:26Z  INFO   2.1  package-identity  manifest field  author=noemideppenwiese  -- a REGISTRY ACCOUNT, not `publisher`
+2026-08-27T16:48:26Z  INFO   2.1  package-identity  manifest read  package/package.json  recovered=6 absent=5 fields=name,version,description,fhirVersions,jurisdiction,author
+2026-08-27T16:48:26Z  WARN   2.1  package-identity  not-in-a-package-manifest: title, license, publisher
+    A FHIR package manifest has no field for these, so the published package
+    cannot supply them and no other field substitutes -- `author` is the
+    registry account that pushed the package, never a publishing organisation.
+    They stay Gate-A items: a human supplies them (spec §2.1).
+2026-08-27T16:48:26Z  INFO   2.1  package-identity  manifest fields absent (optional in this format)  canonical, homepage
+2026-08-27T16:48:26Z  INFO   2.1  package-identity  identity-claim  field=dependency:de.basisprofil.r4 value=1.5.x tier=P source=package/package.json (source pin)
+2026-08-27T16:48:26Z  INFO   2.1  package-identity  identity-claim  field=dependency:de.medizininformatikinitiative.kerndatensatz.meta value=2026.0.x tier=P source=package/package.json (source pin)
+2026-08-27T16:48:26Z  INFO   2.1  package-identity  identity-claim  field=dependency:eu.miabis.r4 value=0.2.0 tier=P source=package/package.json (source pin)
+2026-08-27T16:48:26Z  INFO   2.1  package-identity  identity-claim  field=dependency:hl7.fhir.r4.core value=4.0.1 tier=P source=package/package.json (source pin)
+2026-08-27T16:48:26Z  INFO   2.1  package-identity  dependency pins from the SOURCE package  de.basisprofil.r4@1.5.x de.medizininformatikinitiative.kerndatensatz.meta@2026.0.x eu.miabis.r4@0.2.0 hl7.fhir.r4.core@4.0.1
+    SOURCE EVIDENCE, and it outranks the registry's dist-tags.latest for the
+    same package (spec §2.1 floating-pin rule, §5.1b.2 step 1): this is what
+    the module was actually published against. Use these for goFSH's `-d` set
+    and record any divergence from a previously assumed pin in the report.
+2026-08-27T16:48:26Z  INFO   2.1  package-identity  packaged resources carrying no url  count=21
+      examples/DocumentReference-Kulturprotokoll.json [DocumentReference]
+      examples/DocumentReference-ProtocolCRISPRTP53.json [DocumentReference]
+      examples/Observation-DNAConcentrationObs1.json [Observation]
+      examples/Observation-KaryotypOrganoidLunge.json [Observation]
+      examples/Observation-MorphologieOrganoidLunge.json [Observation]
+      examples/Observation-ProliferationOrganoidLunge.json [Observation]
+      examples/Observation-QualitaetspruefungBuffyCoat.json [Observation]
+      examples/Observation-QualitaetspruefungPlasma.json [Observation]
+      examples/Observation-WachstumstypOrganoidLunge.json [Observation]
+      examples/Organization-BiobankMusterstadt.json [Organization]	  examples/Organization-Mustersammlung.json [Organization]	  examples/ServiceRequest-GewebeBiopsie.json [ServiceRequest]	  examples/Specimen-AliquotBuffyCoat1.json [Specimen]	  examples/Specimen-AliquotBuffyCoat2.json [Specimen]	  examples/Specimen-AliquotgruppeBuffyCoat.json [Specimen]	  examples/Specimen-AliquotgruppeDNA.json [Specimen]	  examples/Specimen-AliquotgruppePlasma.json [Specimen]	  examples/Specimen-MusterprobeFluessig.json [Specimen]	  examples/Specimen-MusterprobeGewebe.json [Specimen]	  examples/Specimen-OrganoidLunge.json [Specimen]	  examples/Substance-Heparin.json [Substance]
+2026-08-27T16:48:26Z  WARN   2.1  package-identity  canonical-not-unanimous: 3 distinct canonical bases across 42 resource url(s) -- NOT resolved by majority  bases=3 urls=42 exit=1
+    A split vote is a finding. Picking the larger set would silently re-home
+    the smaller one, and a changed published canonical breaks every consumer
+    that resolves it (guardrail 1). Every candidate, with an example:
+      https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank  (40 resource(s), e.g. CapabilityStatement-mii-cps-biobank-capabilitystatement.json)
+      http://hl7.org/fhir/5.0  (1 resource(s), e.g. StructureDefinition-mii-ex-biobank-feature-r5.json)
+      https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition  (1 resource(s), e.g. StructureDefinition-Biobank.json)
+    Take it to Gate A; do not pick one here.
+2026-08-27T16:48:26Z  INFO   2.1  package-identity  done  package=de.medizininformatikinitiative.kerndatensatz.biobank version=2026.0.1  canonical=not-derived exit=1
+    The package was read; the canonical was not derivable from it. That is a
+    Gate-A item (spec §2.1), not a licence to infer one.

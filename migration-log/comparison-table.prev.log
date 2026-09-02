@@ -1,0 +1,7 @@
+usage: comparison-table.py [-h] [--log-dir LOG_DIR] [--map MAP]
+                           [--harvest-tsv HARVEST_TSV] [--derived DERIVED]
+                           [--template-pages TEMPLATE_PAGES]
+                           [--preview-url PREVIEW_URL]
+                           [--source-guide-url SOURCE_GUIDE_URL]
+                           [--source-repo-url SOURCE_REPO_URL] [--out OUT]
+comparison-table.py: error: unrecognized arguments: --target .

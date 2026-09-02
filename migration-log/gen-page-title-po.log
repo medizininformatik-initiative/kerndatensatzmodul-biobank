@@ -1,0 +1,7 @@
+2026-08-27T17:26:28Z  INFO   5.5  gen-page-title-po  params  ig=fsh-generated/resources/ImplementationGuide-mii-ig-biobank-de-v2026.json seed=migration-log/menu-titles-de.txt lang=de out=input/translations/de/ImplementationGuide-mii-ig-biobank-de-v2026.po
+2026-08-27T17:26:28Z  INFO   5.5  gen-page-title-po  seed  path=migration-log/menu-titles-de.txt  lines=20 entries=20 matched=20 applied=1 unused=0
+2026-08-27T17:26:28Z  INFO   5.5  gen-page-title-po  written  out=input/translations/de/ImplementationGuide-mii-ig-biobank-de-v2026.po pages=21 units=21 translated=21 untranslated=0 carried_over=20 preserved_foreign=2 header_preserved=False
+2026-08-27T17:26:28Z  WARN   5.5  gen-page-title-po  unit dropped (no longer in the pages: tree)  title='Operations'
+2026-08-27T17:26:28Z  WARN   5.5  gen-page-title-po  unit dropped (no longer in the pages: tree)  title='Rendering Artifacts (demo)'
+2026-08-27T17:26:28Z  WARN   5.5  gen-page-title-po  unit dropped (no longer in the pages: tree)  title='Search Parameters'
+2026-08-27T17:26:28Z  INFO   5.5  gen-page-title-po  result  exit=0  every page title translated
