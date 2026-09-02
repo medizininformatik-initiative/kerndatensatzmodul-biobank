@@ -9,6 +9,7 @@ Description: "Contact Type für Organization.contact"
 * insert Translation(^title, en-US, MII CS Biobank Contact Type)
 * insert Translation(^description, en-US, Contact Type for Organization.contact)
 * ^status = #active
+* ^caseSensitive = true
 * ^experimental = false
 * insert Publisher
 * insert PR_CS_VS_Version

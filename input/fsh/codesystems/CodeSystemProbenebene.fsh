@@ -8,6 +8,7 @@ Description: "Codes um die Probenebene anzugeben"
 * insert Translation(^title, en-US, MII CS Biobank Specimen Level)
 * insert Translation(^description, en-US, Codes to indicate the level in the Specimen hierarchy)
 * ^status = #active
+* ^caseSensitive = true
 * ^experimental = false
 * insert Publisher
 * insert PR_CS_VS_Version

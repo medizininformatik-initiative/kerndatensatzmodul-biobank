@@ -81,6 +81,7 @@
       "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
     ]
   },
+  "caseSensitive": true,
   "experimental": false,
   "publisher": "Medizininformatik Initiative",
   "contact": [
