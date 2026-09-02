@@ -1,6 +1,13 @@
 <!-- markdownlint-disable MD041 -->
 <!-- TODO:REVIEW machine translation of source page changes.md (de) -->
 
+### Version 2027.0.0-ballot.rc1
+
+Feat:
+
+* Added an extension for Specimen to state the infectiosity status
+* Added the Specimen.focus extension from the EU Lab IG
+
 ### Version 2026.0.1
 
 Fix:

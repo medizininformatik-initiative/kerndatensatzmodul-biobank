@@ -26,14 +26,14 @@ description: "FHIR profiles for representing biospecimen data in biobanks - spec
 status: active # draft | active | retired | unknown
 # MII modules use CalVer YYYY.n.n (e.g. 2026.0.1) per the MII Module Release
 # Workflow — NOT SemVer. Only the template tooling repos use SemVer.
-version: "2026.0.1"
+version: "2027.0.0-ballot.rc1"
 # packageId pattern per the MII naming convention:
 # de.medizininformatikinitiative.kerndatensatz.<slug> (for example,
 # kerndatensatz-basis uses de.medizininformatikinitiative.kerndatensatz.base).
 packageId: de.medizininformatikinitiative.kerndatensatz.biobank
 fhirVersion: 4.0.1 # https://www.hl7.org/fhir/valueset-FHIR-version.html
 copyrightYear: "2021+"
-releaseLabel: Release
+releaseLabel: ballot
 license: CC-BY-4.0 # https://www.hl7.org/fhir/valueset-spdx-license.html — Quelle deklariert kein Paket-Lizenzfeld; CC-BY-4.0 belegt auf Artefaktebene (rulesets/license-terms.fsh, spdx-Extension) — Gate A bestätigt
 # Must equal the publication date; go-publish.yml validates this.
 date: "2026-02-11"
@@ -79,7 +79,7 @@ extension:
       - url: packageId
         valueId: de.medizininformatikinitiative.kerndatensatz.biobank
       - url: version
-        valueString: "2026.0.1"
+        valueString: "2027.0.0-ballot.rc1"
       - url: uri
         valueUri: https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank
   # Year this release sequence became effective
@@ -179,15 +179,17 @@ dependencies:
   # Source pins carried over unchanged (package.json / sushi-config of 2026.0.1);
   # floating pins resolved to the concrete versions the reference module pins:
   # 1.5.x -> 1.5.4, 2026.0.x -> 2026.0.0 (recorded in migration-log/run.log).
-  de.basisprofil.r4: 1.5.4
-  de.medizininformatikinitiative.kerndatensatz.meta: 2026.0.0
+  de.basisprofil.r4: 1.6.0
+  de.medizininformatikinitiative.kerndatensatz.meta: 2027.0.0-ballot.rc3
   # MIABIS on FHIR — source dependency, carried unchanged.
   eu.miabis.r4: 0.2.0
+  # HL7 Europe Laboratory Report — liefert die specimen-focus-Extension (SpecimenCore).
+  hl7.fhir.eu.laboratory: 2.0.0
   # Canonical Resource Management Infrastructure — required by the CRMI
   # profiles claimed under meta.profile above (template machinery, Gate A).
   hl7.fhir.uv.crmi: 2.0.0
   # HL7 Terminology (THO) — pinned DIRECTLY on purpose (publisher auto-add guard).
-  hl7.terminology.r4: 7.3.0
+  hl7.terminology.r4: 7.1.0 # aligned mit meta rc3, eu.laboratory und eu.base (alle pinnen 7.1.0)
   # HL7 Extensions Pack — same rationale as hl7.terminology.r4.
   hl7.fhir.uv.extensions.r4: 5.3.0
 #

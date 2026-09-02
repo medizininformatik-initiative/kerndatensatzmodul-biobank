@@ -1,6 +1,6 @@
 {
   "resourceType": "StructureDefinition",
-  "id": "mii-ex-biobank-einstellung-blutversorgung",
+  "id": "mii-ex-biobank-infektiositaetsstatus",
   "extension": [
     {
       "url": "https://www.medizininformatik-initiative.de/fhir/modul-meta/StructureDefinition/mii-ex-meta-license-codeable",
@@ -15,9 +15,9 @@
       }
     }
   ],
-  "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/EinstellungBlutversorgung",
+  "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/mii-ex-biobank-infektiositaetsstatus",
   "version": "2027.0.0-ballot.rc1",
-  "name": "MII_EX_Biobank_Einstellung_Blutversorgung",
+  "name": "MII_EX_Biobank_Infektiositaetsstatus",
   "_name": {
     "extension": [
       {
@@ -29,13 +29,13 @@
           },
           {
             "url": "content",
-            "valueString": "MII_EX_Biobank_Blood_Supply_Stop"
+            "valueString": "MII_EX_Biobank_Infektiositaetsstatus"
           }
         ]
       }
     ]
   },
-  "title": "MII EX Biobank Einstellung Blutversorgung",
+  "title": "Infektiositätsstatus",
   "_title": {
     "extension": [
       {
@@ -47,7 +47,7 @@
           },
           {
             "url": "content",
-            "valueString": "MII EX Biobank Blood Supply Stop"
+            "valueString": "MII EX Biobank Infectiosity Status"
           }
         ]
       }
@@ -65,7 +65,7 @@
       ]
     }
   ],
-  "description": "Zeitpunkt der Einstellung der Bluversorgung während der Entnahme. Wird z.B. für die Berechnung der kalten bzw. warem Ischämiezeiten benötigt.",
+  "description": "Extension zur Angabe des Infektiositätsstatus einer Probe anhand der Biosafety-Level-Einstufung (BSL-1 bis BSL-4, SNOMED CT) bzw. der Angabe, dass keine Infektionsgefahr bekannt ist.",
   "_description": {
     "extension": [
       {
@@ -77,7 +77,7 @@
           },
           {
             "url": "content",
-            "valueString": "Time of blood supply cessation during collection. Used for calculating cold and warm ischemia times."
+            "valueString": "The extension specifies the infectiosity status of a specimen based on the biosafety level classification ranging from BSL-1 to BSL-4 or an indication that no infection risk is known."
           }
         ]
       }
@@ -89,7 +89,7 @@
   "context": [
     {
       "type": "element",
-      "expression": "Specimen.collection"
+      "expression": "Specimen"
     }
   ],
   "type": "Extension",
@@ -100,8 +100,8 @@
       {
         "id": "Extension",
         "path": "Extension",
-        "short": "MII EX Biobank Einstellung Blutversorgung",
-        "definition": "Zeitpunkt der Einstellung der Bluversorgung während der Entnahme. Wird z.B. für die Berechnung der kalten bzw. warem Ischämiezeiten benötigt."
+        "short": "Infektiositätsstatus",
+        "definition": "Extension zur Angabe des Infektiositätsstatus einer Probe anhand der Biosafety-Level-Einstufung (BSL-1 bis BSL-4, SNOMED CT) bzw. der Angabe, dass keine Infektionsgefahr bekannt ist."
       },
       {
         "id": "Extension.extension",
@@ -111,16 +111,40 @@
       {
         "id": "Extension.url",
         "path": "Extension.url",
-        "fixedUri": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/EinstellungBlutversorgung"
+        "fixedUri": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/mii-ex-biobank-infektiositaetsstatus"
       },
       {
         "id": "Extension.value[x]",
         "path": "Extension.value[x]",
+        "short": "Biosafety-Level (SNOMED CT) bzw. 'keine Infektionsgefahr bekannt'",
+        "_short": {
+          "extension": [
+            {
+              "url": "http://hl7.org/fhir/StructureDefinition/translation",
+              "extension": [
+                {
+                  "url": "lang",
+                  "valueCode": "en-US"
+                },
+                {
+                  "url": "content",
+                  "valueString": "Biosafety level SNOMED CT or no known infection risk"
+                }
+              ]
+            }
+          ]
+        },
+        "min": 1,
         "type": [
           {
-            "code": "dateTime"
+            "code": "CodeableConcept"
           }
-        ]
+        ],
+        "mustSupport": true,
+        "binding": {
+          "strength": "required",
+          "valueSet": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/mii-vs-biobank-biosafety-level"
+        }
       }
     ]
   }

@@ -70,6 +70,7 @@
       "http://hl7.org/fhir/StructureDefinition/shareablecodesystem"
     ]
   },
+  "caseSensitive": true,
   "experimental": false,
   "publisher": "Medizininformatik Initiative",
   "contact": [
@@ -82,7 +83,7 @@
       ]
     }
   ],
-  "version": "2026.0.1",
+  "version": "2027.0.0-ballot.rc1",
   "extension": [
     {
       "url": "https://www.medizininformatik-initiative.de/fhir/modul-meta/StructureDefinition/mii-ex-meta-license-codeable",

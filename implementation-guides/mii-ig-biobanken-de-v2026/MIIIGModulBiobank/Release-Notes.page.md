@@ -1,6 +1,11 @@
 ## {{page-title}}
 
-**Version: 2026.0.0**
+**Version: 2027.0.0-ballot.rc1**
+Feat:
+- Hinzufügen einer Extension für Specimen zur Angabe der Infektiositätsstatus
+- Hinzufügen der Specimen.focus Extension aus dem EU Lab IG
+
+**Version: 2026.0.1**
 Fix:
     - Fix eines Problemes mit der Kardinalität der Extensions in Specimen.processing
 

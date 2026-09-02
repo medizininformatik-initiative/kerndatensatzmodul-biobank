@@ -52,6 +52,14 @@ Vorgenommene Modifikationen: [MII EX Biobank Modifikationen](StructureDefinition
 
 Anzahl der durchgeführten Passagen zur Erzeugung einer Zelllinie oder eines Organoids: [MII EX Biobank Anzahl Passagen](StructureDefinition-mii-ex-biobank-anzahl-passagen.html)
 
+#### Infektiositätsstatus
+
+Extension zur Angabe des Infektiositätsstatus einer Probe anhand der Biosafety-Level-Einstufung (BSL-1 bis BSL-4, SNOMED CT) bzw. der Angabe, dass keine Infektionsgefahr bekannt ist: [MII EX Biobank Infektiositätsstatus](StructureDefinition-mii-ex-biobank-infektiositaetsstatus.html) (ValueSet: [Biosafety-Level](ValueSet-mii-vs-biobank-biosafety-level.html))
+
+#### Focus
+
+Um anzugeben, worauf sich die Probe bezieht, wird die Extension `specimen-focus` aus dem [HL7 Europe Laboratory Report IG](https://hl7.eu/fhir/laboratory/StructureDefinition-specimen-focus.html) eingebunden (externe Extension, Paket `hl7.fhir.eu.laboratory`).
+
 <!-- DERIVED:bridge source=MIIIGModulBiobank/TechnischeImplementierung/FHIR-Profile/Specimen/Extensions.page.md gate=B -->
 > Einleitungssatz und dieser Abschnitt sind bei der Migration neu entstanden (Brückentext; die R5-Extension hatte keine eigene Quellseite).
 {: .ig-highlight .ig-highlight-grey}

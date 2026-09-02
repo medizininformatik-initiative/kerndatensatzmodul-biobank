@@ -1,9 +1,9 @@
 // switch version of all conformance resources here
 RuleSet: Version
-* version = "2026.0.1"
+* version = "2027.0.0-ballot.rc1"
 
 RuleSet: PR_CS_VS_Version
-* ^version = "2026.0.1"
+* ^version = "2027.0.0-ballot.rc1"
 
 // --- appended from mii-kds-module-template v0.11.3 (per-definition merge; module definitions win) ---
 Alias: $artifact-versionAlgorithm = http://hl7.org/fhir/StructureDefinition/artifact-versionAlgorithm
@@ -18,18 +18,18 @@ RuleSet: CRMIPackageSource
 * meta.extension[=].extension[+].url = "packageId"
 * meta.extension[=].extension[=].valueId = "de.medizininformatikinitiative.kerndatensatz.biobank"
 * meta.extension[=].extension[+].url = "version"
-* meta.extension[=].extension[=].valueString = "2026.0.1"
+* meta.extension[=].extension[=].valueString = "2027.0.0-ballot.rc1"
 * meta.extension[=].extension[+].url = "uri"
-* meta.extension[=].extension[=].valueUri = "https://www.medizininformatik-initiative.de/fhir/modul-biobank"
+* meta.extension[=].extension[=].valueUri = "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank"
 
 RuleSet: CRMIPackageSourceDefinitionalResource
 * ^meta.extension[+].url = "http://hl7.org/fhir/StructureDefinition/package-source"
 * ^meta.extension[=].extension[+].url = "packageId"
 * ^meta.extension[=].extension[=].valueId = "de.medizininformatikinitiative.kerndatensatz.biobank"
 * ^meta.extension[=].extension[+].url = "version"
-* ^meta.extension[=].extension[=].valueString = "2026.0.1"
+* ^meta.extension[=].extension[=].valueString = "2027.0.0-ballot.rc1"
 * ^meta.extension[=].extension[+].url = "uri"
-* ^meta.extension[=].extension[=].valueUri = "https://www.medizininformatik-initiative.de/fhir/modul-biobank"
+* ^meta.extension[=].extension[=].valueUri = "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank"
 
 // Resource-independent effective period (StructureDefinition,
 // CapabilityStatement, ImplementationGuide). A release stays the valid
