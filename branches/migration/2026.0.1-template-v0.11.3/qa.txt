@@ -3,7 +3,7 @@ MII_IG_Biobank_DE : Validation Results
 
 err = 81, warn = 415, info = 1923
 IG Publisher Version: 2.3.2 Out of date - current version is 2.3.3
-Generated Wed Sep 02 10:33:44 UTC 2026. FHIR version 4.0.1 for de.medizininformatikinitiative.kerndatensatz.biobank#2027.0.0-ballot.rc2 (canonical = https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank)
+Generated Wed Sep 02 10:38:28 UTC 2026. FHIR version 4.0.1 for de.medizininformatikinitiative.kerndatensatz.biobank#2027.0.0-ballot.rc2 (canonical = https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank)
  Build Errors : 0 / 22 / 0
  /home/runner/work/kerndatensatzmodul-biobank/kerndatensatzmodul-biobank/fsh-generated/resources/CapabilityStatement-mii-cps-biobank-capabilitystatement : 3 / 16 / 50
  /home/runner/work/kerndatensatzmodul-biobank/kerndatensatzmodul-biobank/fsh-generated/resources/CodeSystem-mii-cs-biobank-contact-type : 3 / 1 / 4

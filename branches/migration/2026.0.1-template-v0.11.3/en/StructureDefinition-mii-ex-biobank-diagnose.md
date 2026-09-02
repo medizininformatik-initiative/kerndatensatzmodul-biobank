@@ -81,7 +81,7 @@ Other representations of profile: [CSV](../StructureDefinition-mii-ex-biobank-di
     }]
   },
   "status" : "active",
-  "date" : "2026-09-02T10:26:48+00:00",
+  "date" : "2026-09-02T10:35:14+00:00",
   "publisher" : "Medizininformatik Initiative",
   "contact" : [{
     "name" : "Medizininformatik Initiative",
