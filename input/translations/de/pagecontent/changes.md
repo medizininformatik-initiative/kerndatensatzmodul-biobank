@@ -1,5 +1,13 @@
 <!-- markdownlint-disable MD041 -->
 
+### Version 2027.0.0-ballot.rc2
+
+Fix (Package-Reparatur, inhaltlich wie rc1):
+
+* Package rc1 enthielt leere Snapshots (Specimen/SpecimenCore) und keinen THO-Pin — Neubau mit korrekter Auflösung
+* `caseSensitive = true` für beide CodeSysteme
+* CLO:0037375-Display korrigiert („derives from cell with knockout gene")
+
 ### Version 2027.0.0-ballot.rc1
 
 Feat:

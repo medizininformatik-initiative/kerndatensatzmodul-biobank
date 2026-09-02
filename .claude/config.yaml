@@ -1,0 +1,20 @@
+# Claude Code Configuration — MII Biobank Module (für mii-build-package / mii-publish-package)
+_meta:
+  version: "1.0.0"
+  last_updated: "2026-09-02"
+
+repository:
+  package_id: "de.medizininformatikinitiative.kerndatensatz.biobank"
+
+simplifier:
+  project_url: "https://simplifier.net/medizininformatikinitiative-modulbiobank"
+  package_registry: "https://packages.simplifier.net/de.medizininformatikinitiative.kerndatensatz.biobank"
+
+build:
+  bake_config: "package.bake.yaml"
+  expected_file_count:
+    min: 50
+    max: 120
+  expected_size_kb:
+    min: 100
+    max: 600
