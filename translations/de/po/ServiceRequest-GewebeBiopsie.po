@@ -1,0 +1,11 @@
+
+# Coding.display
+#: Coding.display
+msgid "Needle biopsy of lung (procedure)"
+msgstr ""
+
+# Annotation.text
+#: Annotation.text
+msgid "ServiceRequest zur Entnahme einer Lungenbiopsie für ein Organoid"
+msgstr ""
+

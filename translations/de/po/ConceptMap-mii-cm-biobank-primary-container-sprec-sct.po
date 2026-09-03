@@ -1,0 +1,326 @@
+
+# Coding.display
+#: Coding.display
+msgid "Creative Commons Attribution 4.0 International"
+msgstr ""
+
+# ConceptMap.title
+#: ConceptMap.title
+msgid "SPREC 4.0 Primary Container Mapping"
+msgstr ""
+
+# ConceptMap.publisher
+#: ConceptMap.publisher
+msgid "Medizininformatik Initiative"
+msgstr ""
+
+# ContactDetail.name
+#: ContactDetail.name
+msgid "Medizininformatik Initiative"
+msgstr ""
+
+# ConceptMap.description
+#: ConceptMap.description
+msgid "Mapping der SPREC 4.0 Primary-Container-Containertypen auf die im Modul verwendeten SNOMED CT Codes."
+msgstr ""
+
+# Coding.display
+#: Coding.display
+msgid "Germany"
+msgstr ""
+
+# ConceptMap.copyright
+#: ConceptMap.copyright
+msgid "This concept map includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement. It also includes content from SPREC 4.0, https://doi.org/10.1089/bio.2024.0010"
+msgstr ""
+
+# ConceptMap.group.element.display
+#: ConceptMap.group.element.display
+msgid "Acid citrate dextrose"
+msgstr ""
+
+# ConceptMap.group.element.display
+#: ConceptMap.group.element.display
+msgid "Serum separator tube without clot activator"
+msgstr ""
+
+# ConceptMap.group.element.target.display
+#: ConceptMap.group.element.target.display
+msgid "Non-evacuated blood collection tube, no additive (physical objec)"
+msgstr ""
+
+# ConceptMap.group.element.target.comment
+#: ConceptMap.group.element.target.comment
+msgid "Use only for non-evacuated blood collection tubes."
+msgstr ""
+
+# ConceptMap.group.element.target.display
+#: ConceptMap.group.element.target.display
+msgid "Evacuated blood collection tube, no additive and metal-free (physical object)"
+msgstr ""
+
+# ConceptMap.group.element.target.comment
+#: ConceptMap.group.element.target.comment
+msgid "Use only for metal-free evacuated blood collection tubes."
+msgstr ""
+
+# ConceptMap.group.element.display
+#: ConceptMap.group.element.display
+msgid "Citrate phosphate dextrose"
+msgstr ""
+
+# ConceptMap.group.element.display
+#: ConceptMap.group.element.display
+msgid "Citrate fluoride"
+msgstr ""
+
+# ConceptMap.group.element.display
+#: ConceptMap.group.element.display
+msgid "Cell Preparation Tube citrate"
+msgstr ""
+
+# ConceptMap.group.element.target.display
+#: ConceptMap.group.element.target.display
+msgid "Evacuated blood collection tube (physical object)"
+msgstr ""
+
+# ConceptMap.group.element.target.dependsOn.value
+#: ConceptMap.group.element.target.dependsOn.value
+msgid "59351004"
+msgstr ""
+
+# ConceptMap.group.element.display
+#: ConceptMap.group.element.display
+msgid "Cell Preparation Tube heparin"
+msgstr ""
+
+# ConceptMap.group.element.target.dependsOn.value
+#: ConceptMap.group.element.target.dependsOn.value
+msgid "372877000"
+msgstr ""
+
+# ConceptMap.group.element.display
+#: ConceptMap.group.element.display
+msgid "Aldehyde-based stabilizer for CTCs"
+msgstr ""
+
+# ConceptMap.group.element.display
+#: ConceptMap.group.element.display
+msgid "EDTA and gel"
+msgstr ""
+
+# ConceptMap.group.element.display
+#: ConceptMap.group.element.display
+msgid "Glass"
+msgstr ""
+
+# ConceptMap.group.element.target.display
+#: ConceptMap.group.element.target.display
+msgid "Glass tube, device (physical object)"
+msgstr ""
+
+# ConceptMap.group.element.display
+#: ConceptMap.group.element.display
+msgid "Lithium heparin"
+msgstr ""
+
+# ConceptMap.group.element.target.display
+#: ConceptMap.group.element.target.display
+msgid "Non-evacuated blood collection tube, lithium heparin (physical object)"
+msgstr ""
+
+# ConceptMap.group.element.target.dependsOn.value
+#: ConceptMap.group.element.target.dependsOn.value
+msgid "85899009"
+msgstr ""
+
+# ConceptMap.group.element.display
+#: ConceptMap.group.element.display
+msgid "Hirudin"
+msgstr ""
+
+# ConceptMap.group.element.display
+#: ConceptMap.group.element.display
+msgid "Lithium heparin and rubber plug"
+msgstr ""
+
+# ConceptMap.group.element.target.dependsOn.value
+#: ConceptMap.group.element.target.dependsOn.value
+msgid "43230003"
+msgstr ""
+
+# ConceptMap.group.element.display
+#: ConceptMap.group.element.display
+msgid "Lithium heparin and gel"
+msgstr ""
+
+# ConceptMap.group.element.target.display
+#: ConceptMap.group.element.target.display
+msgid "Evacuated blood collection tube with heparin lithium and gel separator (physical object)"
+msgstr ""
+
+# ConceptMap.group.element.target.comment
+#: ConceptMap.group.element.target.comment
+msgid "Use only for evacuated blood collection tubes."
+msgstr ""
+
+# ConceptMap.group.element.target.display
+#: ConceptMap.group.element.target.display
+msgid "Sterile lithium heparin non-evacuated blood collection tube with gel separator (physical object)"
+msgstr ""
+
+# ConceptMap.group.element.target.comment
+#: ConceptMap.group.element.target.comment
+msgid "Use only for sterile non-evacuated blood collection tubes."
+msgstr ""
+
+# ConceptMap.group.element.target.display
+#: ConceptMap.group.element.target.display
+msgid "Non-evacuated blood collection tube, lithium heparin/gel separator, non-sterile (physical object)"
+msgstr ""
+
+# ConceptMap.group.element.target.comment
+#: ConceptMap.group.element.target.comment
+msgid "Use only for non-sterile non-evacuated blood collection tubes."
+msgstr ""
+
+# ConceptMap.group.element.display
+#: ConceptMap.group.element.display
+msgid "Oragene collection container or equivalent"
+msgstr ""
+
+# ConceptMap.group.element.target.display
+#: ConceptMap.group.element.target.display
+msgid "Secretory specimen container (physical object)"
+msgstr ""
+
+# ConceptMap.group.element.display
+#: ConceptMap.group.element.display
+msgid "Stool collection container with DNA stabilizer"
+msgstr ""
+
+# ConceptMap.group.element.target.display
+#: ConceptMap.group.element.target.display
+msgid "Fecal specimen container (physical object)"
+msgstr ""
+
+# ConceptMap.group.element.display
+#: ConceptMap.group.element.display
+msgid "PAXgene blood RNA"
+msgstr ""
+
+# ConceptMap.group.element.target.display
+#: ConceptMap.group.element.target.display
+msgid "Evacuated blood collection tube, ribonucleic acid stabilizer (physical object)"
+msgstr ""
+
+# ConceptMap.group.element.display
+#: ConceptMap.group.element.display
+msgid "Potassium EDTA"
+msgstr ""
+
+# ConceptMap.group.element.display
+#: ConceptMap.group.element.display
+msgid "Polyethylene tube sterile"
+msgstr ""
+
+# ConceptMap.group.element.target.display
+#: ConceptMap.group.element.target.display
+msgid "|General specimen container, no additive, sterile (physical object)|:|Has compositional material| = |Polyethylene (substance)|"
+msgstr ""
+
+# ConceptMap.group.element.display
+#: ConceptMap.group.element.display
+msgid "S8820 protease inhibitor tablets or equivalent"
+msgstr ""
+
+# ConceptMap.group.element.display
+#: ConceptMap.group.element.display
+msgid "Protease inhibitors"
+msgstr ""
+
+# ConceptMap.group.element.display
+#: ConceptMap.group.element.display
+msgid "Polypropylene tube sterile"
+msgstr ""
+
+# ConceptMap.group.element.target.display
+#: ConceptMap.group.element.target.display
+msgid "General specimen container, no additive, sterile (physical object)|:|Has compositional material| = |Polypropylene (substance)|"
+msgstr ""
+
+# ConceptMap.group.element.display
+#: ConceptMap.group.element.display
+msgid "Sodium citrate"
+msgstr ""
+
+# ConceptMap.group.element.target.display
+#: ConceptMap.group.element.target.display
+msgid "Non-evacuated blood collection tube, sodium citrate (physical object)"
+msgstr ""
+
+# ConceptMap.group.element.target.dependsOn.value
+#: ConceptMap.group.element.target.dependsOn.value
+msgid "412546005"
+msgstr ""
+
+# ConceptMap.group.element.display
+#: ConceptMap.group.element.display
+msgid "Sodium EDTA"
+msgstr ""
+
+# ConceptMap.group.element.display
+#: ConceptMap.group.element.display
+msgid "Sodium heparin"
+msgstr ""
+
+# ConceptMap.group.element.target.display
+#: ConceptMap.group.element.target.display
+msgid "Evacuated blood collection tube with heparin sodium (physical object) "
+msgstr ""
+
+# ConceptMap.group.element.target.dependsOn.value
+#: ConceptMap.group.element.target.dependsOn.value
+msgid "50045009"
+msgstr ""
+
+# ConceptMap.group.element.display
+#: ConceptMap.group.element.display
+msgid "Sodium fluoride/potassium oxalate"
+msgstr ""
+
+# ConceptMap.group.element.target.display
+#: ConceptMap.group.element.target.display
+msgid "Non-evacuated blood collection tube, potassium oxalate/sodium fluoride (physical object) "
+msgstr ""
+
+# ConceptMap.group.element.target.dependsOn.value
+#: ConceptMap.group.element.target.dependsOn.value
+msgid "6910009"
+msgstr ""
+
+# ConceptMap.group.element.target.dependsOn.value
+#: ConceptMap.group.element.target.dependsOn.value
+msgid "34261003"
+msgstr ""
+
+# ConceptMap.group.element.display
+#: ConceptMap.group.element.display
+msgid "Serum separator tube with clot activator"
+msgstr ""
+
+# ConceptMap.group.element.target.display
+#: ConceptMap.group.element.target.display
+msgid "Non-evacuated blood collection tube, clot activator (physical object) "
+msgstr ""
+
+# ConceptMap.group.element.target.display
+#: ConceptMap.group.element.target.display
+msgid "Evacuated blood collection tube with clot activator (physical object) "
+msgstr ""
+
+# ConceptMap.group.element.display
+#: ConceptMap.group.element.display
+msgid "Tempus tube"
+msgstr ""
+

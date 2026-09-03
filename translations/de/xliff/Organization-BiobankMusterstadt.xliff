@@ -1,0 +1,57 @@
+<?xml version="1.0" ?>
+
+<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0">
+  <file source-language="en" target-language="de" id="Organization-BiobankMusterstadt" original="Resource Organization-BiobankMusterstadt" datatype="KEYVALUEJSON">
+    <body>
+      <trans-unit id="Organization-BiobankMusterstadt" resname="Organization.name">
+             <notes>
+               <note id="n1">Organization.name</note>
+             </notes>
+        <source>Biobank Musterstadt</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="Organization-BiobankMusterstadt" resname="HumanName.family">
+             <notes>
+               <note id="n1">HumanName.family</note>
+             </notes>
+        <source>Mustermann</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="Organization-BiobankMusterstadt" resname="HumanName.given">
+             <notes>
+               <note id="n1">HumanName.given</note>
+             </notes>
+        <source>Max</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="Organization-BiobankMusterstadt" resname="HumanName.prefix">
+             <notes>
+               <note id="n1">HumanName.prefix</note>
+             </notes>
+        <source>Prof.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="Organization-BiobankMusterstadt" resname="Address.line">
+             <notes>
+               <note id="n1">Address.line</note>
+             </notes>
+        <source>Musterstrasse 3</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="Organization-BiobankMusterstadt" resname="Address.city">
+             <notes>
+               <note id="n1">Address.city</note>
+             </notes>
+        <source>Musterstadt</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="Organization-BiobankMusterstadt" resname="Address.postalCode">
+             <notes>
+               <note id="n1">Address.postalCode</note>
+             </notes>
+        <source>00000</source>
+        <target></target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

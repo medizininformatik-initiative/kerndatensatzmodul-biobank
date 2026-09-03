@@ -1,0 +1,19 @@
+{
+  "id" : "Observation-KaryotypOrganoidLunge",
+  "baseLang" : "en",
+  "languages" : [{
+    "targetLang" : "de",
+    "entries" : [{
+      "id" : "Coding.display",
+      "context" : "Coding.display",
+      "source" : "Karyotype (cell structure)",
+      "target" : null
+    },
+    {
+      "id" : "Coding.display",
+      "context" : "Coding.display",
+      "source" : "Karyotype 46, XX",
+      "target" : null
+    }]
+  }]
+}

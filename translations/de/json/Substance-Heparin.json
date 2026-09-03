@@ -1,0 +1,13 @@
+{
+  "id" : "Substance-Heparin",
+  "baseLang" : "en",
+  "languages" : [{
+    "targetLang" : "de",
+    "entries" : [{
+      "id" : "Coding.display",
+      "context" : "Coding.display",
+      "source" : "Heparin (substance)",
+      "target" : null
+    }]
+  }]
+}

@@ -1,0 +1,155 @@
+<?xml version="1.0" ?>
+
+<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0">
+  <file source-language="en" target-language="de" id="ConceptMap-mii-cm-biobank-long-term-storage-sprec-sct" original="Resource ConceptMap-mii-cm-biobank-long-term-storage-sprec-sct" datatype="KEYVALUEJSON">
+    <body>
+      <trans-unit id="ConceptMap-mii-cm-biobank-long-term-storage-sprec-sct" resname="Coding.display">
+             <notes>
+               <note id="n1">Coding.display</note>
+             </notes>
+        <source>Creative Commons Attribution 4.0 International</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-mii-cm-biobank-long-term-storage-sprec-sct" resname="ConceptMap.title">
+             <notes>
+               <note id="n1">ConceptMap.title</note>
+             </notes>
+        <source>SPREC 4.0 Long-Term Storage Mapping</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-mii-cm-biobank-long-term-storage-sprec-sct" resname="ConceptMap.publisher">
+             <notes>
+               <note id="n1">ConceptMap.publisher</note>
+             </notes>
+        <source>Medizininformatik Initiative</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-mii-cm-biobank-long-term-storage-sprec-sct" resname="ContactDetail.name">
+             <notes>
+               <note id="n1">ContactDetail.name</note>
+             </notes>
+        <source>Medizininformatik Initiative</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-mii-cm-biobank-long-term-storage-sprec-sct" resname="ConceptMap.description">
+             <notes>
+               <note id="n1">ConceptMap.description</note>
+             </notes>
+        <source>Mapping der SPREC 4.0 Long-Term Storage Containertypen auf die im Modul verwendeten SNOMED CT Codes.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-mii-cm-biobank-long-term-storage-sprec-sct" resname="Coding.display">
+             <notes>
+               <note id="n1">Coding.display</note>
+             </notes>
+        <source>Germany</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-mii-cm-biobank-long-term-storage-sprec-sct" resname="ConceptMap.copyright">
+             <notes>
+               <note id="n1">ConceptMap.copyright</note>
+             </notes>
+        <source>This concept map includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement. It also includes content from SPREC 4.0, https://doi.org/10.1089/bio.2024.0010</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-mii-cm-biobank-long-term-storage-sprec-sct" resname="ConceptMap.group.element.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.display</note>
+             </notes>
+        <source>PP tube</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-mii-cm-biobank-long-term-storage-sprec-sct" resname="ConceptMap.group.element.target.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.target.display</note>
+             </notes>
+        <source>General specimen container, no additive, sterile (physical object): Has compositional material=Polypropylene (substance)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-mii-cm-biobank-long-term-storage-sprec-sct" resname="ConceptMap.group.element.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.display</note>
+             </notes>
+        <source>Cryotube</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-mii-cm-biobank-long-term-storage-sprec-sct" resname="ConceptMap.group.element.target.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.target.display</note>
+             </notes>
+        <source>General specimen container, no additive, sterile (physical object)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-mii-cm-biobank-long-term-storage-sprec-sct" resname="ConceptMap.group.element.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.display</note>
+             </notes>
+        <source>Straw</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-mii-cm-biobank-long-term-storage-sprec-sct" resname="ConceptMap.group.element.target.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.target.display</note>
+             </notes>
+        <source>Tissue storage straw (physical object)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-mii-cm-biobank-long-term-storage-sprec-sct" resname="ConceptMap.group.element.target.comment">
+             <notes>
+               <note id="n1">ConceptMap.group.element.target.comment</note>
+             </notes>
+        <source>Der SNOMED Code gilt nur für Tissue straws.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-mii-cm-biobank-long-term-storage-sprec-sct" resname="ConceptMap.group.element.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.display</note>
+             </notes>
+        <source>Microplate well</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-mii-cm-biobank-long-term-storage-sprec-sct" resname="ConceptMap.group.element.target.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.target.display</note>
+             </notes>
+        <source>Specimen well (physical object)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-mii-cm-biobank-long-term-storage-sprec-sct" resname="ConceptMap.group.element.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.display</note>
+             </notes>
+        <source>Paraffin block</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-mii-cm-biobank-long-term-storage-sprec-sct" resname="ConceptMap.group.element.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.display</note>
+             </notes>
+        <source>Bag</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-mii-cm-biobank-long-term-storage-sprec-sct" resname="ConceptMap.group.element.target.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.target.display</note>
+             </notes>
+        <source>Medical bag (physical object)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-mii-cm-biobank-long-term-storage-sprec-sct" resname="ConceptMap.group.element.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.display</note>
+             </notes>
+        <source>Other</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-mii-cm-biobank-long-term-storage-sprec-sct" resname="ConceptMap.group.element.target.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.target.display</note>
+             </notes>
+        <source>Container (physical object)</source>
+        <target></target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

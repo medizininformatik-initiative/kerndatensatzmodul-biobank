@@ -1,0 +1,71 @@
+<?xml version="1.0" ?>
+
+<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0">
+  <file source-language="en" target-language="de" id="ValueSet-mii-vs-biobank-laboratory-procedure-sct" original="Resource ValueSet-mii-vs-biobank-laboratory-procedure-sct" datatype="KEYVALUEJSON">
+    <body>
+      <trans-unit id="ValueSet-mii-vs-biobank-laboratory-procedure-sct" resname="Coding.display">
+             <notes>
+               <note id="n1">Coding.display</note>
+             </notes>
+        <source>Creative Commons Attribution 4.0 International</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-mii-vs-biobank-laboratory-procedure-sct" resname="ValueSet.name">
+             <notes>
+               <note id="n1">ValueSet.name</note>
+             </notes>
+        <source>MII_VS_Biobank_Laboratory_Procedure_SCT</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-mii-vs-biobank-laboratory-procedure-sct" resname="ValueSet.title">
+             <notes>
+               <note id="n1">ValueSet.title</note>
+             </notes>
+        <source>MII VS Biobank Laboratory Procedure SCT</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-mii-vs-biobank-laboratory-procedure-sct" resname="ValueSet.publisher">
+             <notes>
+               <note id="n1">ValueSet.publisher</note>
+             </notes>
+        <source>Medizininformatik Initiative</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-mii-vs-biobank-laboratory-procedure-sct" resname="ContactDetail.name">
+             <notes>
+               <note id="n1">ContactDetail.name</note>
+             </notes>
+        <source>Medizininformatik Initiative</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-mii-vs-biobank-laboratory-procedure-sct" resname="ValueSet.description">
+             <notes>
+               <note id="n1">ValueSet.description</note>
+             </notes>
+        <source>Value Set for Specimen Processing Laboratory Procedures (SNOMED CT)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-mii-vs-biobank-laboratory-procedure-sct" resname="Coding.display">
+             <notes>
+               <note id="n1">Coding.display</note>
+             </notes>
+        <source>Germany</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-mii-vs-biobank-laboratory-procedure-sct" resname="ValueSet.copyright">
+             <notes>
+               <note id="n1">ValueSet.copyright</note>
+             </notes>
+        <source>This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ValueSet-mii-vs-biobank-laboratory-procedure-sct" resname="ValueSet.compose.include.filter.value">
+             <notes>
+               <note id="n1">ValueSet.compose.include.filter.value</note>
+             </notes>
+        <source>108252007</source>
+        <target></target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+
+<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0">
+  <file source-language="en" target-language="de" id="Observation-KaryotypOrganoidLunge" original="Resource Observation-KaryotypOrganoidLunge" datatype="KEYVALUEJSON">
+    <body>
+      <trans-unit id="Observation-KaryotypOrganoidLunge" resname="Coding.display">
+             <notes>
+               <note id="n1">Coding.display</note>
+             </notes>
+        <source>Karyotype (cell structure)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="Observation-KaryotypOrganoidLunge" resname="Coding.display">
+             <notes>
+               <note id="n1">Coding.display</note>
+             </notes>
+        <source>Karyotype 46, XX</source>
+        <target></target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

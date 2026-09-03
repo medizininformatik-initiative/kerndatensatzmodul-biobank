@@ -1,0 +1,19 @@
+{
+  "id" : "Observation-ProliferationOrganoidLunge",
+  "baseLang" : "en",
+  "languages" : [{
+    "targetLang" : "de",
+    "entries" : [{
+      "id" : "Coding.display",
+      "context" : "Coding.display",
+      "source" : "cell population proliferation",
+      "target" : null
+    },
+    {
+      "id" : "Coding.display",
+      "context" : "Coding.display",
+      "source" : "viable",
+      "target" : null
+    }]
+  }]
+}

@@ -1,0 +1,11 @@
+
+# Coding.display
+#: Coding.display
+msgid "Karyotype (cell structure)"
+msgstr ""
+
+# Coding.display
+#: Coding.display
+msgid "Karyotype 46, XX"
+msgstr ""
+

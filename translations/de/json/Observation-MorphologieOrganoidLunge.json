@@ -1,0 +1,19 @@
+{
+  "id" : "Observation-MorphologieOrganoidLunge",
+  "baseLang" : "en",
+  "languages" : [{
+    "targetLang" : "de",
+    "entries" : [{
+      "id" : "Coding.display",
+      "context" : "Coding.display",
+      "source" : "cell morphology",
+      "target" : null
+    },
+    {
+      "id" : "Coding.display",
+      "context" : "Coding.display",
+      "source" : "Cell structure alteration (morphologic abnormality)",
+      "target" : null
+    }]
+  }]
+}

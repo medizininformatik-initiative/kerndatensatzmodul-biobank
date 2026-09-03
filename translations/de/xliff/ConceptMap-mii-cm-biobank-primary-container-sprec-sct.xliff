@@ -1,0 +1,463 @@
+<?xml version="1.0" ?>
+
+<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0">
+  <file source-language="en" target-language="de" id="ConceptMap-mii-cm-biobank-primary-container-sprec-sct" original="Resource ConceptMap-mii-cm-biobank-primary-container-sprec-sct" datatype="KEYVALUEJSON">
+    <body>
+      <trans-unit id="ConceptMap-mii-cm-biobank-primary-container-sprec-sct" resname="Coding.display">
+             <notes>
+               <note id="n1">Coding.display</note>
+             </notes>
+        <source>Creative Commons Attribution 4.0 International</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-mii-cm-biobank-primary-container-sprec-sct" resname="ConceptMap.title">
+             <notes>
+               <note id="n1">ConceptMap.title</note>
+             </notes>
+        <source>SPREC 4.0 Primary Container Mapping</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-mii-cm-biobank-primary-container-sprec-sct" resname="ConceptMap.publisher">
+             <notes>
+               <note id="n1">ConceptMap.publisher</note>
+             </notes>
+        <source>Medizininformatik Initiative</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-mii-cm-biobank-primary-container-sprec-sct" resname="ContactDetail.name">
+             <notes>
+               <note id="n1">ContactDetail.name</note>
+             </notes>
+        <source>Medizininformatik Initiative</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-mii-cm-biobank-primary-container-sprec-sct" resname="ConceptMap.description">
+             <notes>
+               <note id="n1">ConceptMap.description</note>
+             </notes>
+        <source>Mapping der SPREC 4.0 Primary-Container-Containertypen auf die im Modul verwendeten SNOMED CT Codes.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-mii-cm-biobank-primary-container-sprec-sct" resname="Coding.display">
+             <notes>
+               <note id="n1">Coding.display</note>
+             </notes>
+        <source>Germany</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-mii-cm-biobank-primary-container-sprec-sct" resname="ConceptMap.copyright">
+             <notes>
+               <note id="n1">ConceptMap.copyright</note>
+             </notes>
+        <source>This concept map includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement. It also includes content from SPREC 4.0, https://doi.org/10.1089/bio.2024.0010</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-mii-cm-biobank-primary-container-sprec-sct" resname="ConceptMap.group.element.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.display</note>
+             </notes>
+        <source>Acid citrate dextrose</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-mii-cm-biobank-primary-container-sprec-sct" resname="ConceptMap.group.element.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.display</note>
+             </notes>
+        <source>Serum separator tube without clot activator</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-mii-cm-biobank-primary-container-sprec-sct" resname="ConceptMap.group.element.target.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.target.display</note>
+             </notes>
+        <source>Non-evacuated blood collection tube, no additive (physical objec)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-mii-cm-biobank-primary-container-sprec-sct" resname="ConceptMap.group.element.target.comment">
+             <notes>
+               <note id="n1">ConceptMap.group.element.target.comment</note>
+             </notes>
+        <source>Use only for non-evacuated blood collection tubes.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-mii-cm-biobank-primary-container-sprec-sct" resname="ConceptMap.group.element.target.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.target.display</note>
+             </notes>
+        <source>Evacuated blood collection tube, no additive and metal-free (physical object)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-mii-cm-biobank-primary-container-sprec-sct" resname="ConceptMap.group.element.target.comment">
+             <notes>
+               <note id="n1">ConceptMap.group.element.target.comment</note>
+             </notes>
+        <source>Use only for metal-free evacuated blood collection tubes.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-mii-cm-biobank-primary-container-sprec-sct" resname="ConceptMap.group.element.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.display</note>
+             </notes>
+        <source>Citrate phosphate dextrose</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-mii-cm-biobank-primary-container-sprec-sct" resname="ConceptMap.group.element.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.display</note>
+             </notes>
+        <source>Citrate fluoride</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-mii-cm-biobank-primary-container-sprec-sct" resname="ConceptMap.group.element.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.display</note>
+             </notes>
+        <source>Cell Preparation Tube citrate</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-mii-cm-biobank-primary-container-sprec-sct" resname="ConceptMap.group.element.target.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.target.display</note>
+             </notes>
+        <source>Evacuated blood collection tube (physical object)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-mii-cm-biobank-primary-container-sprec-sct" resname="ConceptMap.group.element.target.dependsOn.value">
+             <notes>
+               <note id="n1">ConceptMap.group.element.target.dependsOn.value</note>
+             </notes>
+        <source>59351004</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-mii-cm-biobank-primary-container-sprec-sct" resname="ConceptMap.group.element.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.display</note>
+             </notes>
+        <source>Cell Preparation Tube heparin</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-mii-cm-biobank-primary-container-sprec-sct" resname="ConceptMap.group.element.target.dependsOn.value">
+             <notes>
+               <note id="n1">ConceptMap.group.element.target.dependsOn.value</note>
+             </notes>
+        <source>372877000</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-mii-cm-biobank-primary-container-sprec-sct" resname="ConceptMap.group.element.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.display</note>
+             </notes>
+        <source>Aldehyde-based stabilizer for CTCs</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-mii-cm-biobank-primary-container-sprec-sct" resname="ConceptMap.group.element.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.display</note>
+             </notes>
+        <source>EDTA and gel</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-mii-cm-biobank-primary-container-sprec-sct" resname="ConceptMap.group.element.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.display</note>
+             </notes>
+        <source>Glass</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-mii-cm-biobank-primary-container-sprec-sct" resname="ConceptMap.group.element.target.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.target.display</note>
+             </notes>
+        <source>Glass tube, device (physical object)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-mii-cm-biobank-primary-container-sprec-sct" resname="ConceptMap.group.element.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.display</note>
+             </notes>
+        <source>Lithium heparin</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-mii-cm-biobank-primary-container-sprec-sct" resname="ConceptMap.group.element.target.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.target.display</note>
+             </notes>
+        <source>Non-evacuated blood collection tube, lithium heparin (physical object)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-mii-cm-biobank-primary-container-sprec-sct" resname="ConceptMap.group.element.target.dependsOn.value">
+             <notes>
+               <note id="n1">ConceptMap.group.element.target.dependsOn.value</note>
+             </notes>
+        <source>85899009</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-mii-cm-biobank-primary-container-sprec-sct" resname="ConceptMap.group.element.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.display</note>
+             </notes>
+        <source>Hirudin</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-mii-cm-biobank-primary-container-sprec-sct" resname="ConceptMap.group.element.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.display</note>
+             </notes>
+        <source>Lithium heparin and rubber plug</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-mii-cm-biobank-primary-container-sprec-sct" resname="ConceptMap.group.element.target.dependsOn.value">
+             <notes>
+               <note id="n1">ConceptMap.group.element.target.dependsOn.value</note>
+             </notes>
+        <source>43230003</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-mii-cm-biobank-primary-container-sprec-sct" resname="ConceptMap.group.element.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.display</note>
+             </notes>
+        <source>Lithium heparin and gel</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-mii-cm-biobank-primary-container-sprec-sct" resname="ConceptMap.group.element.target.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.target.display</note>
+             </notes>
+        <source>Evacuated blood collection tube with heparin lithium and gel separator (physical object)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-mii-cm-biobank-primary-container-sprec-sct" resname="ConceptMap.group.element.target.comment">
+             <notes>
+               <note id="n1">ConceptMap.group.element.target.comment</note>
+             </notes>
+        <source>Use only for evacuated blood collection tubes.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-mii-cm-biobank-primary-container-sprec-sct" resname="ConceptMap.group.element.target.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.target.display</note>
+             </notes>
+        <source>Sterile lithium heparin non-evacuated blood collection tube with gel separator (physical object)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-mii-cm-biobank-primary-container-sprec-sct" resname="ConceptMap.group.element.target.comment">
+             <notes>
+               <note id="n1">ConceptMap.group.element.target.comment</note>
+             </notes>
+        <source>Use only for sterile non-evacuated blood collection tubes.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-mii-cm-biobank-primary-container-sprec-sct" resname="ConceptMap.group.element.target.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.target.display</note>
+             </notes>
+        <source>Non-evacuated blood collection tube, lithium heparin/gel separator, non-sterile (physical object)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-mii-cm-biobank-primary-container-sprec-sct" resname="ConceptMap.group.element.target.comment">
+             <notes>
+               <note id="n1">ConceptMap.group.element.target.comment</note>
+             </notes>
+        <source>Use only for non-sterile non-evacuated blood collection tubes.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-mii-cm-biobank-primary-container-sprec-sct" resname="ConceptMap.group.element.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.display</note>
+             </notes>
+        <source>Oragene collection container or equivalent</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-mii-cm-biobank-primary-container-sprec-sct" resname="ConceptMap.group.element.target.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.target.display</note>
+             </notes>
+        <source>Secretory specimen container (physical object)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-mii-cm-biobank-primary-container-sprec-sct" resname="ConceptMap.group.element.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.display</note>
+             </notes>
+        <source>Stool collection container with DNA stabilizer</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-mii-cm-biobank-primary-container-sprec-sct" resname="ConceptMap.group.element.target.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.target.display</note>
+             </notes>
+        <source>Fecal specimen container (physical object)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-mii-cm-biobank-primary-container-sprec-sct" resname="ConceptMap.group.element.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.display</note>
+             </notes>
+        <source>PAXgene blood RNA</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-mii-cm-biobank-primary-container-sprec-sct" resname="ConceptMap.group.element.target.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.target.display</note>
+             </notes>
+        <source>Evacuated blood collection tube, ribonucleic acid stabilizer (physical object)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-mii-cm-biobank-primary-container-sprec-sct" resname="ConceptMap.group.element.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.display</note>
+             </notes>
+        <source>Potassium EDTA</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-mii-cm-biobank-primary-container-sprec-sct" resname="ConceptMap.group.element.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.display</note>
+             </notes>
+        <source>Polyethylene tube sterile</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-mii-cm-biobank-primary-container-sprec-sct" resname="ConceptMap.group.element.target.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.target.display</note>
+             </notes>
+        <source>|General specimen container, no additive, sterile (physical object)|:|Has compositional material| = |Polyethylene (substance)|</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-mii-cm-biobank-primary-container-sprec-sct" resname="ConceptMap.group.element.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.display</note>
+             </notes>
+        <source>S8820 protease inhibitor tablets or equivalent</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-mii-cm-biobank-primary-container-sprec-sct" resname="ConceptMap.group.element.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.display</note>
+             </notes>
+        <source>Protease inhibitors</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-mii-cm-biobank-primary-container-sprec-sct" resname="ConceptMap.group.element.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.display</note>
+             </notes>
+        <source>Polypropylene tube sterile</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-mii-cm-biobank-primary-container-sprec-sct" resname="ConceptMap.group.element.target.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.target.display</note>
+             </notes>
+        <source>General specimen container, no additive, sterile (physical object)|:|Has compositional material| = |Polypropylene (substance)|</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-mii-cm-biobank-primary-container-sprec-sct" resname="ConceptMap.group.element.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.display</note>
+             </notes>
+        <source>Sodium citrate</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-mii-cm-biobank-primary-container-sprec-sct" resname="ConceptMap.group.element.target.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.target.display</note>
+             </notes>
+        <source>Non-evacuated blood collection tube, sodium citrate (physical object)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-mii-cm-biobank-primary-container-sprec-sct" resname="ConceptMap.group.element.target.dependsOn.value">
+             <notes>
+               <note id="n1">ConceptMap.group.element.target.dependsOn.value</note>
+             </notes>
+        <source>412546005</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-mii-cm-biobank-primary-container-sprec-sct" resname="ConceptMap.group.element.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.display</note>
+             </notes>
+        <source>Sodium EDTA</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-mii-cm-biobank-primary-container-sprec-sct" resname="ConceptMap.group.element.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.display</note>
+             </notes>
+        <source>Sodium heparin</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-mii-cm-biobank-primary-container-sprec-sct" resname="ConceptMap.group.element.target.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.target.display</note>
+             </notes>
+        <source>Evacuated blood collection tube with heparin sodium (physical object) </source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-mii-cm-biobank-primary-container-sprec-sct" resname="ConceptMap.group.element.target.dependsOn.value">
+             <notes>
+               <note id="n1">ConceptMap.group.element.target.dependsOn.value</note>
+             </notes>
+        <source>50045009</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-mii-cm-biobank-primary-container-sprec-sct" resname="ConceptMap.group.element.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.display</note>
+             </notes>
+        <source>Sodium fluoride/potassium oxalate</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-mii-cm-biobank-primary-container-sprec-sct" resname="ConceptMap.group.element.target.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.target.display</note>
+             </notes>
+        <source>Non-evacuated blood collection tube, potassium oxalate/sodium fluoride (physical object) </source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-mii-cm-biobank-primary-container-sprec-sct" resname="ConceptMap.group.element.target.dependsOn.value">
+             <notes>
+               <note id="n1">ConceptMap.group.element.target.dependsOn.value</note>
+             </notes>
+        <source>6910009</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-mii-cm-biobank-primary-container-sprec-sct" resname="ConceptMap.group.element.target.dependsOn.value">
+             <notes>
+               <note id="n1">ConceptMap.group.element.target.dependsOn.value</note>
+             </notes>
+        <source>34261003</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-mii-cm-biobank-primary-container-sprec-sct" resname="ConceptMap.group.element.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.display</note>
+             </notes>
+        <source>Serum separator tube with clot activator</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-mii-cm-biobank-primary-container-sprec-sct" resname="ConceptMap.group.element.target.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.target.display</note>
+             </notes>
+        <source>Non-evacuated blood collection tube, clot activator (physical object) </source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-mii-cm-biobank-primary-container-sprec-sct" resname="ConceptMap.group.element.target.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.target.display</note>
+             </notes>
+        <source>Evacuated blood collection tube with clot activator (physical object) </source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-mii-cm-biobank-primary-container-sprec-sct" resname="ConceptMap.group.element.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.display</note>
+             </notes>
+        <source>Tempus tube</source>
+        <target></target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

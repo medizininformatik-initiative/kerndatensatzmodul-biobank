@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+
+<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0">
+  <file source-language="en" target-language="de" id="Observation-QualitaetspruefungBuffyCoat" original="Resource Observation-QualitaetspruefungBuffyCoat" datatype="KEYVALUEJSON">
+    <body>
+      <trans-unit id="Observation-QualitaetspruefungBuffyCoat" resname="Coding.display">
+             <notes>
+               <note id="n1">Coding.display</note>
+             </notes>
+        <source>Quality monitoring (procedure)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="Observation-QualitaetspruefungBuffyCoat" resname="Coding.display">
+             <notes>
+               <note id="n1">Coding.display</note>
+             </notes>
+        <source>Test protocol used (attribute)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="Observation-QualitaetspruefungBuffyCoat" resname="Coding.display">
+             <notes>
+               <note id="n1">Coding.display</note>
+             </notes>
+        <source>Hemolysis screening test (procedure)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="Observation-QualitaetspruefungBuffyCoat" resname="Coding.display">
+             <notes>
+               <note id="n1">Coding.display</note>
+             </notes>
+        <source>Resulting in (attribute)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="Observation-QualitaetspruefungBuffyCoat" resname="Coding.display">
+             <notes>
+               <note id="n1">Coding.display</note>
+             </notes>
+        <source>Pass</source>
+        <target></target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

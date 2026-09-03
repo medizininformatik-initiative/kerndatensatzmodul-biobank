@@ -1,0 +1,19 @@
+{
+  "id" : "DocumentReference-ProtocolCRISPRTP53",
+  "baseLang" : "en",
+  "languages" : [{
+    "targetLang" : "de",
+    "entries" : [{
+      "id" : "DocumentReference.description",
+      "context" : "DocumentReference.description",
+      "source" : "CRISPR Knockout-Protokoll für TP53 in Lungentumor-Organoiden",
+      "target" : null
+    },
+    {
+      "id" : "Attachment.title",
+      "context" : "Attachment.title",
+      "source" : "CRISPR TP53 Knockout Protokoll v1",
+      "target" : null
+    }]
+  }]
+}

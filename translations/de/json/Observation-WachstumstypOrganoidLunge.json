@@ -1,0 +1,19 @@
+{
+  "id" : "Observation-WachstumstypOrganoidLunge",
+  "baseLang" : "en",
+  "languages" : [{
+    "targetLang" : "de",
+    "entries" : [{
+      "id" : "Coding.display",
+      "context" : "Coding.display",
+      "source" : "cell culture growth mode",
+      "target" : null
+    },
+    {
+      "id" : "Coding.display",
+      "context" : "Coding.display",
+      "source" : "adherent cell culture growth mode",
+      "target" : null
+    }]
+  }]
+}

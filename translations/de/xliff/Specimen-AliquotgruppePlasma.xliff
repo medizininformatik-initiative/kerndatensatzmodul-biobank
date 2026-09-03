@@ -1,0 +1,71 @@
+<?xml version="1.0" ?>
+
+<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0">
+  <file source-language="en" target-language="de" id="Specimen-AliquotgruppePlasma" original="Resource Specimen-AliquotgruppePlasma" datatype="KEYVALUEJSON">
+    <body>
+      <trans-unit id="Specimen-AliquotgruppePlasma" resname="Coding.display">
+             <notes>
+               <note id="n1">Coding.display</note>
+             </notes>
+        <source>Aliquotgruppe</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="Specimen-AliquotgruppePlasma" resname="Coding.display">
+             <notes>
+               <note id="n1">Coding.display</note>
+             </notes>
+        <source>Plasma specimen (specimen)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="Specimen-AliquotgruppePlasma" resname="Coding.display">
+             <notes>
+               <note id="n1">Coding.display</note>
+             </notes>
+        <source>Plasma</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="Specimen-AliquotgruppePlasma" resname="Quantity.unit">
+             <notes>
+               <note id="n1">Quantity.unit</note>
+             </notes>
+        <source>°C</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="Specimen-AliquotgruppePlasma" resname="Coding.display">
+             <notes>
+               <note id="n1">Coding.display</note>
+             </notes>
+        <source>Room temperature</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="Specimen-AliquotgruppePlasma" resname="Coding.display">
+             <notes>
+               <note id="n1">Coding.display</note>
+             </notes>
+        <source>Storage of specimen (procedure)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="Specimen-AliquotgruppePlasma" resname="Coding.display">
+             <notes>
+               <note id="n1">Coding.display</note>
+             </notes>
+        <source>between -60 and -85 degrees Celsius</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="Specimen-AliquotgruppePlasma" resname="Coding.display">
+             <notes>
+               <note id="n1">Coding.display</note>
+             </notes>
+        <source>Tube, device (physical object)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="Specimen-AliquotgruppePlasma" resname="Quantity.unit">
+             <notes>
+               <note id="n1">Quantity.unit</note>
+             </notes>
+        <source>ml</source>
+        <target></target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

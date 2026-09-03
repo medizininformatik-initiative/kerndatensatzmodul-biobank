@@ -1,0 +1,36 @@
+
+# Organization.name
+#: Organization.name
+msgid "Biobank Musterstadt"
+msgstr ""
+
+# HumanName.family
+#: HumanName.family
+msgid "Mustermann"
+msgstr ""
+
+# HumanName.given
+#: HumanName.given
+msgid "Max"
+msgstr ""
+
+# HumanName.prefix
+#: HumanName.prefix
+msgid "Prof."
+msgstr ""
+
+# Address.line
+#: Address.line
+msgid "Musterstrasse 3"
+msgstr ""
+
+# Address.city
+#: Address.city
+msgid "Musterstadt"
+msgstr ""
+
+# Address.postalCode
+#: Address.postalCode
+msgid "00000"
+msgstr ""
+

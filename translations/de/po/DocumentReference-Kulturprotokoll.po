@@ -1,0 +1,11 @@
+
+# DocumentReference.description
+#: DocumentReference.description
+msgid "Standardprotokoll zur Kultivierung von Lungentumor-Organoiden"
+msgstr ""
+
+# Attachment.title
+#: Attachment.title
+msgid "Lungen-Organoid Kulturprotokoll v1"
+msgstr ""
+

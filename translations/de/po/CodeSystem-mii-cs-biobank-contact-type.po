@@ -1,0 +1,46 @@
+
+# Coding.display
+#: Coding.display
+msgid "Creative Commons Attribution 4.0 International"
+msgstr ""
+
+# CodeSystem.name
+#: CodeSystem.name
+msgid "MII_CS_Biobank_Contact_Type"
+msgstr ""
+
+# CodeSystem.title
+#: CodeSystem.title
+msgid "MII CS Biobank Contact Type"
+msgstr ""
+
+# CodeSystem.publisher
+#: CodeSystem.publisher
+msgid "Medizininformatik Initiative"
+msgstr ""
+
+# ContactDetail.name
+#: ContactDetail.name
+msgid "Medizininformatik Initiative"
+msgstr ""
+
+# CodeSystem.description
+#: CodeSystem.description
+msgid "Contact Type für Organization.contact"
+msgstr ""
+
+# Coding.display
+#: Coding.display
+msgid "Germany"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Research"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "Contact for researchers about sample and data requests"
+msgstr ""
+

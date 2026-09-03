@@ -25,8 +25,8 @@ node_modules/
 # --- OS / editor noise ---
 .DS_Store
 *.log
-# IG Publisher build artifacts at repo root (per onkologie migration precedent)
-translations/
+# IG Publisher build artifact at repo root (translations/ wird dagegen GETRACKT:
+# die generierten Übersetzungsvorlagen des Publishers, wie im Onkologiemodul)
 Requirements-fromNarrative.json
 # migration-log ist der Audit-Trail der Template-Migration — wird mit dem Branch committet (Skill-Guardrail 7)
 !migration-log/**

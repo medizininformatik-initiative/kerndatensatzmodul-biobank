@@ -1,0 +1,41 @@
+
+# Coding.display
+#: Coding.display
+msgid "Aliquot"
+msgstr ""
+
+# Coding.display
+#: Coding.display
+msgid "Buffy coat (specimen)"
+msgstr ""
+
+# Coding.display
+#: Coding.display
+msgid "Buffy coat"
+msgstr ""
+
+# Quantity.unit
+#: Quantity.unit
+msgid "°C"
+msgstr ""
+
+# Coding.display
+#: Coding.display
+msgid "Storage of specimen (procedure)"
+msgstr ""
+
+# Coding.display
+#: Coding.display
+msgid "Deoxyribonucleic acid extraction technique (qualifier value)"
+msgstr ""
+
+# Coding.display
+#: Coding.display
+msgid "Tube, device (physical object)"
+msgstr ""
+
+# Quantity.unit
+#: Quantity.unit
+msgid "ml"
+msgstr ""
+

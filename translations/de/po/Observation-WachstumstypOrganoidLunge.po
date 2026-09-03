@@ -1,0 +1,11 @@
+
+# Coding.display
+#: Coding.display
+msgid "cell culture growth mode"
+msgstr ""
+
+# Coding.display
+#: Coding.display
+msgid "adherent cell culture growth mode"
+msgstr ""
+

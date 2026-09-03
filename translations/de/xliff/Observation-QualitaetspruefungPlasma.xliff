@@ -1,0 +1,43 @@
+<?xml version="1.0" ?>
+
+<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0">
+  <file source-language="en" target-language="de" id="Observation-QualitaetspruefungPlasma" original="Resource Observation-QualitaetspruefungPlasma" datatype="KEYVALUEJSON">
+    <body>
+      <trans-unit id="Observation-QualitaetspruefungPlasma" resname="Coding.display">
+             <notes>
+               <note id="n1">Coding.display</note>
+             </notes>
+        <source>Quality monitoring (procedure)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="Observation-QualitaetspruefungPlasma" resname="Coding.display">
+             <notes>
+               <note id="n1">Coding.display</note>
+             </notes>
+        <source>Test protocol used (attribute)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="Observation-QualitaetspruefungPlasma" resname="Coding.display">
+             <notes>
+               <note id="n1">Coding.display</note>
+             </notes>
+        <source>Lipemic interference index of Serum or Plasma</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="Observation-QualitaetspruefungPlasma" resname="Coding.display">
+             <notes>
+               <note id="n1">Coding.display</note>
+             </notes>
+        <source>Resulting in (attribute)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="Observation-QualitaetspruefungPlasma" resname="Quantity.unit">
+             <notes>
+               <note id="n1">Quantity.unit</note>
+             </notes>
+        <source>[arb'U]/mL</source>
+        <target></target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

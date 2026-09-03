@@ -1,0 +1,56 @@
+
+# Coding.display
+#: Coding.display
+msgid "Creative Commons Attribution 4.0 International"
+msgstr ""
+
+# ValueSet.name
+#: ValueSet.name
+msgid "MII_VS_Biobank_Cellline_Modification_CLO"
+msgstr ""
+
+# ValueSet.title
+#: ValueSet.title
+msgid "MII VS Biobank Cellline Modification CLO"
+msgstr ""
+
+# ValueSet.publisher
+#: ValueSet.publisher
+msgid "Medizininformatik Initiative"
+msgstr ""
+
+# ContactDetail.name
+#: ContactDetail.name
+msgid "Medizininformatik Initiative"
+msgstr ""
+
+# ValueSet.description
+#: ValueSet.description
+msgid "Value Set for Types of Cell Line Modifications (CLO)"
+msgstr ""
+
+# Coding.display
+#: Coding.display
+msgid "Germany"
+msgstr ""
+
+# ValueSet.compose.include.concept.display
+#: ValueSet.compose.include.concept.display
+msgid "derived from cell with isogenic modification of gene"
+msgstr ""
+
+# ValueSet.compose.include.concept.display
+#: ValueSet.compose.include.concept.display
+msgid "derived from cell with knockin gene"
+msgstr ""
+
+# ValueSet.compose.include.concept.display
+#: ValueSet.compose.include.concept.display
+msgid "derives from cell with knockout gene"
+msgstr ""
+
+# ValueSet.compose.include.concept.display
+#: ValueSet.compose.include.concept.display
+msgid "derived from cell with transgenic modification"
+msgstr ""
+

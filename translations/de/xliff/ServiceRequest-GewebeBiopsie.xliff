@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+
+<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0">
+  <file source-language="en" target-language="de" id="ServiceRequest-GewebeBiopsie" original="Resource ServiceRequest-GewebeBiopsie" datatype="KEYVALUEJSON">
+    <body>
+      <trans-unit id="ServiceRequest-GewebeBiopsie" resname="Coding.display">
+             <notes>
+               <note id="n1">Coding.display</note>
+             </notes>
+        <source>Needle biopsy of lung (procedure)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ServiceRequest-GewebeBiopsie" resname="Annotation.text">
+             <notes>
+               <note id="n1">Annotation.text</note>
+             </notes>
+        <source>ServiceRequest zur Entnahme einer Lungenbiopsie für ein Organoid</source>
+        <target></target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,141 @@
+<?xml version="1.0" ?>
+
+<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0">
+  <file source-language="en" target-language="de" id="ConceptMap-mii-cm-biobank-fixation-type-sprec-sct" original="Resource ConceptMap-mii-cm-biobank-fixation-type-sprec-sct" datatype="KEYVALUEJSON">
+    <body>
+      <trans-unit id="ConceptMap-mii-cm-biobank-fixation-type-sprec-sct" resname="Coding.display">
+             <notes>
+               <note id="n1">Coding.display</note>
+             </notes>
+        <source>Creative Commons Attribution 4.0 International</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-mii-cm-biobank-fixation-type-sprec-sct" resname="ConceptMap.title">
+             <notes>
+               <note id="n1">ConceptMap.title</note>
+             </notes>
+        <source>MII CM Biobank Fixation Type SPREC 4.0 SCT</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-mii-cm-biobank-fixation-type-sprec-sct" resname="ConceptMap.publisher">
+             <notes>
+               <note id="n1">ConceptMap.publisher</note>
+             </notes>
+        <source>Medizininformatik Initiative</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-mii-cm-biobank-fixation-type-sprec-sct" resname="ContactDetail.name">
+             <notes>
+               <note id="n1">ContactDetail.name</note>
+             </notes>
+        <source>Medizininformatik Initiative</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-mii-cm-biobank-fixation-type-sprec-sct" resname="ConceptMap.description">
+             <notes>
+               <note id="n1">ConceptMap.description</note>
+             </notes>
+        <source>Mapping der SPREC 4.0 Fixation Types auf die im Modul verwendeten SNOMED CT Codes für Zusatzstoffe.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-mii-cm-biobank-fixation-type-sprec-sct" resname="Coding.display">
+             <notes>
+               <note id="n1">Coding.display</note>
+             </notes>
+        <source>Germany</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-mii-cm-biobank-fixation-type-sprec-sct" resname="ConceptMap.copyright">
+             <notes>
+               <note id="n1">ConceptMap.copyright</note>
+             </notes>
+        <source>This concept map includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement. It also includes content from SPREC 4.0, https://doi.org/10.1089/bio.2024.0010</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-mii-cm-biobank-fixation-type-sprec-sct" resname="ConceptMap.group.element.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.display</note>
+             </notes>
+        <source>Nonaldehyde with acetic acid</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-mii-cm-biobank-fixation-type-sprec-sct" resname="ConceptMap.group.element.target.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.target.display</note>
+             </notes>
+        <source>Acetic acid (substance)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-mii-cm-biobank-fixation-type-sprec-sct" resname="ConceptMap.group.element.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.display</note>
+             </notes>
+        <source>Aldehyde based</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-mii-cm-biobank-fixation-type-sprec-sct" resname="ConceptMap.group.element.target.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.target.display</note>
+             </notes>
+        <source>Product containing aldehyde (product)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-mii-cm-biobank-fixation-type-sprec-sct" resname="ConceptMap.group.element.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.display</note>
+             </notes>
+        <source>Alcohol based</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-mii-cm-biobank-fixation-type-sprec-sct" resname="ConceptMap.group.element.target.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.target.display</note>
+             </notes>
+        <source>Product containing alcohol (product)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-mii-cm-biobank-fixation-type-sprec-sct" resname="ConceptMap.group.element.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.display</note>
+             </notes>
+        <source>Nonbuffered formalin</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-mii-cm-biobank-fixation-type-sprec-sct" resname="ConceptMap.group.element.target.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.target.display</note>
+             </notes>
+        <source>Formalin (substance)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-mii-cm-biobank-fixation-type-sprec-sct" resname="ConceptMap.group.element.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.display</note>
+             </notes>
+        <source>Neutral buffered formalin</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-mii-cm-biobank-fixation-type-sprec-sct" resname="ConceptMap.group.element.target.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.target.display</note>
+             </notes>
+        <source>Neutral buffered formalin (substance)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-mii-cm-biobank-fixation-type-sprec-sct" resname="ConceptMap.group.element.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.display</note>
+             </notes>
+        <source>Optimum cutting temperature medium</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-mii-cm-biobank-fixation-type-sprec-sct" resname="ConceptMap.group.element.target.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.target.display</note>
+             </notes>
+        <source>Frozen section embedding medium (substance)</source>
+        <target></target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

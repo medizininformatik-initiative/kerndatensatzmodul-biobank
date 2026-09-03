@@ -1,0 +1,66 @@
+
+# Coding.display
+#: Coding.display
+msgid "Creative Commons Attribution 4.0 International"
+msgstr ""
+
+# CodeSystem.name
+#: CodeSystem.name
+msgid "MII_CS_Biobank_Probenebene"
+msgstr ""
+
+# CodeSystem.title
+#: CodeSystem.title
+msgid "MII CS Biobank Probenebene"
+msgstr ""
+
+# CodeSystem.publisher
+#: CodeSystem.publisher
+msgid "Medizininformatik Initiative"
+msgstr ""
+
+# ContactDetail.name
+#: ContactDetail.name
+msgid "Medizininformatik Initiative"
+msgstr ""
+
+# CodeSystem.description
+#: CodeSystem.description
+msgid "Codes um die Probenebene anzugeben"
+msgstr ""
+
+# Coding.display
+#: Coding.display
+msgid "Germany"
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Primärprobe"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "Die Probe, wie sie gesammelt wurde, vor ihrer Verarbeitung."
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Aliquotgruppe"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "Eine Zusammenfassung von Aliquots gleichen Probentyps, die von der gleichen möglicherweise bereits verarbeiteten Primärprobe abstammen."
+msgstr ""
+
+# CodeSystem.concept.display
+#: CodeSystem.concept.display
+msgid "Aliquot"
+msgstr ""
+
+# CodeSystem.concept.definition
+#: CodeSystem.concept.definition
+msgid "Eine Probe, von der identische Geschwisterproben existieren können, die derselben Aliquotgruppe angehören. "
+msgstr ""
+

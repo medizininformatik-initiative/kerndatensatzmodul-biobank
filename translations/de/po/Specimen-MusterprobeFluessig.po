@@ -1,0 +1,61 @@
+
+# Coding.display
+#: Coding.display
+msgid "Primärprobe"
+msgstr ""
+
+# Coding.display
+#: Coding.display
+msgid "Venous blood specimen (specimen)"
+msgstr ""
+
+# Coding.display
+#: Coding.display
+msgid "Whole blood"
+msgstr ""
+
+# Coding.display
+#: Coding.display
+msgid "Venipuncture (procedure)"
+msgstr ""
+
+# Coding.display
+#: Coding.display
+msgid "Structure of antecubital vein (body structure)"
+msgstr ""
+
+# Coding.display
+#: Coding.display
+msgid "Not Given - Patient was not asked at the time of the procedure."
+msgstr ""
+
+# Quantity.unit
+#: Quantity.unit
+msgid "°C"
+msgstr ""
+
+# Coding.display
+#: Coding.display
+msgid "Room temperature"
+msgstr ""
+
+# Coding.display
+#: Coding.display
+msgid "Storage of specimen (procedure)"
+msgstr ""
+
+# Coding.display
+#: Coding.display
+msgid "Specimen centrifugation (procedure)"
+msgstr ""
+
+# Coding.display
+#: Coding.display
+msgid "Tube, device (physical object)"
+msgstr ""
+
+# Quantity.unit
+#: Quantity.unit
+msgid "ml"
+msgstr ""
+

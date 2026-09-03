@@ -1,0 +1,19 @@
+{
+  "id" : "Observation-DNAConcentrationObs1",
+  "baseLang" : "en",
+  "languages" : [{
+    "targetLang" : "de",
+    "entries" : [{
+      "id" : "Coding.display",
+      "context" : "Coding.display",
+      "source" : "DNA double strand [Mass/volume] in Specimen",
+      "target" : null
+    },
+    {
+      "id" : "Quantity.unit",
+      "context" : "Quantity.unit",
+      "source" : "ng/µL",
+      "target" : null
+    }]
+  }]
+}

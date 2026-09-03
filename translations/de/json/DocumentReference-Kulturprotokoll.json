@@ -1,0 +1,19 @@
+{
+  "id" : "DocumentReference-Kulturprotokoll",
+  "baseLang" : "en",
+  "languages" : [{
+    "targetLang" : "de",
+    "entries" : [{
+      "id" : "DocumentReference.description",
+      "context" : "DocumentReference.description",
+      "source" : "Standardprotokoll zur Kultivierung von Lungentumor-Organoiden",
+      "target" : null
+    },
+    {
+      "id" : "Attachment.title",
+      "context" : "Attachment.title",
+      "source" : "Lungen-Organoid Kulturprotokoll v1",
+      "target" : null
+    }]
+  }]
+}

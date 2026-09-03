@@ -1,0 +1,22 @@
+<?xml version="1.0" ?>
+
+<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0">
+  <file source-language="en" target-language="de" id="DocumentReference-ProtocolCRISPRTP53" original="Resource DocumentReference-ProtocolCRISPRTP53" datatype="KEYVALUEJSON">
+    <body>
+      <trans-unit id="DocumentReference-ProtocolCRISPRTP53" resname="DocumentReference.description">
+             <notes>
+               <note id="n1">DocumentReference.description</note>
+             </notes>
+        <source>CRISPR Knockout-Protokoll für TP53 in Lungentumor-Organoiden</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="DocumentReference-ProtocolCRISPRTP53" resname="Attachment.title">
+             <notes>
+               <note id="n1">Attachment.title</note>
+             </notes>
+        <source>CRISPR TP53 Knockout Protokoll v1</source>
+        <target></target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

@@ -1,0 +1,26 @@
+
+# Coding.display
+#: Coding.display
+msgid "Quality monitoring (procedure)"
+msgstr ""
+
+# Coding.display
+#: Coding.display
+msgid "Test protocol used (attribute)"
+msgstr ""
+
+# Coding.display
+#: Coding.display
+msgid "Lipemic interference index of Serum or Plasma"
+msgstr ""
+
+# Coding.display
+#: Coding.display
+msgid "Resulting in (attribute)"
+msgstr ""
+
+# Quantity.unit
+#: Quantity.unit
+msgid "[arb'U]/mL"
+msgstr ""
+

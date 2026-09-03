@@ -1,0 +1,49 @@
+{
+  "id" : "Organization-BiobankMusterstadt",
+  "baseLang" : "en",
+  "languages" : [{
+    "targetLang" : "de",
+    "entries" : [{
+      "id" : "Organization.name",
+      "context" : "Organization.name",
+      "source" : "Biobank Musterstadt",
+      "target" : null
+    },
+    {
+      "id" : "HumanName.family",
+      "context" : "HumanName.family",
+      "source" : "Mustermann",
+      "target" : null
+    },
+    {
+      "id" : "HumanName.given",
+      "context" : "HumanName.given",
+      "source" : "Max",
+      "target" : null
+    },
+    {
+      "id" : "HumanName.prefix",
+      "context" : "HumanName.prefix",
+      "source" : "Prof.",
+      "target" : null
+    },
+    {
+      "id" : "Address.line",
+      "context" : "Address.line",
+      "source" : "Musterstrasse 3",
+      "target" : null
+    },
+    {
+      "id" : "Address.city",
+      "context" : "Address.city",
+      "source" : "Musterstadt",
+      "target" : null
+    },
+    {
+      "id" : "Address.postalCode",
+      "context" : "Address.postalCode",
+      "source" : "00000",
+      "target" : null
+    }]
+  }]
+}

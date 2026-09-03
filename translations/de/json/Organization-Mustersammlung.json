@@ -1,0 +1,61 @@
+{
+  "id" : "Organization-Mustersammlung",
+  "baseLang" : "en",
+  "languages" : [{
+    "targetLang" : "de",
+    "entries" : [{
+      "id" : "Coding.display",
+      "context" : "Coding.display",
+      "source" : "Routine health care setting",
+      "target" : null
+    },
+    {
+      "id" : "Coding.display",
+      "context" : "Coding.display",
+      "source" : "Longitudinal cohort",
+      "target" : null
+    },
+    {
+      "id" : "Organization.name",
+      "context" : "Organization.name",
+      "source" : "Mustersammlung",
+      "target" : null
+    },
+    {
+      "id" : "HumanName.family",
+      "context" : "HumanName.family",
+      "source" : "Musterfrau",
+      "target" : null
+    },
+    {
+      "id" : "HumanName.given",
+      "context" : "HumanName.given",
+      "source" : "Tina",
+      "target" : null
+    },
+    {
+      "id" : "HumanName.prefix",
+      "context" : "HumanName.prefix",
+      "source" : "Dr.",
+      "target" : null
+    },
+    {
+      "id" : "Address.line",
+      "context" : "Address.line",
+      "source" : "Musterweg 10",
+      "target" : null
+    },
+    {
+      "id" : "Address.city",
+      "context" : "Address.city",
+      "source" : "Musterstadt",
+      "target" : null
+    },
+    {
+      "id" : "Address.postalCode",
+      "context" : "Address.postalCode",
+      "source" : "00000",
+      "target" : null
+    }]
+  }]
+}

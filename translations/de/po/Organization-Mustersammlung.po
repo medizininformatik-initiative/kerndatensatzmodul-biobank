@@ -1,0 +1,46 @@
+
+# Coding.display
+#: Coding.display
+msgid "Routine health care setting"
+msgstr ""
+
+# Coding.display
+#: Coding.display
+msgid "Longitudinal cohort"
+msgstr ""
+
+# Organization.name
+#: Organization.name
+msgid "Mustersammlung"
+msgstr ""
+
+# HumanName.family
+#: HumanName.family
+msgid "Musterfrau"
+msgstr ""
+
+# HumanName.given
+#: HumanName.given
+msgid "Tina"
+msgstr ""
+
+# HumanName.prefix
+#: HumanName.prefix
+msgid "Dr."
+msgstr ""
+
+# Address.line
+#: Address.line
+msgid "Musterweg 10"
+msgstr ""
+
+# Address.city
+#: Address.city
+msgid "Musterstadt"
+msgstr ""
+
+# Address.postalCode
+#: Address.postalCode
+msgid "00000"
+msgstr ""
+

@@ -1,0 +1,64 @@
+<?xml version="1.0" ?>
+
+<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0">
+  <file source-language="en" target-language="de" id="Specimen-AliquotBuffyCoat2" original="Resource Specimen-AliquotBuffyCoat2" datatype="KEYVALUEJSON">
+    <body>
+      <trans-unit id="Specimen-AliquotBuffyCoat2" resname="Coding.display">
+             <notes>
+               <note id="n1">Coding.display</note>
+             </notes>
+        <source>Aliquot</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="Specimen-AliquotBuffyCoat2" resname="Coding.display">
+             <notes>
+               <note id="n1">Coding.display</note>
+             </notes>
+        <source>Buffy coat (specimen)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="Specimen-AliquotBuffyCoat2" resname="Coding.display">
+             <notes>
+               <note id="n1">Coding.display</note>
+             </notes>
+        <source>Buffy coat</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="Specimen-AliquotBuffyCoat2" resname="Quantity.unit">
+             <notes>
+               <note id="n1">Quantity.unit</note>
+             </notes>
+        <source>°C</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="Specimen-AliquotBuffyCoat2" resname="Coding.display">
+             <notes>
+               <note id="n1">Coding.display</note>
+             </notes>
+        <source>Storage of specimen (procedure)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="Specimen-AliquotBuffyCoat2" resname="Coding.display">
+             <notes>
+               <note id="n1">Coding.display</note>
+             </notes>
+        <source>Deoxyribonucleic acid extraction technique (qualifier value)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="Specimen-AliquotBuffyCoat2" resname="Coding.display">
+             <notes>
+               <note id="n1">Coding.display</note>
+             </notes>
+        <source>Tube, device (physical object)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="Specimen-AliquotBuffyCoat2" resname="Quantity.unit">
+             <notes>
+               <note id="n1">Quantity.unit</note>
+             </notes>
+        <source>ml</source>
+        <target></target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

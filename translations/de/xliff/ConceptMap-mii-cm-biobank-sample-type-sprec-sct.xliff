@@ -1,0 +1,561 @@
+<?xml version="1.0" ?>
+
+<xliff xmlns="urn:oasis:names:tc:xliff:document:2.0" version="2.0">
+  <file source-language="en" target-language="de" id="ConceptMap-mii-cm-biobank-sample-type-sprec-sct" original="Resource ConceptMap-mii-cm-biobank-sample-type-sprec-sct" datatype="KEYVALUEJSON">
+    <body>
+      <trans-unit id="ConceptMap-mii-cm-biobank-sample-type-sprec-sct" resname="Coding.display">
+             <notes>
+               <note id="n1">Coding.display</note>
+             </notes>
+        <source>Creative Commons Attribution 4.0 International</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-mii-cm-biobank-sample-type-sprec-sct" resname="ConceptMap.title">
+             <notes>
+               <note id="n1">ConceptMap.title</note>
+             </notes>
+        <source>SPREC 4.0 Sample Type Mapping</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-mii-cm-biobank-sample-type-sprec-sct" resname="ConceptMap.publisher">
+             <notes>
+               <note id="n1">ConceptMap.publisher</note>
+             </notes>
+        <source>Medizininformatik Initiative</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-mii-cm-biobank-sample-type-sprec-sct" resname="ContactDetail.name">
+             <notes>
+               <note id="n1">ContactDetail.name</note>
+             </notes>
+        <source>Medizininformatik Initiative</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-mii-cm-biobank-sample-type-sprec-sct" resname="ConceptMap.description">
+             <notes>
+               <note id="n1">ConceptMap.description</note>
+             </notes>
+        <source>Mapping der SPREC 4.0 Sample Types auf die im Modul verwendeten SNOMED CT Codes.</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-mii-cm-biobank-sample-type-sprec-sct" resname="Coding.display">
+             <notes>
+               <note id="n1">Coding.display</note>
+             </notes>
+        <source>Germany</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-mii-cm-biobank-sample-type-sprec-sct" resname="ConceptMap.copyright">
+             <notes>
+               <note id="n1">ConceptMap.copyright</note>
+             </notes>
+        <source>This concept map includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement. It also includes content from SPREC 4.0, https://doi.org/10.1089/bio.2024.0010</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-mii-cm-biobank-sample-type-sprec-sct" resname="ConceptMap.group.element.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.display</note>
+             </notes>
+        <source>Ascites fluid</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-mii-cm-biobank-sample-type-sprec-sct" resname="ConceptMap.group.element.target.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.target.display</note>
+             </notes>
+        <source>Ascitic fluid sample (specimen)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-mii-cm-biobank-sample-type-sprec-sct" resname="ConceptMap.group.element.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.display</note>
+             </notes>
+        <source>Amniotic fluid</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-mii-cm-biobank-sample-type-sprec-sct" resname="ConceptMap.group.element.target.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.target.display</note>
+             </notes>
+        <source>Amniotic fluid specimen (specimen)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-mii-cm-biobank-sample-type-sprec-sct" resname="ConceptMap.group.element.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.display</note>
+             </notes>
+        <source>Bronchoalveolar lavage</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-mii-cm-biobank-sample-type-sprec-sct" resname="ConceptMap.group.element.target.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.target.display</note>
+             </notes>
+        <source>Bronchoalveolar lavage fluid sample (specimen)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-mii-cm-biobank-sample-type-sprec-sct" resname="ConceptMap.group.element.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.display</note>
+             </notes>
+        <source>Blood (whole)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-mii-cm-biobank-sample-type-sprec-sct" resname="ConceptMap.group.element.target.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.target.display</note>
+             </notes>
+        <source>Whole blood specimen (specimen)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-mii-cm-biobank-sample-type-sprec-sct" resname="ConceptMap.group.element.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.display</note>
+             </notes>
+        <source>Bone marrow aspirate</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-mii-cm-biobank-sample-type-sprec-sct" resname="ConceptMap.group.element.target.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.target.display</note>
+             </notes>
+        <source>Specimen from bone marrow obtained by aspiration (specimen)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-mii-cm-biobank-sample-type-sprec-sct" resname="ConceptMap.group.element.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.display</note>
+             </notes>
+        <source>Breast milk</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-mii-cm-biobank-sample-type-sprec-sct" resname="ConceptMap.group.element.target.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.target.display</note>
+             </notes>
+        <source>Expressed breast milk specimen (specimen)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-mii-cm-biobank-sample-type-sprec-sct" resname="ConceptMap.group.element.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.display</note>
+             </notes>
+        <source>Nondensity-gradient-centrifugation-separated buffy coat, viable</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-mii-cm-biobank-sample-type-sprec-sct" resname="ConceptMap.group.element.target.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.target.display</note>
+             </notes>
+        <source>Buffy coat (specimen)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-mii-cm-biobank-sample-type-sprec-sct" resname="ConceptMap.group.element.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.display</note>
+             </notes>
+        <source>Nondensity-gradient-centrifugation-separated buffy coat, nonviable</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-mii-cm-biobank-sample-type-sprec-sct" resname="ConceptMap.group.element.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.display</note>
+             </notes>
+        <source>Density-gradient-centrifugation-separated mononuclear cells, viable</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-mii-cm-biobank-sample-type-sprec-sct" resname="ConceptMap.group.element.target.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.target.display</note>
+             </notes>
+        <source>Peripheral blood mononuclear cell (cell)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-mii-cm-biobank-sample-type-sprec-sct" resname="ConceptMap.group.element.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.display</note>
+             </notes>
+        <source>Bone</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-mii-cm-biobank-sample-type-sprec-sct" resname="ConceptMap.group.element.target.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.target.display</note>
+             </notes>
+        <source>Specimen from bone (specimen)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-mii-cm-biobank-sample-type-sprec-sct" resname="ConceptMap.group.element.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.display</note>
+             </notes>
+        <source>Cord blood</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-mii-cm-biobank-sample-type-sprec-sct" resname="ConceptMap.group.element.target.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.target.display</note>
+             </notes>
+        <source>Cord blood specimen (specimen)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-mii-cm-biobank-sample-type-sprec-sct" resname="ConceptMap.group.element.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.display</note>
+             </notes>
+        <source>Cerebrospinal fluid</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-mii-cm-biobank-sample-type-sprec-sct" resname="ConceptMap.group.element.target.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.target.display</note>
+             </notes>
+        <source>Cerebrospinal fluid sample (specimen)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-mii-cm-biobank-sample-type-sprec-sct" resname="ConceptMap.group.element.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.display</note>
+             </notes>
+        <source>Exhaled breath condensate</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-mii-cm-biobank-sample-type-sprec-sct" resname="ConceptMap.group.element.target.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.target.display</note>
+             </notes>
+        <source>Exhaled breath condensate (substance)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-mii-cm-biobank-sample-type-sprec-sct" resname="ConceptMap.group.element.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.display</note>
+             </notes>
+        <source>Cells from fine needle aspirate</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-mii-cm-biobank-sample-type-sprec-sct" resname="ConceptMap.group.element.target.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.target.display</note>
+             </notes>
+        <source>Specimen obtained by fine needle aspiration procedure (specimen)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-mii-cm-biobank-sample-type-sprec-sct" resname="ConceptMap.group.element.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.display</note>
+             </notes>
+        <source>Hair</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-mii-cm-biobank-sample-type-sprec-sct" resname="ConceptMap.group.element.target.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.target.display</note>
+             </notes>
+        <source>Hair specimen (specimen)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-mii-cm-biobank-sample-type-sprec-sct" resname="ConceptMap.group.element.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.display</note>
+             </notes>
+        <source>Nails</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-mii-cm-biobank-sample-type-sprec-sct" resname="ConceptMap.group.element.target.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.target.display</note>
+             </notes>
+        <source>Nail specimen (specimen)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-mii-cm-biobank-sample-type-sprec-sct" resname="ConceptMap.group.element.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.display</note>
+             </notes>
+        <source>Nasal washing</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-mii-cm-biobank-sample-type-sprec-sct" resname="ConceptMap.group.element.target.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.target.display</note>
+             </notes>
+        <source>Nasal lavage fluid sample (specimen)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-mii-cm-biobank-sample-type-sprec-sct" resname="ConceptMap.group.element.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.display</note>
+             </notes>
+        <source>Placenta</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-mii-cm-biobank-sample-type-sprec-sct" resname="ConceptMap.group.element.target.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.target.display</note>
+             </notes>
+        <source>Specimen from placenta (specimen)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-mii-cm-biobank-sample-type-sprec-sct" resname="ConceptMap.group.element.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.display</note>
+             </notes>
+        <source>Pleural fluid</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-mii-cm-biobank-sample-type-sprec-sct" resname="ConceptMap.group.element.target.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.target.display</note>
+             </notes>
+        <source>Pleural fluid specimen (specimen)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-mii-cm-biobank-sample-type-sprec-sct" resname="ConceptMap.group.element.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.display</note>
+             </notes>
+        <source>Peritoneal fluid</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-mii-cm-biobank-sample-type-sprec-sct" resname="ConceptMap.group.element.target.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.target.display</note>
+             </notes>
+        <source>Peritoneal fluid specimen (specimen)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-mii-cm-biobank-sample-type-sprec-sct" resname="ConceptMap.group.element.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.display</note>
+             </notes>
+        <source>Red blood cells</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-mii-cm-biobank-sample-type-sprec-sct" resname="ConceptMap.group.element.target.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.target.display</note>
+             </notes>
+        <source>Erythrocyte specimen (specimen)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-mii-cm-biobank-sample-type-sprec-sct" resname="ConceptMap.group.element.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.display</note>
+             </notes>
+        <source>Semen</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-mii-cm-biobank-sample-type-sprec-sct" resname="ConceptMap.group.element.target.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.target.display</note>
+             </notes>
+        <source>Seminal fluid specimen (specimen)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-mii-cm-biobank-sample-type-sprec-sct" resname="ConceptMap.group.element.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.display</note>
+             </notes>
+        <source>Sputum</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-mii-cm-biobank-sample-type-sprec-sct" resname="ConceptMap.group.element.target.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.target.display</note>
+             </notes>
+        <source>Sputum specimen (specimen)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-mii-cm-biobank-sample-type-sprec-sct" resname="ConceptMap.group.element.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.display</note>
+             </notes>
+        <source>Synovial fluid</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-mii-cm-biobank-sample-type-sprec-sct" resname="ConceptMap.group.element.target.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.target.display</note>
+             </notes>
+        <source>Synovial fluid specimen (specimen)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-mii-cm-biobank-sample-type-sprec-sct" resname="ConceptMap.group.element.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.display</note>
+             </notes>
+        <source>Tears</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-mii-cm-biobank-sample-type-sprec-sct" resname="ConceptMap.group.element.target.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.target.display</note>
+             </notes>
+        <source>Tears specimen (specimen)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-mii-cm-biobank-sample-type-sprec-sct" resname="ConceptMap.group.element.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.display</note>
+             </notes>
+        <source>Teeth</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-mii-cm-biobank-sample-type-sprec-sct" resname="ConceptMap.group.element.target.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.target.display</note>
+             </notes>
+        <source>Specimen from tooth (specimen)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-mii-cm-biobank-sample-type-sprec-sct" resname="ConceptMap.group.element.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.display</note>
+             </notes>
+        <source>Serum</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-mii-cm-biobank-sample-type-sprec-sct" resname="ConceptMap.group.element.target.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.target.display</note>
+             </notes>
+        <source>Serum specimen (specimen)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-mii-cm-biobank-sample-type-sprec-sct" resname="ConceptMap.group.element.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.display</note>
+             </notes>
+        <source>Saliva</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-mii-cm-biobank-sample-type-sprec-sct" resname="ConceptMap.group.element.target.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.target.display</note>
+             </notes>
+        <source>Saliva specimen (specimen)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-mii-cm-biobank-sample-type-sprec-sct" resname="ConceptMap.group.element.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.display</note>
+             </notes>
+        <source>Stool</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-mii-cm-biobank-sample-type-sprec-sct" resname="ConceptMap.group.element.target.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.target.display</note>
+             </notes>
+        <source>Stool specimen (specimen)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-mii-cm-biobank-sample-type-sprec-sct" resname="ConceptMap.group.element.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.display</note>
+             </notes>
+        <source>Sweat</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-mii-cm-biobank-sample-type-sprec-sct" resname="ConceptMap.group.element.target.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.target.display</note>
+             </notes>
+        <source>Sweat specimen (specimen)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-mii-cm-biobank-sample-type-sprec-sct" resname="ConceptMap.group.element.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.display</note>
+             </notes>
+        <source>24 h urine</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-mii-cm-biobank-sample-type-sprec-sct" resname="ConceptMap.group.element.target.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.target.display</note>
+             </notes>
+        <source>24 hour urine sample (specimen)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-mii-cm-biobank-sample-type-sprec-sct" resname="ConceptMap.group.element.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.display</note>
+             </notes>
+        <source>Urine, random (‘‘spot’’)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-mii-cm-biobank-sample-type-sprec-sct" resname="ConceptMap.group.element.target.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.target.display</note>
+             </notes>
+        <source>Spot urine sample (specimen)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-mii-cm-biobank-sample-type-sprec-sct" resname="ConceptMap.group.element.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.display</note>
+             </notes>
+        <source>Urine, first morning</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-mii-cm-biobank-sample-type-sprec-sct" resname="ConceptMap.group.element.target.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.target.display</note>
+             </notes>
+        <source>Early morning urine sample (specimen)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-mii-cm-biobank-sample-type-sprec-sct" resname="ConceptMap.group.element.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.display</note>
+             </notes>
+        <source>Urine, timed</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-mii-cm-biobank-sample-type-sprec-sct" resname="ConceptMap.group.element.target.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.target.display</note>
+             </notes>
+        <source> Timed urine specimen (specimen)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-mii-cm-biobank-sample-type-sprec-sct" resname="ConceptMap.group.element.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.display</note>
+             </notes>
+        <source>Dried whole blood (e.g., Guthrie cards)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-mii-cm-biobank-sample-type-sprec-sct" resname="ConceptMap.group.element.target.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.target.display</note>
+             </notes>
+        <source>Dried blood specimen (specimen)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-mii-cm-biobank-sample-type-sprec-sct" resname="ConceptMap.group.element.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.display</note>
+             </notes>
+        <source>Plasma, single spun</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-mii-cm-biobank-sample-type-sprec-sct" resname="ConceptMap.group.element.target.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.target.display</note>
+             </notes>
+        <source>Plasma specimen (specimen)</source>
+        <target></target>
+      </trans-unit>
+      <trans-unit id="ConceptMap-mii-cm-biobank-sample-type-sprec-sct" resname="ConceptMap.group.element.display">
+             <notes>
+               <note id="n1">ConceptMap.group.element.display</note>
+             </notes>
+        <source>Plasma, double spun</source>
+        <target></target>
+      </trans-unit>
+    </body>
+  </file>
+</xliff>

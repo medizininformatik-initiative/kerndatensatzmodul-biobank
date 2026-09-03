@@ -1,0 +1,6 @@
+
+# Coding.display
+#: Coding.display
+msgid "Heparin (substance)"
+msgstr ""
+

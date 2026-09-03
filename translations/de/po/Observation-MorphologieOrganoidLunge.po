@@ -1,0 +1,11 @@
+
+# Coding.display
+#: Coding.display
+msgid "cell morphology"
+msgstr ""
+
+# Coding.display
+#: Coding.display
+msgid "Cell structure alteration (morphologic abnormality)"
+msgstr ""
+

@@ -1,0 +1,19 @@
+{
+  "id" : "ServiceRequest-GewebeBiopsie",
+  "baseLang" : "en",
+  "languages" : [{
+    "targetLang" : "de",
+    "entries" : [{
+      "id" : "Coding.display",
+      "context" : "Coding.display",
+      "source" : "Needle biopsy of lung (procedure)",
+      "target" : null
+    },
+    {
+      "id" : "Annotation.text",
+      "context" : "Annotation.text",
+      "source" : "ServiceRequest zur Entnahme einer Lungenbiopsie für ein Organoid",
+      "target" : null
+    }]
+  }]
+}

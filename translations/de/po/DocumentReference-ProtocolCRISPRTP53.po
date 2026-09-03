@@ -1,0 +1,11 @@
+
+# DocumentReference.description
+#: DocumentReference.description
+msgid "CRISPR Knockout-Protokoll für TP53 in Lungentumor-Organoiden"
+msgstr ""
+
+# Attachment.title
+#: Attachment.title
+msgid "CRISPR TP53 Knockout Protokoll v1"
+msgstr ""
+

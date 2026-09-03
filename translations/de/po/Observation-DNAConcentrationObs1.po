@@ -1,0 +1,11 @@
+
+# Coding.display
+#: Coding.display
+msgid "DNA double strand [Mass/volume] in Specimen"
+msgstr ""
+
+# Quantity.unit
+#: Quantity.unit
+msgid "ng/µL"
+msgstr ""
+

@@ -1,0 +1,26 @@
+
+# Coding.display
+#: Coding.display
+msgid "Quality monitoring (procedure)"
+msgstr ""
+
+# Coding.display
+#: Coding.display
+msgid "Test protocol used (attribute)"
+msgstr ""
+
+# Coding.display
+#: Coding.display
+msgid "Hemolysis screening test (procedure)"
+msgstr ""
+
+# Coding.display
+#: Coding.display
+msgid "Resulting in (attribute)"
+msgstr ""
+
+# Coding.display
+#: Coding.display
+msgid "Pass"
+msgstr ""
+
