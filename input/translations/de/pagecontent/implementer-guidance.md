@@ -12,6 +12,46 @@ Dieses Modul ist mit den Modulen [Pathologie-Befund](https://www.medizininformat
 
 Außerdem wird das Modul [Person](https://www.medizininformatik-initiative.de/Kerndatensatz/Modul_Person/IGMIIKDSModulPerson.html) genutzt, um Patientendaten zu erfassen, sowie das Modul [Diagnose](https://www.medizininformatik-initiative.de/Kerndatensatz/Modul_Diagnose/IGMIIKDSModulDiagnose.html), um die Indikation einer Entnahme oder Diagnoseinformationen zu einer Probe darzustellen.
 
+### Glossary
+
+In diesem Abschnitt wird erklärt, wie bestimmte Begriffe im Kontext dieses Implementation Guide verwendet werden. Die Definitionen spiegeln den Konsens des Modulteams wider, werden aber u.U. von einzelnen Standorten oder anderen Gruppen anders verwendet.
+
+#### Primärprobe
+
+Auch Stammprobe oder Masterprobe genannt. Bezeichnet die Probe, wie sie von dem Donor / der Donorin entnommen wurde – vor ihrer Verarbeitung.
+
+Hinweis: In einigen Kontexten wird die Aliquotgruppe auch Masterprobe genannt. Im Kontext der Medizininformatik-Initiative bezeichnet eine Masterprobe aber eine Primärprobe.
+
+#### Aliquotgruppe
+
+Eine Zusammenfassung aller Aliquote gleichen Probentyps, die von der gleichen, möglicherweise bereits verarbeiteten Primärprobe abstammen.
+
+Proben, die sich in Probentyp oder Primärprobe unterscheiden, werden als verschiedene Aliquotgruppen gezählt.
+
+Bei Machbarkeitsanfragen empfiehlt es sich, die Aliquotgruppen zu zählen, nicht alle einzelnen Aliquote. Eine Aliquotgruppe zählt als verfügbar, solange mindestens ein Aliquot verfügbar ist. Werden direkt Primärproben eingefroren (z.B. PAX), sollen diese zusätzlich auch als Aliquotgruppe markiert werden, damit sie bei Machbarkeitsanfragen ebenfalls gezählt werden können.
+
+#### Aliquot
+
+Eine Probe, von der es identische Geschwisterproben gibt, die zur gleichen Gruppe gehören. Wenn ein Aliquot noch einmal aufgeteilt wird, bleiben beide Aliquote Teil der bestehenden Aliquotgruppe. Eine neue Gruppe entsteht erst, wenn der Prozess wiederholt wird.
+
+Ein Beispiel dieser Strukturierung von Proben ist hier dargestellt:
+
+![Probenebenen: Primärprobe, Aliquotgruppe, Aliquot](Probenebenen.png)
+
+------
+
+#### Kontrollprobe
+
+* a) Eine Probe, die explizit als „gesunde" Probe zusammen mit einer „erkrankten" Probe (matching samples) gesammelt wurde, z.B. gesundes Gewebe neben erkranktem Gewebe.
+* b) Eine Probe, die im Rahmen einer bestimmten Forschungsfrage genutzt werden kann, um mit anderen, explizit als „erkrankt" definierten Proben verglichen zu werden. Dabei kann die Kontrollprobe z.B. einer Populationskohorte entstammen oder einer Sammlung zu einer anderen, nicht verwandten Erkrankung.
+
+------
+
+#### Derivat
+
+Abbildung i.d.R. als Aliquotgruppe mit ein bis x Aliquots.
+
+
 ### Referenzen
 
 #### SPREC
