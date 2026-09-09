@@ -1,0 +1,47 @@
+{
+  "resourceType" : "Organization",
+  "id" : "BiobankMusterstadt",
+  "meta" : {
+    "profile" : ["https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/Organization"]
+  },
+  "language" : "de",
+  "text" : {
+    "status" : "extensions",
+    "div" : "<div xml:lang=\"de\" lang=\"de\"><hr/><p><b>German</b></p><hr/><p class=\"res-header-id\"><b>Generated Narrative: Organization BiobankMusterstadt</b></p><a name=\"de-BiobankMusterstadt\"> </a><a name=\"de-hcBiobankMusterstadt\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-mii-pr-biobank-organization.html\">MII PR Biobank Organization Sammlung Biobank</a></p></div><p><b>Description extension</b>: Biobank des Krankenhauses Musterstadt.</p><p><b>identifier</b>: <code>http://www.bbmri-eric.eu/</code>/de-12345</p><p><b>name</b>: Biobank Musterstadt</p><h3>Contacts</h3><table class=\"grid\"><tr><td style=\"display: none\">-</td><td><b>Extension</b></td><td><b>Purpose</b></td><td><b>Name</b></td><td><b>Telecom</b></td><td><b>Address</b></td></tr><tr><td style=\"display: none\">*</td><td/><td><span title=\"Codes:{https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/CodeSystem/ContactType RESEARCH}\">Research</span></td><td>Max Mustermann </td><td><a href=\"mailto:mustermann@biobank.uk-musterstadt.de\">mustermann@biobank.uk-musterstadt.de</a></td><td>Musterstrasse 3 Musterstadt 00000 </td></tr></table></div>"
+  },
+  "extension" : [{
+    "url" : "https://fhir.bbmri-eric.eu/fhir/StructureDefinition/miabis-organization-description-extension",
+    "valueString" : "Biobank des Krankenhauses Musterstadt."
+  }],
+  "identifier" : [{
+    "system" : "http://www.bbmri-eric.eu/",
+    "value" : "de-12345"
+  }],
+  "name" : "Biobank Musterstadt",
+  "contact" : [{
+    "extension" : [{
+      "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/KontaktRolle",
+      "valueString" : "Direktor"
+    }],
+    "purpose" : {
+      "coding" : [{
+        "system" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/CodeSystem/ContactType",
+        "code" : "RESEARCH"
+      }]
+    },
+    "name" : {
+      "family" : "Mustermann",
+      "given" : ["Max"],
+      "prefix" : ["Prof."]
+    },
+    "telecom" : [{
+      "system" : "email",
+      "value" : "mustermann@biobank.uk-musterstadt.de"
+    }],
+    "address" : {
+      "line" : ["Musterstrasse 3"],
+      "city" : "Musterstadt",
+      "postalCode" : "00000"
+    }
+  }]
+}
