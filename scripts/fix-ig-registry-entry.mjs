@@ -271,9 +271,9 @@ function validateEntry(
     // seeEdition-Zweig fuer !hasRelease) — nicht nur "<sequence>". Beide Formen
     // akzeptieren. Upstream-Kandidat mii-kds-module-template.
     const sequence = requiredString(request, "sequence", "Publication request");
-    const status = requiredString(request, "status", "Publication request");
-    const titleizedStatus = status.charAt(0).toUpperCase() + status.slice(1);
-    if (edition.name !== sequence && edition.name !== `${sequence} ${titleizedStatus}`) {
+    const status = typeof request.status === "string" ? request.status : "";
+    const titleizedStatus = status ? status.charAt(0).toUpperCase() + status.slice(1) : "";
+    if (edition.name !== sequence && !(titleizedStatus && edition.name === `${sequence} ${titleizedStatus}`)) {
       errors.push(
         `edition.name: expected "${sequence}" or "${sequence} ${titleizedStatus}", found "${edition.name}"`,
       );
