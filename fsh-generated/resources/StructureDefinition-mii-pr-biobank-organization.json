@@ -3,6 +3,14 @@
   "id": "mii-pr-biobank-organization",
   "extension": [
     {
+      "url": "http://hl7.org/fhir/StructureDefinition/artifact-versionAlgorithm",
+      "valueCoding": {
+        "code": "semver",
+        "system": "http://hl7.org/fhir/version-algorithm",
+        "display": "SemVer"
+      }
+    },
+    {
       "url": "https://www.medizininformatik-initiative.de/fhir/modul-meta/StructureDefinition/mii-ex-meta-license-codeable",
       "valueCodeableConcept": {
         "coding": [
@@ -16,7 +24,7 @@
     }
   ],
   "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/Organization",
-  "version": "2027.0.0-ballot.rc2",
+  "version": "2027.0.0-ballot.rc3",
   "name": "MII_PR_Biobank_Organization_Sammlung_Biobank",
   "_name": {
     "extension": [
@@ -137,20 +145,6 @@
         "id": "Organization.meta.profile",
         "path": "Organization.meta.profile",
         "mustSupport": true
-      },
-      {
-        "id": "Organization.extension",
-        "path": "Organization.extension",
-        "slicing": {
-          "discriminator": [
-            {
-              "type": "value",
-              "path": "url"
-            }
-          ],
-          "ordered": false,
-          "rules": "open"
-        }
       },
       {
         "id": "Organization.extension:beschreibung",
@@ -569,16 +563,6 @@
       {
         "id": "Organization.contact:forschungskontakt.extension",
         "path": "Organization.contact.extension",
-        "slicing": {
-          "discriminator": [
-            {
-              "type": "value",
-              "path": "url"
-            }
-          ],
-          "ordered": false,
-          "rules": "open"
-        },
         "min": 1
       },
       {

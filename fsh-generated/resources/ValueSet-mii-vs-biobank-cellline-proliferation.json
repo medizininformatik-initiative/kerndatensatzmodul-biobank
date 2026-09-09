@@ -17,9 +17,16 @@
       ]
     }
   ],
-  "version": "2027.0.0-ballot.rc2",
-  "date": "2025-09-02",
+  "version": "2027.0.0-ballot.rc3",
   "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/artifact-versionAlgorithm",
+      "valueCoding": {
+        "code": "semver",
+        "system": "http://hl7.org/fhir/version-algorithm",
+        "display": "SemVer"
+      }
+    },
     {
       "url": "https://www.medizininformatik-initiative.de/fhir/modul-meta/StructureDefinition/mii-ex-meta-license-codeable",
       "valueCodeableConcept": {
@@ -33,6 +40,7 @@
       }
     }
   ],
+  "date": "2025-09-02",
   "copyright": "This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement",
   "meta": {
     "profile": [
