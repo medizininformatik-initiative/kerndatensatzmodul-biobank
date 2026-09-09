@@ -245,14 +245,6 @@
       },
       {
         "reference": {
-          "reference": "ValueSet/mii-vs-biobank-biosafety-level"
-        },
-        "name": "Biosafety-Level Einstufung (ValueSet)",
-        "description": "ValueSet zur Auswahl der Biosafety-Level-Einstufung einer Probe (SNOMED CT), inklusive eines Codes für 'keine Infektionsgefahr bekannt'.",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
           "reference": "Specimen/AliquotgruppeBuffyCoat"
         },
         "name": "Buffy-Coat Aliquotgruppe",
@@ -300,14 +292,6 @@
         },
         "name": "Heparin",
         "exampleCanonical": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/Substance"
-      },
-      {
-        "reference": {
-          "reference": "StructureDefinition/mii-ex-biobank-infektiositaetsstatus"
-        },
-        "name": "Infektiositätsstatus",
-        "description": "Extension zur Angabe des Infektiositätsstatus einer Probe anhand der Biosafety-Level-Einstufung (BSL-1 bis BSL-4, SNOMED CT) bzw. der Angabe, dass keine Infektionsgefahr bekannt ist.",
-        "exampleBoolean": false
       },
       {
         "reference": {
@@ -426,6 +410,14 @@
         },
         "name": "MII EX Biobank Feature R5",
         "description": "Die Extension ermöglicht es im Specimen das feature aus R5 zu nutzen.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/mii-ex-biobank-infektiositaetsstatus"
+        },
+        "name": "MII EX Biobank Infektiositätsstatus",
+        "description": "Extension zur Angabe des Infektiositätsstatus einer Probe anhand der Biosafety-Level-Einstufung (BSL-1 bis BSL-4, SNOMED CT) bzw. der Angabe, dass keine Infektionsgefahr bekannt ist.",
         "exampleBoolean": false
       },
       {
@@ -554,6 +546,14 @@
         },
         "name": "MII PR Biobank Substance Additiv",
         "description": "Abbildung eines Additives, das zu einer Probe hinzugefügt werden kann",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "ValueSet/mii-vs-biobank-biosafety-level-snomedct"
+        },
+        "name": "MII VS Biobank Biosafety-Level Einstufung [SNOMED CT]",
+        "description": "ValueSet zur Auswahl der Biosafety-Level-Einstufung einer Probe (SNOMED CT), inklusive eines Codes für 'keine Infektionsgefahr bekannt'.",
         "exampleBoolean": false
       },
       {

@@ -1,6 +1,6 @@
 Extension: MII_EX_Biobank_Infektiositaetsstatus
 Id: mii-ex-biobank-infektiositaetsstatus
-Title: "Infektiositätsstatus"
+Title: "MII EX Biobank Infektiositätsstatus"
 Description: "Extension zur Angabe des Infektiositätsstatus einer Probe anhand der Biosafety-Level-Einstufung (BSL-1 bis BSL-4, SNOMED CT) bzw. der Angabe, dass keine Infektionsgefahr bekannt ist."
 * ^url = "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/mii-ex-biobank-infektiositaetsstatus"
 * ^status = #active
@@ -17,7 +17,7 @@ Description: "Extension zur Angabe des Infektiositätsstatus einer Probe anhand 
 * insert ExtensionContext(Specimen)
 
 * value[x] only CodeableConcept
-* valueCodeableConcept from MII_VS_Biobank_Biosafety_Level (required)
+* valueCodeableConcept from MII_VS_Biobank_Biosafety_Level_SNOMEDCT (required)
 * value[x] 1..1 MS
 * value[x] ^short = "Biosafety-Level (SNOMED CT) bzw. 'keine Infektionsgefahr bekannt'"
 * insert Translation(value[x] ^short, en-US, Biosafety level SNOMED CT or no known infection risk)

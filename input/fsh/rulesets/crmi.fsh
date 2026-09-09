@@ -24,11 +24,11 @@
 
 RuleSet: CRMIVersionPolicyStrict
 * ^extension[+].url = "http://hl7.org/fhir/StructureDefinition/artifact-versionPolicy"
-* ^extension[=].valueCodeableConcept = http://terminology.hl7.org/CodeSystem/artifact-version-policy-codes#package "Package"
+* ^extension[=].valueCodeableConcept = http://terminology.hl7.org/CodeSystem/artifact-version-policy-codes|3.0.0#package "Package"
 
 RuleSet: CRMIVersionPolicyStrictInstance
 * extension[+].url = "http://hl7.org/fhir/StructureDefinition/artifact-versionPolicy"
-* extension[=].valueCodeableConcept = http://terminology.hl7.org/CodeSystem/artifact-version-policy-codes#package "Package"
+* extension[=].valueCodeableConcept = http://terminology.hl7.org/CodeSystem/artifact-version-policy-codes|3.0.0#package "Package"
 
 // ── Copyright label ──────────────────────────────────────────────────────────
 // basis notes that there is currently no resource type in the module where
@@ -38,11 +38,11 @@ RuleSet: CRMIVersionPolicyStrictInstance
 
 RuleSet: CRMICopyrightLabel
 * ^extension[+].url = "http://hl7.org/fhir/StructureDefinition/artifact-copyrightLabel"
-* ^extension[=].valueString = "2021+ Medical Informatics Initiative (MII)"
+* ^extension[=].valueString = "2019+ Medical Informatics Initiative (MII)"
 
 RuleSet: CRMICopyrightLabelInstance
 * extension[+].url = "http://hl7.org/fhir/StructureDefinition/artifact-copyrightLabel"
-* extension[=].valueString = "2021+ Medical Informatics Initiative (MII)"
+* extension[=].valueString = "2019+ Medical Informatics Initiative (MII)"
 
 // ── Approval date (StructureDefinition, CapabilityStatement, IG) ─────────────
 // Call with the module's approval date, e.g. `insert CRMIApprovalDate(2026-02-11)`.
@@ -101,7 +101,7 @@ RuleSet: CRMIArtifactContributors
 RuleSet: CRMIArtifactContributorsInstance
 * extension[+].url = "http://hl7.org/fhir/StructureDefinition/artifact-author"
 * extension[=].valueContactDetail.telecom[+].system = #email
-* extension[=].valueContactDetail.telecom[=].value = "thomas.debertshaeuser@charite.de"
+* extension[=].valueContactDetail.telecom[=].value = "noemi.deppenwiese@uk-erlangen.de"
 * extension[+].url = "http://hl7.org/fhir/StructureDefinition/artifact-editor"
 * extension[=].valueContactDetail.name = "Taskforce Core Data Set"
 * extension[+].url = "http://hl7.org/fhir/StructureDefinition/artifact-reviewer"

@@ -3,6 +3,14 @@
   "id": "mii-ex-biobank-verwaltende-organisation",
   "extension": [
     {
+      "url": "http://hl7.org/fhir/StructureDefinition/artifact-versionAlgorithm",
+      "valueCoding": {
+        "code": "semver",
+        "system": "http://hl7.org/fhir/version-algorithm",
+        "display": "SemVer"
+      }
+    },
+    {
       "url": "https://www.medizininformatik-initiative.de/fhir/modul-meta/StructureDefinition/mii-ex-meta-license-codeable",
       "valueCodeableConcept": {
         "coding": [
@@ -16,7 +24,7 @@
     }
   ],
   "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/VerwaltendeOrganisation",
-  "version": "2027.0.0-ballot.rc2",
+  "version": "2027.0.0-ballot.rc3",
   "name": "MII_EX_Biobank_Verwaltende_Organisation",
   "_name": {
     "extension": [

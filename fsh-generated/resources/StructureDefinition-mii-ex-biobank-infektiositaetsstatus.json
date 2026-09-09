@@ -3,6 +3,14 @@
   "id": "mii-ex-biobank-infektiositaetsstatus",
   "extension": [
     {
+      "url": "http://hl7.org/fhir/StructureDefinition/artifact-versionAlgorithm",
+      "valueCoding": {
+        "code": "semver",
+        "system": "http://hl7.org/fhir/version-algorithm",
+        "display": "SemVer"
+      }
+    },
+    {
       "url": "https://www.medizininformatik-initiative.de/fhir/modul-meta/StructureDefinition/mii-ex-meta-license-codeable",
       "valueCodeableConcept": {
         "coding": [
@@ -16,7 +24,7 @@
     }
   ],
   "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/mii-ex-biobank-infektiositaetsstatus",
-  "version": "2027.0.0-ballot.rc2",
+  "version": "2027.0.0-ballot.rc3",
   "name": "MII_EX_Biobank_Infektiositaetsstatus",
   "_name": {
     "extension": [
@@ -35,7 +43,7 @@
       }
     ]
   },
-  "title": "Infektiositätsstatus",
+  "title": "MII EX Biobank Infektiositätsstatus",
   "_title": {
     "extension": [
       {
@@ -100,7 +108,7 @@
       {
         "id": "Extension",
         "path": "Extension",
-        "short": "Infektiositätsstatus",
+        "short": "MII EX Biobank Infektiositätsstatus",
         "definition": "Extension zur Angabe des Infektiositätsstatus einer Probe anhand der Biosafety-Level-Einstufung (BSL-1 bis BSL-4, SNOMED CT) bzw. der Angabe, dass keine Infektionsgefahr bekannt ist."
       },
       {
@@ -143,7 +151,7 @@
         "mustSupport": true,
         "binding": {
           "strength": "required",
-          "valueSet": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/mii-vs-biobank-biosafety-level"
+          "valueSet": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/mii-vs-biobank-biosafety-level-snomedct"
         }
       }
     ]
