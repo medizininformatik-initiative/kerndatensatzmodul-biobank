@@ -824,6 +824,10 @@ jobs:
         run: |
           set -euo pipefail
           set -x  # TEMPORAER (Dry-Run-Diagnose): zeigt das exakt fehlschlagende Kommando
+          # MODULE-LOCAL ADAPTATION (Biobank 2026-09-09): Ballot-/working-Publikationen
+          # werden vom Publisher NICHT als current/milestone markiert — die Checks
+          # unten duerfen das nur im Milestone-Modus verlangen. Upstream-Kandidat.
+          MODE="$(jq -r '.mode // "milestone"' source/publication-request.json)"
           # If a check fails on the module's FIRST publication, compare the
           # staged site with the publication/webroot seeds the reference module
           # uses — for example those of kerndatensatz-basis
@@ -861,6 +865,7 @@ jobs:
             --arg ci_build "${CI_BUILD}" \
             --arg publication_path "${PUBLICATION_PATH}" \
             --arg version "${VERSION}" \
+            --arg mode "${MODE}" \
             '.canonical == $canonical
               and any(.list[];
                 .version == "current"
@@ -869,7 +874,7 @@ jobs:
               and any(.list[];
                 .version == $version
                 and .path == $publication_path
-                and .current == true)' \
+                and (($mode != "milestone") or .current == true))' \
             site/package-list.json >/dev/null
           jq -e \
             --arg canonical "${CANONICAL}" \
@@ -877,14 +882,16 @@ jobs:
             --arg package_id "${EXPECTED_PACKAGE_ID}" \
             --arg publication_path "${PUBLICATION_PATH}" \
             --arg version "${VERSION}" \
+            --arg mode "${MODE}" \
             'any(.packages[];
               ."package-id" == $package_id
               and .canonical == $canonical
               and ."ci-build" == $ci_build
               and .latest.version == $version
               and .latest.path == $publication_path
-              and .milestone.version == $version
-              and .milestone.path == $publication_path)' \
+              and (($mode != "milestone")
+                or (.milestone.version == $version
+                  and .milestone.path == $publication_path)))' \
             site/package-registry.json >/dev/null
           xmllint --noout site/package-feed.xml site/publication-feed.xml
           package_feed_link="$(xmllint --xpath \
