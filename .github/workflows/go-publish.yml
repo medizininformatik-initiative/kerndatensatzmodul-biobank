@@ -699,6 +699,12 @@ jobs:
             java -jar "${RUNNER_TEMP}/publisher.jar" -generate-package-registry site
             test -s site/package-registry.json
           fi
+          # Erstpublikation: History-Template-Assets (history.css, assets-hist/,
+          # dist-hist/) in den Webroot installieren — das Skript dafuer shippt das
+          # Template, war aber nicht verdrahtet (Workflow-Header nennt es selbst).
+          if [[ ! -s site/history.css ]]; then
+            node automation/scripts/install-history-template.mjs publication/history site
+          fi
           # Ebenso Erstpublikation: die in publish-setup.json deklarierten RSS-Feeds
           # muessen als Skelett existieren (PublicationProcess.updateFeed haengt nur an).
           base="https://medizininformatik-initiative.github.io/kerndatensatzmodul-biobank"
