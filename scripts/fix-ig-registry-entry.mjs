@@ -265,12 +265,19 @@ function validateEntry(
     );
   } else {
     const edition = editions[0];
-    assertEqual(
-      edition.name,
-      requiredString(request, "sequence", "Publication request"),
-      "edition.name",
-      errors,
-    );
+    // MODULE-LOCAL ADAPTATION (Biobank 2026-09-09): fuer Nicht-Milestone-
+    // Publikationen (z.B. status=ballot) benennt der Publisher die Edition als
+    // "<sequence> <Status-Titleized>" (PublicationProcess.updateRegistry,
+    // seeEdition-Zweig fuer !hasRelease) — nicht nur "<sequence>". Beide Formen
+    // akzeptieren. Upstream-Kandidat mii-kds-module-template.
+    const sequence = requiredString(request, "sequence", "Publication request");
+    const status = requiredString(request, "status", "Publication request");
+    const titleizedStatus = status.charAt(0).toUpperCase() + status.slice(1);
+    if (edition.name !== sequence && edition.name !== `${sequence} ${titleizedStatus}`) {
+      errors.push(
+        `edition.name: expected "${sequence}" or "${sequence} ${titleizedStatus}", found "${edition.name}"`,
+      );
+    }
     assertEqual(edition.package, `${packageId}#${version}`, "edition.package", errors);
     assertEqual(
       normalizeUrl(edition.url ?? "", "Generated edition URL"),
