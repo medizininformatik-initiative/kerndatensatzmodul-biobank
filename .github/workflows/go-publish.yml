@@ -828,17 +828,21 @@ jobs:
           # uses — for example those of kerndatensatz-basis
           # and the release recipe before changing this workflow.
 
-          test -s site/index.html
-          test -s site/history.html
-          test -s site/history.css
-          test -s site/assets-hist/js/jquery.js
-          test -s site/dist-hist/js/bootstrap.min.js
-          test -s site/package-list.json
-          test -s site/package-registry.json
-          test -s site/package-feed.xml
-          test -s site/publication-feed.xml
-          test -s "site/${LABEL}/index.html"
-          test -s "site/${LABEL}/package.tgz"
+          missing=0
+          for f in site/index.html site/history.html site/history.css \
+                   site/assets-hist/js/jquery.js site/dist-hist/js/bootstrap.min.js \
+                   site/package-list.json site/package-registry.json \
+                   site/package-feed.xml site/publication-feed.xml \
+                   "site/${LABEL}/index.html" "site/${LABEL}/package.tgz"; do
+            if [[ ! -s "${f}" ]]; then
+              echo "::error::Staged webroot is missing: ${f}"
+              missing=1
+            fi
+          done
+          if [[ "${missing}" == "1" ]]; then
+            echo "--- site/ Wurzelinhalt zur Diagnose:"; ls -la site | head -40
+            exit 1
+          fi
 
           jq -e \
             --arg canonical "${CANONICAL}" \
