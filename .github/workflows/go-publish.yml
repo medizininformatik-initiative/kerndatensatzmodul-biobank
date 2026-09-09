@@ -76,7 +76,7 @@ on:
       release_ref:
         description: "Immutable release tag to publish"
         required: true
-        default: "v{{CALVER_VERSION}}"
+        default: "v2027.0.0-ballot.rc2"
         type: string
       publication_date:
         description: "Publication date (YYYY-MM-DD, must match sushi-config.yaml); blank uses the tagged commit date"
@@ -99,11 +99,11 @@ concurrency:
 env:
   # The module's FHIR canonical (MII convention — for example,
   # kerndatensatz-basis uses .../fhir/modul-base).
-  EXPECTED_CANONICAL: "https://www.medizininformatik-initiative.de/fhir/modul-{{MODULE_SLUG}}"
+  EXPECTED_CANONICAL: "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank"
   # The publication website: GitHub Pages under the creating org. Deliberately
   # different from the canonical ("canonical-mismatch").
-  EXPECTED_PUBLICATION_BASE: "https://{{GITHUB_ORG}}.github.io/{{REPO_NAME}}"
-  EXPECTED_PACKAGE_ID: "de.medizininformatikinitiative.kerndatensatz.{{MODULE_SLUG}}"
+  EXPECTED_PUBLICATION_BASE: "https://medizininformatik-initiative.github.io/kerndatensatzmodul-biobank"
+  EXPECTED_PACKAGE_ID: "de.medizininformatikinitiative.kerndatensatz.biobank"
   # Pinned toolchain (bumped by the scheduled dependency check, never floating).
   # Must stay identical to ig-publisher.yml and module-release.yml —
   # scripts/toolchain-pins.test.mjs fails the build if they drift apart.
@@ -691,6 +691,34 @@ jobs:
           TX_URL: ${{ steps.terminology.outputs.tx_url }}
         run: |
           set -euo pipefail
+          # MODULE-LOCAL ADAPTATION (Biobank 2026-09-09): Erstpublikations-Bootstrap —
+          # Publisher 2.3.2 verlangt site/package-registry.json auch im Bootstrap-Fall
+          # und nennt selbst das Werkzeug dafuer; der Template-Seed-Schritt erzeugt sie
+          # (noch) nicht. Upstream-Kandidat mii-kds-module-template.
+          if [[ ! -s site/package-registry.json ]]; then
+            java -jar "${RUNNER_TEMP}/publisher.jar" -generate-package-registry site
+            test -s site/package-registry.json
+          fi
+          # Ebenso Erstpublikation: die in publish-setup.json deklarierten RSS-Feeds
+          # muessen als Skelett existieren (PublicationProcess.updateFeed haengt nur an).
+          base="https://medizininformatik-initiative.github.io/kerndatensatzmodul-biobank"
+          for feed in package-feed.xml publication-feed.xml; do
+            if [[ ! -s "site/${feed}" ]]; then
+              kind="Packages"; [[ "${feed}" == publication-feed.xml ]] && kind="Publications"
+              {
+                printf '%s\n' '<?xml version="1.0" encoding="UTF-8"?>'
+                printf '%s\n' '<rss xmlns:atom="http://www.w3.org/2005/Atom" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:fhir="http://hl7.org/fhir/feed" version="2.0">'
+                printf '  <channel>\n'
+                printf '    <title>MII KDS Modul Biobank %s</title>\n' "${kind}"
+                printf '    <description>%s feed for the MII core data set module Biobank</description>\n' "${kind}"
+                printf '    <link>%s</link>\n' "${base}"
+                printf '    <generator>go-publish first-publication bootstrap</generator>\n'
+                printf '    <language>en</language>\n'
+                printf '    <atom:link href="%s/%s" rel="self" type="application/rss+xml"/>\n' "${base}" "${feed}"
+                printf '  </channel>\n</rss>\n'
+              } > "site/${feed}"
+            fi
+          done
           java -Xmx6g -jar "${RUNNER_TEMP}/publisher.jar" -go-publish \
             -source "${GITHUB_WORKSPACE}/source" \
             -web "${GITHUB_WORKSPACE}/site" \
