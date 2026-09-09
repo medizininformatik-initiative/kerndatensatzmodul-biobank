@@ -12,15 +12,15 @@
     "uses" : {
     },
     "StructureDefinition-mii-pr-biobank-observation-wachstumstyp.html" : "MII PR Biobank Observation Wachstumstyp",
+    "StructureDefinition-mii-pr-biobank-specimen-core.html" : "MII PR Biobank Specimen Bioprobe Core",
     "StructureDefinition-mii-pr-biobank-observation-dna-konzentration.html" : "MII PR Biobank Observation DNA Konzentration",
+    "StructureDefinition-mii-ex-biobank-feature-r5.html" : "MII EX Biobank Feature R5",
+    "StructureDefinition-mii-pr-biobank-zellinie-organoid.html" : "MII PR Biobank Specimen Zellinie Organoid",
     "StructureDefinition-mii-pr-biobank-observation-karyotyp.html" : "MII PR Biobank Observation Karyotyp",
     "StructureDefinition-mii-pr-biobank-specimen.html" : "MII PR Biobank Specimen Bioprobe",
-    "StructureDefinition-mii-pr-biobank-zellinie-organoid.html" : "MII PR Biobank Specimen Zellinie Organoid",
-    "StructureDefinition-mii-pr-biobank-specimen-core.html" : "MII PR Biobank Specimen Bioprobe Core",
-    "StructureDefinition-mii-ex-biobank-feature-r5.html" : "MII EX Biobank Feature R5",
-    "StructureDefinition-mii-pr-biobank-observation-morphologie.html" : "MII PR Biobank Observation Morphologie",
     "StructureDefinition-mii-pr-biobank-observation-proliferation.html" : "MII PR Biobank Observation Proliferation",
-    "StructureDefinition-mii-pr-biobank-observation-qualitaetspruefung.html" : "MII PR Biobank Observation Qualitätsprüfung"
+    "StructureDefinition-mii-pr-biobank-observation-qualitaetspruefung.html" : "MII PR Biobank Observation Qualitätsprüfung",
+    "StructureDefinition-mii-pr-biobank-observation-morphologie.html" : "MII PR Biobank Observation Morphologie"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/common-tags",
@@ -35,16 +35,16 @@
     "uses" : {
     },
     "StructureDefinition-mii-pr-biobank-observation-wachstumstyp.html" : "MII PR Biobank Observation Wachstumstyp",
+    "StructureDefinition-mii-pr-biobank-specimen-core.html" : "MII PR Biobank Specimen Bioprobe Core",
+    "StructureDefinition-mii-pr-biobank-substance-additiv.html" : "MII PR Biobank Substance Additiv",
     "StructureDefinition-mii-pr-biobank-observation-dna-konzentration.html" : "MII PR Biobank Observation DNA Konzentration",
+    "StructureDefinition-mii-pr-biobank-organization.html" : "MII PR Biobank Organization Sammlung Biobank",
+    "StructureDefinition-mii-pr-biobank-zellinie-organoid.html" : "MII PR Biobank Specimen Zellinie Organoid",
     "StructureDefinition-mii-pr-biobank-observation-karyotyp.html" : "MII PR Biobank Observation Karyotyp",
     "StructureDefinition-mii-pr-biobank-specimen.html" : "MII PR Biobank Specimen Bioprobe",
-    "StructureDefinition-mii-pr-biobank-zellinie-organoid.html" : "MII PR Biobank Specimen Zellinie Organoid",
-    "StructureDefinition-mii-pr-biobank-substance-additiv.html" : "MII PR Biobank Substance Additiv",
-    "StructureDefinition-mii-pr-biobank-specimen-core.html" : "MII PR Biobank Specimen Bioprobe Core",
-    "StructureDefinition-mii-pr-biobank-observation-morphologie.html" : "MII PR Biobank Observation Morphologie",
     "StructureDefinition-mii-pr-biobank-observation-proliferation.html" : "MII PR Biobank Observation Proliferation",
     "StructureDefinition-mii-pr-biobank-observation-qualitaetspruefung.html" : "MII PR Biobank Observation Qualitätsprüfung",
-    "StructureDefinition-mii-pr-biobank-organization.html" : "MII PR Biobank Organization Sammlung Biobank"
+    "StructureDefinition-mii-pr-biobank-observation-morphologie.html" : "MII PR Biobank Observation Morphologie"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/contactentity-type",
@@ -75,9 +75,9 @@
     "StructureDefinition-mii-pr-biobank-observation-wachstumstyp.html" : "MII PR Biobank Observation Wachstumstyp",
     "StructureDefinition-mii-pr-biobank-observation-dna-konzentration.html" : "MII PR Biobank Observation DNA Konzentration",
     "StructureDefinition-mii-pr-biobank-observation-karyotyp.html" : "MII PR Biobank Observation Karyotyp",
-    "StructureDefinition-mii-pr-biobank-observation-morphologie.html" : "MII PR Biobank Observation Morphologie",
     "StructureDefinition-mii-pr-biobank-observation-proliferation.html" : "MII PR Biobank Observation Proliferation",
-    "StructureDefinition-mii-pr-biobank-observation-qualitaetspruefung.html" : "MII PR Biobank Observation Qualitätsprüfung"
+    "StructureDefinition-mii-pr-biobank-observation-qualitaetspruefung.html" : "MII PR Biobank Observation Qualitätsprüfung",
+    "StructureDefinition-mii-pr-biobank-observation-morphologie.html" : "MII PR Biobank Observation Morphologie"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/identifier-type",
@@ -120,16 +120,16 @@
     "uses" : {
     },
     "StructureDefinition-mii-pr-biobank-observation-wachstumstyp.html" : "MII PR Biobank Observation Wachstumstyp",
+    "StructureDefinition-mii-pr-biobank-specimen-core.html" : "MII PR Biobank Specimen Bioprobe Core",
+    "StructureDefinition-mii-pr-biobank-substance-additiv.html" : "MII PR Biobank Substance Additiv",
     "StructureDefinition-mii-pr-biobank-observation-dna-konzentration.html" : "MII PR Biobank Observation DNA Konzentration",
+    "StructureDefinition-mii-pr-biobank-organization.html" : "MII PR Biobank Organization Sammlung Biobank",
+    "StructureDefinition-mii-pr-biobank-zellinie-organoid.html" : "MII PR Biobank Specimen Zellinie Organoid",
     "StructureDefinition-mii-pr-biobank-observation-karyotyp.html" : "MII PR Biobank Observation Karyotyp",
     "StructureDefinition-mii-pr-biobank-specimen.html" : "MII PR Biobank Specimen Bioprobe",
-    "StructureDefinition-mii-pr-biobank-zellinie-organoid.html" : "MII PR Biobank Specimen Zellinie Organoid",
-    "StructureDefinition-mii-pr-biobank-substance-additiv.html" : "MII PR Biobank Substance Additiv",
-    "StructureDefinition-mii-pr-biobank-specimen-core.html" : "MII PR Biobank Specimen Bioprobe Core",
-    "StructureDefinition-mii-pr-biobank-observation-morphologie.html" : "MII PR Biobank Observation Morphologie",
     "StructureDefinition-mii-pr-biobank-observation-proliferation.html" : "MII PR Biobank Observation Proliferation",
     "StructureDefinition-mii-pr-biobank-observation-qualitaetspruefung.html" : "MII PR Biobank Observation Qualitätsprüfung",
-    "StructureDefinition-mii-pr-biobank-organization.html" : "MII PR Biobank Organization Sammlung Biobank"
+    "StructureDefinition-mii-pr-biobank-observation-morphologie.html" : "MII PR Biobank Observation Morphologie"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/name-use",
@@ -160,9 +160,9 @@
     "StructureDefinition-mii-pr-biobank-observation-wachstumstyp.html" : "MII PR Biobank Observation Wachstumstyp",
     "StructureDefinition-mii-pr-biobank-observation-dna-konzentration.html" : "MII PR Biobank Observation DNA Konzentration",
     "StructureDefinition-mii-pr-biobank-observation-karyotyp.html" : "MII PR Biobank Observation Karyotyp",
-    "StructureDefinition-mii-pr-biobank-observation-morphologie.html" : "MII PR Biobank Observation Morphologie",
     "StructureDefinition-mii-pr-biobank-observation-proliferation.html" : "MII PR Biobank Observation Proliferation",
-    "StructureDefinition-mii-pr-biobank-observation-qualitaetspruefung.html" : "MII PR Biobank Observation Qualitätsprüfung"
+    "StructureDefinition-mii-pr-biobank-observation-qualitaetspruefung.html" : "MII PR Biobank Observation Qualitätsprüfung",
+    "StructureDefinition-mii-pr-biobank-observation-morphologie.html" : "MII PR Biobank Observation Morphologie"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/observation-codes",
@@ -179,9 +179,9 @@
     "StructureDefinition-mii-pr-biobank-observation-wachstumstyp.html" : "MII PR Biobank Observation Wachstumstyp",
     "StructureDefinition-mii-pr-biobank-observation-dna-konzentration.html" : "MII PR Biobank Observation DNA Konzentration",
     "StructureDefinition-mii-pr-biobank-observation-karyotyp.html" : "MII PR Biobank Observation Karyotyp",
-    "StructureDefinition-mii-pr-biobank-observation-morphologie.html" : "MII PR Biobank Observation Morphologie",
     "StructureDefinition-mii-pr-biobank-observation-proliferation.html" : "MII PR Biobank Observation Proliferation",
-    "StructureDefinition-mii-pr-biobank-observation-qualitaetspruefung.html" : "MII PR Biobank Observation Qualitätsprüfung"
+    "StructureDefinition-mii-pr-biobank-observation-qualitaetspruefung.html" : "MII PR Biobank Observation Qualitätsprüfung",
+    "StructureDefinition-mii-pr-biobank-observation-morphologie.html" : "MII PR Biobank Observation Morphologie"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/observation-interpretation",
@@ -198,9 +198,9 @@
     "StructureDefinition-mii-pr-biobank-observation-wachstumstyp.html" : "MII PR Biobank Observation Wachstumstyp",
     "StructureDefinition-mii-pr-biobank-observation-dna-konzentration.html" : "MII PR Biobank Observation DNA Konzentration",
     "StructureDefinition-mii-pr-biobank-observation-karyotyp.html" : "MII PR Biobank Observation Karyotyp",
-    "StructureDefinition-mii-pr-biobank-observation-morphologie.html" : "MII PR Biobank Observation Morphologie",
     "StructureDefinition-mii-pr-biobank-observation-proliferation.html" : "MII PR Biobank Observation Proliferation",
-    "StructureDefinition-mii-pr-biobank-observation-qualitaetspruefung.html" : "MII PR Biobank Observation Qualitätsprüfung"
+    "StructureDefinition-mii-pr-biobank-observation-qualitaetspruefung.html" : "MII PR Biobank Observation Qualitätsprüfung",
+    "StructureDefinition-mii-pr-biobank-observation-morphologie.html" : "MII PR Biobank Observation Morphologie"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/observation-methods",
@@ -217,9 +217,9 @@
     "StructureDefinition-mii-pr-biobank-observation-wachstumstyp.html" : "MII PR Biobank Observation Wachstumstyp",
     "StructureDefinition-mii-pr-biobank-observation-dna-konzentration.html" : "MII PR Biobank Observation DNA Konzentration",
     "StructureDefinition-mii-pr-biobank-observation-karyotyp.html" : "MII PR Biobank Observation Karyotyp",
-    "StructureDefinition-mii-pr-biobank-observation-morphologie.html" : "MII PR Biobank Observation Morphologie",
     "StructureDefinition-mii-pr-biobank-observation-proliferation.html" : "MII PR Biobank Observation Proliferation",
-    "StructureDefinition-mii-pr-biobank-observation-qualitaetspruefung.html" : "MII PR Biobank Observation Qualitätsprüfung"
+    "StructureDefinition-mii-pr-biobank-observation-qualitaetspruefung.html" : "MII PR Biobank Observation Qualitätsprüfung",
+    "StructureDefinition-mii-pr-biobank-observation-morphologie.html" : "MII PR Biobank Observation Morphologie"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/observation-status",
@@ -236,9 +236,9 @@
     "StructureDefinition-mii-pr-biobank-observation-wachstumstyp.html" : "MII PR Biobank Observation Wachstumstyp",
     "StructureDefinition-mii-pr-biobank-observation-dna-konzentration.html" : "MII PR Biobank Observation DNA Konzentration",
     "StructureDefinition-mii-pr-biobank-observation-karyotyp.html" : "MII PR Biobank Observation Karyotyp",
-    "StructureDefinition-mii-pr-biobank-observation-morphologie.html" : "MII PR Biobank Observation Morphologie",
     "StructureDefinition-mii-pr-biobank-observation-proliferation.html" : "MII PR Biobank Observation Proliferation",
-    "StructureDefinition-mii-pr-biobank-observation-qualitaetspruefung.html" : "MII PR Biobank Observation Qualitätsprüfung"
+    "StructureDefinition-mii-pr-biobank-observation-qualitaetspruefung.html" : "MII PR Biobank Observation Qualitätsprüfung",
+    "StructureDefinition-mii-pr-biobank-observation-morphologie.html" : "MII PR Biobank Observation Morphologie"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/organization-type",
@@ -266,10 +266,10 @@
     "sources" : ["2.16.840.1.113883.4.642.3.59"],
     "uses" : {
     },
+    "StructureDefinition-mii-pr-biobank-specimen-core.html" : "MII PR Biobank Specimen Bioprobe Core",
     "StructureDefinition-mii-pr-biobank-observation-dna-konzentration.html" : "MII PR Biobank Observation DNA Konzentration",
-    "StructureDefinition-mii-pr-biobank-specimen.html" : "MII PR Biobank Specimen Bioprobe",
     "StructureDefinition-mii-pr-biobank-zellinie-organoid.html" : "MII PR Biobank Specimen Zellinie Organoid",
-    "StructureDefinition-mii-pr-biobank-specimen-core.html" : "MII PR Biobank Specimen Bioprobe Core"
+    "StructureDefinition-mii-pr-biobank-specimen.html" : "MII PR Biobank Specimen Bioprobe"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/referencerange-appliesto",
@@ -287,9 +287,9 @@
     "StructureDefinition-mii-pr-biobank-observation-wachstumstyp.html" : "MII PR Biobank Observation Wachstumstyp",
     "StructureDefinition-mii-pr-biobank-observation-dna-konzentration.html" : "MII PR Biobank Observation DNA Konzentration",
     "StructureDefinition-mii-pr-biobank-observation-karyotyp.html" : "MII PR Biobank Observation Karyotyp",
-    "StructureDefinition-mii-pr-biobank-observation-morphologie.html" : "MII PR Biobank Observation Morphologie",
     "StructureDefinition-mii-pr-biobank-observation-proliferation.html" : "MII PR Biobank Observation Proliferation",
-    "StructureDefinition-mii-pr-biobank-observation-qualitaetspruefung.html" : "MII PR Biobank Observation Qualitätsprüfung"
+    "StructureDefinition-mii-pr-biobank-observation-qualitaetspruefung.html" : "MII PR Biobank Observation Qualitätsprüfung",
+    "StructureDefinition-mii-pr-biobank-observation-morphologie.html" : "MII PR Biobank Observation Morphologie"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/referencerange-meaning",
@@ -306,9 +306,9 @@
     "StructureDefinition-mii-pr-biobank-observation-wachstumstyp.html" : "MII PR Biobank Observation Wachstumstyp",
     "StructureDefinition-mii-pr-biobank-observation-dna-konzentration.html" : "MII PR Biobank Observation DNA Konzentration",
     "StructureDefinition-mii-pr-biobank-observation-karyotyp.html" : "MII PR Biobank Observation Karyotyp",
-    "StructureDefinition-mii-pr-biobank-observation-morphologie.html" : "MII PR Biobank Observation Morphologie",
     "StructureDefinition-mii-pr-biobank-observation-proliferation.html" : "MII PR Biobank Observation Proliferation",
-    "StructureDefinition-mii-pr-biobank-observation-qualitaetspruefung.html" : "MII PR Biobank Observation Qualitätsprüfung"
+    "StructureDefinition-mii-pr-biobank-observation-qualitaetspruefung.html" : "MII PR Biobank Observation Qualitätsprüfung",
+    "StructureDefinition-mii-pr-biobank-observation-morphologie.html" : "MII PR Biobank Observation Morphologie"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/security-labels",
@@ -327,16 +327,16 @@
     "uses" : {
     },
     "StructureDefinition-mii-pr-biobank-observation-wachstumstyp.html" : "MII PR Biobank Observation Wachstumstyp",
+    "StructureDefinition-mii-pr-biobank-specimen-core.html" : "MII PR Biobank Specimen Bioprobe Core",
+    "StructureDefinition-mii-pr-biobank-substance-additiv.html" : "MII PR Biobank Substance Additiv",
     "StructureDefinition-mii-pr-biobank-observation-dna-konzentration.html" : "MII PR Biobank Observation DNA Konzentration",
+    "StructureDefinition-mii-pr-biobank-organization.html" : "MII PR Biobank Organization Sammlung Biobank",
+    "StructureDefinition-mii-pr-biobank-zellinie-organoid.html" : "MII PR Biobank Specimen Zellinie Organoid",
     "StructureDefinition-mii-pr-biobank-observation-karyotyp.html" : "MII PR Biobank Observation Karyotyp",
     "StructureDefinition-mii-pr-biobank-specimen.html" : "MII PR Biobank Specimen Bioprobe",
-    "StructureDefinition-mii-pr-biobank-zellinie-organoid.html" : "MII PR Biobank Specimen Zellinie Organoid",
-    "StructureDefinition-mii-pr-biobank-substance-additiv.html" : "MII PR Biobank Substance Additiv",
-    "StructureDefinition-mii-pr-biobank-specimen-core.html" : "MII PR Biobank Specimen Bioprobe Core",
-    "StructureDefinition-mii-pr-biobank-observation-morphologie.html" : "MII PR Biobank Observation Morphologie",
     "StructureDefinition-mii-pr-biobank-observation-proliferation.html" : "MII PR Biobank Observation Proliferation",
     "StructureDefinition-mii-pr-biobank-observation-qualitaetspruefung.html" : "MII PR Biobank Observation Qualitätsprüfung",
-    "StructureDefinition-mii-pr-biobank-organization.html" : "MII PR Biobank Organization Sammlung Biobank"
+    "StructureDefinition-mii-pr-biobank-observation-morphologie.html" : "MII PR Biobank Observation Morphologie"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/specimen-collection-method",
@@ -350,9 +350,9 @@
     "sources" : ["2.16.840.1.113883.4.642.3.468"],
     "uses" : {
     },
-    "StructureDefinition-mii-pr-biobank-specimen.html" : "MII PR Biobank Specimen Bioprobe",
+    "StructureDefinition-mii-pr-biobank-specimen-core.html" : "MII PR Biobank Specimen Bioprobe Core",
     "StructureDefinition-mii-pr-biobank-zellinie-organoid.html" : "MII PR Biobank Specimen Zellinie Organoid",
-    "StructureDefinition-mii-pr-biobank-specimen-core.html" : "MII PR Biobank Specimen Bioprobe Core"
+    "StructureDefinition-mii-pr-biobank-specimen.html" : "MII PR Biobank Specimen Bioprobe"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/specimen-processing-procedure",
@@ -366,9 +366,9 @@
     "sources" : ["2.16.840.1.113883.4.642.3.469"],
     "uses" : {
     },
-    "StructureDefinition-mii-pr-biobank-specimen.html" : "MII PR Biobank Specimen Bioprobe",
+    "StructureDefinition-mii-pr-biobank-specimen-core.html" : "MII PR Biobank Specimen Bioprobe Core",
     "StructureDefinition-mii-pr-biobank-zellinie-organoid.html" : "MII PR Biobank Specimen Zellinie Organoid",
-    "StructureDefinition-mii-pr-biobank-specimen-core.html" : "MII PR Biobank Specimen Bioprobe Core"
+    "StructureDefinition-mii-pr-biobank-specimen.html" : "MII PR Biobank Specimen Bioprobe"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/specimen-status",
@@ -382,9 +382,9 @@
     "sources" : ["2.16.840.1.113883.4.642.3.471"],
     "uses" : {
     },
-    "StructureDefinition-mii-pr-biobank-specimen.html" : "MII PR Biobank Specimen Bioprobe",
+    "StructureDefinition-mii-pr-biobank-specimen-core.html" : "MII PR Biobank Specimen Bioprobe Core",
     "StructureDefinition-mii-pr-biobank-zellinie-organoid.html" : "MII PR Biobank Specimen Zellinie Organoid",
-    "StructureDefinition-mii-pr-biobank-specimen-core.html" : "MII PR Biobank Specimen Bioprobe Core"
+    "StructureDefinition-mii-pr-biobank-specimen.html" : "MII PR Biobank Specimen Bioprobe"
   },
   {
     "url" : "http://hl7.org/fhir/ValueSet/substance-category",
@@ -452,9 +452,9 @@
     "sources" : ["2.16.840.1.113883.21.245"],
     "uses" : {
     },
-    "StructureDefinition-mii-pr-biobank-specimen.html" : "MII PR Biobank Specimen Bioprobe",
+    "StructureDefinition-mii-pr-biobank-specimen-core.html" : "MII PR Biobank Specimen Bioprobe Core",
     "StructureDefinition-mii-pr-biobank-zellinie-organoid.html" : "MII PR Biobank Specimen Zellinie Organoid",
-    "StructureDefinition-mii-pr-biobank-specimen-core.html" : "MII PR Biobank Specimen Bioprobe Core"
+    "StructureDefinition-mii-pr-biobank-specimen.html" : "MII PR Biobank Specimen Bioprobe"
   },
   {
     "url" : "http://terminology.hl7.org/ValueSet/v2-0487",
@@ -468,9 +468,9 @@
     "sources" : ["2.16.840.1.113883.21.327"],
     "uses" : {
     },
-    "StructureDefinition-mii-pr-biobank-specimen.html" : "MII PR Biobank Specimen Bioprobe",
+    "StructureDefinition-mii-pr-biobank-specimen-core.html" : "MII PR Biobank Specimen Bioprobe Core",
     "StructureDefinition-mii-pr-biobank-zellinie-organoid.html" : "MII PR Biobank Specimen Zellinie Organoid",
-    "StructureDefinition-mii-pr-biobank-specimen-core.html" : "MII PR Biobank Specimen Bioprobe Core"
+    "StructureDefinition-mii-pr-biobank-specimen.html" : "MII PR Biobank Specimen Bioprobe"
   },
   {
     "url" : "http://terminology.hl7.org/ValueSet/v2-0493",
@@ -484,9 +484,9 @@
     "sources" : ["2.16.840.1.113883.21.333"],
     "uses" : {
     },
-    "StructureDefinition-mii-pr-biobank-specimen.html" : "MII PR Biobank Specimen Bioprobe",
+    "StructureDefinition-mii-pr-biobank-specimen-core.html" : "MII PR Biobank Specimen Bioprobe Core",
     "StructureDefinition-mii-pr-biobank-zellinie-organoid.html" : "MII PR Biobank Specimen Zellinie Organoid",
-    "StructureDefinition-mii-pr-biobank-specimen-core.html" : "MII PR Biobank Specimen Bioprobe Core"
+    "StructureDefinition-mii-pr-biobank-specimen.html" : "MII PR Biobank Specimen Bioprobe"
   },
   {
     "url" : "http://terminology.hl7.org/ValueSet/v2-0916",
@@ -500,9 +500,9 @@
     "sources" : ["2.16.840.1.113883.21.440"],
     "uses" : {
     },
-    "StructureDefinition-mii-pr-biobank-specimen.html" : "MII PR Biobank Specimen Bioprobe",
+    "StructureDefinition-mii-pr-biobank-specimen-core.html" : "MII PR Biobank Specimen Bioprobe Core",
     "StructureDefinition-mii-pr-biobank-zellinie-organoid.html" : "MII PR Biobank Specimen Zellinie Organoid",
-    "StructureDefinition-mii-pr-biobank-specimen-core.html" : "MII PR Biobank Specimen Bioprobe Core"
+    "StructureDefinition-mii-pr-biobank-specimen.html" : "MII PR Biobank Specimen Bioprobe"
   },
   {
     "url" : "https://fhir.bbmri-eric.eu/fhir/ValueSet/miabis-detailed-sample-type-vs",
@@ -514,8 +514,8 @@
     "systems" : ["https://fhir.bbmri-eric.eu/fhir/CodeSystem/miabis-detailed-samply-type-cs"],
     "uses" : {
     },
-    "StructureDefinition-mii-pr-biobank-specimen.html" : "MII PR Biobank Specimen Bioprobe",
-    "StructureDefinition-mii-pr-biobank-zellinie-organoid.html" : "MII PR Biobank Specimen Zellinie Organoid"
+    "StructureDefinition-mii-pr-biobank-zellinie-organoid.html" : "MII PR Biobank Specimen Zellinie Organoid",
+    "StructureDefinition-mii-pr-biobank-specimen.html" : "MII PR Biobank Specimen Bioprobe"
   },
   {
     "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/mii-vs-biobank-biosafety-level",
@@ -539,9 +539,9 @@
     "systems" : ["http://snomed.info/sct"],
     "uses" : {
     },
-    "StructureDefinition-mii-pr-biobank-specimen.html" : "MII PR Biobank Specimen Bioprobe",
+    "StructureDefinition-mii-pr-biobank-specimen-core.html" : "MII PR Biobank Specimen Bioprobe Core",
     "StructureDefinition-mii-pr-biobank-zellinie-organoid.html" : "MII PR Biobank Specimen Zellinie Organoid",
-    "StructureDefinition-mii-pr-biobank-specimen-core.html" : "MII PR Biobank Specimen Bioprobe Core"
+    "StructureDefinition-mii-pr-biobank-specimen.html" : "MII PR Biobank Specimen Bioprobe"
   },
   {
     "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/mii-vs-biobank-cellline-modification-clo",
@@ -590,9 +590,9 @@
     "systems" : ["http://snomed.info/sct"],
     "uses" : {
     },
-    "StructureDefinition-mii-pr-biobank-specimen.html" : "MII PR Biobank Specimen Bioprobe",
+    "StructureDefinition-mii-pr-biobank-specimen-core.html" : "MII PR Biobank Specimen Bioprobe Core",
     "StructureDefinition-mii-pr-biobank-zellinie-organoid.html" : "MII PR Biobank Specimen Zellinie Organoid",
-    "StructureDefinition-mii-pr-biobank-specimen-core.html" : "MII PR Biobank Specimen Bioprobe Core"
+    "StructureDefinition-mii-pr-biobank-specimen.html" : "MII PR Biobank Specimen Bioprobe"
   },
   {
     "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/mii-vs-biobank-dna-concentration-units-ucum",
@@ -628,9 +628,9 @@
     "systems" : ["http://snomed.info/sct"],
     "uses" : {
     },
-    "StructureDefinition-mii-pr-biobank-specimen.html" : "MII PR Biobank Specimen Bioprobe",
+    "StructureDefinition-mii-pr-biobank-specimen-core.html" : "MII PR Biobank Specimen Bioprobe Core",
     "StructureDefinition-mii-pr-biobank-zellinie-organoid.html" : "MII PR Biobank Specimen Zellinie Organoid",
-    "StructureDefinition-mii-pr-biobank-specimen-core.html" : "MII PR Biobank Specimen Bioprobe Core"
+    "StructureDefinition-mii-pr-biobank-specimen.html" : "MII PR Biobank Specimen Bioprobe"
   },
   {
     "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/mii-vs-biobank-probenart-sct",
@@ -642,9 +642,9 @@
     "systems" : ["http://snomed.info/sct"],
     "uses" : {
     },
-    "StructureDefinition-mii-pr-biobank-specimen.html" : "MII PR Biobank Specimen Bioprobe",
+    "StructureDefinition-mii-pr-biobank-specimen-core.html" : "MII PR Biobank Specimen Bioprobe Core",
     "StructureDefinition-mii-pr-biobank-zellinie-organoid.html" : "MII PR Biobank Specimen Zellinie Organoid",
-    "StructureDefinition-mii-pr-biobank-specimen-core.html" : "MII PR Biobank Specimen Bioprobe Core"
+    "StructureDefinition-mii-pr-biobank-specimen.html" : "MII PR Biobank Specimen Bioprobe"
   },
   {
     "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/mii-vs-biobank-probenebene",
