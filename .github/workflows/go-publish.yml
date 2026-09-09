@@ -823,6 +823,7 @@ jobs:
           VERSION: ${{ steps.release.outputs.version }}
         run: |
           set -euo pipefail
+          set -x  # TEMPORAER (Dry-Run-Diagnose): zeigt das exakt fehlschlagende Kommando
           # If a check fails on the module's FIRST publication, compare the
           # staged site with the publication/webroot seeds the reference module
           # uses — for example those of kerndatensatz-basis
