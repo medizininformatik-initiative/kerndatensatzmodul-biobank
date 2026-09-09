@@ -37,7 +37,7 @@ Mapping der SPREC 4.0 Long-Term Storage Containertypen auf die im Modul verwende
   "version" : "2027.0.0-ballot.rc2",
   "title" : "SPREC 4.0 Long-Term Storage Mapping",
   "status" : "active",
-  "date" : "2026-09-09T12:40:12+00:00",
+  "date" : "2026-09-09T12:51:05+00:00",
   "publisher" : "Medizininformatik Initiative",
   "contact" : [{
     "name" : "Medizininformatik Initiative",
