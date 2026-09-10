@@ -14,7 +14,7 @@
         "display": "Buffy coat (specimen)"
       },
       {
-        "system": "https://fhir.bbmri-eric.eu/fhir/CodeSystem/miabis-detailed-samply-type-cs",
+        "system": "https://fhir.bbmri-eric.eu/CodeSystem/miabis-detailed-samply-type-cs",
         "code": "BuffyCoat",
         "display": "Buffy coat"
       }
@@ -80,12 +80,12 @@
           "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/Temperaturbedingungen"
         },
         {
-          "url": "https://fhir.bbmri-eric.eu/fhir/StructureDefinition/miabis-sample-storage-temperature-extension",
+          "url": "https://fhir.bbmri-eric.eu/StructureDefinition/miabis-sample-storage-temperature-extension",
           "valueCodeableConcept": {
             "coding": [
               {
                 "code": "RT",
-                "system": "https://fhir.bbmri-eric.eu/fhir/CodeSystem/miabis-storage-temperature-cs",
+                "system": "https://fhir.bbmri-eric.eu/CodeSystem/miabis-storage-temperature-cs",
                 "display": "Room temperature"
               }
             ]
@@ -126,12 +126,12 @@
           "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/Temperaturbedingungen"
         },
         {
-          "url": "https://fhir.bbmri-eric.eu/fhir/StructureDefinition/miabis-sample-storage-temperature-extension",
+          "url": "https://fhir.bbmri-eric.eu/StructureDefinition/miabis-sample-storage-temperature-extension",
           "valueCodeableConcept": {
             "coding": [
               {
                 "code": "LN",
-                "system": "https://fhir.bbmri-eric.eu/fhir/CodeSystem/miabis-storage-temperature-cs"
+                "system": "https://fhir.bbmri-eric.eu/CodeSystem/miabis-storage-temperature-cs"
               }
             ]
           }

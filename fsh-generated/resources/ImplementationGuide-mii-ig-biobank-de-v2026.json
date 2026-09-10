@@ -62,7 +62,7 @@
         "telecom": [
           {
             "system": "email",
-            "value": "thomas.debertshaeuser@charite.de"
+            "value": "noemi.deppenwiese@uk-erlangen.de"
           }
         ]
       }
@@ -205,8 +205,8 @@
     },
     {
       "packageId": "eu.miabis.r4",
-      "version": "0.2.0",
-      "uri": "http://fhir.org/packages/eu.miabis.r4/ImplementationGuide/eu.miabis.r4",
+      "version": "1.3.0",
+      "uri": "https://fhir.miabis.bbmri-eric.eu",
       "id": "eu_miabis_r4"
     },
     {

@@ -26,9 +26,9 @@ Description: "Darstellung der organisatorischen Daten einer Probensammlung oder 
 //Profile
 
 
-* extension contains https://fhir.bbmri-eric.eu/fhir/StructureDefinition/miabis-organization-description-extension named beschreibung 0..1 MS
-            and https://fhir.bbmri-eric.eu/fhir/StructureDefinition/miabis-sample-collection-setting-extension named collectionSetting 0..1 MS
-            and https://fhir.bbmri-eric.eu/fhir/StructureDefinition/miabis-collection-design-extension named collectionDesign 0..1 MS
+* extension contains https://fhir.bbmri-eric.eu/StructureDefinition/miabis-organization-description-extension named beschreibung 0..1 MS
+            and https://fhir.bbmri-eric.eu/StructureDefinition/miabis-sample-collection-setting-extension named collectionSetting 0..1 MS
+            and https://fhir.bbmri-eric.eu/StructureDefinition/miabis-collection-design-extension named collectionDesign 0..1 MS
 * insert Translation(extension[beschreibung] ^short, de-DE, Beschreibung der Sammlung/Biobank)
 * insert Translation(extension[beschreibung] ^short, en-US, Description of the collection/biobank)
 * insert Translation(extension[beschreibung] ^definition, de-DE, Eine Freitextbeschreibung der Sammlung/Biobank\, die z.B. in einer Suche angezeigt werden kann.)

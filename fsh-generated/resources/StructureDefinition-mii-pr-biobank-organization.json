@@ -156,7 +156,7 @@
           {
             "code": "Extension",
             "profile": [
-              "https://fhir.bbmri-eric.eu/fhir/StructureDefinition/miabis-organization-description-extension"
+              "https://fhir.bbmri-eric.eu/StructureDefinition/miabis-organization-description-extension"
             ]
           }
         ],
@@ -232,7 +232,7 @@
           {
             "code": "Extension",
             "profile": [
-              "https://fhir.bbmri-eric.eu/fhir/StructureDefinition/miabis-sample-collection-setting-extension"
+              "https://fhir.bbmri-eric.eu/StructureDefinition/miabis-sample-collection-setting-extension"
             ]
           }
         ],
@@ -248,7 +248,7 @@
           {
             "code": "Extension",
             "profile": [
-              "https://fhir.bbmri-eric.eu/fhir/StructureDefinition/miabis-collection-design-extension"
+              "https://fhir.bbmri-eric.eu/StructureDefinition/miabis-collection-design-extension"
             ]
           }
         ],

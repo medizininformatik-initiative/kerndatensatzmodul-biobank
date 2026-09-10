@@ -14,7 +14,7 @@
         "display": "Specimen (specimen)"
       },
       {
-        "system": "https://fhir.bbmri-eric.eu/fhir/CodeSystem/miabis-detailed-samply-type-cs",
+        "system": "https://fhir.bbmri-eric.eu/CodeSystem/miabis-detailed-samply-type-cs",
         "code": "Organoid",
         "display": "Organoids"
       }

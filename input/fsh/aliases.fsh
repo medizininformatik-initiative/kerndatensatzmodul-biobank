@@ -1,7 +1,8 @@
 Alias: $CLO = http://purl.obolibrary.org/obo/clo.owl
 Alias: $LOINC = http://loinc.org
 Alias: $UCUM = http://unitsofmeasure.org
-
+Alias: $miabis-type = https://fhir.bbmri-eric.eu/CodeSystem/miabis-detailed-samply-type-cs
+Alias: $miabis-storage-temp = https://fhir.bbmri-eric.eu/CodeSystem/miabis-storage-temperature-cs
 Alias: $exp = http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation
 
 // --- appended from mii-kds-module-template v0.11.3 aliases.fsh (per-definition merge; module definitions win) ---

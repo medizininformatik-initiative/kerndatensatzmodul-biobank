@@ -8,7 +8,7 @@ Usage: #example
 * identifier.system = "https://biobank.uk-musterstadt.de/fhir/sid/proben"
 * identifier.value = "12345-BC-1"
 * status = #available
-* type.coding[miabis-type] = https://fhir.bbmri-eric.eu/fhir/CodeSystem/miabis-detailed-samply-type-cs#BuffyCoat "Buffy coat"
+* type.coding[miabis-type] = $miabis-type#BuffyCoat "Buffy coat"
 * type.coding[sct] = $sct-no-ver#258587000 "Buffy coat (specimen)"
 
 * subject.reference = "Patient/mii-exa-test-data-patient-1"
@@ -16,7 +16,7 @@ Usage: #example
 
 * processing[+].extension[temperaturbedingungen].valueRange.low.value = -196
 * processing[=].extension[temperaturbedingungen].valueRange.high.value = -150
-* processing[=].extension[temperature-miabis].valueCodeableConcept = https://fhir.bbmri-eric.eu/fhir/CodeSystem/miabis-storage-temperature-cs#LN
+* processing[=].extension[temperature-miabis].valueCodeableConcept = $miabis-storage-temp#LN
 * processing[=].procedure = $sct-no-ver#1186936003 "Storage of specimen (procedure)"
 * processing[=].timePeriod.start = "2018-06-07T17:07:00+01:00"
 

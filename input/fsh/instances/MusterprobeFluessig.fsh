@@ -9,7 +9,7 @@ Usage: #example
 * identifier.value = "12345"
 * status = #available
 * type.coding[sct] = $sct-no-ver#122555007 "Venous blood specimen (specimen)"
-* type.coding[miabis-type] = https://fhir.bbmri-eric.eu/fhir/CodeSystem/miabis-detailed-samply-type-cs#WholeBlood "Whole blood"
+* type.coding[miabis-type] = $miabis-type#WholeBlood "Whole blood"
 
 * subject.reference = "Patient/mii-exa-test-data-patient-1"
 * receivedTime = "2018-06-07T15:50:00+01:00"
@@ -21,14 +21,14 @@ Usage: #example
 
 * processing[lagerprozess].extension[temperaturbedingungen].valueRange.low.value = 15
 * processing[lagerprozess].extension[temperaturbedingungen].valueRange.high.value = 25
-* processing[lagerprozess].extension[temperature-miabis].valueCodeableConcept = https://fhir.bbmri-eric.eu/fhir/CodeSystem/miabis-storage-temperature-cs#RT "Room temperature"
+* processing[lagerprozess].extension[temperature-miabis].valueCodeableConcept = $miabis-storage-temp#RT "Room temperature"
 * processing[lagerprozess].procedure =  $sct-no-ver#1186936003 "Storage of specimen (procedure)"
 * processing[lagerprozess].timePeriod.start = "2018-06-07T15:54:00+01:00"
 * processing[lagerprozess].timePeriod.end = "2018-06-07T16:27:00+01:00"
 
 * processing[+].extension[temperaturbedingungen].valueRange.low.value = 15
 * processing[=].extension[temperaturbedingungen].valueRange.high.value = 25
-* processing[=].extension[temperature-miabis].valueCodeableConcept = https://fhir.bbmri-eric.eu/fhir/CodeSystem/miabis-storage-temperature-cs#RT "Room temperature"
+* processing[=].extension[temperature-miabis].valueCodeableConcept = $miabis-storage-temp#RT "Room temperature"
 * processing[=].procedure =  $sct-no-ver#73373003 "Specimen centrifugation (procedure)"
 * processing[=].timePeriod.start = "2018-06-07T16:27:00+01:00"
 * processing[=].timePeriod.end = "2018-06-07T16:37:00+01:00"
