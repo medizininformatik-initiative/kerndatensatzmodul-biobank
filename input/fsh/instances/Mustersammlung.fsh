@@ -4,8 +4,8 @@ Title: "Mustersammlung"
 Usage: #example
 
 * extension[beschreibung].valueString = "Sammlung mit im Rahmen der Versorgung gewonnenen Proben."
-* extension[collectionSetting].valueCodeableConcept = https://fhir.bbmri-eric.eu/fhir/CodeSystem/miabis-sample-collection-setting-cs#RoutineHealthCare "Routine health care setting"
-* extension[collectionDesign].valueCodeableConcept = https://fhir.bbmri-eric.eu/fhir/CodeSystem/miabis-collection-design-cs#LongitudinalCohort "Longitudinal cohort"
+* extension[collectionSetting].valueCodeableConcept = https://fhir.bbmri-eric.eu/CodeSystem/miabis-sample-collection-setting-cs#RoutineHealthCare "Routine health care setting"
+* extension[collectionDesign].valueCodeableConcept = https://fhir.bbmri-eric.eu/CodeSystem/miabis-collection-design-cs#LongitudinalCohort "Longitudinal cohort"
 * name = "Mustersammlung"
 * partOf = Reference(BiobankMusterstadt)
 * contact[forschungskontakt].extension[rolle].valueString = "Forschungskoordinatorin"

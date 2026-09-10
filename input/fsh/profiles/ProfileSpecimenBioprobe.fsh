@@ -44,7 +44,7 @@ Description: "Abbildung einer MII Bioprobe"
 
 //MIABIS
 * type.coding contains miabis-type 0..1 MS
-* type.coding[miabis-type] from https://fhir.bbmri-eric.eu/ValueSet/miabis-material-type-vs (required)
+* type.coding[miabis-type] from https://fhir.bbmri-eric.eu/ValueSet/miabis-detailed-sample-type-vs (required)
 * type.coding[miabis-type].system = $miabis-type
 * collection.method MS
 * collection.method.coding MS
