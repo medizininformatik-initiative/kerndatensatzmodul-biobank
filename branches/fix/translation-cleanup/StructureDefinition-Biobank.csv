@@ -46,6 +46,8 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","Zuordnung der Probe zu einer Sammlung/Biobank","Zuordnung der Probe zu einer Sammlung/Biobank","","","","","","","","","",,,,,"",,,,"Biobank.Bioprobe.gehoert-zu",0,1,"","","Specimen.extension[gehoertZu]"
 "Biobank.Bioprobe.Anzahl-Aliqouts","Biobank.Bioprobe.Anzahl-Aliqouts","","","",0,1,"","","","integer {[]} {[]}
 ","Anzahl der Aliqouts.","Anzahl der Aliqouts.","","","","","","","","","",,,,,"",,,,"Biobank.Bioprobe.Anzahl-Aliqouts",0,1,"","","Specimen.extension[anzahlAliquots]"
+"Biobank.Bioprobe.Infektiositaets-Status","Biobank.Bioprobe.Infektiositaets-Status","","","",0,1,"","","","CodeableConcept {[]} {[]}
+","Markiert eine Probe als (potentiell) infektiös.","Markiert eine Probe als (potentiell) infektiös.","","","","","","","","","",,,,,"",,,,"Biobank.Bioprobe.Infektiositaets-Status",0,1,"",""
 "Biobank.Bioprobe.Container","Biobank.Bioprobe.Container","","","",0,1,"","","","BackboneElement {[]} {[]}
 ","Probenbehältnis","Probenbehältnis","","","","","","","","","",,,,,"",,,,"Biobank.Bioprobe.Container",0,1,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ","Specimen.container"

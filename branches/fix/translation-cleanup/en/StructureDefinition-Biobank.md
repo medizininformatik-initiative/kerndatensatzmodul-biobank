@@ -48,7 +48,7 @@ Other representations of profile: [CSV](../StructureDefinition-Biobank.csv), [Ex
   "version" : "2027.0.0-ballot.rc2",
   "name" : "MII_LM_Biobank",
   "status" : "active",
-  "date" : "2026-09-10T15:38:34+00:00",
+  "date" : "2026-09-10T15:45:44+00:00",
   "publisher" : "Medizininformatik Initiative",
   "contact" : [{
     "name" : "Medizininformatik Initiative",
@@ -245,6 +245,17 @@ Other representations of profile: [CSV](../StructureDefinition-Biobank.csv), [Ex
       "mapping" : [{
         "identity" : "FHIR",
         "map" : "Specimen.extension[anzahlAliquots]"
+      }]
+    },
+    {
+      "id" : "Biobank.Bioprobe.Infektiositaets-Status",
+      "path" : "Biobank.Bioprobe.Infektiositaets-Status",
+      "short" : "Markiert eine Probe als (potentiell) infektiös.",
+      "definition" : "Markiert eine Probe als (potentiell) infektiös.",
+      "min" : 0,
+      "max" : "1",
+      "type" : [{
+        "code" : "CodeableConcept"
       }]
     },
     {
