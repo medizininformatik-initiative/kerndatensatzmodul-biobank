@@ -246,6 +246,19 @@
         ]
       },
       {
+        "id": "Biobank.Bioprobe.Infektiositaets-Status",
+        "path": "Biobank.Bioprobe.Infektiositaets-Status",
+        "short": "Markiert eine Probe als (potentiell) infektiös.",
+        "definition": "Markiert eine Probe als (potentiell) infektiös.",
+        "min": 0,
+        "max": "1",
+        "type": [
+          {
+            "code": "CodeableConcept"
+          }
+        ]
+      },
+      {
         "id": "Biobank.Bioprobe.Container",
         "path": "Biobank.Bioprobe.Container",
         "short": "Probenbehältnis",
