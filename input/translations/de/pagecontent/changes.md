@@ -1,5 +1,5 @@
 <!-- markdownlint-disable MD041 -->
-### Version 2027.0.0-ballot.rc3
+### Version 2027.0.0-ballot
 
 Chore:
 * Update MIABIS Dependency auf 1.3.0 **Breaking Changes:** MIABIS hat alle seine URLs geändert. Das betrifft die Extensions sowie das System für Temperatur & Materialcodes.
