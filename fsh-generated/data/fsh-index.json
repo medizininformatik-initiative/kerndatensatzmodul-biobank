@@ -421,7 +421,7 @@
     "fshType": "ValueSet",
     "fshFile": "valuesets\\ValueSetInfextiositaetsstatus.fsh",
     "startLine": 1,
-    "endLine": 26
+    "endLine": 23
   },
   {
     "outputFile": "ValueSet-mii-vs-biobank-body-structures-sct.json",

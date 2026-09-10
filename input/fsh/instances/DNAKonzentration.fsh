@@ -8,6 +8,6 @@ Usage: #example
 * focus = Reference(AliquotgruppeDNA)
 * valueQuantity.value = 40
 * valueQuantity.unit = "ng/µL"
-* valueQuantity.system = "http://unitsofmeasure.org"
+* valueQuantity.system = $UCUM
 * valueQuantity.code = #ng/uL
 * effectiveDateTime = "2018-09-07T13:40:00+01:00"

@@ -11,4 +11,4 @@ Title: "MII VS Biobank Probenart SCT"
 * ^experimental = false
 * ^description = "Value Set for Sample Types (SNOMED CT)"
 
-* include codes from system $SCT where concept descendent-of #123038009
+* include codes from system $sct where concept descendent-of #123038009

@@ -51,7 +51,7 @@ StructureDefinition-mii-pr-biobank-specimen.json                        MII_PR_B
 StructureDefinition-mii-pr-biobank-substance-additiv.json               MII_PR_Biobank_Substance_Additiv               Profile     profiles\ProfileSubstanceAdditiv.fsh               2 - 29
 StructureDefinition-mii-pr-biobank-zellinie-organoid.json               MII_PR_Biobank_Specimen_Zellinie_Organoid      Profile     profiles\ProfileSpecimenZellinieOrganiod.fsh       2 - 29
 Substance-Heparin.json                                                  Heparin                                        Instance    instances\Heparin.fsh                              1 - 6
-ValueSet-mii-vs-biobank-biosafety-level-snomedct.json                   MII_VS_Biobank_Biosafety_Level_SNOMEDCT        ValueSet    valuesets\ValueSetInfextiositaetsstatus.fsh        1 - 26
+ValueSet-mii-vs-biobank-biosafety-level-snomedct.json                   MII_VS_Biobank_Biosafety_Level_SNOMEDCT        ValueSet    valuesets\ValueSetInfextiositaetsstatus.fsh        1 - 23
 ValueSet-mii-vs-biobank-body-structures-sct.json                        MII_VS_Biobank_BodyStructures_SCT              ValueSet    valuesets\ValueSetSCTBodyStructure.fsh             1 - 14
 ValueSet-mii-vs-biobank-cellline-modification-clo.json                  MII_VS_Biobank_Cellline_Modification_CLO       ValueSet    valuesets\ValueSetModifikationen.fsh               1 - 17
 ValueSet-mii-vs-biobank-cellline-morphology-sct.json                    MII_VS_Biobank_Cellline_Morphology_SCT         ValueSet    valuesets\ValueSetCellLineMorphologie.fsh          1 - 15

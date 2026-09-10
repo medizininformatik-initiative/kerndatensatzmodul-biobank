@@ -11,4 +11,4 @@ Title: "MII VS Biobank BodyStructures SCT"
 * ^experimental = false
 * ^description = "Value Set for Specimen Collection Body Structures (SNOMED CT)"
 
-* include codes from system $SCT where concept descendent-of #123037004
+* include codes from system $sct where concept descendent-of #123037004

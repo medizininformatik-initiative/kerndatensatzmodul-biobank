@@ -4,7 +4,7 @@ Title: "Qualitätsprüfung Plasma Aliquotgruppe"
 Usage: #example
 
 * status = #final
-* code = $SCT#386404008 "Quality monitoring (procedure)"
+* code = $sct-no-ver#386404008 "Quality monitoring (procedure)"
 * focus = Reference(AliquotgruppePlasma)
 * effectiveDateTime = "2018-06-08T09:04:00+01:00"
 
