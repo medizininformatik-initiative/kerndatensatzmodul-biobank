@@ -5,7 +5,7 @@
     "fshType": "Instance",
     "fshFile": "CapabilityStatement.fsh",
     "startLine": 31,
-    "endLine": 150
+    "endLine": 152
   },
   {
     "outputFile": "CodeSystem-mii-cs-biobank-contact-type.json",
@@ -160,6 +160,14 @@
     "endLine": 17
   },
   {
+    "outputFile": "SearchParameter-mii-sp-biobank-specimen-focus.json",
+    "fshName": "mii-sp-biobank-specimen-focus",
+    "fshType": "Instance",
+    "fshFile": "searchparams\\SP_BIOBANK_FOCUS.fsh",
+    "startLine": 1,
+    "endLine": 18
+  },
+  {
     "outputFile": "ServiceRequest-GewebeBiopsie.json",
     "fshName": "GewebeBiopsie",
     "fshType": "Instance",
@@ -237,7 +245,7 @@
     "fshType": "Logical",
     "fshFile": "logicals\\MII_LM_Biobank.fsh",
     "startLine": 1,
-    "endLine": 78
+    "endLine": 79
   },
   {
     "outputFile": "StructureDefinition-mii-ex-biobank-anzahl-aliquots.json",

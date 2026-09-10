@@ -19,6 +19,7 @@ Es ist zu beachten, dass das Logical Model rein auf die Abbildung der Dateneleme
 | `Bioprobe.FestgestellteDiagnose` | Verweis auf eine Diagnose für die Material in der Probe enthalten ist | `Specimen.extension[diagnose]` |
 | `Bioprobe.gehoert-zu` | Zuordnung der Probe zu einer Sammlung/Biobank | `Specimen.extension[gehoertZu]` |
 | `Bioprobe.Anzahl-Aliqouts` | Anzahl der Aliqouts. | `Specimen.extension[anzahlAliquots]` |
+| `Bioprobe.Infektiositaets-Status` | Markiert eine Probe als (potentiell) infektiös. | `Specimen.extension[infektiositaetsstatus]` |
 | `Bioprobe.Container` | Probenbehältnis | `Specimen.container` |
 | `Bioprobe.Container.Containertyp` | Typ des Containers | `Specimen.container.type` |
 | `Bioprobe.Container.Kapazitaet` | Kapazität des Probencontainers | `Specimen.container.capacity` |
