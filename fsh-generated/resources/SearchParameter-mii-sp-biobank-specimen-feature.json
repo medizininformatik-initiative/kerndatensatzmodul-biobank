@@ -77,11 +77,11 @@
   "status": "active",
   "experimental": false,
   "date": "2026-09-10",
-  "description": "Suchparameter für Specimen.feature.type",
+  "description": "Suchparameter für das Specimen-Feature (R5-Backport-Extension) nach Feature-Typ",
   "code": "feature",
   "base": [
     "Specimen"
   ],
   "type": "token",
-  "expression": "Specimen.feature.type"
+  "expression": "Specimen.extension('http://hl7.org/fhir/5.0/StructureDefinition/extension-Specimen.feature').extension('type').value.as(CodeableConcept)"
 }
