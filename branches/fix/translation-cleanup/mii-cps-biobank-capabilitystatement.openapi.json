@@ -242,6 +242,14 @@
             "description": "SearchParameter for Specimen.request"
           },
           {
+            "name": "feature",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            },
+            "description": "Suchparameter für das Specimen-Feature (R5-Backport-Extension) nach Feature-Typ"
+          },
+          {
             "name": "einstellung-blutversorgung",
             "in": "query",
             "schema": {
@@ -341,6 +349,22 @@
             "schema": {
               "type": "string"
             }
+          },
+          {
+            "name": "infektiositaetsstatus",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            },
+            "description": "Suchparameter für den Infektiositätsstatus (Extension) an Specimen"
+          },
+          {
+            "name": "focus",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            },
+            "description": "Suchparameter für die Specimen-Focus-Extension nach der referenzierten Fokus-Ressource"
           },
           {
             "name": "kulturprotokoll",

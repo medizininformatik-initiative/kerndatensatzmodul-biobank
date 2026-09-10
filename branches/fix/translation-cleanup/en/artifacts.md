@@ -15,6 +15,16 @@ The following artifacts define the specific capabilities that different types of
 | :--- | :--- |
 | [ MII CPS Biobank CapabilityStatement  ](CapabilityStatement-mii-cps-biobank-capabilitystatement.md) | Das vorliegende CapabilityStatement beschreibt alle verpflichtenden Interaktionen die ein konformes System unterstützen muss, um das Modul Biobank der Medizininformatik Initiative zu implementieren. |
 
+### Behavior: Search Parameters 
+
+These define the properties by which a RESTful server can be searched. They can also be used for sorting and including related resources.
+
+| | |
+| :--- | :--- |
+| [ mii-sp-biobank-infektiositaetsstatus  ](SearchParameter-mii-sp-biobank-infektiositaetsstatus.md) | Suchparameter für den Infektiositätsstatus (Extension) an Specimen |
+| [ mii-sp-biobank-specimen-feature  ](SearchParameter-mii-sp-biobank-specimen-feature.md) | Suchparameter für das Specimen-Feature (R5-Backport-Extension) nach Feature-Typ |
+| [ mii-sp-biobank-specimen-focus  ](SearchParameter-mii-sp-biobank-specimen-focus.md) | Suchparameter für die Specimen-Focus-Extension nach der referenzierten Fokus-Ressource |
+
 ### Structures: Logical Models 
 
 These define data models that represent the domain covered by this implementation guide in more business-friendly terms than the underlying FHIR resources.

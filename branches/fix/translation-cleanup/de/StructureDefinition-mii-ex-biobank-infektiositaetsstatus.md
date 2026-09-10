@@ -20,6 +20,7 @@ Extension zur Angabe des Infektiositätsstatus einer Probe anhand der Biosafety-
 **Usages:**
 
 * Use this Extension: [MII PR Biobank Specimen Bioprobe Core](StructureDefinition-mii-pr-biobank-specimen-core.md)
+* Search Parameters using this Extension: [MII_SP_Biobank_Infektiositaetsstatus](SearchParameter-mii-sp-biobank-infektiositaetsstatus.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/resource/de.medizininformatikinitiative.kerndatensatz.biobank|current/StructureDefinition/StructureDefinition-mii-ex-biobank-infektiositaetsstatus.json)
 
@@ -125,7 +126,7 @@ Weitere Repräsentationen des Profils: [CSV](../StructureDefinition-mii-ex-bioba
     }]
   },
   "status" : "active",
-  "date" : "2026-09-10T14:44:18+00:00",
+  "date" : "2026-09-10T14:50:34+00:00",
   "publisher" : "Medizininformatik Initiative",
   "contact" : [{
     "name" : "Medizininformatik Initiative",

@@ -306,28 +306,31 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
          <a href="#1">Verhalten: CapabilityStatements</a>
       </li>
       <li>
-         <a href="#2">Strukturen: Logische Modelle</a>
+         <a href="#2">Verhalten: Suchparameter (SearchParameter)</a>
       </li>
       <li>
-         <a href="#3">Strukturen: Ressourcenprofile</a>
+         <a href="#3">Strukturen: Logische Modelle</a>
       </li>
       <li>
-         <a href="#4">Strukturen: Extension-Definitionen</a>
+         <a href="#4">Strukturen: Ressourcenprofile</a>
       </li>
       <li>
-         <a href="#5">Terminologie: ValueSets</a>
+         <a href="#5">Strukturen: Extension-Definitionen</a>
       </li>
       <li>
-         <a href="#6">Terminologie: CodeSysteme</a>
+         <a href="#6">Terminologie: ValueSets</a>
       </li>
       <li>
-         <a href="#7">Terminologie: ConceptMaps</a>
+         <a href="#7">Terminologie: CodeSysteme</a>
       </li>
       <li>
-         <a href="#8">Beispiel: Beispielinstanzen</a>
+         <a href="#8">Terminologie: ConceptMaps</a>
       </li>
       <li>
-         <a href="#9">Sonstige</a>
+         <a href="#9">Beispiel: Beispielinstanzen</a>
+      </li>
+      <li>
+         <a href="#10">Sonstige</a>
       </li>
    </ul>
 </div>
@@ -356,6 +359,50 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
       </tbody>
    </table>
    <a name="2"> </a>
+   <h3>Verhalten: Suchparameter (SearchParameter) </h3>
+    <p>Diese definieren die Eigenschaften, nach denen ein RESTful-Server durchsucht werden kann. Sie können auch zum Sortieren und Einbeziehen verwandter Ressourcen verwendet werden.</p>
+<table class="grid">
+      <col style="width:20%"/>
+      <tbody>
+         <tr>
+            <td style="column-width:30%">
+               <a href="SearchParameter-mii-sp-biobank-infektiositaetsstatus.html"
+                  title="SearchParameter/mii-sp-biobank-infektiositaetsstatus">
+                  <span title="SearchParameter/mii-sp-biobank-infektiositaetsstatus">mii-sp-biobank-infektiositaetsstatus
+</span>
+               </a>
+            </td>
+            <td>
+<p>Suchparameter für den Infektiositätsstatus (Extension) an Specimen</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="SearchParameter-mii-sp-biobank-specimen-feature.html"
+                  title="SearchParameter/mii-sp-biobank-specimen-feature">
+                  <span title="SearchParameter/mii-sp-biobank-specimen-feature">mii-sp-biobank-specimen-feature
+</span>
+               </a>
+            </td>
+            <td>
+<p>Suchparameter für das Specimen-Feature (R5-Backport-Extension) nach Feature-Typ</p>
+</td>
+         </tr>
+         <tr>
+            <td style="column-width:30%">
+               <a href="SearchParameter-mii-sp-biobank-specimen-focus.html"
+                  title="SearchParameter/mii-sp-biobank-specimen-focus">
+                  <span title="SearchParameter/mii-sp-biobank-specimen-focus">mii-sp-biobank-specimen-focus
+</span>
+               </a>
+            </td>
+            <td>
+<p>Suchparameter für die Specimen-Focus-Extension nach der referenzierten Fokus-Ressource</p>
+</td>
+         </tr>
+      </tbody>
+   </table>
+   <a name="3"> </a>
    <h3>Strukturen: Logische Modelle </h3>
     <p>Diese definieren Datenmodelle, die den von diesem Implementierungsleitfaden abgedeckten Bereich in geschäftsfreundlicheren Begriffen darstellen als die zugrunde liegenden FHIR-Ressourcen.</p>
 <table class="grid">
@@ -375,7 +422,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
          </tr>
       </tbody>
    </table>
-   <a name="3"> </a>
+   <a name="4"> </a>
    <h3>Strukturen: Ressourcenprofile </h3>
     <p>Diese definieren Einschränkungen für FHIR-Ressourcen für Systeme, die mit dem Implementierungsleitfaden konform sind.</p>
 <table class="grid">
@@ -515,7 +562,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
          </tr>
       </tbody>
    </table>
-   <a name="4"> </a>
+   <a name="5"> </a>
    <h3>Strukturen: Extension-Definitionen </h3>
     <p>Diese definieren Einschränkungen für FHIR-Datentypen für Systeme, die mit diesem Implementierungsleitfaden konform sind.</p>
 <table class="grid">
@@ -667,7 +714,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
          </tr>
       </tbody>
    </table>
-   <a name="5"> </a>
+   <a name="6"> </a>
    <h3>Terminologie: ValueSets </h3>
     <p>Diese definieren Wertemengen, die von Systemen verwendet werden, die mit dem Implementierungsleitfaden konform sind.</p>
 <table class="grid">
@@ -831,7 +878,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
          </tr>
       </tbody>
    </table>
-   <a name="6"> </a>
+   <a name="7"> </a>
    <h3>Terminologie: CodeSysteme </h3>
     <p>Diese definieren neue CodeSysteme, die von Systemen verwendet werden, die mit diesem Implementierungsleitfaden konform sind.</p>
 <table class="grid">
@@ -863,7 +910,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
          </tr>
       </tbody>
    </table>
-   <a name="7"> </a>
+   <a name="8"> </a>
    <h3>Terminologie: ConceptMaps </h3>
     <p>Diese definieren Transformationen zur Konvertierung zwischen Codes durch Systeme, die mit diesem Implementierungsleitfaden konform sind.</p>
 <table class="grid">
@@ -919,7 +966,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
          </tr>
       </tbody>
    </table>
-   <a name="8"> </a>
+   <a name="9"> </a>
    <h3>Beispiel: Beispielinstanzen </h3>
     <p>Dies sind Beispielinstanzen, die zeigen, wie Daten aussehen könnten, die von Systemen produziert und konsumiert werden, die mit diesem Implementierungsleitfaden konform sind.</p>
 <table class="grid">
@@ -1176,7 +1223,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
          </tr>
       </tbody>
    </table>
-   <a name="9"> </a>
+   <a name="10"> </a>
    <h3>Sonstige </h3>
     <p>Dies sind Ressourcen, die in diesem Implementierungsleitfaden verwendet werden, die in keine der anderen Kategorien passen.</p>
 <table class="grid">
@@ -1217,7 +1264,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
           IG © 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.medizininformatik-initiative.de/">Medizininformatik Initiative</a>.  
           Package de.medizininformatikinitiative.kerndatensatz.biobank#2027.0.0-ballot.rc2 basiert auf <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>.
-          Erstellt <span title="Thu, Sep 10, 2026 14:44+0000">2026-09-10</span>
+          Erstellt <span title="Thu, Sep 10, 2026 14:50+0000">2026-09-10</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
             <!-- Branding override for the fhir2.base.template footer fragment.

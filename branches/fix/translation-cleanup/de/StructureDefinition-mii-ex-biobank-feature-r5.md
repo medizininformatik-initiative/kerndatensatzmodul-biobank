@@ -20,6 +20,7 @@ Die Extension ermöglicht es im Specimen das feature aus R5 zu nutzen.
 **Usages:**
 
 * Use this Extension: [MII PR Biobank Specimen Bioprobe Core](StructureDefinition-mii-pr-biobank-specimen-core.md) and [Cross-version Profile for R5.Specimen for use in FHIR R4](http://hl7.org/fhir/uv/xver-r5.r4/0.1.0/StructureDefinition-profile-Specimen.html)
+* Search Parameters using this Extension: [MII_SP_Biobank_Specimen_Feature](SearchParameter-mii-sp-biobank-specimen-feature.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/resource/de.medizininformatikinitiative.kerndatensatz.biobank|current/StructureDefinition/StructureDefinition-mii-ex-biobank-feature-r5.json)
 
@@ -82,7 +83,7 @@ Weitere Repräsentationen des Profils: [CSV](../StructureDefinition-mii-ex-bioba
   "title" : "MII EX Biobank Feature R5",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-09-10T14:44:18+00:00",
+  "date" : "2026-09-10T14:50:34+00:00",
   "publisher" : "Medizininformatik Initiative",
   "contact" : [{
     "name" : "Medizininformatik Initiative",

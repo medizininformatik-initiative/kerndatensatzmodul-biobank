@@ -98,6 +98,12 @@
 
 * [mii-param-biobank-manifest](en/Parameters-mii-param-biobank-manifest.md)
 
+### SearchParameters
+
+* [MII_SP_Biobank_Infektiositaetsstatus](en/SearchParameter-mii-sp-biobank-infektiositaetsstatus.md)
+* [MII_SP_Biobank_Specimen_Feature](en/SearchParameter-mii-sp-biobank-specimen-feature.md)
+* [MII_SP_Biobank_Specimen_Focus](en/SearchParameter-mii-sp-biobank-specimen-focus.md)
+
 ### Examples
 
 * [Kulturprotokoll (DocumentReference)](en/DocumentReference-Kulturprotokoll.md)

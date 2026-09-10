@@ -80,7 +80,7 @@ Weitere Repräsentationen des Profils: [CSV](../StructureDefinition-Biobank.csv)
   "version" : "2027.0.0-ballot.rc2",
   "name" : "MII_LM_Biobank",
   "status" : "active",
-  "date" : "2026-09-10T14:44:18+00:00",
+  "date" : "2026-09-10T14:50:34+00:00",
   "publisher" : "Medizininformatik Initiative",
   "contact" : [{
     "name" : "Medizininformatik Initiative",

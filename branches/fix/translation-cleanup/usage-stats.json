@@ -282,11 +282,13 @@
       "CodeSystem",
       "ConceptMap",
       "ImplementationGuide",
+      "SearchParameter",
       "StructureDefinition",
       "ValueSet"
     ],
     "http://hl7.org/fhir/StructureDefinition/artifact-versionPolicy": [
-      "ImplementationGuide"
+      "ImplementationGuide",
+      "SearchParameter"
     ],
     "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation": [
       "CapabilityStatement.rest.resource",
@@ -319,7 +321,8 @@
       "Specimen.collection.quantity"
     ],
     "http://hl7.org/fhir/StructureDefinition/package-source": [
-      "ImplementationGuide"
+      "ImplementationGuide",
+      "SearchParameter.meta"
     ],
     "http://hl7.org/fhir/StructureDefinition/quantity-precision": [
       "Specimen.collection.quantity"
@@ -426,6 +429,7 @@
       "CapabilityStatement",
       "CodeSystem",
       "ConceptMap",
+      "SearchParameter",
       "StructureDefinition",
       "ValueSet"
     ]

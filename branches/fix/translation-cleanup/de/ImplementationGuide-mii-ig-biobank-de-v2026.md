@@ -44,7 +44,7 @@ This publication includes IP covered under the following statements.
 
 * ISO maintains the copyright on the country codes, and controls its use carefully. For further details see the ISO 3166 web page: [https://www.iso.org/iso-3166-country-codes.html](https://www.iso.org/iso-3166-country-codes.html)
 
-* [ISO 3166-1 Codes for the representation of names of countries and their subdivisions — Part 1: Country code](http://terminology.hl7.org/6.3.0/CodeSystem-ISO3166Part1.html): [ConceptMap/mii-cm-biobank-fixation-type-sprec-sct](ConceptMap-mii-cm-biobank-fixation-type-sprec-sct.md), [ConceptMap/mii-cm-biobank-long-term-storage-sprec-sct](ConceptMap-mii-cm-biobank-long-term-storage-sprec-sct.md)... Show 43 more, [ConceptMap/mii-cm-biobank-primary-container-sprec-sct](ConceptMap-mii-cm-biobank-primary-container-sprec-sct.md), [ConceptMap/mii-cm-biobank-sample-type-sprec-sct](ConceptMap-mii-cm-biobank-sample-type-sprec-sct.md), [MII_CPS_Biobank_CapabilityStatement](CapabilityStatement-mii-cps-biobank-capabilitystatement.md), [MII_CS_Biobank_Contact_Type](CodeSystem-mii-cs-biobank-contact-type.md), [MII_CS_Biobank_Probenebene](CodeSystem-mii-cs-biobank-probenebene.md), [MII_EX_Biobank_Anzahl_Aliquots](StructureDefinition-mii-ex-biobank-anzahl-aliquots.md), [MII_EX_Biobank_Anzahl_Passagen](StructureDefinition-mii-ex-biobank-anzahl-passagen.md), [MII_EX_Biobank_Diagnose](StructureDefinition-mii-ex-biobank-diagnose.md), [MII_EX_Biobank_Ebene](StructureDefinition-mii-ex-biobank-ebene.md), [MII_EX_Biobank_Einstellung_Blutversorgung](StructureDefinition-mii-ex-biobank-einstellung-blutversorgung.md), [MII_EX_Biobank_Feature_R5](StructureDefinition-mii-ex-biobank-feature-r5.md), [MII_EX_Biobank_Infektiositaetsstatus](StructureDefinition-mii-ex-biobank-infektiositaetsstatus.md), [MII_EX_Biobank_KontaktRolle](StructureDefinition-mii-ex-biobank-kontaktrolle.md), [MII_EX_Biobank_Kulturprotokoll](StructureDefinition-mii-ex-biobank-kulturprotokoll.md), [MII_EX_Biobank_Modifikationen](StructureDefinition-mii-ex-biobank-modifikationen.md), [MII_EX_Biobank_Temperaturbedingungen](StructureDefinition-mii-ex-biobank-temperaturbedingungen.md), [MII_EX_Biobank_Verwaltende_Organisation](StructureDefinition-mii-ex-biobank-verwaltende-organisation.md), [MII_IG_Biobank_DE](index.md), [MII_LM_Biobank](StructureDefinition-Biobank.md), [MII_PR_Biobank_Observation_DNA_Konzentration](StructureDefinition-mii-pr-biobank-observation-dna-konzentration.md), [MII_PR_Biobank_Observation_Karyotyp](StructureDefinition-mii-pr-biobank-observation-karyotyp.md), [MII_PR_Biobank_Observation_Morphologie](StructureDefinition-mii-pr-biobank-observation-morphologie.md), [MII_PR_Biobank_Observation_Proliferation](StructureDefinition-mii-pr-biobank-observation-proliferation.md), [MII_PR_Biobank_Observation_Qualitaetspruefung](StructureDefinition-mii-pr-biobank-observation-qualitaetspruefung.md), [MII_PR_Biobank_Observation_Wachstumstyp](StructureDefinition-mii-pr-biobank-observation-wachstumstyp.md), [MII_PR_Biobank_Organization_Sammlung_Biobank](StructureDefinition-mii-pr-biobank-organization.md), [MII_PR_Biobank_Specimen_Bioprobe](StructureDefinition-mii-pr-biobank-specimen.md), [MII_PR_Biobank_Specimen_Bioprobe_Core](StructureDefinition-mii-pr-biobank-specimen-core.md), [MII_PR_Biobank_Specimen_Zellinie_Organoid](StructureDefinition-mii-pr-biobank-zellinie-organoid.md), [MII_PR_Biobank_Substance_Additiv](StructureDefinition-mii-pr-biobank-substance-additiv.md), [MII_VS_Biobank_Biosafety_Level_SNOMEDCT](ValueSet-mii-vs-biobank-biosafety-level-snomedct.md), [MII_VS_Biobank_BodyStructures_SCT](ValueSet-mii-vs-biobank-body-structures-sct.md), [MII_VS_Biobank_CellLine_Proliferation](ValueSet-mii-vs-biobank-cellline-proliferation.md), [MII_VS_Biobank_Cellline_Modification_CLO](ValueSet-mii-vs-biobank-cellline-modification-clo.md), [MII_VS_Biobank_Cellline_Morphology_SCT](ValueSet-mii-vs-biobank-cellline-morphology-sct.md), [MII_VS_Biobank_Containertyp_SCT](ValueSet-mii-vs-biobank-containertyp-sct.md), [MII_VS_Biobank_DNA_Concentration_Units_UCUM](ValueSet-mii-vs-biobank-dna-concentration-units-ucum.md), [MII_VS_Biobank_Karyotyp_SCT](ValueSet-mii-vs-biobank-karyotyp-sct.md), [MII_VS_Biobank_Laboratory_Procedure_SCT](ValueSet-mii-vs-biobank-laboratory-procedure-sct.md), [MII_VS_Biobank_Probenart_SCT](ValueSet-mii-vs-biobank-probenart-sct.md), [MII_VS_Biobank_Probenebene](ValueSet-mii-vs-biobank-probenebene.md), [MII_VS_Biobank_Substance_Additive_SCT](ValueSet-mii-vs-biobank-substance-additive-sct.md) and [MII_VS_Biobank_Wachstumpstyp_CLO](ValueSet-mii-vs-biobank-wachstumstyp-clo.md)
+* [ISO 3166-1 Codes for the representation of names of countries and their subdivisions — Part 1: Country code](http://terminology.hl7.org/6.3.0/CodeSystem-ISO3166Part1.html): [ConceptMap/mii-cm-biobank-fixation-type-sprec-sct](ConceptMap-mii-cm-biobank-fixation-type-sprec-sct.md), [ConceptMap/mii-cm-biobank-long-term-storage-sprec-sct](ConceptMap-mii-cm-biobank-long-term-storage-sprec-sct.md)... Show 46 more, [ConceptMap/mii-cm-biobank-primary-container-sprec-sct](ConceptMap-mii-cm-biobank-primary-container-sprec-sct.md), [ConceptMap/mii-cm-biobank-sample-type-sprec-sct](ConceptMap-mii-cm-biobank-sample-type-sprec-sct.md), [MII_CPS_Biobank_CapabilityStatement](CapabilityStatement-mii-cps-biobank-capabilitystatement.md), [MII_CS_Biobank_Contact_Type](CodeSystem-mii-cs-biobank-contact-type.md), [MII_CS_Biobank_Probenebene](CodeSystem-mii-cs-biobank-probenebene.md), [MII_EX_Biobank_Anzahl_Aliquots](StructureDefinition-mii-ex-biobank-anzahl-aliquots.md), [MII_EX_Biobank_Anzahl_Passagen](StructureDefinition-mii-ex-biobank-anzahl-passagen.md), [MII_EX_Biobank_Diagnose](StructureDefinition-mii-ex-biobank-diagnose.md), [MII_EX_Biobank_Ebene](StructureDefinition-mii-ex-biobank-ebene.md), [MII_EX_Biobank_Einstellung_Blutversorgung](StructureDefinition-mii-ex-biobank-einstellung-blutversorgung.md), [MII_EX_Biobank_Feature_R5](StructureDefinition-mii-ex-biobank-feature-r5.md), [MII_EX_Biobank_Infektiositaetsstatus](StructureDefinition-mii-ex-biobank-infektiositaetsstatus.md), [MII_EX_Biobank_KontaktRolle](StructureDefinition-mii-ex-biobank-kontaktrolle.md), [MII_EX_Biobank_Kulturprotokoll](StructureDefinition-mii-ex-biobank-kulturprotokoll.md), [MII_EX_Biobank_Modifikationen](StructureDefinition-mii-ex-biobank-modifikationen.md), [MII_EX_Biobank_Temperaturbedingungen](StructureDefinition-mii-ex-biobank-temperaturbedingungen.md), [MII_EX_Biobank_Verwaltende_Organisation](StructureDefinition-mii-ex-biobank-verwaltende-organisation.md), [MII_IG_Biobank_DE](index.md), [MII_LM_Biobank](StructureDefinition-Biobank.md), [MII_PR_Biobank_Observation_DNA_Konzentration](StructureDefinition-mii-pr-biobank-observation-dna-konzentration.md), [MII_PR_Biobank_Observation_Karyotyp](StructureDefinition-mii-pr-biobank-observation-karyotyp.md), [MII_PR_Biobank_Observation_Morphologie](StructureDefinition-mii-pr-biobank-observation-morphologie.md), [MII_PR_Biobank_Observation_Proliferation](StructureDefinition-mii-pr-biobank-observation-proliferation.md), [MII_PR_Biobank_Observation_Qualitaetspruefung](StructureDefinition-mii-pr-biobank-observation-qualitaetspruefung.md), [MII_PR_Biobank_Observation_Wachstumstyp](StructureDefinition-mii-pr-biobank-observation-wachstumstyp.md), [MII_PR_Biobank_Organization_Sammlung_Biobank](StructureDefinition-mii-pr-biobank-organization.md), [MII_PR_Biobank_Specimen_Bioprobe](StructureDefinition-mii-pr-biobank-specimen.md), [MII_PR_Biobank_Specimen_Bioprobe_Core](StructureDefinition-mii-pr-biobank-specimen-core.md), [MII_PR_Biobank_Specimen_Zellinie_Organoid](StructureDefinition-mii-pr-biobank-zellinie-organoid.md), [MII_PR_Biobank_Substance_Additiv](StructureDefinition-mii-pr-biobank-substance-additiv.md), [MII_SP_Biobank_Infektiositaetsstatus](SearchParameter-mii-sp-biobank-infektiositaetsstatus.md), [MII_SP_Biobank_Specimen_Feature](SearchParameter-mii-sp-biobank-specimen-feature.md), [MII_SP_Biobank_Specimen_Focus](SearchParameter-mii-sp-biobank-specimen-focus.md), [MII_VS_Biobank_Biosafety_Level_SNOMEDCT](ValueSet-mii-vs-biobank-biosafety-level-snomedct.md), [MII_VS_Biobank_BodyStructures_SCT](ValueSet-mii-vs-biobank-body-structures-sct.md), [MII_VS_Biobank_CellLine_Proliferation](ValueSet-mii-vs-biobank-cellline-proliferation.md), [MII_VS_Biobank_Cellline_Modification_CLO](ValueSet-mii-vs-biobank-cellline-modification-clo.md), [MII_VS_Biobank_Cellline_Morphology_SCT](ValueSet-mii-vs-biobank-cellline-morphology-sct.md), [MII_VS_Biobank_Containertyp_SCT](ValueSet-mii-vs-biobank-containertyp-sct.md), [MII_VS_Biobank_DNA_Concentration_Units_UCUM](ValueSet-mii-vs-biobank-dna-concentration-units-ucum.md), [MII_VS_Biobank_Karyotyp_SCT](ValueSet-mii-vs-biobank-karyotyp-sct.md), [MII_VS_Biobank_Laboratory_Procedure_SCT](ValueSet-mii-vs-biobank-laboratory-procedure-sct.md), [MII_VS_Biobank_Probenart_SCT](ValueSet-mii-vs-biobank-probenart-sct.md), [MII_VS_Biobank_Probenebene](ValueSet-mii-vs-biobank-probenebene.md), [MII_VS_Biobank_Substance_Additive_SCT](ValueSet-mii-vs-biobank-substance-additive-sct.md) and [MII_VS_Biobank_Wachstumpstyp_CLO](ValueSet-mii-vs-biobank-wachstumstyp-clo.md)
 
 
 * It is a condition of HGNC funding from NIH and the Welcome Trust that the nomenclature and information provided is freely available to all. Anyone may use the HGNC data, but we request that they reference the **"HUGO Gene Nomenclature Committee at the European Bioinformatics Institute"** and the website where possible.
@@ -2140,6 +2140,54 @@ Expansionsparameter sind Query-Parameter, die an eine `ValueSet`- `$expand`-Oper
         "reference" : "Parameters/mii-param-biobank-manifest"
       },
       "name" : "mii-param-biobank-manifest",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "SearchParameter"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "SearchParameter-mii-sp-biobank-infektiositaetsstatus.html"
+      }],
+      "reference" : {
+        "reference" : "SearchParameter/mii-sp-biobank-infektiositaetsstatus"
+      },
+      "name" : "mii-sp-biobank-infektiositaetsstatus",
+      "description" : "Suchparameter für den Infektiositätsstatus (Extension) an Specimen",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "SearchParameter"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "SearchParameter-mii-sp-biobank-specimen-feature.html"
+      }],
+      "reference" : {
+        "reference" : "SearchParameter/mii-sp-biobank-specimen-feature"
+      },
+      "name" : "mii-sp-biobank-specimen-feature",
+      "description" : "Suchparameter für das Specimen-Feature (R5-Backport-Extension) nach Feature-Typ",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "SearchParameter"
+      },
+      {
+        "url" : "http://hl7.org/fhir/StructureDefinition/implementationguide-page",
+        "valueUri" : "SearchParameter-mii-sp-biobank-specimen-focus.html"
+      }],
+      "reference" : {
+        "reference" : "SearchParameter/mii-sp-biobank-specimen-focus"
+      },
+      "name" : "mii-sp-biobank-specimen-focus",
+      "description" : "Suchparameter für die Specimen-Focus-Extension nach der referenzierten Fokus-Ressource",
       "exampleBoolean" : false
     },
     {
