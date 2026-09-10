@@ -118,9 +118,9 @@ jobs:
       - name: Probe
         id: probe
         env:
-          C: ${{ secrets.SU_TERMSERV_CLIENT_CERT }}
-          K: ${{ secrets.SU_TERMSERV_CLIENT_KEY }}
-          P: ${{ secrets.SU_TERMSERV_CLIENT_PASSWORD }}
+          C: ${{ secrets.CDS_DEV_CLIENT_CERT }}
+          K: ${{ secrets.CDS_DEV_CLIENT_KEY }}
+          P: ${{ secrets.CDS_DEV_CLIENT_PASSWORD }}
         run: |
           if [ -n "${C}" ] && [ -n "${K}" ] && [ -n "${P}" ]; then
             echo "has_cert=true" >> "${GITHUB_OUTPUT}"
