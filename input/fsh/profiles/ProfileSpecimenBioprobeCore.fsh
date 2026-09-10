@@ -221,7 +221,7 @@ and processing.timePeriod and processing.procedure and processing.additive and r
 
 //Verarbeitung/Lagerprozess
 
-* processing.extension contains MII_EX_Biobank_Temperaturbedingungen named temperaturbedingungen 1..1 MS
+* processing.extension contains MII_EX_Biobank_Temperaturbedingungen named temperaturbedingungen 0..1 MS
 
 * processing.time[x] MS
 * processing.timePeriod MS
