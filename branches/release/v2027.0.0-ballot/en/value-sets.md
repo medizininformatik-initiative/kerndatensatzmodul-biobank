@@ -68,6 +68,8 @@ The value sets of this module predominantly bind SNOMED CT codes (specimen type,
 | [MII VS Biobank Wachstumpstyp CLO](https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/mii-vs-biobank-wachstumstyp-clo) | MII VS Biobank Wachstumpstyp CLO | 2027.0.0-ballot |
 | [MII VS Biobank Wachstumpstyp CLO](https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/mii-vs-biobank-wachstumstyp-clo) | MII VS Biobank Wachstumpstyp CLO | 2027.0.0-ballot |
 | [MII VS Biobank Wachstumpstyp CLO](https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/mii-vs-biobank-wachstumstyp-clo) | MII VS Biobank Wachstumpstyp CLO | 2027.0.0-ballot |
+| [MII VS Onkologie ICD-O-3 Topographie](https://www.medizininformatik-initiative.de/fhir/ext/modul-onko/ValueSet/mii-vs-onko-icdo3-topographie) | MII VS Onkologie ICD-O-3 Topographie | 2025.1.0 |
+| [MII VS Onkologie ICD-O-3 Topographie](https://www.medizininformatik-initiative.de/fhir/ext/modul-onko/ValueSet/mii-vs-onko-icdo3-topographie) | MII VS Onkologie ICD-O-3 Topographie | 2025.1.0 |
 | [SNOMED CT Body Structures](http://hl7.org/fhir/ValueSet/body-site) | SNOMED CT Body Structures | 4.0.1 |
 | [SNOMED CT Body Structures](http://hl7.org/fhir/ValueSet/body-site) | SNOMED CT Body Structures | 4.0.1 |
 

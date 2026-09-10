@@ -45,7 +45,7 @@ Mapping der SPREC 4.0 Fixation Types auf die im Modul verwendeten SNOMED CT Code
   "version" : "2027.0.0-ballot",
   "title" : "MII CM Biobank Fixation Type SPREC 4.0 SCT",
   "status" : "active",
-  "date" : "2026-09-10T16:12:12+00:00",
+  "date" : "2026-09-10T16:26:54+00:00",
   "publisher" : "Medizininformatik Initiative",
   "contact" : [{
     "name" : "Medizininformatik Initiative",

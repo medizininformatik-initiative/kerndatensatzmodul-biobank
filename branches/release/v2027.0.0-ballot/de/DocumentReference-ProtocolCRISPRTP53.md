@@ -25,7 +25,7 @@
 | | |
 | :--- | :--- |
 | - | **ContentType** |
-| * | application/pdf |
+| * | pdf |
 
 
 > **content**

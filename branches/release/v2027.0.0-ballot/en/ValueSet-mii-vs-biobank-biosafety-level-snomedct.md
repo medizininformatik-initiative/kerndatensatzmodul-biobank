@@ -25,8 +25,6 @@ ValueSet zur Auswahl der Biosafety-Level-Einstufung einer Probe (SNOMED CT), ink
 
 ### Expansion
 
-No Expansion for this valueset (Unsupported Code System Version)
-
 -------
 
  [Description of the above table(s)](http://build.fhir.org/ig/FHIR/ig-guidance/readingIgs.html#terminology). 
@@ -88,7 +86,7 @@ No Expansion for this valueset (Unsupported Code System Version)
     }]
   },
   "status" : "active",
-  "date" : "2026-09-10T16:12:12+00:00",
+  "date" : "2026-09-10T16:26:54+00:00",
   "publisher" : "Medizininformatik Initiative",
   "contact" : [{
     "name" : "Medizininformatik Initiative",

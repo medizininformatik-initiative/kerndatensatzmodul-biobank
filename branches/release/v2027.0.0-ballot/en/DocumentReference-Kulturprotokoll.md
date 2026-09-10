@@ -25,7 +25,7 @@
 | | | | |
 | :--- | :--- | :--- | :--- |
 | - | **ContentType** | **Url** | **Title** |
-| * | application/pdf | [https://biobank.uk-musterstadt.de/protocols/LungOrganoidCulture_v1.pdf](https://simplifier.net/resolve?scope=de.basisprofil.r4@1.6.0&canonical=https://biobank.uk-musterstadt.de/protocols/LungOrganoidCulture_v1.pdf) | Lungen-Organoid Kulturprotokoll v1 |
+| * | pdf | [https://biobank.uk-musterstadt.de/protocols/LungOrganoidCulture_v1.pdf](https://simplifier.net/resolve?scope=de.basisprofil.r4@1.6.0&canonical=https://biobank.uk-musterstadt.de/protocols/LungOrganoidCulture_v1.pdf) | Lungen-Organoid Kulturprotokoll v1 |
 
 
 
