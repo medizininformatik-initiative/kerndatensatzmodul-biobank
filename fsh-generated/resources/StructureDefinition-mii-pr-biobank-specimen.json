@@ -338,6 +338,17 @@
         "path": "Specimen.processing"
       },
       {
+        "id": "Specimen.processing.extension",
+        "path": "Specimen.processing.extension",
+        "min": 1
+      },
+      {
+        "id": "Specimen.processing.extension:temperaturbedingungen",
+        "path": "Specimen.processing.extension",
+        "sliceName": "temperaturbedingungen",
+        "min": 1
+      },
+      {
         "id": "Specimen.processing.extension:temperature-miabis",
         "path": "Specimen.processing.extension",
         "sliceName": "temperature-miabis",
@@ -352,6 +363,17 @@
           }
         ],
         "mustSupport": true
+      },
+      {
+        "id": "Specimen.processing:lagerprozess",
+        "path": "Specimen.processing",
+        "sliceName": "lagerprozess"
+      },
+      {
+        "id": "Specimen.processing:lagerprozess.extension:temperaturbedingungen",
+        "path": "Specimen.processing.extension",
+        "sliceName": "temperaturbedingungen",
+        "min": 1
       },
       {
         "id": "Specimen.container",

@@ -147,6 +147,20 @@
         "mustSupport": true
       },
       {
+        "id": "Specimen.extension",
+        "path": "Specimen.extension",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "value",
+              "path": "url"
+            }
+          ],
+          "ordered": false,
+          "rules": "open"
+        }
+      },
+      {
         "id": "Specimen.extension:feature",
         "path": "Specimen.extension",
         "sliceName": "feature",
@@ -725,6 +739,20 @@
         }
       },
       {
+        "id": "Specimen.collection.extension",
+        "path": "Specimen.collection.extension",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "value",
+              "path": "url"
+            }
+          ],
+          "ordered": false,
+          "rules": "open"
+        }
+      },
+      {
         "id": "Specimen.collection.extension:einstellungBlutversorgung",
         "path": "Specimen.collection.extension",
         "sliceName": "einstellungBlutversorgung",
@@ -1239,13 +1267,22 @@
       {
         "id": "Specimen.processing.extension",
         "path": "Specimen.processing.extension",
-        "min": 1
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "value",
+              "path": "url"
+            }
+          ],
+          "ordered": false,
+          "rules": "open"
+        }
       },
       {
         "id": "Specimen.processing.extension:temperaturbedingungen",
         "path": "Specimen.processing.extension",
         "sliceName": "temperaturbedingungen",
-        "min": 1,
+        "min": 0,
         "max": "1",
         "type": [
           {
@@ -1548,13 +1585,14 @@
       {
         "id": "Specimen.processing:lagerprozess.extension",
         "path": "Specimen.processing.extension",
+        "min": 1,
         "mustSupport": true
       },
       {
         "id": "Specimen.processing:lagerprozess.extension:temperaturbedingungen",
         "path": "Specimen.processing.extension",
         "sliceName": "temperaturbedingungen",
-        "min": 1,
+        "min": 0,
         "max": "1",
         "type": [
           {

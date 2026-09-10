@@ -55,3 +55,4 @@ Description: "Abbildung einer MII Bioprobe"
 * container.type.coding 1.. MS
 * container.type.coding.code 1.. MS
 * container.type.coding.system 1.. MS
+* processing.extension contains MII_EX_Biobank_Temperaturbedingungen named temperaturbedingungen 1..1 MS
