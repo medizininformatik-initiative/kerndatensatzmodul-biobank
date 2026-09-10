@@ -16,7 +16,7 @@ Das Modul **Biobank** bildet die für die biomedizinische Forschung relevanten I
 
 Je nach Fragestellung könnten insbesondere folgende Angaben aus dem Modul von Interesse sein:
 
-* **Probentyp und -material** (`Specimen.type`) – z. B. Vollblut, Serum, Plasma, Gewebe (FFPE), DNA/RNA, Urin. Die Kodierung erfolgt standardisiert mit SNOMED CT, sodass Probentypen standortübergreifend vergleichbar und maschinell durchsuchbar sind.
+* **Probentyp bzw. -material** (`Specimen.type`) – z. B. Vollblut, Serum, Plasma, Gewebe (FFPE oder Cryo), DNA/RNA, Urin. Die Kodierung erfolgt standardisiert mit SNOMED CT, sodass Probentypen standortübergreifend vergleichbar und maschinell durchsuchbar sind.
 * **Entnahmeort** (`Specimen.bodySite`) – kodiert mit SNOMED CT oder, insbesondere bei onkologischen Fragestellungen, mit ICD-O-3.
 * **Probenhierarchie**: Das Modul unterscheidet zwischen **Primärprobe**, **Aliquotgruppe** und **Aliquot**. Für die Machbarkeitsanfrage ist meist die Aliquotgruppe-Ebene relevant, da sie Rückschlüsse auf tatsächlich verfügbare Mengen erlaubt.
 * **Menge/Volumen** des Aliquots.
@@ -24,6 +24,10 @@ Je nach Fragestellung könnten insbesondere folgende Angaben aus dem Modul von I
 * **Festgestellte Diagnose**: Die Probe kann mit einer Diagnose verknüpft werden, die anhand dieser Probe gestellt wurde – z. B. bei Tumorerkrankungen die histopathologische Diagnose, die erst durch die Untersuchung des Gewebes gewonnen wird.
 * **Lagerbedingungen und Lagerhistorie** (`Specimen.container`, Lagerprozesse mit Temperatur, Beginn/Ende) – kann bei der Einschätzung der Probenqualität bei langer Lagerdauer oder mehrfachem Auftau-/Einfrierzyklus helfen.
 * **Infektiositäts-/Biosicherheitsstatus** – relevant für die Planung des Transports und der Handhabung im Zielort.
+
+#### Zelllinien und Organoide
+
+Auch Zelllinien und Organoide können als abgeleitete Probentypen erfasst werden. Technisch werden sie wie normale Bioproben behandelt, die einige extra Informationen (z.B. zum Karyotyp) enthalten können.
 
 #### Was das Modul bewusst nicht abbildet
 
@@ -36,6 +40,6 @@ Für standortübergreifende Machbarkeitsanfragen zu Bioproben und assoziierten D
 #### Weiterführende Informationen
 
 * Struktur der Ressourcen: siehe [UML-Diagramme](uml-diagrams.md)
-* Begriffsklärungen (z. B. SPREC, Aliquot): siehe [Glossar](glossary.md)
+* Begriffsklärungen (z. B. Aliquot, Aliquotgruppe, Primärprobe): siehe unterer Abschnitt der [Anleitung für Implementierende](implementer-guidance.md)
 * Technische Details zu Profilen und Extensions: siehe [Anleitung für Implementierende](implementer-guidance.md)
 

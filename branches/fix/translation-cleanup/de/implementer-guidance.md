@@ -18,7 +18,9 @@ Dieses Modul ist mit den Modulen [Pathologie-Befund](https://www.medizininformat
 
 Außerdem wird das Modul [Person](https://www.medizininformatik-initiative.de/Kerndatensatz/Modul_Person/IGMIIKDSModulPerson.html) genutzt, um Patientendaten zu erfassen, sowie das Modul [Diagnose](https://www.medizininformatik-initiative.de/Kerndatensatz/Modul_Diagnose/IGMIIKDSModulDiagnose.html), um die Indikation einer Entnahme oder Diagnoseinformationen zu einer Probe darzustellen.
 
-### Glossary
+Ein guter Startpunkt, um einen Überblick über die technischen Vorgaben zu erlangen, ist die Seite [Profile](profiles.md).
+
+### Glossar
 
 In diesem Abschnitt wird erklärt, wie bestimmte Begriffe im Kontext dieses Implementation Guide verwendet werden. Die Definitionen spiegeln den Konsens des Modulteams wider, werden aber u.U. von einzelnen Standorten oder anderen Gruppen anders verwendet.
 
