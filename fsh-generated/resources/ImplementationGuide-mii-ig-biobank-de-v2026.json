@@ -677,6 +677,14 @@
       },
       {
         "reference": {
+          "reference": "SearchParameter/mii-sp-biobank-specimen-focus"
+        },
+        "name": "mii-sp-biobank-specimen-focus",
+        "description": "Suchparameter für die Specimen-Focus-Extension nach der referenzierten Fokus-Ressource",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
           "reference": "StructureDefinition/Biobank"
         },
         "name": "MII_LM_Biobank",
