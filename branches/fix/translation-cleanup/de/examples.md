@@ -5,8 +5,6 @@
 
 ## Beispiele
 
-> Diese Übersicht ist bei der Migration neu entstanden; die Quelle listete die Beispiele je Profilseite.
-
 Diese Seite listet die Beispielinstanzen des Moduls **Biobank**. Die vollständige, automatisch generierte Liste findet sich in der [Artefakt-Übersicht](artifacts.md).
 
 ### Bioprobe (Specimen)

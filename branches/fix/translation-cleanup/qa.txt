@@ -3,7 +3,7 @@ MII_IG_Biobank_DE : Validation Results
 
 err = 60, warn = 414, info = 1938
 IG Publisher Version: 2.3.2 Out of date - current version is 2.3.4
-Generated Thu Sep 10 14:25:48 UTC 2026. FHIR version 4.0.1 for de.medizininformatikinitiative.kerndatensatz.biobank#2027.0.0-ballot.rc2 (canonical = https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank)
+Generated Thu Sep 10 14:31:32 UTC 2026. FHIR version 4.0.1 for de.medizininformatikinitiative.kerndatensatz.biobank#2027.0.0-ballot.rc2 (canonical = https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank)
  Build Errors : 2 / 23 / 0
  /home/runner/work/kerndatensatzmodul-biobank/kerndatensatzmodul-biobank/fsh-generated/resources/CapabilityStatement-mii-cps-biobank-capabilitystatement : 3 / 16 / 50
  /home/runner/work/kerndatensatzmodul-biobank/kerndatensatzmodul-biobank/fsh-generated/resources/CodeSystem-mii-cs-biobank-contact-type : 3 / 1 / 4
@@ -96,7 +96,7 @@ WARNING: Unable to find ImplementationGuide.definition.resource.description for 
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Observation/QualitaetspruefungPlasma.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Observation/WachstumstypOrganoidLunge.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Parameters/mii-param-biobank-manifest.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
-ERROR: de/extensions.html#/html/body/div/div/div/div/div/p/a at Line 368, column 311: The link 'ValueSet-mii-vs-biobank-biosafety-level.html' for "Biosafety-Level" cannot be resolved
+ERROR: de/extensions.html#/html/body/div/div/div/div/div/p/a at Line 344, column 311: The link 'ValueSet-mii-vs-biobank-biosafety-level.html' for "Biosafety-Level" cannot be resolved
 ERROR: en/extensions.html#/html/body/div/div/div/div/div/p/a at Line 397, column 308: The link 'ValueSet-mii-vs-biobank-biosafety-level.html' for "Biosafety Level" cannot be resolved
 WARNING: 5: An HTML fragment from the set [expansion-params.xhtml, expansion-params.xhtml] is not included anywhere in the produced implementation guide
 == fsh-generated/resources/CapabilityStatement-mii-cps-biobank-capabilitystatement.json ==
