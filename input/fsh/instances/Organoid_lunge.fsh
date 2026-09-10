@@ -15,7 +15,7 @@ Usage: #example
 * identifier.system = "https://biobank.uk-musterstadt.de/fhir/sid/proben"
 * identifier.value = "6789-ORG-1"
 * status = #available
-* type.coding[miabis-type] = https://fhir.bbmri-eric.eu/fhir/CodeSystem/miabis-detailed-samply-type-cs#Organoid "Organoids"
+* type.coding[miabis-type] = $miabis-type#Organoid "Organoids"
 * type.coding[sct] = $sct-no-ver#123038009 "Specimen (specimen)"
 * subject.reference = "Patient/mii-exa-test-data-patient-1"
 * collection.collectedDateTime = "2018-06-08T15:34:00+01:00"

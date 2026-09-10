@@ -91,7 +91,7 @@ extension:
     valueContactDetail:
       telecom:
         - system: email
-          value: "thomas.debertshaeuser@charite.de"
+          value: "noemi.deppenwiese@uk-erlangen.de"
   # The MII-wide governance bodies below apply to every MII KDS module — for
   # example, kerndatensatz-basis records the same National Steering Committee as
   # reviewer and endorser. Adjust only if your module's governance differs.
@@ -182,7 +182,7 @@ dependencies:
   de.basisprofil.r4: 1.6.0
   de.medizininformatikinitiative.kerndatensatz.meta: 2027.0.0-ballot.rc3
   # MIABIS on FHIR — source dependency, carried unchanged.
-  eu.miabis.r4: 0.2.0
+  eu.miabis.r4: 1.3.0
   # HL7 Europe Laboratory Report — liefert die specimen-focus-Extension (SpecimenCore).
   hl7.fhir.eu.laboratory: 2.0.0
   # Canonical Resource Management Infrastructure — required by the CRMI

@@ -303,13 +303,13 @@
         "mustSupport": true,
         "binding": {
           "strength": "required",
-          "valueSet": "https://fhir.bbmri-eric.eu/fhir/ValueSet/miabis-detailed-sample-type-vs"
+          "valueSet": "https://fhir.bbmri-eric.eu/ValueSet/miabis-material-type-vs"
         }
       },
       {
         "id": "Specimen.type.coding:miabis-type.system",
         "path": "Specimen.type.coding.system",
-        "patternUri": "https://fhir.bbmri-eric.eu/fhir/CodeSystem/miabis-detailed-samply-type-cs"
+        "patternUri": "https://fhir.bbmri-eric.eu/CodeSystem/miabis-detailed-samply-type-cs"
       },
       {
         "id": "Specimen.collection.method",
@@ -347,7 +347,7 @@
           {
             "code": "Extension",
             "profile": [
-              "https://fhir.bbmri-eric.eu/fhir/StructureDefinition/miabis-sample-storage-temperature-extension"
+              "https://fhir.bbmri-eric.eu/StructureDefinition/miabis-sample-storage-temperature-extension"
             ]
           }
         ],
