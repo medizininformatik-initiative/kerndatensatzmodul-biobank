@@ -13,6 +13,7 @@ This module is linked to the modules [Pathologie-Befund](https://www.medizininfo
 
 Furthermore, the module [Person](https://www.medizininformatik-initiative.de/Kerndatensatz/Modul_Person/IGMIIKDSModulPerson.html) is used to record patient data, and the module [Diagnose](https://www.medizininformatik-initiative.de/Kerndatensatz/Modul_Diagnose/IGMIIKDSModulDiagnose.html) to represent the indication of a collection or diagnostic information about a specimen.
 
+A good starting point for gaining an overview of the technical specifications is the [Profiles page](profiles.html).
 
 ### Glossary
 
