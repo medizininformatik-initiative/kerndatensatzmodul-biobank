@@ -1,0 +1,31 @@
+{
+  "resourceType" : "Observation",
+  "id" : "MorphologieOrganoidLunge",
+  "meta" : {
+    "profile" : ["https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/mii-pr-biobank-observation-morphologie"]
+  },
+  "language" : "de",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xml:lang=\"de\" lang=\"de\"><hr/><p><b>German</b></p><hr/><p class=\"res-header-id\"><b>Generated Narrative: Observation MorphologieOrganoidLunge</b></p><a name=\"de-MorphologieOrganoidLunge\"> </a><a name=\"de-hcMorphologieOrganoidLunge\"> </a><div style=\"display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profile: <a href=\"StructureDefinition-mii-pr-biobank-observation-morphologie.html\">MII PR Biobank Observation Morphologie</a></p></div><p><b>status</b>: Final</p><p><b>code</b>: <span title=\"Codes:{http://purl.obolibrary.org/obo/pato.owl PATO:0010006}\">cell morphology</span></p><p><b>focus</b>: <a href=\"Specimen-OrganoidLunge.html\">Specimen: extension = -&gt;DocumentReference: status = current; date = 2018-06-20 09:00:00+0100; description = Standardprotokoll zur Kultivierung von Lungentumor-Organoiden,,3; identifier = https://biobank.uk-musterstadt.de/fhir/sid/proben#6789-ORG-1; status = available; type = Specimen (specimen)</a></p><p><b>effective</b>: 2018-07-06 10:00:00+0100</p><p><b>value</b>: <span title=\"Codes:{http://snomed.info/sct 125393006}\">Cell structure alteration (morphologic abnormality)</span></p></div>"
+  },
+  "status" : "final",
+  "code" : {
+    "coding" : [{
+      "system" : "http://purl.obolibrary.org/obo/pato.owl",
+      "code" : "PATO:0010006",
+      "display" : "cell morphology"
+    }]
+  },
+  "focus" : [{
+    "reference" : "Specimen/OrganoidLunge"
+  }],
+  "effectiveDateTime" : "2018-07-06T10:00:00+01:00",
+  "valueCodeableConcept" : {
+    "coding" : [{
+      "system" : "http://snomed.info/sct",
+      "code" : "125393006",
+      "display" : "Cell structure alteration (morphologic abnormality)"
+    }]
+  }
+}
