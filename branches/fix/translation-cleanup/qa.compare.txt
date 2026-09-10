@@ -4,7 +4,7 @@ MII_IG_Biobank_DE : Validation Results
 err = 60, warn = 419, info = 1950
 $--
 Generated $--. FHIR version $-- for de.medizininformatikinitiative.kerndatensatz.biobank#$-- (canonical = https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank)
- Build Errors : 4 / 127 / 0
+ Build Errors : 2 / 127 / 0
  /home/runner/work/kerndatensatzmodul-biobank/kerndatensatzmodul-biobank/fsh-generated/resources/CapabilityStatement-mii-cps-biobank-capabilitystatement : 3 / 16 / 53
  /home/runner/work/kerndatensatzmodul-biobank/kerndatensatzmodul-biobank/fsh-generated/resources/CodeSystem-mii-cs-biobank-contact-type : 3 / 1 / 4
  /home/runner/work/kerndatensatzmodul-biobank/kerndatensatzmodul-biobank/fsh-generated/resources/CodeSystem-mii-cs-biobank-probenebene : 0 / 2 / 4
@@ -100,8 +100,6 @@ WARNING: Unable to find ImplementationGuide.definition.resource.description for 
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Observation/WachstumstypOrganoidLunge.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 WARNING: Unable to find ImplementationGuide.definition.resource.description for the resource Parameters/mii-param-biobank-manifest.  Descriptions are strongly encouraged if they cannot be inferred from the resource to allow proper population of the artifact list.
 ERROR: de/extensions.html#/html/body/div/div/div/div/div/p/a at Line 344, column 311: The link 'ValueSet-mii-vs-biobank-biosafety-level.html' for "Biosafety-Level" cannot be resolved
-ERROR: de/uml-diagrams.html#/html/body/div/div/div/div/div/p/img at Line 317, column 5: The image source 'UML_2027' cannot be resolved
-ERROR: de/uml-diagrams.html#/html/body/div/div/div/div/div/p/a at Line 319, column 79: The link 'UML_2027' for "hier in voller Auflösung" cannot be resolved
 WARNING: de/value-sets.html#/html/body/div/div/div/div/div/table/tr/td/a at Line 317, column 1107: The link 'https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/mii-vs-biobank-biosafety-level-snomedct' for "MII VS Biobank Biosafety-Level Einstufung [SNOMED CT]" is a canonical link and is therefore unsafe with regard to versions
 WARNING: de/value-sets.html#/html/body/div/div/div/div/div/table/tr/td/a at Line 317, column 1398: The link 'https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/mii-vs-biobank-biosafety-level-snomedct' for "MII VS Biobank Biosafety-Level Einstufung [SNOMED CT]" is a canonical link and is therefore unsafe with regard to versions
 WARNING: de/value-sets.html#/html/body/div/div/div/div/div/table/tr/td/a at Line 317, column 1689: The link 'https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/mii-vs-biobank-biosafety-level-snomedct' for "MII VS Biobank Biosafety-Level Einstufung [SNOMED CT]" is a canonical link and is therefore unsafe with regard to versions
