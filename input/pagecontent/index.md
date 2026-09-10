@@ -1,5 +1,5 @@
 <!-- markdownlint-disable MD041 -->
-<!-- TODO:REVIEW machine translation of source page index.md (de) -->
+<!-- DERIVED:bridge gate=B -->
 
 This specification describes the FHIR representation of the **biospecimen data** module of the core data set of the Medical Informatics Initiative (MII).
 The module's use cases as well as the corresponding FHIR profiles and terminology resources are described below in their binding form.

@@ -1,5 +1,5 @@
 <!-- markdownlint-disable MD041 -->
-<!-- TODO:REVIEW machine translation of source page implementer-guidance.md (de) -->
+<!-- DERIVED:bridge gate=B -->
 
 ### Context within the overall project / relations to other modules
 

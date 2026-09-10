@@ -1,4 +1,5 @@
 <!-- markdownlint-disable MD041 -->
+<!-- DERIVED:bridge gate=B -->
 <!-- Source: kerndatensatz-basis input/pagecontent/researcher-guidance.md.
      German mirror: input/translations/de/pagecontent/researcher-guidance.md. -->
 

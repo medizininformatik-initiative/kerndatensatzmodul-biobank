@@ -1,5 +1,5 @@
 <!-- markdownlint-disable MD041 -->
-<!-- TODO:REVIEW machine translation of source page logical-models.md (de) -->
+<!-- DERIVED:bridge gate=B -->
 
 The official version of the information model for the core data set module biospecimen data is available here as a FHIR logical model: [MII LM Biobank](StructureDefinition-Biobank.html)
 

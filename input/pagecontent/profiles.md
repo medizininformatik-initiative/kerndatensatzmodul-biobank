@@ -1,5 +1,5 @@
 <!-- markdownlint-disable MD041 -->
-<!-- TODO:REVIEW machine translation of source page profiles.md (de) -->
+<!-- DERIVED:bridge gate=B -->
 
 The core data set specifications build, wherever possible, on international standards and terminologies. The [International Patient Summary](http://hl7.org/fhir/uv/ips/history.html) deserves particular mention here. Adaptation to the general conditions of the German healthcare system is achieved by using the [German base profiles](https://simplifier.net/basisprofil-de-r4) of HL7 Germany.
 

@@ -1,5 +1,5 @@
 <!-- markdownlint-disable MD041 -->
-<!-- TODO:REVIEW machine translation of source page glossary.md (de) -->
+<!-- DERIVED:bridge gate=B -->
 
 This page explains how certain terms are used in the context of this implementation guide. The definitions reflect the consensus of the module team, but may be used differently by individual sites or other groups.
 
