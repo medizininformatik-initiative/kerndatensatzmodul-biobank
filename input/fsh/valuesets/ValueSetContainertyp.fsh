@@ -11,4 +11,4 @@ Title: "MII VS Biobank Containertyp SCT"
 * ^experimental = false
 * ^description = "Value Set for Container Types (SNOMED CT)"
 
-* include codes from system $SCT where concept descendent-of #706041008
+* include codes from system $sct where concept descendent-of #706041008

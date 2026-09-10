@@ -11,4 +11,4 @@ Title: "MII VS Biobank Laboratory Procedure SCT"
 * ^experimental = false
 * ^description = "Value Set for Specimen Processing Laboratory Procedures (SNOMED CT)"
 
-* include codes from system $SCT where concept descendent-of #108252007
+* include codes from system $sct where concept descendent-of #108252007

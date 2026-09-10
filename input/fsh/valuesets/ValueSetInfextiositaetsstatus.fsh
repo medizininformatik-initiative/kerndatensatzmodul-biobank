@@ -14,13 +14,10 @@ Description: "ValueSet zur Auswahl der Biosafety-Level-Einstufung einer Probe (S
 * insert PR_CS_VS_Version
 * insert LicenseCodeableCCBY40
 * insert Publisher
+* insert SNOMED_Copyright
 
-// SNOMED CT Versionsbindung gemäß MII Terminology Version Policy für v2026.*-Releases
-// (https://github.com/medizininformatik-initiative/kerndatensatz-meta/wiki/Terminology-Version-Policy)
-* ^compose.include[0].version = "http://snomed.info/sct/900000000000207008/version/20250701"
-
-* http://snomed.info/sct#409600007 "Biosafety level 1 (qualifier value)"
-* http://snomed.info/sct#409603009 "Biosafety level 2 (qualifier value)"
-* http://snomed.info/sct#409604003 "Biosafety level 3 (qualifier value)"
-* http://snomed.info/sct#409605002 "Biosafety level 4 (qualifier value)"
-* http://snomed.info/sct#261665006 "Unknown (qualifier value)"
+* $sct#409600007 "Biosafety level 1 (qualifier value)"
+* $sct#409603009 "Biosafety level 2 (qualifier value)"
+* $sct#409604003 "Biosafety level 3 (qualifier value)"
+* $sct#409605002 "Biosafety level 4 (qualifier value)"
+* $sct#261665006 "Unknown (qualifier value)"

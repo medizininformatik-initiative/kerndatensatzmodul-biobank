@@ -159,7 +159,7 @@ and processing.timePeriod and processing.procedure and processing.additive and r
 
 * type.coding contains sct 1..* MS
 *  type.coding[sct].system 1..1 MS
-* type.coding[sct].system = $SCT
+* type.coding[sct].system = $sct-no-ver
 * type.coding[sct].code 1..1 MS
 * type.coding[sct] from MII_VS_Biobank_Probenart_SCT (extensible)
 
@@ -198,7 +198,7 @@ and processing.timePeriod and processing.procedure and processing.additive and r
 * collection.bodySite.coding contains sct 0..* MS and icd-o-3 0..* MS
 
 * collection.bodySite.coding[sct] from MII_VS_Biobank_BodyStructures_SCT (required)
-* collection.bodySite.coding[sct].system = $SCT
+* collection.bodySite.coding[sct].system = $sct-no-ver
 * collection.bodySite.coding[sct].system 1..1 MS
 * collection.bodySite.coding[sct].code 1..1 MS
 * collection.bodySite.coding[icd-o-3] from https://www.medizininformatik-initiative.de/fhir/ext/modul-onko/ValueSet/mii-vs-onko-icdo3-topographie (required)
@@ -239,7 +239,7 @@ and processing.timePeriod and processing.procedure and processing.additive and r
 * processing[lagerprozess].time[x] only Period
 * processing[lagerprozess].timePeriod 1..1
 * processing[lagerprozess].timePeriod.start 1..1
-* processing[lagerprozess].procedure = $SCT#1186936003
+* processing[lagerprozess].procedure = $sct-no-ver#1186936003
 
 * processing.procedure 1..1 MS
 * processing.procedure.coding.system 1..1 MS
@@ -250,7 +250,7 @@ and processing.timePeriod and processing.procedure and processing.additive and r
 * processing.procedure.coding ^slicing.rules = #open
 
 * processing.procedure.coding contains sct 1..* MS
-* processing.procedure.coding[sct].system = $SCT
+* processing.procedure.coding[sct].system = $sct-no-ver
 * processing.procedure.coding[sct] from MII_VS_Biobank_Laboratory_Procedure_SCT (preferred)
 * processing.procedure.coding[sct].system 1..1 MS
 * processing.procedure.coding[sct].code 1..1 MS

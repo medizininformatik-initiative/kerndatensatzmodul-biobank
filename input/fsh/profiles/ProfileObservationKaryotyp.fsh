@@ -25,7 +25,7 @@ Description: "Der an einer Zelline oder einem Organiod festgestellte Karyotyo"
 //Profile
 
 * code 1..1 MS
-* code = $SCT#734840008 "Karyotype (cell structure)"
+* code = $sct-no-ver#734840008 "Karyotype (cell structure)"
 * code.coding 1..1 MS
 * code.coding.system 1..1 MS
 * code.coding.code 1..1 MS
