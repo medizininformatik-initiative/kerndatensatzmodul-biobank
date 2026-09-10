@@ -1,4 +1,5 @@
 <!-- markdownlint-disable MD041 -->
+<!-- DERIVED:bridge gate=B -->
 <!-- Default-language (English) page. Ported from kerndatensatz-basis
      input/pagecontent/version-history.md (branch main); the release process is
      the MII meta wiki page "Module Release Workflow"

@@ -1,9 +1,5 @@
 <!-- markdownlint-disable MD041 -->
 
-<!-- DERIVED:stand-in source=MIIIGModulBiobank/AnwendungsfaelleInformationsmodell/Index.page.md gate=B -->
-> Diese Einleitungszeilen und die Linkliste sind bei der Migration neu entstanden (die Quell-Hubseite war absichtlich leer).
-{: .ig-highlight .ig-highlight-grey}
-
 Diese Seite beschreibt die Anwendungsszenarien des Moduls; die Unterseiten vertiefen einzelne Aspekte:
 
 * [Hinweise für Implementierer:innen](implementer-guidance.html) – Kontext im Gesamtprojekt und Referenzen (SPREC, MIABIS, BBMRI-ERIC, GBN)

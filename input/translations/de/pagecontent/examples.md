@@ -1,7 +1,4 @@
 <!-- markdownlint-disable MD041 -->
-<!-- DERIVED:bridge source=MIIIGModulBiobank/TechnischeImplementierung/FHIR-Profile/Specimen/Index.page.md gate=B -->
-> Diese Übersicht ist bei der Migration neu entstanden; die Quelle listete die Beispiele je Profilseite.
-{: .ig-highlight .ig-highlight-grey}
 
 Diese Seite listet die Beispielinstanzen des Moduls **Biobank**. Die vollständige, automatisch generierte Liste findet sich in der [Artefakt-Übersicht](artifacts.html).
 
