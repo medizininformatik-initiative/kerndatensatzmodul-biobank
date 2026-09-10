@@ -85,6 +85,8 @@ Usage: #definition
 * insert SupportSearchParam(container-additive, https://www.medizininformatik-initiative.de/fhir/modul-meta/SearchParameter/mii-sp-meta-specimen-container-additive, #reference, #SHALL)
 * insert SupportSearchParam(note, https://www.medizininformatik-initiative.de/fhir/ext/modul-meta/SearchParameter/mii-sp-meta-specimen-note, #string, #SHALL)
 * insert SupportSearchParam(infektiositaetsstatus, https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/SearchParameter/mii-sp-biobank-infektiositaetsstatus, #token, #SHALL)
+* insert SupportSearchParam(focus, https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/SearchParameter/mii-sp-biobank-specimen-focus, #reference, #SHALL)
+
 //Zellinie/Organoid
 * insert SupportSearchParam(kulturprotokoll, https://www.medizininformatik-initiative.de/fhir/ext/modul-meta/SearchParameter/mii-sp-meta-specimen-kulturprotokoll, #reference, #SHALL)
 * insert SupportSearchParam(anzahl-passagen, https://www.medizininformatik-initiative.de/fhir/ext/modul-meta/SearchParameter/mii-sp-meta-specimen-anzahl-passagen, #number, #SHALL)
