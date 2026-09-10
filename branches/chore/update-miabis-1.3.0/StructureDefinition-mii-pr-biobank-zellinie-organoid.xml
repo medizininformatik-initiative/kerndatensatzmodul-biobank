@@ -1854,7 +1854,7 @@
       <isSummary value="true"/>
       <binding>
         <strength value="required"/>
-        <valueSet value="https://fhir.bbmri-eric.eu/ValueSet/miabis-material-type-vs"/>
+        <valueSet value="https://fhir.bbmri-eric.eu/ValueSet/miabis-detailed-sample-type-vs"/>
       </binding>
       <mapping>
         <identity value="v2"/>

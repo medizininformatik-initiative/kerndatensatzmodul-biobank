@@ -369,7 +369,7 @@ Weitere Repräsentationen des Profils: [CSV](../StructureDefinition-mii-pr-bioba
       "mustSupport" : true,
       "binding" : {
         "strength" : "required",
-        "valueSet" : "https://fhir.bbmri-eric.eu/ValueSet/miabis-material-type-vs"
+        "valueSet" : "https://fhir.bbmri-eric.eu/ValueSet/miabis-detailed-sample-type-vs"
       }
     },
     {

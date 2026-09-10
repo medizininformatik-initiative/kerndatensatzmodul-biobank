@@ -50,7 +50,7 @@ Profile: [MII PR Biobank Organization Sammlung Biobank](StructureDefinition-mii-
     "url" : "https://fhir.bbmri-eric.eu/StructureDefinition/miabis-sample-collection-setting-extension",
     "valueCodeableConcept" : {
       "coding" : [{
-        "system" : "https://fhir.bbmri-eric.eu/fhir/CodeSystem/miabis-sample-collection-setting-cs",
+        "system" : "https://fhir.bbmri-eric.eu/CodeSystem/miabis-sample-collection-setting-cs",
         "code" : "RoutineHealthCare",
         "display" : "Routine health care setting"
       }]
@@ -60,7 +60,7 @@ Profile: [MII PR Biobank Organization Sammlung Biobank](StructureDefinition-mii-
     "url" : "https://fhir.bbmri-eric.eu/StructureDefinition/miabis-collection-design-extension",
     "valueCodeableConcept" : {
       "coding" : [{
-        "system" : "https://fhir.bbmri-eric.eu/fhir/CodeSystem/miabis-collection-design-cs",
+        "system" : "https://fhir.bbmri-eric.eu/CodeSystem/miabis-collection-design-cs",
         "code" : "LongitudinalCohort",
         "display" : "Longitudinal cohort"
       }]

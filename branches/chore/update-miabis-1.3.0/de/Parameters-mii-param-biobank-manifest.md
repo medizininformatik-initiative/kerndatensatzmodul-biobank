@@ -411,7 +411,7 @@
   },
   {
     "name" : "default-valueset-version",
-    "valueCanonical" : "https://fhir.bbmri-eric.eu/ValueSet/miabis-material-type-vs|1.3.0"
+    "valueCanonical" : "https://fhir.bbmri-eric.eu/ValueSet/miabis-detailed-sample-type-vs|1.3.0"
   },
   {
     "name" : "default-canonical-version",

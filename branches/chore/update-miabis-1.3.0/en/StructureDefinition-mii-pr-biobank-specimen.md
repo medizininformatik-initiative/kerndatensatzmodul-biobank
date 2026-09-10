@@ -301,7 +301,7 @@ Other representations of profile: [CSV](../StructureDefinition-mii-pr-biobank-sp
       "mustSupport" : true,
       "binding" : {
         "strength" : "required",
-        "valueSet" : "https://fhir.bbmri-eric.eu/ValueSet/miabis-material-type-vs"
+        "valueSet" : "https://fhir.bbmri-eric.eu/ValueSet/miabis-detailed-sample-type-vs"
       }
     },
     {
