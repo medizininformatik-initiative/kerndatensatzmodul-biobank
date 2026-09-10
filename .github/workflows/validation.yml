@@ -159,10 +159,7 @@ jobs:
     # storing the same cert twice under two different secret names.
     # If your organisation already provisions CDS_DEV_CLIENT_* centrally, replace
     # this block with `secrets: inherit`.
-    secrets:
-      CDS_DEV_CLIENT_CERT: ${{ secrets.SU_TERMSERV_CLIENT_CERT }}
-      CDS_DEV_CLIENT_KEY: ${{ secrets.SU_TERMSERV_CLIENT_KEY }}
-      CDS_DEV_CLIENT_CERT_PASSWORD: ${{ secrets.SU_TERMSERV_CLIENT_PASSWORD }}
+    secrets: inherit
 
   template-repo-notice:
     name: Validation skipped on the template repo
