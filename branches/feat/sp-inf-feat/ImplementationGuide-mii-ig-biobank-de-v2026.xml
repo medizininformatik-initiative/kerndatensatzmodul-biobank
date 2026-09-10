@@ -1515,7 +1515,7 @@
         <reference value="SearchParameter/mii-sp-biobank-specimen-feature"/>
       </reference>
       <name value="mii-sp-biobank-specimen-feature"/>
-      <description value="Suchparameter für Specimen.feature.type"/>
+      <description value="Suchparameter für das Specimen-Feature (R5-Backport-Extension) nach Feature-Typ"/>
       <exampleBoolean value="false"/>
     </resource>
     <resource>

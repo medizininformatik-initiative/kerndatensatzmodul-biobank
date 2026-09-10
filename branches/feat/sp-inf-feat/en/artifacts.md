@@ -22,7 +22,7 @@ These define the properties by which a RESTful server can be searched. They can 
 | | |
 | :--- | :--- |
 | [ mii-sp-biobank-infektiositaetsstatus  ](SearchParameter-mii-sp-biobank-infektiositaetsstatus.md) | Suchparameter für den Infektiositätsstatus (Extension) an Specimen |
-| [ mii-sp-biobank-specimen-feature  ](SearchParameter-mii-sp-biobank-specimen-feature.md) | Suchparameter für Specimen.feature.type |
+| [ mii-sp-biobank-specimen-feature  ](SearchParameter-mii-sp-biobank-specimen-feature.md) | Suchparameter für das Specimen-Feature (R5-Backport-Extension) nach Feature-Typ |
 
 ### Structures: Logical Models 
 

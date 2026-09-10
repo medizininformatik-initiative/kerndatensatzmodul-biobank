@@ -247,7 +247,7 @@
             "schema": {
               "type": "string"
             },
-            "description": "Suchparameter für Specimen.feature.type"
+            "description": "Suchparameter für das Specimen-Feature (R5-Backport-Extension) nach Feature-Typ"
           },
           {
             "name": "einstellung-blutversorgung",

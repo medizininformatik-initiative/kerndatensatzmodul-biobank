@@ -24,7 +24,7 @@ Diese definieren die Eigenschaften, nach denen ein RESTful-Server durchsucht wer
 | | |
 | :--- | :--- |
 | [ mii-sp-biobank-infektiositaetsstatus  ](SearchParameter-mii-sp-biobank-infektiositaetsstatus.md) | Suchparameter für den Infektiositätsstatus (Extension) an Specimen |
-| [ mii-sp-biobank-specimen-feature  ](SearchParameter-mii-sp-biobank-specimen-feature.md) | Suchparameter für Specimen.feature.type |
+| [ mii-sp-biobank-specimen-feature  ](SearchParameter-mii-sp-biobank-specimen-feature.md) | Suchparameter für das Specimen-Feature (R5-Backport-Extension) nach Feature-Typ |
 
 ### Strukturen: Logische Modelle 
 

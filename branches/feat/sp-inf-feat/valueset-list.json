@@ -21,9 +21,9 @@
     "systems" : ["http://snomed.info/sct"],
     "uses" : {
     },
+    "StructureDefinition-mii-pr-biobank-zellinie-organoid.html" : "MII PR Biobank Specimen Zellinie Organoid",
     "StructureDefinition-mii-pr-biobank-specimen-core.html" : "MII PR Biobank Specimen Bioprobe Core",
-    "StructureDefinition-mii-pr-biobank-specimen.html" : "MII PR Biobank Specimen Bioprobe",
-    "StructureDefinition-mii-pr-biobank-zellinie-organoid.html" : "MII PR Biobank Specimen Zellinie Organoid"
+    "StructureDefinition-mii-pr-biobank-specimen.html" : "MII PR Biobank Specimen Bioprobe"
   },
   {
     "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/mii-vs-biobank-cellline-modification-clo",
@@ -72,9 +72,9 @@
     "systems" : ["http://snomed.info/sct"],
     "uses" : {
     },
+    "StructureDefinition-mii-pr-biobank-zellinie-organoid.html" : "MII PR Biobank Specimen Zellinie Organoid",
     "StructureDefinition-mii-pr-biobank-specimen-core.html" : "MII PR Biobank Specimen Bioprobe Core",
-    "StructureDefinition-mii-pr-biobank-specimen.html" : "MII PR Biobank Specimen Bioprobe",
-    "StructureDefinition-mii-pr-biobank-zellinie-organoid.html" : "MII PR Biobank Specimen Zellinie Organoid"
+    "StructureDefinition-mii-pr-biobank-specimen.html" : "MII PR Biobank Specimen Bioprobe"
   },
   {
     "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/mii-vs-biobank-dna-concentration-units-ucum",
@@ -110,9 +110,9 @@
     "systems" : ["http://snomed.info/sct"],
     "uses" : {
     },
+    "StructureDefinition-mii-pr-biobank-zellinie-organoid.html" : "MII PR Biobank Specimen Zellinie Organoid",
     "StructureDefinition-mii-pr-biobank-specimen-core.html" : "MII PR Biobank Specimen Bioprobe Core",
-    "StructureDefinition-mii-pr-biobank-specimen.html" : "MII PR Biobank Specimen Bioprobe",
-    "StructureDefinition-mii-pr-biobank-zellinie-organoid.html" : "MII PR Biobank Specimen Zellinie Organoid"
+    "StructureDefinition-mii-pr-biobank-specimen.html" : "MII PR Biobank Specimen Bioprobe"
   },
   {
     "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/mii-vs-biobank-probenart-sct",
@@ -124,9 +124,9 @@
     "systems" : ["http://snomed.info/sct"],
     "uses" : {
     },
+    "StructureDefinition-mii-pr-biobank-zellinie-organoid.html" : "MII PR Biobank Specimen Zellinie Organoid",
     "StructureDefinition-mii-pr-biobank-specimen-core.html" : "MII PR Biobank Specimen Bioprobe Core",
-    "StructureDefinition-mii-pr-biobank-specimen.html" : "MII PR Biobank Specimen Bioprobe",
-    "StructureDefinition-mii-pr-biobank-zellinie-organoid.html" : "MII PR Biobank Specimen Zellinie Organoid"
+    "StructureDefinition-mii-pr-biobank-specimen.html" : "MII PR Biobank Specimen Bioprobe"
   },
   {
     "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/mii-vs-biobank-probenebene",

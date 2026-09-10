@@ -2171,7 +2171,7 @@ Expansion parameters are query parameters that can be passed to a `ValueSet` `$e
         "reference" : "SearchParameter/mii-sp-biobank-specimen-feature"
       },
       "name" : "mii-sp-biobank-specimen-feature",
-      "description" : "Suchparameter für Specimen.feature.type",
+      "description" : "Suchparameter für das Specimen-Feature (R5-Backport-Extension) nach Feature-Typ",
       "exampleBoolean" : false
     },
     {

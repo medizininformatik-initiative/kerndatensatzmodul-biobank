@@ -12,7 +12,7 @@
 | Active as of 2026-09-10 | *Computable Name*:MII_SP_Biobank_Specimen_Feature |
 
  
-Suchparameter für Specimen.feature.type 
+Suchparameter für das Specimen-Feature (R5-Backport-Extension) nach Feature-Typ 
 
 
 
@@ -83,7 +83,7 @@ Suchparameter für Specimen.feature.type
       "value" : "https://www.medizininformatik-initiative.de/"
     }]
   }],
-  "description" : "Suchparameter für Specimen.feature.type",
+  "description" : "Suchparameter für das Specimen-Feature (R5-Backport-Extension) nach Feature-Typ",
   "jurisdiction" : [{
     "coding" : [{
       "system" : "urn:iso:std:iso:3166",
@@ -94,7 +94,7 @@ Suchparameter für Specimen.feature.type
   "code" : "feature",
   "base" : ["Specimen"],
   "type" : "token",
-  "expression" : "Specimen.feature.type"
+  "expression" : "Specimen.extension('http://hl7.org/fhir/5.0/StructureDefinition/extension-Specimen.feature').extension('type').value.as(CodeableConcept)"
 }
 
 ```

@@ -1,7 +1,7 @@
 MII_IG_Biobank_DE : Validation Results
 =========================================
 
-err = 61, warn = 416, info = 1946
+err = 60, warn = 416, info = 1946
 $--
 Generated $--. FHIR version $-- for de.medizininformatikinitiative.kerndatensatz.biobank#$-- (canonical = https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank)
  Build Errors : 2 / 23 / 0
@@ -25,7 +25,7 @@ Generated $--. FHIR version $-- for de.medizininformatikinitiative.kerndatensatz
  /home/runner/work/kerndatensatzmodul-biobank/kerndatensatzmodul-biobank/fsh-generated/resources/Organization-BiobankMusterstadt : 0 / 1 / 1
  /home/runner/work/kerndatensatzmodul-biobank/kerndatensatzmodul-biobank/fsh-generated/resources/Organization-Mustersammlung : 0 / 0 / 1
  /home/runner/work/kerndatensatzmodul-biobank/kerndatensatzmodul-biobank/fsh-generated/resources/SearchParameter-mii-sp-biobank-infektiositaetsstatus : 0 / 1 / 5
- /home/runner/work/kerndatensatzmodul-biobank/kerndatensatzmodul-biobank/fsh-generated/resources/SearchParameter-mii-sp-biobank-specimen-feature : 1 / 1 / 5
+ /home/runner/work/kerndatensatzmodul-biobank/kerndatensatzmodul-biobank/fsh-generated/resources/SearchParameter-mii-sp-biobank-specimen-feature : 0 / 1 / 5
  /home/runner/work/kerndatensatzmodul-biobank/kerndatensatzmodul-biobank/fsh-generated/resources/ServiceRequest-GewebeBiopsie : 1 / 1 / 1
  /home/runner/work/kerndatensatzmodul-biobank/kerndatensatzmodul-biobank/fsh-generated/resources/Specimen-AliquotBuffyCoat1 : 1 / 7 / 3
  /home/runner/work/kerndatensatzmodul-biobank/kerndatensatzmodul-biobank/fsh-generated/resources/Specimen-AliquotBuffyCoat2 : 1 / 11 / 7
@@ -341,7 +341,6 @@ INFORMATION: Resource: The resource SearchParameter/mii-sp-biobank-infektiositae
 INFORMATION: SearchParameter.meta.profile[0]: Pinned the version of https://www.medizininformatik-initiative.de/fhir/modul-meta/StructureDefinition/mii-pr-meta-searchparameter to 2027.0.0-ballot.rc3
 WARNING: SearchParameter/mii-sp-biobank-specimen-feature: SearchParameter.meta.extension[0].extension[2].value.ofType(uri): No definition could be found for URL value 'https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank'
 INFORMATION: SearchParameter/mii-sp-biobank-specimen-feature: SearchParameter.extension[1].value.ofType(CodeableConcept): Reference to draft CodeSystem http://hl7.org/fhir/spdx-license|84728b7
-ERROR: SearchParameter/mii-sp-biobank-specimen-feature: SearchParameter.expression: Error in search expression 'Specimen.feature.type': Error evaluating FHIRPath expression: The name 'feature' is not valid for any of the possible types: [http://hl7.org/fhir/StructureDefinition/Specimen] (@char 10)
 INFORMATION: Resource: The resource SearchParameter/mii-sp-biobank-specimen-feature could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == fsh-generated/resources/ServiceRequest-GewebeBiopsie.json ==
 WARNING: ServiceRequest/GewebeBiopsie: ServiceRequest.code.coding[0].system: A definition for CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/900000000000207008/version/20260701' could not be found, so the code cannot be validated. Valid versions: http://snomed.info/sct/11000146104/version/20240930, http://snomed.info/sct/2011000195101/version/20230607, http://snomed.info/sct/554471000005108/version/20260331, http://snomed.info/sct/731000124108/version/20230301, http://snomed.info/sct/731000124108/version/20240301, http://snomed.info/sct/731000124108/version/20250901, http://snomed.info/sct/827022005/version/20241216, http://snomed.info/sct/83821000000107/version/20230412, http://snomed.info/sct/900000000000207008/version/20240201, http://snomed.info/sct/900000000000207008/version/20250201 and http://snomed.info/xsct/31000003106/version/20250909
