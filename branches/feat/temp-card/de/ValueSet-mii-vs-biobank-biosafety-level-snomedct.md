@@ -88,7 +88,7 @@ No Expansion for this valueset (Unsupported Code System Version)
     }]
   },
   "status" : "active",
-  "date" : "2026-09-10T12:00:58+00:00",
+  "date" : "2026-09-10T12:12:05+00:00",
   "publisher" : "Medizininformatik Initiative",
   "contact" : [{
     "name" : "Medizininformatik Initiative",
