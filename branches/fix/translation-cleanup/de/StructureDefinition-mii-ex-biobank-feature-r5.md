@@ -82,7 +82,7 @@ Weitere Repräsentationen des Profils: [CSV](../StructureDefinition-mii-ex-bioba
   "title" : "MII EX Biobank Feature R5",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-09-10T14:28:13+00:00",
+  "date" : "2026-09-10T14:44:18+00:00",
   "publisher" : "Medizininformatik Initiative",
   "contact" : [{
     "name" : "Medizininformatik Initiative",

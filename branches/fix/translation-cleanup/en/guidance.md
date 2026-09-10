@@ -5,8 +5,6 @@
 
 ## Guidance
 
-> These introductory lines and the link list were newly written during the migration (the source hub page was intentionally empty).
-
 This page describes the module's application scenarios; the subpages cover individual aspects in more depth:
 
 * [Guidance for Implementers](implementer-guidance.md) – context within the overall project and references (SPREC, MIABIS, BBMRI-ERIC, GBN)
