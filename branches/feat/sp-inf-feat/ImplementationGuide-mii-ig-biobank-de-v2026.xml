@@ -1520,6 +1520,17 @@
     </resource>
     <resource>
       <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
+        <valueString value="SearchParameter"/>
+      </extension>
+      <reference>
+        <reference value="SearchParameter/mii-sp-biobank-specimen-focus"/>
+      </reference>
+      <name value="mii-sp-biobank-specimen-focus"/>
+      <description value="Suchparameter für die Specimen-Focus-Extension nach der referenzierten Fokus-Ressource"/>
+      <exampleBoolean value="false"/>
+    </resource>
+    <resource>
+      <extension url="http://hl7.org/fhir/tools/StructureDefinition/resource-information">
         <valueString value="StructureDefinition:logical"/>
       </extension>
       <reference>

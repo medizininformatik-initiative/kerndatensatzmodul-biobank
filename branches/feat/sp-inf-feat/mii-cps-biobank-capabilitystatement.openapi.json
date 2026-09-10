@@ -359,6 +359,14 @@
             "description": "Suchparameter für den Infektiositätsstatus (Extension) an Specimen"
           },
           {
+            "name": "focus",
+            "in": "query",
+            "schema": {
+              "type": "string"
+            },
+            "description": "Suchparameter für die Specimen-Focus-Extension nach der referenzierten Fokus-Ressource"
+          },
+          {
             "name": "kulturprotokoll",
             "in": "query",
             "schema": {

@@ -1874,6 +1874,18 @@
     {
       "extension" : [{
         "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
+        "valueString" : "SearchParameter"
+      }],
+      "reference" : {
+        "reference" : "SearchParameter/mii-sp-biobank-specimen-focus"
+      },
+      "name" : "mii-sp-biobank-specimen-focus",
+      "description" : "Suchparameter für die Specimen-Focus-Extension nach der referenzierten Fokus-Ressource",
+      "exampleBoolean" : false
+    },
+    {
+      "extension" : [{
+        "url" : "http://hl7.org/fhir/tools/StructureDefinition/resource-information",
         "valueString" : "StructureDefinition:logical"
       }],
       "reference" : {

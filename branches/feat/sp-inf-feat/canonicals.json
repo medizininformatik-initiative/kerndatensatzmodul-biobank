@@ -72,6 +72,13 @@
   "name" : "MII_SP_Biobank_Specimen_Feature"
 },
 {
+  "id" : "mii-sp-biobank-specimen-focus",
+  "type" : "SearchParameter",
+  "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/SearchParameter/mii-sp-biobank-specimen-focus",
+  "version" : "2027.0.0-ballot.rc2",
+  "name" : "MII_SP_Biobank_Specimen_Focus"
+},
+{
   "id" : "mii-ex-biobank-diagnose",
   "type" : "StructureDefinition",
   "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/Diagnose",

@@ -102,6 +102,7 @@
 
 * [MII_SP_Biobank_Infektiositaetsstatus](SearchParameter-mii-sp-biobank-infektiositaetsstatus.md)
 * [MII_SP_Biobank_Specimen_Feature](SearchParameter-mii-sp-biobank-specimen-feature.md)
+* [MII_SP_Biobank_Specimen_Focus](SearchParameter-mii-sp-biobank-specimen-focus.md)
 
 ### Examples
 

@@ -1,11 +1,11 @@
 MII_IG_Biobank_DE : Validation Results
 =========================================
 
-err = 60, warn = 416, info = 1946
+err = 60, warn = 417, info = 1950
 $--
 Generated $--. FHIR version $-- for de.medizininformatikinitiative.kerndatensatz.biobank#$-- (canonical = https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank)
  Build Errors : 2 / 23 / 0
- /home/runner/work/kerndatensatzmodul-biobank/kerndatensatzmodul-biobank/fsh-generated/resources/CapabilityStatement-mii-cps-biobank-capabilitystatement : 3 / 16 / 52
+ /home/runner/work/kerndatensatzmodul-biobank/kerndatensatzmodul-biobank/fsh-generated/resources/CapabilityStatement-mii-cps-biobank-capabilitystatement : 3 / 16 / 53
  /home/runner/work/kerndatensatzmodul-biobank/kerndatensatzmodul-biobank/fsh-generated/resources/CodeSystem-mii-cs-biobank-contact-type : 3 / 1 / 4
  /home/runner/work/kerndatensatzmodul-biobank/kerndatensatzmodul-biobank/fsh-generated/resources/CodeSystem-mii-cs-biobank-probenebene : 0 / 2 / 4
  /home/runner/work/kerndatensatzmodul-biobank/kerndatensatzmodul-biobank/fsh-generated/resources/ConceptMap-mii-cm-biobank-fixation-type-sprec-sct : 0 / 4 / 4
@@ -26,6 +26,7 @@ Generated $--. FHIR version $-- for de.medizininformatikinitiative.kerndatensatz
  /home/runner/work/kerndatensatzmodul-biobank/kerndatensatzmodul-biobank/fsh-generated/resources/Organization-Mustersammlung : 0 / 0 / 1
  /home/runner/work/kerndatensatzmodul-biobank/kerndatensatzmodul-biobank/fsh-generated/resources/SearchParameter-mii-sp-biobank-infektiositaetsstatus : 0 / 1 / 5
  /home/runner/work/kerndatensatzmodul-biobank/kerndatensatzmodul-biobank/fsh-generated/resources/SearchParameter-mii-sp-biobank-specimen-feature : 0 / 1 / 5
+ /home/runner/work/kerndatensatzmodul-biobank/kerndatensatzmodul-biobank/fsh-generated/resources/SearchParameter-mii-sp-biobank-specimen-focus : 0 / 1 / 5
  /home/runner/work/kerndatensatzmodul-biobank/kerndatensatzmodul-biobank/fsh-generated/resources/ServiceRequest-GewebeBiopsie : 1 / 1 / 1
  /home/runner/work/kerndatensatzmodul-biobank/kerndatensatzmodul-biobank/fsh-generated/resources/Specimen-AliquotBuffyCoat1 : 1 / 7 / 3
  /home/runner/work/kerndatensatzmodul-biobank/kerndatensatzmodul-biobank/fsh-generated/resources/Specimen-AliquotBuffyCoat2 : 1 / 11 / 7
@@ -124,6 +125,7 @@ INFORMATION: CapabilityStatement.rest[0].resource[0].searchParam[23].definition:
 INFORMATION: CapabilityStatement.rest[0].resource[0].searchParam[24].definition: Pinned the version of http://hl7.org/fhir/SearchParameter/Specimen-container to 4.0.1
 INFORMATION: CapabilityStatement.rest[0].resource[0].searchParam[27].definition: Pinned the version of https://www.medizininformatik-initiative.de/fhir/modul-meta/SearchParameter/mii-sp-meta-specimen-container-additive to 2027.0.0-ballot.rc3
 INFORMATION: CapabilityStatement.rest[0].resource[0].searchParam[29].definition: Pinned the version of https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/SearchParameter/mii-sp-biobank-infektiositaetsstatus to 2027.0.0-ballot.rc2
+INFORMATION: CapabilityStatement.rest[0].resource[0].searchParam[30].definition: Pinned the version of https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/SearchParameter/mii-sp-biobank-specimen-focus to 2027.0.0-ballot.rc2
 INFORMATION: CapabilityStatement.rest[0].resource[1].searchParam[0].definition: Pinned the version of http://hl7.org/fhir/SearchParameter/Resource-id to 4.0.1
 INFORMATION: CapabilityStatement.rest[0].resource[1].searchParam[1].definition: Pinned the version of http://hl7.org/fhir/SearchParameter/Resource-lastUpdated to 4.0.1
 INFORMATION: CapabilityStatement.rest[0].resource[1].searchParam[2].definition: Pinned the version of http://hl7.org/fhir/SearchParameter/Resource-profile to 4.0.1
@@ -163,9 +165,9 @@ WARNING: CapabilityStatement/mii-cps-biobank-capabilitystatement: CapabilityStat
 WARNING: CapabilityStatement/mii-cps-biobank-capabilitystatement: CapabilityStatement.rest[0].resource[0].searchParam[25].definition: A definition could not be found for Canonical URL 'https://www.medizininformatik-initiative.de/fhir/ext/modul-meta/SearchParameter/mii-sp-meta-specimen-container-capacity'
 WARNING: CapabilityStatement/mii-cps-biobank-capabilitystatement: CapabilityStatement.rest[0].resource[0].searchParam[26].definition: A definition could not be found for Canonical URL 'https://www.medizininformatik-initiative.de/fhir/ext/modul-meta/SearchParameter/mii-sp-meta-specimen-container-specimen-quantity'
 WARNING: CapabilityStatement/mii-cps-biobank-capabilitystatement: CapabilityStatement.rest[0].resource[0].searchParam[28].definition: A definition could not be found for Canonical URL 'https://www.medizininformatik-initiative.de/fhir/ext/modul-meta/SearchParameter/mii-sp-meta-specimen-note'
-WARNING: CapabilityStatement/mii-cps-biobank-capabilitystatement: CapabilityStatement.rest[0].resource[0].searchParam[30].definition: A definition could not be found for Canonical URL 'https://www.medizininformatik-initiative.de/fhir/ext/modul-meta/SearchParameter/mii-sp-meta-specimen-kulturprotokoll'
-WARNING: CapabilityStatement/mii-cps-biobank-capabilitystatement: CapabilityStatement.rest[0].resource[0].searchParam[31].definition: A definition could not be found for Canonical URL 'https://www.medizininformatik-initiative.de/fhir/ext/modul-meta/SearchParameter/mii-sp-meta-specimen-anzahl-passagen'
-WARNING: CapabilityStatement/mii-cps-biobank-capabilitystatement: CapabilityStatement.rest[0].resource[0].searchParam[32].definition: A definition could not be found for Canonical URL 'https://www.medizininformatik-initiative.de/fhir/ext/modul-meta/SearchParameter/mii-sp-meta-specimen-modifikationen'
+WARNING: CapabilityStatement/mii-cps-biobank-capabilitystatement: CapabilityStatement.rest[0].resource[0].searchParam[31].definition: A definition could not be found for Canonical URL 'https://www.medizininformatik-initiative.de/fhir/ext/modul-meta/SearchParameter/mii-sp-meta-specimen-kulturprotokoll'
+WARNING: CapabilityStatement/mii-cps-biobank-capabilitystatement: CapabilityStatement.rest[0].resource[0].searchParam[32].definition: A definition could not be found for Canonical URL 'https://www.medizininformatik-initiative.de/fhir/ext/modul-meta/SearchParameter/mii-sp-meta-specimen-anzahl-passagen'
+WARNING: CapabilityStatement/mii-cps-biobank-capabilitystatement: CapabilityStatement.rest[0].resource[0].searchParam[33].definition: A definition could not be found for Canonical URL 'https://www.medizininformatik-initiative.de/fhir/ext/modul-meta/SearchParameter/mii-sp-meta-specimen-modifikationen'
 WARNING: CapabilityStatement/mii-cps-biobank-capabilitystatement: CapabilityStatement.rest[0].resource[2].searchParam[4].definition: A definition could not be found for Canonical URL 'https://www.medizininformatik-initiative.de/fhir/ext/modul-meta/SearchParameter/mii-sp-meta-organization-beschreibung'
 WARNING: CapabilityStatement/mii-cps-biobank-capabilitystatement: CapabilityStatement.rest[0].resource[2].searchParam[5].definition: A definition could not be found for Canonical URL 'https://www.medizininformatik-initiative.de/fhir/ext/modul-meta/SearchParameter/mii-sp-meta-organization-collection-setting'
 WARNING: CapabilityStatement/mii-cps-biobank-capabilitystatement: CapabilityStatement.rest[0].resource[2].searchParam[6].definition: A definition could not be found for Canonical URL 'https://www.medizininformatik-initiative.de/fhir/ext/modul-meta/SearchParameter/mii-sp-meta-organization-collection-design'
@@ -238,16 +240,16 @@ INFORMATION: ImplementationGuide.definition.resource[5].profile[0]: Pinned the v
 INFORMATION: ImplementationGuide.definition.resource[6].profile[0]: Pinned the version of https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/mii-pr-biobank-observation-dna-konzentration to 2027.0.0-ballot.rc2
 INFORMATION: ImplementationGuide.definition.resource[7].profile[0]: Pinned the version of https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/Substance to 2027.0.0-ballot.rc2
 INFORMATION: ImplementationGuide.definition.resource[8].profile[0]: Pinned the version of https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/mii-pr-biobank-observation-karyotyp to 2027.0.0-ballot.rc2
-INFORMATION: ImplementationGuide.definition.resource[57].profile[0]: Pinned the version of https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/mii-pr-biobank-observation-morphologie to 2027.0.0-ballot.rc2
-INFORMATION: ImplementationGuide.definition.resource[58].profile[0]: Pinned the version of https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/Specimen to 2027.0.0-ballot.rc2
+INFORMATION: ImplementationGuide.definition.resource[58].profile[0]: Pinned the version of https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/mii-pr-biobank-observation-morphologie to 2027.0.0-ballot.rc2
 INFORMATION: ImplementationGuide.definition.resource[59].profile[0]: Pinned the version of https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/Specimen to 2027.0.0-ballot.rc2
-INFORMATION: ImplementationGuide.definition.resource[60].profile[0]: Pinned the version of https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/Organization to 2027.0.0-ballot.rc2
-INFORMATION: ImplementationGuide.definition.resource[62].profile[0]: Pinned the version of https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/mii-pr-biobank-zellinie-organoid to 2027.0.0-ballot.rc2
-INFORMATION: ImplementationGuide.definition.resource[63].profile[0]: Pinned the version of https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/Specimen to 2027.0.0-ballot.rc2
-INFORMATION: ImplementationGuide.definition.resource[64].profile[0]: Pinned the version of https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/mii-pr-biobank-observation-proliferation to 2027.0.0-ballot.rc2
-INFORMATION: ImplementationGuide.definition.resource[65].profile[0]: Pinned the version of https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/mii-pr-biobank-observation-qualitaetspruefung to 2027.0.0-ballot.rc2
+INFORMATION: ImplementationGuide.definition.resource[60].profile[0]: Pinned the version of https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/Specimen to 2027.0.0-ballot.rc2
+INFORMATION: ImplementationGuide.definition.resource[61].profile[0]: Pinned the version of https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/Organization to 2027.0.0-ballot.rc2
+INFORMATION: ImplementationGuide.definition.resource[63].profile[0]: Pinned the version of https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/mii-pr-biobank-zellinie-organoid to 2027.0.0-ballot.rc2
+INFORMATION: ImplementationGuide.definition.resource[64].profile[0]: Pinned the version of https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/Specimen to 2027.0.0-ballot.rc2
+INFORMATION: ImplementationGuide.definition.resource[65].profile[0]: Pinned the version of https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/mii-pr-biobank-observation-proliferation to 2027.0.0-ballot.rc2
 INFORMATION: ImplementationGuide.definition.resource[66].profile[0]: Pinned the version of https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/mii-pr-biobank-observation-qualitaetspruefung to 2027.0.0-ballot.rc2
-INFORMATION: ImplementationGuide.definition.resource[67].profile[0]: Pinned the version of https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/mii-pr-biobank-observation-wachstumstyp to 2027.0.0-ballot.rc2
+INFORMATION: ImplementationGuide.definition.resource[67].profile[0]: Pinned the version of https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/mii-pr-biobank-observation-qualitaetspruefung to 2027.0.0-ballot.rc2
+INFORMATION: ImplementationGuide.definition.resource[68].profile[0]: Pinned the version of https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/mii-pr-biobank-observation-wachstumstyp to 2027.0.0-ballot.rc2
 INFORMATION: ImplementationGuide.title: Unused 'de' translation 'MII Implementation Guide Biobank' -> 'MII Implementierungsleitfaden Biobank'
 INFORMATION: ImplementationGuide.publisher: Unused 'de' translation 'NUM-DIZ' -> 'NUM-DIZ'
 WARNING: ImplementationGuide/mii-ig-biobank-de-v2026: ImplementationGuide.extension[4].extension[2].value.ofType(uri): No definition could be found for URL value 'https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank'
@@ -342,6 +344,11 @@ INFORMATION: SearchParameter.meta.profile[0]: Pinned the version of https://www.
 WARNING: SearchParameter/mii-sp-biobank-specimen-feature: SearchParameter.meta.extension[0].extension[2].value.ofType(uri): No definition could be found for URL value 'https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank'
 INFORMATION: SearchParameter/mii-sp-biobank-specimen-feature: SearchParameter.extension[1].value.ofType(CodeableConcept): Reference to draft CodeSystem http://hl7.org/fhir/spdx-license|84728b7
 INFORMATION: Resource: The resource SearchParameter/mii-sp-biobank-specimen-feature could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
+== fsh-generated/resources/SearchParameter-mii-sp-biobank-specimen-focus.json ==
+INFORMATION: SearchParameter.meta.profile[0]: Pinned the version of https://www.medizininformatik-initiative.de/fhir/modul-meta/StructureDefinition/mii-pr-meta-searchparameter to 2027.0.0-ballot.rc3
+WARNING: SearchParameter/mii-sp-biobank-specimen-focus: SearchParameter.meta.extension[0].extension[2].value.ofType(uri): No definition could be found for URL value 'https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank'
+INFORMATION: SearchParameter/mii-sp-biobank-specimen-focus: SearchParameter.extension[1].value.ofType(CodeableConcept): Reference to draft CodeSystem http://hl7.org/fhir/spdx-license|84728b7
+INFORMATION: Resource: The resource SearchParameter/mii-sp-biobank-specimen-focus could usefully have an OID assigned (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == fsh-generated/resources/ServiceRequest-GewebeBiopsie.json ==
 WARNING: ServiceRequest/GewebeBiopsie: ServiceRequest.code.coding[0].system: A definition for CodeSystem 'http://snomed.info/sct' version 'http://snomed.info/sct/900000000000207008/version/20260701' could not be found, so the code cannot be validated. Valid versions: http://snomed.info/sct/11000146104/version/20240930, http://snomed.info/sct/2011000195101/version/20230607, http://snomed.info/sct/554471000005108/version/20260331, http://snomed.info/sct/731000124108/version/20230301, http://snomed.info/sct/731000124108/version/20240301, http://snomed.info/sct/731000124108/version/20250901, http://snomed.info/sct/827022005/version/20241216, http://snomed.info/sct/83821000000107/version/20230412, http://snomed.info/sct/900000000000207008/version/20240201, http://snomed.info/sct/900000000000207008/version/20250201 and http://snomed.info/xsct/31000003106/version/20250909
 ERROR: ServiceRequest/GewebeBiopsie: ServiceRequest.subject: Unable to resolve resource with reference 'Patient/mii-exa-test-data-patient-1'
