@@ -5,7 +5,7 @@
     "fshType": "Instance",
     "fshFile": "CapabilityStatement.fsh",
     "startLine": 31,
-    "endLine": 148
+    "endLine": 150
   },
   {
     "outputFile": "CodeSystem-mii-cs-biobank-contact-type.json",
@@ -142,6 +142,22 @@
     "fshFile": "instances\\Mustersammlung.fsh",
     "startLine": 1,
     "endLine": 19
+  },
+  {
+    "outputFile": "SearchParameter-mii-sp-biobank-infektiositaetsstatus.json",
+    "fshName": "mii-sp-biobank-infektiositaetsstatus",
+    "fshType": "Instance",
+    "fshFile": "searchparams\\SP_BIOBANK_INFEKTIOSITAETSSTATUS.fsh",
+    "startLine": 1,
+    "endLine": 17
+  },
+  {
+    "outputFile": "SearchParameter-mii-sp-biobank-specimen-feature.json",
+    "fshName": "mii-sp-biobank-specimen-feature",
+    "fshType": "Instance",
+    "fshFile": "searchparams\\SP_BIOBANK_FEATURE.fsh",
+    "startLine": 1,
+    "endLine": 17
   },
   {
     "outputFile": "ServiceRequest-GewebeBiopsie.json",

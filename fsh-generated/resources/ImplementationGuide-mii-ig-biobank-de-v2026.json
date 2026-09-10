@@ -661,6 +661,22 @@
       },
       {
         "reference": {
+          "reference": "SearchParameter/mii-sp-biobank-infektiositaetsstatus"
+        },
+        "name": "mii-sp-biobank-infektiositaetsstatus",
+        "description": "Suchparameter für den Infektiositätsstatus (Extension) an Specimen",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "SearchParameter/mii-sp-biobank-specimen-feature"
+        },
+        "name": "mii-sp-biobank-specimen-feature",
+        "description": "Suchparameter für Specimen.feature.type",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
           "reference": "StructureDefinition/Biobank"
         },
         "name": "MII_LM_Biobank",
