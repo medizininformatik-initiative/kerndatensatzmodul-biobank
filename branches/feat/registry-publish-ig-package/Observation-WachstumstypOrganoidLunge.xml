@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Observation xmlns="http://hl7.org/fhir">
+  <id value="WachstumstypOrganoidLunge"/>
+  <meta>
+    <profile value="https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/mii-pr-biobank-observation-wachstumstyp"/>
+  </meta>
+  <text>
+    <status value="generated"/><div xmlns="http://www.w3.org/1999/xhtml"><div xml:lang="en" lang="en"><hr/><p><b>English</b></p><hr/><p class="res-header-id"><b>Generated Narrative: Observation WachstumstypOrganoidLunge</b></p><a name="WachstumstypOrganoidLunge"> </a><a name="hcWachstumstypOrganoidLunge"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-mii-pr-biobank-observation-wachstumstyp.html">MII PR Biobank Observation Wachstumstyp</a></p></div><p><b>status</b>: Final</p><p><b>code</b>: <span title="Codes:{http://purl.obolibrary.org/obo/clo.owl CLO:0000030}">cell culture growth mode</span></p><p><b>focus</b>: <a href="Specimen-OrganoidLunge.html">Specimen: extension = -&gt;DocumentReference: status = current; date = 2018-06-20 09:00:00+0100; description = Standardprotokoll zur Kultivierung von Lungentumor-Organoiden,,3; identifier = https://biobank.uk-musterstadt.de/fhir/sid/proben#6789-ORG-1; status = available; type = Specimen (specimen)</a></p><p><b>effective</b>: 2018-07-05 10:00:00+0100</p><p><b>value</b>: <span title="Codes:{http://purl.obolibrary.org/obo/clo.owl CLO:0000028}">adherent cell culture growth mode</span></p></div><div xml:lang="de" lang="de"><hr/><p><b>German</b></p><hr/><p class="res-header-id"><b>Generated Narrative: Observation WachstumstypOrganoidLunge</b></p><a name="de-WachstumstypOrganoidLunge"> </a><a name="de-hcWachstumstypOrganoidLunge"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profile: <a href="StructureDefinition-mii-pr-biobank-observation-wachstumstyp.html">MII PR Biobank Observation Wachstumstyp</a></p></div><p><b>status</b>: Final</p><p><b>code</b>: <span title="Codes:{http://purl.obolibrary.org/obo/clo.owl CLO:0000030}">cell culture growth mode</span></p><p><b>focus</b>: <a href="Specimen-OrganoidLunge.html">Specimen: extension = -&gt;DocumentReference: status = current; date = 2018-06-20 09:00:00+0100; description = Standardprotokoll zur Kultivierung von Lungentumor-Organoiden,,3; identifier = https://biobank.uk-musterstadt.de/fhir/sid/proben#6789-ORG-1; status = available; type = Specimen (specimen)</a></p><p><b>effective</b>: 2018-07-05 10:00:00+0100</p><p><b>value</b>: <span title="Codes:{http://purl.obolibrary.org/obo/clo.owl CLO:0000028}">adherent cell culture growth mode</span></p></div></div>
+  </text>
+  <status value="final"/>
+  <code>
+    <coding>
+      <system value="http://purl.obolibrary.org/obo/clo.owl"/>
+      <code value="CLO:0000030"/>
+      <display value="cell culture growth mode"/>
+    </coding>
+  </code>
+  <focus>
+    <reference value="Specimen/OrganoidLunge"/>
+  </focus>
+  <effectiveDateTime value="2018-07-05T10:00:00+01:00"/>
+  <valueCodeableConcept>
+    <coding>
+      <system value="http://purl.obolibrary.org/obo/clo.owl"/>
+      <code value="CLO:0000028"/>
+      <display value="adherent cell culture growth mode"/>
+    </coding>
+  </valueCodeableConcept>
+</Observation>
