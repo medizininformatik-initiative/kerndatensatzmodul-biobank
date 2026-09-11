@@ -8,7 +8,7 @@
   "desc": "MII Core Data Set module Biobank, 2027.0.0-ballot (ballot), on the MII KDS module template.",
   "first": true,
   "title": "MII IG Kerndatensatz-Modul Biobank",
-  "ci-build": "https://medizininformatik-initiative.github.io/kerndatensatzmodul-biobank/branches/dev/",
+  "ci-build": "https://medizininformatik-initiative.github.io/kerndatensatzmodul-biobank/branches/release/v2027.0.0-ballot/",
   "category": "Research",
   "introduction": "FHIR profiles for representing biospecimen data in biobanks - specimens, collections, cell lines and organoids - as part of the MII core data set.",
   "registry-description": "MII Core Data Set extension module Biobank / biospecimen data (specimens, collections, cell lines, organoids).",
