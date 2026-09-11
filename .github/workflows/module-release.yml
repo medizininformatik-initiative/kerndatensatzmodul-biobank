@@ -359,7 +359,7 @@ jobs:
         run: |
           set -euo pipefail
           version="${GITHUB_REF_NAME#v}"
-          manifest="$(tar -xOzf release-assets/output/package.tgz package/package.json)"
+          manifest="$(tar -xOzf release-assets/package.tgz package/package.json)"
           pkg_id="$(jq -r '.name' <<<"${manifest}")"
           pkg_version="$(jq -r '.version' <<<"${manifest}")"
           test "${pkg_id}" = "de.medizininformatikinitiative.kerndatensatz.biobank"
@@ -371,12 +371,12 @@ jobs:
           # Fehlerklasse, die rc1 unbrauchbar machte).
           bad=0
           while IFS= read -r f; do
-            n="$(tar -xOzf release-assets/output/package.tgz "${f}" | jq '(.snapshot.element // []) | length')"
+            n="$(tar -xOzf release-assets/package.tgz "${f}" | jq '(.snapshot.element // []) | length')"
             if [[ "${n}" == "0" ]]; then
               echo "::error::${f} has an empty snapshot."
               bad=1
             fi
-          done < <(tar -tzf release-assets/output/package.tgz | grep -E '^package/StructureDefinition-[^/]+\.json$')
+          done < <(tar -tzf release-assets/package.tgz | grep -E '^package/StructureDefinition-[^/]+\.json$')
           [[ "${bad}" == "0" ]]
 
       - name: Refuse to overwrite an existing registry version
@@ -399,7 +399,7 @@ jobs:
           dotnet tool install --global Firely.Terminal --version 3.5.0 >/dev/null
           export PATH="${PATH}:${HOME}/.dotnet/tools"
           fhir login email="${SIMPLIFIER_USERNAME}" password="${SIMPLIFIER_PASSWORD}"
-          fhir publish-package release-assets/output/package.tgz
+          fhir publish-package release-assets/package.tgz
 
       - name: Verify the registry serves the version
         shell: bash
