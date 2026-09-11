@@ -86,7 +86,7 @@ ValueSet zur Auswahl der Biosafety-Level-Einstufung einer Probe (SNOMED CT), ink
     }]
   },
   "status" : "active",
-  "date" : "2026-09-11T08:05:56+00:00",
+  "date" : "2026-09-11T08:20:01+00:00",
   "publisher" : "Medizininformatik Initiative",
   "contact" : [{
     "name" : "Medizininformatik Initiative",

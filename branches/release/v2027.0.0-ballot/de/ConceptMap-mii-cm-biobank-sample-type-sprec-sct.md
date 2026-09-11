@@ -45,7 +45,7 @@ Mapping der SPREC 4.0 Sample Types auf die im Modul verwendeten SNOMED CT Codes.
   "version" : "2027.0.0-ballot",
   "title" : "SPREC 4.0 Sample Type Mapping",
   "status" : "active",
-  "date" : "2026-09-11T08:05:56+00:00",
+  "date" : "2026-09-11T08:20:01+00:00",
   "publisher" : "Medizininformatik Initiative",
   "contact" : [{
     "name" : "Medizininformatik Initiative",

@@ -92,7 +92,7 @@
 
 ### ImplementationGuides
 
-* [MII IG Kerndatensatz-Modul Biobank](en/ImplementationGuide-mii-ig-biobank-de.md)
+* [MII IG Kerndatensatz-Modul Biobank](en/ImplementationGuide-mii-ig-biobank.md)
 
 ### Parameters
 
