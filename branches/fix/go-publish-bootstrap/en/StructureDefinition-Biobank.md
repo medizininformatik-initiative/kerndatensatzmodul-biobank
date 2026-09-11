@@ -1,4 +1,4 @@
-# MII_LM_Biobank - MII IG Kerndatensatz-Modul Biobank v2027.0.0-ballot.rc2
+# MII_LM_Biobank - MII IG Kerndatensatz-Modul Biobank v2027.0.0-ballot
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/LogicalModel/Biobank | *Version*:2027.0.0-ballot.rc2 |
-| Active as of 2026-09-09 | *Computable Name*:MII_LM_Biobank |
+| *Official URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/LogicalModel/Biobank | *Version*:2027.0.0-ballot |
+| Active as of 2026-09-11 | *Computable Name*:MII_LM_Biobank |
 
  
 Logische Repräsentation des Erweiterungsmoduls Biobank 
@@ -36,11 +36,19 @@ Other representations of profile: [CSV](../StructureDefinition-Biobank.csv), [Ex
 {
   "resourceType" : "StructureDefinition",
   "id" : "Biobank",
+  "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/artifact-versionAlgorithm",
+    "valueCoding" : {
+      "system" : "http://hl7.org/fhir/version-algorithm",
+      "code" : "semver",
+      "display" : "SemVer"
+    }
+  }],
   "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/LogicalModel/Biobank",
-  "version" : "2027.0.0-ballot.rc2",
+  "version" : "2027.0.0-ballot",
   "name" : "MII_LM_Biobank",
   "status" : "active",
-  "date" : "2026-09-09T13:48:19+00:00",
+  "date" : "2026-09-11T10:07:49+00:00",
   "publisher" : "Medizininformatik Initiative",
   "contact" : [{
     "name" : "Medizininformatik Initiative",
@@ -237,6 +245,17 @@ Other representations of profile: [CSV](../StructureDefinition-Biobank.csv), [Ex
       "mapping" : [{
         "identity" : "FHIR",
         "map" : "Specimen.extension[anzahlAliquots]"
+      }]
+    },
+    {
+      "id" : "Biobank.Bioprobe.Infektiositaets-Status",
+      "path" : "Biobank.Bioprobe.Infektiositaets-Status",
+      "short" : "Markiert eine Probe als (potentiell) infektiös.",
+      "definition" : "Markiert eine Probe als (potentiell) infektiös.",
+      "min" : 0,
+      "max" : "1",
+      "type" : [{
+        "code" : "CodeableConcept"
       }]
     },
     {

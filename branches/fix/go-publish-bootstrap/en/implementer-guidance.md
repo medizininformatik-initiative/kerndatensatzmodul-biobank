@@ -1,4 +1,4 @@
-# Guidance for Implementers - MII IG Kerndatensatz-Modul Biobank v2027.0.0-ballot.rc2
+# Guidance for Implementers - MII IG Kerndatensatz-Modul Biobank v2027.0.0-ballot
 
 * [**Table of Contents**](toc.md)
 * [**Guidance**](guidance.md)
@@ -17,6 +17,8 @@ Specimen-specific data should include specimen type, specimen material, quantity
 This module is linked to the modules [Pathologie-Befund](https://www.medizininformatik-initiative.de/Kerndatensatz/KDS_Pathologie_Befund_V2025/MIIIGModulPathologieBefund.html), [Molekulargenetischer Befundbericht](https://www.medizininformatik-initiative.de/Kerndatensatz/KDS_Molekulargenetischer_Befundbericht_V2025/implementation-guides-ImplementationGuide-2025.x-DE-MIIIGModulMolGenDE-IGMIIKDSModulMolekulargenetischerBefundbericht.html), [Onkologie](https://www.medizininformatik-initiative.de/Kerndatensatz/KDS_Onkologie_V2025/MIIIGModulOnkologie.html) and [Laborbefund](https://www.medizininformatik-initiative.de/Kerndatensatz/KDS_Laborbefund_V2025/MIIIGModulLaborbefund.html) when specimens are kept in the biobank for further examinations.
 
 Furthermore, the module [Person](https://www.medizininformatik-initiative.de/Kerndatensatz/Modul_Person/IGMIIKDSModulPerson.html) is used to record patient data, and the module [Diagnose](https://www.medizininformatik-initiative.de/Kerndatensatz/Modul_Diagnose/IGMIIKDSModulDiagnose.html) to represent the indication of a collection or diagnostic information about a specimen.
+
+A good starting point for gaining an overview of the technical specifications is the [Profiles page](profiles.md).
 
 ### Glossary
 

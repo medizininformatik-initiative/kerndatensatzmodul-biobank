@@ -1,4 +1,4 @@
-# Mustersammlung - MII IG Kerndatensatz-Modul Biobank v2027.0.0-ballot.rc2
+# Mustersammlung - MII IG Kerndatensatz-Modul Biobank v2027.0.0-ballot
 
 * [**Inhaltsverzeichnis**](toc.md)
 * [**Artefaktübersicht**](artifacts.md)
@@ -43,24 +43,24 @@ Profile: [MII PR Biobank Organization Sammlung Biobank](StructureDefinition-mii-
     "profile" : ["https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/Organization"]
   },
   "extension" : [{
-    "url" : "https://fhir.bbmri-eric.eu/fhir/StructureDefinition/miabis-organization-description-extension",
+    "url" : "https://fhir.bbmri-eric.eu/StructureDefinition/miabis-organization-description-extension",
     "valueString" : "Sammlung mit im Rahmen der Versorgung gewonnenen Proben."
   },
   {
-    "url" : "https://fhir.bbmri-eric.eu/fhir/StructureDefinition/miabis-sample-collection-setting-extension",
+    "url" : "https://fhir.bbmri-eric.eu/StructureDefinition/miabis-sample-collection-setting-extension",
     "valueCodeableConcept" : {
       "coding" : [{
-        "system" : "https://fhir.bbmri-eric.eu/fhir/CodeSystem/miabis-sample-collection-setting-cs",
+        "system" : "https://fhir.bbmri-eric.eu/CodeSystem/miabis-sample-collection-setting-cs",
         "code" : "RoutineHealthCare",
         "display" : "Routine health care setting"
       }]
     }
   },
   {
-    "url" : "https://fhir.bbmri-eric.eu/fhir/StructureDefinition/miabis-collection-design-extension",
+    "url" : "https://fhir.bbmri-eric.eu/StructureDefinition/miabis-collection-design-extension",
     "valueCodeableConcept" : {
       "coding" : [{
-        "system" : "https://fhir.bbmri-eric.eu/fhir/CodeSystem/miabis-collection-design-cs",
+        "system" : "https://fhir.bbmri-eric.eu/CodeSystem/miabis-collection-design-cs",
         "code" : "LongitudinalCohort",
         "display" : "Longitudinal cohort"
       }]

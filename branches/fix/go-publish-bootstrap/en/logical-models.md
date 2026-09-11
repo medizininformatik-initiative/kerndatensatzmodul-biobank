@@ -1,4 +1,4 @@
-# Logical Models - MII IG Kerndatensatz-Modul Biobank v2027.0.0-ballot.rc2
+# Logical Models - MII IG Kerndatensatz-Modul Biobank v2027.0.0-ballot
 
 * [**Table of Contents**](toc.md)
 * **Logical Models**
@@ -22,6 +22,7 @@ Note that the logical model aims purely at representing the data elements and th
 | `Bioprobe.FestgestellteDiagnose` | Verweis auf eine Diagnose für die Material in der Probe enthalten ist | `Specimen.extension[diagnose]` |
 | `Bioprobe.gehoert-zu` | Zuordnung der Probe zu einer Sammlung/Biobank | `Specimen.extension[gehoertZu]` |
 | `Bioprobe.Anzahl-Aliqouts` | Anzahl der Aliqouts. | `Specimen.extension[anzahlAliquots]` |
+| `Bioprobe.Infektiositäts-Status` | Markiert eine Probe als (potentiell) infektiös. | `Specimen.extension[infektiositaetsstatus]` |
 | `Bioprobe.Container` | Probenbehältnis | `Specimen.container` |
 | `Bioprobe.Container.Containertyp` | Typ des Containers | `Specimen.container.type` |
 | `Bioprobe.Container.Kapazitaet` | Kapazität des Probencontainers | `Specimen.container.capacity` |

@@ -1,4 +1,4 @@
-# Biobank Musterstadt - MII IG Kerndatensatz-Modul Biobank v2027.0.0-ballot.rc2
+# Biobank Musterstadt - MII IG Kerndatensatz-Modul Biobank v2027.0.0-ballot
 
 * [**Inhaltsverzeichnis**](toc.md)
 * [**Artefaktübersicht**](artifacts.md)
@@ -39,7 +39,7 @@ Profile: [MII PR Biobank Organization Sammlung Biobank](StructureDefinition-mii-
     "profile" : ["https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/Organization"]
   },
   "extension" : [{
-    "url" : "https://fhir.bbmri-eric.eu/fhir/StructureDefinition/miabis-organization-description-extension",
+    "url" : "https://fhir.bbmri-eric.eu/StructureDefinition/miabis-organization-description-extension",
     "valueString" : "Biobank des Krankenhauses Musterstadt."
   }],
   "identifier" : [{

@@ -1,4 +1,4 @@
-# MII PR Biobank Observation Karyotyp - MII IG Kerndatensatz-Modul Biobank v2027.0.0-ballot.rc2
+# MII PR Biobank Observation Karyotyp - MII IG Kerndatensatz-Modul Biobank v2027.0.0-ballot
 
 * [**Inhaltsverzeichnis**](toc.md)
 * [**Artefaktübersicht**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Offizielle URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/mii-pr-biobank-observation-karyotyp | *Version*:2027.0.0-ballot.rc2 |
-| Active Stand: 2025-09-02 | *Maschinenlesbarer Name*:MII_PR_Biobank_Observation_Karyotyp |
+| *Offizielle URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/mii-pr-biobank-observation-karyotyp | *Version*:2027.0.0-ballot |
+| Active Stand: 2026-09-10 | *Maschinenlesbarer Name*:MII_PR_Biobank_Observation_Karyotyp |
 
  
 Der an einer Zelline oder einem Organiod festgestellte Karyotyo 
@@ -96,6 +96,14 @@ Weitere Repräsentationen des Profils: [CSV](../StructureDefinition-mii-pr-bioba
   "resourceType" : "StructureDefinition",
   "id" : "mii-pr-biobank-observation-karyotyp",
   "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/artifact-versionAlgorithm",
+    "valueCoding" : {
+      "system" : "http://hl7.org/fhir/version-algorithm",
+      "code" : "semver",
+      "display" : "SemVer"
+    }
+  },
+  {
     "url" : "https://www.medizininformatik-initiative.de/fhir/modul-meta/StructureDefinition/mii-ex-meta-license-codeable",
     "valueCodeableConcept" : {
       "coding" : [{
@@ -106,7 +114,7 @@ Weitere Repräsentationen des Profils: [CSV](../StructureDefinition-mii-pr-bioba
     }
   }],
   "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/mii-pr-biobank-observation-karyotyp",
-  "version" : "2027.0.0-ballot.rc2",
+  "version" : "2027.0.0-ballot",
   "name" : "MII_PR_Biobank_Observation_Karyotyp",
   "_name" : {
     "extension" : [{
@@ -147,7 +155,7 @@ Weitere Repräsentationen des Profils: [CSV](../StructureDefinition-mii-pr-bioba
     }]
   },
   "status" : "active",
-  "date" : "2025-09-02",
+  "date" : "2026-09-10",
   "publisher" : "Medizininformatik Initiative",
   "contact" : [{
     "name" : "Medizininformatik Initiative",

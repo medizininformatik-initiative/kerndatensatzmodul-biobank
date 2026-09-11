@@ -1,4 +1,4 @@
-# Proliferation Organoid Lungenbiopsie - MII IG Kerndatensatz-Modul Biobank v2027.0.0-ballot.rc2
+# Proliferation Organoid Lungenbiopsie - MII IG Kerndatensatz-Modul Biobank v2027.0.0-ballot
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)

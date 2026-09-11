@@ -1,4 +1,4 @@
-# DNA Aliquotgruppe - MII IG Kerndatensatz-Modul Biobank v2027.0.0-ballot.rc2
+# DNA Aliquotgruppe - MII IG Kerndatensatz-Modul Biobank v2027.0.0-ballot
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -86,7 +86,7 @@ DNA Aliquots gewonnen aus Buffy-Coat
       "display" : "Deoxyribonucleic acid specimen (specimen)"
     },
     {
-      "system" : "https://fhir.bbmri-eric.eu/fhir/CodeSystem/miabis-detailed-samply-type-cs",
+      "system" : "https://fhir.bbmri-eric.eu/CodeSystem/miabis-detailed-samply-type-cs",
       "code" : "DNA",
       "display" : "DNA"
     }]
@@ -119,10 +119,10 @@ DNA Aliquots gewonnen aus Buffy-Coat
       }
     },
     {
-      "url" : "https://fhir.bbmri-eric.eu/fhir/StructureDefinition/miabis-sample-storage-temperature-extension",
+      "url" : "https://fhir.bbmri-eric.eu/StructureDefinition/miabis-sample-storage-temperature-extension",
       "valueCodeableConcept" : {
         "coding" : [{
-          "system" : "https://fhir.bbmri-eric.eu/fhir/CodeSystem/miabis-storage-temperature-cs",
+          "system" : "https://fhir.bbmri-eric.eu/CodeSystem/miabis-storage-temperature-cs",
           "code" : "-60to-85",
           "display" : "between -60 and -85 degrees Celsius"
         }]

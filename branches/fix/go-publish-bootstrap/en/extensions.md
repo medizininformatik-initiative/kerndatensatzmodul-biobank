@@ -1,4 +1,4 @@
-# Extensions - MII IG Kerndatensatz-Modul Biobank v2027.0.0-ballot.rc2
+# Extensions - MII IG Kerndatensatz-Modul Biobank v2027.0.0-ballot
 
 * [**Table of Contents**](toc.md)
 * **Extensions**
@@ -33,6 +33,14 @@ This extension references a diagnosis belonging to the specimen. It is mainly in
 
 Number of aliquots when these are not modelled as separate FHIR resources: [MII EX Biobank Anzahl Aliquots](StructureDefinition-mii-ex-biobank-anzahl-aliquots.md)
 
+#### Infectiosity status
+
+Extension to state the infectiosity status of a specimen based on the biosafety level classification (BSL-1 to BSL-4, SNOMED CT) or an indication that no infection risk is known: [MII EX Biobank Infektiositätsstatus](StructureDefinition-mii-ex-biobank-infektiositaetsstatus.md) (value set: [Biosafety Level](ValueSet-mii-vs-biobank-biosafety-level.md)
+
+#### Focus
+
+To state what the specimen relates to, the `specimen-focus` extension from the [HL7 Europe Laboratory Report IG](https://hl7.eu/fhir/laboratory/StructureDefinition-specimen-focus.html) is included (external extension, package `hl7.fhir.eu.laboratory`).
+
 ### Extensions on the Organization (collection/biobank)
 
 #### Contact role
@@ -56,16 +64,6 @@ Modifications performed: [MII EX Biobank Modifikationen](StructureDefinition-mii
 #### Number of passages
 
 Number of passages performed to create a cell line or organoid: [MII EX Biobank Anzahl Passagen](StructureDefinition-mii-ex-biobank-anzahl-passagen.md)
-
-#### Infectiosity status
-
-Extension to state the infectiosity status of a specimen based on the biosafety level classification (BSL-1 to BSL-4, SNOMED CT) or an indication that no infection risk is known: [MII EX Biobank Infektiositätsstatus](StructureDefinition-mii-ex-biobank-infektiositaetsstatus.md) (value set: [Biosafety Level](ValueSet-mii-vs-biobank-biosafety-level.md))
-
-#### Focus
-
-To state what the specimen relates to, the `specimen-focus` extension from the [HL7 Europe Laboratory Report IG](https://hl7.eu/fhir/laboratory/StructureDefinition-specimen-focus.html) is bound (external extension, package `hl7.fhir.eu.laboratory`).
-
-> The introductory sentence and this section were newly written during the migration (bridging text; the R5 extension had no source page of its own).
 
 ### Further extensions
 

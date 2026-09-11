@@ -1,11 +1,9 @@
-# Beispiele - MII IG Kerndatensatz-Modul Biobank v2027.0.0-ballot.rc2
+# Beispiele - MII IG Kerndatensatz-Modul Biobank v2027.0.0-ballot
 
 * [**Inhaltsverzeichnis**](toc.md)
 * **Beispiele**
 
 ## Beispiele
-
-> Diese Übersicht ist bei der Migration neu entstanden; die Quelle listete die Beispiele je Profilseite.
 
 Diese Seite listet die Beispielinstanzen des Moduls **Biobank**. Die vollständige, automatisch generierte Liste findet sich in der [Artefakt-Übersicht](artifacts.md).
 

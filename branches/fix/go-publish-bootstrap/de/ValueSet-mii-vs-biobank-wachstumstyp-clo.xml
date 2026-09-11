@@ -9,6 +9,13 @@
   <text>
     <status value="generated"/><div xml:lang="de" lang="de"><hr/><p><b>German</b></p><hr/><p class="res-header-id"><b>Generated Narrative: ValueSet mii-vs-biobank-wachstumstyp-clo</b></p><a name="de-mii-vs-biobank-wachstumstyp-clo"> </a><a name="de-hcmii-vs-biobank-wachstumstyp-clo"> </a><div style="display: inline-block; background-color: #d9e0e7; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%"><p style="margin-bottom: 0px"/><p style="margin-bottom: 0px">Profile: <a href="http://hl7.org/fhir/uv/crmi/STU2/StructureDefinition-shareablevalueset.html">Shareable ValueSet</a></p></div><ul><li>Include these codes as defined in <code>http://purl.obolibrary.org/obo/clo.owl</code><span title="Version is not explicitly stated. No matching Code System found"> version Not Stated (use latest from terminology server)</span><table class="none"><tr><td style="white-space:nowrap"><b>Code</b></td><td><b>Display</b></td></tr><tr><td>CLO:0000028</td><td>adherent cell culture growth mode</td></tr><tr><td>CLO:0000029</td><td>suspension cell culture growth mode</td></tr></table></li></ul></div>
   </text>
+  <extension url="http://hl7.org/fhir/StructureDefinition/artifact-versionAlgorithm">
+    <valueCoding>
+      <system value="http://hl7.org/fhir/version-algorithm"/>
+      <code value="semver"/>
+      <display value="SemVer"/>
+    </valueCoding>
+  </extension>
   <extension url="https://www.medizininformatik-initiative.de/fhir/modul-meta/StructureDefinition/mii-ex-meta-license-codeable">
     <valueCodeableConcept>
       <coding>
@@ -19,12 +26,12 @@
     </valueCodeableConcept>
   </extension>
   <url value="https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/mii-vs-biobank-wachstumstyp-clo"/>
-  <version value="2027.0.0-ballot.rc2"/>
+  <version value="2027.0.0-ballot"/>
   <name value="MII_VS_Biobank_Wachstumpstyp_CLO"/>
   <title value="MII VS Biobank Wachstumpstyp CLO"/>
   <status value="active"/>
   <experimental value="false"/>
-  <date value="2025-09-02"/>
+  <date value="2026-09-10"/>
   <publisher value="Medizininformatik Initiative"/>
   <contact>
     <name value="Medizininformatik Initiative"/>

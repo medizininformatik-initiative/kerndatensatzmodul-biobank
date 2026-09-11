@@ -1,4 +1,4 @@
-# MII VS Biobank Proliferation Zellinie - MII IG Kerndatensatz-Modul Biobank v2027.0.0-ballot.rc2
+# MII VS Biobank Proliferation Zellinie - MII IG Kerndatensatz-Modul Biobank v2027.0.0-ballot
 
 * [**Inhaltsverzeichnis**](toc.md)
 * [**Artefaktübersicht**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Offizielle URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/mii-vs-biobank-cellline-proliferation | *Version*:2027.0.0-ballot.rc2 |
-| Active Stand: 2025-09-02 | *Maschinenlesbarer Name*:MII_VS_Biobank_CellLine_Proliferation |
+| *Offizielle URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/mii-vs-biobank-cellline-proliferation | *Version*:2027.0.0-ballot |
+| Active Stand: 2026-09-10 | *Maschinenlesbarer Name*:MII_VS_Biobank_CellLine_Proliferation |
 | **Copyright/Rechtliches**: This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement | |
 
  
@@ -24,8 +24,6 @@ Value Set for Proliferation Status of Cell Lines/Organoids
  
 
 ### Expansion
-
-No Expansion for this valueset (Unsupported Code System Version)
 
 -------
 
@@ -43,6 +41,14 @@ No Expansion for this valueset (Unsupported Code System Version)
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/artifact-versionAlgorithm",
+    "valueCoding" : {
+      "system" : "http://hl7.org/fhir/version-algorithm",
+      "code" : "semver",
+      "display" : "SemVer"
+    }
+  },
+  {
     "url" : "https://www.medizininformatik-initiative.de/fhir/modul-meta/StructureDefinition/mii-ex-meta-license-codeable",
     "valueCodeableConcept" : {
       "coding" : [{
@@ -53,12 +59,12 @@ No Expansion for this valueset (Unsupported Code System Version)
     }
   }],
   "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/mii-vs-biobank-cellline-proliferation",
-  "version" : "2027.0.0-ballot.rc2",
+  "version" : "2027.0.0-ballot",
   "name" : "MII_VS_Biobank_CellLine_Proliferation",
   "title" : "MII VS Biobank Proliferation Zellinie",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-09-02",
+  "date" : "2026-09-10",
   "publisher" : "Medizininformatik Initiative",
   "contact" : [{
     "name" : "Medizininformatik Initiative",
@@ -94,6 +100,7 @@ No Expansion for this valueset (Unsupported Code System Version)
     },
     {
       "system" : "http://snomed.info/sct",
+      "version" : "http://snomed.info/sct/900000000000207008/version/20260701",
       "concept" : [{
         "code" : "75540009",
         "display" : "High (qualifier value)"

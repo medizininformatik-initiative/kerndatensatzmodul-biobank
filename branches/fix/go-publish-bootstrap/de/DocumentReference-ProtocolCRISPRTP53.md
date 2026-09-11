@@ -1,4 +1,4 @@
-# CRISPR TP53 Knockout Protokoll - MII IG Kerndatensatz-Modul Biobank v2027.0.0-ballot.rc2
+# CRISPR TP53 Knockout Protokoll - MII IG Kerndatensatz-Modul Biobank v2027.0.0-ballot
 
 * [**Inhaltsverzeichnis**](toc.md)
 * [**Artefaktübersicht**](artifacts.md)
@@ -25,7 +25,7 @@
 | | |
 | :--- | :--- |
 | - | **ContentType** |
-| * | application/pdf |
+| * | pdf |
 
 
 > **content**

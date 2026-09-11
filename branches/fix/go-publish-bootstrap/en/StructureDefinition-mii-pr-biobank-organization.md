@@ -1,4 +1,4 @@
-# MII PR Biobank Organization Sammlung Biobank - MII IG Kerndatensatz-Modul Biobank v2027.0.0-ballot.rc2
+# MII PR Biobank Organization Sammlung Biobank - MII IG Kerndatensatz-Modul Biobank v2027.0.0-ballot
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/Organization | *Version*:2027.0.0-ballot.rc2 |
-| Active as of 2025-09-02 | *Computable Name*:MII_PR_Biobank_Organization_Sammlung_Biobank |
+| *Official URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/Organization | *Version*:2027.0.0-ballot |
+| Active as of 2026-09-10 | *Computable Name*:MII_PR_Biobank_Organization_Sammlung_Biobank |
 
  
 Representation of the organizational data of a sample collection or biobank. 
@@ -48,6 +48,14 @@ Other representations of profile: [CSV](../StructureDefinition-mii-pr-biobank-or
   "resourceType" : "StructureDefinition",
   "id" : "mii-pr-biobank-organization",
   "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/artifact-versionAlgorithm",
+    "valueCoding" : {
+      "system" : "http://hl7.org/fhir/version-algorithm",
+      "code" : "semver",
+      "display" : "SemVer"
+    }
+  },
+  {
     "url" : "https://www.medizininformatik-initiative.de/fhir/modul-meta/StructureDefinition/mii-ex-meta-license-codeable",
     "valueCodeableConcept" : {
       "coding" : [{
@@ -58,7 +66,7 @@ Other representations of profile: [CSV](../StructureDefinition-mii-pr-biobank-or
     }
   }],
   "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/Organization",
-  "version" : "2027.0.0-ballot.rc2",
+  "version" : "2027.0.0-ballot",
   "name" : "MII_PR_Biobank_Organization_Sammlung_Biobank",
   "_name" : {
     "extension" : [{
@@ -99,7 +107,7 @@ Other representations of profile: [CSV](../StructureDefinition-mii-pr-biobank-or
     }]
   },
   "status" : "active",
-  "date" : "2025-09-02",
+  "date" : "2026-09-10",
   "publisher" : "Medizininformatik Initiative",
   "contact" : [{
     "name" : "Medizininformatik Initiative",
@@ -254,7 +262,7 @@ Other representations of profile: [CSV](../StructureDefinition-mii-pr-biobank-or
       "max" : "1",
       "type" : [{
         "code" : "Extension",
-        "profile" : ["https://fhir.bbmri-eric.eu/fhir/StructureDefinition/miabis-organization-description-extension"]
+        "profile" : ["https://fhir.bbmri-eric.eu/StructureDefinition/miabis-organization-description-extension"]
       }],
       "mustSupport" : true
     },
@@ -266,7 +274,7 @@ Other representations of profile: [CSV](../StructureDefinition-mii-pr-biobank-or
       "max" : "1",
       "type" : [{
         "code" : "Extension",
-        "profile" : ["https://fhir.bbmri-eric.eu/fhir/StructureDefinition/miabis-sample-collection-setting-extension"]
+        "profile" : ["https://fhir.bbmri-eric.eu/StructureDefinition/miabis-sample-collection-setting-extension"]
       }],
       "mustSupport" : true
     },
@@ -278,7 +286,7 @@ Other representations of profile: [CSV](../StructureDefinition-mii-pr-biobank-or
       "max" : "1",
       "type" : [{
         "code" : "Extension",
-        "profile" : ["https://fhir.bbmri-eric.eu/fhir/StructureDefinition/miabis-collection-design-extension"]
+        "profile" : ["https://fhir.bbmri-eric.eu/StructureDefinition/miabis-collection-design-extension"]
       }],
       "mustSupport" : true
     },

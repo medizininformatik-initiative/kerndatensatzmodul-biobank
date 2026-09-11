@@ -51,15 +51,15 @@ anonymous resourcescontained resources","",0,*,"","","","Resource {[]} {[]}
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","",,"open","DomainResource.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Organization.extension:beschreibung","Organization.extension","beschreibung","","",0,1,"Y","","","Extension {[CanonicalType[https://fhir.bbmri-eric.eu/fhir/StructureDefinition/miabis-organization-description-extension]]} {[]}
+"Organization.extension:beschreibung","Organization.extension","beschreibung","","",0,1,"Y","","","Extension {[CanonicalType[https://fhir.bbmri-eric.eu/StructureDefinition/miabis-organization-description-extension]]} {[]}
 ","","Description of the collection in English.","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Organization.extension:collectionSetting","Organization.extension","collectionSetting","","",0,1,"Y","","","Extension {[CanonicalType[https://fhir.bbmri-eric.eu/fhir/StructureDefinition/miabis-sample-collection-setting-extension]]} {[]}
-","Sample Collection Setting Extension","The context in which the sample collection was/is conducted.","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
+"Organization.extension:collectionSetting","Organization.extension","collectionSetting","","",0,1,"Y","","","Extension {[CanonicalType[https://fhir.bbmri-eric.eu/StructureDefinition/miabis-sample-collection-setting-extension]]} {[]}
+","Sample Collection Setting Extension","The context in which the Sample Collection was/is conducted.","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Organization.extension:collectionDesign","Organization.extension","collectionDesign","","",0,1,"Y","","","Extension {[CanonicalType[https://fhir.bbmri-eric.eu/fhir/StructureDefinition/miabis-collection-design-extension]]} {[]}
+"Organization.extension:collectionDesign","Organization.extension","collectionDesign","","",0,1,"Y","","","Extension {[CanonicalType[https://fhir.bbmri-eric.eu/StructureDefinition/miabis-collection-design-extension]]} {[]}
 ","Collection Design Extension","The overall design of the collection that explains how the collection was/is built up.","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"

@@ -1,4 +1,4 @@
-# Musterprobe Gewebe - MII IG Kerndatensatz-Modul Biobank v2027.0.0-ballot.rc2
+# Musterprobe Gewebe - MII IG Kerndatensatz-Modul Biobank v2027.0.0-ballot
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -93,7 +93,7 @@ Profile: [MII PR Biobank Specimen Bioprobe](StructureDefinition-mii-pr-biobank-s
       "display" : "Specimen from lung obtained by needle biopsy (specimen)"
     },
     {
-      "system" : "https://fhir.bbmri-eric.eu/fhir/CodeSystem/miabis-detailed-samply-type-cs",
+      "system" : "https://fhir.bbmri-eric.eu/CodeSystem/miabis-detailed-samply-type-cs",
       "code" : "TissueFreshFrozen",
       "display" : "Tissue (fresh frozen)"
     }]
@@ -150,10 +150,10 @@ Profile: [MII PR Biobank Specimen Bioprobe](StructureDefinition-mii-pr-biobank-s
       }
     },
     {
-      "url" : "https://fhir.bbmri-eric.eu/fhir/StructureDefinition/miabis-sample-storage-temperature-extension",
+      "url" : "https://fhir.bbmri-eric.eu/StructureDefinition/miabis-sample-storage-temperature-extension",
       "valueCodeableConcept" : {
         "coding" : [{
-          "system" : "https://fhir.bbmri-eric.eu/fhir/CodeSystem/miabis-storage-temperature-cs",
+          "system" : "https://fhir.bbmri-eric.eu/CodeSystem/miabis-storage-temperature-cs",
           "code" : "RT",
           "display" : "Room temperature"
         }]
@@ -190,10 +190,10 @@ Profile: [MII PR Biobank Specimen Bioprobe](StructureDefinition-mii-pr-biobank-s
       }
     },
     {
-      "url" : "https://fhir.bbmri-eric.eu/fhir/StructureDefinition/miabis-sample-storage-temperature-extension",
+      "url" : "https://fhir.bbmri-eric.eu/StructureDefinition/miabis-sample-storage-temperature-extension",
       "valueCodeableConcept" : {
         "coding" : [{
-          "system" : "https://fhir.bbmri-eric.eu/fhir/CodeSystem/miabis-storage-temperature-cs",
+          "system" : "https://fhir.bbmri-eric.eu/CodeSystem/miabis-storage-temperature-cs",
           "code" : "-60to-85",
           "display" : "between -60 and -85 degrees Celsius"
         }]

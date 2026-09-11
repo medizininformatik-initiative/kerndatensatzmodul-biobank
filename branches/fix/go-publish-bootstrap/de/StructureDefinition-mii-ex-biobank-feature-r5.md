@@ -1,4 +1,4 @@
-# MII EX Biobank Feature R5 - MII IG Kerndatensatz-Modul Biobank v2027.0.0-ballot.rc2
+# MII EX Biobank Feature R5 - MII IG Kerndatensatz-Modul Biobank v2027.0.0-ballot
 
 * [**Inhaltsverzeichnis**](toc.md)
 * [**Artefaktübersicht**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Offizielle URL*:http://hl7.org/fhir/5.0/StructureDefinition/extension-Specimen.feature | *Version*:2027.0.0-ballot.rc2 |
-| Active Stand: 2026-09-09 | *Maschinenlesbarer Name*:MII_EX_Biobank_Feature_R5 |
+| *Offizielle URL*:http://hl7.org/fhir/5.0/StructureDefinition/extension-Specimen.feature | *Version*:2027.0.0-ballot |
+| Active Stand: 2026-09-11 | *Maschinenlesbarer Name*:MII_EX_Biobank_Feature_R5 |
 
 Die Extension ermöglicht es im Specimen das feature aus R5 zu nutzen.
 
@@ -20,6 +20,7 @@ Die Extension ermöglicht es im Specimen das feature aus R5 zu nutzen.
 **Usages:**
 
 * Use this Extension: [MII PR Biobank Specimen Bioprobe Core](StructureDefinition-mii-pr-biobank-specimen-core.md) and [Cross-version Profile for R5.Specimen for use in FHIR R4](http://hl7.org/fhir/uv/xver-r5.r4/0.1.0/StructureDefinition-profile-Specimen.html)
+* Search Parameters using this Extension: [MII_SP_Biobank_Specimen_Feature](SearchParameter-mii-sp-biobank-specimen-feature.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/resource/de.medizininformatikinitiative.kerndatensatz.biobank|current/StructureDefinition/StructureDefinition-mii-ex-biobank-feature-r5.json)
 
@@ -77,12 +78,12 @@ Weitere Repräsentationen des Profils: [CSV](../StructureDefinition-mii-ex-bioba
   "resourceType" : "StructureDefinition",
   "id" : "mii-ex-biobank-feature-r5",
   "url" : "http://hl7.org/fhir/5.0/StructureDefinition/extension-Specimen.feature",
-  "version" : "2027.0.0-ballot.rc2",
+  "version" : "2027.0.0-ballot",
   "name" : "MII_EX_Biobank_Feature_R5",
   "title" : "MII EX Biobank Feature R5",
   "status" : "active",
   "experimental" : false,
-  "date" : "2026-09-09T13:48:19+00:00",
+  "date" : "2026-09-11T10:07:49+00:00",
   "publisher" : "Medizininformatik Initiative",
   "contact" : [{
     "name" : "Medizininformatik Initiative",

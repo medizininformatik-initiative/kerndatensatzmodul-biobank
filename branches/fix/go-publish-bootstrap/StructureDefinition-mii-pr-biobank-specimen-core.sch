@@ -120,10 +120,8 @@
   <sch:pattern>
     <sch:title>f:Specimen/f:processing</sch:title>
     <sch:rule context="f:Specimen/f:processing">
-      <sch:assert test="count(f:extension[@url = 'https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/Temperaturbedingungen']) &gt;= 1">extension with URL = 'https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/Temperaturbedingungen': minimum cardinality of 'extension' is 1</sch:assert>
       <sch:assert test="count(f:extension[@url = 'https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/Temperaturbedingungen']) &lt;= 1">extension with URL = 'https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/Temperaturbedingungen': maximum cardinality of 'extension' is 1</sch:assert>
       <sch:assert test="count(f:procedure) &gt;= 1">procedure: minimum cardinality of 'procedure' is 1</sch:assert>
-      <sch:assert test="count(f:extension[@url = 'https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/Temperaturbedingungen']) &gt;= 1">extension with URL = 'https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/Temperaturbedingungen': minimum cardinality of 'extension' is 1</sch:assert>
       <sch:assert test="count(f:extension[@url = 'https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/Temperaturbedingungen']) &lt;= 1">extension with URL = 'https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/Temperaturbedingungen': maximum cardinality of 'extension' is 1</sch:assert>
       <sch:assert test="count(f:procedure) &gt;= 1">procedure: minimum cardinality of 'procedure' is 1</sch:assert>
     </sch:rule>

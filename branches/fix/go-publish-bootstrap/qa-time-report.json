@@ -1,450 +1,480 @@
 {
-  "date" : "Wed, 09 Sep, 2026 13:48:19 +0000",
+  "date" : "Fri, 11 Sep, 2026 10:07:49 +0000",
   "doco" : "For each file: start is seconds after start activity occurred. Length = milliseconds activity took",
   "files" : [{
-    "name" : "/fsh-generated/resources/ImplementationGuide-mii-ig-biobank-de-v2026.json",
-    "size" : 32857,
+    "name" : "/fsh-generated/resources/ImplementationGuide-mii-ig-biobank.json",
+    "size" : 33764,
     "processes" : [{
       "activity" : "load",
-      "start" : 71,
-      "length" : 141
+      "start" : 72,
+      "length" : 274
     },
     {
       "activity" : "checkR4R4B",
-      "start" : 73,
-      "length" : 18
+      "start" : 76,
+      "length" : 23
     },
     {
       "activity" : "generateNarratives",
-      "start" : 73,
-      "length" : 90
+      "start" : 76,
+      "length" : 272
     },
     {
       "activity" : "validate",
-      "start" : 90,
-      "length" : 4929
+      "start" : 179,
+      "length" : 12536
     },
     {
       "activity" : "scanForUsageStats",
-      "start" : 95,
+      "start" : 192,
       "length" : 1
     },
     {
       "activity" : "validate",
-      "start" : 95,
+      "start" : 192,
       "length" : 1
     },
     {
       "activity" : "translate",
-      "start" : 98,
-      "length" : 24
+      "start" : 396,
+      "length" : 29
     },
     {
       "activity" : "generate1",
-      "start" : 99,
-      "length" : 199
+      "start" : 396,
+      "length" : 215
     },
     {
       "activity" : "generate2",
-      "start" : 108,
-      "length" : 279
+      "start" : 413,
+      "length" : 685
     },
     {
       "activity" : "generateValidationPack",
-      "start" : 149,
-      "length" : 6
+      "start" : 541,
+      "length" : 5
     },
     {
       "activity" : "scanExamplesForR5",
-      "start" : 185,
-      "length" : 4
+      "start" : 593,
+      "length" : 6
     }]
   },
   {
     "name" : "fsh-generated/resources/CapabilityStatement-mii-cps-biobank-capabilitystatement.json",
-    "size" : 36274,
+    "size" : 37905,
     "processes" : [{
       "activity" : "loadResources",
-      "start" : 70,
-      "length" : 5
+      "start" : 72,
+      "length" : 7
     },
     {
       "activity" : "load",
-      "start" : 71,
-      "length" : 50
+      "start" : 72,
+      "length" : 103
     },
     {
       "activity" : "load-configure",
-      "start" : 73,
+      "start" : 76,
+      "length" : 1
+    },
+    {
+      "activity" : "loadDepInfo",
+      "start" : 76,
       "length" : 1
     },
     {
       "activity" : "checkR4R4B",
-      "start" : 73,
-      "length" : 4
+      "start" : 76,
+      "length" : 6
     },
     {
       "activity" : "generateNarratives",
-      "start" : 73,
-      "length" : 382
+      "start" : 76,
+      "length" : 645
     },
     {
       "activity" : "validate",
-      "start" : 88,
-      "length" : 2001
+      "start" : 162,
+      "length" : 17275
     },
     {
-      "activity" : "translate",
-      "start" : 98,
-      "length" : 14
-    },
-    {
-      "activity" : "generate1",
-      "start" : 99,
-      "length" : 102
-    },
-    {
-      "activity" : "generate2",
-      "start" : 109,
-      "length" : 92
-    },
-    {
-      "activity" : "makeDependencies",
-      "start" : 130,
+      "activity" : "scanForUsageStats",
+      "start" : 192,
       "length" : 1
     },
     {
+      "activity" : "validate",
+      "start" : 192,
+      "length" : 1
+    },
+    {
+      "activity" : "translate",
+      "start" : 396,
+      "length" : 7
+    },
+    {
+      "activity" : "generate1",
+      "start" : 397,
+      "length" : 125
+    },
+    {
+      "activity" : "generate2",
+      "start" : 413,
+      "length" : 246
+    },
+    {
       "activity" : "generateValidationPack",
-      "start" : 149,
-      "length" : 3
+      "start" : 541,
+      "length" : 2
     },
     {
       "activity" : "scanExamplesForR5",
-      "start" : 185,
+      "start" : 593,
       "length" : 2
     }]
   },
   {
     "name" : "fsh-generated/resources/CodeSystem-mii-cs-biobank-contact-type.json",
-    "size" : 2487,
+    "size" : 2722,
     "processes" : [{
       "activity" : "loadResources",
-      "start" : 70,
+      "start" : 72,
       "length" : 2
     },
     {
       "activity" : "load",
-      "start" : 71,
-      "length" : 7
-    },
-    {
-      "activity" : "generateNarratives",
-      "start" : 74,
+      "start" : 72,
       "length" : 9
     },
     {
-      "activity" : "validate",
-      "start" : 79,
-      "length" : 392
-    },
-    {
-      "activity" : "validate",
-      "start" : 95,
+      "activity" : "checkR4R4B",
+      "start" : 76,
       "length" : 1
-    },
-    {
-      "activity" : "translate",
-      "start" : 98,
-      "length" : 11
-    },
-    {
-      "activity" : "generate1",
-      "start" : 99,
-      "length" : 16
-    },
-    {
-      "activity" : "generate2",
-      "start" : 109,
-      "length" : 80
-    }]
-  },
-  {
-    "name" : "fsh-generated/resources/CodeSystem-mii-cs-biobank-probenebene.json",
-    "size" : 2964,
-    "processes" : [{
-      "activity" : "loadResources",
-      "start" : 70,
-      "length" : 1
-    },
-    {
-      "activity" : "load",
-      "start" : 71,
-      "length" : 5
     },
     {
       "activity" : "generateNarratives",
-      "start" : 74,
-      "length" : 5
+      "start" : 77,
+      "length" : 10
     },
     {
       "activity" : "validate",
-      "start" : 80,
-      "length" : 40
+      "start" : 103,
+      "length" : 1832
     },
     {
       "activity" : "translate",
-      "start" : 98,
-      "length" : 8
+      "start" : 396,
+      "length" : 6
     },
     {
       "activity" : "generate1",
-      "start" : 99,
+      "start" : 397,
       "length" : 15
     },
     {
       "activity" : "generate2",
-      "start" : 109,
-      "length" : 87
+      "start" : 414,
+      "length" : 166
     },
     {
       "activity" : "generateValidationPack",
-      "start" : 149,
+      "start" : 541,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/CodeSystem-mii-cs-biobank-probenebene.json",
+    "size" : 3199,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 72,
+      "length" : 2
+    },
+    {
+      "activity" : "load",
+      "start" : 72,
+      "length" : 6
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 77,
+      "length" : 9
+    },
+    {
+      "activity" : "validate",
+      "start" : 105,
+      "length" : 730
+    },
+    {
+      "activity" : "checkConformanceResources",
+      "start" : 192,
+      "length" : 1
+    },
+    {
+      "activity" : "validate",
+      "start" : 192,
+      "length" : 1
+    },
+    {
+      "activity" : "translate",
+      "start" : 396,
+      "length" : 4
+    },
+    {
+      "activity" : "generate1",
+      "start" : 397,
+      "length" : 18
+    },
+    {
+      "activity" : "generate2",
+      "start" : 414,
+      "length" : 188
+    },
+    {
+      "activity" : "scanExamplesForR5",
+      "start" : 593,
       "length" : 1
     }]
   },
   {
     "name" : "fsh-generated/resources/ConceptMap-mii-cm-biobank-fixation-type-sprec-sct.json",
-    "size" : 3362,
+    "size" : 3597,
     "processes" : [{
       "activity" : "loadResources",
-      "start" : 70,
-      "length" : 1
-    },
-    {
-      "activity" : "load",
-      "start" : 71,
-      "length" : 7
-    },
-    {
-      "activity" : "load",
-      "start" : 71,
-      "length" : 8
-    },
-    {
-      "activity" : "checkR4R4B",
-      "start" : 73,
-      "length" : 1
-    },
-    {
-      "activity" : "generateNarratives",
-      "start" : 74,
-      "length" : 15
-    },
-    {
-      "activity" : "validate",
-      "start" : 81,
-      "length" : 19
-    },
-    {
-      "activity" : "scanForUsageStats",
-      "start" : 95,
-      "length" : 1
-    },
-    {
-      "activity" : "validate",
-      "start" : 95,
-      "length" : 1
-    },
-    {
-      "activity" : "translate",
-      "start" : 98,
-      "length" : 6
-    },
-    {
-      "activity" : "generate1",
-      "start" : 99,
-      "length" : 16
-    },
-    {
-      "activity" : "generate2",
-      "start" : 109,
-      "length" : 65
-    }]
-  },
-  {
-    "name" : "fsh-generated/resources/ConceptMap-mii-cm-biobank-long-term-storage-sprec-sct.json",
-    "size" : 9666,
-    "processes" : [{
-      "activity" : "loadResources",
-      "start" : 70,
+      "start" : 72,
       "length" : 2
     },
     {
       "activity" : "load",
-      "start" : 71,
+      "start" : 72,
       "length" : 8
     },
     {
       "activity" : "load",
-      "start" : 71,
+      "start" : 72,
       "length" : 9
-    },
-    {
-      "activity" : "generateNarratives",
-      "start" : 74,
-      "length" : 11
-    },
-    {
-      "activity" : "validate",
-      "start" : 81,
-      "length" : 23
-    },
-    {
-      "activity" : "translate",
-      "start" : 98,
-      "length" : 7
-    },
-    {
-      "activity" : "generate1",
-      "start" : 99,
-      "length" : 38
-    },
-    {
-      "activity" : "generate2",
-      "start" : 109,
-      "length" : 69
-    },
-    {
-      "activity" : "generateValidationPack",
-      "start" : 149,
-      "length" : 1
-    }]
-  },
-  {
-    "name" : "fsh-generated/resources/ConceptMap-mii-cm-biobank-primary-container-sprec-sct.json",
-    "size" : 19984,
-    "processes" : [{
-      "activity" : "loadResources",
-      "start" : 70,
-      "length" : 3
-    },
-    {
-      "activity" : "load",
-      "start" : 71,
-      "length" : 9
-    },
-    {
-      "activity" : "load",
-      "start" : 71,
-      "length" : 7
     },
     {
       "activity" : "checkR4R4B",
-      "start" : 73,
-      "length" : 2
-    },
-    {
-      "activity" : "generateNarratives",
-      "start" : 74,
-      "length" : 18
-    },
-    {
-      "activity" : "validate",
-      "start" : 81,
-      "length" : 27
-    },
-    {
-      "activity" : "validate",
-      "start" : 95,
-      "length" : 1
-    },
-    {
-      "activity" : "translate",
-      "start" : 98,
-      "length" : 10
-    },
-    {
-      "activity" : "generate1",
-      "start" : 99,
-      "length" : 62
-    },
-    {
-      "activity" : "generate2",
-      "start" : 109,
-      "length" : 74
-    },
-    {
-      "activity" : "generateValidationPack",
-      "start" : 149,
-      "length" : 2
-    }]
-  },
-  {
-    "name" : "fsh-generated/resources/ConceptMap-mii-cm-biobank-sample-type-sprec-sct.json",
-    "size" : 12248,
-    "processes" : [{
-      "activity" : "loadResources",
-      "start" : 70,
-      "length" : 2
-    },
-    {
-      "activity" : "load",
-      "start" : 71,
-      "length" : 9
-    },
-    {
-      "activity" : "load",
-      "start" : 71,
-      "length" : 8
-    },
-    {
-      "activity" : "scan",
-      "start" : 73,
-      "length" : 1
-    },
-    {
-      "activity" : "checkR4R4B",
-      "start" : 73,
+      "start" : 76,
       "length" : 1
     },
     {
       "activity" : "generateNarratives",
-      "start" : 74,
+      "start" : 77,
       "length" : 13
     },
     {
       "activity" : "validate",
-      "start" : 81,
-      "length" : 31
+      "start" : 126,
+      "length" : 693
+    },
+    {
+      "activity" : "translate",
+      "start" : 396,
+      "length" : 4
+    },
+    {
+      "activity" : "generate1",
+      "start" : 397,
+      "length" : 21
+    },
+    {
+      "activity" : "generate2",
+      "start" : 414,
+      "length" : 92
+    },
+    {
+      "activity" : "generateLogicals",
+      "start" : 491,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ConceptMap-mii-cm-biobank-long-term-storage-sprec-sct.json",
+    "size" : 9901,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 72,
+      "length" : 2
+    },
+    {
+      "activity" : "load",
+      "start" : 72,
+      "length" : 11
+    },
+    {
+      "activity" : "load",
+      "start" : 72,
+      "length" : 10
+    },
+    {
+      "activity" : "checkR4R4B",
+      "start" : 76,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 77,
+      "length" : 15
     },
     {
       "activity" : "validate",
-      "start" : 90,
+      "start" : 127,
+      "length" : 683
+    },
+    {
+      "activity" : "validate",
+      "start" : 179,
+      "length" : 1
+    },
+    {
+      "activity" : "validate",
+      "start" : 192,
       "length" : 1
     },
     {
       "activity" : "translate",
-      "start" : 98,
-      "length" : 10
+      "start" : 396,
+      "length" : 5
     },
     {
       "activity" : "generate1",
-      "start" : 99,
-      "length" : 50
+      "start" : 397,
+      "length" : 45
     },
     {
       "activity" : "generate2",
-      "start" : 109,
-      "length" : 88
+      "start" : 414,
+      "length" : 101
     },
     {
       "activity" : "generateValidationPack",
-      "start" : 149,
+      "start" : 541,
+      "length" : 2
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ConceptMap-mii-cm-biobank-primary-container-sprec-sct.json",
+    "size" : 20219,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 72,
+      "length" : 4
+    },
+    {
+      "activity" : "load",
+      "start" : 72,
+      "length" : 14
+    },
+    {
+      "activity" : "load",
+      "start" : 72,
+      "length" : 11
+    },
+    {
+      "activity" : "checkR4R4B",
+      "start" : 76,
+      "length" : 2
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 77,
+      "length" : 23
+    },
+    {
+      "activity" : "validate",
+      "start" : 128,
+      "length" : 669
+    },
+    {
+      "activity" : "validate",
+      "start" : 192,
+      "length" : 1
+    },
+    {
+      "activity" : "translate",
+      "start" : 396,
+      "length" : 6
+    },
+    {
+      "activity" : "generate1",
+      "start" : 397,
+      "length" : 65
+    },
+    {
+      "activity" : "generate2",
+      "start" : 414,
+      "length" : 113
+    },
+    {
+      "activity" : "makeDependencies",
+      "start" : 491,
+      "length" : 1
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 541,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ConceptMap-mii-cm-biobank-sample-type-sprec-sct.json",
+    "size" : 12483,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 72,
+      "length" : 3
+    },
+    {
+      "activity" : "load",
+      "start" : 72,
+      "length" : 12
+    },
+    {
+      "activity" : "load",
+      "start" : 72,
+      "length" : 14
+    },
+    {
+      "activity" : "checkR4R4B",
+      "start" : 76,
+      "length" : 2
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 77,
+      "length" : 15
+    },
+    {
+      "activity" : "validate",
+      "start" : 128,
+      "length" : 691
+    },
+    {
+      "activity" : "translate",
+      "start" : 396,
+      "length" : 7
+    },
+    {
+      "activity" : "generate1",
+      "start" : 397,
+      "length" : 60
+    },
+    {
+      "activity" : "generate2",
+      "start" : 414,
+      "length" : 116
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 541,
       "length" : 1
     },
     {
       "activity" : "scanExamplesForR5",
-      "start" : 185,
+      "start" : 593,
       "length" : 1
     }]
   },
@@ -453,42 +483,47 @@
     "size" : 460,
     "processes" : [{
       "activity" : "loadResources",
-      "start" : 70,
+      "start" : 72,
       "length" : 2
     },
     {
       "activity" : "load-configure",
-      "start" : 73,
+      "start" : 76,
       "length" : 1
     },
     {
       "activity" : "generateNarratives",
-      "start" : 74,
-      "length" : 169
+      "start" : 77,
+      "length" : 1065
     },
     {
       "activity" : "validate",
-      "start" : 95,
-      "length" : 79
+      "start" : 192,
+      "length" : 1000
     },
     {
       "activity" : "translate",
-      "start" : 98,
-      "length" : 8
+      "start" : 396,
+      "length" : 5
     },
     {
       "activity" : "generate1",
-      "start" : 99,
+      "start" : 397,
       "length" : 8
     },
     {
       "activity" : "generate2",
-      "start" : 109,
-      "length" : 13
+      "start" : 414,
+      "length" : 17
     },
     {
       "activity" : "generateExampleZip",
-      "start" : 148,
+      "start" : 539,
+      "length" : 1
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 541,
       "length" : 1
     }]
   },
@@ -497,33 +532,33 @@
     "size" : 541,
     "processes" : [{
       "activity" : "loadResources",
-      "start" : 70,
+      "start" : 72,
       "length" : 1
     },
     {
       "activity" : "generateNarratives",
-      "start" : 74,
-      "length" : 9
-    },
-    {
-      "activity" : "validate",
-      "start" : 95,
+      "start" : 78,
       "length" : 6
     },
     {
+      "activity" : "validate",
+      "start" : 193,
+      "length" : 3
+    },
+    {
       "activity" : "translate",
-      "start" : 98,
-      "length" : 7
+      "start" : 396,
+      "length" : 5
     },
     {
       "activity" : "generate1",
-      "start" : 99,
-      "length" : 8
+      "start" : 397,
+      "length" : 10
     },
     {
       "activity" : "generate2",
-      "start" : 109,
-      "length" : 7
+      "start" : 414,
+      "length" : 11
     }]
   },
   {
@@ -531,33 +566,33 @@
     "size" : 711,
     "processes" : [{
       "activity" : "loadResources",
-      "start" : 70,
+      "start" : 72,
       "length" : 2
     },
     {
       "activity" : "generateNarratives",
-      "start" : 74,
-      "length" : 183
+      "start" : 78,
+      "length" : 1043
     },
     {
       "activity" : "validate",
-      "start" : 95,
-      "length" : 42
+      "start" : 193,
+      "length" : 979
     },
     {
       "activity" : "translate",
-      "start" : 98,
-      "length" : 6
+      "start" : 396,
+      "length" : 5
     },
     {
       "activity" : "generate1",
-      "start" : 99,
+      "start" : 397,
       "length" : 10
     },
     {
       "activity" : "generate2",
-      "start" : 109,
-      "length" : 54
+      "start" : 414,
+      "length" : 32
     }]
   },
   {
@@ -565,38 +600,33 @@
     "size" : 745,
     "processes" : [{
       "activity" : "loadResources",
-      "start" : 70,
-      "length" : 1
-    },
-    {
-      "activity" : "checkR4R4B",
-      "start" : 73,
+      "start" : 72,
       "length" : 1
     },
     {
       "activity" : "generateNarratives",
-      "start" : 74,
-      "length" : 4
+      "start" : 79,
+      "length" : 5
     },
     {
       "activity" : "validate",
-      "start" : 95,
-      "length" : 39
+      "start" : 194,
+      "length" : 511
     },
     {
       "activity" : "translate",
-      "start" : 98,
-      "length" : 6
+      "start" : 396,
+      "length" : 5
     },
     {
       "activity" : "generate1",
-      "start" : 99,
-      "length" : 8
+      "start" : 397,
+      "length" : 9
     },
     {
       "activity" : "generate2",
-      "start" : 109,
-      "length" : 16
+      "start" : 414,
+      "length" : 19
     }]
   },
   {
@@ -604,33 +634,38 @@
     "size" : 795,
     "processes" : [{
       "activity" : "loadResources",
-      "start" : 70,
+      "start" : 72,
+      "length" : 2
+    },
+    {
+      "activity" : "checkR4R4B",
+      "start" : 76,
       "length" : 1
     },
     {
       "activity" : "generateNarratives",
-      "start" : 74,
-      "length" : 3
+      "start" : 79,
+      "length" : 4
     },
     {
       "activity" : "validate",
-      "start" : 95,
-      "length" : 38
+      "start" : 194,
+      "length" : 493
     },
     {
       "activity" : "translate",
-      "start" : 98,
-      "length" : 6
+      "start" : 396,
+      "length" : 5
     },
     {
       "activity" : "generate1",
-      "start" : 99,
-      "length" : 7
+      "start" : 397,
+      "length" : 10
     },
     {
       "activity" : "generate2",
-      "start" : 109,
-      "length" : 12
+      "start" : 414,
+      "length" : 22
     }]
   },
   {
@@ -638,33 +673,33 @@
     "size" : 784,
     "processes" : [{
       "activity" : "loadResources",
-      "start" : 70,
+      "start" : 72,
       "length" : 1
     },
     {
       "activity" : "generateNarratives",
-      "start" : 74,
-      "length" : 3
+      "start" : 79,
+      "length" : 5
     },
     {
       "activity" : "validate",
-      "start" : 95,
-      "length" : 13
+      "start" : 195,
+      "length" : 1276
     },
     {
       "activity" : "translate",
-      "start" : 98,
+      "start" : 396,
       "length" : 4
     },
     {
       "activity" : "generate1",
-      "start" : 99,
-      "length" : 8
+      "start" : 397,
+      "length" : 19
     },
     {
       "activity" : "generate2",
-      "start" : 109,
-      "length" : 14
+      "start" : 414,
+      "length" : 25
     }]
   },
   {
@@ -672,33 +707,33 @@
     "size" : 1500,
     "processes" : [{
       "activity" : "loadResources",
-      "start" : 70,
-      "length" : 1
+      "start" : 72,
+      "length" : 2
     },
     {
       "activity" : "generateNarratives",
-      "start" : 74,
-      "length" : 3
-    },
-    {
-      "activity" : "validate",
-      "start" : 95,
-      "length" : 116
-    },
-    {
-      "activity" : "translate",
-      "start" : 98,
+      "start" : 79,
       "length" : 4
     },
     {
+      "activity" : "validate",
+      "start" : 196,
+      "length" : 1505
+    },
+    {
+      "activity" : "translate",
+      "start" : 396,
+      "length" : 5
+    },
+    {
       "activity" : "generate1",
-      "start" : 99,
-      "length" : 8
+      "start" : 397,
+      "length" : 13
     },
     {
       "activity" : "generate2",
-      "start" : 109,
-      "length" : 17
+      "start" : 414,
+      "length" : 29
     }]
   },
   {
@@ -706,33 +741,33 @@
     "size" : 1455,
     "processes" : [{
       "activity" : "loadResources",
-      "start" : 70,
+      "start" : 72,
       "length" : 2
     },
     {
       "activity" : "generateNarratives",
-      "start" : 74,
-      "length" : 73
+      "start" : 79,
+      "length" : 963
     },
     {
       "activity" : "validate",
-      "start" : 95,
-      "length" : 36
+      "start" : 197,
+      "length" : 1504
     },
     {
       "activity" : "translate",
-      "start" : 98,
-      "length" : 3
+      "start" : 396,
+      "length" : 4
     },
     {
       "activity" : "generate1",
-      "start" : 99,
-      "length" : 9
+      "start" : 397,
+      "length" : 13
     },
     {
       "activity" : "generate2",
-      "start" : 109,
-      "length" : 17
+      "start" : 414,
+      "length" : 28
     }]
   },
   {
@@ -740,100 +775,262 @@
     "size" : 804,
     "processes" : [{
       "activity" : "loadResources",
-      "start" : 70,
+      "start" : 72,
       "length" : 1
     },
     {
       "activity" : "generateNarratives",
-      "start" : 74,
+      "start" : 80,
       "length" : 3
     },
     {
       "activity" : "validate",
-      "start" : 95,
-      "length" : 9
+      "start" : 199,
+      "length" : 1008
     },
     {
       "activity" : "translate",
-      "start" : 98,
-      "length" : 2
+      "start" : 396,
+      "length" : 4
     },
     {
       "activity" : "generate1",
-      "start" : 99,
-      "length" : 6
+      "start" : 397,
+      "length" : 9
     },
     {
       "activity" : "generate2",
-      "start" : 109,
-      "length" : 14
+      "start" : 415,
+      "length" : 21
     }]
   },
   {
     "name" : "fsh-generated/resources/Organization-BiobankMusterstadt.json",
-    "size" : 1457,
+    "size" : 1452,
     "processes" : [{
       "activity" : "loadResources",
-      "start" : 70,
+      "start" : 72,
+      "length" : 2
+    },
+    {
+      "activity" : "checkR4R4B",
+      "start" : 76,
       "length" : 1
     },
     {
       "activity" : "generateNarratives",
-      "start" : 74,
+      "start" : 80,
       "length" : 3
     },
     {
       "activity" : "validate",
-      "start" : 95,
-      "length" : 7
+      "start" : 200,
+      "length" : 12
     },
     {
       "activity" : "translate",
-      "start" : 98,
-      "length" : 2
+      "start" : 396,
+      "length" : 5
     },
     {
       "activity" : "generate1",
-      "start" : 99,
-      "length" : 8
+      "start" : 397,
+      "length" : 11
     },
     {
       "activity" : "generate2",
-      "start" : 109,
-      "length" : 13
+      "start" : 415,
+      "length" : 17
     }]
   },
   {
     "name" : "fsh-generated/resources/Organization-Mustersammlung.json",
-    "size" : 2250,
+    "size" : 2225,
     "processes" : [{
       "activity" : "loadResources",
-      "start" : 70,
+      "start" : 72,
       "length" : 2
     },
     {
       "activity" : "generateNarratives",
-      "start" : 74,
+      "start" : 80,
+      "length" : 2
+    },
+    {
+      "activity" : "validate",
+      "start" : 200,
+      "length" : 11
+    },
+    {
+      "activity" : "translate",
+      "start" : 396,
+      "length" : 5
+    },
+    {
+      "activity" : "generate1",
+      "start" : 397,
+      "length" : 14
+    },
+    {
+      "activity" : "generate2",
+      "start" : 415,
+      "length" : 31
+    },
+    {
+      "activity" : "generateExampleZip",
+      "start" : 539,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/SearchParameter-mii-sp-biobank-infektiositaetsstatus.json",
+    "size" : 2669,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 72,
+      "length" : 2
+    },
+    {
+      "activity" : "load",
+      "start" : 72,
+      "length" : 16
+    },
+    {
+      "activity" : "load",
+      "start" : 73,
+      "length" : 5
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 80,
+      "length" : 5
+    },
+    {
+      "activity" : "validate",
+      "start" : 160,
+      "length" : 651
+    },
+    {
+      "activity" : "translate",
+      "start" : 396,
+      "length" : 4
+    },
+    {
+      "activity" : "generate1",
+      "start" : 397,
+      "length" : 16
+    },
+    {
+      "activity" : "generate2",
+      "start" : 415,
+      "length" : 18
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/SearchParameter-mii-sp-biobank-specimen-feature.json",
+    "size" : 2617,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 72,
+      "length" : 2
+    },
+    {
+      "activity" : "load",
+      "start" : 72,
+      "length" : 6
+    },
+    {
+      "activity" : "load",
+      "start" : 73,
+      "length" : 4
+    },
+    {
+      "activity" : "checkR4R4B",
+      "start" : 76,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 80,
+      "length" : 4
+    },
+    {
+      "activity" : "validate",
+      "start" : 160,
+      "length" : 665
+    },
+    {
+      "activity" : "validate",
+      "start" : 200,
+      "length" : 1
+    },
+    {
+      "activity" : "translate",
+      "start" : 396,
+      "length" : 5
+    },
+    {
+      "activity" : "generate1",
+      "start" : 397,
+      "length" : 15
+    },
+    {
+      "activity" : "generate2",
+      "start" : 415,
+      "length" : 19
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/SearchParameter-mii-sp-biobank-specimen-focus.json",
+    "size" : 2590,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 72,
+      "length" : 2
+    },
+    {
+      "activity" : "load",
+      "start" : 72,
+      "length" : 4
+    },
+    {
+      "activity" : "load",
+      "start" : 73,
+      "length" : 3
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 80,
       "length" : 3
     },
     {
       "activity" : "validate",
-      "start" : 95,
-      "length" : 7
+      "start" : 161,
+      "length" : 673
+    },
+    {
+      "activity" : "validate",
+      "start" : 192,
+      "length" : 1
+    },
+    {
+      "activity" : "validate",
+      "start" : 200,
+      "length" : 1
     },
     {
       "activity" : "translate",
-      "start" : 98,
-      "length" : 3
+      "start" : 396,
+      "length" : 4
     },
     {
       "activity" : "generate1",
-      "start" : 99,
-      "length" : 9
+      "start" : 397,
+      "length" : 15
     },
     {
       "activity" : "generate2",
-      "start" : 109,
+      "start" : 415,
       "length" : 17
     }]
   },
@@ -842,684 +1039,704 @@
     "size" : 524,
     "processes" : [{
       "activity" : "loadResources",
-      "start" : 70,
-      "length" : 1
+      "start" : 72,
+      "length" : 2
     },
     {
       "activity" : "generateNarratives",
-      "start" : 74,
+      "start" : 80,
       "length" : 4
     },
     {
       "activity" : "validate",
-      "start" : 95,
-      "length" : 34
+      "start" : 200,
+      "length" : 495
     },
     {
       "activity" : "translate",
-      "start" : 98,
-      "length" : 2
-    },
-    {
-      "activity" : "generate1",
-      "start" : 99,
+      "start" : 396,
       "length" : 5
     },
     {
+      "activity" : "generate1",
+      "start" : 397,
+      "length" : 8
+    },
+    {
       "activity" : "generate2",
-      "start" : 109,
-      "length" : 18
+      "start" : 415,
+      "length" : 33
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 541,
+      "length" : 1
     }]
   },
   {
     "name" : "fsh-generated/resources/Specimen-AliquotBuffyCoat1.json",
-    "size" : 3138,
+    "size" : 3123,
     "processes" : [{
       "activity" : "loadResources",
-      "start" : 70,
-      "length" : 2
-    },
-    {
-      "activity" : "generateNarratives",
-      "start" : 74,
-      "length" : 75
-    },
-    {
-      "activity" : "validate",
-      "start" : 95,
-      "length" : 205
-    },
-    {
-      "activity" : "translate",
-      "start" : 98,
+      "start" : 72,
       "length" : 3
     },
     {
+      "activity" : "checkR4R4B",
+      "start" : 76,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 80,
+      "length" : 2074
+    },
+    {
+      "activity" : "validate",
+      "start" : 200,
+      "length" : 17009
+    },
+    {
+      "activity" : "translate",
+      "start" : 396,
+      "length" : 4
+    },
+    {
       "activity" : "generate1",
-      "start" : 99,
-      "length" : 11
+      "start" : 397,
+      "length" : 18
     },
     {
       "activity" : "generate2",
-      "start" : 109,
-      "length" : 31
+      "start" : 415,
+      "length" : 43
     }]
   },
   {
     "name" : "fsh-generated/resources/Specimen-AliquotBuffyCoat2.json",
-    "size" : 5820,
+    "size" : 5785,
     "processes" : [{
       "activity" : "loadResources",
-      "start" : 70,
-      "length" : 2
+      "start" : 72,
+      "length" : 4
     },
     {
       "activity" : "checkR4R4B",
-      "start" : 73,
+      "start" : 76,
       "length" : 1
     },
     {
       "activity" : "generateNarratives",
-      "start" : 74,
-      "length" : 9
+      "start" : 82,
+      "length" : 1943
     },
     {
       "activity" : "validate",
-      "start" : 95,
-      "length" : 215
+      "start" : 217,
+      "length" : 36674
     },
     {
       "activity" : "translate",
-      "start" : 98,
-      "length" : 3
+      "start" : 396,
+      "length" : 5
     },
     {
       "activity" : "generate1",
-      "start" : 99,
-      "length" : 16
+      "start" : 397,
+      "length" : 24
     },
     {
       "activity" : "generate2",
-      "start" : 110,
-      "length" : 24
+      "start" : 415,
+      "length" : 35
     }]
   },
   {
     "name" : "fsh-generated/resources/Specimen-AliquotgruppeBuffyCoat.json",
-    "size" : 4756,
+    "size" : 4731,
     "processes" : [{
       "activity" : "loadResources",
-      "start" : 70,
-      "length" : 2
+      "start" : 72,
+      "length" : 4
     },
     {
       "activity" : "generateNarratives",
-      "start" : 74,
-      "length" : 6
-    },
-    {
-      "activity" : "scanForUsageStats",
-      "start" : 95,
-      "length" : 1
+      "start" : 84,
+      "length" : 1968
     },
     {
       "activity" : "validate",
-      "start" : 96,
-      "length" : 144
+      "start" : 254,
+      "length" : 29010
     },
     {
       "activity" : "translate",
-      "start" : 98,
-      "length" : 3
+      "start" : 396,
+      "length" : 7
     },
     {
       "activity" : "generate1",
-      "start" : 99,
-      "length" : 15
+      "start" : 397,
+      "length" : 19
     },
     {
       "activity" : "generate2",
-      "start" : 110,
-      "length" : 60
+      "start" : 415,
+      "length" : 36
     }]
   },
   {
     "name" : "fsh-generated/resources/Specimen-AliquotgruppeDNA.json",
-    "size" : 3475,
+    "size" : 3460,
     "processes" : [{
       "activity" : "loadResources",
-      "start" : 70,
-      "length" : 2
-    },
-    {
-      "activity" : "generateNarratives",
-      "start" : 74,
-      "length" : 7
-    },
-    {
-      "activity" : "validate",
-      "start" : 96,
-      "length" : 143
-    },
-    {
-      "activity" : "translate",
-      "start" : 98,
+      "start" : 72,
       "length" : 3
     },
     {
-      "activity" : "generate1",
-      "start" : 99,
-      "length" : 12
-    },
-    {
-      "activity" : "generate2",
-      "start" : 110,
-      "length" : 23
-    }]
-  },
-  {
-    "name" : "fsh-generated/resources/Specimen-AliquotgruppePlasma.json",
-    "size" : 4593,
-    "processes" : [{
-      "activity" : "loadResources",
-      "start" : 70,
-      "length" : 2
-    },
-    {
       "activity" : "checkR4R4B",
-      "start" : 73,
+      "start" : 76,
       "length" : 1
     },
     {
       "activity" : "generateNarratives",
-      "start" : 74,
-      "length" : 5
+      "start" : 86,
+      "length" : 1944
+    },
+    {
+      "activity" : "scanForUsageStats",
+      "start" : 192,
+      "length" : 1
     },
     {
       "activity" : "validate",
-      "start" : 96,
-      "length" : 176
+      "start" : 283,
+      "length" : 15811
     },
     {
       "activity" : "translate",
-      "start" : 98,
-      "length" : 3
+      "start" : 396,
+      "length" : 8
     },
     {
       "activity" : "generate1",
-      "start" : 99,
-      "length" : 15
+      "start" : 397,
+      "length" : 14
     },
     {
       "activity" : "generate2",
-      "start" : 110,
-      "length" : 22
+      "start" : 415,
+      "length" : 32
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/Specimen-AliquotgruppePlasma.json",
+    "size" : 4568,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 72,
+      "length" : 3
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 88,
+      "length" : 984
+    },
+    {
+      "activity" : "validate",
+      "start" : 299,
+      "length" : 29275
+    },
+    {
+      "activity" : "translate",
+      "start" : 396,
+      "length" : 7
+    },
+    {
+      "activity" : "generate1",
+      "start" : 397,
+      "length" : 25
+    },
+    {
+      "activity" : "generate2",
+      "start" : 415,
+      "length" : 32
     },
     {
       "activity" : "scanExamplesForR5",
-      "start" : 185,
+      "start" : 593,
       "length" : 1
     }]
   },
   {
     "name" : "fsh-generated/resources/Specimen-MusterprobeFluessig.json",
-    "size" : 4357,
+    "size" : 4342,
     "processes" : [{
       "activity" : "loadResources",
-      "start" : 70,
-      "length" : 2
+      "start" : 72,
+      "length" : 3
+    },
+    {
+      "activity" : "checkR4R4B",
+      "start" : 76,
+      "length" : 1
     },
     {
       "activity" : "generateNarratives",
-      "start" : 74,
-      "length" : 9
+      "start" : 89,
+      "length" : 1959
     },
     {
       "activity" : "validate",
-      "start" : 96,
-      "length" : 287
+      "start" : 328,
+      "length" : 18564
     },
     {
       "activity" : "translate",
-      "start" : 98,
-      "length" : 5
+      "start" : 396,
+      "length" : 6
     },
     {
       "activity" : "generate1",
-      "start" : 99,
-      "length" : 17
+      "start" : 397,
+      "length" : 20
     },
     {
       "activity" : "generate2",
-      "start" : 110,
-      "length" : 26
+      "start" : 415,
+      "length" : 47
     }]
   },
   {
     "name" : "fsh-generated/resources/Specimen-MusterprobeGewebe.json",
-    "size" : 5906,
+    "size" : 5881,
     "processes" : [{
       "activity" : "loadResources",
-      "start" : 70,
-      "length" : 2
+      "start" : 72,
+      "length" : 4
     },
     {
       "activity" : "generateNarratives",
-      "start" : 74,
-      "length" : 74
+      "start" : 91,
+      "length" : 962
     },
     {
       "activity" : "validate",
-      "start" : 96,
-      "length" : 294
+      "start" : 347,
+      "length" : 31182
     },
     {
       "activity" : "translate",
-      "start" : 98,
+      "start" : 396,
       "length" : 5
     },
     {
       "activity" : "generate1",
-      "start" : 99,
-      "length" : 16
+      "start" : 397,
+      "length" : 20
     },
     {
       "activity" : "generate2",
-      "start" : 110,
-      "length" : 32
+      "start" : 415,
+      "length" : 51
     }]
   },
   {
     "name" : "fsh-generated/resources/Specimen-OrganoidLunge.json",
-    "size" : 3609,
+    "size" : 3604,
     "processes" : [{
       "activity" : "loadResources",
-      "start" : 70,
-      "length" : 2
+      "start" : 72,
+      "length" : 3
+    },
+    {
+      "activity" : "checkR4R4B",
+      "start" : 76,
+      "length" : 1
     },
     {
       "activity" : "generateNarratives",
-      "start" : 74,
-      "length" : 6
+      "start" : 92,
+      "length" : 7
     },
     {
       "activity" : "validate",
-      "start" : 97,
-      "length" : 1348
+      "start" : 378,
+      "length" : 17234
     },
     {
       "activity" : "translate",
-      "start" : 98,
-      "length" : 6
+      "start" : 396,
+      "length" : 4
     },
     {
       "activity" : "generate1",
-      "start" : 99,
-      "length" : 11
+      "start" : 397,
+      "length" : 14
     },
     {
       "activity" : "generate2",
-      "start" : 110,
-      "length" : 30
+      "start" : 415,
+      "length" : 49
     }]
   },
   {
     "name" : "fsh-generated/resources/StructureDefinition-Biobank.json",
-    "size" : 35659,
+    "size" : 36319,
     "processes" : [{
       "activity" : "loadResources",
-      "start" : 71,
+      "start" : 72,
       "length" : 9
     },
     {
       "activity" : "load",
-      "start" : 71,
-      "length" : 19
+      "start" : 72,
+      "length" : 29
     },
     {
       "activity" : "generateSnapshots",
-      "start" : 71,
-      "length" : 64
-    },
-    {
-      "activity" : "checkR4R4B",
       "start" : 73,
-      "length" : 1
+      "length" : 82
     },
     {
       "activity" : "generateNarratives",
-      "start" : 74,
-      "length" : 403
+      "start" : 92,
+      "length" : 826
     },
     {
       "activity" : "validate",
-      "start" : 81,
-      "length" : 374
+      "start" : 129,
+      "length" : 1116
     },
     {
       "activity" : "checkConformanceResources",
-      "start" : 95,
+      "start" : 192,
       "length" : 1
     },
     {
       "activity" : "scanForUsageStats",
-      "start" : 95,
+      "start" : 192,
       "length" : 1
     },
     {
       "activity" : "translate",
-      "start" : 98,
+      "start" : 396,
       "length" : 5
     },
     {
       "activity" : "generate1",
-      "start" : 99,
-      "length" : 413
+      "start" : 397,
+      "length" : 492
     },
     {
       "activity" : "generate2",
-      "start" : 110,
-      "length" : 1246
+      "start" : 415,
+      "length" : 1854
     },
     {
       "activity" : "generate2",
-      "start" : 126,
-      "length" : 810
+      "start" : 444,
+      "length" : 2733
     },
     {
       "activity" : "generateValidationPack",
-      "start" : 149,
-      "length" : 12
-    },
-    {
-      "activity" : "scanProfilesForR5",
-      "start" : 185,
-      "length" : 1
+      "start" : 541,
+      "length" : 16
     },
     {
       "activity" : "scanExamplesForR5",
-      "start" : 185,
+      "start" : 593,
       "length" : 2
     }]
   },
   {
     "name" : "fsh-generated/resources/StructureDefinition-mii-ex-biobank-anzahl-aliquots.json",
-    "size" : 3362,
+    "size" : 3597,
     "processes" : [{
       "activity" : "loadResources",
-      "start" : 71,
+      "start" : 72,
       "length" : 3
     },
     {
       "activity" : "load",
-      "start" : 71,
-      "length" : 4
+      "start" : 72,
+      "length" : 5
     },
     {
       "activity" : "generateSnapshots",
-      "start" : 71,
-      "length" : 18
+      "start" : 73,
+      "length" : 17
     },
     {
       "activity" : "generateNarratives",
-      "start" : 75,
-      "length" : 11
+      "start" : 93,
+      "length" : 10
     },
     {
       "activity" : "validate",
-      "start" : 81,
-      "length" : 1972
+      "start" : 130,
+      "length" : 2659
     },
     {
       "activity" : "validate",
-      "start" : 98,
-      "length" : 1
-    },
-    {
-      "activity" : "translate",
-      "start" : 98,
+      "start" : 395,
       "length" : 1
     },
     {
       "activity" : "generate1",
-      "start" : 100,
+      "start" : 398,
       "length" : 49
     },
     {
       "activity" : "generate2",
-      "start" : 111,
-      "length" : 215
+      "start" : 417,
+      "length" : 320
     },
     {
       "activity" : "generate2",
-      "start" : 127,
+      "start" : 447,
       "length" : 30
     },
     {
       "activity" : "generateValidationPack",
-      "start" : 149,
+      "start" : 541,
       "length" : 2
     }]
   },
   {
     "name" : "fsh-generated/resources/StructureDefinition-mii-ex-biobank-anzahl-passagen.json",
-    "size" : 3278,
+    "size" : 3513,
     "processes" : [{
       "activity" : "loadResources",
-      "start" : 71,
+      "start" : 72,
       "length" : 3
     },
     {
       "activity" : "load",
-      "start" : 71,
-      "length" : 3
+      "start" : 72,
+      "length" : 6
     },
     {
       "activity" : "generateSnapshots",
-      "start" : 71,
-      "length" : 12
+      "start" : 73,
+      "length" : 14
     },
     {
       "activity" : "generateNarratives",
-      "start" : 75,
-      "length" : 9
+      "start" : 93,
+      "length" : 7
     },
     {
       "activity" : "validate",
-      "start" : 83,
-      "length" : 49
+      "start" : 133,
+      "length" : 706
+    },
+    {
+      "activity" : "translate",
+      "start" : 396,
+      "length" : 1
     },
     {
       "activity" : "generate1",
-      "start" : 100,
-      "length" : 43
+      "start" : 398,
+      "length" : 48
     },
     {
       "activity" : "generate2",
-      "start" : 111,
-      "length" : 250
+      "start" : 417,
+      "length" : 268
     },
     {
       "activity" : "generate2",
-      "start" : 127,
-      "length" : 24
+      "start" : 447,
+      "length" : 26
     },
     {
       "activity" : "generateValidationPack",
-      "start" : 149,
+      "start" : 541,
       "length" : 1
     },
     {
       "activity" : "scanExamplesForR5",
-      "start" : 185,
+      "start" : 593,
       "length" : 1
     }]
   },
   {
     "name" : "fsh-generated/resources/StructureDefinition-mii-ex-biobank-diagnose.json",
-    "size" : 3452,
+    "size" : 3687,
     "processes" : [{
       "activity" : "loadResources",
-      "start" : 71,
-      "length" : 3
+      "start" : 72,
+      "length" : 2
     },
     {
       "activity" : "load",
-      "start" : 71,
-      "length" : 3
+      "start" : 72,
+      "length" : 6
     },
     {
       "activity" : "generateSnapshots",
-      "start" : 71,
-      "length" : 13
+      "start" : 73,
+      "length" : 16
     },
     {
       "activity" : "generateNarratives",
-      "start" : 75,
-      "length" : 8
+      "start" : 93,
+      "length" : 7
     },
     {
       "activity" : "validate",
-      "start" : 83,
-      "length" : 48
+      "start" : 133,
+      "length" : 746
     },
     {
       "activity" : "checkConformanceResources",
-      "start" : 95,
+      "start" : 192,
       "length" : 1
     },
     {
       "activity" : "validate",
-      "start" : 98,
+      "start" : 395,
       "length" : 1
     },
     {
       "activity" : "generate1",
-      "start" : 100,
-      "length" : 43
+      "start" : 398,
+      "length" : 49
     },
     {
       "activity" : "generate2",
-      "start" : 111,
-      "length" : 223
+      "start" : 417,
+      "length" : 289
     },
     {
       "activity" : "generate2",
-      "start" : 127,
-      "length" : 70
+      "start" : 447,
+      "length" : 27
     },
     {
       "activity" : "generateValidationPack",
-      "start" : 149,
-      "length" : 1
+      "start" : 541,
+      "length" : 2
     }]
   },
   {
     "name" : "fsh-generated/resources/StructureDefinition-mii-ex-biobank-ebene.json",
-    "size" : 3464,
+    "size" : 3699,
     "processes" : [{
       "activity" : "loadResources",
-      "start" : 71,
+      "start" : 72,
       "length" : 2
     },
     {
       "activity" : "load",
-      "start" : 71,
-      "length" : 3
+      "start" : 72,
+      "length" : 7
     },
     {
       "activity" : "generateSnapshots",
-      "start" : 71,
-      "length" : 10
+      "start" : 73,
+      "length" : 16
     },
     {
       "activity" : "generateNarratives",
-      "start" : 75,
-      "length" : 13
+      "start" : 93,
+      "length" : 11
     },
     {
       "activity" : "validate",
-      "start" : 83,
-      "length" : 49
+      "start" : 134,
+      "length" : 771
     },
     {
       "activity" : "translate",
-      "start" : 98,
+      "start" : 396,
       "length" : 1
     },
     {
       "activity" : "generate1",
-      "start" : 100,
-      "length" : 45
+      "start" : 398,
+      "length" : 50
     },
     {
       "activity" : "generate2",
-      "start" : 112,
-      "length" : 250
+      "start" : 418,
+      "length" : 310
     },
     {
       "activity" : "generate2",
-      "start" : 127,
-      "length" : 22
+      "start" : 447,
+      "length" : 39
     },
     {
       "activity" : "generateValidationPack",
-      "start" : 149,
-      "length" : 3
+      "start" : 541,
+      "length" : 1
     }]
   },
   {
     "name" : "fsh-generated/resources/StructureDefinition-mii-ex-biobank-einstellung-blutversorgung.json",
-    "size" : 3508,
+    "size" : 3743,
     "processes" : [{
       "activity" : "loadResources",
-      "start" : 71,
+      "start" : 72,
       "length" : 2
     },
     {
       "activity" : "load",
-      "start" : 71,
-      "length" : 3
+      "start" : 72,
+      "length" : 6
     },
     {
       "activity" : "generateSnapshots",
-      "start" : 71,
-      "length" : 11
+      "start" : 73,
+      "length" : 15
     },
     {
       "activity" : "generateNarratives",
-      "start" : 75,
-      "length" : 11
+      "start" : 93,
+      "length" : 7
     },
     {
       "activity" : "validate",
-      "start" : 83,
-      "length" : 46
+      "start" : 135,
+      "length" : 686
+    },
+    {
+      "activity" : "checkConformanceResources",
+      "start" : 192,
+      "length" : 1
     },
     {
       "activity" : "validate",
-      "start" : 98,
+      "start" : 395,
+      "length" : 1
+    },
+    {
+      "activity" : "translate",
+      "start" : 396,
       "length" : 1
     },
     {
       "activity" : "generate1",
-      "start" : 100,
-      "length" : 43
+      "start" : 398,
+      "length" : 49
     },
     {
       "activity" : "generate2",
-      "start" : 112,
-      "length" : 224
+      "start" : 418,
+      "length" : 286
     },
     {
       "activity" : "generate2",
-      "start" : 127,
-      "length" : 23
+      "start" : 447,
+      "length" : 19
     },
     {
       "activity" : "generateValidationPack",
-      "start" : 149,
-      "length" : 1
+      "start" : 541,
+      "length" : 2
     }]
   },
   {
@@ -1527,1146 +1744,1151 @@
     "size" : 2822,
     "processes" : [{
       "activity" : "loadResources",
-      "start" : 71,
-      "length" : 1
+      "start" : 72,
+      "length" : 2
     },
     {
       "activity" : "load",
-      "start" : 71,
-      "length" : 5
+      "start" : 72,
+      "length" : 7
     },
     {
       "activity" : "generateSnapshots",
-      "start" : 71,
-      "length" : 19
+      "start" : 73,
+      "length" : 30
+    },
+    {
+      "activity" : "checkR4R4B",
+      "start" : 76,
+      "length" : 1
     },
     {
       "activity" : "generateNarratives",
-      "start" : 75,
-      "length" : 23
+      "start" : 93,
+      "length" : 17
     },
     {
       "activity" : "validate",
-      "start" : 83,
-      "length" : 94
+      "start" : 136,
+      "length" : 737
     },
     {
       "activity" : "generate1",
-      "start" : 100,
-      "length" : 96
+      "start" : 398,
+      "length" : 109
     },
     {
       "activity" : "generate2",
-      "start" : 112,
-      "length" : 326
+      "start" : 418,
+      "length" : 398
     },
     {
       "activity" : "generate2",
-      "start" : 127,
-      "length" : 83
+      "start" : 447,
+      "length" : 107
     },
     {
       "activity" : "generateValidationPack",
-      "start" : 149,
+      "start" : 541,
       "length" : 3
-    },
-    {
-      "activity" : "scanExamplesForR5",
-      "start" : 185,
-      "length" : 1
     }]
   },
   {
     "name" : "fsh-generated/resources/StructureDefinition-mii-ex-biobank-infektiositaetsstatus.json",
-    "size" : 4457,
+    "size" : 4731,
     "processes" : [{
       "activity" : "loadResources",
-      "start" : 71,
-      "length" : 2
+      "start" : 72,
+      "length" : 3
     },
     {
       "activity" : "load",
-      "start" : 71,
-      "length" : 4
+      "start" : 72,
+      "length" : 7
     },
     {
       "activity" : "generateSnapshots",
-      "start" : 71,
-      "length" : 10
+      "start" : 73,
+      "length" : 17
     },
     {
       "activity" : "generateNarratives",
-      "start" : 75,
-      "length" : 9
+      "start" : 93,
+      "length" : 7
     },
     {
       "activity" : "validate",
-      "start" : 83,
-      "length" : 63
-    },
-    {
-      "activity" : "checkConformanceResources",
-      "start" : 95,
-      "length" : 1
+      "start" : 136,
+      "length" : 691
     },
     {
       "activity" : "validate",
-      "start" : 98,
+      "start" : 395,
       "length" : 1
     },
     {
       "activity" : "translate",
-      "start" : 98,
+      "start" : 396,
       "length" : 1
     },
     {
       "activity" : "generate1",
-      "start" : 100,
-      "length" : 48
+      "start" : 398,
+      "length" : 53
     },
     {
       "activity" : "generate2",
-      "start" : 112,
-      "length" : 211
+      "start" : 419,
+      "length" : 291
     },
     {
       "activity" : "generate2",
-      "start" : 127,
-      "length" : 24
+      "start" : 447,
+      "length" : 32
     },
     {
       "activity" : "generateValidationPack",
-      "start" : 149,
-      "length" : 1
+      "start" : 541,
+      "length" : 2
     }]
   },
   {
     "name" : "fsh-generated/resources/StructureDefinition-mii-ex-biobank-kontaktrolle.json",
-    "size" : 3500,
+    "size" : 3735,
     "processes" : [{
       "activity" : "loadResources",
-      "start" : 71,
+      "start" : 72,
       "length" : 2
     },
     {
       "activity" : "load",
-      "start" : 71,
-      "length" : 4
+      "start" : 72,
+      "length" : 5
     },
     {
       "activity" : "generateSnapshots",
-      "start" : 71,
-      "length" : 9
+      "start" : 73,
+      "length" : 14
     },
     {
       "activity" : "generateNarratives",
-      "start" : 75,
-      "length" : 9
+      "start" : 93,
+      "length" : 7
     },
     {
       "activity" : "validate",
-      "start" : 83,
-      "length" : 42
+      "start" : 137,
+      "length" : 895
+    },
+    {
+      "activity" : "translate",
+      "start" : 396,
+      "length" : 1
     },
     {
       "activity" : "generate1",
-      "start" : 100,
-      "length" : 44
+      "start" : 398,
+      "length" : 49
     },
     {
       "activity" : "generate2",
-      "start" : 113,
-      "length" : 203
+      "start" : 419,
+      "length" : 243
     },
     {
       "activity" : "generate2",
-      "start" : 127,
-      "length" : 22
+      "start" : 447,
+      "length" : 33
     },
     {
       "activity" : "generateValidationPack",
-      "start" : 149,
+      "start" : 541,
       "length" : 1
     }]
   },
   {
     "name" : "fsh-generated/resources/StructureDefinition-mii-ex-biobank-kulturprotokoll.json",
-    "size" : 3351,
+    "size" : 3586,
     "processes" : [{
       "activity" : "loadResources",
-      "start" : 71,
-      "length" : 1
-    },
-    {
-      "activity" : "load",
-      "start" : 71,
-      "length" : 3
-    },
-    {
-      "activity" : "generateSnapshots",
-      "start" : 71,
-      "length" : 9
-    },
-    {
-      "activity" : "generateNarratives",
-      "start" : 75,
-      "length" : 8
-    },
-    {
-      "activity" : "validate",
-      "start" : 83,
-      "length" : 44
-    },
-    {
-      "activity" : "generate1",
-      "start" : 100,
-      "length" : 43
-    },
-    {
-      "activity" : "generate2",
-      "start" : 113,
-      "length" : 181
-    },
-    {
-      "activity" : "generate2",
-      "start" : 127,
-      "length" : 21
-    },
-    {
-      "activity" : "generateValidationPack",
-      "start" : 149,
-      "length" : 1
-    },
-    {
-      "activity" : "scanExamplesForR5",
-      "start" : 185,
-      "length" : 1
-    }]
-  },
-  {
-    "name" : "fsh-generated/resources/StructureDefinition-mii-ex-biobank-modifikationen.json",
-    "size" : 5953,
-    "processes" : [{
-      "activity" : "loadResources",
-      "start" : 71,
+      "start" : 72,
       "length" : 2
     },
     {
       "activity" : "load",
-      "start" : 71,
+      "start" : 72,
       "length" : 6
     },
     {
       "activity" : "generateSnapshots",
-      "start" : 71,
-      "length" : 28
+      "start" : 73,
+      "length" : 16
     },
     {
       "activity" : "load-configure",
-      "start" : 73,
-      "length" : 1
-    },
-    {
-      "activity" : "scan",
-      "start" : 73,
+      "start" : 76,
       "length" : 1
     },
     {
       "activity" : "generateNarratives",
-      "start" : 75,
-      "length" : 26
+      "start" : 93,
+      "length" : 7
     },
     {
       "activity" : "validate",
-      "start" : 84,
-      "length" : 127
+      "start" : 138,
+      "length" : 716
     },
     {
-      "activity" : "checkConformanceResources2",
-      "start" : 95,
+      "activity" : "checkConformanceResources",
+      "start" : 192,
       "length" : 1
     },
     {
       "activity" : "validate",
-      "start" : 98,
+      "start" : 395,
       "length" : 1
     },
     {
       "activity" : "translate",
-      "start" : 98,
+      "start" : 396,
       "length" : 1
     },
     {
       "activity" : "generate1",
-      "start" : 100,
-      "length" : 138
+      "start" : 398,
+      "length" : 49
     },
     {
       "activity" : "generate2",
-      "start" : 113,
-      "length" : 361
+      "start" : 419,
+      "length" : 244
     },
     {
       "activity" : "generate2",
-      "start" : 127,
-      "length" : 65
+      "start" : 447,
+      "length" : 21
     },
     {
       "activity" : "generateValidationPack",
-      "start" : 149,
+      "start" : 541,
+      "length" : 4
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-mii-ex-biobank-modifikationen.json",
+    "size" : 6188,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 72,
+      "length" : 3
+    },
+    {
+      "activity" : "load",
+      "start" : 72,
+      "length" : 7
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 73,
+      "length" : 40
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 93,
+      "length" : 25
+    },
+    {
+      "activity" : "validate",
+      "start" : 139,
+      "length" : 785
+    },
+    {
+      "activity" : "scanForUsageStats",
+      "start" : 192,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 398,
+      "length" : 160
+    },
+    {
+      "activity" : "generate2",
+      "start" : 419,
+      "length" : 323
+    },
+    {
+      "activity" : "generate2",
+      "start" : 447,
+      "length" : 75
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 541,
       "length" : 5
     },
     {
       "activity" : "scanExamplesForR5",
-      "start" : 185,
+      "start" : 593,
       "length" : 1
     }]
   },
   {
     "name" : "fsh-generated/resources/StructureDefinition-mii-ex-biobank-temperaturbedingungen.json",
-    "size" : 4258,
+    "size" : 4493,
     "processes" : [{
       "activity" : "loadResources",
-      "start" : 71,
+      "start" : 72,
       "length" : 2
     },
     {
       "activity" : "load",
-      "start" : 71,
-      "length" : 5
+      "start" : 72,
+      "length" : 6
     },
     {
       "activity" : "generateSnapshots",
-      "start" : 71,
-      "length" : 14
+      "start" : 73,
+      "length" : 21
     },
     {
       "activity" : "generateNarratives",
-      "start" : 75,
+      "start" : 93,
       "length" : 12
     },
     {
       "activity" : "validate",
-      "start" : 84,
-      "length" : 93
+      "start" : 140,
+      "length" : 2684
     },
     {
-      "activity" : "scanForUsageStats",
-      "start" : 95,
+      "activity" : "validate",
+      "start" : 395,
+      "length" : 1
+    },
+    {
+      "activity" : "translate",
+      "start" : 396,
       "length" : 1
     },
     {
       "activity" : "generate1",
-      "start" : 100,
-      "length" : 59
+      "start" : 399,
+      "length" : 79
     },
     {
       "activity" : "generate2",
-      "start" : 113,
-      "length" : 208
+      "start" : 420,
+      "length" : 205
     },
     {
       "activity" : "generate2",
-      "start" : 127,
-      "length" : 29
+      "start" : 448,
+      "length" : 31
     },
     {
       "activity" : "generateValidationPack",
-      "start" : 149,
-      "length" : 1
+      "start" : 541,
+      "length" : 3
     }]
   },
   {
     "name" : "fsh-generated/resources/StructureDefinition-mii-ex-biobank-verwaltende-organisation.json",
-    "size" : 3923,
+    "size" : 4158,
     "processes" : [{
       "activity" : "loadResources",
-      "start" : 71,
-      "length" : 1
+      "start" : 72,
+      "length" : 2
     },
     {
       "activity" : "load",
-      "start" : 71,
-      "length" : 4
+      "start" : 72,
+      "length" : 6
     },
     {
       "activity" : "generateSnapshots",
-      "start" : 71,
-      "length" : 10
+      "start" : 73,
+      "length" : 15
     },
     {
       "activity" : "generateNarratives",
-      "start" : 75,
+      "start" : 93,
       "length" : 9
     },
     {
       "activity" : "validate",
-      "start" : 84,
-      "length" : 49
+      "start" : 142,
+      "length" : 670
     },
     {
       "activity" : "checkConformanceResources",
-      "start" : 95,
+      "start" : 192,
       "length" : 1
     },
     {
-      "activity" : "validate",
-      "start" : 98,
+      "activity" : "translate",
+      "start" : 396,
       "length" : 1
     },
     {
       "activity" : "generate1",
-      "start" : 100,
-      "length" : 45
+      "start" : 399,
+      "length" : 50
     },
     {
       "activity" : "generate2",
-      "start" : 114,
-      "length" : 143
+      "start" : 420,
+      "length" : 176
     },
     {
       "activity" : "generate2",
-      "start" : 127,
-      "length" : 20
+      "start" : 448,
+      "length" : 21
     },
     {
       "activity" : "generateValidationPack",
-      "start" : 149,
-      "length" : 2
+      "start" : 541,
+      "length" : 1
     }]
   },
   {
     "name" : "fsh-generated/resources/StructureDefinition-mii-pr-biobank-observation-dna-konzentration.json",
-    "size" : 5616,
+    "size" : 5851,
     "processes" : [{
       "activity" : "loadResources",
-      "start" : 71,
-      "length" : 2
+      "start" : 72,
+      "length" : 3
     },
     {
       "activity" : "load",
-      "start" : 71,
-      "length" : 6
+      "start" : 72,
+      "length" : 5
     },
     {
       "activity" : "generateSnapshots",
-      "start" : 71,
-      "length" : 57
+      "start" : 73,
+      "length" : 104
     },
     {
       "activity" : "generateNarratives",
-      "start" : 75,
-      "length" : 34
+      "start" : 93,
+      "length" : 38
     },
     {
       "activity" : "validate",
-      "start" : 84,
-      "length" : 330
+      "start" : 143,
+      "length" : 2583
     },
     {
-      "activity" : "translate",
-      "start" : 98,
+      "activity" : "scanForUsageStats",
+      "start" : 192,
+      "length" : 1
+    },
+    {
+      "activity" : "validate",
+      "start" : 395,
       "length" : 1
     },
     {
       "activity" : "generate1",
-      "start" : 101,
-      "length" : 236
+      "start" : 399,
+      "length" : 300
     },
     {
       "activity" : "generate2",
-      "start" : 114,
-      "length" : 1020
+      "start" : 420,
+      "length" : 2136
     },
     {
       "activity" : "generate2",
-      "start" : 127,
-      "length" : 179
+      "start" : 448,
+      "length" : 295
     },
     {
       "activity" : "generateValidationPack",
-      "start" : 149,
-      "length" : 9
-    },
-    {
-      "activity" : "scanExamplesForR5",
-      "start" : 185,
-      "length" : 2
+      "start" : 541,
+      "length" : 12
     }]
   },
   {
     "name" : "fsh-generated/resources/StructureDefinition-mii-pr-biobank-observation-karyotyp.json",
-    "size" : 5910,
+    "size" : 6145,
     "processes" : [{
       "activity" : "loadResources",
-      "start" : 71,
-      "length" : 2
+      "start" : 72,
+      "length" : 3
     },
     {
       "activity" : "load",
-      "start" : 71,
-      "length" : 7
+      "start" : 72,
+      "length" : 5
     },
     {
       "activity" : "generateSnapshots",
-      "start" : 71,
-      "length" : 67
+      "start" : 73,
+      "length" : 103
     },
     {
       "activity" : "generateNarratives",
-      "start" : 75,
-      "length" : 101
+      "start" : 93,
+      "length" : 29
     },
     {
       "activity" : "validate",
-      "start" : 84,
-      "length" : 233
+      "start" : 145,
+      "length" : 1310
     },
     {
       "activity" : "scanForUsageStats",
-      "start" : 95,
-      "length" : 1
-    },
-    {
-      "activity" : "validate",
-      "start" : 98,
-      "length" : 1
-    },
-    {
-      "activity" : "generate1",
-      "start" : 101,
-      "length" : 249
-    },
-    {
-      "activity" : "generate2",
-      "start" : 115,
-      "length" : 720
-    },
-    {
-      "activity" : "generate2",
-      "start" : 127,
-      "length" : 170
-    },
-    {
-      "activity" : "generateValidationPack",
-      "start" : 149,
-      "length" : 9
-    },
-    {
-      "activity" : "scanExamplesForR5",
-      "start" : 185,
-      "length" : 2
-    }]
-  },
-  {
-    "name" : "fsh-generated/resources/StructureDefinition-mii-pr-biobank-observation-morphologie.json",
-    "size" : 5585,
-    "processes" : [{
-      "activity" : "loadResources",
-      "start" : 71,
-      "length" : 2
-    },
-    {
-      "activity" : "load",
-      "start" : 71,
-      "length" : 8
-    },
-    {
-      "activity" : "generateSnapshots",
-      "start" : 71,
-      "length" : 115
-    },
-    {
-      "activity" : "generateNarratives",
-      "start" : 75,
-      "length" : 31
-    },
-    {
-      "activity" : "validate",
-      "start" : 84,
-      "length" : 187
-    },
-    {
-      "activity" : "checkConformanceResources",
-      "start" : 95,
-      "length" : 1
-    },
-    {
-      "activity" : "scanForUsageStats",
-      "start" : 95,
+      "start" : 192,
       "length" : 1
     },
     {
       "activity" : "translate",
-      "start" : 98,
+      "start" : 396,
       "length" : 1
     },
     {
       "activity" : "generate1",
-      "start" : 101,
-      "length" : 240
+      "start" : 399,
+      "length" : 280
     },
     {
       "activity" : "generate2",
-      "start" : 116,
-      "length" : 722
+      "start" : 422,
+      "length" : 1157
     },
     {
       "activity" : "generate2",
-      "start" : 127,
-      "length" : 142
+      "start" : 448,
+      "length" : 235
     },
     {
       "activity" : "generateValidationPack",
-      "start" : 149,
-      "length" : 10
+      "start" : 541,
+      "length" : 14
+    },
+    {
+      "activity" : "scanProfilesForR5",
+      "start" : 593,
+      "length" : 1
     },
     {
       "activity" : "scanExamplesForR5",
-      "start" : 185,
-      "length" : 2
+      "start" : 593,
+      "length" : 1
     }]
   },
   {
-    "name" : "fsh-generated/resources/StructureDefinition-mii-pr-biobank-observation-proliferation.json",
-    "size" : 5784,
+    "name" : "fsh-generated/resources/StructureDefinition-mii-pr-biobank-observation-morphologie.json",
+    "size" : 5820,
     "processes" : [{
       "activity" : "loadResources",
-      "start" : 71,
+      "start" : 72,
       "length" : 2
     },
     {
       "activity" : "load",
-      "start" : 71,
-      "length" : 6
+      "start" : 72,
+      "length" : 4
     },
     {
       "activity" : "generateSnapshots",
-      "start" : 72,
-      "length" : 56
+      "start" : 73,
+      "length" : 99
     },
     {
       "activity" : "generateNarratives",
-      "start" : 75,
-      "length" : 30
+      "start" : 93,
+      "length" : 27
     },
     {
       "activity" : "validate",
-      "start" : 85,
-      "length" : 276
+      "start" : 147,
+      "length" : 1308
     },
     {
-      "activity" : "scanForUsageStats",
-      "start" : 95,
+      "activity" : "checkConformanceResources",
+      "start" : 192,
       "length" : 1
     },
     {
       "activity" : "validate",
-      "start" : 98,
+      "start" : 395,
+      "length" : 1
+    },
+    {
+      "activity" : "translate",
+      "start" : 396,
       "length" : 1
     },
     {
       "activity" : "generate1",
-      "start" : 101,
-      "length" : 240
+      "start" : 399,
+      "length" : 273
     },
     {
       "activity" : "generate2",
-      "start" : 116,
-      "length" : 686
+      "start" : 423,
+      "length" : 1067
     },
     {
       "activity" : "generate2",
-      "start" : 128,
-      "length" : 143
+      "start" : 448,
+      "length" : 220
+    },
+    {
+      "activity" : "makeDependencies",
+      "start" : 451,
+      "length" : 1
     },
     {
       "activity" : "generateValidationPack",
-      "start" : 149,
-      "length" : 10
+      "start" : 541,
+      "length" : 15
     },
     {
       "activity" : "scanExamplesForR5",
-      "start" : 185,
+      "start" : 593,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-mii-pr-biobank-observation-proliferation.json",
+    "size" : 6019,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 72,
+      "length" : 3
+    },
+    {
+      "activity" : "load",
+      "start" : 72,
+      "length" : 5
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 73,
+      "length" : 96
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 93,
+      "length" : 25
+    },
+    {
+      "activity" : "validate",
+      "start" : 148,
+      "length" : 1819
+    },
+    {
+      "activity" : "scanForUsageStats",
+      "start" : 192,
+      "length" : 1
+    },
+    {
+      "activity" : "validate",
+      "start" : 395,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 400,
+      "length" : 276
+    },
+    {
+      "activity" : "generate2",
+      "start" : 425,
+      "length" : 1833
+    },
+    {
+      "activity" : "generate2",
+      "start" : 448,
+      "length" : 215
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 541,
+      "length" : 15
+    },
+    {
+      "activity" : "scanExamplesForR5",
+      "start" : 593,
       "length" : 1
     }]
   },
   {
     "name" : "fsh-generated/resources/StructureDefinition-mii-pr-biobank-observation-qualitaetspruefung.json",
-    "size" : 9712,
+    "size" : 9947,
     "processes" : [{
       "activity" : "loadResources",
-      "start" : 71,
-      "length" : 3
+      "start" : 72,
+      "length" : 4
     },
     {
       "activity" : "load",
-      "start" : 71,
+      "start" : 72,
       "length" : 9
     },
     {
       "activity" : "generateSnapshots",
-      "start" : 72,
-      "length" : 77
+      "start" : 73,
+      "length" : 162
     },
     {
       "activity" : "generateNarratives",
-      "start" : 75,
-      "length" : 81
+      "start" : 93,
+      "length" : 73
     },
     {
       "activity" : "validate",
-      "start" : 85,
-      "length" : 413
+      "start" : 150,
+      "length" : 2474
+    },
+    {
+      "activity" : "checkConformanceResources",
+      "start" : 192,
+      "length" : 1
     },
     {
       "activity" : "scanForUsageStats",
-      "start" : 95,
+      "start" : 192,
       "length" : 1
     },
     {
       "activity" : "translate",
-      "start" : 98,
+      "start" : 396,
       "length" : 1
     },
     {
       "activity" : "generate1",
-      "start" : 101,
-      "length" : 437
+      "start" : 400,
+      "length" : 497
     },
     {
       "activity" : "generate2",
-      "start" : 117,
-      "length" : 998
+      "start" : 426,
+      "length" : 1678
     },
     {
       "activity" : "generate2",
-      "start" : 128,
-      "length" : 191
+      "start" : 449,
+      "length" : 281
     },
     {
       "activity" : "generateValidationPack",
-      "start" : 149,
-      "length" : 16
-    },
-    {
-      "activity" : "scanProfilesForR5",
-      "start" : 185,
-      "length" : 1
-    },
-    {
-      "activity" : "scanExamplesForR5",
-      "start" : 185,
-      "length" : 3
+      "start" : 541,
+      "length" : 19
     }]
   },
   {
     "name" : "fsh-generated/resources/StructureDefinition-mii-pr-biobank-observation-wachstumstyp.json",
-    "size" : 5595,
+    "size" : 5830,
     "processes" : [{
       "activity" : "loadResources",
-      "start" : 71,
-      "length" : 2
-    },
-    {
-      "activity" : "load",
-      "start" : 71,
-      "length" : 6
-    },
-    {
-      "activity" : "generateSnapshots",
       "start" : 72,
-      "length" : 51
-    },
-    {
-      "activity" : "checkR4R4B",
-      "start" : 73,
-      "length" : 1
-    },
-    {
-      "activity" : "generateNarratives",
-      "start" : 75,
-      "length" : 29
-    },
-    {
-      "activity" : "validate",
-      "start" : 85,
-      "length" : 229
-    },
-    {
-      "activity" : "checkConformanceResources",
-      "start" : 95,
-      "length" : 1
-    },
-    {
-      "activity" : "validate",
-      "start" : 98,
-      "length" : 1
-    },
-    {
-      "activity" : "generate1",
-      "start" : 102,
-      "length" : 247
-    },
-    {
-      "activity" : "generate2",
-      "start" : 118,
-      "length" : 648
-    },
-    {
-      "activity" : "generate2",
-      "start" : 128,
-      "length" : 125
-    },
-    {
-      "activity" : "generateValidationPack",
-      "start" : 149,
-      "length" : 9
-    },
-    {
-      "activity" : "scanExamplesForR5",
-      "start" : 185,
-      "length" : 2
-    }]
-  },
-  {
-    "name" : "fsh-generated/resources/StructureDefinition-mii-pr-biobank-organization.json",
-    "size" : 17947,
-    "processes" : [{
-      "activity" : "loadResources",
-      "start" : 71,
       "length" : 3
     },
     {
       "activity" : "load",
-      "start" : 71,
-      "length" : 12
+      "start" : 72,
+      "length" : 8
     },
     {
       "activity" : "generateSnapshots",
-      "start" : 72,
-      "length" : 45
+      "start" : 74,
+      "length" : 79
     },
     {
       "activity" : "generateNarratives",
-      "start" : 75,
-      "length" : 44
+      "start" : 93,
+      "length" : 22
     },
     {
       "activity" : "validate",
-      "start" : 85,
-      "length" : 406
+      "start" : 152,
+      "length" : 1305
     },
     {
       "activity" : "scanForUsageStats",
-      "start" : 95,
+      "start" : 192,
+      "length" : 1
+    },
+    {
+      "activity" : "validate",
+      "start" : 395,
       "length" : 1
     },
     {
       "activity" : "translate",
-      "start" : 98,
+      "start" : 396,
       "length" : 1
     },
     {
       "activity" : "generate1",
-      "start" : 102,
-      "length" : 286
+      "start" : 400,
+      "length" : 274
     },
     {
       "activity" : "generate2",
-      "start" : 119,
-      "length" : 583
+      "start" : 428,
+      "length" : 1234
     },
     {
       "activity" : "generate2",
-      "start" : 128,
-      "length" : 108
+      "start" : 449,
+      "length" : 186
     },
     {
       "activity" : "generateValidationPack",
-      "start" : 149,
-      "length" : 14
+      "start" : 541,
+      "length" : 11
     },
     {
       "activity" : "scanExamplesForR5",
-      "start" : 185,
+      "start" : 593,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-mii-pr-biobank-organization.json",
+    "size" : 18167,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 72,
+      "length" : 5
+    },
+    {
+      "activity" : "load",
+      "start" : 72,
+      "length" : 15
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 74,
+      "length" : 75
+    },
+    {
+      "activity" : "checkR4R4B",
+      "start" : 76,
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 93,
+      "length" : 41
+    },
+    {
+      "activity" : "validate",
+      "start" : 154,
+      "length" : 914
+    },
+    {
+      "activity" : "checkConformanceResources",
+      "start" : 192,
+      "length" : 1
+    },
+    {
+      "activity" : "scanForUsageStats",
+      "start" : 192,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 401,
+      "length" : 337
+    },
+    {
+      "activity" : "generate2",
+      "start" : 429,
+      "length" : 717
+    },
+    {
+      "activity" : "generate2",
+      "start" : 449,
+      "length" : 146
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 541,
+      "length" : 13
+    },
+    {
+      "activity" : "scanExamplesForR5",
+      "start" : 593,
       "length" : 1
     }]
   },
   {
     "name" : "fsh-generated/resources/StructureDefinition-mii-pr-biobank-specimen-core.json",
-    "size" : 61209,
+    "size" : 61444,
     "processes" : [{
       "activity" : "loadResources",
-      "start" : 71,
-      "length" : 10
+      "start" : 72,
+      "length" : 16
     },
     {
       "activity" : "load",
-      "start" : 71,
-      "length" : 25
+      "start" : 72,
+      "length" : 36
     },
     {
       "activity" : "generateSnapshots",
-      "start" : 72,
-      "length" : 165
+      "start" : 74,
+      "length" : 217
     },
     {
       "activity" : "generateNarratives",
-      "start" : 75,
-      "length" : 312
+      "start" : 93,
+      "length" : 1174
     },
     {
       "activity" : "validate",
-      "start" : 86,
-      "length" : 976
-    },
-    {
-      "activity" : "checkConformanceResources",
-      "start" : 95,
-      "length" : 1
+      "start" : 155,
+      "length" : 2019
     },
     {
       "activity" : "scanForUsageStats",
-      "start" : 95,
-      "length" : 2
-    },
-    {
-      "activity" : "generate1",
-      "start" : 102,
-      "length" : 939
-    },
-    {
-      "activity" : "generate2",
-      "start" : 119,
-      "length" : 1101
-    },
-    {
-      "activity" : "generate2",
-      "start" : 128,
-      "length" : 222
-    },
-    {
-      "activity" : "makeDependencies",
-      "start" : 130,
+      "start" : 192,
       "length" : 1
     },
     {
+      "activity" : "validate",
+      "start" : 395,
+      "length" : 1
+    },
+    {
+      "activity" : "translate",
+      "start" : 396,
+      "length" : 1
+    },
+    {
+      "activity" : "generate1",
+      "start" : 401,
+      "length" : 998
+    },
+    {
+      "activity" : "generate2",
+      "start" : 430,
+      "length" : 1893
+    },
+    {
+      "activity" : "generate2",
+      "start" : 449,
+      "length" : 290
+    },
+    {
       "activity" : "generateValidationPack",
-      "start" : 149,
-      "length" : 28
+      "start" : 541,
+      "length" : 35
     },
     {
       "activity" : "scanExamplesForR5",
-      "start" : 185,
-      "length" : 7
+      "start" : 593,
+      "length" : 2
     }]
   },
   {
     "name" : "fsh-generated/resources/StructureDefinition-mii-pr-biobank-specimen.json",
-    "size" : 10120,
+    "size" : 11021,
     "processes" : [{
       "activity" : "loadResources",
-      "start" : 71,
-      "length" : 3
+      "start" : 72,
+      "length" : 4
     },
     {
       "activity" : "load",
-      "start" : 71,
-      "length" : 6
+      "start" : 72,
+      "length" : 10
     },
     {
       "activity" : "generateSnapshots",
-      "start" : 72,
-      "length" : 122
+      "start" : 74,
+      "length" : 192
     },
     {
       "activity" : "generateNarratives",
-      "start" : 76,
-      "length" : 54
+      "start" : 94,
+      "length" : 58
     },
     {
       "activity" : "validate",
-      "start" : 87,
-      "length" : 530
+      "start" : 157,
+      "length" : 1218
     },
     {
-      "activity" : "scanForUsageStats",
-      "start" : 95,
-      "length" : 2
-    },
-    {
-      "activity" : "validate",
-      "start" : 98,
+      "activity" : "checkConformanceResources",
+      "start" : 192,
       "length" : 1
     },
     {
+      "activity" : "scanForUsageStats",
+      "start" : 192,
+      "length" : 2
+    },
+    {
       "activity" : "translate",
-      "start" : 98,
+      "start" : 396,
       "length" : 1
     },
     {
       "activity" : "generate1",
-      "start" : 103,
-      "length" : 491
+      "start" : 402,
+      "length" : 601
     },
     {
       "activity" : "generate2",
-      "start" : 120,
-      "length" : 971
+      "start" : 432,
+      "length" : 1199
     },
     {
       "activity" : "generate2",
-      "start" : 128,
-      "length" : 231
+      "start" : 449,
+      "length" : 213
     },
     {
       "activity" : "generateValidationPack",
-      "start" : 149,
-      "length" : 18
+      "start" : 541,
+      "length" : 24
+    },
+    {
+      "activity" : "scanProfilesForR5",
+      "start" : 593,
+      "length" : 1
     },
     {
       "activity" : "scanExamplesForR5",
-      "start" : 185,
-      "length" : 5
+      "start" : 593,
+      "length" : 3
     }]
   },
   {
     "name" : "fsh-generated/resources/StructureDefinition-mii-pr-biobank-substance-additiv.json",
-    "size" : 4146,
+    "size" : 4381,
     "processes" : [{
       "activity" : "loadResources",
-      "start" : 71,
-      "length" : 1
-    },
-    {
-      "activity" : "load",
-      "start" : 71,
+      "start" : 72,
       "length" : 3
     },
     {
-      "activity" : "generateSnapshots",
-      "start" : 72,
-      "length" : 25
-    },
-    {
-      "activity" : "loadInfo",
-      "start" : 73,
-      "length" : 1
-    },
-    {
-      "activity" : "generateNarratives",
-      "start" : 76,
-      "length" : 13
-    },
-    {
-      "activity" : "validate",
-      "start" : 87,
-      "length" : 44
-    },
-    {
-      "activity" : "checkConformanceResources",
-      "start" : 95,
-      "length" : 1
-    },
-    {
-      "activity" : "generate1",
-      "start" : 104,
-      "length" : 115
-    },
-    {
-      "activity" : "generate2",
-      "start" : 121,
-      "length" : 234
-    },
-    {
-      "activity" : "generate2",
-      "start" : 129,
-      "length" : 35
-    },
-    {
-      "activity" : "generateValidationPack",
-      "start" : 149,
-      "length" : 4
-    },
-    {
-      "activity" : "scanExamplesForR5",
-      "start" : 185,
-      "length" : 1
-    }]
-  },
-  {
-    "name" : "fsh-generated/resources/StructureDefinition-mii-pr-biobank-zellinie-organoid.json",
-    "size" : 4569,
-    "processes" : [{
-      "activity" : "loadResources",
-      "start" : 71,
-      "length" : 2
-    },
-    {
       "activity" : "load",
-      "start" : 71,
-      "length" : 4
+      "start" : 72,
+      "length" : 5
     },
     {
       "activity" : "generateSnapshots",
-      "start" : 72,
-      "length" : 116
+      "start" : 74,
+      "length" : 40
     },
     {
       "activity" : "generateNarratives",
-      "start" : 76,
-      "length" : 25
+      "start" : 94,
+      "length" : 10
     },
     {
       "activity" : "validate",
-      "start" : 87,
-      "length" : 394
+      "start" : 158,
+      "length" : 710
     },
     {
       "activity" : "scanForUsageStats",
-      "start" : 95,
-      "length" : 2
+      "start" : 192,
+      "length" : 1
     },
     {
       "activity" : "validate",
-      "start" : 98,
+      "start" : 395,
       "length" : 1
     },
     {
       "activity" : "translate",
-      "start" : 98,
+      "start" : 396,
       "length" : 1
     },
     {
       "activity" : "generate1",
-      "start" : 104,
-      "length" : 405
+      "start" : 403,
+      "length" : 131
     },
     {
       "activity" : "generate2",
-      "start" : 121,
-      "length" : 831
+      "start" : 433,
+      "length" : 296
     },
     {
       "activity" : "generate2",
-      "start" : 129,
-      "length" : 170
+      "start" : 450,
+      "length" : 43
     },
     {
       "activity" : "generateValidationPack",
-      "start" : 149,
-      "length" : 17
+      "start" : 541,
+      "length" : 5
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/StructureDefinition-mii-pr-biobank-zellinie-organoid.json",
+    "size" : 4804,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 72,
+      "length" : 3
     },
     {
-      "activity" : "scanProfilesForR5",
-      "start" : 185,
+      "activity" : "load",
+      "start" : 72,
+      "length" : 4
+    },
+    {
+      "activity" : "generateSnapshots",
+      "start" : 74,
+      "length" : 197
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 94,
+      "length" : 32
+    },
+    {
+      "activity" : "validate",
+      "start" : 159,
+      "length" : 1259
+    },
+    {
+      "activity" : "checkConformanceResources",
+      "start" : 192,
       "length" : 1
     },
     {
+      "activity" : "scanForUsageStats",
+      "start" : 192,
+      "length" : 2
+    },
+    {
+      "activity" : "generate1",
+      "start" : 403,
+      "length" : 467
+    },
+    {
+      "activity" : "generate2",
+      "start" : 433,
+      "length" : 1002
+    },
+    {
+      "activity" : "generate2",
+      "start" : 450,
+      "length" : 212
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 542,
+      "length" : 20
+    },
+    {
       "activity" : "scanExamplesForR5",
-      "start" : 185,
-      "length" : 5
+      "start" : 593,
+      "length" : 2
     }]
   },
   {
@@ -2674,620 +2896,630 @@
     "size" : 367,
     "processes" : [{
       "activity" : "loadResources",
-      "start" : 71,
-      "length" : 1
+      "start" : 72,
+      "length" : 2
     },
     {
       "activity" : "generateNarratives",
-      "start" : 76,
-      "length" : 1
+      "start" : 94,
+      "length" : 2
     },
     {
       "activity" : "validate",
-      "start" : 98,
-      "length" : 31
+      "start" : 395,
+      "length" : 501
     },
     {
       "activity" : "translate",
-      "start" : 98,
+      "start" : 396,
+      "length" : 8
+    },
+    {
+      "activity" : "generate1",
+      "start" : 403,
+      "length" : 5
+    },
+    {
+      "activity" : "generate2",
+      "start" : 434,
+      "length" : 10
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-mii-vs-biobank-biosafety-level-snomedct.json",
+    "size" : 3737,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 72,
+      "length" : 2
+    },
+    {
+      "activity" : "load",
+      "start" : 72,
       "length" : 6
     },
     {
-      "activity" : "generate1",
-      "start" : 104,
-      "length" : 5
-    },
-    {
-      "activity" : "generate2",
-      "start" : 122,
-      "length" : 8
-    }]
-  },
-  {
-    "name" : "fsh-generated/resources/ValueSet-mii-vs-biobank-biosafety-level.json",
-    "size" : 3055,
-    "processes" : [{
-      "activity" : "loadResources",
-      "start" : 71,
-      "length" : 2
-    },
-    {
       "activity" : "load",
-      "start" : 71,
-      "length" : 4
-    },
-    {
-      "activity" : "generateNarratives",
-      "start" : 76,
-      "length" : 545
-    },
-    {
-      "activity" : "validate",
-      "start" : 80,
-      "length" : 154
-    },
-    {
-      "activity" : "validate",
-      "start" : 98,
-      "length" : 1
-    },
-    {
-      "activity" : "translate",
-      "start" : 98,
-      "length" : 5
-    },
-    {
-      "activity" : "generate1",
-      "start" : 104,
-      "length" : 10
-    },
-    {
-      "activity" : "generate2",
-      "start" : 122,
-      "length" : 148
-    },
-    {
-      "activity" : "generateValidationPack",
-      "start" : 149,
-      "length" : 1
-    }]
-  },
-  {
-    "name" : "fsh-generated/resources/ValueSet-mii-vs-biobank-body-structures-sct.json",
-    "size" : 1773,
-    "processes" : [{
-      "activity" : "loadResources",
-      "start" : 71,
-      "length" : 1
-    },
-    {
-      "activity" : "load",
-      "start" : 71,
-      "length" : 2
-    },
-    {
-      "activity" : "load",
-      "start" : 71,
-      "length" : 1
-    },
-    {
-      "activity" : "checkR4R4B",
       "start" : 73,
       "length" : 1
     },
     {
-      "activity" : "generateNarratives",
+      "activity" : "checkR4R4B",
       "start" : 76,
-      "length" : 73
+      "length" : 1
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 94,
+      "length" : 942
     },
     {
       "activity" : "validate",
-      "start" : 80,
-      "length" : 47
+      "start" : 106,
+      "length" : 2237
     },
     {
       "activity" : "translate",
-      "start" : 98,
-      "length" : 3
+      "start" : 396,
+      "length" : 5
     },
     {
       "activity" : "generate1",
-      "start" : 104,
-      "length" : 7
+      "start" : 403,
+      "length" : 13
     },
     {
       "activity" : "generate2",
-      "start" : 122,
-      "length" : 176
+      "start" : 434,
+      "length" : 589
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-mii-vs-biobank-body-structures-sct.json",
+    "size" : 2089,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 72,
+      "length" : 2
+    },
+    {
+      "activity" : "load",
+      "start" : 72,
+      "length" : 5
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 95,
+      "length" : 498
+    },
+    {
+      "activity" : "validate",
+      "start" : 108,
+      "length" : 1154
+    },
+    {
+      "activity" : "validate",
+      "start" : 396,
+      "length" : 1
+    },
+    {
+      "activity" : "translate",
+      "start" : 396,
+      "length" : 5
+    },
+    {
+      "activity" : "generate1",
+      "start" : 403,
+      "length" : 9
+    },
+    {
+      "activity" : "generate2",
+      "start" : 435,
+      "length" : 1065
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 542,
+      "length" : 1
     }]
   },
   {
     "name" : "fsh-generated/resources/ValueSet-mii-vs-biobank-cellline-modification-clo.json",
-    "size" : 1905,
+    "size" : 2140,
     "processes" : [{
       "activity" : "loadResources",
-      "start" : 71,
+      "start" : 72,
       "length" : 2
     },
     {
       "activity" : "load",
-      "start" : 71,
-      "length" : 9
+      "start" : 72,
+      "length" : 13
     },
     {
       "activity" : "generateNarratives",
-      "start" : 76,
-      "length" : 151
+      "start" : 96,
+      "length" : 2016
     },
     {
       "activity" : "validate",
-      "start" : 80,
-      "length" : 86
-    },
-    {
-      "activity" : "validate",
-      "start" : 98,
-      "length" : 1
+      "start" : 109,
+      "length" : 2188
     },
     {
       "activity" : "translate",
-      "start" : 98,
-      "length" : 3
+      "start" : 396,
+      "length" : 4
     },
     {
       "activity" : "generate1",
-      "start" : 104,
-      "length" : 9
+      "start" : 403,
+      "length" : 10
     },
     {
       "activity" : "generate2",
-      "start" : 123,
-      "length" : 156
+      "start" : 436,
+      "length" : 3613
     }]
   },
   {
     "name" : "fsh-generated/resources/ValueSet-mii-vs-biobank-cellline-morphology-sct.json",
-    "size" : 1787,
+    "size" : 2103,
     "processes" : [{
       "activity" : "loadResources",
-      "start" : 71,
-      "length" : 1
+      "start" : 72,
+      "length" : 2
     },
     {
       "activity" : "load",
-      "start" : 71,
-      "length" : 2
+      "start" : 72,
+      "length" : 5
+    },
+    {
+      "activity" : "checkR4R4B",
+      "start" : 76,
+      "length" : 1
     },
     {
       "activity" : "generateNarratives",
-      "start" : 76,
-      "length" : 36
+      "start" : 98,
+      "length" : 495
     },
     {
       "activity" : "validate",
-      "start" : 80,
-      "length" : 43
+      "start" : 112,
+      "length" : 1211
+    },
+    {
+      "activity" : "validate",
+      "start" : 396,
+      "length" : 1
     },
     {
       "activity" : "translate",
-      "start" : 98,
-      "length" : 2
+      "start" : 396,
+      "length" : 5
     },
     {
       "activity" : "generate1",
-      "start" : 104,
-      "length" : 7
+      "start" : 403,
+      "length" : 9
     },
     {
       "activity" : "generate2",
-      "start" : 123,
-      "length" : 67
+      "start" : 440,
+      "length" : 155
     },
     {
-      "activity" : "generateValidationPack",
-      "start" : 149,
+      "activity" : "scanExamplesForR5",
+      "start" : 593,
       "length" : 1
     }]
   },
   {
     "name" : "fsh-generated/resources/ValueSet-mii-vs-biobank-cellline-proliferation.json",
-    "size" : 2253,
+    "size" : 2569,
     "processes" : [{
       "activity" : "loadResources",
-      "start" : 71,
+      "start" : 72,
       "length" : 2
     },
     {
       "activity" : "load",
-      "start" : 71,
-      "length" : 7
+      "start" : 72,
+      "length" : 10
     },
     {
       "activity" : "generateNarratives",
-      "start" : 76,
-      "length" : 2542
-    },
-    {
-      "activity" : "validate",
-      "start" : 80,
-      "length" : 95
-    },
-    {
-      "activity" : "validate",
       "start" : 98,
-      "length" : 1
+      "length" : 1564
+    },
+    {
+      "activity" : "validate",
+      "start" : 113,
+      "length" : 3162
     },
     {
       "activity" : "translate",
-      "start" : 98,
-      "length" : 2
+      "start" : 396,
+      "length" : 4
     },
     {
       "activity" : "generate1",
-      "start" : 104,
-      "length" : 12
+      "start" : 403,
+      "length" : 11
     },
     {
       "activity" : "generate2",
-      "start" : 123,
-      "length" : 80
+      "start" : 440,
+      "length" : 91
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 542,
+      "length" : 1
     }]
   },
   {
     "name" : "fsh-generated/resources/ValueSet-mii-vs-biobank-containertyp-sct.json",
-    "size" : 1743,
+    "size" : 2059,
     "processes" : [{
       "activity" : "loadResources",
-      "start" : 71,
+      "start" : 72,
       "length" : 2
     },
     {
       "activity" : "load",
-      "start" : 71,
-      "length" : 2
-    },
-    {
-      "activity" : "loadDepInfo",
-      "start" : 73,
-      "length" : 1
+      "start" : 72,
+      "length" : 3
     },
     {
       "activity" : "generateNarratives",
-      "start" : 79,
-      "length" : 38
+      "start" : 100,
+      "length" : 641
     },
     {
       "activity" : "validate",
-      "start" : 80,
-      "length" : 43
+      "start" : 116,
+      "length" : 1166
     },
     {
-      "activity" : "translate",
-      "start" : 98,
+      "activity" : "validate",
+      "start" : 396,
       "length" : 1
     },
     {
+      "activity" : "translate",
+      "start" : 396,
+      "length" : 3
+    },
+    {
       "activity" : "generate1",
-      "start" : 104,
-      "length" : 7
+      "start" : 403,
+      "length" : 10
     },
     {
       "activity" : "generate2",
-      "start" : 123,
-      "length" : 215
+      "start" : 440,
+      "length" : 627
     }]
   },
   {
     "name" : "fsh-generated/resources/ValueSet-mii-vs-biobank-dna-concentration-units-ucum.json",
-    "size" : 1934,
+    "size" : 2169,
     "processes" : [{
       "activity" : "loadResources",
-      "start" : 71,
+      "start" : 72,
       "length" : 1
     },
     {
       "activity" : "load",
-      "start" : 71,
-      "length" : 4
+      "start" : 72,
+      "length" : 5
     },
     {
       "activity" : "generateNarratives",
-      "start" : 79,
-      "length" : 106
+      "start" : 100,
+      "length" : 507
     },
     {
       "activity" : "validate",
-      "start" : 80,
-      "length" : 132
+      "start" : 117,
+      "length" : 1660
     },
     {
       "activity" : "translate",
-      "start" : 98,
-      "length" : 2
+      "start" : 396,
+      "length" : 3
     },
     {
       "activity" : "generate1",
-      "start" : 104,
-      "length" : 8
+      "start" : 403,
+      "length" : 9
     },
     {
       "activity" : "generate2",
-      "start" : 123,
-      "length" : 175
+      "start" : 441,
+      "length" : 74
     },
     {
       "activity" : "generateValidationPack",
-      "start" : 149,
-      "length" : 1
-    },
-    {
-      "activity" : "scanExamplesForR5",
-      "start" : 185,
+      "start" : 542,
       "length" : 1
     }]
   },
   {
     "name" : "fsh-generated/resources/ValueSet-mii-vs-biobank-karyotyp-sct.json",
-    "size" : 2045,
+    "size" : 2361,
     "processes" : [{
       "activity" : "loadResources",
-      "start" : 71,
-      "length" : 1
-    },
-    {
-      "activity" : "load",
-      "start" : 71,
+      "start" : 72,
       "length" : 2
     },
     {
+      "activity" : "load",
+      "start" : 72,
+      "length" : 3
+    },
+    {
       "activity" : "load-configure",
-      "start" : 73,
+      "start" : 76,
       "length" : 1
     },
     {
       "activity" : "checkR4R4B",
-      "start" : 73,
+      "start" : 76,
       "length" : 1
     },
     {
       "activity" : "generateNarratives",
-      "start" : 79,
-      "length" : 68
+      "start" : 101,
+      "length" : 476
     },
     {
       "activity" : "validate",
-      "start" : 80,
-      "length" : 80
+      "start" : 119,
+      "length" : 1692
     },
     {
       "activity" : "validate",
-      "start" : 98,
+      "start" : 396,
       "length" : 1
     },
     {
       "activity" : "translate",
-      "start" : 98,
-      "length" : 2
+      "start" : 396,
+      "length" : 4
     },
     {
       "activity" : "generate1",
-      "start" : 104,
-      "length" : 9
+      "start" : 403,
+      "length" : 11
     },
     {
       "activity" : "generate2",
-      "start" : 123,
-      "length" : 54
+      "start" : 441,
+      "length" : 73
     }]
   },
   {
     "name" : "fsh-generated/resources/ValueSet-mii-vs-biobank-laboratory-procedure-sct.json",
-    "size" : 1801,
+    "size" : 2117,
     "processes" : [{
       "activity" : "loadResources",
-      "start" : 71,
-      "length" : 1
-    },
-    {
-      "activity" : "load",
-      "start" : 71,
+      "start" : 72,
       "length" : 2
     },
     {
+      "activity" : "load",
+      "start" : 72,
+      "length" : 3
+    },
+    {
       "activity" : "generateNarratives",
-      "start" : 79,
-      "length" : 37
+      "start" : 101,
+      "length" : 486
     },
     {
       "activity" : "validate",
-      "start" : 80,
-      "length" : 40
+      "start" : 120,
+      "length" : 1146
     },
     {
       "activity" : "translate",
-      "start" : 98,
+      "start" : 396,
       "length" : 3
     },
     {
       "activity" : "generate1",
-      "start" : 104,
-      "length" : 8
+      "start" : 403,
+      "length" : 11
     },
     {
       "activity" : "generate2",
-      "start" : 123,
-      "length" : 104
+      "start" : 441,
+      "length" : 901
     }]
   },
   {
     "name" : "fsh-generated/resources/ValueSet-mii-vs-biobank-probenart-sct.json",
-    "size" : 1728,
+    "size" : 2044,
     "processes" : [{
       "activity" : "loadResources",
-      "start" : 71,
-      "length" : 2
-    },
-    {
-      "activity" : "load",
-      "start" : 71,
-      "length" : 2
-    },
-    {
-      "activity" : "generateNarratives",
-      "start" : 79,
-      "length" : 36
-    },
-    {
-      "activity" : "validate",
-      "start" : 81,
-      "length" : 41
-    },
-    {
-      "activity" : "validate",
-      "start" : 98,
-      "length" : 1
-    },
-    {
-      "activity" : "translate",
-      "start" : 98,
-      "length" : 2
-    },
-    {
-      "activity" : "generate1",
-      "start" : 104,
-      "length" : 7
-    },
-    {
-      "activity" : "generate2",
-      "start" : 123,
-      "length" : 100
-    }]
-  },
-  {
-    "name" : "fsh-generated/resources/ValueSet-mii-vs-biobank-probenebene.json",
-    "size" : 1372,
-    "processes" : [{
-      "activity" : "loadResources",
-      "start" : 71,
+      "start" : 72,
       "length" : 1
     },
     {
       "activity" : "load",
-      "start" : 71,
-      "length" : 3
-    },
-    {
-      "activity" : "generateNarratives",
-      "start" : 79,
-      "length" : 3
-    },
-    {
-      "activity" : "validate",
-      "start" : 81,
-      "length" : 6
-    },
-    {
-      "activity" : "translate",
-      "start" : 98,
-      "length" : 2
-    },
-    {
-      "activity" : "generate1",
-      "start" : 104,
-      "length" : 7
-    },
-    {
-      "activity" : "generate2",
-      "start" : 124,
-      "length" : 58
-    },
-    {
-      "activity" : "generateValidationPack",
-      "start" : 149,
-      "length" : 1
-    }]
-  },
-  {
-    "name" : "fsh-generated/resources/ValueSet-mii-vs-biobank-substance-additive-sct.json",
-    "size" : 1767,
-    "processes" : [{
-      "activity" : "loadResources",
-      "start" : 71,
-      "length" : 1
-    },
-    {
-      "activity" : "load",
-      "start" : 71,
+      "start" : 72,
       "length" : 2
     },
     {
       "activity" : "generateNarratives",
-      "start" : 79,
-      "length" : 43
+      "start" : 102,
+      "length" : 495
     },
     {
       "activity" : "validate",
-      "start" : 81,
-      "length" : 39
+      "start" : 122,
+      "length" : 1134
     },
     {
-      "activity" : "translate",
-      "start" : 98,
+      "activity" : "validate",
+      "start" : 396,
       "length" : 1
     },
     {
+      "activity" : "translate",
+      "start" : 396,
+      "length" : 4
+    },
+    {
       "activity" : "generate1",
-      "start" : 104,
+      "start" : 403,
       "length" : 9
     },
     {
       "activity" : "generate2",
-      "start" : 124,
-      "length" : 111
+      "start" : 442,
+      "length" : 920
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 542,
+      "length" : 1
     }]
   },
   {
-    "name" : "fsh-generated/resources/ValueSet-mii-vs-biobank-wachstumstyp-clo.json",
-    "size" : 1878,
+    "name" : "fsh-generated/resources/ValueSet-mii-vs-biobank-probenebene.json",
+    "size" : 1607,
     "processes" : [{
       "activity" : "loadResources",
-      "start" : 71,
+      "start" : 72,
+      "length" : 2
+    },
+    {
+      "activity" : "load",
+      "start" : 72,
+      "length" : 4
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 102,
+      "length" : 2
+    },
+    {
+      "activity" : "validate",
+      "start" : 123,
+      "length" : 652
+    },
+    {
+      "activity" : "translate",
+      "start" : 396,
+      "length" : 4
+    },
+    {
+      "activity" : "generate1",
+      "start" : 403,
+      "length" : 9
+    },
+    {
+      "activity" : "generate2",
+      "start" : 443,
+      "length" : 68
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-mii-vs-biobank-substance-additive-sct.json",
+    "size" : 2083,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 72,
       "length" : 1
     },
     {
       "activity" : "load",
-      "start" : 71,
-      "length" : 7
+      "start" : 72,
+      "length" : 3
+    },
+    {
+      "activity" : "checkR4R4B",
+      "start" : 76,
+      "length" : 1
     },
     {
       "activity" : "generateNarratives",
-      "start" : 79,
-      "length" : 78
+      "start" : 102,
+      "length" : 496
     },
     {
       "activity" : "validate",
-      "start" : 81,
-      "length" : 18
+      "start" : 123,
+      "length" : 1165
     },
     {
       "activity" : "validate",
-      "start" : 98,
+      "start" : 396,
       "length" : 1
     },
     {
       "activity" : "translate",
-      "start" : 98,
-      "length" : 3
+      "start" : 396,
+      "length" : 4
     },
     {
       "activity" : "generate1",
-      "start" : 104,
-      "length" : 10
+      "start" : 403,
+      "length" : 9
     },
     {
       "activity" : "generate2",
-      "start" : 124,
-      "length" : 90
+      "start" : 443,
+      "length" : 966
+    }]
+  },
+  {
+    "name" : "fsh-generated/resources/ValueSet-mii-vs-biobank-wachstumstyp-clo.json",
+    "size" : 2113,
+    "processes" : [{
+      "activity" : "loadResources",
+      "start" : 72,
+      "length" : 2
+    },
+    {
+      "activity" : "load",
+      "start" : 72,
+      "length" : 7
+    },
+    {
+      "activity" : "generateNarratives",
+      "start" : 103,
+      "length" : 499
+    },
+    {
+      "activity" : "validate",
+      "start" : 125,
+      "length" : 1693
+    },
+    {
+      "activity" : "translate",
+      "start" : 396,
+      "length" : 4
+    },
+    {
+      "activity" : "generate1",
+      "start" : 403,
+      "length" : 9
+    },
+    {
+      "activity" : "generate2",
+      "start" : 444,
+      "length" : 96
+    },
+    {
+      "activity" : "generateValidationPack",
+      "start" : 542,
+      "length" : 1
     }]
   },
   {
@@ -3295,33 +3527,33 @@
     "size" : 512,
     "processes" : [{
       "activity" : "loadResources",
-      "start" : 71,
+      "start" : 72,
       "length" : 1
     },
     {
       "activity" : "checkR4R4B",
-      "start" : 73,
-      "length" : 1
-    },
-    {
-      "activity" : "validate",
-      "start" : 98,
-      "length" : 21
-    },
-    {
-      "activity" : "translate",
-      "start" : 98,
+      "start" : 76,
       "length" : 2
     },
     {
+      "activity" : "validate",
+      "start" : 396,
+      "length" : 38
+    },
+    {
+      "activity" : "translate",
+      "start" : 396,
+      "length" : 5
+    },
+    {
       "activity" : "generate1",
-      "start" : 105,
-      "length" : 23
+      "start" : 403,
+      "length" : 27
     },
     {
       "activity" : "generate2",
-      "start" : 124,
-      "length" : 1941
+      "start" : 444,
+      "length" : 561
     }]
   },
   {
@@ -3329,21 +3561,21 @@
     "size" : 5611,
     "processes" : [{
       "activity" : "generate2",
-      "start" : 126,
+      "start" : 444,
       "length" : 1
     }]
   },
   {
     "name" : "/fsh-generated/includes/fsh-link-references.md",
-    "size" : 5369,
+    "size" : 5657,
     "processes" : [{
       "activity" : "validate",
-      "start" : 98,
+      "start" : 396,
       "length" : 1
     },
     {
       "activity" : "generate2",
-      "start" : 126,
+      "start" : 444,
       "length" : 1
     }]
   },
@@ -3352,221 +3584,221 @@
     "size" : 1188,
     "processes" : [{
       "activity" : "validate",
-      "start" : 98,
+      "start" : 396,
       "length" : 1
     }]
   },
   {
     "name" : "/input/intro-notes/StructureDefinition-mii-pr-biobank-substance-additiv-intro.md",
-    "size" : 241
-  },
-  {
-    "name" : "/input/intro-notes/StructureDefinition-mii-pr-biobank-observation-dna-konzentration-intro.md",
-    "size" : 314,
+    "size" : 241,
     "processes" : [{
       "activity" : "validate",
-      "start" : 98,
+      "start" : 396,
       "length" : 1
     },
     {
       "activity" : "generate2",
-      "start" : 126,
+      "start" : 444,
       "length" : 1
     }]
   },
   {
+    "name" : "/input/intro-notes/StructureDefinition-mii-pr-biobank-observation-dna-konzentration-intro.md",
+    "size" : 314
+  },
+  {
     "name" : "/input/intro-notes/StructureDefinition-mii-pr-biobank-observation-proliferation-intro.md",
-    "size" : 330
+    "size" : 330,
+    "processes" : [{
+      "activity" : "validate",
+      "start" : 396,
+      "length" : 1
+    }]
   },
   {
     "name" : "/input/intro-notes/StructureDefinition-mii-pr-biobank-observation-karyotyp-intro.md",
     "size" : 308,
     "processes" : [{
       "activity" : "validate",
-      "start" : 98,
+      "start" : 396,
       "length" : 1
     }]
   },
   {
     "name" : "/input/intro-notes/StructureDefinition-mii-pr-biobank-observation-qualitaetspruefung-intro.md",
-    "size" : 524
+    "size" : 524,
+    "processes" : [{
+      "activity" : "validate",
+      "start" : 396,
+      "length" : 1
+    }]
   },
   {
     "name" : "/input/intro-notes/StructureDefinition-mii-pr-biobank-observation-morphologie-intro.md",
     "size" : 318,
     "processes" : [{
       "activity" : "validate",
-      "start" : 98,
-      "length" : 1
-    },
-    {
-      "activity" : "generate2",
-      "start" : 126,
+      "start" : 179,
       "length" : 1
     }]
   },
   {
     "name" : "/input/intro-notes/StructureDefinition-mii-pr-biobank-observation-wachstumstyp-intro.md",
-    "size" : 322
-  },
-  {
-    "name" : "/input/pagecontent/version-history.md",
-    "size" : 4503,
+    "size" : 322,
     "processes" : [{
-      "activity" : "generate2",
-      "start" : 126,
+      "activity" : "validate",
+      "start" : 396,
       "length" : 1
     }]
   },
   {
-    "name" : "/input/pagecontent/ImplementationGuide-mii-ig-biobank-de-v2026.md",
-    "size" : 3504,
+    "name" : "/input/pagecontent/version-history.md",
+    "size" : 4267,
     "processes" : [{
       "activity" : "validate",
-      "start" : 98,
+      "start" : 396,
       "length" : 1
     },
     {
       "activity" : "generate2",
-      "start" : 126,
+      "start" : 444,
       "length" : 1
     }]
   },
   {
     "name" : "/input/pagecontent/value-sets.md",
-    "size" : 814
+    "size" : 671,
+    "processes" : [{
+      "activity" : "generate2",
+      "start" : 444,
+      "length" : 176
+    }]
   },
   {
     "name" : "/input/pagecontent/glossary.md",
-    "size" : 2173
-  },
-  {
-    "name" : "/input/pagecontent/profiles.md",
-    "size" : 5987,
+    "size" : 2131,
     "processes" : [{
-      "activity" : "validate",
-      "start" : 90,
-      "length" : 1
-    },
-    {
-      "activity" : "validate",
-      "start" : 98,
-      "length" : 1
-    },
-    {
       "activity" : "generate2",
-      "start" : 126,
+      "start" : 444,
       "length" : 1
     }]
   },
   {
-    "name" : "/input/pagecontent/researcher-guidance.md",
-    "size" : 3660,
+    "name" : "/input/pagecontent/profiles.md",
+    "size" : 5945,
     "processes" : [{
+      "activity" : "validate",
+      "start" : 396,
+      "length" : 1
+    },
+    {
       "activity" : "generate2",
-      "start" : 126,
+      "start" : 444,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "/input/pagecontent/ImplementationGuide-mii-ig-biobank.md",
+    "size" : 3486
+  },
+  {
+    "name" : "/input/pagecontent/researcher-guidance.md",
+    "size" : 3976,
+    "processes" : [{
+      "activity" : "validate",
+      "start" : 396,
+      "length" : 1
+    },
+    {
+      "activity" : "generate2",
+      "start" : 444,
       "length" : 1
     }]
   },
   {
     "name" : "/input/pagecontent/extensions.md",
-    "size" : 4234,
-    "processes" : [{
-      "activity" : "validate",
-      "start" : 98,
-      "length" : 1
-    },
-    {
-      "activity" : "generate2",
-      "start" : 126,
-      "length" : 1
-    }]
+    "size" : 3882
   },
   {
     "name" : "/input/pagecontent/code-systems.md",
     "size" : 8071,
     "processes" : [{
-      "activity" : "generate2",
-      "start" : 126,
+      "activity" : "validate",
+      "start" : 396,
       "length" : 1
+    },
+    {
+      "activity" : "generate2",
+      "start" : 444,
+      "length" : 2
     }]
   },
   {
     "name" : "/input/pagecontent/downloads.md",
-    "size" : 3284,
-    "processes" : [{
-      "activity" : "generate2",
-      "start" : 126,
-      "length" : 1
-    }]
+    "size" : 3284
   },
   {
     "name" : "/input/pagecontent/examples.md",
     "size" : 1952,
     "processes" : [{
       "activity" : "validate",
-      "start" : 98,
+      "start" : 396,
       "length" : 1
     }]
   },
   {
     "name" : "/input/pagecontent/security-and-privacy.md",
-    "size" : 4331,
+    "size" : 2534,
     "processes" : [{
       "activity" : "generate2",
-      "start" : 126,
+      "start" : 444,
       "length" : 1
     }]
   },
   {
     "name" : "/input/pagecontent/logical-models.md",
-    "size" : 9885,
+    "size" : 9972,
     "processes" : [{
       "activity" : "validate",
-      "start" : 98,
+      "start" : 396,
       "length" : 1
     },
     {
       "activity" : "generate2",
-      "start" : 126,
+      "start" : 444,
       "length" : 1
     }]
   },
   {
     "name" : "/input/pagecontent/metadata.md",
-    "size" : 20948,
+    "size" : 21052,
     "processes" : [{
       "activity" : "generate2",
-      "start" : 126,
+      "start" : 444,
       "length" : 2
-    },
-    {
-      "activity" : "makeDependencies",
-      "start" : 136,
-      "length" : 1
     }]
   },
   {
     "name" : "/input/pagecontent/translationinfo.md",
-    "size" : 984
-  },
-  {
-    "name" : "/input/pagecontent/guidance.md",
-    "size" : 1840,
+    "size" : 984,
     "processes" : [{
       "activity" : "validate",
-      "start" : 98,
-      "length" : 1
-    },
-    {
-      "activity" : "generate2",
-      "start" : 126,
+      "start" : 396,
       "length" : 1
     }]
   },
   {
+    "name" : "/input/pagecontent/guidance.md",
+    "size" : 1671
+  },
+  {
     "name" : "/input/pagecontent/changes.md",
-    "size" : 1772
+    "size" : 1921,
+    "processes" : [{
+      "activity" : "validate",
+      "start" : 396,
+      "length" : 1
+    }]
   },
   {
     "name" : "/input/pagecontent/capability-statements.md",
@@ -3574,90 +3806,100 @@
   },
   {
     "name" : "/input/pagecontent/uml-diagrams.md",
-    "size" : 867,
+    "size" : 809,
     "processes" : [{
       "activity" : "validate",
-      "start" : 98,
+      "start" : 396,
+      "length" : 1
+    },
+    {
+      "activity" : "generate2",
+      "start" : 444,
       "length" : 1
     }]
   },
   {
     "name" : "/input/pagecontent/index.md",
-    "size" : 5474,
-    "processes" : [{
-      "activity" : "generate2",
-      "start" : 126,
-      "length" : 1
-    }]
+    "size" : 5435
   },
   {
     "name" : "/input/pagecontent/implementer-guidance.md",
-    "size" : 6755,
+    "size" : 6818,
     "processes" : [{
       "activity" : "validate",
-      "start" : 98,
+      "start" : 396,
       "length" : 1
     }]
   },
   {
     "name" : "/input/intro-notes",
-    "size" : 0
+    "size" : 0,
+    "processes" : [{
+      "activity" : "generate2",
+      "start" : 444,
+      "length" : 1
+    }]
   },
   {
     "name" : "/input/intro-notes/StructureDefinition-mii-pr-biobank-organization-intro.md",
     "size" : 1188,
     "processes" : [{
       "activity" : "validate",
-      "start" : 98,
-      "length" : 1
-    },
-    {
-      "activity" : "generate2",
-      "start" : 126,
+      "start" : 396,
       "length" : 1
     }]
   },
   {
     "name" : "/input/intro-notes/StructureDefinition-mii-pr-biobank-substance-additiv-intro.md",
-    "size" : 241
+    "size" : 241,
+    "processes" : [{
+      "activity" : "validate",
+      "start" : 192,
+      "length" : 1
+    }]
   },
   {
     "name" : "/input/intro-notes/StructureDefinition-mii-pr-biobank-observation-dna-konzentration-intro.md",
     "size" : 314,
     "processes" : [{
       "activity" : "validate",
-      "start" : 98,
+      "start" : 396,
       "length" : 1
     }]
   },
   {
     "name" : "/input/intro-notes/StructureDefinition-mii-pr-biobank-observation-proliferation-intro.md",
-    "size" : 330
+    "size" : 330,
+    "processes" : [{
+      "activity" : "validate",
+      "start" : 396,
+      "length" : 1
+    }]
   },
   {
     "name" : "/input/intro-notes/StructureDefinition-mii-pr-biobank-observation-karyotyp-intro.md",
     "size" : 308,
     "processes" : [{
-      "activity" : "validate",
-      "start" : 98,
-      "length" : 1
-    },
-    {
       "activity" : "generate2",
-      "start" : 126,
+      "start" : 444,
       "length" : 1
     }]
   },
   {
     "name" : "/input/intro-notes/StructureDefinition-mii-pr-biobank-observation-qualitaetspruefung-intro.md",
-    "size" : 524
+    "size" : 524,
+    "processes" : [{
+      "activity" : "validate",
+      "start" : 396,
+      "length" : 1
+    }]
   },
   {
     "name" : "/input/intro-notes/StructureDefinition-mii-pr-biobank-observation-morphologie-intro.md",
     "size" : 318,
     "processes" : [{
       "activity" : "validate",
-      "start" : 98,
+      "start" : 396,
       "length" : 1
     }]
   },
@@ -3670,47 +3912,42 @@
     "size" : 0,
     "processes" : [{
       "activity" : "validate",
-      "start" : 98,
+      "start" : 396,
       "length" : 1
     }]
   },
   {
     "name" : "/template/config/_config.yml",
-    "size" : 140,
-    "processes" : [{
-      "activity" : "generate2",
-      "start" : 126,
-      "length" : 1
-    }]
+    "size" : 140
   },
   {
     "name" : "/input/images",
-    "size" : 0
+    "size" : 0,
+    "processes" : [{
+      "activity" : "validate",
+      "start" : 396,
+      "length" : 1
+    },
+    {
+      "activity" : "generate2",
+      "start" : 444,
+      "length" : 1
+    }]
+  },
+  {
+    "name" : "/input/images/UML_2027.png",
+    "size" : 93793
   },
   {
     "name" : "/input/images/Probenebenen.png",
-    "size" : 82143,
-    "processes" : [{
-      "activity" : "validate",
-      "start" : 98,
-      "length" : 1
-    }]
-  },
-  {
-    "name" : "/input/images/UML_28_05_2025.png",
-    "size" : 189718,
-    "processes" : [{
-      "activity" : "generate2",
-      "start" : 126,
-      "length" : 1
-    }]
+    "size" : 82143
   },
   {
     "name" : "/temp/pages/_includes/artifacts.xml",
-    "size" : 42600,
+    "size" : 44946,
     "processes" : [{
       "activity" : "generate2",
-      "start" : 126,
+      "start" : 444,
       "length" : 2
     }]
   }]

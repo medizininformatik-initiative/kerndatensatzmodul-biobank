@@ -1,4 +1,4 @@
-# Guidance for Researchers - MII IG Kerndatensatz-Modul Biobank v2027.0.0-ballot.rc2
+# Guidance for Researchers - MII IG Kerndatensatz-Modul Biobank v2027.0.0-ballot
 
 * [**Table of Contents**](toc.md)
 * [**Guidance**](guidance.md)
@@ -14,7 +14,7 @@ The **Biobank** module represents the information about biospecimens that is rel
 
 Depending on the research question, the following information from the module may be of particular interest:
 
-* **Specimen type and material** (`Specimen.type`) – e.g. whole blood, serum, plasma, tissue (FFPE), DNA/RNA, urine. Coding is standardized using SNOMED CT, so that specimen types are comparable across sites and machine-searchable.
+* **Specimen type or material** (`Specimen.type`) – e.g. whole blood, serum, plasma, tissue (FFPE or cryo), DNA/RNA, urine. Coding is standardized using SNOMED CT, so that specimen types are comparable across sites and machine-searchable.
 * **Collection site** (`Specimen.bodySite`) – coded using SNOMED CT or, particularly for oncological questions, ICD-O-3.
 * **Specimen hierarchy**: The module distinguishes between **primary specimen**, **aliquot group**, and **aliquot**. For feasibility queries, the aliquot group level is usually the relevant one, as it allows conclusions about actually available quantities.
 * **Quantity/volume** of the aliquot.
@@ -22,6 +22,10 @@ Depending on the research question, the following information from the module ma
 * **Diagnosis established from the specimen**: The specimen can be linked to a diagnosis that was established based on this specimen – e.g. in the case of tumor diseases, the histopathological diagnosis that is only obtained through examination of the tissue.
 * **Storage conditions and storage history** (`Specimen.container`, storage processes with temperature, start/end) – can help assess specimen quality in cases of prolonged storage or repeated freeze-thaw cycles.
 * **Infectious status/biosafety status** – relevant for planning transport and handling at the receiving site.
+
+#### Cell lines and organoids
+
+Cell lines and organoids can also be recorded as derived specimen types. Technically, they are handled like ordinary biospecimens that may carry some additional information (e.g. on the karyotype).
 
 #### What the module deliberately does not cover
 
@@ -34,6 +38,6 @@ For cross-site feasibility queries regarding biospecimens and associated data, t
 #### Further information
 
 * Structure of the resources: see [UML diagrams](uml-diagrams.md)
-* Definitions of terms (e.g. SPREC, aliquot): see [Glossary](glossary.md)
+* Definitions of terms (e.g. aliquot, aliquot group, primary specimen): see the final section of the [Guidance for Implementers](implementer-guidance.md)
 * Technical details on profiles and extensions: see [Guidance for Implementers](implementer-guidance.md)
 

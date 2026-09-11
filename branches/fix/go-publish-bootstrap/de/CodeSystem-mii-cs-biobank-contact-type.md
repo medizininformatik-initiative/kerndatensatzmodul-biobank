@@ -1,4 +1,4 @@
-# MII CS Biobank Contact Type - MII IG Kerndatensatz-Modul Biobank v2027.0.0-ballot.rc2
+# MII CS Biobank Contact Type - MII IG Kerndatensatz-Modul Biobank v2027.0.0-ballot
 
 * [**Inhaltsverzeichnis**](toc.md)
 * [**Artefaktübersicht**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Offizielle URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/CodeSystem/ContactType | *Version*:2027.0.0-ballot.rc2 |
-| Active Stand: 2025-09-02 | *Maschinenlesbarer Name*:MII_CS_Biobank_Contact_Type |
+| *Offizielle URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/CodeSystem/ContactType | *Version*:2027.0.0-ballot |
+| Active Stand: 2026-09-10 | *Maschinenlesbarer Name*:MII_CS_Biobank_Contact_Type |
 
  
 Contact Type für Organization.contact 
@@ -34,6 +34,14 @@ Dieses CodeSystem wird in der Definition der folgenden ValueSets referenziert:
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablecodesystem"]
   },
   "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/artifact-versionAlgorithm",
+    "valueCoding" : {
+      "system" : "http://hl7.org/fhir/version-algorithm",
+      "code" : "semver",
+      "display" : "SemVer"
+    }
+  },
+  {
     "url" : "https://www.medizininformatik-initiative.de/fhir/modul-meta/StructureDefinition/mii-ex-meta-license-codeable",
     "valueCodeableConcept" : {
       "coding" : [{
@@ -44,7 +52,7 @@ Dieses CodeSystem wird in der Definition der folgenden ValueSets referenziert:
     }
   }],
   "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/CodeSystem/ContactType",
-  "version" : "2027.0.0-ballot.rc2",
+  "version" : "2027.0.0-ballot",
   "name" : "MII_CS_Biobank_Contact_Type",
   "_name" : {
     "extension" : [{
@@ -75,7 +83,7 @@ Dieses CodeSystem wird in der Definition der folgenden ValueSets referenziert:
   },
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-09-02",
+  "date" : "2026-09-10",
   "publisher" : "Medizininformatik Initiative",
   "contact" : [{
     "name" : "Medizininformatik Initiative",

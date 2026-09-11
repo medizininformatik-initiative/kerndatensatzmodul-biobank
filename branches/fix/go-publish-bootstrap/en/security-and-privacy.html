@@ -6,7 +6,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en" dir="ltr">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>Security and Privacy - MII IG Kerndatensatz-Modul Biobank v2027.0.0-ballot.rc2</title>
+    <title>Security and Privacy - MII IG Kerndatensatz-Modul Biobank v2027.0.0-ballot</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -141,11 +141,11 @@
         <div id="ig-status">
           <p><span style="font-size:12pt;font-weight:bold">MII IG Kerndatensatz-Modul Biobank</span>
             <br/>
-            <span style="display:inline-block;">2027.0.0-ballot.rc2 - 
+            <span style="display:inline-block;">2027.0.0-ballot - 
 
 
 
-  <img alt="Germany flag" src="assets/images/deu.svg" height="16" title="Germany"/>
+  Germany
 
 
             </span>
@@ -312,7 +312,7 @@ h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) ".
 h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
 </style>
 <div class="col-12">
-  <!--ReleaseHeader--><p id="publish-box">MII IG Kerndatensatz-Modul Biobank - Local Development build (v2027.0.0-ballot.rc2) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href='https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/history.html'>Directory of published versions</a></p><!--EndReleaseHeader-->
+  <!--ReleaseHeader--><p id="publish-box">MII IG Kerndatensatz-Modul Biobank - Local Development build (v2027.0.0-ballot) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href='https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/history.html'>Directory of published versions</a></p><!--EndReleaseHeader-->
   <h2>Security and Privacy</h2>
   
 
@@ -339,9 +339,8 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
      module-specific aspects. Stages 1 and 2 are static overarching content —
      keep them; stage 3 is where your module writes. Stage 3's CONTENT is
      optional: a module with no aspects of its own adopts the default text in
-     the section. The Person example box is illustrative only and MUST be
-     removed before the first release (ILLUSTRATIVE-EXAMPLE marker, convention
-     check M11).
+     the section. (The scaffold's illustrative Person example box was removed
+     for the release, per convention check M11.)
      German mirror: input/translations/de/pagecontent/security-and-privacy.md —
      both files must say the same thing. -->
 
@@ -378,38 +377,7 @@ by the DIMP configuration, not by this guide.</p>
 
 <h4 id="3-module-specific-aspects">3. Module-specific aspects</h4>
 
-<p>This is the module's own contribution: the security and privacy properties
-that follow from the <em>kind of data this module carries</em>. <strong>Its content is
-optional</strong> — not every module has aspects of its own. If yours does not, the
-whole section body becomes the following default text (delete the example and
-TODO boxes below and adopt it verbatim):</p>
-
-<blockquote>
-  <p>Beyond the overarching framework above — the overarching data protection
-concept, the Broad Consent it rests on, and DIMP — this module carries no
-data category that raises security or privacy aspects of its own, and it
-places no module-specific security or privacy requirements on implementers.</p>
-</blockquote>
-
-<!-- ILLUSTRATIVE-EXAMPLE — decide this section and remove the example box
-     below (in this file AND the German mirror) before the first release;
-     the convention check (M11) fails a release branch while it is present. -->
-<blockquote class="ig-highlight ig-highlight-orange">
-  <p><strong>Illustrative example — remove before the first release.</strong> How another KDS
-module fills this section (<em>Person</em>): the patient identifiers are pseudonyms
-from the trusted third party; systems must not let record linkage
-re-identify a person, and the pseudonym's scope (site-wide vs
-project-specific) must be respected when data is combined.</p>
-</blockquote>
-
-<blockquote class="ig-highlight ig-highlight-grey">
-  <p>[TODO: State your module's specific aspects — the data categories it carries
-and their sensitivity, risks that profile-level pseudonymisation does not
-cover, and any security- or privacy-related SHALL/SHOULD/MAY requirements
-this module places on implementers, each with the risk it addresses. Name
-residual risks that must be handled in system design, deployment or policy —
-or adopt the default text above if there are none.]</p>
-</blockquote>
+<p>[TODO]</p>
 
 
 
@@ -435,8 +403,8 @@ or adopt the default text above if there are none.]</p>
 
 
           IG © 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.medizininformatik-initiative.de/">Medizininformatik Initiative</a>.  
-          Package de.medizininformatikinitiative.kerndatensatz.biobank#2027.0.0-ballot.rc2 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>.
-          Generated <span title="Wed, Sep 9, 2026 13:48+0000">2026-09-09</span>
+          Package de.medizininformatikinitiative.kerndatensatz.biobank#2027.0.0-ballot based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>.
+          Generated <span title="Fri, Sep 11, 2026 10:07+0000">2026-09-11</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
             <!-- Branding override for the fhir2.base.template footer fragment.

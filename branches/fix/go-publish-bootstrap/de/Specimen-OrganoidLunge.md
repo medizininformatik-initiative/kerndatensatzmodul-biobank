@@ -1,4 +1,4 @@
-# Organoid Lungenbiopsie - MII IG Kerndatensatz-Modul Biobank v2027.0.0-ballot.rc2
+# Organoid Lungenbiopsie - MII IG Kerndatensatz-Modul Biobank v2027.0.0-ballot
 
 * [**Inhaltsverzeichnis**](toc.md)
 * [**Artefaktübersicht**](artifacts.md)
@@ -95,7 +95,7 @@ Profile: [MII PR Biobank Specimen Zellinie Organoid](StructureDefinition-mii-pr-
       "display" : "Specimen (specimen)"
     },
     {
-      "system" : "https://fhir.bbmri-eric.eu/fhir/CodeSystem/miabis-detailed-samply-type-cs",
+      "system" : "https://fhir.bbmri-eric.eu/CodeSystem/miabis-detailed-samply-type-cs",
       "code" : "Organoid",
       "display" : "Organoids"
     }]

@@ -44,7 +44,7 @@
     <sch:title>f:Specimen/f:processing</sch:title>
     <sch:rule context="f:Specimen/f:processing">
       <sch:assert test="count(f:extension[@url = 'https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/Temperaturbedingungen']) &lt;= 1">extension with URL = 'https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/Temperaturbedingungen': maximum cardinality of 'extension' is 1</sch:assert>
-      <sch:assert test="count(f:extension[@url = 'https://fhir.bbmri-eric.eu/fhir/StructureDefinition/miabis-sample-storage-temperature-extension']) &lt;= 1">extension with URL = 'https://fhir.bbmri-eric.eu/fhir/StructureDefinition/miabis-sample-storage-temperature-extension': maximum cardinality of 'extension' is 1</sch:assert>
+      <sch:assert test="count(f:extension[@url = 'https://fhir.bbmri-eric.eu/StructureDefinition/miabis-sample-storage-temperature-extension']) &lt;= 1">extension with URL = 'https://fhir.bbmri-eric.eu/StructureDefinition/miabis-sample-storage-temperature-extension': maximum cardinality of 'extension' is 1</sch:assert>
       <sch:assert test="count(f:extension[@url = 'https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/Temperaturbedingungen']) &lt;= 1">extension with URL = 'https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/Temperaturbedingungen': maximum cardinality of 'extension' is 1</sch:assert>
     </sch:rule>
   </sch:pattern>

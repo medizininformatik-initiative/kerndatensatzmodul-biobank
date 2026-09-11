@@ -1,11 +1,9 @@
-# Guidance - MII IG Kerndatensatz-Modul Biobank v2027.0.0-ballot.rc2
+# Guidance - MII IG Kerndatensatz-Modul Biobank v2027.0.0-ballot
 
 * [**Table of Contents**](toc.md)
 * **Guidance**
 
 ## Guidance
-
-> These introductory lines and the link list were newly written during the migration (the source hub page was intentionally empty).
 
 This page describes the module's application scenarios; the subpages cover individual aspects in more depth:
 

@@ -1,4 +1,4 @@
-# MII PR Biobank Observation Qualitätsprüfung - MII IG Kerndatensatz-Modul Biobank v2027.0.0-ballot.rc2
+# MII PR Biobank Observation Qualitätsprüfung - MII IG Kerndatensatz-Modul Biobank v2027.0.0-ballot
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/mii-pr-biobank-observation-qualitaetspruefung | *Version*:2027.0.0-ballot.rc2 |
-| Active as of 2025-09-02 | *Computable Name*:MII_PR_Biobank_Observation_Qualitaetspruefung |
+| *Official URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/mii-pr-biobank-observation-qualitaetspruefung | *Version*:2027.0.0-ballot |
+| Active as of 2026-09-10 | *Computable Name*:MII_PR_Biobank_Observation_Qualitaetspruefung |
 
  
 Type and result of a quality check performed on specimen, a cell line or organoid 
@@ -47,6 +47,14 @@ Other representations of profile: [CSV](../StructureDefinition-mii-pr-biobank-ob
   "resourceType" : "StructureDefinition",
   "id" : "mii-pr-biobank-observation-qualitaetspruefung",
   "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/artifact-versionAlgorithm",
+    "valueCoding" : {
+      "system" : "http://hl7.org/fhir/version-algorithm",
+      "code" : "semver",
+      "display" : "SemVer"
+    }
+  },
+  {
     "url" : "https://www.medizininformatik-initiative.de/fhir/modul-meta/StructureDefinition/mii-ex-meta-license-codeable",
     "valueCodeableConcept" : {
       "coding" : [{
@@ -57,7 +65,7 @@ Other representations of profile: [CSV](../StructureDefinition-mii-pr-biobank-ob
     }
   }],
   "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/mii-pr-biobank-observation-qualitaetspruefung",
-  "version" : "2027.0.0-ballot.rc2",
+  "version" : "2027.0.0-ballot",
   "name" : "MII_PR_Biobank_Observation_Qualitaetspruefung",
   "_name" : {
     "extension" : [{
@@ -98,7 +106,7 @@ Other representations of profile: [CSV](../StructureDefinition-mii-pr-biobank-ob
     }]
   },
   "status" : "active",
-  "date" : "2025-09-02",
+  "date" : "2026-09-10",
   "publisher" : "Medizininformatik Initiative",
   "contact" : [{
     "name" : "Medizininformatik Initiative",

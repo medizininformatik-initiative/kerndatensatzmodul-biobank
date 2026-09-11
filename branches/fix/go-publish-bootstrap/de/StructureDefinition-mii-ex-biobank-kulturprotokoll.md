@@ -1,4 +1,4 @@
-# MII EX Biobank Kulturprotokoll - MII IG Kerndatensatz-Modul Biobank v2027.0.0-ballot.rc2
+# MII EX Biobank Kulturprotokoll - MII IG Kerndatensatz-Modul Biobank v2027.0.0-ballot
 
 * [**Inhaltsverzeichnis**](toc.md)
 * [**Artefaktübersicht**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Offizielle URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/mii-ex-biobank-kulturprotokoll | *Version*:2027.0.0-ballot.rc2 |
-| Active Stand: 2026-09-09 | *Maschinenlesbarer Name*:MII_EX_Biobank_Kulturprotokoll |
+| *Offizielle URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/mii-ex-biobank-kulturprotokoll | *Version*:2027.0.0-ballot |
+| Active Stand: 2026-09-11 | *Maschinenlesbarer Name*:MII_EX_Biobank_Kulturprotokoll |
 
 Protokoll der Kultur der Zellinie oder des Organiods.
 
@@ -70,6 +70,14 @@ Weitere Repräsentationen des Profils: [CSV](../StructureDefinition-mii-ex-bioba
   "resourceType" : "StructureDefinition",
   "id" : "mii-ex-biobank-kulturprotokoll",
   "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/artifact-versionAlgorithm",
+    "valueCoding" : {
+      "system" : "http://hl7.org/fhir/version-algorithm",
+      "code" : "semver",
+      "display" : "SemVer"
+    }
+  },
+  {
     "url" : "https://www.medizininformatik-initiative.de/fhir/modul-meta/StructureDefinition/mii-ex-meta-license-codeable",
     "valueCodeableConcept" : {
       "coding" : [{
@@ -80,7 +88,7 @@ Weitere Repräsentationen des Profils: [CSV](../StructureDefinition-mii-ex-bioba
     }
   }],
   "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/mii-ex-biobank-kulturprotokoll",
-  "version" : "2027.0.0-ballot.rc2",
+  "version" : "2027.0.0-ballot",
   "name" : "MII_EX_Biobank_Kulturprotokoll",
   "_name" : {
     "extension" : [{
@@ -110,7 +118,7 @@ Weitere Repräsentationen des Profils: [CSV](../StructureDefinition-mii-ex-bioba
     }]
   },
   "status" : "active",
-  "date" : "2026-09-09T13:48:19+00:00",
+  "date" : "2026-09-11T10:07:49+00:00",
   "publisher" : "Medizininformatik Initiative",
   "contact" : [{
     "name" : "Medizininformatik Initiative",

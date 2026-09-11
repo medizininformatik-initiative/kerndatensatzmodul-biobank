@@ -1,4 +1,4 @@
-# MII PR Biobank Organization Sammlung Biobank - MII IG Kerndatensatz-Modul Biobank v2027.0.0-ballot.rc2
+# MII PR Biobank Organization Sammlung Biobank - MII IG Kerndatensatz-Modul Biobank v2027.0.0-ballot
 
 * [**Inhaltsverzeichnis**](toc.md)
 * [**Artefaktübersicht**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Offizielle URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/Organization | *Version*:2027.0.0-ballot.rc2 |
-| Active Stand: 2025-09-02 | *Maschinenlesbarer Name*:MII_PR_Biobank_Organization_Sammlung_Biobank |
+| *Offizielle URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/Organization | *Version*:2027.0.0-ballot |
+| Active Stand: 2026-09-10 | *Maschinenlesbarer Name*:MII_PR_Biobank_Organization_Sammlung_Biobank |
 
  
 Darstellung der organisatorischen Daten einer Probensammlung oder Biobank. 
@@ -68,9 +68,9 @@ This structure refers to these other structures:
 
 This structure refers to these extensions:
 
-* [https://fhir.bbmri-eric.eu/fhir/StructureDefinition/miabis-organization-description-extension](https://simplifier.net/resolve?scope=eu.miabis.r4@0.2.0&canonical=https://fhir.bbmri-eric.eu/fhir/StructureDefinition/miabis-organization-description-extension)
-* [https://fhir.bbmri-eric.eu/fhir/StructureDefinition/miabis-sample-collection-setting-extension](https://simplifier.net/resolve?scope=eu.miabis.r4@0.2.0&canonical=https://fhir.bbmri-eric.eu/fhir/StructureDefinition/miabis-sample-collection-setting-extension)
-* [https://fhir.bbmri-eric.eu/fhir/StructureDefinition/miabis-collection-design-extension](https://simplifier.net/resolve?scope=eu.miabis.r4@0.2.0&canonical=https://fhir.bbmri-eric.eu/fhir/StructureDefinition/miabis-collection-design-extension)
+* [https://fhir.bbmri-eric.eu/StructureDefinition/miabis-organization-description-extension](https://simplifier.net/resolve?scope=eu.miabis.r4@1.3.0&canonical=https://fhir.bbmri-eric.eu/StructureDefinition/miabis-organization-description-extension)
+* [https://fhir.bbmri-eric.eu/StructureDefinition/miabis-sample-collection-setting-extension](https://simplifier.net/resolve?scope=eu.miabis.r4@1.3.0&canonical=https://fhir.bbmri-eric.eu/StructureDefinition/miabis-sample-collection-setting-extension)
+* [https://fhir.bbmri-eric.eu/StructureDefinition/miabis-collection-design-extension](https://simplifier.net/resolve?scope=eu.miabis.r4@1.3.0&canonical=https://fhir.bbmri-eric.eu/StructureDefinition/miabis-collection-design-extension)
 * [https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/KontaktRolle](StructureDefinition-mii-ex-biobank-kontaktrolle.md)
 
 **Slices**
@@ -113,9 +113,9 @@ This structure refers to these other structures:
 
 This structure refers to these extensions:
 
-* [https://fhir.bbmri-eric.eu/fhir/StructureDefinition/miabis-organization-description-extension](https://simplifier.net/resolve?scope=eu.miabis.r4@0.2.0&canonical=https://fhir.bbmri-eric.eu/fhir/StructureDefinition/miabis-organization-description-extension)
-* [https://fhir.bbmri-eric.eu/fhir/StructureDefinition/miabis-sample-collection-setting-extension](https://simplifier.net/resolve?scope=eu.miabis.r4@0.2.0&canonical=https://fhir.bbmri-eric.eu/fhir/StructureDefinition/miabis-sample-collection-setting-extension)
-* [https://fhir.bbmri-eric.eu/fhir/StructureDefinition/miabis-collection-design-extension](https://simplifier.net/resolve?scope=eu.miabis.r4@0.2.0&canonical=https://fhir.bbmri-eric.eu/fhir/StructureDefinition/miabis-collection-design-extension)
+* [https://fhir.bbmri-eric.eu/StructureDefinition/miabis-organization-description-extension](https://simplifier.net/resolve?scope=eu.miabis.r4@1.3.0&canonical=https://fhir.bbmri-eric.eu/StructureDefinition/miabis-organization-description-extension)
+* [https://fhir.bbmri-eric.eu/StructureDefinition/miabis-sample-collection-setting-extension](https://simplifier.net/resolve?scope=eu.miabis.r4@1.3.0&canonical=https://fhir.bbmri-eric.eu/StructureDefinition/miabis-sample-collection-setting-extension)
+* [https://fhir.bbmri-eric.eu/StructureDefinition/miabis-collection-design-extension](https://simplifier.net/resolve?scope=eu.miabis.r4@1.3.0&canonical=https://fhir.bbmri-eric.eu/StructureDefinition/miabis-collection-design-extension)
 * [https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/KontaktRolle](StructureDefinition-mii-ex-biobank-kontaktrolle.md)
 
 **Slices**
@@ -138,6 +138,14 @@ Weitere Repräsentationen des Profils: [CSV](../StructureDefinition-mii-pr-bioba
   "resourceType" : "StructureDefinition",
   "id" : "mii-pr-biobank-organization",
   "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/artifact-versionAlgorithm",
+    "valueCoding" : {
+      "system" : "http://hl7.org/fhir/version-algorithm",
+      "code" : "semver",
+      "display" : "SemVer"
+    }
+  },
+  {
     "url" : "https://www.medizininformatik-initiative.de/fhir/modul-meta/StructureDefinition/mii-ex-meta-license-codeable",
     "valueCodeableConcept" : {
       "coding" : [{
@@ -148,7 +156,7 @@ Weitere Repräsentationen des Profils: [CSV](../StructureDefinition-mii-pr-bioba
     }
   }],
   "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/Organization",
-  "version" : "2027.0.0-ballot.rc2",
+  "version" : "2027.0.0-ballot",
   "name" : "MII_PR_Biobank_Organization_Sammlung_Biobank",
   "_name" : {
     "extension" : [{
@@ -189,7 +197,7 @@ Weitere Repräsentationen des Profils: [CSV](../StructureDefinition-mii-pr-bioba
     }]
   },
   "status" : "active",
-  "date" : "2025-09-02",
+  "date" : "2026-09-10",
   "publisher" : "Medizininformatik Initiative",
   "contact" : [{
     "name" : "Medizininformatik Initiative",
@@ -344,7 +352,7 @@ Weitere Repräsentationen des Profils: [CSV](../StructureDefinition-mii-pr-bioba
       "max" : "1",
       "type" : [{
         "code" : "Extension",
-        "profile" : ["https://fhir.bbmri-eric.eu/fhir/StructureDefinition/miabis-organization-description-extension"]
+        "profile" : ["https://fhir.bbmri-eric.eu/StructureDefinition/miabis-organization-description-extension"]
       }],
       "mustSupport" : true
     },
@@ -356,7 +364,7 @@ Weitere Repräsentationen des Profils: [CSV](../StructureDefinition-mii-pr-bioba
       "max" : "1",
       "type" : [{
         "code" : "Extension",
-        "profile" : ["https://fhir.bbmri-eric.eu/fhir/StructureDefinition/miabis-sample-collection-setting-extension"]
+        "profile" : ["https://fhir.bbmri-eric.eu/StructureDefinition/miabis-sample-collection-setting-extension"]
       }],
       "mustSupport" : true
     },
@@ -368,7 +376,7 @@ Weitere Repräsentationen des Profils: [CSV](../StructureDefinition-mii-pr-bioba
       "max" : "1",
       "type" : [{
         "code" : "Extension",
-        "profile" : ["https://fhir.bbmri-eric.eu/fhir/StructureDefinition/miabis-collection-design-extension"]
+        "profile" : ["https://fhir.bbmri-eric.eu/StructureDefinition/miabis-collection-design-extension"]
       }],
       "mustSupport" : true
     },

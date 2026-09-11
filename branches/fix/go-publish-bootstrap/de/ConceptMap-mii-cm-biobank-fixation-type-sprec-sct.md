@@ -1,4 +1,4 @@
-# MII CM Biobank Fixation Type SPREC 4.0 SCT - MII IG Kerndatensatz-Modul Biobank v2027.0.0-ballot.rc2
+# MII CM Biobank Fixation Type SPREC 4.0 SCT - MII IG Kerndatensatz-Modul Biobank v2027.0.0-ballot
 
 * [**Inhaltsverzeichnis**](toc.md)
 * [**Artefaktübersicht**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Offizielle URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ConceptMap/mii-cm-biobank-fixation-type-sprec-sct | *Version*:2027.0.0-ballot.rc2 |
-| Active Stand: 2026-09-09 | *Maschinenlesbarer Name*: |
+| *Offizielle URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ConceptMap/mii-cm-biobank-fixation-type-sprec-sct | *Version*:2027.0.0-ballot |
+| Active Stand: 2026-09-11 | *Maschinenlesbarer Name*: |
 | **Copyright/Rechtliches**: This concept map includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement. It also includes content from SPREC 4.0, https://doi.org/10.1089/bio.2024.0010 | |
 
  
@@ -24,6 +24,14 @@ Mapping der SPREC 4.0 Fixation Types auf die im Modul verwendeten SNOMED CT Code
   "resourceType" : "ConceptMap",
   "id" : "mii-cm-biobank-fixation-type-sprec-sct",
   "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/artifact-versionAlgorithm",
+    "valueCoding" : {
+      "system" : "http://hl7.org/fhir/version-algorithm",
+      "code" : "semver",
+      "display" : "SemVer"
+    }
+  },
+  {
     "url" : "https://www.medizininformatik-initiative.de/fhir/modul-meta/StructureDefinition/mii-ex-meta-license-codeable",
     "valueCodeableConcept" : {
       "coding" : [{
@@ -34,10 +42,10 @@ Mapping der SPREC 4.0 Fixation Types auf die im Modul verwendeten SNOMED CT Code
     }
   }],
   "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ConceptMap/mii-cm-biobank-fixation-type-sprec-sct",
-  "version" : "2027.0.0-ballot.rc2",
+  "version" : "2027.0.0-ballot",
   "title" : "MII CM Biobank Fixation Type SPREC 4.0 SCT",
   "status" : "active",
-  "date" : "2026-09-09T13:48:19+00:00",
+  "date" : "2026-09-11T10:07:49+00:00",
   "publisher" : "Medizininformatik Initiative",
   "contact" : [{
     "name" : "Medizininformatik Initiative",

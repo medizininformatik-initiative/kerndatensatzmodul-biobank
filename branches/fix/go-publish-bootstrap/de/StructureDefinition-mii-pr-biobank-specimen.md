@@ -1,4 +1,4 @@
-# MII PR Biobank Specimen Bioprobe - MII IG Kerndatensatz-Modul Biobank v2027.0.0-ballot.rc2
+# MII PR Biobank Specimen Bioprobe - MII IG Kerndatensatz-Modul Biobank v2027.0.0-ballot
 
 * [**Inhaltsverzeichnis**](toc.md)
 * [**Artefaktübersicht**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Offizielle URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/Specimen | *Version*:2027.0.0-ballot.rc2 |
-| Active Stand: 2025-09-02 | *Maschinenlesbarer Name*:MII_PR_Biobank_Specimen_Bioprobe |
+| *Offizielle URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/Specimen | *Version*:2027.0.0-ballot |
+| Active Stand: 2026-09-10 | *Maschinenlesbarer Name*:MII_PR_Biobank_Specimen_Bioprobe |
 
  
 Abbildung einer MII Bioprobe 
@@ -48,7 +48,7 @@ Diese Struktur ist abgeleitet von [MII_PR_Biobank_Specimen_Bioprobe_Core](Struct
 
 ** Summary **
 
-Mandatory: 2 elements(2 nested mandatory elements)
+Mandatory: 2 elements(5 nested mandatory elements)
  Must-Support: 10 elements
 
 **Extensions**
@@ -58,7 +58,7 @@ This structure refers to these extensions:
 * [https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/Diagnose](StructureDefinition-mii-ex-biobank-diagnose.md)
 * [https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/VerwaltendeOrganisation](StructureDefinition-mii-ex-biobank-verwaltende-organisation.md)
 * [https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/mii-ex-biobank-anzahl-aliquots](StructureDefinition-mii-ex-biobank-anzahl-aliquots.md)
-* [https://fhir.bbmri-eric.eu/fhir/StructureDefinition/miabis-sample-storage-temperature-extension](https://simplifier.net/resolve?scope=eu.miabis.r4@0.2.0&canonical=https://fhir.bbmri-eric.eu/fhir/StructureDefinition/miabis-sample-storage-temperature-extension)
+* [https://fhir.bbmri-eric.eu/StructureDefinition/miabis-sample-storage-temperature-extension](https://simplifier.net/resolve?scope=eu.miabis.r4@1.3.0&canonical=https://fhir.bbmri-eric.eu/StructureDefinition/miabis-sample-storage-temperature-extension)
 
  **Schlüsselelemente-Ansicht** 
 
@@ -82,7 +82,7 @@ Diese Struktur ist abgeleitet von [MII_PR_Biobank_Specimen_Bioprobe_Core](Struct
 
 ** Summary **
 
-Mandatory: 2 elements(2 nested mandatory elements)
+Mandatory: 2 elements(5 nested mandatory elements)
  Must-Support: 10 elements
 
 **Extensions**
@@ -92,7 +92,7 @@ This structure refers to these extensions:
 * [https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/Diagnose](StructureDefinition-mii-ex-biobank-diagnose.md)
 * [https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/VerwaltendeOrganisation](StructureDefinition-mii-ex-biobank-verwaltende-organisation.md)
 * [https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/mii-ex-biobank-anzahl-aliquots](StructureDefinition-mii-ex-biobank-anzahl-aliquots.md)
-* [https://fhir.bbmri-eric.eu/fhir/StructureDefinition/miabis-sample-storage-temperature-extension](https://simplifier.net/resolve?scope=eu.miabis.r4@0.2.0&canonical=https://fhir.bbmri-eric.eu/fhir/StructureDefinition/miabis-sample-storage-temperature-extension)
+* [https://fhir.bbmri-eric.eu/StructureDefinition/miabis-sample-storage-temperature-extension](https://simplifier.net/resolve?scope=eu.miabis.r4@1.3.0&canonical=https://fhir.bbmri-eric.eu/StructureDefinition/miabis-sample-storage-temperature-extension)
 
  
 
@@ -107,6 +107,14 @@ Weitere Repräsentationen des Profils: [CSV](../StructureDefinition-mii-pr-bioba
   "resourceType" : "StructureDefinition",
   "id" : "mii-pr-biobank-specimen",
   "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/artifact-versionAlgorithm",
+    "valueCoding" : {
+      "system" : "http://hl7.org/fhir/version-algorithm",
+      "code" : "semver",
+      "display" : "SemVer"
+    }
+  },
+  {
     "url" : "https://www.medizininformatik-initiative.de/fhir/modul-meta/StructureDefinition/mii-ex-meta-license-codeable",
     "valueCodeableConcept" : {
       "coding" : [{
@@ -117,7 +125,7 @@ Weitere Repräsentationen des Profils: [CSV](../StructureDefinition-mii-pr-bioba
     }
   }],
   "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/Specimen",
-  "version" : "2027.0.0-ballot.rc2",
+  "version" : "2027.0.0-ballot",
   "name" : "MII_PR_Biobank_Specimen_Bioprobe",
   "_name" : {
     "extension" : [{
@@ -158,7 +166,7 @@ Weitere Repräsentationen des Profils: [CSV](../StructureDefinition-mii-pr-bioba
     }]
   },
   "status" : "active",
-  "date" : "2025-09-02",
+  "date" : "2026-09-10",
   "publisher" : "Medizininformatik Initiative",
   "contact" : [{
     "name" : "Medizininformatik Initiative",
@@ -361,13 +369,13 @@ Weitere Repräsentationen des Profils: [CSV](../StructureDefinition-mii-pr-bioba
       "mustSupport" : true,
       "binding" : {
         "strength" : "required",
-        "valueSet" : "https://fhir.bbmri-eric.eu/fhir/ValueSet/miabis-detailed-sample-type-vs"
+        "valueSet" : "https://fhir.bbmri-eric.eu/ValueSet/miabis-detailed-sample-type-vs"
       }
     },
     {
       "id" : "Specimen.type.coding:miabis-type.system",
       "path" : "Specimen.type.coding.system",
-      "patternUri" : "https://fhir.bbmri-eric.eu/fhir/CodeSystem/miabis-detailed-samply-type-cs"
+      "patternUri" : "https://fhir.bbmri-eric.eu/CodeSystem/miabis-detailed-samply-type-cs"
     },
     {
       "id" : "Specimen.collection.method",
@@ -396,6 +404,17 @@ Weitere Repräsentationen des Profils: [CSV](../StructureDefinition-mii-pr-bioba
       "path" : "Specimen.processing"
     },
     {
+      "id" : "Specimen.processing.extension",
+      "path" : "Specimen.processing.extension",
+      "min" : 1
+    },
+    {
+      "id" : "Specimen.processing.extension:temperaturbedingungen",
+      "path" : "Specimen.processing.extension",
+      "sliceName" : "temperaturbedingungen",
+      "min" : 1
+    },
+    {
       "id" : "Specimen.processing.extension:temperature-miabis",
       "path" : "Specimen.processing.extension",
       "sliceName" : "temperature-miabis",
@@ -403,9 +422,20 @@ Weitere Repräsentationen des Profils: [CSV](../StructureDefinition-mii-pr-bioba
       "max" : "1",
       "type" : [{
         "code" : "Extension",
-        "profile" : ["https://fhir.bbmri-eric.eu/fhir/StructureDefinition/miabis-sample-storage-temperature-extension"]
+        "profile" : ["https://fhir.bbmri-eric.eu/StructureDefinition/miabis-sample-storage-temperature-extension"]
       }],
       "mustSupport" : true
+    },
+    {
+      "id" : "Specimen.processing:lagerprozess",
+      "path" : "Specimen.processing",
+      "sliceName" : "lagerprozess"
+    },
+    {
+      "id" : "Specimen.processing:lagerprozess.extension:temperaturbedingungen",
+      "path" : "Specimen.processing.extension",
+      "sliceName" : "temperaturbedingungen",
+      "min" : 1
     },
     {
       "id" : "Specimen.container",

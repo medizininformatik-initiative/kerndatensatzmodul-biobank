@@ -1,9 +1,15 @@
-# Changelog - MII IG Kerndatensatz-Modul Biobank v2027.0.0-ballot.rc2
+# Changelog - MII IG Kerndatensatz-Modul Biobank v2027.0.0-ballot
 
 * [**Table of Contents**](toc.md)
 * **Changelog**
 
 ## Changelog
+
+### Version 2027.0.0-ballot
+
+Chore:
+
+* Update MIABIS Dependency to 1.3.0 **Breaking Changes:** MIABIS changes all canonical URLs. This impacts extensions as well as the system URLs for temperature & sample material codes.
 
 ### Version 2027.0.0-ballot.rc2
 

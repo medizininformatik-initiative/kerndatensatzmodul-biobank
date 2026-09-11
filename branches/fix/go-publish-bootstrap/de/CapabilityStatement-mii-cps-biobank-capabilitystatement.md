@@ -1,4 +1,4 @@
-# MII CPS Biobank CapabilityStatement - MII IG Kerndatensatz-Modul Biobank v2027.0.0-ballot.rc2
+# MII CPS Biobank CapabilityStatement - MII IG Kerndatensatz-Modul Biobank v2027.0.0-ballot
 
 * [**Inhaltsverzeichnis**](toc.md)
 * [**Artefaktübersicht**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Offizielle URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/CapabilityStatement/metadata | *Version*:2027.0.0-ballot.rc2 |
-| Active Stand: 2025-09-02 | *Maschinenlesbarer Name*:MII_CPS_Biobank_CapabilityStatement |
+| *Offizielle URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/CapabilityStatement/metadata | *Version*:2027.0.0-ballot |
+| Active Stand: 2026-09-10 | *Maschinenlesbarer Name*:MII_CPS_Biobank_CapabilityStatement |
 
  
 Das vorliegende CapabilityStatement beschreibt alle verpflichtenden Interaktionen die ein konformes System unterstützen muss, um das Modul Biobank der Medizininformatik Initiative zu implementieren. 
@@ -25,6 +25,14 @@ Das vorliegende CapabilityStatement beschreibt alle verpflichtenden Interaktione
   "resourceType" : "CapabilityStatement",
   "id" : "mii-cps-biobank-capabilitystatement",
   "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/artifact-versionAlgorithm",
+    "valueCoding" : {
+      "system" : "http://hl7.org/fhir/version-algorithm",
+      "code" : "semver",
+      "display" : "SemVer"
+    }
+  },
+  {
     "url" : "https://www.medizininformatik-initiative.de/fhir/modul-meta/StructureDefinition/mii-ex-meta-license-codeable",
     "valueCodeableConcept" : {
       "coding" : [{
@@ -35,12 +43,12 @@ Das vorliegende CapabilityStatement beschreibt alle verpflichtenden Interaktione
     }
   }],
   "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/CapabilityStatement/metadata",
-  "version" : "2027.0.0-ballot.rc2",
+  "version" : "2027.0.0-ballot",
   "name" : "MII_CPS_Biobank_CapabilityStatement",
   "title" : "MII CPS Biobank CapabilityStatement",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-09-02",
+  "date" : "2026-09-10",
   "publisher" : "Medizininformatik Initiative",
   "contact" : [{
     "name" : "Medizininformatik Initiative",
@@ -236,6 +244,15 @@ Das vorliegende CapabilityStatement beschreibt alle verpflichtenden Interaktione
           "url" : "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation",
           "valueCode" : "SHALL"
         }],
+        "name" : "feature",
+        "definition" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/SearchParameter/mii-sp-biobank-specimen-feature",
+        "type" : "token"
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation",
+          "valueCode" : "SHALL"
+        }],
         "name" : "einstellung-blutversorgung",
         "definition" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-meta/SearchParameter/mii-sp-meta-specimen-einstellung-blutversorgung",
         "type" : "date"
@@ -347,6 +364,24 @@ Das vorliegende CapabilityStatement beschreibt alle verpflichtenden Interaktione
         "name" : "note",
         "definition" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-meta/SearchParameter/mii-sp-meta-specimen-note",
         "type" : "string"
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation",
+          "valueCode" : "SHALL"
+        }],
+        "name" : "infektiositaetsstatus",
+        "definition" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/SearchParameter/mii-sp-biobank-infektiositaetsstatus",
+        "type" : "token"
+      },
+      {
+        "extension" : [{
+          "url" : "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation",
+          "valueCode" : "SHALL"
+        }],
+        "name" : "focus",
+        "definition" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/SearchParameter/mii-sp-biobank-specimen-focus",
+        "type" : "reference"
       },
       {
         "extension" : [{

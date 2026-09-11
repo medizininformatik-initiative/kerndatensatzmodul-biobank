@@ -1,4 +1,4 @@
-# MII PR Biobank Specimen Bioprobe - MII IG Kerndatensatz-Modul Biobank v2027.0.0-ballot.rc2
+# MII PR Biobank Specimen Bioprobe - MII IG Kerndatensatz-Modul Biobank v2027.0.0-ballot
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/Specimen | *Version*:2027.0.0-ballot.rc2 |
-| Active as of 2025-09-02 | *Computable Name*:MII_PR_Biobank_Specimen_Bioprobe |
+| *Official URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/Specimen | *Version*:2027.0.0-ballot |
+| Active as of 2026-09-10 | *Computable Name*:MII_PR_Biobank_Specimen_Bioprobe |
 
  
 Representation of a MII bioprobe 
@@ -39,6 +39,14 @@ Other representations of profile: [CSV](../StructureDefinition-mii-pr-biobank-sp
   "resourceType" : "StructureDefinition",
   "id" : "mii-pr-biobank-specimen",
   "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/artifact-versionAlgorithm",
+    "valueCoding" : {
+      "system" : "http://hl7.org/fhir/version-algorithm",
+      "code" : "semver",
+      "display" : "SemVer"
+    }
+  },
+  {
     "url" : "https://www.medizininformatik-initiative.de/fhir/modul-meta/StructureDefinition/mii-ex-meta-license-codeable",
     "valueCodeableConcept" : {
       "coding" : [{
@@ -49,7 +57,7 @@ Other representations of profile: [CSV](../StructureDefinition-mii-pr-biobank-sp
     }
   }],
   "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/Specimen",
-  "version" : "2027.0.0-ballot.rc2",
+  "version" : "2027.0.0-ballot",
   "name" : "MII_PR_Biobank_Specimen_Bioprobe",
   "_name" : {
     "extension" : [{
@@ -90,7 +98,7 @@ Other representations of profile: [CSV](../StructureDefinition-mii-pr-biobank-sp
     }]
   },
   "status" : "active",
-  "date" : "2025-09-02",
+  "date" : "2026-09-10",
   "publisher" : "Medizininformatik Initiative",
   "contact" : [{
     "name" : "Medizininformatik Initiative",
@@ -293,13 +301,13 @@ Other representations of profile: [CSV](../StructureDefinition-mii-pr-biobank-sp
       "mustSupport" : true,
       "binding" : {
         "strength" : "required",
-        "valueSet" : "https://fhir.bbmri-eric.eu/fhir/ValueSet/miabis-detailed-sample-type-vs"
+        "valueSet" : "https://fhir.bbmri-eric.eu/ValueSet/miabis-detailed-sample-type-vs"
       }
     },
     {
       "id" : "Specimen.type.coding:miabis-type.system",
       "path" : "Specimen.type.coding.system",
-      "patternUri" : "https://fhir.bbmri-eric.eu/fhir/CodeSystem/miabis-detailed-samply-type-cs"
+      "patternUri" : "https://fhir.bbmri-eric.eu/CodeSystem/miabis-detailed-samply-type-cs"
     },
     {
       "id" : "Specimen.collection.method",
@@ -328,6 +336,17 @@ Other representations of profile: [CSV](../StructureDefinition-mii-pr-biobank-sp
       "path" : "Specimen.processing"
     },
     {
+      "id" : "Specimen.processing.extension",
+      "path" : "Specimen.processing.extension",
+      "min" : 1
+    },
+    {
+      "id" : "Specimen.processing.extension:temperaturbedingungen",
+      "path" : "Specimen.processing.extension",
+      "sliceName" : "temperaturbedingungen",
+      "min" : 1
+    },
+    {
       "id" : "Specimen.processing.extension:temperature-miabis",
       "path" : "Specimen.processing.extension",
       "sliceName" : "temperature-miabis",
@@ -335,9 +354,20 @@ Other representations of profile: [CSV](../StructureDefinition-mii-pr-biobank-sp
       "max" : "1",
       "type" : [{
         "code" : "Extension",
-        "profile" : ["https://fhir.bbmri-eric.eu/fhir/StructureDefinition/miabis-sample-storage-temperature-extension"]
+        "profile" : ["https://fhir.bbmri-eric.eu/StructureDefinition/miabis-sample-storage-temperature-extension"]
       }],
       "mustSupport" : true
+    },
+    {
+      "id" : "Specimen.processing:lagerprozess",
+      "path" : "Specimen.processing",
+      "sliceName" : "lagerprozess"
+    },
+    {
+      "id" : "Specimen.processing:lagerprozess.extension:temperaturbedingungen",
+      "path" : "Specimen.processing.extension",
+      "sliceName" : "temperaturbedingungen",
+      "min" : 1
     },
     {
       "id" : "Specimen.container",

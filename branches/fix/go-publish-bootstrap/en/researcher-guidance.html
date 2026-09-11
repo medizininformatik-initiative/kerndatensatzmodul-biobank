@@ -6,7 +6,7 @@
 <html xml:lang="en" xmlns="http://www.w3.org/1999/xhtml" lang="en" dir="ltr">
   <head>
     <meta content="text/html;charset=utf-8" http-equiv="Content-Type"/>
-    <title>Guidance for Researchers - MII IG Kerndatensatz-Modul Biobank v2027.0.0-ballot.rc2</title>
+    <title>Guidance for Researchers - MII IG Kerndatensatz-Modul Biobank v2027.0.0-ballot</title>
 
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
     <meta name="author" content="http://hl7.org/fhir"/>
@@ -141,11 +141,11 @@
         <div id="ig-status">
           <p><span style="font-size:12pt;font-weight:bold">MII IG Kerndatensatz-Modul Biobank</span>
             <br/>
-            <span style="display:inline-block;">2027.0.0-ballot.rc2 - 
+            <span style="display:inline-block;">2027.0.0-ballot - 
 
 
 
-  <img alt="Germany flag" src="assets/images/deu.svg" height="16" title="Germany"/>
+  Germany
 
 
             </span>
@@ -312,7 +312,7 @@ h5:before{color:silver;counter-increment:detail;content:var(--heading-prefix) ".
 h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefix) "." counter(sub-section) "." counter(composite) "." counter(detail) "." counter(more-detail)" ";}
 </style>
 <div class="col-12">
-  <!--ReleaseHeader--><p id="publish-box">MII IG Kerndatensatz-Modul Biobank - Local Development build (v2027.0.0-ballot.rc2) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href='https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/history.html'>Directory of published versions</a></p><!--EndReleaseHeader-->
+  <!--ReleaseHeader--><p id="publish-box">MII IG Kerndatensatz-Modul Biobank - Local Development build (v2027.0.0-ballot) built by the FHIR (HL7® FHIR® Standard) Build Tools. See the <a href='https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/history.html'>Directory of published versions</a></p><!--EndReleaseHeader-->
   <h2>Guidance for Researchers</h2>
   
 
@@ -345,7 +345,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 <p>Depending on the research question, the following information from the module may be of particular interest:</p>
 
 <ul>
-  <li><strong>Specimen type and material</strong> (<code class="language-plaintext highlighter-rouge">Specimen.type</code>) – e.g. whole blood, serum, plasma, tissue (FFPE), DNA/RNA, urine. Coding is standardized using SNOMED CT, so that specimen types are comparable across sites and machine-searchable.</li>
+  <li><strong>Specimen type or material</strong> (<code class="language-plaintext highlighter-rouge">Specimen.type</code>) – e.g. whole blood, serum, plasma, tissue (FFPE or cryo), DNA/RNA, urine. Coding is standardized using SNOMED CT, so that specimen types are comparable across sites and machine-searchable.</li>
   <li><strong>Collection site</strong> (<code class="language-plaintext highlighter-rouge">Specimen.bodySite</code>) – coded using SNOMED CT or, particularly for oncological questions, ICD-O-3.</li>
   <li><strong>Specimen hierarchy</strong>: The module distinguishes between <strong>primary specimen</strong>, <strong>aliquot group</strong>, and <strong>aliquot</strong>. For feasibility queries, the aliquot group level is usually the relevant one, as it allows conclusions about actually available quantities.</li>
   <li><strong>Quantity/volume</strong> of the aliquot.</li>
@@ -354,6 +354,10 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
   <li><strong>Storage conditions and storage history</strong> (<code class="language-plaintext highlighter-rouge">Specimen.container</code>, storage processes with temperature, start/end) – can help assess specimen quality in cases of prolonged storage or repeated freeze-thaw cycles.</li>
   <li><strong>Infectious status/biosafety status</strong> – relevant for planning transport and handling at the receiving site.</li>
 </ul>
+
+<h4 id="cell-lines-and-organoids">Cell lines and organoids</h4>
+
+<p>Cell lines and organoids can also be recorded as derived specimen types. Technically, they are handled like ordinary biospecimens that may carry some additional information (e.g. on the karyotype).</p>
 
 <h4 id="what-the-module-deliberately-does-not-cover">What the module deliberately does not cover</h4>
 
@@ -367,7 +371,7 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
 <ul>
   <li>Structure of the resources: see <a href="uml-diagrams.html">UML diagrams</a></li>
-  <li>Definitions of terms (e.g. SPREC, aliquot): see <a href="glossary.html">Glossary</a></li>
+  <li>Definitions of terms (e.g. aliquot, aliquot group, primary specimen): see the final section of the <a href="implementer-guidance.html">Guidance for Implementers</a></li>
   <li>Technical details on profiles and extensions: see <a href="implementer-guidance.html">Guidance for Implementers</a></li>
 </ul>
 
@@ -395,8 +399,8 @@ h6:before{color:silver;counter-increment:more-detail;content:var(--heading-prefi
 
 
           IG © 2021+ <a style="color:var(--footer-hyperlink-text-color)" href="https://www.medizininformatik-initiative.de/">Medizininformatik Initiative</a>.  
-          Package de.medizininformatikinitiative.kerndatensatz.biobank#2027.0.0-ballot.rc2 based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>.
-          Generated <span title="Wed, Sep 9, 2026 13:48+0000">2026-09-09</span>
+          Package de.medizininformatikinitiative.kerndatensatz.biobank#2027.0.0-ballot based on <a style="color: var(--footer-hyperlink-text-color)" href="http://hl7.org/fhir/R4/">FHIR 4.0.1</a>.
+          Generated <span title="Fri, Sep 11, 2026 10:07+0000">2026-09-11</span>
           <br/>
           <span style="color: var(--footer-highlight-text-color)">
             <!-- Branding override for the fhir2.base.template footer fragment.

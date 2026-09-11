@@ -12,9 +12,9 @@
   <sch:pattern>
     <sch:title>f:Organization</sch:title>
     <sch:rule context="f:Organization">
-      <sch:assert test="count(f:extension[@url = 'https://fhir.bbmri-eric.eu/fhir/StructureDefinition/miabis-organization-description-extension']) &lt;= 1">extension with URL = 'https://fhir.bbmri-eric.eu/fhir/StructureDefinition/miabis-organization-description-extension': maximum cardinality of 'extension' is 1</sch:assert>
-      <sch:assert test="count(f:extension[@url = 'https://fhir.bbmri-eric.eu/fhir/StructureDefinition/miabis-sample-collection-setting-extension']) &lt;= 1">extension with URL = 'https://fhir.bbmri-eric.eu/fhir/StructureDefinition/miabis-sample-collection-setting-extension': maximum cardinality of 'extension' is 1</sch:assert>
-      <sch:assert test="count(f:extension[@url = 'https://fhir.bbmri-eric.eu/fhir/StructureDefinition/miabis-collection-design-extension']) &lt;= 1">extension with URL = 'https://fhir.bbmri-eric.eu/fhir/StructureDefinition/miabis-collection-design-extension': maximum cardinality of 'extension' is 1</sch:assert>
+      <sch:assert test="count(f:extension[@url = 'https://fhir.bbmri-eric.eu/StructureDefinition/miabis-organization-description-extension']) &lt;= 1">extension with URL = 'https://fhir.bbmri-eric.eu/StructureDefinition/miabis-organization-description-extension': maximum cardinality of 'extension' is 1</sch:assert>
+      <sch:assert test="count(f:extension[@url = 'https://fhir.bbmri-eric.eu/StructureDefinition/miabis-sample-collection-setting-extension']) &lt;= 1">extension with URL = 'https://fhir.bbmri-eric.eu/StructureDefinition/miabis-sample-collection-setting-extension': maximum cardinality of 'extension' is 1</sch:assert>
+      <sch:assert test="count(f:extension[@url = 'https://fhir.bbmri-eric.eu/StructureDefinition/miabis-collection-design-extension']) &lt;= 1">extension with URL = 'https://fhir.bbmri-eric.eu/StructureDefinition/miabis-collection-design-extension': maximum cardinality of 'extension' is 1</sch:assert>
       <sch:assert test="count(f:name) &gt;= 1">name: minimum cardinality of 'name' is 1</sch:assert>
     </sch:rule>
   </sch:pattern>

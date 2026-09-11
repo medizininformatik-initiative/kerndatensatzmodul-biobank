@@ -1,4 +1,4 @@
-# Buffy-Coat Einzelaliquot 50 µl - MII IG Kerndatensatz-Modul Biobank v2027.0.0-ballot.rc2
+# Buffy-Coat Einzelaliquot 50 µl - MII IG Kerndatensatz-Modul Biobank v2027.0.0-ballot
 
 * [**Inhaltsverzeichnis**](toc.md)
 * [**Artefaktübersicht**](artifacts.md)
@@ -77,7 +77,7 @@ Profile: [MII PR Biobank Specimen Bioprobe](StructureDefinition-mii-pr-biobank-s
       "display" : "Buffy coat (specimen)"
     },
     {
-      "system" : "https://fhir.bbmri-eric.eu/fhir/CodeSystem/miabis-detailed-samply-type-cs",
+      "system" : "https://fhir.bbmri-eric.eu/CodeSystem/miabis-detailed-samply-type-cs",
       "code" : "BuffyCoat",
       "display" : "Buffy coat"
     }]
@@ -110,10 +110,10 @@ Profile: [MII PR Biobank Specimen Bioprobe](StructureDefinition-mii-pr-biobank-s
       }
     },
     {
-      "url" : "https://fhir.bbmri-eric.eu/fhir/StructureDefinition/miabis-sample-storage-temperature-extension",
+      "url" : "https://fhir.bbmri-eric.eu/StructureDefinition/miabis-sample-storage-temperature-extension",
       "valueCodeableConcept" : {
         "coding" : [{
-          "system" : "https://fhir.bbmri-eric.eu/fhir/CodeSystem/miabis-storage-temperature-cs",
+          "system" : "https://fhir.bbmri-eric.eu/CodeSystem/miabis-storage-temperature-cs",
           "code" : "LN"
         }]
       }
@@ -149,10 +149,10 @@ Profile: [MII PR Biobank Specimen Bioprobe](StructureDefinition-mii-pr-biobank-s
       }
     },
     {
-      "url" : "https://fhir.bbmri-eric.eu/fhir/StructureDefinition/miabis-sample-storage-temperature-extension",
+      "url" : "https://fhir.bbmri-eric.eu/StructureDefinition/miabis-sample-storage-temperature-extension",
       "valueCodeableConcept" : {
         "coding" : [{
-          "system" : "https://fhir.bbmri-eric.eu/fhir/CodeSystem/miabis-storage-temperature-cs",
+          "system" : "https://fhir.bbmri-eric.eu/CodeSystem/miabis-storage-temperature-cs",
           "code" : "RT"
         }]
       }
@@ -188,10 +188,10 @@ Profile: [MII PR Biobank Specimen Bioprobe](StructureDefinition-mii-pr-biobank-s
       }
     },
     {
-      "url" : "https://fhir.bbmri-eric.eu/fhir/StructureDefinition/miabis-sample-storage-temperature-extension",
+      "url" : "https://fhir.bbmri-eric.eu/StructureDefinition/miabis-sample-storage-temperature-extension",
       "valueCodeableConcept" : {
         "coding" : [{
-          "system" : "https://fhir.bbmri-eric.eu/fhir/CodeSystem/miabis-storage-temperature-cs",
+          "system" : "https://fhir.bbmri-eric.eu/CodeSystem/miabis-storage-temperature-cs",
           "code" : "RT"
         }]
       }

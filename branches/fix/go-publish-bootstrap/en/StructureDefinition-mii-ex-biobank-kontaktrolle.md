@@ -1,4 +1,4 @@
-# MII EX Biobank Rolle des Kontaktes - MII IG Kerndatensatz-Modul Biobank v2027.0.0-ballot.rc2
+# MII EX Biobank Rolle des Kontaktes - MII IG Kerndatensatz-Modul Biobank v2027.0.0-ballot
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/KontaktRolle | *Version*:2027.0.0-ballot.rc2 |
-| Active as of 2026-09-09 | *Computable Name*:MII_EX_Biobank_KontaktRolle |
+| *Official URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/KontaktRolle | *Version*:2027.0.0-ballot |
+| Active as of 2026-09-11 | *Computable Name*:MII_EX_Biobank_KontaktRolle |
 
 This extension allows specifying the role of the contact person in the specimen-managing organization, e.g., Principal Investigator, Director, etc.
 
@@ -41,6 +41,14 @@ Other representations of profile: [CSV](../StructureDefinition-mii-ex-biobank-ko
   "resourceType" : "StructureDefinition",
   "id" : "mii-ex-biobank-kontaktrolle",
   "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/artifact-versionAlgorithm",
+    "valueCoding" : {
+      "system" : "http://hl7.org/fhir/version-algorithm",
+      "code" : "semver",
+      "display" : "SemVer"
+    }
+  },
+  {
     "url" : "https://www.medizininformatik-initiative.de/fhir/modul-meta/StructureDefinition/mii-ex-meta-license-codeable",
     "valueCodeableConcept" : {
       "coding" : [{
@@ -51,7 +59,7 @@ Other representations of profile: [CSV](../StructureDefinition-mii-ex-biobank-ko
     }
   }],
   "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/KontaktRolle",
-  "version" : "2027.0.0-ballot.rc2",
+  "version" : "2027.0.0-ballot",
   "name" : "MII_EX_Biobank_KontaktRolle",
   "_name" : {
     "extension" : [{
@@ -81,7 +89,7 @@ Other representations of profile: [CSV](../StructureDefinition-mii-ex-biobank-ko
     }]
   },
   "status" : "active",
-  "date" : "2026-09-09T13:48:19+00:00",
+  "date" : "2026-09-11T10:07:49+00:00",
   "publisher" : "Medizininformatik Initiative",
   "contact" : [{
     "name" : "Medizininformatik Initiative",

@@ -1,4 +1,4 @@
-# Extensions - MII IG Kerndatensatz-Modul Biobank v2027.0.0-ballot.rc2
+# Extensions - MII IG Kerndatensatz-Modul Biobank v2027.0.0-ballot
 
 * [**Inhaltsverzeichnis**](toc.md)
 * **Extensions**
@@ -33,6 +33,14 @@ Mittels dieser Extension kann eine zur Probe gehörende Diagnose referenziert we
 
 Anzahl der Aliquots, wenn diese nicht als eigene FHIR-Ressourcen ausmodelliert werden: [MII EX Biobank Anzahl Aliquots](StructureDefinition-mii-ex-biobank-anzahl-aliquots.md)
 
+#### Infektiositätsstatus
+
+Extension zur Angabe des Infektiositätsstatus einer Probe anhand der Biosafety-Level-Einstufung (BSL-1 bis BSL-4, SNOMED CT) bzw. der Angabe, dass keine Infektionsgefahr bekannt ist: [MII EX Biobank Infektiositätsstatus](StructureDefinition-mii-ex-biobank-infektiositaetsstatus.md) (ValueSet: [Biosafety-Level](ValueSet-mii-vs-biobank-biosafety-level.md))
+
+#### Focus
+
+Um anzugeben, worauf sich die Probe bezieht, wird die Extension `specimen-focus` aus dem [HL7 Europe Laboratory Report IG](https://hl7.eu/fhir/laboratory/StructureDefinition-specimen-focus.html) eingebunden (externe Extension, Paket `hl7.fhir.eu.laboratory`).
+
 ### Extensions an der Organization (Sammlung/Biobank)
 
 #### Rolle des Kontaktes
@@ -56,16 +64,6 @@ Vorgenommene Modifikationen: [MII EX Biobank Modifikationen](StructureDefinition
 #### Zahl Passagen
 
 Anzahl der durchgeführten Passagen zur Erzeugung einer Zelllinie oder eines Organoids: [MII EX Biobank Anzahl Passagen](StructureDefinition-mii-ex-biobank-anzahl-passagen.md)
-
-#### Infektiositätsstatus
-
-Extension zur Angabe des Infektiositätsstatus einer Probe anhand der Biosafety-Level-Einstufung (BSL-1 bis BSL-4, SNOMED CT) bzw. der Angabe, dass keine Infektionsgefahr bekannt ist: [MII EX Biobank Infektiositätsstatus](StructureDefinition-mii-ex-biobank-infektiositaetsstatus.md) (ValueSet: [Biosafety-Level](ValueSet-mii-vs-biobank-biosafety-level.md))
-
-#### Focus
-
-Um anzugeben, worauf sich die Probe bezieht, wird die Extension `specimen-focus` aus dem [HL7 Europe Laboratory Report IG](https://hl7.eu/fhir/laboratory/StructureDefinition-specimen-focus.html) eingebunden (externe Extension, Paket `hl7.fhir.eu.laboratory`).
-
-> Einleitungssatz und dieser Abschnitt sind bei der Migration neu entstanden (Brückentext; die R5-Extension hatte keine eigene Quellseite).
 
 ### Weitere Extensions
 

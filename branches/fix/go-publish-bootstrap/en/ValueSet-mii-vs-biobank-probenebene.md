@@ -1,4 +1,4 @@
-# MII VS Biobank Probenebene - MII IG Kerndatensatz-Modul Biobank v2027.0.0-ballot.rc2
+# MII VS Biobank Probenebene - MII IG Kerndatensatz-Modul Biobank v2027.0.0-ballot
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/mii-vs-biobank-probenebene | *Version*:2027.0.0-ballot.rc2 |
-| Active as of 2025-09-02 | *Computable Name*:MII_VS_Biobank_Probenebene |
+| *Official URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/mii-vs-biobank-probenebene | *Version*:2027.0.0-ballot |
+| Active as of 2026-09-10 | *Computable Name*:MII_VS_Biobank_Probenebene |
 
  
 Value Set for specimen hierarchy levels in Biobanking 
@@ -40,6 +40,14 @@ Value Set for specimen hierarchy levels in Biobanking
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/artifact-versionAlgorithm",
+    "valueCoding" : {
+      "system" : "http://hl7.org/fhir/version-algorithm",
+      "code" : "semver",
+      "display" : "SemVer"
+    }
+  },
+  {
     "url" : "https://www.medizininformatik-initiative.de/fhir/modul-meta/StructureDefinition/mii-ex-meta-license-codeable",
     "valueCodeableConcept" : {
       "coding" : [{
@@ -50,12 +58,12 @@ Value Set for specimen hierarchy levels in Biobanking
     }
   }],
   "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/mii-vs-biobank-probenebene",
-  "version" : "2027.0.0-ballot.rc2",
+  "version" : "2027.0.0-ballot",
   "name" : "MII_VS_Biobank_Probenebene",
   "title" : "MII VS Biobank Probenebene",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-09-02",
+  "date" : "2026-09-10",
   "publisher" : "Medizininformatik Initiative",
   "contact" : [{
     "name" : "Medizininformatik Initiative",

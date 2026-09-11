@@ -1,6 +1,6 @@
 {
   "package": "de.medizininformatikinitiative.kerndatensatz.biobank",
-  "version": "2027.0.0-ballot.rc2",
+  "version": "2027.0.0-ballot",
   "fhirVersion": "4.0.1",
   "jurisdiction": "DE",
   "extensions": [
@@ -124,7 +124,7 @@
     },
     {
       "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/mii-ex-biobank-infektiositaetsstatus",
-      "title": "Infektiositätsstatus",
+      "title": "MII EX Biobank Infektiositätsstatus",
       "types": [
         "CodeableConcept"
       ]
@@ -278,10 +278,17 @@
       "ImplementationGuide"
     ],
     "http://hl7.org/fhir/StructureDefinition/artifact-versionAlgorithm": [
-      "ImplementationGuide"
+      "CapabilityStatement",
+      "CodeSystem",
+      "ConceptMap",
+      "ImplementationGuide",
+      "SearchParameter",
+      "StructureDefinition",
+      "ValueSet"
     ],
     "http://hl7.org/fhir/StructureDefinition/artifact-versionPolicy": [
-      "ImplementationGuide"
+      "ImplementationGuide",
+      "SearchParameter"
     ],
     "http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation": [
       "CapabilityStatement.rest.resource",
@@ -314,7 +321,8 @@
       "Specimen.collection.quantity"
     ],
     "http://hl7.org/fhir/StructureDefinition/package-source": [
-      "ImplementationGuide"
+      "ImplementationGuide",
+      "SearchParameter.meta"
     ],
     "http://hl7.org/fhir/StructureDefinition/quantity-precision": [
       "Specimen.collection.quantity"
@@ -372,16 +380,16 @@
     "http://hl7.org/fhir/tools/StructureDefinition/snapshot-base-version": [
       "StructureDefinition.snapshot"
     ],
-    "https://fhir.bbmri-eric.eu/fhir/StructureDefinition/miabis-collection-design-extension": [
+    "https://fhir.bbmri-eric.eu/StructureDefinition/miabis-collection-design-extension": [
       "Organization"
     ],
-    "https://fhir.bbmri-eric.eu/fhir/StructureDefinition/miabis-organization-description-extension": [
+    "https://fhir.bbmri-eric.eu/StructureDefinition/miabis-organization-description-extension": [
       "Organization"
     ],
-    "https://fhir.bbmri-eric.eu/fhir/StructureDefinition/miabis-sample-collection-setting-extension": [
+    "https://fhir.bbmri-eric.eu/StructureDefinition/miabis-sample-collection-setting-extension": [
       "Organization"
     ],
-    "https://fhir.bbmri-eric.eu/fhir/StructureDefinition/miabis-sample-storage-temperature-extension": [
+    "https://fhir.bbmri-eric.eu/StructureDefinition/miabis-sample-storage-temperature-extension": [
       "Specimen.processing"
     ],
     "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/Diagnose": [
@@ -421,6 +429,7 @@
       "CapabilityStatement",
       "CodeSystem",
       "ConceptMap",
+      "SearchParameter",
       "StructureDefinition",
       "ValueSet"
     ]

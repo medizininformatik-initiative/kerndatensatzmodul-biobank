@@ -1,4 +1,4 @@
-# Artefaktübersicht - MII IG Kerndatensatz-Modul Biobank v2027.0.0-ballot.rc2
+# Artefaktübersicht - MII IG Kerndatensatz-Modul Biobank v2027.0.0-ballot
 
 * [**Inhaltsverzeichnis**](toc.md)
 * **Artefaktübersicht**
@@ -16,6 +16,16 @@ Die folgenden Artefakte definieren die spezifischen Fähigkeiten, die verschiede
 | | |
 | :--- | :--- |
 | [ MII CPS Biobank CapabilityStatement  ](CapabilityStatement-mii-cps-biobank-capabilitystatement.md) | Das vorliegende CapabilityStatement beschreibt alle verpflichtenden Interaktionen die ein konformes System unterstützen muss, um das Modul Biobank der Medizininformatik Initiative zu implementieren. |
+
+### Verhalten: Suchparameter (SearchParameter) 
+
+Diese definieren die Eigenschaften, nach denen ein RESTful-Server durchsucht werden kann. Sie können auch zum Sortieren und Einbeziehen verwandter Ressourcen verwendet werden.
+
+| | |
+| :--- | :--- |
+| [ mii-sp-biobank-infektiositaetsstatus  ](SearchParameter-mii-sp-biobank-infektiositaetsstatus.md) | Suchparameter für den Infektiositätsstatus (Extension) an Specimen |
+| [ mii-sp-biobank-specimen-feature  ](SearchParameter-mii-sp-biobank-specimen-feature.md) | Suchparameter für das Specimen-Feature (R5-Backport-Extension) nach Feature-Typ |
+| [ mii-sp-biobank-specimen-focus  ](SearchParameter-mii-sp-biobank-specimen-focus.md) | Suchparameter für die Specimen-Focus-Extension nach der referenzierten Fokus-Ressource |
 
 ### Strukturen: Logische Modelle 
 
@@ -49,13 +59,13 @@ Diese definieren Einschränkungen für FHIR-Datentypen für Systeme, die mit die
 
 | | |
 | :--- | :--- |
-| [ Infektiositätsstatus  ](StructureDefinition-mii-ex-biobank-infektiositaetsstatus.md) | Extension zur Angabe des Infektiositätsstatus einer Probe anhand der Biosafety-Level-Einstufung (BSL-1 bis BSL-4, SNOMED CT) bzw. der Angabe, dass keine Infektionsgefahr bekannt ist. |
 | [ MII EX Biobank Anzahl Aliquots  ](StructureDefinition-mii-ex-biobank-anzahl-aliquots.md) | Die Extension ermöglicht es, die Anzahl der vorhandenen Aliquots zu einer Aliquot-Gruppe anzugeben. |
 | [ MII EX Biobank Anzahl Passagen  ](StructureDefinition-mii-ex-biobank-anzahl-passagen.md) | Zahl der Passagen, die die Zellinie oder das Organiod durchlaufen hat. |
 | [ MII EX Biobank Diagnose  ](StructureDefinition-mii-ex-biobank-diagnose.md) | Mittels dieser Extension kann ausgedrückt werden, dass Material mit der referenzierten Diagnose in der Probe enthalten ist. |
 | [ MII EX Biobank Ebene  ](StructureDefinition-mii-ex-biobank-ebene.md) | Mittels dieser Extension kann ausgedrückt werden, welcher Probenebene dieses Specimen zuzuordnen ist. |
 | [ MII EX Biobank Einstellung Blutversorgung  ](StructureDefinition-mii-ex-biobank-einstellung-blutversorgung.md) | Zeitpunkt der Einstellung der Bluversorgung während der Entnahme. Wird z.B. für die Berechnung der kalten bzw. warem Ischämiezeiten benötigt. |
 | [ MII EX Biobank Feature R5  ](StructureDefinition-mii-ex-biobank-feature-r5.md) | Die Extension ermöglicht es im Specimen das feature aus R5 zu nutzen. |
+| [ MII EX Biobank Infektiositätsstatus  ](StructureDefinition-mii-ex-biobank-infektiositaetsstatus.md) | Extension zur Angabe des Infektiositätsstatus einer Probe anhand der Biosafety-Level-Einstufung (BSL-1 bis BSL-4, SNOMED CT) bzw. der Angabe, dass keine Infektionsgefahr bekannt ist. |
 | [ MII EX Biobank Kulturprotokoll  ](StructureDefinition-mii-ex-biobank-kulturprotokoll.md) | Protokoll der Kultur der Zellinie oder des Organiods. |
 | [ MII EX Biobank Rolle des Kontaktes  ](StructureDefinition-mii-ex-biobank-kontaktrolle.md) | Mittels dieser Extension soll die Rolle der Kontaktperson in der probenverwaltenden Organisation angegeben werden, z.B. Principal Investigator, Direktor usw. |
 | [ MII EX Biobank Temperaturbedingungen  ](StructureDefinition-mii-ex-biobank-temperaturbedingungen.md) | Um zu einer Verabeitung oder Lagerung die jeweils herrschenden Temperaturbedingungen (in °C) anzugeben soll diese Extension verwendet werden. Dabei soll nach Möglichkeit immer ein Wertebereich inkl. oberer und unterer Grenze angegeben werden. |
@@ -68,7 +78,7 @@ Diese definieren Wertemengen, die von Systemen verwendet werden, die mit dem Imp
 
 | | |
 | :--- | :--- |
-| [ Biosafety-Level Einstufung (ValueSet)  ](ValueSet-mii-vs-biobank-biosafety-level.md) | ValueSet zur Auswahl der Biosafety-Level-Einstufung einer Probe (SNOMED CT), inklusive eines Codes für 'keine Infektionsgefahr bekannt'. |
+| [ MII VS Biobank Biosafety-Level Einstufung [SNOMED CT]  ](ValueSet-mii-vs-biobank-biosafety-level-snomedct.md) | ValueSet zur Auswahl der Biosafety-Level-Einstufung einer Probe (SNOMED CT), inklusive eines Codes für 'keine Infektionsgefahr bekannt'. |
 | [ MII VS Biobank BodyStructures SCT  ](ValueSet-mii-vs-biobank-body-structures-sct.md) | Value Set for Specimen Collection Body Structures (SNOMED CT) |
 | [ MII VS Biobank Cellinie Morphology SCT  ](ValueSet-mii-vs-biobank-cellline-morphology-sct.md) | Value Set for Morphological Characteristics of Cell Lines |
 | [ MII VS Biobank Cellline Modification CLO  ](ValueSet-mii-vs-biobank-cellline-modification-clo.md) | Value Set for Types of Cell Line Modifications (CLO) |

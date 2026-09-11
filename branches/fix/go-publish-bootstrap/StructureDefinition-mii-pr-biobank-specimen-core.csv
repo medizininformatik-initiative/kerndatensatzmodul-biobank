@@ -60,7 +60,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Specimen.extension:infektiositaetsstatus","Specimen.extension","infektiositaetsstatus","","",0,1,"Y","","","Extension {[CanonicalType[https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/mii-ex-biobank-infektiositaetsstatus]]} {[]}
-","Infektiositätsstatus","Extension zur Angabe des Infektiositätsstatus einer Probe anhand der Biosafety-Level-Einstufung (BSL-1 bis BSL-4, SNOMED CT) bzw. der Angabe, dass keine Infektionsgefahr bekannt ist.","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
+","MII EX Biobank Infektiositätsstatus","Extension zur Angabe des Infektiositätsstatus einer Probe anhand der Biosafety-Level-Einstufung (BSL-1 bis BSL-4, SNOMED CT) bzw. der Angabe, dass keine Infektionsgefahr bekannt ist.","","","","","","","","","",,,,,"",,,,"DomainResource.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
 "Specimen.extension:focus","Specimen.extension","focus","","",0,1,"Y","","","Extension {[CanonicalType[http://hl7.eu/fhir/laboratory/StructureDefinition/specimen-focus]]} {[]}
@@ -359,11 +359,11 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 "
 "Specimen.processing.id","Specimen.processing.id","","","",0,1,"","","","string {[]} {[]}
 ","Unique id for inter-element referencing","Unique id for the element within a resource (for internal references). This may be any string value that does not contain spaces.","","","","","","","","","",,,,,"",,,,"Element.id",0,1,"",""
-"Specimen.processing.extension","Specimen.processing.extension","","","",1,*,"","","","Extension {[]} {[]}
+"Specimen.processing.extension","Specimen.processing.extension","","","",0,*,"","","","Extension {[]} {[]}
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Specimen.processing.extension:temperaturbedingungen","Specimen.processing.extension","temperaturbedingungen","","",1,1,"Y","","","Extension {[CanonicalType[https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/Temperaturbedingungen]]} {[]}
+"Specimen.processing.extension:temperaturbedingungen","Specimen.processing.extension","temperaturbedingungen","","",0,1,"Y","","","Extension {[CanonicalType[https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/Temperaturbedingungen]]} {[]}
 ","MII EX Biobank Temperaturbedingungen","Um zu einer Verabeitung oder Lagerung die jeweils herrschenden Temperaturbedingungen (in °C) anzugeben soll diese Extension verwendet werden. Dabei soll nach Möglichkeit immer ein Wertebereich inkl. oberer und unterer Grenze angegeben werden.","","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
@@ -474,7 +474,7 @@ ext-1:Must have either extensions or value[x], not both {extension.exists() != v
 ","Extension","An Extension","","","","","","","","","",,,,,"","value:url}
 ","",,"open","Element.extension",0,*,"","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"
-"Specimen.processing:lagerprozess.extension:temperaturbedingungen","Specimen.processing.extension","temperaturbedingungen","","",1,1,"Y","","","Extension {[CanonicalType[https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/Temperaturbedingungen]]} {[]}
+"Specimen.processing:lagerprozess.extension:temperaturbedingungen","Specimen.processing.extension","temperaturbedingungen","","",0,1,"Y","","","Extension {[CanonicalType[https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/Temperaturbedingungen]]} {[]}
 ","MII EX Biobank Temperaturbedingungen","Um zu einer Verabeitung oder Lagerung die jeweils herrschenden Temperaturbedingungen (in °C) anzugeben soll diese Extension verwendet werden. Dabei soll nach Möglichkeit immer ein Wertebereich inkl. oberer und unterer Grenze angegeben werden.","","","","","","","","","",,,,,"",,,,"Element.extension",0,*,"ele-1
 ","ele-1:All FHIR elements must have a @value or children {hasValue() or (children().count() > id.count())}
 ext-1:Must have either extensions or value[x], not both {extension.exists() != value.exists()}"

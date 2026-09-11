@@ -1,15 +1,15 @@
-# Infektiositätsstatus - MII IG Kerndatensatz-Modul Biobank v2027.0.0-ballot.rc2
+# MII EX Biobank Infektiositätsstatus - MII IG Kerndatensatz-Modul Biobank v2027.0.0-ballot
 
 * [**Table of Contents**](toc.md)
 * [**Artifacts Summary**](artifacts.md)
-* **Infektiositätsstatus**
+* **MII EX Biobank Infektiositätsstatus**
 
 ## Extension: MII EX Biobank Infectiosity Status 
 
 | | |
 | :--- | :--- |
-| *Official URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/mii-ex-biobank-infektiositaetsstatus | *Version*:2027.0.0-ballot.rc2 |
-| Active as of 2026-09-09 | *Computable Name*:MII_EX_Biobank_Infektiositaetsstatus |
+| *Official URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/mii-ex-biobank-infektiositaetsstatus | *Version*:2027.0.0-ballot |
+| Active as of 2026-09-11 | *Computable Name*:MII_EX_Biobank_Infektiositaetsstatus |
 
 The extension specifies the infectiosity status of a specimen based on the biosafety level classification ranging from BSL-1 to BSL-4 or an indication that no infection risk is known.
 
@@ -20,6 +20,7 @@ The extension specifies the infectiosity status of a specimen based on the biosa
 **Usages:**
 
 * Use this Extension: [MII PR Biobank Specimen Bioprobe Core](StructureDefinition-mii-pr-biobank-specimen-core.md)
+* Search Parameters using this Extension: [MII_SP_Biobank_Infektiositaetsstatus](SearchParameter-mii-sp-biobank-infektiositaetsstatus.md)
 
 You can also check for [usages in the FHIR IG Statistics](https://packages2.fhir.org/xig/resource/de.medizininformatikinitiative.kerndatensatz.biobank|current/StructureDefinition/StructureDefinition-mii-ex-biobank-infektiositaetsstatus.json)
 
@@ -40,6 +41,14 @@ Other representations of profile: [CSV](../StructureDefinition-mii-ex-biobank-in
   "resourceType" : "StructureDefinition",
   "id" : "mii-ex-biobank-infektiositaetsstatus",
   "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/artifact-versionAlgorithm",
+    "valueCoding" : {
+      "system" : "http://hl7.org/fhir/version-algorithm",
+      "code" : "semver",
+      "display" : "SemVer"
+    }
+  },
+  {
     "url" : "https://www.medizininformatik-initiative.de/fhir/modul-meta/StructureDefinition/mii-ex-meta-license-codeable",
     "valueCodeableConcept" : {
       "coding" : [{
@@ -50,7 +59,7 @@ Other representations of profile: [CSV](../StructureDefinition-mii-ex-biobank-in
     }
   }],
   "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/mii-ex-biobank-infektiositaetsstatus",
-  "version" : "2027.0.0-ballot.rc2",
+  "version" : "2027.0.0-ballot",
   "name" : "MII_EX_Biobank_Infektiositaetsstatus",
   "_name" : {
     "extension" : [{
@@ -65,7 +74,7 @@ Other representations of profile: [CSV](../StructureDefinition-mii-ex-biobank-in
       "url" : "http://hl7.org/fhir/StructureDefinition/translation"
     }]
   },
-  "title" : "Infektiositätsstatus",
+  "title" : "MII EX Biobank Infektiositätsstatus",
   "_title" : {
     "extension" : [{
       "extension" : [{
@@ -80,7 +89,7 @@ Other representations of profile: [CSV](../StructureDefinition-mii-ex-biobank-in
     }]
   },
   "status" : "active",
-  "date" : "2026-09-09T13:48:19+00:00",
+  "date" : "2026-09-11T10:07:49+00:00",
   "publisher" : "Medizininformatik Initiative",
   "contact" : [{
     "name" : "Medizininformatik Initiative",
@@ -124,7 +133,7 @@ Other representations of profile: [CSV](../StructureDefinition-mii-ex-biobank-in
     "element" : [{
       "id" : "Extension",
       "path" : "Extension",
-      "short" : "Infektiositätsstatus",
+      "short" : "MII EX Biobank Infektiositätsstatus",
       "definition" : "Extension zur Angabe des Infektiositätsstatus einer Probe anhand der Biosafety-Level-Einstufung (BSL-1 bis BSL-4, SNOMED CT) bzw. der Angabe, dass keine Infektionsgefahr bekannt ist."
     },
     {
@@ -161,7 +170,7 @@ Other representations of profile: [CSV](../StructureDefinition-mii-ex-biobank-in
       "mustSupport" : true,
       "binding" : {
         "strength" : "required",
-        "valueSet" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/mii-vs-biobank-biosafety-level"
+        "valueSet" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/mii-vs-biobank-biosafety-level-snomedct"
       }
     }]
   }

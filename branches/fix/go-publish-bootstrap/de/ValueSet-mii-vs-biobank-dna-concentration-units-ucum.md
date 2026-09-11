@@ -1,4 +1,4 @@
-# MII VS Biobank DNA Concentration Units UCUM - MII IG Kerndatensatz-Modul Biobank v2027.0.0-ballot.rc2
+# MII VS Biobank DNA Concentration Units UCUM - MII IG Kerndatensatz-Modul Biobank v2027.0.0-ballot
 
 * [**Inhaltsverzeichnis**](toc.md)
 * [**Artefaktübersicht**](artifacts.md)
@@ -8,8 +8,8 @@
 
 | | |
 | :--- | :--- |
-| *Offizielle URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/mii-vs-biobank-dna-concentration-units-ucum | *Version*:2027.0.0-ballot.rc2 |
-| Active Stand: 2025-09-02 | *Maschinenlesbarer Name*:MII_VS_Biobank_DNA_Concentration_Units_UCUM |
+| *Offizielle URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/mii-vs-biobank-dna-concentration-units-ucum | *Version*:2027.0.0-ballot |
+| Active Stand: 2026-09-10 | *Maschinenlesbarer Name*:MII_VS_Biobank_DNA_Concentration_Units_UCUM |
 | **Copyright/Rechtliches**: This value set includes content from UCUM, which is vopyright 1999-2024 Regenstrief Institute, Inc. All rights reserved. Licensed under the UCUM License, Version 1.1 (the “License”); you may not use this file except in compliance with the License. You may obtain a copy of the License at https://unitsofmeasure.org/license | |
 
  
@@ -25,7 +25,7 @@ Value Set for DNA Concentration Units (UCUM)
 
 ### Expansion
 
-No Expansion for this valueset (Unsupported Code System Version)
+No Expansion for this valueset (Unknown Code System)
 
 -------
 
@@ -43,6 +43,14 @@ No Expansion for this valueset (Unsupported Code System Version)
     "profile" : ["http://hl7.org/fhir/StructureDefinition/shareablevalueset"]
   },
   "extension" : [{
+    "url" : "http://hl7.org/fhir/StructureDefinition/artifact-versionAlgorithm",
+    "valueCoding" : {
+      "system" : "http://hl7.org/fhir/version-algorithm",
+      "code" : "semver",
+      "display" : "SemVer"
+    }
+  },
+  {
     "url" : "https://www.medizininformatik-initiative.de/fhir/modul-meta/StructureDefinition/mii-ex-meta-license-codeable",
     "valueCodeableConcept" : {
       "coding" : [{
@@ -53,12 +61,12 @@ No Expansion for this valueset (Unsupported Code System Version)
     }
   }],
   "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/mii-vs-biobank-dna-concentration-units-ucum",
-  "version" : "2027.0.0-ballot.rc2",
+  "version" : "2027.0.0-ballot",
   "name" : "MII_VS_Biobank_DNA_Concentration_Units_UCUM",
   "title" : "MII VS Biobank DNA Concentration Units UCUM",
   "status" : "active",
   "experimental" : false,
-  "date" : "2025-09-02",
+  "date" : "2026-09-10",
   "publisher" : "Medizininformatik Initiative",
   "contact" : [{
     "name" : "Medizininformatik Initiative",
