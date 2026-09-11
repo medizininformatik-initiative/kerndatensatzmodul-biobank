@@ -1,7 +1,7 @@
 MII_IG_Biobank_DE : Validation Results
 =========================================
 
-err = 66, warn = 395, info = 1937
+err = 66, warn = 397, info = 1937
 $--
 Generated $--. FHIR version $-- for de.medizininformatikinitiative.kerndatensatz.biobank#$-- (canonical = https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank)
  Build Errors : 2 / 127 / 0
@@ -34,7 +34,7 @@ Generated $--. FHIR version $-- for de.medizininformatikinitiative.kerndatensatz
  /home/runner/work/kerndatensatzmodul-biobank/kerndatensatzmodul-biobank/fsh-generated/resources/Specimen-AliquotgruppeDNA : 1 / 5 / 2
  /home/runner/work/kerndatensatzmodul-biobank/kerndatensatzmodul-biobank/fsh-generated/resources/Specimen-AliquotgruppePlasma : 1 / 6 / 3
  /home/runner/work/kerndatensatzmodul-biobank/kerndatensatzmodul-biobank/fsh-generated/resources/Specimen-MusterprobeFluessig : 1 / 5 / 2
- /home/runner/work/kerndatensatzmodul-biobank/kerndatensatzmodul-biobank/fsh-generated/resources/Specimen-MusterprobeGewebe : 2 / 6 / 4
+ /home/runner/work/kerndatensatzmodul-biobank/kerndatensatzmodul-biobank/fsh-generated/resources/Specimen-MusterprobeGewebe : 2 / 8 / 4
  /home/runner/work/kerndatensatzmodul-biobank/kerndatensatzmodul-biobank/fsh-generated/resources/Specimen-OrganoidLunge : 3 / 4 / 1
  /home/runner/work/kerndatensatzmodul-biobank/kerndatensatzmodul-biobank/fsh-generated/resources/StructureDefinition-Biobank : 2 / 153 / 46
  /home/runner/work/kerndatensatzmodul-biobank/kerndatensatzmodul-biobank/fsh-generated/resources/StructureDefinition-mii-ex-biobank-anzahl-aliquots : 0 / 1 / 9
@@ -524,17 +524,26 @@ INFORMATION: Specimen/MusterprobeGewebe: Specimen.collection.fastingStatus.ofTyp
 INFORMATION: Specimen/MusterprobeGewebe: Specimen.processing[0].extension[1]: This element does not match any known slice defined in the profile https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/Specimen|2027.0.0-ballot (this may not be a problem, but you should check that it's not intended to match a slice)
 WARNING: Specimen/MusterprobeGewebe: Specimen.processing[0].extension[0].value.ofType(Range).low: Resolved system http://unitsofmeasure.org (v3.0.1), but the definition doesn't include any codes, so the code has not been validated (for 'http://unitsofmeasure.org#Cel')
 WARNING: Specimen/MusterprobeGewebe: Specimen.processing[0].extension[0].value.ofType(Range).high: Resolved system http://unitsofmeasure.org (v3.0.1), but the definition doesn't include any codes, so the code has not been validated (for 'http://unitsofmeasure.org#Cel')
+WARNING: Specimen/MusterprobeGewebe: Specimen.processing[0].extension[0].value.ofType(Range).high: Error from http://127.0.0.1:8090/fhir: Error: CannotCreateTransactionException
+Information: X-Request-Id: 25defb83-300d-4752-a6db-73ba4f8b53f1
+WARNING: Specimen/MusterprobeGewebe: Specimen.processing[0].extension[0].value.ofType(Range).low: Error from http://127.0.0.1:8090/fhir: Error: CannotCreateTransactionException
+Information: X-Request-Id: 25defb83-300d-4752-a6db-73ba4f8b53f1
 INFORMATION: Specimen/MusterprobeGewebe: Specimen.processing[1].extension[1]: This element does not match any known slice defined in the profile https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/Specimen|2027.0.0-ballot (this may not be a problem, but you should check that it's not intended to match a slice)
-WARNING: Specimen/MusterprobeGewebe: Specimen.processing[1].extension[0].value.ofType(Range).low: Resolved system http://unitsofmeasure.org (v3.0.1), but the definition doesn't include any codes, so the code has not been validated (for 'http://unitsofmeasure.org#Cel')
-WARNING: Specimen/MusterprobeGewebe: Specimen.processing[1].extension[0].value.ofType(Range).high: Resolved system http://unitsofmeasure.org (v3.0.1), but the definition doesn't include any codes, so the code has not been validated (for 'http://unitsofmeasure.org#Cel')
+WARNING: Specimen/MusterprobeGewebe: Specimen.processing[1].extension[0].value.ofType(Range).low: Error from http://127.0.0.1:8090/fhir: Error: CannotCreateTransactionException
+Information: X-Request-Id: 25defb83-300d-4752-a6db-73ba4f8b53f1
+WARNING: Specimen/MusterprobeGewebe: Specimen.processing[1].extension[0].value.ofType(Range).high: Error from http://127.0.0.1:8090/fhir: Error: CannotCreateTransactionException
+Information: X-Request-Id: 25defb83-300d-4752-a6db-73ba4f8b53f1
 WARNING: Specimen/MusterprobeGewebe: Specimen.container[0].specimenQuantity: Resolved system http://unitsofmeasure.org (v3.0.1), but the definition doesn't include any codes, so the code has not been validated (for 'http://unitsofmeasure.org#g')
 == fsh-generated/resources/Specimen-OrganoidLunge.json ==
-ERROR: Specimen/OrganoidLunge: Specimen.extension[1].extension[0].value.ofType(CodeableConcept).coding[0].code: Unknown code 'CLO:0037375' in the CodeSystem 'http://purl.obolibrary.org/obo/clo.owl' version '2023-03-28'
+ERROR: Specimen/OrganoidLunge: Specimen.extension[1].extension[0].value.ofType(CodeableConcept).coding[0]: Error from http://127.0.0.1:8090/fhir: Error: CannotCreateTransactionException
+Information: X-Request-Id: f5393fd8-d140-42ef-8f36-d7075a6b4f76
 ERROR: Specimen/OrganoidLunge: Specimen.extension[1].extension[0].value.ofType(CodeableConcept): None of the codings provided are in the value set 'MII VS Biobank Cellline Modification CLO' (https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/mii-vs-biobank-cellline-modification-clo|2027.0.0-ballot), and a coding from this value set is required) (codes = http://purl.obolibrary.org/obo/clo.owl#CLO:0037375)
 WARNING: Specimen/OrganoidLunge: Specimen.identifier[0].system: No definition could be found for URL value 'https://biobank.uk-musterstadt.de/fhir/sid/proben'
 ERROR: Specimen/OrganoidLunge: Specimen.subject: Unable to resolve resource with reference 'Patient/mii-exa-test-data-patient-1'
-WARNING: Specimen/OrganoidLunge: Specimen.processing[0].extension[0].value.ofType(Range).low: Resolved system http://unitsofmeasure.org (v3.0.1), but the definition doesn't include any codes, so the code has not been validated (for 'http://unitsofmeasure.org#Cel')
-WARNING: Specimen/OrganoidLunge: Specimen.processing[0].extension[0].value.ofType(Range).high: Resolved system http://unitsofmeasure.org (v3.0.1), but the definition doesn't include any codes, so the code has not been validated (for 'http://unitsofmeasure.org#Cel')
+WARNING: Specimen/OrganoidLunge: Specimen.processing[0].extension[0].value.ofType(Range).low: Error from http://127.0.0.1:8090/fhir: Error: CannotCreateTransactionException
+Information: X-Request-Id: 25defb83-300d-4752-a6db-73ba4f8b53f1
+WARNING: Specimen/OrganoidLunge: Specimen.processing[0].extension[0].value.ofType(Range).high: Error from http://127.0.0.1:8090/fhir: Error: CannotCreateTransactionException
+Information: X-Request-Id: 25defb83-300d-4752-a6db-73ba4f8b53f1
 WARNING: Specimen/OrganoidLunge: Specimen.container[0].specimenQuantity: Resolved system http://unitsofmeasure.org (v3.0.1), but the definition doesn't include any codes, so the code has not been validated (for 'http://unitsofmeasure.org#ml')
 == fsh-generated/resources/StructureDefinition-Biobank.json ==
 ERROR: StructureDefinition.where(url = 'https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/LogicalModel/Biobank'): Conformance resource /home/runner/work/kerndatensatzmodul-biobank/kerndatensatzmodul-biobank/fsh-generated/resources/StructureDefinition-Biobank.json - the canonical URL (https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/Biobank) does not match the URL (https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/LogicalModel/Biobank). Use the special-url parameter if you really mean for it not to match
@@ -2569,9 +2578,9 @@ INFORMATION: ValueSet/mii-vs-biobank-cellline-modification-clo: ValueSet.extensi
 WARNING: ValueSet/mii-vs-biobank-cellline-modification-clo: ValueSet.jurisdiction[0].coding[0].system: A definition for CodeSystem 'urn:iso:std:iso:3166:-2' could not be found, so the code cannot be validated
 WARNING: ValueSet/mii-vs-biobank-cellline-modification-clo: ValueSet.compose.include[0].system: No definition could be found for URL value 'http://purl.obolibrary.org/obo/clo.owl'
 ERROR: ValueSet/mii-vs-biobank-cellline-modification-clo: ValueSet.compose.include[0].concept[0]: The code 'CLO:0037376' is not valid in the system http://purl.obolibrary.org/obo/clo.owl (Unknown code 'CLO:0037376' in the CodeSystem 'http://purl.obolibrary.org/obo/clo.owl' version '2023-03-28')
-ERROR: ValueSet/mii-vs-biobank-cellline-modification-clo: ValueSet.compose.include[0].concept[1]: The code 'CLO:0037377' is not valid in the system http://purl.obolibrary.org/obo/clo.owl (error: [42bf6e13-2642-4603-b946-7ffd4eea1155]: Type-level request to $validate-code must specify either valueSet or url parameter.)
-ERROR: ValueSet/mii-vs-biobank-cellline-modification-clo: ValueSet.compose.include[0].concept[2]: The code 'CLO:0037375' is not valid in the system http://purl.obolibrary.org/obo/clo.owl (error: [fc4fab18-b146-413b-9834-53498c52c965]: Type-level request to $validate-code must specify either valueSet or url parameter.)
-ERROR: ValueSet/mii-vs-biobank-cellline-modification-clo: ValueSet.compose.include[0].concept[3]: The code 'CLO:0037378' is not valid in the system http://purl.obolibrary.org/obo/clo.owl (error: [2b631d26-8169-4e72-a5e5-a40db551eb62]: Type-level request to $validate-code must specify either valueSet or url parameter.)
+ERROR: ValueSet/mii-vs-biobank-cellline-modification-clo: ValueSet.compose.include[0].concept[1]: The code 'CLO:0037377' is not valid in the system http://purl.obolibrary.org/obo/clo.owl (error: [b353fa49-5b5a-456d-833f-faa9efc23ca3]: Type-level request to $validate-code must specify either valueSet or url parameter.)
+ERROR: ValueSet/mii-vs-biobank-cellline-modification-clo: ValueSet.compose.include[0].concept[2]: The code 'CLO:0037375' is not valid in the system http://purl.obolibrary.org/obo/clo.owl (error: [916f76c3-ee86-47c4-99bd-0fe0ae610b2a]: Type-level request to $validate-code must specify either valueSet or url parameter.)
+ERROR: ValueSet/mii-vs-biobank-cellline-modification-clo: ValueSet.compose.include[0].concept[3]: The code 'CLO:0037378' is not valid in the system http://purl.obolibrary.org/obo/clo.owl (error: [1fd459e7-42f9-45c6-9c01-4cb4fe53175a]: Type-level request to $validate-code must specify either valueSet or url parameter.)
 WARNING: Resource: The resource ValueSet/mii-vs-biobank-cellline-modification-clo should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == fsh-generated/resources/ValueSet-mii-vs-biobank-cellline-morphology-sct.json ==
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.2
@@ -2585,8 +2594,8 @@ INFORMATION: ValueSet/mii-vs-biobank-cellline-proliferation: ValueSet.extension[
 INFORMATION: ValueSet/mii-vs-biobank-cellline-proliferation: ValueSet.extension[1].value.ofType(CodeableConcept): Reference to draft CodeSystem http://hl7.org/fhir/spdx-license|84728b7
 WARNING: ValueSet/mii-vs-biobank-cellline-proliferation: ValueSet.jurisdiction[0].coding[0].system: A definition for CodeSystem 'urn:iso:std:iso:3166:-2' could not be found, so the code cannot be validated
 WARNING: ValueSet/mii-vs-biobank-cellline-proliferation: ValueSet.compose.include[0].system: No definition could be found for URL value 'http://purl.obolibrary.org/obo/pato.owl'
-ERROR: ValueSet/mii-vs-biobank-cellline-proliferation: ValueSet.compose.include[0].concept[1]: The code 'PATO:0001991' is not valid in the system http://purl.obolibrary.org/obo/pato.owl (error: [c40a6510-1f4a-4b12-8ba5-2bcfe8173691]: Type-level request to $validate-code must specify either valueSet or url parameter.)
-ERROR: ValueSet/mii-vs-biobank-cellline-proliferation: ValueSet.compose.include[0].concept[2]: The code 'PATO:0000719' is not valid in the system http://purl.obolibrary.org/obo/pato.owl (error: [d38ed252-5ce0-4074-b9d8-5ea63e9a6938]: Type-level request to $validate-code must specify either valueSet or url parameter.)
+ERROR: ValueSet/mii-vs-biobank-cellline-proliferation: ValueSet.compose.include[0].concept[1]: The code 'PATO:0001991' is not valid in the system http://purl.obolibrary.org/obo/pato.owl (error: [9b1ec5a4-e82a-4fc3-afe7-c3cfda91857e]: Type-level request to $validate-code must specify either valueSet or url parameter.)
+ERROR: ValueSet/mii-vs-biobank-cellline-proliferation: ValueSet.compose.include[0].concept[2]: The code 'PATO:0000719' is not valid in the system http://purl.obolibrary.org/obo/pato.owl (error: [69702660-ba62-4461-ba29-8fb4d68ebbbb]: Type-level request to $validate-code must specify either valueSet or url parameter.)
 ERROR: ValueSet/mii-vs-biobank-cellline-proliferation: ValueSet.compose.include[1].concept[1]: The code '62482003' is not valid in the system http://snomed.info/sct version http://snomed.info/sct/900000000000207008/version/20260701 (62482003)
 WARNING: Resource: The resource ValueSet/mii-vs-biobank-cellline-proliferation should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == fsh-generated/resources/ValueSet-mii-vs-biobank-containertyp-sct.json ==
@@ -2602,10 +2611,10 @@ INFORMATION: ValueSet/mii-vs-biobank-dna-concentration-units-ucum: ValueSet.exte
 INFORMATION: ValueSet/mii-vs-biobank-dna-concentration-units-ucum: ValueSet.extension[1].value.ofType(CodeableConcept): Reference to draft CodeSystem http://hl7.org/fhir/spdx-license|84728b7
 WARNING: ValueSet/mii-vs-biobank-dna-concentration-units-ucum: ValueSet.jurisdiction[0].coding[0].system: A definition for CodeSystem 'urn:iso:std:iso:3166:-2' could not be found, so the code cannot be validated
 INFORMATION: ValueSet/mii-vs-biobank-dna-concentration-units-ucum: ValueSet.compose.include[0].concept[0]: Resolved system http://unitsofmeasure.org (v3.0.1), but the definition doesn't include any codes, so the code has not been validated
-ERROR: ValueSet/mii-vs-biobank-dna-concentration-units-ucum: ValueSet.compose.include[0].concept[1]: The code 'pg/uL' is not valid in the system http://unitsofmeasure.org (error: [40397ebf-d886-4581-ad58-4ab4e91a1468]: Type-level request to $validate-code must specify either valueSet or url parameter.)
+ERROR: ValueSet/mii-vs-biobank-dna-concentration-units-ucum: ValueSet.compose.include[0].concept[1]: The code 'pg/uL' is not valid in the system http://unitsofmeasure.org (error: [f749cb96-955a-42e8-96e0-c99c9cfee053]: Type-level request to $validate-code must specify either valueSet or url parameter.)
 WARNING: Resource: The resource ValueSet/mii-vs-biobank-dna-concentration-units-ucum should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 WARNING: ValueSet.where(id = 'mii-vs-biobank-dna-concentration-units-ucum'): Error from http://127.0.0.1:8090/fhir: Error: [20ed05f1-7d09-4353-8e2e-ae57746896aa]: A usable code system with URL http://unitsofmeasure.org|3.0.1 could not be resolved.
-Information: X-Request-Id: 13417c52-f6b8-4d3d-9a13-3e56a988832f
+Information: X-Request-Id: 061985d5-0ffe-4ab4-840b-fde100a9fd7f
 == fsh-generated/resources/ValueSet-mii-vs-biobank-karyotyp-sct.json ==
 INFORMATION: ValueSet.meta.profile[0]: Pinned the version of http://hl7.org/fhir/StructureDefinition/shareablevalueset to 4.0.2
 INFORMATION: ValueSet/mii-vs-biobank-karyotyp-sct: ValueSet.extension[1]: This element does not match any known slice defined in the profile http://hl7.org/fhir/StructureDefinition/shareablevalueset|4.0.2 (this may not be a problem, but you should check that it's not intended to match a slice)
@@ -2649,6 +2658,6 @@ INFORMATION: ValueSet/mii-vs-biobank-wachstumstyp-clo: ValueSet.extension[1]: Th
 INFORMATION: ValueSet/mii-vs-biobank-wachstumstyp-clo: ValueSet.extension[1].value.ofType(CodeableConcept): Reference to draft CodeSystem http://hl7.org/fhir/spdx-license|84728b7
 WARNING: ValueSet/mii-vs-biobank-wachstumstyp-clo: ValueSet.jurisdiction[0].coding[0].system: A definition for CodeSystem 'urn:iso:std:iso:3166:-2' could not be found, so the code cannot be validated
 WARNING: ValueSet/mii-vs-biobank-wachstumstyp-clo: ValueSet.compose.include[0].system: No definition could be found for URL value 'http://purl.obolibrary.org/obo/clo.owl'
-ERROR: ValueSet/mii-vs-biobank-wachstumstyp-clo: ValueSet.compose.include[0].concept[1]: The code 'CLO:0000029' is not valid in the system http://purl.obolibrary.org/obo/clo.owl (error: [52ac5355-b898-4953-9529-9af62f9f8fe2]: Type-level request to $validate-code must specify either valueSet or url parameter.)
+ERROR: ValueSet/mii-vs-biobank-wachstumstyp-clo: ValueSet.compose.include[0].concept[1]: The code 'CLO:0000029' is not valid in the system http://purl.obolibrary.org/obo/clo.owl (error: [21705e3f-09ef-4221-b56e-ad7cf1b7124b]: Type-level request to $validate-code must specify either valueSet or url parameter.)
 WARNING: Resource: The resource ValueSet/mii-vs-biobank-wachstumstyp-clo should have an OID assigned to cater for possible use with OID based terminology systems e.g. CDA usage (OIDs are easy to assign - see https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html#ig-parameters-auto-oid-root)
 == input/resources/Parameters-expansion-manifest.json ==
