@@ -1,5 +1,5 @@
 <!-- markdownlint-disable MD041 -->
-<!-- German mirror of input/pagecontent/ImplementationGuide-mii-ig-biobank-de.md —
+<!-- German mirror of input/pagecontent/ImplementationGuide-mii-ig-biobank.md —
      both files must say the same thing. ALL generated fragments (cross-version
      analysis included) are language-selected via lang-fragment: the pinned
      publisher writes _includes/<name>-<lang>.xhtml plus a bare default-language
@@ -10,8 +10,8 @@
 Diese ImplementationGuide-Ressource definiert die technischen Details dieser
 Publikation, einschließlich Abhängigkeiten und Veröffentlichungsparametern.
 
-- [XML](../ImplementationGuide-mii-ig-biobank-de.xml)
-- [JSON](../ImplementationGuide-mii-ig-biobank-de.json)
+- [XML](../ImplementationGuide-mii-ig-biobank.xml)
+- [JSON](../ImplementationGuide-mii-ig-biobank.json)
 
 ### Versionsübergreifende Analyse
 

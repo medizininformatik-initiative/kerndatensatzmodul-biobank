@@ -7,7 +7,7 @@
 
 # id pattern per the MII naming convention: mii-ig-<slug>
 # (for example, kerndatensatz-basis uses `mii-ig-base`).
-id: mii-ig-biobank-de
+id: mii-ig-biobank
 # Canonical pattern per the MII convention:
 # https://www.medizininformatik-initiative.de/fhir/modul-<slug>
 # (for example, kerndatensatz-basis uses
@@ -219,7 +219,7 @@ dependencies:
 # separate scaffolding step); OPTIONAL entries your module does not need are
 # removed per docs/optional-pages.md.
 # Every `title:` below is also a msgid in the IG-level translation catalogue
-# input/translations/de/ImplementationGuide-mii-ig-biobank-de.po — if you
+# input/translations/de/ImplementationGuide-mii-ig-biobank.po — if you
 # add, rename or delete a page here, update that catalogue in the same commit,
 # or the German rendering falls back to the English title for that page.
 pages:
@@ -274,11 +274,11 @@ pages:
   # the kerndatensatz-basis idiom (ImplementationGuide-mii-ig-base.md there).
   # BOTH this entry's key and the two source files carry biobank in
   # their NAME: like the IG-level .po catalogue, rename
-  # input/pagecontent/ImplementationGuide-mii-ig-biobank-de.md and its
+  # input/pagecontent/ImplementationGuide-mii-ig-biobank.md and its
   # German mirror under input/translations/de/pagecontent/ when you set your
   # slug (docs/recipes/create-a-new-module.md step 4). The CI self-check
   # substitutes and renames all of them for the template repo's own preview.
-  ImplementationGuide-mii-ig-biobank-de.md:
+  ImplementationGuide-mii-ig-biobank.md:
     title: MII ImplementationGuide Resource
 
   translationinfo.md:
