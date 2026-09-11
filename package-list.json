@@ -1,0 +1,23 @@
+{
+  "list" : [{
+    "version" : "current",
+    "path" : "https://medizininformatik-initiative.github.io/kerndatensatzmodul-biobank/branches/release/v2027.0.0-ballot/",
+    "status" : "ci-build",
+    "sequence" : "ci-build",
+    "desc" : "Continuous Integration Build (latest in version control) - Content subject to frequent changes"
+  },
+  {
+    "version" : "2027.0.0-ballot",
+    "path" : "https://medizininformatik-initiative.github.io/kerndatensatzmodul-biobank/2027.0.0-ballot",
+    "status" : "ballot",
+    "sequence" : "2027",
+    "fhirversion" : "4.0.1",
+    "date" : "2026-02-11",
+    "desc" : "MII Core Data Set module Biobank, 2027.0.0-ballot (ballot), on the MII KDS module template."
+  }],
+  "package-id" : "de.medizininformatikinitiative.kerndatensatz.biobank",
+  "canonical" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank",
+  "title" : "MII IG Kerndatensatz-Modul Biobank",
+  "category" : "Research",
+  "introduction" : "FHIR profiles for representing biospecimen data in biobanks - specimens, collections, cell lines and organoids - as part of the MII core data set."
+}
