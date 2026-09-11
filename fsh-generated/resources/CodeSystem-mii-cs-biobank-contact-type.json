@@ -83,7 +83,7 @@
       ]
     }
   ],
-  "version": "2027.0.0-ballot.rc3",
+  "version": "2027.0.0-ballot",
   "extension": [
     {
       "url": "http://hl7.org/fhir/StructureDefinition/artifact-versionAlgorithm",
@@ -106,6 +106,6 @@
       }
     }
   ],
-  "date": "2025-09-02",
+  "date": "2026-09-10",
   "count": 1
 }

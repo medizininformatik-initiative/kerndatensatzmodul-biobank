@@ -7,7 +7,7 @@
 
 # id pattern per the MII naming convention: mii-ig-<slug>
 # (for example, kerndatensatz-basis uses `mii-ig-base`).
-id: mii-ig-biobank-de-v2026
+id: mii-ig-biobank
 # Canonical pattern per the MII convention:
 # https://www.medizininformatik-initiative.de/fhir/modul-<slug>
 # (for example, kerndatensatz-basis uses
@@ -26,7 +26,7 @@ description: "FHIR profiles for representing biospecimen data in biobanks - spec
 status: active # draft | active | retired | unknown
 # MII modules use CalVer YYYY.n.n (e.g. 2026.0.1) per the MII Module Release
 # Workflow — NOT SemVer. Only the template tooling repos use SemVer.
-version: "2027.0.0-ballot.rc2"
+version: "2027.0.0-ballot"
 # packageId pattern per the MII naming convention:
 # de.medizininformatikinitiative.kerndatensatz.<slug> (for example,
 # kerndatensatz-basis uses de.medizininformatikinitiative.kerndatensatz.base).
@@ -180,7 +180,7 @@ dependencies:
   # floating pins resolved to the concrete versions the reference module pins:
   # 1.5.x -> 1.5.4, 2026.0.x -> 2026.0.0 (recorded in migration-log/run.log).
   de.basisprofil.r4: 1.6.0
-  de.medizininformatikinitiative.kerndatensatz.meta: 2027.0.0-ballot.rc3
+  de.medizininformatikinitiative.kerndatensatz.meta: 2027.0.0-ballot
   # MIABIS on FHIR
   eu.miabis.r4: 1.3.0
   # HL7 Europe Laboratory Report — liefert die specimen-focus-Extension (SpecimenCore).
@@ -219,7 +219,7 @@ dependencies:
 # separate scaffolding step); OPTIONAL entries your module does not need are
 # removed per docs/optional-pages.md.
 # Every `title:` below is also a msgid in the IG-level translation catalogue
-# input/translations/de/ImplementationGuide-mii-ig-biobank-de-v2026.po — if you
+# input/translations/de/ImplementationGuide-mii-ig-biobank.po — if you
 # add, rename or delete a page here, update that catalogue in the same commit,
 # or the German rendering falls back to the English title for that page.
 pages:
@@ -274,11 +274,11 @@ pages:
   # the kerndatensatz-basis idiom (ImplementationGuide-mii-ig-base.md there).
   # BOTH this entry's key and the two source files carry biobank in
   # their NAME: like the IG-level .po catalogue, rename
-  # input/pagecontent/ImplementationGuide-mii-ig-biobank-de-v2026.md and its
+  # input/pagecontent/ImplementationGuide-mii-ig-biobank.md and its
   # German mirror under input/translations/de/pagecontent/ when you set your
   # slug (docs/recipes/create-a-new-module.md step 4). The CI self-check
   # substitutes and renames all of them for the template repo's own preview.
-  ImplementationGuide-mii-ig-biobank-de-v2026.md:
+  ImplementationGuide-mii-ig-biobank.md:
     title: MII ImplementationGuide Resource
 
   translationinfo.md:
