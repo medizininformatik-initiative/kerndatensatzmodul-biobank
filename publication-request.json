@@ -1,24 +1,13 @@
 {
   "package-id": "de.medizininformatikinitiative.kerndatensatz.biobank",
-<<<<<<< HEAD
-  "version": "2027.0.0-ballot.rc2",
-  "path": "https://medizininformatik-initiative.github.io/kerndatensatzmodul-biobank/2027.0.0-ballot.rc2",
+  "version": "2027.0.0-ballot",
+  "path": "https://medizininformatik-initiative.github.io/kerndatensatzmodul-biobank/2027.0.0-ballot",
   "mode": "working",
   "status": "ballot",
   "sequence": "2027",
-  "desc": "MII Core Data Set module Biobank, 2027.0.0-ballot.rc2 (ballot release candidate), on the MII KDS module template.",
-  "first": true,
-  "title": "MII IG Kerndatensatz-Modul Biobank",
-=======
-  "version": "2027.0.0-ballot",
-  "path": "https://medizininformatik-initiative.github.io/kerndatensatzmodul-biobank/2027.0.0-ballot",
-  "mode": "milestone",
-  "status": "release",
-  "sequence": "2026",
   "desc": "MII Core Data Set module Biobank, 2027.0.0-ballot (ballot), on the MII KDS module template.",
   "first": true,
-  "title": "MII Implementation Guide Biobank",
->>>>>>> origin/main
+  "title": "MII IG Kerndatensatz-Modul Biobank",
   "ci-build": "https://medizininformatik-initiative.github.io/kerndatensatzmodul-biobank/branches/dev/",
   "category": "Research",
   "introduction": "FHIR profiles for representing biospecimen data in biobanks - specimens, collections, cell lines and organoids - as part of the MII core data set.",
