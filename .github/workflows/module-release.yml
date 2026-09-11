@@ -322,6 +322,100 @@ jobs:
   # and PUBLISHES it (wiki step 7), which fires `notify_zulip`. Draft, so the
   # human can attach the package and edit notes before it goes out.
   # ---------------------------------------------------------------------------
+  # ── Registry-Publish (IG-Publisher-Package) ────────────────────────────────
+  # MODULE-LOCAL ADAPTATION (Biobank 2026-09-11): publiziert das vom IG Publisher
+  # gebaute output/package.tgz nach packages.simplifier.net — als EINZIGE
+  # Package-Quelle (Beschluss: kein Firely-Bake-/Simplifier-Build mehr; die
+  # gebakten Pakete hatten Snapshot-Defekte, s. 2027.0.0-ballot.rc1 im Registry
+  # und Biobank-PR #81/#96-Historie). Upstream-Kandidat mii-kds-module-template.
+  #
+  # Absichtlich hinter dem GitHub-Environment `simplifier-registry`:
+  # dort einen REQUIRED REVIEWER konfigurieren (Settings → Environments), dann
+  # ist der Registry-Push ein manuell freigegebener Knopf — die Registry ist
+  # immutabel, ein falsches Publish ist unwiderruflich.
+  publish-registry:
+    needs: [guard, build, release]
+    if: >-
+      ${{ needs.guard.outputs.is_module == 'true'
+      && vars.ENABLE_MODULE_RELEASE != 'false'
+      && vars.ENABLE_REGISTRY_PUBLISH != 'false'
+      && github.event_name == 'push'
+      && startsWith(github.ref, 'refs/tags/v') }}
+    runs-on: ubuntu-latest
+    environment:
+      name: simplifier-registry
+      url: https://packages.simplifier.net/de.medizininformatikinitiative.kerndatensatz.biobank
+    permissions:
+      contents: read
+    steps:
+      - name: Download the build (package.tgz)
+        uses: actions/download-artifact@634f93cb2916e3fdff6788551b99b062d0335ce0 # v5.0.0
+        with:
+          name: module-release-build
+          path: release-assets
+
+      - name: Verify package identity against the tag
+        shell: bash
+        run: |
+          set -euo pipefail
+          version="${GITHUB_REF_NAME#v}"
+          manifest="$(tar -xOzf release-assets/output/package.tgz package/package.json)"
+          pkg_id="$(jq -r '.name' <<<"${manifest}")"
+          pkg_version="$(jq -r '.version' <<<"${manifest}")"
+          test "${pkg_id}" = "de.medizininformatikinitiative.kerndatensatz.biobank"
+          if [[ "${pkg_version}" != "${version}" ]]; then
+            echo "::error::Package version ${pkg_version} does not match tag ${GITHUB_REF_NAME}."
+            exit 1
+          fi
+          # Snapshot-Wächter: kein StructureDefinition ohne Snapshot (die
+          # Fehlerklasse, die rc1 unbrauchbar machte).
+          bad=0
+          while IFS= read -r f; do
+            n="$(tar -xOzf release-assets/output/package.tgz "${f}" | jq '(.snapshot.element // []) | length')"
+            if [[ "${n}" == "0" ]]; then
+              echo "::error::${f} has an empty snapshot."
+              bad=1
+            fi
+          done < <(tar -tzf release-assets/output/package.tgz | grep -E '^package/StructureDefinition-[^/]+\.json$')
+          [[ "${bad}" == "0" ]]
+
+      - name: Refuse to overwrite an existing registry version
+        shell: bash
+        run: |
+          set -euo pipefail
+          version="${GITHUB_REF_NAME#v}"
+          if curl --silent --fail "https://packages.simplifier.net/de.medizininformatikinitiative.kerndatensatz.biobank"             | jq -e --arg v "${version}" '.versions[$v]' >/dev/null; then
+            echo "::error::Version ${version} already exists in the registry (immutable). Bump the version."
+            exit 1
+          fi
+
+      - name: Publish to packages.simplifier.net
+        shell: bash
+        env:
+          SIMPLIFIER_USERNAME: ${{ secrets.SIMPLIFIER_USERNAME }}
+          SIMPLIFIER_PASSWORD: ${{ secrets.SIMPLIFIER_PASSWORD }}
+        run: |
+          set -euo pipefail
+          dotnet tool install --global Firely.Terminal --version 3.5.0 >/dev/null
+          export PATH="${PATH}:${HOME}/.dotnet/tools"
+          fhir login email="${SIMPLIFIER_USERNAME}" password="${SIMPLIFIER_PASSWORD}"
+          fhir publish-package release-assets/output/package.tgz
+
+      - name: Verify the registry serves the version
+        shell: bash
+        run: |
+          set -euo pipefail
+          version="${GITHUB_REF_NAME#v}"
+          for attempt in {1..10}; do
+            if curl --silent --fail "https://packages.simplifier.net/de.medizininformatikinitiative.kerndatensatz.biobank"               | jq -e --arg v "${version}" '.versions[$v]' >/dev/null; then
+              echo "Registry serves ${version}."
+              exit 0
+            fi
+            sleep 15
+          done
+          echo "::error::Registry does not serve ${version} after publishing."
+          exit 1
+
   release:
     needs: [guard, build]
     if: >-
