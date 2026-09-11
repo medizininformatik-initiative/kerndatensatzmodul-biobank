@@ -16,6 +16,19 @@ which are **human-gated**.
 > `docs/recipes/cut-a-release.md`. Read this page once to understand the model;
 > follow the recipe each time you release.
 
+> **Package-Quelle (Modul-Beschluss, 2026-09-11): ausschließlich das
+> IG-Publisher-Package.** Das Registry-Artefakt auf packages.simplifier.net ist
+> das `output/package.tgz` des Release-Builds (Job `publish-registry` in
+> `module-release.yml`, freigegeben über das GitHub-Environment
+> `simplifier-registry`). Firely-Bake-/Simplifier-seitige Paket-Builds sind
+> abgeschafft: die gebakten Pakete produzierten Snapshot-Defekte (leere
+> Snapshots in `2027.0.0-ballot.rc1`, stale Parent-Merges aus dem lokalen
+> Cache), das IG-Package enthält zusätzlich IG-Ressource und
+> Expansion-Manifest (CRMI) und ist identisch mit dem GitHub-Release-Asset —
+> eine Quelle, ein Artefakt. Niemand lädt Pakete manuell oder über Simplifier
+> hoch. (`package.bake.yaml` bleibt nur als lokales Vergleichswerkzeug.)
+
+
 ---
 
 ## The one hard rule: CalVer here, SemVer there — never mix

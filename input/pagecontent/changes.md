@@ -1,5 +1,8 @@
 <!-- markdownlint-disable MD041 -->
-<!-- TODO:REVIEW machine translation of source page changes.md (de) -->
+### Version 2027.0.0-ballot
+
+Chore:
+* Update MIABIS Dependency to 1.3.0 **Breaking Changes:** MIABIS changes all canonical URLs. This impacts extensions as well as the system URLs for temperature & sample material codes.
 
 ### Version 2027.0.0-ballot.rc2
 

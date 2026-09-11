@@ -3,6 +3,14 @@
   "id": "mii-pr-biobank-specimen",
   "extension": [
     {
+      "url": "http://hl7.org/fhir/StructureDefinition/artifact-versionAlgorithm",
+      "valueCoding": {
+        "code": "semver",
+        "system": "http://hl7.org/fhir/version-algorithm",
+        "display": "SemVer"
+      }
+    },
+    {
       "url": "https://www.medizininformatik-initiative.de/fhir/modul-meta/StructureDefinition/mii-ex-meta-license-codeable",
       "valueCodeableConcept": {
         "coding": [
@@ -16,7 +24,7 @@
     }
   ],
   "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/Specimen",
-  "version": "2027.0.0-ballot.rc2",
+  "version": "2027.0.0-ballot",
   "name": "MII_PR_Biobank_Specimen_Bioprobe",
   "_name": {
     "extension": [
@@ -67,7 +75,7 @@
     ]
   },
   "status": "active",
-  "date": "2025-09-02",
+  "date": "2026-09-10",
   "publisher": "Medizininformatik Initiative",
   "contact": [
     {
@@ -295,13 +303,13 @@
         "mustSupport": true,
         "binding": {
           "strength": "required",
-          "valueSet": "https://fhir.bbmri-eric.eu/fhir/ValueSet/miabis-detailed-sample-type-vs"
+          "valueSet": "https://fhir.bbmri-eric.eu/ValueSet/miabis-detailed-sample-type-vs"
         }
       },
       {
         "id": "Specimen.type.coding:miabis-type.system",
         "path": "Specimen.type.coding.system",
-        "patternUri": "https://fhir.bbmri-eric.eu/fhir/CodeSystem/miabis-detailed-samply-type-cs"
+        "patternUri": "https://fhir.bbmri-eric.eu/CodeSystem/miabis-detailed-samply-type-cs"
       },
       {
         "id": "Specimen.collection.method",
@@ -330,6 +338,17 @@
         "path": "Specimen.processing"
       },
       {
+        "id": "Specimen.processing.extension",
+        "path": "Specimen.processing.extension",
+        "min": 1
+      },
+      {
+        "id": "Specimen.processing.extension:temperaturbedingungen",
+        "path": "Specimen.processing.extension",
+        "sliceName": "temperaturbedingungen",
+        "min": 1
+      },
+      {
         "id": "Specimen.processing.extension:temperature-miabis",
         "path": "Specimen.processing.extension",
         "sliceName": "temperature-miabis",
@@ -339,11 +358,22 @@
           {
             "code": "Extension",
             "profile": [
-              "https://fhir.bbmri-eric.eu/fhir/StructureDefinition/miabis-sample-storage-temperature-extension"
+              "https://fhir.bbmri-eric.eu/StructureDefinition/miabis-sample-storage-temperature-extension"
             ]
           }
         ],
         "mustSupport": true
+      },
+      {
+        "id": "Specimen.processing:lagerprozess",
+        "path": "Specimen.processing",
+        "sliceName": "lagerprozess"
+      },
+      {
+        "id": "Specimen.processing:lagerprozess.extension:temperaturbedingungen",
+        "path": "Specimen.processing.extension",
+        "sliceName": "temperaturbedingungen",
+        "min": 1
       },
       {
         "id": "Specimen.container",

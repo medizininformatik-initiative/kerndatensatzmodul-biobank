@@ -5,7 +5,7 @@
     "fshType": "Instance",
     "fshFile": "CapabilityStatement.fsh",
     "startLine": 31,
-    "endLine": 148
+    "endLine": 152
   },
   {
     "outputFile": "CodeSystem-mii-cs-biobank-contact-type.json",
@@ -144,6 +144,30 @@
     "endLine": 19
   },
   {
+    "outputFile": "SearchParameter-mii-sp-biobank-infektiositaetsstatus.json",
+    "fshName": "mii-sp-biobank-infektiositaetsstatus",
+    "fshType": "Instance",
+    "fshFile": "searchparams/SP_BIOBANK_INFEKTIOSITAETSSTATUS.fsh",
+    "startLine": 1,
+    "endLine": 17
+  },
+  {
+    "outputFile": "SearchParameter-mii-sp-biobank-specimen-feature.json",
+    "fshName": "mii-sp-biobank-specimen-feature",
+    "fshType": "Instance",
+    "fshFile": "searchparams/SP_BIOBANK_FEATURE.fsh",
+    "startLine": 1,
+    "endLine": 17
+  },
+  {
+    "outputFile": "SearchParameter-mii-sp-biobank-specimen-focus.json",
+    "fshName": "mii-sp-biobank-specimen-focus",
+    "fshType": "Instance",
+    "fshFile": "searchparams/SP_BIOBANK_FOCUS.fsh",
+    "startLine": 1,
+    "endLine": 18
+  },
+  {
     "outputFile": "ServiceRequest-GewebeBiopsie.json",
     "fshName": "GewebeBiopsie",
     "fshType": "Instance",
@@ -221,7 +245,7 @@
     "fshType": "Logical",
     "fshFile": "logicals/MII_LM_Biobank.fsh",
     "startLine": 1,
-    "endLine": 78
+    "endLine": 79
   },
   {
     "outputFile": "StructureDefinition-mii-ex-biobank-anzahl-aliquots.json",
@@ -389,7 +413,7 @@
     "fshType": "Profile",
     "fshFile": "profiles/ProfileSpecimenBioprobe.fsh",
     "startLine": 2,
-    "endLine": 57
+    "endLine": 58
   },
   {
     "outputFile": "StructureDefinition-mii-pr-biobank-substance-additiv.json",
@@ -416,12 +440,12 @@
     "endLine": 6
   },
   {
-    "outputFile": "ValueSet-mii-vs-biobank-biosafety-level.json",
-    "fshName": "MII_VS_Biobank_Biosafety_Level",
+    "outputFile": "ValueSet-mii-vs-biobank-biosafety-level-snomedct.json",
+    "fshName": "MII_VS_Biobank_Biosafety_Level_SNOMEDCT",
     "fshType": "ValueSet",
     "fshFile": "valuesets/ValueSetInfextiositaetsstatus.fsh",
     "startLine": 1,
-    "endLine": 22
+    "endLine": 23
   },
   {
     "outputFile": "ValueSet-mii-vs-biobank-body-structures-sct.json",

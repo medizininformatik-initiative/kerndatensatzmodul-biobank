@@ -11,4 +11,4 @@ Title: "MII VS Biobank Substance Additive"
 * ^experimental = false
 * ^description = "Value Set for Substance Additives (SNOMED CT)"
 
-* include codes from system $SCT where concept descendent-of #105590001
+* include codes from system $sct where concept descendent-of #105590001

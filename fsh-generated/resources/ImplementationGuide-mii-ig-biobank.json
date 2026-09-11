@@ -1,6 +1,6 @@
 {
   "resourceType": "ImplementationGuide",
-  "id": "mii-ig-biobank-de-v2026",
+  "id": "mii-ig-biobank",
   "meta": {
     "profile": [
       "http://hl7.org/fhir/uv/crmi/StructureDefinition/crmi-shareableimplementationguide",
@@ -42,7 +42,7 @@
         },
         {
           "url": "version",
-          "valueString": "2027.0.0-ballot.rc2"
+          "valueString": "2027.0.0-ballot"
         },
         {
           "url": "uri",
@@ -62,7 +62,7 @@
         "telecom": [
           {
             "system": "email",
-            "value": "thomas.debertshaeuser@charite.de"
+            "value": "noemi.deppenwiese@uk-erlangen.de"
           }
         ]
       }
@@ -154,8 +154,8 @@
       }
     }
   ],
-  "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ImplementationGuide/mii-ig-biobank-de-v2026",
-  "version": "2027.0.0-ballot.rc2",
+  "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ImplementationGuide/mii-ig-biobank",
+  "version": "2027.0.0-ballot",
   "name": "MII_IG_Biobank_DE",
   "title": "MII IG Kerndatensatz-Modul Biobank",
   "status": "active",
@@ -199,14 +199,14 @@
     },
     {
       "packageId": "de.medizininformatikinitiative.kerndatensatz.meta",
-      "version": "2027.0.0-ballot.rc3",
+      "version": "2027.0.0-ballot",
       "uri": "https://www.medizininformatik-initiative.de/fhir/modul-meta/ImplementationGuide/mii-ig-meta",
       "id": "de_medizininformatikinitiative_kerndatensatz_meta"
     },
     {
       "packageId": "eu.miabis.r4",
-      "version": "0.2.0",
-      "uri": "http://fhir.org/packages/eu.miabis.r4/ImplementationGuide/eu.miabis.r4",
+      "version": "1.3.0",
+      "uri": "https://fhir.miabis.bbmri-eric.eu",
       "id": "eu_miabis_r4"
     },
     {
@@ -242,14 +242,6 @@
         },
         "name": "Biobank Musterstadt",
         "exampleCanonical": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/Organization"
-      },
-      {
-        "reference": {
-          "reference": "ValueSet/mii-vs-biobank-biosafety-level"
-        },
-        "name": "Biosafety-Level Einstufung (ValueSet)",
-        "description": "ValueSet zur Auswahl der Biosafety-Level-Einstufung einer Probe (SNOMED CT), inklusive eines Codes für 'keine Infektionsgefahr bekannt'.",
-        "exampleBoolean": false
       },
       {
         "reference": {
@@ -300,14 +292,6 @@
         },
         "name": "Heparin",
         "exampleCanonical": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/Substance"
-      },
-      {
-        "reference": {
-          "reference": "StructureDefinition/mii-ex-biobank-infektiositaetsstatus"
-        },
-        "name": "Infektiositätsstatus",
-        "description": "Extension zur Angabe des Infektiositätsstatus einer Probe anhand der Biosafety-Level-Einstufung (BSL-1 bis BSL-4, SNOMED CT) bzw. der Angabe, dass keine Infektionsgefahr bekannt ist.",
-        "exampleBoolean": false
       },
       {
         "reference": {
@@ -426,6 +410,14 @@
         },
         "name": "MII EX Biobank Feature R5",
         "description": "Die Extension ermöglicht es im Specimen das feature aus R5 zu nutzen.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "StructureDefinition/mii-ex-biobank-infektiositaetsstatus"
+        },
+        "name": "MII EX Biobank Infektiositätsstatus",
+        "description": "Extension zur Angabe des Infektiositätsstatus einer Probe anhand der Biosafety-Level-Einstufung (BSL-1 bis BSL-4, SNOMED CT) bzw. der Angabe, dass keine Infektionsgefahr bekannt ist.",
         "exampleBoolean": false
       },
       {
@@ -558,6 +550,14 @@
       },
       {
         "reference": {
+          "reference": "ValueSet/mii-vs-biobank-biosafety-level-snomedct"
+        },
+        "name": "MII VS Biobank Biosafety-Level Einstufung [SNOMED CT]",
+        "description": "ValueSet zur Auswahl der Biosafety-Level-Einstufung einer Probe (SNOMED CT), inklusive eines Codes für 'keine Infektionsgefahr bekannt'.",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
           "reference": "ValueSet/mii-vs-biobank-body-structures-sct"
         },
         "name": "MII VS Biobank BodyStructures SCT",
@@ -658,6 +658,30 @@
         },
         "exampleBoolean": false,
         "name": "mii-param-biobank-manifest"
+      },
+      {
+        "reference": {
+          "reference": "SearchParameter/mii-sp-biobank-infektiositaetsstatus"
+        },
+        "name": "mii-sp-biobank-infektiositaetsstatus",
+        "description": "Suchparameter für den Infektiositätsstatus (Extension) an Specimen",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "SearchParameter/mii-sp-biobank-specimen-feature"
+        },
+        "name": "mii-sp-biobank-specimen-feature",
+        "description": "Suchparameter für das Specimen-Feature (R5-Backport-Extension) nach Feature-Typ",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
+          "reference": "SearchParameter/mii-sp-biobank-specimen-focus"
+        },
+        "name": "mii-sp-biobank-specimen-focus",
+        "description": "Suchparameter für die Specimen-Focus-Extension nach der referenzierten Fokus-Ressource",
+        "exampleBoolean": false
       },
       {
         "reference": {
@@ -843,7 +867,7 @@
           "generation": "markdown"
         },
         {
-          "nameUrl": "ImplementationGuide-mii-ig-biobank-de-v2026.html",
+          "nameUrl": "ImplementationGuide-mii-ig-biobank.html",
           "title": "MII ImplementationGuide Resource",
           "generation": "markdown"
         },

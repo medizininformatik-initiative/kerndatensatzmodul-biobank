@@ -1,12 +1,12 @@
-Alias: $SCT = http://snomed.info/sct
 Alias: $CLO = http://purl.obolibrary.org/obo/clo.owl
 Alias: $LOINC = http://loinc.org
 Alias: $UCUM = http://unitsofmeasure.org
-
+Alias: $miabis-type = https://fhir.bbmri-eric.eu/CodeSystem/miabis-detailed-samply-type-cs
+Alias: $miabis-storage-temp = https://fhir.bbmri-eric.eu/CodeSystem/miabis-storage-temperature-cs
 Alias: $exp = http://hl7.org/fhir/StructureDefinition/capabilitystatement-expectation
 
 // --- appended from mii-kds-module-template v0.11.3 aliases.fsh (per-definition merge; module definitions win) ---
-Alias: $sct = http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260501
+Alias: $sct = http://snomed.info/sct|http://snomed.info/sct/900000000000207008/version/20260701
 Alias: $sct-no-ver = http://snomed.info/sct
 Alias: $loinc = http://loinc.org
 Alias: $icd-10 = http://hl7.org/fhir/sid/icd-10

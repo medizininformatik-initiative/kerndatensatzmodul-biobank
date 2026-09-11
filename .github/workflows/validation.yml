@@ -147,9 +147,25 @@ jobs:
       # (verified at the pinned SHA); without this the advisor.json shipped at
       # the repo root would be read by NOTHING and the "suppressed via
       # advisor.json" contract in this file's header would be false.
-      JAVA_VALIDATION_OPTIONS: "-advisor-file advisor.json"
+      # Volle Optionskette wie der meta-master-Default: ohne -output/-html-output
+      # stirbt der Validator bei Findings mit Exit 1 BEVOR ein Report existiert
+      # (ENOENT validation.json; Filter/Renderer laufen nie). MODULE-LOCAL, Upstream-Kandidat.
+      JAVA_VALIDATION_OPTIONS: "-advisor-file advisor.json -resolution-context file:fsh-generated/resources/ -txLog txlog.html -forPublication -verbose -authorise-non-conformant-tx-servers -html-output validation.html -output validation.json"
       VALIDATION_REPORT_FILTERS: |
-        filename | messageId | detailsWildcard | location
+        #Skip issue with LOINC defined VS
+        Observation-QualitaetspruefungBuffyCoat.json||*There is no declared filter called LIST*|Observation.component[1].value.ofType(CodeableConcept)
+        #Skip issue with CLO prefix (CodeSystem)
+        Specimen-OrganoidLunge.json||*in the CodeSystem 'http://purl.obolibrary.org/obo/clo.owl'*|Specimen.extension[1].extension[0].value.ofType(CodeableConcept)*
+        #Skip issue with CLO prefix (ValueSet)
+        Specimen-OrganoidLunge.json||*in the value set 'MII VS Biobank Cellline Modification CLO'*|Specimen.extension[1].extension[0].value.ofType(CodeableConcept)*
+        #Template-Maschinerie (MII-KDS-Modul-Template, CRMI-Extensions der IG-Ressource) — Migration PR #81:
+        #R5-CodeSystem version-algorithm ist dem R4-Validator/tx unbekannt (artifact-versionAlgorithm-Extension, Konvention aus kerndatensatz-basis)
+        ImplementationGuide-mii-ig-biobank.json||*Unknown Code System 'http://hl7.org/fhir/version-algorithm'*|ImplementationGuide.extension*
+        ImplementationGuide-mii-ig-biobank.json||*No definition could be found for URL value 'http://hl7.org/fhir/version-algorithm'*|ImplementationGuide.extension*
+        #Code 'package' existiert erst in neuerem THO als der vom Validator aufgeloesten Version 5.2.0 (artifact-versionPolicy)
+        ImplementationGuide-mii-ig-biobank.json||*Unknown code 'package' in the CodeSystem 'http://terminology.hl7.org/CodeSystem/artifact-version-policy-codes'*|ImplementationGuide.extension*
+        #Paketaufloesungs-Artefakt: Validator zieht crmi als Ballot-tgz von packages2, dessen Canonical vom IG-Canonical abweicht
+        ImplementationGuide-mii-ig-biobank.json||*The packageId hl7.fhir.uv.crmi points to the canonical*|ImplementationGuide.dependsOn*
     # Secret-name reconciliation: the MII reusable workflow declares
     # CDS_DEV_CLIENT_CERT / _KEY / _CERT_PASSWORD (all required), but THIS repo's
     # canonical name for the same SU-TermServ client certificate is

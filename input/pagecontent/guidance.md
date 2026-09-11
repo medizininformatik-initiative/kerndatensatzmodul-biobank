@@ -2,8 +2,6 @@
 <!-- TODO:REVIEW machine translation of source page guidance.md (de) -->
 
 <!-- DERIVED:stand-in source=MIIIGModulBiobank/AnwendungsfaelleInformationsmodell/Index.page.md gate=B -->
-> These introductory lines and the link list were newly written during the migration (the source hub page was intentionally empty).
-{: .ig-highlight .ig-highlight-grey}
 
 This page describes the module's application scenarios; the subpages cover individual aspects in more depth:
 

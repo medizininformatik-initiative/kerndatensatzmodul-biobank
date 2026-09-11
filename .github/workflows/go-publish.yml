@@ -823,7 +823,6 @@ jobs:
           VERSION: ${{ steps.release.outputs.version }}
         run: |
           set -euo pipefail
-          set -x  # TEMPORAER (Dry-Run-Diagnose): zeigt das exakt fehlschlagende Kommando
           # MODULE-LOCAL ADAPTATION (Biobank 2026-09-09): Ballot-/working-Publikationen
           # werden vom Publisher NICHT als current/milestone markiert — die Checks
           # unten duerfen das nur im Milestone-Modus verlangen. Upstream-Kandidat.
@@ -918,7 +917,11 @@ jobs:
           grep -Fq 'id="history-data"' site/history.html
           grep -Fq 'var pageJSON =' site/history.html
           grep -Fq "${VERSION}" site/history.html
-          grep -Fq "${PUBLICATION_BASE}/history.html" site/index.html
+          if [[ "${MODE}" == "milestone" ]]; then
+            # Nur ein Milestone wird in die Webroot-Wurzel kopiert; eine
+            # Ballot-/working-Publikation laesst die Wurzel unveraendert.
+            grep -Fq "${PUBLICATION_BASE}/history.html" site/index.html
+          fi
           grep -Fq "${PUBLICATION_BASE}/history.html" "site/${LABEL}/index.html"
 
           validate_package_manifest() {

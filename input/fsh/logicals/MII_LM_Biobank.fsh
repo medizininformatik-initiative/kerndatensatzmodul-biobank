@@ -16,6 +16,7 @@ Description: "Logische Repräsentation des Erweiterungsmoduls Biobank"
   * FestgestellteDiagnose 0..1 http://hl7.org/fhir/StructureDefinition/Reference "Verweis auf eine Diagnose für die Material in der Probe enthalten ist"
   * gehoert-zu 0..1 http://hl7.org/fhir/StructureDefinition/Reference "Zuordnung der Probe zu einer Sammlung/Biobank"
   * Anzahl-Aliqouts 0..1 http://hl7.org/fhir/StructureDefinition/integer "Anzahl der Aliqouts."
+  * Infektiositaets-Status 0..1 http://hl7.org/fhir/StructureDefinition/CodeableConcept "Markiert eine Probe als (potentiell) infektiös."
   
   * Container 0..1 BackboneElement "Probenbehältnis"
     * Containertyp 0..1 http://hl7.org/fhir/StructureDefinition/CodeableConcept "Typ des Containers"

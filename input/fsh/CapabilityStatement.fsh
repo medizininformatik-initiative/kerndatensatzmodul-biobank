@@ -70,6 +70,7 @@ Usage: #definition
 * insert SupportSearchParam(patient, http://hl7.org/fhir/SearchParameter/Specimen-patient, #reference, #SHALL)
 * insert SupportSearchParam(parent, http://hl7.org/fhir/SearchParameter/Specimen-parent, #reference, #SHALL)
 * insert SupportSearchParam(request, https://www.medizininformatik-initiative.de/fhir/modul-meta/SearchParameter/mii-sp-meta-specimen-request, #reference, #SHALL)
+* insert SupportSearchParam(feature, https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/SearchParameter/mii-sp-biobank-specimen-feature, #token, #SHALL)
 * insert SupportSearchParam(einstellung-blutversorgung, https://www.medizininformatik-initiative.de/fhir/ext/modul-meta/SearchParameter/mii-sp-meta-specimen-einstellung-blutversorgung, #date, #SHALL)
 * insert SupportSearchParam(collected, http://hl7.org/fhir/SearchParameter/Specimen-collected, #date, #SHALL)
 * insert SupportSearchParam(bodysite, http://hl7.org/fhir/SearchParameter/Specimen-bodysite, #token, #SHALL)
@@ -83,6 +84,9 @@ Usage: #definition
 * insert SupportSearchParam(container-specimen-quantity, https://www.medizininformatik-initiative.de/fhir/ext/modul-meta/SearchParameter/mii-sp-meta-specimen-container-specimen-quantity, #quantity, #SHALL)
 * insert SupportSearchParam(container-additive, https://www.medizininformatik-initiative.de/fhir/modul-meta/SearchParameter/mii-sp-meta-specimen-container-additive, #reference, #SHALL)
 * insert SupportSearchParam(note, https://www.medizininformatik-initiative.de/fhir/ext/modul-meta/SearchParameter/mii-sp-meta-specimen-note, #string, #SHALL)
+* insert SupportSearchParam(infektiositaetsstatus, https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/SearchParameter/mii-sp-biobank-infektiositaetsstatus, #token, #SHALL)
+* insert SupportSearchParam(focus, https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/SearchParameter/mii-sp-biobank-specimen-focus, #reference, #SHALL)
+
 //Zellinie/Organoid
 * insert SupportSearchParam(kulturprotokoll, https://www.medizininformatik-initiative.de/fhir/ext/modul-meta/SearchParameter/mii-sp-meta-specimen-kulturprotokoll, #reference, #SHALL)
 * insert SupportSearchParam(anzahl-passagen, https://www.medizininformatik-initiative.de/fhir/ext/modul-meta/SearchParameter/mii-sp-meta-specimen-anzahl-passagen, #number, #SHALL)

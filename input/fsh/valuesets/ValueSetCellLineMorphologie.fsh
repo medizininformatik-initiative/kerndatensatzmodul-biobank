@@ -12,4 +12,4 @@ Description: "Beschreibt die morphologischen Eigenschaften von Zelllinien"
 * ^experimental = false
 * ^description = "Value Set for Morphological Characteristics of Cell Lines"
 
-* include codes from system $SCT where concept descendent-of #107673000
+* include codes from system $sct where concept descendent-of #107673000

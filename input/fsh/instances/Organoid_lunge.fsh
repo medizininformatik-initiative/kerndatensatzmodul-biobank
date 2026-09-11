@@ -15,13 +15,13 @@ Usage: #example
 * identifier.system = "https://biobank.uk-musterstadt.de/fhir/sid/proben"
 * identifier.value = "6789-ORG-1"
 * status = #available
-* type.coding[miabis-type] = https://fhir.bbmri-eric.eu/fhir/CodeSystem/miabis-detailed-samply-type-cs#Organoid "Organoids"
-* type.coding[sct] = $SCT#123038009 "Specimen (specimen)"
+* type.coding[miabis-type] = $miabis-type#Organoid "Organoids"
+* type.coding[sct] = $sct-no-ver#123038009 "Specimen (specimen)"
 * subject.reference = "Patient/mii-exa-test-data-patient-1"
 * collection.collectedDateTime = "2018-06-08T15:34:00+01:00"
 
 
-* container.type = http://snomed.info/sct#83059008 "Tube, device (physical object)"
+* container.type = $sct-no-ver#83059008 "Tube, device (physical object)"
 * container.specimenQuantity.value = 1
 * container.specimenQuantity.system = $UCUM
 * container.specimenQuantity.code = #ml
@@ -29,6 +29,6 @@ Usage: #example
 
 * processing[+].extension[temperaturbedingungen].valueRange.low.value = 37
 * processing[=].extension[temperaturbedingungen].valueRange.high.value = 37
-* processing[=].procedure = $SCT#1186936003 "Storage of specimen (procedure)"
+* processing[=].procedure = $sct-no-ver#1186936003 "Storage of specimen (procedure)"
 * processing[=].timePeriod.start = "2018-06-20T10:00:00+01:00"
 * processing[=].timePeriod.end = "2018-06-27T10:00:00+01:00"

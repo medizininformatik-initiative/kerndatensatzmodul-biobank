@@ -83,8 +83,16 @@
       ]
     }
   ],
-  "version": "2027.0.0-ballot.rc2",
+  "version": "2027.0.0-ballot",
   "extension": [
+    {
+      "url": "http://hl7.org/fhir/StructureDefinition/artifact-versionAlgorithm",
+      "valueCoding": {
+        "code": "semver",
+        "system": "http://hl7.org/fhir/version-algorithm",
+        "display": "SemVer"
+      }
+    },
     {
       "url": "https://www.medizininformatik-initiative.de/fhir/modul-meta/StructureDefinition/mii-ex-meta-license-codeable",
       "valueCodeableConcept": {
@@ -98,6 +106,6 @@
       }
     }
   ],
-  "date": "2025-09-02",
+  "date": "2026-09-10",
   "count": 1
 }

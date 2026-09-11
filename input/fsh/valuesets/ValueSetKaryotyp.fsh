@@ -11,7 +11,7 @@ Title: "MII VS Biobank Karyotyp SCT"
 * ^experimental = false
 * ^description = "Value Set for Karyotypes (SNOMED CT)"
 
-* include $SCT#27159004 "Haploidy (cell structure)"
-* include $SCT#89304008 "Diploidy (cell structure)"
-* include $SCT#734875008 "Karyotype 46, XX (cell structure)"
-* include $SCT#734876009 "Karyotype 46, XY (cell structure)"
+* include $sct#27159004 "Haploidy (cell structure)"
+* include $sct#89304008 "Diploidy (cell structure)"
+* include $sct#734875008 "Karyotype 46, XX (cell structure)"
+* include $sct#734876009 "Karyotype 46, XY (cell structure)"

@@ -1,4 +1,5 @@
 <!-- markdownlint-disable MD041 -->
+<!-- DERIVED:bridge source=MIIIGModulBiobank/TechnischeImplementierung/Terminologien.page.md gate=B -->
 <!-- Default-language (English) page. Ported from kerndatensatz-basis
      input/pagecontent/metadata.md (branch main) and reduced to what THIS
      scaffold actually declares in sushi-config.yaml.
