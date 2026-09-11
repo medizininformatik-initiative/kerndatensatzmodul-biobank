@@ -5,9 +5,8 @@
      module-specific aspects. Stages 1 and 2 are static overarching content —
      keep them; stage 3 is where your module writes. Stage 3's CONTENT is
      optional: a module with no aspects of its own adopts the default text in
-     the section. The Person example box is illustrative only and MUST be
-     removed before the first release (ILLUSTRATIVE-EXAMPLE marker, convention
-     check M11).
+     the section. (The scaffold's illustrative Person example box was removed
+     for the release, per convention check M11.)
      German mirror: input/translations/de/pagecontent/security-and-privacy.md —
      both files must say the same thing. -->
 

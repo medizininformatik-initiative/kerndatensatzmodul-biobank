@@ -15,8 +15,8 @@
 This ImplementationGuide resource defines the technical details of this
 publication, including dependencies and publishing parameters.
 
-- [XML](../ImplementationGuide-mii-ig-biobank-de-v2026.xml)
-- [JSON](../ImplementationGuide-mii-ig-biobank-de-v2026.json)
+- [XML](../ImplementationGuide-mii-ig-biobank-de.xml)
+- [JSON](../ImplementationGuide-mii-ig-biobank-de.json)
 
 ### Cross Version Analysis
 
