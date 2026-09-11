@@ -122,27 +122,9 @@ extension:
       telecom:
         - system: url
           value: https://www.medizininformatik-initiative.de/en/collaboration/national-steering-committee
-  # OPTIONAL (module-specific): literature reference(s) for the module.
-  # For example, kerndatensatz-basis cites the MII core-data-set paper
-  # (doi:10.1007/s00103-024-03888-4) with this exact structure — uncomment and
-  # fill in when your module has a citation:
-  # - url: http://hl7.org/fhir/StructureDefinition/artifact-relatedArtifact
-  #   valueRelatedArtifact:
-  #     type: citation
-  #     citation: "{{CITATION_TEXT}}"
-  #     url: "{{CITATION_URL}}"
-  #     extension:
-  #       - url: http://hl7.org/fhir/StructureDefinition/cqf-publicationDate
-  #         valueDate: "{{CITATION_PUBLICATION_DATE}}"
-  #       - url: http://hl7.org/fhir/StructureDefinition/cqf-publicationStatus
-  #         valueCode: active
-  # The module's expansion-parameters manifest — the pinned code system versions
-  # every ValueSet in this IG is expanded against (MII meta wiki, "Terminology
-  # Version Policy"). Shipped at
-  # input/resources/Parameters-expansion-manifest.json; see
-  # input/resources/README.md for the CalVer → SNOMED CT release table. Active
-  # together with path-expansion-params / pin-manifest below — all three must
-  # name the same resource.
+  # OPTIONAL (module-specific): literature citation block — see the module
+  # template (removed here: its CITATION placeholders trip the
+  # module-release guard; re-add from the template when a citation exists).
   - url: http://hl7.org/fhir/StructureDefinition/cqf-expansionParameters
     valueReference:
       reference: Parameters/mii-param-biobank-manifest
