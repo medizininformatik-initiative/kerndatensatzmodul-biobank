@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Offizielle URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/mii-ex-biobank-ebene | *Version*:2027.0.0-ballot |
-| Active Stand: 2026-09-10 | *Maschinenlesbarer Name*:MII_EX_Biobank_Ebene |
+| Active Stand: 2026-09-11 | *Maschinenlesbarer Name*:MII_EX_Biobank_Ebene |
 
 Mittels dieser Extension kann ausgedrückt werden, welcher Probenebene dieses Specimen zuzuordnen ist.
 
@@ -126,7 +126,7 @@ Weitere Repräsentationen des Profils: [CSV](../StructureDefinition-mii-ex-bioba
     }]
   },
   "status" : "active",
-  "date" : "2026-09-10T16:26:54+00:00",
+  "date" : "2026-09-11T08:05:56+00:00",
   "publisher" : "Medizininformatik Initiative",
   "contact" : [{
     "name" : "Medizininformatik Initiative",

@@ -2436,9 +2436,9 @@
       {
         "extension" : [{
           "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-          "valueUrl" : "ImplementationGuide-mii-ig-biobank-de-v2026.html"
+          "valueUrl" : "ImplementationGuide-mii-ig-biobank-de.html"
         }],
-        "nameUrl" : "ImplementationGuide-mii-ig-biobank-de-v2026.html",
+        "nameUrl" : "ImplementationGuide-mii-ig-biobank-de.html",
         "title" : "MII ImplementationGuide Resource",
         "_title" : {
           "extension" : [{

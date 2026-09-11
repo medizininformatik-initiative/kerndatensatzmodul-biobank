@@ -1,4 +1,80 @@
-# Resource MII IG Kerndatensatz-Modul Biobank
+# MII ImplementationGuide Ressource - MII IG Kerndatensatz-Modul Biobank v2027.0.0-ballot
+
+* [**Inhaltsverzeichnis**](toc.md)
+* **MII ImplementationGuide Ressource**
+
+## MII ImplementationGuide Ressource
+
+Diese ImplementationGuide-Ressource definiert die technischen Details dieser Publikation, einschließlich Abhängigkeiten und Veröffentlichungsparametern.
+
+* [XML](../ImplementationGuide-mii-ig-biobank-de.xml)
+* [JSON](../ImplementationGuide-mii-ig-biobank-de.json)
+
+### Versionsübergreifende Analyse
+
+This is an R4 IG. None of the features it uses are changed in R4B, so it can be used as is with R4B systems. Packages for both [R4 (de.medizininformatikinitiative.kerndatensatz.biobank.r4)](../package.r4.tgz) and [R4B (de.medizininformatikinitiative.kerndatensatz.biobank.r4b)](../package.r4b.tgz) are available.
+
+### IG-Abhängigkeiten
+
+Dieser IG enthält die folgenden Abhängigkeiten von anderen IGs.
+
+
+
+
+
+
+
+
+
+
+
+
+
+> **Woher die Versionen kommen.** Jedes Paket der Tabelle ist direkt in [`sushi-config.yaml`](https://github.com/medizininformatik-initiative/kerndatensatzmodul-biobank/blob/main/sushi-config.yaml) (`dependencies:`) gepinnt — auch `hl7.terminology.r4` (THO) und `hl7.fhir.uv.extensions.r4`, und diese beiden mit Bedacht: Die [Automatik des IG Publishers](https://build.fhir.org/ig/FHIR/ig-guidance/versions.html#automatic-packages) liest ausschließlich die **eigene** Abhängigkeitsliste dieses Leitfadens; ohne direkten Pin würde jeder Build stillschweigend das jeweils aktuellste THO-/Extensions-Release injizieren — eine allein im MII-Meta-Paket gepinnte Version kann den Build nicht steuern (verifiziert im Publisher-Quellcode des gepinnten Release). Eine wöchentliche Prüfung warnt, wenn diese beiden Pins von den Vorgaben des gepinnten Meta-Pakets abweichen; die von einem konkreten Build verwendeten Versionen stehen in dessen `qa-versions.json`.
+
+### Globale Profile
+
+Dieser IG deklariert die folgenden globalen Profile — Profile, die für jede unter diesem Leitfaden ausgetauschte Instanz ihres Ressourcentyps gelten. Eine leere Tabelle bedeutet: Dieses Modul deklariert keine.
+
+*There are no Global profiles defined*
+
+### Urheberrechte
+
+This publication includes IP covered under the following statements.
+
+* ISO maintains the copyright on the country codes, and controls its use carefully. For further details see the ISO 3166 web page: [https://www.iso.org/iso-3166-country-codes.html](https://www.iso.org/iso-3166-country-codes.html)
+
+* [ISO 3166-1 Codes for the representation of names of countries and their subdivisions — Part 1: Country code](http://terminology.hl7.org/6.3.0/CodeSystem-ISO3166Part1.html): [ConceptMap/mii-cm-biobank-fixation-type-sprec-sct](ConceptMap-mii-cm-biobank-fixation-type-sprec-sct.md), [ConceptMap/mii-cm-biobank-long-term-storage-sprec-sct](ConceptMap-mii-cm-biobank-long-term-storage-sprec-sct.md)... Show 46 more, [ConceptMap/mii-cm-biobank-primary-container-sprec-sct](ConceptMap-mii-cm-biobank-primary-container-sprec-sct.md), [ConceptMap/mii-cm-biobank-sample-type-sprec-sct](ConceptMap-mii-cm-biobank-sample-type-sprec-sct.md), [MII_CPS_Biobank_CapabilityStatement](CapabilityStatement-mii-cps-biobank-capabilitystatement.md), [MII_CS_Biobank_Contact_Type](CodeSystem-mii-cs-biobank-contact-type.md), [MII_CS_Biobank_Probenebene](CodeSystem-mii-cs-biobank-probenebene.md), [MII_EX_Biobank_Anzahl_Aliquots](StructureDefinition-mii-ex-biobank-anzahl-aliquots.md), [MII_EX_Biobank_Anzahl_Passagen](StructureDefinition-mii-ex-biobank-anzahl-passagen.md), [MII_EX_Biobank_Diagnose](StructureDefinition-mii-ex-biobank-diagnose.md), [MII_EX_Biobank_Ebene](StructureDefinition-mii-ex-biobank-ebene.md), [MII_EX_Biobank_Einstellung_Blutversorgung](StructureDefinition-mii-ex-biobank-einstellung-blutversorgung.md), [MII_EX_Biobank_Feature_R5](StructureDefinition-mii-ex-biobank-feature-r5.md), [MII_EX_Biobank_Infektiositaetsstatus](StructureDefinition-mii-ex-biobank-infektiositaetsstatus.md), [MII_EX_Biobank_KontaktRolle](StructureDefinition-mii-ex-biobank-kontaktrolle.md), [MII_EX_Biobank_Kulturprotokoll](StructureDefinition-mii-ex-biobank-kulturprotokoll.md), [MII_EX_Biobank_Modifikationen](StructureDefinition-mii-ex-biobank-modifikationen.md), [MII_EX_Biobank_Temperaturbedingungen](StructureDefinition-mii-ex-biobank-temperaturbedingungen.md), [MII_EX_Biobank_Verwaltende_Organisation](StructureDefinition-mii-ex-biobank-verwaltende-organisation.md), [MII_IG_Biobank_DE](index.md), [MII_LM_Biobank](StructureDefinition-Biobank.md), [MII_PR_Biobank_Observation_DNA_Konzentration](StructureDefinition-mii-pr-biobank-observation-dna-konzentration.md), [MII_PR_Biobank_Observation_Karyotyp](StructureDefinition-mii-pr-biobank-observation-karyotyp.md), [MII_PR_Biobank_Observation_Morphologie](StructureDefinition-mii-pr-biobank-observation-morphologie.md), [MII_PR_Biobank_Observation_Proliferation](StructureDefinition-mii-pr-biobank-observation-proliferation.md), [MII_PR_Biobank_Observation_Qualitaetspruefung](StructureDefinition-mii-pr-biobank-observation-qualitaetspruefung.md), [MII_PR_Biobank_Observation_Wachstumstyp](StructureDefinition-mii-pr-biobank-observation-wachstumstyp.md), [MII_PR_Biobank_Organization_Sammlung_Biobank](StructureDefinition-mii-pr-biobank-organization.md), [MII_PR_Biobank_Specimen_Bioprobe](StructureDefinition-mii-pr-biobank-specimen.md), [MII_PR_Biobank_Specimen_Bioprobe_Core](StructureDefinition-mii-pr-biobank-specimen-core.md), [MII_PR_Biobank_Specimen_Zellinie_Organoid](StructureDefinition-mii-pr-biobank-zellinie-organoid.md), [MII_PR_Biobank_Substance_Additiv](StructureDefinition-mii-pr-biobank-substance-additiv.md), [MII_SP_Biobank_Infektiositaetsstatus](SearchParameter-mii-sp-biobank-infektiositaetsstatus.md), [MII_SP_Biobank_Specimen_Feature](SearchParameter-mii-sp-biobank-specimen-feature.md), [MII_SP_Biobank_Specimen_Focus](SearchParameter-mii-sp-biobank-specimen-focus.md), [MII_VS_Biobank_Biosafety_Level_SNOMEDCT](ValueSet-mii-vs-biobank-biosafety-level-snomedct.md), [MII_VS_Biobank_BodyStructures_SCT](ValueSet-mii-vs-biobank-body-structures-sct.md), [MII_VS_Biobank_CellLine_Proliferation](ValueSet-mii-vs-biobank-cellline-proliferation.md), [MII_VS_Biobank_Cellline_Modification_CLO](ValueSet-mii-vs-biobank-cellline-modification-clo.md), [MII_VS_Biobank_Cellline_Morphology_SCT](ValueSet-mii-vs-biobank-cellline-morphology-sct.md), [MII_VS_Biobank_Containertyp_SCT](ValueSet-mii-vs-biobank-containertyp-sct.md), [MII_VS_Biobank_DNA_Concentration_Units_UCUM](ValueSet-mii-vs-biobank-dna-concentration-units-ucum.md), [MII_VS_Biobank_Karyotyp_SCT](ValueSet-mii-vs-biobank-karyotyp-sct.md), [MII_VS_Biobank_Laboratory_Procedure_SCT](ValueSet-mii-vs-biobank-laboratory-procedure-sct.md), [MII_VS_Biobank_Probenart_SCT](ValueSet-mii-vs-biobank-probenart-sct.md), [MII_VS_Biobank_Probenebene](ValueSet-mii-vs-biobank-probenebene.md), [MII_VS_Biobank_Substance_Additive_SCT](ValueSet-mii-vs-biobank-substance-additive-sct.md) and [MII_VS_Biobank_Wachstumpstyp_CLO](ValueSet-mii-vs-biobank-wachstumstyp-clo.md)
+
+
+* It is a condition of HGNC funding from NIH and the Welcome Trust that the nomenclature and information provided is freely available to all. Anyone may use the HGNC data, but we request that they reference the **"HUGO Gene Nomenclature Committee at the European Bioinformatics Institute"** and the website where possible.
+
+* [HUGO Gene Nomenclature Committee Genes](http://terminology.hl7.org/6.3.0/CodeSystem-v3-hgnc.html): [Specimen/OrganoidLunge](Specimen-OrganoidLunge.md)
+
+
+* The UCUM codes, UCUM table (regardless of format), and UCUM Specification are copyright 1999-2009, Regenstrief Institute, Inc. and the Unified Codes for Units of Measures (UCUM) Organization. All rights reserved. [https://ucum.org/trac/wiki/TermsOfUse](https://ucum.org/trac/wiki/TermsOfUse)
+
+* [Unified Code for Units of Measure (UCUM)](http://hl7.org/fhir/uv/xver-r5.r4/0.1.0/CodeSystem-v3-ucum.html): [MII_EX_Biobank_Temperaturbedingungen](StructureDefinition-mii-ex-biobank-temperaturbedingungen.md), [MII_PR_Biobank_Observation_DNA_Konzentration](StructureDefinition-mii-pr-biobank-observation-dna-konzentration.md)... Show 11 more, [MII_VS_Biobank_DNA_Concentration_Units_UCUM](ValueSet-mii-vs-biobank-dna-concentration-units-ucum.md), [Observation/DNAConcentrationObs1](Observation-DNAConcentrationObs1.md), [Observation/QualitaetspruefungPlasma](Observation-QualitaetspruefungPlasma.md), [Specimen/AliquotBuffyCoat1](Specimen-AliquotBuffyCoat1.md), [Specimen/AliquotBuffyCoat2](Specimen-AliquotBuffyCoat2.md), [Specimen/AliquotgruppeBuffyCoat](Specimen-AliquotgruppeBuffyCoat.md), [Specimen/AliquotgruppeDNA](Specimen-AliquotgruppeDNA.md), [Specimen/AliquotgruppePlasma](Specimen-AliquotgruppePlasma.md), [Specimen/MusterprobeFluessig](Specimen-MusterprobeFluessig.md), [Specimen/MusterprobeGewebe](Specimen-MusterprobeGewebe.md) and [Specimen/OrganoidLunge](Specimen-OrganoidLunge.md)
+
+
+* This material contains content from [LOINC](http://loinc.org). LOINC is copyright © 1995-2020, Regenstrief Institute, Inc. and the Logical Observation Identifiers Names and Codes (LOINC) Committee and is available at no cost under the [license](http://loinc.org/license). LOINC® is a registered United States trademark of Regenstrief Institute, Inc.
+
+* [LOINC](http://terminology.hl7.org/6.3.0/CodeSystem-v3-loinc.html): [MII_PR_Biobank_Observation_DNA_Konzentration](StructureDefinition-mii-pr-biobank-observation-dna-konzentration.md), [Observation/DNAConcentrationObs1](Observation-DNAConcentrationObs1.md), [Observation/QualitaetspruefungBuffyCoat](Observation-QualitaetspruefungBuffyCoat.md) and [Observation/QualitaetspruefungPlasma](Observation-QualitaetspruefungPlasma.md)
+
+
+* This material contains content that is copyright of SNOMED International. Implementers of these specifications must have the appropriate SNOMED CT Affiliate license - for more information contact [https://www.snomed.org/get-snomed](https://www.snomed.org/get-snomed) or [info@snomed.org](mailto:info@snomed.org).
+
+* [SNOMED Clinical Terms&reg; (SNOMED CT&reg;)](http://hl7.org/fhir/R4/codesystem-snomedct.html): [MII_EX_Biobank_Feature_R5](StructureDefinition-mii-ex-biobank-feature-r5.md), [MII_EX_Biobank_Infektiositaetsstatus](StructureDefinition-mii-ex-biobank-infektiositaetsstatus.md)... Show 31 more, [MII_PR_Biobank_Observation_Karyotyp](StructureDefinition-mii-pr-biobank-observation-karyotyp.md), [MII_PR_Biobank_Observation_Morphologie](StructureDefinition-mii-pr-biobank-observation-morphologie.md), [MII_PR_Biobank_Observation_Proliferation](StructureDefinition-mii-pr-biobank-observation-proliferation.md), [MII_PR_Biobank_Observation_Qualitaetspruefung](StructureDefinition-mii-pr-biobank-observation-qualitaetspruefung.md), [MII_PR_Biobank_Specimen_Bioprobe](StructureDefinition-mii-pr-biobank-specimen.md), [MII_PR_Biobank_Specimen_Bioprobe_Core](StructureDefinition-mii-pr-biobank-specimen-core.md), [MII_PR_Biobank_Specimen_Zellinie_Organoid](StructureDefinition-mii-pr-biobank-zellinie-organoid.md), [MII_PR_Biobank_Substance_Additiv](StructureDefinition-mii-pr-biobank-substance-additiv.md), [MII_VS_Biobank_Biosafety_Level_SNOMEDCT](ValueSet-mii-vs-biobank-biosafety-level-snomedct.md), [MII_VS_Biobank_BodyStructures_SCT](ValueSet-mii-vs-biobank-body-structures-sct.md), [MII_VS_Biobank_CellLine_Proliferation](ValueSet-mii-vs-biobank-cellline-proliferation.md), [MII_VS_Biobank_Cellline_Morphology_SCT](ValueSet-mii-vs-biobank-cellline-morphology-sct.md), [MII_VS_Biobank_Containertyp_SCT](ValueSet-mii-vs-biobank-containertyp-sct.md), [MII_VS_Biobank_Karyotyp_SCT](ValueSet-mii-vs-biobank-karyotyp-sct.md), [MII_VS_Biobank_Laboratory_Procedure_SCT](ValueSet-mii-vs-biobank-laboratory-procedure-sct.md), [MII_VS_Biobank_Probenart_SCT](ValueSet-mii-vs-biobank-probenart-sct.md), [MII_VS_Biobank_Substance_Additive_SCT](ValueSet-mii-vs-biobank-substance-additive-sct.md), [Observation/KaryotypOrganoidLunge](Observation-KaryotypOrganoidLunge.md), [Observation/MorphologieOrganoidLunge](Observation-MorphologieOrganoidLunge.md), [Observation/QualitaetspruefungBuffyCoat](Observation-QualitaetspruefungBuffyCoat.md), [Observation/QualitaetspruefungPlasma](Observation-QualitaetspruefungPlasma.md), [ServiceRequest/GewebeBiopsie](ServiceRequest-GewebeBiopsie.md), [Specimen/AliquotBuffyCoat1](Specimen-AliquotBuffyCoat1.md), [Specimen/AliquotBuffyCoat2](Specimen-AliquotBuffyCoat2.md), [Specimen/AliquotgruppeBuffyCoat](Specimen-AliquotgruppeBuffyCoat.md), [Specimen/AliquotgruppeDNA](Specimen-AliquotgruppeDNA.md), [Specimen/AliquotgruppePlasma](Specimen-AliquotgruppePlasma.md), [Specimen/MusterprobeFluessig](Specimen-MusterprobeFluessig.md), [Specimen/MusterprobeGewebe](Specimen-MusterprobeGewebe.md), [Specimen/OrganoidLunge](Specimen-OrganoidLunge.md) and [Substance/Heparin](Substance-Heparin.md)
+
+
+* This material derives from the HL7 Terminology (THO). THO is copyright ©1989+ Health Level Seven International and is made available under the CC0 designation. For more licensing information see: [https://terminology.hl7.org/license.html](https://terminology.hl7.org/license.html)
+
+* [relevantClincialInformation](http://terminology.hl7.org/7.2.0/CodeSystem-v2-0916.html): [MII_PR_Biobank_Specimen_Bioprobe_Core](StructureDefinition-mii-pr-biobank-specimen-core.md) and [Specimen/MusterprobeFluessig](Specimen-MusterprobeFluessig.md)
+
+
+### IG-Parametereinstellungen und Expansionsparameter
+
+Expansionsparameter sind Query-Parameter, die an eine `ValueSet`- `$expand`-Operation übergeben werden können, um zu steuern, wie das ValueSet expandiert wird — also wie die vollständige Liste der Codes aus der ValueSet-Definition erzeugt wird. Die für diesen IG verwendeten [IG-Parameter](https://hl7.org/fhir/tools/en/CodeSystem-ig-parameters.html) sind in [`sushi-config.yaml`](https://github.com/medizininformatik-initiative/kerndatensatzmodul-biobank/blob/main/sushi-config.yaml) (`parameters:`) deklariert. Ein Modul, das seine Expansionsparameter über ein CRMI-Manifest pinnt, verlinkt hier zusätzlich die generierte `Parameters`-Ressource (siehe die auskommentierten Manifest-Blöcke in `sushi-config.yaml` und die Seite Metadata Overview, sofern das Modul sie behält).
 
 
 
@@ -2715,9 +2791,9 @@
       {
         "extension" : [{
           "url" : "http://hl7.org/fhir/tools/StructureDefinition/ig-page-name",
-          "valueUrl" : "ImplementationGuide-mii-ig-biobank-de-v2026.html"
+          "valueUrl" : "ImplementationGuide-mii-ig-biobank-de.html"
         }],
-        "nameUrl" : "ImplementationGuide-mii-ig-biobank-de-v2026.html",
+        "nameUrl" : "ImplementationGuide-mii-ig-biobank-de.html",
         "title" : "MII ImplementationGuide Resource",
         "_title" : {
           "extension" : [{

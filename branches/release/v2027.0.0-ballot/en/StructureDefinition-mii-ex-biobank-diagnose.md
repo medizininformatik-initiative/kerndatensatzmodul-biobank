@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/Diagnose | *Version*:2027.0.0-ballot |
-| Active as of 2026-09-10 | *Computable Name*:MII_EX_Biobank_Diagnose |
+| Active as of 2026-09-11 | *Computable Name*:MII_EX_Biobank_Diagnose |
 
 This extension allows expressing that material with the referenced diagnosis is contained in the specimen.
 
@@ -89,7 +89,7 @@ Other representations of profile: [CSV](../StructureDefinition-mii-ex-biobank-di
     }]
   },
   "status" : "active",
-  "date" : "2026-09-10T16:26:54+00:00",
+  "date" : "2026-09-11T08:05:56+00:00",
   "publisher" : "Medizininformatik Initiative",
   "contact" : [{
     "name" : "Medizininformatik Initiative",

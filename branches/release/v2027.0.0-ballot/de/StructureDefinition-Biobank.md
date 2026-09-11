@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Offizielle URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/LogicalModel/Biobank | *Version*:2027.0.0-ballot |
-| Active Stand: 2026-09-10 | *Maschinenlesbarer Name*:MII_LM_Biobank |
+| Active Stand: 2026-09-11 | *Maschinenlesbarer Name*:MII_LM_Biobank |
 
  
 Logische Repräsentation des Erweiterungsmoduls Biobank 
@@ -80,7 +80,7 @@ Weitere Repräsentationen des Profils: [CSV](../StructureDefinition-Biobank.csv)
   "version" : "2027.0.0-ballot",
   "name" : "MII_LM_Biobank",
   "status" : "active",
-  "date" : "2026-09-10T16:26:54+00:00",
+  "date" : "2026-09-11T08:05:56+00:00",
   "publisher" : "Medizininformatik Initiative",
   "contact" : [{
     "name" : "Medizininformatik Initiative",

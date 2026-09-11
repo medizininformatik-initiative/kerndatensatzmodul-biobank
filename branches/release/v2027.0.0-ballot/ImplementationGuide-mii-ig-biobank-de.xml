@@ -1974,9 +1974,9 @@
       </page>
       <page>
         <extension url="http://hl7.org/fhir/tools/StructureDefinition/ig-page-name">
-          <valueUrl value="ImplementationGuide-mii-ig-biobank-de-v2026.html"/>
+          <valueUrl value="ImplementationGuide-mii-ig-biobank-de.html"/>
         </extension>
-        <nameUrl value="ImplementationGuide-mii-ig-biobank-de-v2026.html"/>
+        <nameUrl value="ImplementationGuide-mii-ig-biobank-de.html"/>
         <title value="MII ImplementationGuide Resource">
           <extension url="http://hl7.org/fhir/StructureDefinition/translation">
             <extension url="lang">

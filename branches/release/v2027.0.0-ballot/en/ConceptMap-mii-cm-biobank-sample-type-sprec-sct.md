@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ConceptMap/mii-cm-biobank-sample-type-sprec-sct | *Version*:2027.0.0-ballot |
-| Active as of 2026-09-10 | *Computable Name*: |
+| Active as of 2026-09-11 | *Computable Name*: |
 | **Copyright/Legal**: This concept map includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement. It also includes content from SPREC 4.0, https://doi.org/10.1089/bio.2024.0010 | |
 
  
@@ -45,7 +45,7 @@ Mapping der SPREC 4.0 Sample Types auf die im Modul verwendeten SNOMED CT Codes.
   "version" : "2027.0.0-ballot",
   "title" : "SPREC 4.0 Sample Type Mapping",
   "status" : "active",
-  "date" : "2026-09-10T16:26:54+00:00",
+  "date" : "2026-09-11T08:05:56+00:00",
   "publisher" : "Medizininformatik Initiative",
   "contact" : [{
     "name" : "Medizininformatik Initiative",

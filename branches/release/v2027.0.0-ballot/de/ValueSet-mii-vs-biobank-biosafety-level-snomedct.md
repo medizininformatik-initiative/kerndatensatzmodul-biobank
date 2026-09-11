@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Offizielle URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/mii-vs-biobank-biosafety-level-snomedct | *Version*:2027.0.0-ballot |
-| Active Stand: 2026-09-10 | *Maschinenlesbarer Name*:MII_VS_Biobank_Biosafety_Level_SNOMEDCT |
+| Active Stand: 2026-09-11 | *Maschinenlesbarer Name*:MII_VS_Biobank_Biosafety_Level_SNOMEDCT |
 | **Copyright/Rechtliches**: This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement | |
 
  
@@ -86,7 +86,7 @@ ValueSet zur Auswahl der Biosafety-Level-Einstufung einer Probe (SNOMED CT), ink
     }]
   },
   "status" : "active",
-  "date" : "2026-09-10T16:26:54+00:00",
+  "date" : "2026-09-11T08:05:56+00:00",
   "publisher" : "Medizininformatik Initiative",
   "contact" : [{
     "name" : "Medizininformatik Initiative",

@@ -9,7 +9,7 @@
 | | |
 | :--- | :--- |
 | *Official URL*:https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/KontaktRolle | *Version*:2027.0.0-ballot |
-| Active as of 2026-09-10 | *Computable Name*:MII_EX_Biobank_KontaktRolle |
+| Active as of 2026-09-11 | *Computable Name*:MII_EX_Biobank_KontaktRolle |
 
 This extension allows specifying the role of the contact person in the specimen-managing organization, e.g., Principal Investigator, Director, etc.
 
@@ -89,7 +89,7 @@ Other representations of profile: [CSV](../StructureDefinition-mii-ex-biobank-ko
     }]
   },
   "status" : "active",
-  "date" : "2026-09-10T16:26:54+00:00",
+  "date" : "2026-09-11T08:05:56+00:00",
   "publisher" : "Medizininformatik Initiative",
   "contact" : [{
     "name" : "Medizininformatik Initiative",
