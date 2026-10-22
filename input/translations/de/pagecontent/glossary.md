@@ -14,7 +14,7 @@ Eine Zusammenfassung aller Aliquote gleichen Probentyps, die von der gleichen, m
 
 Proben, die sich in Probentyp oder Primärprobe unterscheiden, werden als verschiedene Aliquotgruppen gezählt.
 
-Bei Machbarkeitsanfragen empfiehlt es sich, die Aliquotgruppen zu zählen, nicht alle einzelnen Aliquote. Eine Aliquotgruppe zählt als verfügbar, solange mindestens ein Aliquot verfügbar ist. Werden direkt Primärproben eingefroren (z.B. PAX), sollen diese zusätzlich auch als Aliquotgruppe markiert werden, damit sie bei Machbarkeitsanfragen ebenfalls gezählt werden können.
+Bei Machbarkeitsanfragen empfiehlt es sich, die Aliquotgruppen zu zählen, nicht alle einzelnen Aliquote. Eine Aliquotgruppe zählt als verfügbar, solange mindestens ein Aliquot verfügbar ist. Werden direkt Primärproben eingefroren (z. B. PAX), sollen diese zusätzlich auch als Aliquotgruppe markiert werden, damit sie bei Machbarkeitsanfragen ebenfalls gezählt werden können.
 
 ### Aliquot
 
@@ -28,8 +28,8 @@ Ein Beispiel dieser Strukturierung von Proben ist hier dargestellt:
 
 ### Kontrollprobe
 
-* a) Eine Probe, die explizit als „gesunde" Probe zusammen mit einer „erkrankten" Probe (matching samples) gesammelt wurde, z.B. gesundes Gewebe neben erkranktem Gewebe.
-* b) Eine Probe, die im Rahmen einer bestimmten Forschungsfrage genutzt werden kann, um mit anderen, explizit als „erkrankt" definierten Proben verglichen zu werden. Dabei kann die Kontrollprobe z.B. einer Populationskohorte entstammen oder einer Sammlung zu einer anderen, nicht verwandten Erkrankung.
+* a) Eine Probe, die explizit als „gesunde" Probe zusammen mit einer „erkrankten" Probe (matching samples) gesammelt wurde, z. B. gesundes Gewebe neben erkranktem Gewebe.
+* b) Eine Probe, die im Rahmen einer bestimmten Forschungsfrage genutzt werden kann, um mit anderen, explizit als „erkrankt" definierten Proben verglichen zu werden. Dabei kann die Kontrollprobe z. B. einer Populationskohorte entstammen oder einer Sammlung zu einer anderen, nicht verwandten Erkrankung.
 
 ------
 

@@ -19,7 +19,7 @@ Note that the logical model aims purely at representing the data elements and th
 | `Bioprobe.Entstanden-aus` | Referenz auf Bioprobe | `Specimen.parent` |
 | `Bioprobe.FestgestellteDiagnose` | Verweis auf eine Diagnose für die Material in der Probe enthalten ist | `Specimen.extension[diagnose]` |
 | `Bioprobe.gehoert-zu` | Zuordnung der Probe zu einer Sammlung/Biobank | `Specimen.extension[gehoertZu]` |
-| `Bioprobe.Anzahl-Aliqouts` | Anzahl der Aliqouts. | `Specimen.extension[anzahlAliquots]` |
+| `Bioprobe.Anzahl-Aliquots` | Anzahl der Aliqouts. | `Specimen.extension[anzahlAliquots]` |
 | `Bioprobe.Infektiositäts-Status` | Markiert eine Probe als (potentiell) infektiös. | `Specimen.extension[infektiositaetsstatus]` |
 | `Bioprobe.Container` | Probenbehältnis | `Specimen.container` |
 | `Bioprobe.Container.Containertyp` | Typ des Containers | `Specimen.container.type` |
@@ -43,7 +43,7 @@ Note that the logical model aims purely at representing the data elements and th
 | `Bioprobe.Verarbeitungsprozess.Additiv` | Additive bei der Probenbearbeitung wie Fixationsmittel; Einbettungs- und Eindeckungsmedien | `Specimen.processing.additive` |
 | `Bioprobe.Lagerprozess` | Lagerung einer Probe | `Specimen.processing[lagerprozess]` |
 | `Bioprobe.Lagerprozess.Einlagerungszeitpunkt` | Zeitpunkt des Beginns der Einlagerung der Probe | `Specimen.processing[lagerprozess].timePeriod.start` |
-| `Bioprobe.Lagerprozess.Auslagerungspunkt` | Zeitpunkt des Endes der Einlagerung der Probe | `Specimen.processing[lagerprozess].timePeriod.end` |
+| `Bioprobe.Lagerprozess.Auslagerungszeitpunkt` | Zeitpunkt des Endes der Einlagerung der Probe | `Specimen.processing[lagerprozess].timePeriod.end` |
 | `Bioprobe.Lagerprozess.Lagerungsbedingungen` | Temperaturbereich in dem die Probe gelagert wurde bzw. wird. Angabe in Wertebereichen wie in SPREC | `Specimen.processing[lagerprozess].extension[temperaturbedingungen]` |
 | `Bioprobe.Laborbefund` | Referenz auf den zu einer Probe gehörenden Laborbefund |  |
 | `Bioprobe.Pathologiebefund` | Referenz auf den zu einer Probe gehörenden Pathologiebefund |  |
@@ -58,7 +58,7 @@ Note that the logical model aims purely at representing the data elements and th
 | `Bioprobe.Zelllinie_Organoid.Modifikationen` | Optional: Vorgenommene Modifikationen. | `Specimen.extension[modifikationen]` |
 | `Bioprobe.Zelllinie_Organoid.Qualitaetspruefung` | Z.B. Viabilität, Test auf Mykoplasmen, Wiederauftaubarkeit / Wiederinkulturnahme. | `Observation(https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/mii-pr-biobank-observation-qualitaetspruefung)` |
 | `Bioprobe.Zelllinie_Organoid.Protokoll-Kultur` | Kulturprotokoll der Zelllinie/Organoids. | `Specimen.extension[kulturprotokoll]` |
-| `Bioprobe.Zelllinie_Organoid.Kulturbedigungen` | Kulturbedingungen der Zelllinie/Organoids. | `Observation` |
+| `Bioprobe.Zelllinie_Organoid.Kulturbedingungen` | Kulturbedingungen der Zelllinie/Organoids. | `Observation` |
 | `Probensammlung-Biobank` | Organisation, die Proben verwaltet | `Biobank` |
 | `Probensammlung-Biobank.Kontakt` | Kontaktinformationen einer Sammlung/Biobank für Anfragen zu Bioproben | `Biobank.contact` |
 | `Probensammlung-Biobank.Kontakt.Vorname` | Vorname der Ansprechperson | `Biobank.contact.given` |

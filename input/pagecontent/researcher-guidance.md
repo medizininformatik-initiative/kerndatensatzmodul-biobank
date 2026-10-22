@@ -2,8 +2,6 @@
 <!-- Source: kerndatensatz-basis input/pagecontent/researcher-guidance.md.
      German mirror: input/translations/de/pagecontent/researcher-guidance.md. -->
 
-### Guidance for Researchers
-
 The **Biobank** module represents the information about biospecimens that is relevant for biomedical research: their type and origin, their pre-analytical processing, their storage, and the managing organizational unit. It thereby supports two central use cases for researchers: **feasibility assessment** ("Are there suitable specimens for my project, and how many?") and **assessing specimen quality** for the planned analysis.
 
 #### Key data elements
@@ -11,7 +9,7 @@ The **Biobank** module represents the information about biospecimens that is rel
 Depending on the research question, the following information from the module may be of particular interest:
 
 - **Specimen type or material** (`Specimen.type`) – e.g. whole blood, serum, plasma, tissue (FFPE or cryo), DNA/RNA, urine. Coding is standardized using SNOMED CT, so that specimen types are comparable across sites and machine-searchable.
-- **Collection site** (`Specimen.bodySite`) – coded using SNOMED CT or, particularly for oncological questions, ICD-O-3.
+- **Collection site** (`Specimen.collection.bodySite`) – coded using SNOMED CT or, particularly for oncological questions, ICD-O-3.
 - **Specimen hierarchy**: The module distinguishes between **primary specimen**, **aliquot group**, and **aliquot**. For feasibility queries, the aliquot group level is usually the relevant one, as it allows conclusions about actually available quantities.
 - **Quantity/volume** of the aliquot.
 - **Pre-analytical processing** (`Specimen.processing`) (e.g. centrifugation, type of processing, freezing). This information can help assess whether a specimen is suitable for a particular analysis method (e.g. multiomics, proteomics).
@@ -34,5 +32,5 @@ For cross-site feasibility queries regarding biospecimens and associated data, t
 #### Further information
 
 - Structure of the resources: see [UML diagrams](uml-diagrams.html)
-- Definitions of terms (e.g. aliquot, aliquot group, primary specimen): see the final section of the [Guidance for Implementers](implementer-guidance.html)
-- Technical details on profiles and extensions: see [Guidance for Implementers](implementer-guidance.html)
+- Definitions of terms (e.g. aliquot, aliquot group, primary specimen): see the [Glossary](glossary.html)
+- Technical details on profiles and extensions: see [Profiles](profiles.html) and [Extensions](extensions.html)

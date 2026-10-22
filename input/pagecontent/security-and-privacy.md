@@ -44,4 +44,21 @@ by the DIMP configuration, not by this guide.
 
 #### 3. Module-specific aspects
 
-[TODO]
+Biospecimen data are not clinical data about a person, but they are linked to
+one: every `Specimen` references its donor via `Specimen.subject`, and the
+diagnosis extension links a specimen to a condition. Under DIMP the donor
+reference is pseudonymised like every other patient reference; the specimen
+identifiers (`Specimen.identifier`, `Specimen.accessionIdentifier`) are
+site-internal business identifiers and are replaced or dropped per project
+configuration, because an accession number can identify a person at the
+originating site.
+
+The collection and biobank data (`Organization` profile, contact extension)
+describe institutions and functional contacts, not patients. Personal contact
+data of named persons (`Organization.contact.name`, telecom) SHOULD only be
+published where the person acts in an institutional role and has agreed to it;
+functional addresses are preferred.
+
+Specimens themselves are physical objects outside the scope of FHIR data
+protection; their release follows the use-and-access process of the
+overarching data protection concept and the biobank's own governance.

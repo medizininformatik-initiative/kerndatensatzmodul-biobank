@@ -13,7 +13,7 @@ Das Modul **Biobank** folgt dem KDS-Schema der Kalender-Versionierung
 (CalVer) in einer SemVer-kompatiblen numerischen Form:
 
 * Format **`JJJJ.MINOR.PATCH[-label]`** — die aktuelle Version ist
-  `2026.0.1`;
+  `2027.0.0-ballot`;
 * **`JJJJ`** — das Jahr, in dem der Leitfaden gilt und genutzt werden soll; es
   tritt an die Stelle der Major-Version;
 * **`MINOR`** — wird für nicht brechende Ergänzungen und Präzisierungen erhöht;
@@ -69,7 +69,7 @@ Artefakt-Paare; jedes Paar verlinkt eine Detailseite mit drei Ansichten — der
 das Paket des vorherigen Releases, ordnet jedes Profil, ValueSet und
 CodeSystem über die kanonische URL seinem Gegenstück zu, vergleicht die Paare
 und rendert den Bericht in die Build-Ausgabe — er wird also mit der Website
-veröffentlicht, ohne zusätzlichen Deployment-Schritt. Aktiviert wird er über den Parameter `version-comparison` — einen
+veröffentlicht, ohne zusätzlichen Deployment-Schritt. Aktiviert wird er mit der ersten formalen Publikation über den Parameter `version-comparison` — einen
 offiziellen IG-Publisher-Parameter aus der
 [ig-parameters-Registry](https://build.fhir.org/ig/FHIR/fhir-tools-ig/CodeSystem-ig-parameters.html),
 durchgereicht über die `sushi-config.yaml` (der auskommentierte Block dort
@@ -78,17 +78,3 @@ Publikationshistorie an der kanonischen URL und ein ladbares
 Vorversions-Paket). Fehlt der Parameter, gilt der Standard `{last}`; der
 Wert `n/a` ist der dokumentierte Weg, den Vergleich abzuschalten.
 
-**Die Demonstration unten** (nur in der Vorschau dieses
-Vorlagen-Repositories) zeigt dieselbe Art Bericht, bevor eine formale
-Publikation existiert: Der Build vergleicht sich mit der vorherigen
-`dev`-Vorschau über das `-compare`-Kommando des FHIR-Validators und
-veröffentlicht das Ergebnis unter `comparison-demo/index.html`.
-Die Repository-Variable `ENABLE_VERSION_COMPARISON=false` schaltet das
-gesamte Feature ab — den Publisher-Vergleich in allen Build-Workflows ebenso
-wie diese Demonstration; ein erstelltes Modul rendert die Demonstration nie.
-
-> [TODO: Falls Ihr Modul über das KDS-Schema hinaus eine eigene
-> Versionierungs-Politik hat — etwa einen Unterstützungszeitraum für ältere
-> Versionen oder eine Abkündigungs-Politik für Profile —, beschreiben Sie sie
-> hier. Löschen Sie diesen Hinweis anschließend.]
-{: .ig-highlight .ig-highlight-grey}

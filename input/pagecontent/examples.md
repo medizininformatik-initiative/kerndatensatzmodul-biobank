@@ -1,9 +1,4 @@
 <!-- markdownlint-disable MD041 -->
-<!-- TODO:REVIEW machine translation of source page examples.md (de) -->
-<!-- DERIVED:bridge source=MIIIGModulBiobank/TechnischeImplementierung/FHIR-Profile/Specimen/Index.page.md gate=B -->
-> This overview was newly written during the migration; the source listed the examples per profile page.
-{: .ig-highlight .ig-highlight-grey}
-
 This page lists the example instances of the **Biobank** module. The complete, automatically generated list can be found in the [artifact overview](artifacts.html).
 
 ### Biospecimen (Specimen)

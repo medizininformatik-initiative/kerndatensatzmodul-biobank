@@ -52,9 +52,9 @@ Comments and criticism are always welcome as issues in the [GitHub repository](h
 
 ### Copyright and usage notes
 
-Copyright © 2021: TMF e. V., Charlottenstraße 42, 10117 Berlin
+Copyright © 2021+ TMF e. V., Charlottenstraße 42, 10117 Berlin
 
-The content of this specification is public. Claims regarding reuse and publication are not restricted.
+This specification is published under the [Creative Commons Attribution 4.0 International licence (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/): it may be reused and redistributed, provided the source is credited.
 
 For the usage rights of the underlying FHIR technology, see the FHIR base specification.
 
@@ -62,4 +62,4 @@ Some code systems used are published and maintained by other organisations; the 
 
 ### Disclaimer
 
-The content of this document is public. Note that parts of this document are based on FHIR version R4, for which the copyright of HL7 International applies.
+Note that parts of this document are based on FHIR version R4, for which the copyright of HL7 International applies.

@@ -11,8 +11,6 @@
      sushi-config.yaml gains or loses a CRMI profile, an artifact-* extension or
      a manifest parameter, update the tables below in BOTH languages. -->
 
-### Metadata Overview
-
 This page documents the computable metadata of the **Biobank** module.
 The metadata exists so that the artifacts of this guide can be discovered,
 evaluated, validated, cited, governed and reused — by people and by software
@@ -85,32 +83,15 @@ and ends up in the generated `ImplementationGuide` resource.
 | [Resource Effective Period](http://hl7.org/fhir/extensions/5.3.0/StructureDefinition-resource-effectivePeriod.html) | Artifact lifecycle; publishing; implementation | `ImplementationGuide.extension` (start `2026`) | Records the period during which the content is planned to be, or has been, effective. |
 | [Artifact Author](http://hl7.org/fhir/extensions/5.3.0/StructureDefinition-artifact-author.html)<br/>[Artifact Editor](http://hl7.org/fhir/extensions/5.3.0/StructureDefinition-artifact-editor.html)<br/>[Artifact Reviewer](http://hl7.org/fhir/extensions/5.3.0/StructureDefinition-artifact-reviewer.html)<br/>[Artifact Endorser](http://hl7.org/fhir/extensions/5.3.0/StructureDefinition-artifact-endorser.html) | Publishing; governance; provenance | `ImplementationGuide.extension` | Records the author, the editor responsible for internal coherence, the reviewers, and the bodies that officially endorse the release. For a KDS module the editor, reviewers and endorsers are the governance bodies of the core-dataset process. |
 
-Not enabled in this scaffold, but prepared as commented blocks in
-`sushi-config.yaml`:
+Additionally enabled in this module:
 
-* [Artifact Related Artifact](http://hl7.org/fhir/extensions/5.3.0/StructureDefinition-artifact-relatedArtifact.html)
-  — a literature citation for the module.
 * [CQF Expansion Parameters](http://hl7.org/fhir/extensions/5.3.0/StructureDefinition-cqf-expansionParameters.html)
-  together with a
-  [CRMI Manifest Parameters](https://hl7.org/fhir/uv/crmi/STU2/en/StructureDefinition-crmi-manifestparameters.html)
-  resource and the `path-expansion-params` / `pin-manifest` parameters.
+  pointing at the CRMI manifest
+  [`Parameters/mii-param-biobank-manifest`](Parameters-mii-param-biobank-manifest.html),
+  which the publisher uses via `path-expansion-params` and `pin-manifest`.
 
-> [TODO: Enable the blocks your module needs and then update the tables above.
-> If your module also applies the CRMI shareable/publishable profiles to its own
-> StructureDefinitions, CapabilityStatements, CodeSystems and ValueSets — the
-> `kerndatensatz-basis` idiom is a shared `RuleSet` in
-> [`input/fsh/rulesets/crmi.fsh`](https://github.com/medizininformatik-initiative/kerndatensatzmodul-biobank/blob/main/input/fsh/rulesets/crmi.fsh) — add the corresponding rows here.]
-{: .ig-highlight .ig-highlight-grey}
-
-##### CodeSystem supplements
-
-Where a module publishes CodeSystem supplements, note that the CRMI
-*ShareableCodeSystem* profile requires `CodeSystem.caseSensitive`, while FHIR
-validation warns that a supplement should not restate `caseSensitive` because
-that could contradict the supplemented code system.
-[kerndatensatz-basis](https://github.com/medizininformatik-initiative/kerndatensatz-basis)
-therefore claims only the *publishable* CRMI profile on supplements and omits
-the shareable one.
+Not used by this module: *Artifact Related Artifact* (no literature citation).
+The module publishes no CodeSystem supplements.
 
 #### Versioning and package provenance
 
@@ -119,7 +100,7 @@ The human-readable version scheme is described on the
 is expressed as CRMI metadata.
 
 The module uses calendar versioning in the SemVer-compatible numeric form
-`YYYY.MINOR.PATCH[-label]`, currently `2026.0.1`. The calendar year
+`YYYY.MINOR.PATCH[-label]`, currently `2027.0.0-ballot`. The calendar year
 serves as the CRMI `<major>` component; `MINOR` and `PATCH` keep their usual
 additive and corrective semantics. Stable versions can therefore be compared
 using the declared `semver` version algorithm. Labels carry pre-release or build
@@ -145,18 +126,12 @@ Canonical references are pinned in the built package (`pin-canonicals: pin-all`
 in `sushi-config.yaml`), which is a CRMI expectation and makes the output
 stable.
 
-A module that additionally wants reproducible terminology expansion adds a
-CRMI Manifest Parameters resource — the `kerndatensatz-basis` idiom is
-`Parameters/mii-param-<slug>-manifest` — links it from the
-`ImplementationGuide` via `cqf-expansionParameters`, and points the publisher at
-it with `path-expansion-params` and `pin-manifest`. Both readers and tooling
-then have one stable place to inspect the parameters used for expansion and
-package pinning.
-
-> [TODO: Add the manifest for your module (see the commented blocks in
-> `sushi-config.yaml`) and link the generated `Parameters` resource page here,
-> or state explicitly that this module does not pin expansion parameters.]
-{: .ig-highlight .ig-highlight-grey}
+This module pins its terminology expansion through the CRMI manifest
+[`mii-param-biobank-manifest`](Parameters-mii-param-biobank-manifest.html),
+linked from the `ImplementationGuide` via `cqf-expansionParameters` and passed
+to the publisher with `path-expansion-params` and `pin-manifest`. Readers and
+tooling thus have one stable place to inspect the parameters used for
+expansion and package pinning.
 
 #### Relationship to FAIR
 
@@ -186,7 +161,7 @@ asserted to be a persistently identified FAIR dataset.
 | Principle | Indicator | FAIR data maturity indicator | Addressed by |
 | --- | --- | --- | --- |
 | F1 | RDA-F1-01M | Metadata is identified by a persistent identifier | Canonical `url` values, the package id `de.medizininformatikinitiative.kerndatensatz.biobank`, the package version and `package-source`. Persistence depends on publication governance. |
-| F1 | RDA-F1-01D | Data is identified by a persistent identifier | For the examples: `Resource.id`, `Bundle.identifier`, resource `identifier` elements and `Bundle.entry.fullUrl` demonstrate the pattern; they are not asserted as persistent data PIDs. Production data must be given persistent business identifiers by the implementing systems. |
+| F1 | RDA-F1-01D | Data is identified by a persistent identifier | For the examples: `Resource.id` and resource `identifier` elements demonstrate the pattern; they are not asserted as persistent data PIDs. Production data must be given persistent business identifiers by the implementing systems. |
 | F1 | RDA-F1-02M | Metadata is identified by a globally unique identifier | Globally scoped canonical `url` values and the package id, within the controlled KDS namespaces. |
 | F1 | RDA-F1-02D | Data is identified by a globally unique identifier | For the examples: `identifier.system` + `identifier.value` demonstrate globally scoped identification. In production this depends on controlled identifier namespaces and local governance. |
 | F2 | RDA-F2-01M | Rich metadata is provided to allow discovery | CRMI shareable/publishable profiles, `purpose`, `artifact-usage`, `artifact-topic`, `resource-approvalDate`, `resource-effectivePeriod`, contributors and `package-source`. |
@@ -206,10 +181,7 @@ asserted to be a persistently identified FAIR dataset.
 | R1.3 | RDA-R1.3-01D | Data complies with a community standard | The examples declare this module's profiles. In production, conformance must be validated against the profiles, bindings and CapabilityStatement expectations. |
 | R1.3 | RDA-R1.3-02M | Metadata is machine-understandable per a community standard | CRMI-conformant FHIR metadata as JSON/XML and as a FHIR package in the NPM package format used by the IG Publisher ecosystem. |
 
-> [TODO: The table lists the indicators of priority *Essential*. If your module
-> wants the complete self-assessment, extend it with the *Important* and
-> *Useful* indicators — `kerndatensatz-basis` carries the full table.]
-{: .ig-highlight .ig-highlight-grey}
+The table lists the indicators of priority *Essential*; the *Important* and *Useful* indicators are not assessed for this module.
 
 #### Practical use
 

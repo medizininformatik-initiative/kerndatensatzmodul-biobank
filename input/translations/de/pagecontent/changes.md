@@ -1,12 +1,19 @@
 <!-- markdownlint-disable MD041 -->
 ### Version 2027.0.0-ballot
 
-Chore:
-* Update MIABIS Dependency auf 1.3.0 **Breaking Changes:** MIABIS hat alle seine URLs geändert. Das betrifft die Extensions sowie das System für Temperatur & Materialcodes.
+Abhängigkeiten:
+
+* MIABIS-Abhängigkeit auf 1.3.0 aktualisiert. **Inkompatible Änderung:** MIABIS hat alle kanonischen URLs geändert; betroffen sind die hier genutzten MIABIS-Extensions sowie die System-URLs der Temperatur- und Probenmaterial-Codes.
+
+Korrekturen:
+
+* Profil-Id `mii-pr-biobank-zellinie-organoid` in `mii-pr-biobank-zelllinie-organoid` umbenannt (Tippfehler). **Inkompatible Änderung:** Die kanonische URL des Zelllinien-/Organoid-Profils ändert sich entsprechend.
+* Elemente des logischen Modells umbenannt: `Anzahl-Aliquots` → `Anzahl-Aliquots`, `Auslagerungszeitpunkt` → `Auslagerungszeitpunkt`, `Kulturbedingungen` → `Kulturbedingungen` (Tippfehler).
+* Tippfehler in Titeln, Beschreibungen und Displays korrigiert; der englische Titel der Infektiositäts-Extension lautet jetzt „Infectivity Status".
 
 ### Version 2027.0.0-ballot.rc2
 
-Fix (Package-Reparatur, inhaltlich wie rc1):
+Paket-Reparatur (inhaltlich wie rc1):
 
 * Package rc1 enthielt leere Snapshots (Specimen/SpecimenCore) und keinen THO-Pin — Neubau mit korrekter Auflösung
 * `caseSensitive = true` für beide CodeSysteme
@@ -14,14 +21,14 @@ Fix (Package-Reparatur, inhaltlich wie rc1):
 
 ### Version 2027.0.0-ballot.rc1
 
-Feat:
+Neu:
 
 * Hinzufügen einer Extension für Specimen zur Angabe des Infektiositätsstatus
 * Hinzufügen der Specimen.focus-Extension aus dem EU Lab IG
 
 ### Version 2026.0.1
 
-Fix:
+Korrekturen:
 
 * Fix eines Problems mit der Kardinalität der Extensions in `Specimen.processing`
 

@@ -2,11 +2,13 @@
 
 Diese Seite beschreibt die Anwendungsszenarien des Moduls; die Unterseiten vertiefen einzelne Aspekte:
 
-* [Hinweise für Implementierer:innen](implementer-guidance.html) – Kontext im Gesamtprojekt und Referenzen (SPREC, MIABIS, BBMRI-ERIC, GBN)
+* [Anleitung für Forschende](researcher-guidance.html) – Machbarkeit und Probenqualität aus Sicht der Forschenden
+* [Anleitung für Implementierende](implementer-guidance.html) – Kontext im Gesamtprojekt und Referenzen (SPREC, MIABIS, BBMRI-ERIC, GBN)
+* [Datensätze und Beschreibungen](logical-models.html) – der Datensatz des Moduls als logisches Modell mit FHIR-Mapping
 * [UML-Diagramme](uml-diagrams.html) – das Informationsmodell als UML-Klassendiagramm
 * [Glossar](glossary.html) – Begriffsdefinitionen (Primärprobe, Aliquotgruppe, Aliquot, …)
 
-### Beschreibung von Szenarien für die Anwendung der Module
+### Anwendungsszenarien des Moduls
 
 #### Probensuche
 
