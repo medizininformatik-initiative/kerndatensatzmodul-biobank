@@ -25,7 +25,7 @@ Beispiele:
 
 ### Specimen (Zelllinie/Organoid)
 
-Mittels der Specimen-Ressource können neben der Bioprobe auch Zelllinien und Organoide abgebildet werden: [MII PR Biobank Zelllinie/Organoid](StructureDefinition-mii-pr-biobank-zellinie-organoid.html). Vom Modell her handelt es sich dabei um eine Erweiterung des Bioproben-Profils um spezifische Felder mittels Extensions sowie das Specimen referenzierende Observations. Welche Extensions und/oder Observations dabei passend sind, hängt vom jeweiligen Anwendungsfall ab.
+Mittels der Specimen-Ressource können neben der Bioprobe auch Zelllinien und Organoide abgebildet werden: [MII PR Biobank Zelllinie/Organoid](StructureDefinition-mii-pr-biobank-zelllinie-organoid.html). Vom Modell her handelt es sich dabei um eine Erweiterung des Bioproben-Profils um spezifische Felder mittels Extensions sowie das Specimen referenzierende Observations. Welche Extensions und/oder Observations dabei passend sind, hängt vom jeweiligen Anwendungsfall ab.
 
 Beispiel Organoid: [OrganoidLunge](Specimen-OrganoidLunge.html)
 

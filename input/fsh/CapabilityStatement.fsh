@@ -51,7 +51,7 @@ Usage: #definition
 //Specimen
 * insert SupportResource(Specimen, #SHALL)
 * insert SupportProfile(https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/Specimen|2026.0.0, #SHALL)
-* insert SupportProfile(https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/mii-pr-biobank-zellinie-organoid|2026.0.0, #SHALL)
+* insert SupportProfile(https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/mii-pr-biobank-zelllinie-organoid|2026.0.0, #SHALL)
 * insert SupportInteraction(#read, #SHALL)
 * insert SupportInteraction(#search-type, #SHALL)
 * insert SupportSearchParam(_id, http://hl7.org/fhir/SearchParameter/Resource-id, #token, #SHALL)
@@ -87,7 +87,7 @@ Usage: #definition
 * insert SupportSearchParam(infektiositaetsstatus, https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/SearchParameter/mii-sp-biobank-infektiositaetsstatus, #token, #SHALL)
 * insert SupportSearchParam(focus, https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/SearchParameter/mii-sp-biobank-specimen-focus, #reference, #SHALL)
 
-//Zellinie/Organoid
+//Zelllinie/Organoid
 * insert SupportSearchParam(kulturprotokoll, https://www.medizininformatik-initiative.de/fhir/ext/modul-meta/SearchParameter/mii-sp-meta-specimen-kulturprotokoll, #reference, #SHALL)
 * insert SupportSearchParam(anzahl-passagen, https://www.medizininformatik-initiative.de/fhir/ext/modul-meta/SearchParameter/mii-sp-meta-specimen-anzahl-passagen, #number, #SHALL)
 * insert SupportSearchParam(modifikationen, https://www.medizininformatik-initiative.de/fhir/ext/modul-meta/SearchParameter/mii-sp-meta-specimen-modifikationen, #composite, #SHALL)

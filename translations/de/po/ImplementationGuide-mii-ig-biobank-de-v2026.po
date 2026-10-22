@@ -396,7 +396,7 @@ msgstr ""
 
 # ImplementationGuide.definition.resource.name
 #: ImplementationGuide.definition.resource.name
-msgid "MII PR Biobank Specimen Zellinie Organoid"
+msgid "MII PR Biobank Specimen Zelllinie Organoid"
 msgstr ""
 
 # ImplementationGuide.definition.resource.description

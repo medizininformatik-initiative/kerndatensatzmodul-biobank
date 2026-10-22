@@ -1,15 +1,15 @@
 //Head
-Profile: MII_PR_Biobank_Specimen_Zellinie_Organoid
+Profile: MII_PR_Biobank_Specimen_Zelllinie_Organoid
 Parent: MII_PR_Biobank_Specimen_Bioprobe
-Id: mii-pr-biobank-zellinie-organoid
-Title: "MII PR Biobank Specimen Zellinie Organoid"
-Description: "Abbildung einer MII Zellinie oder Organiods"
+Id: mii-pr-biobank-zelllinie-organoid
+Title: "MII PR Biobank Specimen Zelllinie Organoid"
+Description: "Abbildung einer MII Zelllinie oder eines Organoids"
 
 //Translation Meta
 * insert Translation(^name, en-US, MII_PR_Biobank_Specimen_Cellline_Organoid)
-* insert Translation(^title, de-DE, Specimen Zellinie Organoid)
-* insert Translation(^title, en-US, Specimen Cellline Organoid)
-* insert Translation(^description, de-DE, Abbildung einer MII Zellinie oder Organiods)
+* insert Translation(^title, de-DE, Specimen Zelllinie Organoid)
+* insert Translation(^title, en-US, Specimen Cell Line Organoid)
+* insert Translation(^description, de-DE, Abbildung einer MII Zelllinie oder eines Organoids)
 * insert Translation(^description, en-US, Representation of a MII cell line or organoid)
 
 //Meta

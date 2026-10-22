@@ -560,7 +560,7 @@
              <notes>
                <note id="n1">ImplementationGuide.definition.resource.name</note>
              </notes>
-        <source>MII PR Biobank Specimen Zellinie Organoid</source>
+        <source>MII PR Biobank Specimen Zelllinie Organoid</source>
         <target></target>
       </trans-unit>
       <trans-unit id="ImplementationGuide-mii-ig-biobank-de-v2026" resname="ImplementationGuide.definition.resource.description">

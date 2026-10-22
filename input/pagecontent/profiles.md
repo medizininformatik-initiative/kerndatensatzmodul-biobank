@@ -26,7 +26,7 @@ Examples:
 
 ### Specimen (cell line/organoid)
 
-Besides the biospecimen, the Specimen resource can also represent cell lines and organoids: [MII PR Biobank Zelllinie/Organoid](StructureDefinition-mii-pr-biobank-zellinie-organoid.html). In terms of the model, this is an extension of the biospecimen profile with specific fields via extensions and via observations referencing the specimen. Which extensions and/or observations are appropriate depends on the respective use case.
+Besides the biospecimen, the Specimen resource can also represent cell lines and organoids: [MII PR Biobank Zelllinie/Organoid](StructureDefinition-mii-pr-biobank-zelllinie-organoid.html). In terms of the model, this is an extension of the biospecimen profile with specific fields via extensions and via observations referencing the specimen. Which extensions and/or observations are appropriate depends on the respective use case.
 
 Example organoid: [OrganoidLunge](Specimen-OrganoidLunge.html)
 
