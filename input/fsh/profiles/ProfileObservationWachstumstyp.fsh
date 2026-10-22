@@ -3,13 +3,13 @@ Profile: MII_PR_Biobank_Observation_Wachstumstyp
 Parent: Observation
 Id: mii-pr-biobank-observation-wachstumstyp
 Title: "MII PR Biobank Observation Wachstumstyp"
-Description: "Wachstumstyp einer Zelline oder eines Organiods"
+Description: "Wachstumstyp einer Zelllinie oder eines Organoids"
 
 //Translation Meta
 * insert Translation(^name, en-US, MII_PR_Biobank_Observation_Growth_Type)
 * insert Translation(^title, de-DE, Observation Wachstumstyp)
 * insert Translation(^title, en-US, Observation Growth Type)
-* insert Translation(^description, de-DE, Wachstumstyp einer Zelline oder eines Organiods)
+* insert Translation(^description, de-DE, Wachstumstyp einer Zelllinie oder eines Organoids)
 * insert Translation(^description, en-US, Growth type of a cell line or organoid)
 
 //Meta
@@ -32,7 +32,7 @@ Description: "Wachstumstyp einer Zelline oder eines Organiods"
 * focus only Reference(Specimen)
 * value[x] 1..1 MS
 * value[x] only CodeableConcept
-* valueCodeableConcept from MII_VS_Biobank_Wachstumpstyp_CLO (extensible)
+* valueCodeableConcept from MII_VS_Biobank_Wachstumstyp_CLO (extensible)
 * valueCodeableConcept.coding 1..1 MS
 * valueCodeableConcept.coding.system 1..1 MS
 * valueCodeableConcept.coding.code 1..1 MS

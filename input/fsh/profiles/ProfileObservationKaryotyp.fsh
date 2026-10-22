@@ -3,13 +3,13 @@ Profile: MII_PR_Biobank_Observation_Karyotyp
 Parent: Observation
 Id: mii-pr-biobank-observation-karyotyp
 Title: "MII PR Biobank Observation Karyotyp"
-Description: "Der an einer Zelline oder einem Organiod festgestellte Karyotyo"
+Description: "Der an einer Zelllinie oder einem Organoid festgestellte Karyotyp"
 
 //Translation Meta
 * insert Translation(^name, en-US, MII_PR_Biobank_Observation_Karyotype)
 * insert Translation(^title, de-DE, Observation Karyotyp)
 * insert Translation(^title, en-US, Observation Karyotype)
-* insert Translation(^description, de-DE, Der an einer Zelline oder einem Organiod festgestellte Karyotyo)
+* insert Translation(^description, de-DE, Der an einer Zelllinie oder einem Organoid festgestellte Karyotyp)
 * insert Translation(^description, en-US, The karyotype observed in a cell line or organoid)
 
 //Meta

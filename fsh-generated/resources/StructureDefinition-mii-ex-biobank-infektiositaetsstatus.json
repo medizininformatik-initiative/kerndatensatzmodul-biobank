@@ -55,7 +55,7 @@
           },
           {
             "url": "content",
-            "valueString": "MII EX Biobank Infectiosity Status"
+            "valueString": "MII EX Biobank Infectivity Status"
           }
         ]
       }
@@ -85,7 +85,7 @@
           },
           {
             "url": "content",
-            "valueString": "The extension specifies the infectiosity status of a specimen based on the biosafety level classification ranging from BSL-1 to BSL-4 or an indication that no infection risk is known."
+            "valueString": "The extension specifies the infectivity status of a specimen based on the biosafety level classification ranging from BSL-1 to BSL-4 or an indication that no infection risk is known."
           }
         ]
       }

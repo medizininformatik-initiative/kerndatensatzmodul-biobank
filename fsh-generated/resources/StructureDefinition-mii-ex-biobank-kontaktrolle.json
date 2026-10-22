@@ -73,7 +73,7 @@
       ]
     }
   ],
-  "description": "Mittels dieser Extension soll die Rolle der Kontaktperson in der probenverwaltenden Organisation angegeben werden, z.B. Principal Investigator, Direktor usw.",
+  "description": "Mittels dieser Extension soll die Rolle der Kontaktperson in der probenverwaltenden Organisation angegeben werden, z. B. Principal Investigator, Direktor usw.",
   "_description": {
     "extension": [
       {
@@ -109,7 +109,7 @@
         "id": "Extension",
         "path": "Extension",
         "short": "MII EX Biobank Rolle des Kontaktes",
-        "definition": "Mittels dieser Extension soll die Rolle der Kontaktperson in der probenverwaltenden Organisation angegeben werden, z.B. Principal Investigator, Direktor usw."
+        "definition": "Mittels dieser Extension soll die Rolle der Kontaktperson in der probenverwaltenden Organisation angegeben werden, z. B. Principal Investigator, Direktor usw."
       },
       {
         "id": "Extension.extension",

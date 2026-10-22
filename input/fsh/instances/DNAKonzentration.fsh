@@ -1,6 +1,6 @@
 Instance: DNAConcentrationObs1
 InstanceOf: MII_PR_Biobank_Observation_DNA_Konzentration
-Title: "DNA Konzentration Aliquot"
+Title: "DNA-Konzentration Aliquot"
 Usage: #example
 
 * status = #final

@@ -87,7 +87,7 @@
       ]
     }
   ],
-  "description": "Proliferation einer Zelline oder eines Organiods",
+  "description": "Proliferation einer Zelllinie oder eines Organoids",
   "_description": {
     "extension": [
       {
@@ -99,7 +99,7 @@
           },
           {
             "url": "content",
-            "valueString": "Proliferation einer Zelline oder eines Organiods"
+            "valueString": "Proliferation einer Zelllinie oder eines Organoids"
           }
         ]
       },

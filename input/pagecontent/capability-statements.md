@@ -1,5 +1,4 @@
 <!-- markdownlint-disable MD041 -->
-<!-- TODO:REVIEW machine translation of source page capability-statements.md (de) -->
 
 To enable decentralised data analysis via the German Portal for Medical Research Data of the Medical Informatics Initiative, the [capabilities interaction](https://hl7.org/fhir/R4/capabilitystatement.html) MUST be supported, so that the FHIR server exposes a CapabilityStatement at `[BASE-URL]/metadata`. Within this CapabilityStatement it MUST be stated which profiles (including version) and which search parameters are supported.
 

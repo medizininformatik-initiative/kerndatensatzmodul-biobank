@@ -1,5 +1,4 @@
 <!-- markdownlint-disable MD041 -->
-<!-- TODO:REVIEW machine translation of source page code-systems.md (de) -->
 
 Wherever possible, terminologies and unique codes conforming to international standards shall be used.
 

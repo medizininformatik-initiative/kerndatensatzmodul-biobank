@@ -1,7 +1,7 @@
 ValueSet: MII_VS_Biobank_Cellline_Modification_CLO
 Id: mii-vs-biobank-cellline-modification-clo
 Title: "MII VS Biobank Cellline Modification CLO"
-Description: "Arten der Modifikationen an einer Zellinie"
+Description: "Arten der Modifikationen an einer Zelllinie"
 
 * insert Publisher
 * insert PR_CS_VS_Version

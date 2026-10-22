@@ -11,7 +11,7 @@ Description: "Abbildung einer MII Bioprobe"
 * insert Translation(^title, de-DE, Specimen Bioprobe)
 * insert Translation(^title, en-US, Specimen Bioprobe)
 * insert Translation(^description, de-DE, Abbildung einer MII Bioprobe)
-* insert Translation(^description, en-US, Representation of a MII bioprobe)
+* insert Translation(^description, en-US, Representation of an MII biospecimen)
 
 //Meta
 * insert PR_CS_VS_Version

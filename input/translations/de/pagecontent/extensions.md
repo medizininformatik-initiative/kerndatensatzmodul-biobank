@@ -14,7 +14,7 @@ Um zu einer Verarbeitung oder Lagerung die jeweils herrschenden Temperaturbeding
 
 #### Einstellung Blutversorgung
 
-Zeitpunkt der Einstellung der Blutversorgung während der Entnahme. Wird z.B. für die Berechnung der kalten bzw. warmen Ischämiezeiten benötigt: [MII EX Biobank Einstellung Blutversorgung](StructureDefinition-mii-ex-biobank-einstellung-blutversorgung.html)
+Zeitpunkt der Einstellung der Blutversorgung während der Entnahme. Wird z. B. für die Berechnung der kalten bzw. warmen Ischämiezeiten benötigt: [MII EX Biobank Einstellung Blutversorgung](StructureDefinition-mii-ex-biobank-einstellung-blutversorgung.html)
 
 #### Verwaltende Organisation
 
@@ -30,7 +30,7 @@ Anzahl der Aliquots, wenn diese nicht als eigene FHIR-Ressourcen ausmodelliert w
 
 #### Infektiositätsstatus
 
-Extension zur Angabe des Infektiositätsstatus einer Probe anhand der Biosafety-Level-Einstufung (BSL-1 bis BSL-4, SNOMED CT) bzw. der Angabe, dass keine Infektionsgefahr bekannt ist: [MII EX Biobank Infektiositätsstatus](StructureDefinition-mii-ex-biobank-infektiositaetsstatus.html) (ValueSet: [Biosafety-Level](ValueSet-mii-vs-biobank-biosafety-level.html))
+Extension zur Angabe des Infektiositätsstatus einer Probe anhand der Biosafety-Level-Einstufung (BSL-1 bis BSL-4, SNOMED CT) bzw. der Angabe, dass keine Infektionsgefahr bekannt ist: [MII EX Biobank Infektiositätsstatus](StructureDefinition-mii-ex-biobank-infektiositaetsstatus.html) (ValueSet: [Biosafety-Level](ValueSet-mii-vs-biobank-biosafety-level-snomedct.html))
 
 #### Focus
 
@@ -40,11 +40,11 @@ Um anzugeben, worauf sich die Probe bezieht, wird die Extension `specimen-focus`
 
 #### Rolle des Kontaktes
 
-Mittels dieser Extension soll die Rolle der Kontaktperson in der probenverwaltenden Organisation angegeben werden, z.B. Principal Investigator, Direktor usw.: [MII EX Biobank KontaktRolle](StructureDefinition-mii-ex-biobank-kontaktrolle.html)
+Mittels dieser Extension soll die Rolle der Kontaktperson in der probenverwaltenden Organisation angegeben werden, z. B. Principal Investigator, Direktor usw.: [MII EX Biobank KontaktRolle](StructureDefinition-mii-ex-biobank-kontaktrolle.html)
 
 #### Beschreibung Sammlung
 
-Mittels dieser Extension kann eine Freitextbeschreibung der Sammlung/Biobank erfolgen, die z.B. in einer Suche angezeigt werden kann. Die Extension stammt aus MIABIS on FHIR: [MIABIS Organization Description Extension](https://simplifier.net/resolve?canonical=https://fhir.bbmri-eric.eu/fhir/StructureDefinition/miabis-organization-description-extension)
+Mittels dieser Extension kann eine Freitextbeschreibung der Sammlung/Biobank erfolgen, die z. B. in einer Suche angezeigt werden kann. Die Extension stammt aus MIABIS on FHIR: [MIABIS Organization Description Extension](https://simplifier.net/resolve?canonical=https://fhir.bbmri-eric.eu/fhir/StructureDefinition/miabis-organization-description-extension)
 
 ### Extensions an der Zelllinie / am Organoid
 

@@ -73,7 +73,7 @@
       ]
     }
   ],
-  "description": "Um zu einer Verabeitung oder Lagerung die jeweils herrschenden Temperaturbedingungen (in °C) anzugeben soll diese Extension verwendet werden. Dabei soll nach Möglichkeit immer ein Wertebereich inkl. oberer und unterer Grenze angegeben werden.",
+  "description": "Um zu einer Verarbeitung oder Lagerung die jeweils herrschenden Temperaturbedingungen (in °C) anzugeben, soll diese Extension verwendet werden. Dabei soll nach Möglichkeit immer ein Wertebereich inkl. oberer und unterer Grenze angegeben werden.",
   "_description": {
     "extension": [
       {
@@ -109,7 +109,7 @@
         "id": "Extension",
         "path": "Extension",
         "short": "MII EX Biobank Temperaturbedingungen",
-        "definition": "Um zu einer Verabeitung oder Lagerung die jeweils herrschenden Temperaturbedingungen (in °C) anzugeben soll diese Extension verwendet werden. Dabei soll nach Möglichkeit immer ein Wertebereich inkl. oberer und unterer Grenze angegeben werden."
+        "definition": "Um zu einer Verarbeitung oder Lagerung die jeweils herrschenden Temperaturbedingungen (in °C) anzugeben, soll diese Extension verwendet werden. Dabei soll nach Möglichkeit immer ein Wertebereich inkl. oberer und unterer Grenze angegeben werden."
       },
       {
         "id": "Extension.extension",

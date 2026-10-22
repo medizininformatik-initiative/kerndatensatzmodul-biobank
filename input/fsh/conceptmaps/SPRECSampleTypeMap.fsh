@@ -10,7 +10,6 @@ Description: "Mapping der SPREC 4.0 Sample Types auf die im Modul verwendeten SN
 * insert SNOMED_SPREC_Copyright_CM
 
 * url = "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ConceptMap/mii-cm-biobank-sample-type-sprec-sct"
-* title = "SPREC 4.0 Sample Type Mapping"
 * status = #active
 
 * group.source = "http://www.isber.org/sprec/type-of-sample"
@@ -109,14 +108,14 @@ Description: "Mapping der SPREC 4.0 Sample Types auf die im Modul verwendeten SN
 * insert InitMapping(#U24, "24 h urine")
 * insert AddMapping(276833005, "24 hour urine sample (specimen\)", #equivalent)
 
-* insert InitMapping(#URN, "Urine\, random (‘‘spot’’\)")
+* insert InitMapping(#URN, "Urine\, random (\"spot\"\)")
 * insert AddMapping(278020009,"Spot urine sample (specimen\)", #equivalent)
 
 * insert InitMapping(#URM, "Urine\, first morning")
 * insert AddMapping(258575007,"Early morning urine sample (specimen\)", #wider)
 
 * insert InitMapping(#URT, "Urine\, timed")
-* insert AddMapping(409821005," Timed urine specimen (specimen\)", #equivalent)
+* insert AddMapping(409821005, "Timed urine specimen (specimen\)", #equivalent)
 
 * insert InitMapping(#DWB, "Dried whole blood (e.g.\, Guthrie cards\)")
 * insert AddMapping(119294007,"Dried blood specimen (specimen\)", #equivalent)

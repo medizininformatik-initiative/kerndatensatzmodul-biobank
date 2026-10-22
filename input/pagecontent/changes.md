@@ -1,12 +1,19 @@
 <!-- markdownlint-disable MD041 -->
 ### Version 2027.0.0-ballot
 
-Chore:
-* Update MIABIS Dependency to 1.3.0 **Breaking Changes:** MIABIS changes all canonical URLs. This impacts extensions as well as the system URLs for temperature & sample material codes.
+Dependencies:
+
+* MIABIS dependency updated to 1.3.0. **Breaking change:** MIABIS changed all canonical URLs; this affects the MIABIS extensions used by this module and the system URLs of the temperature and specimen-material codes.
+
+Fixes:
+
+* Profile id `mii-pr-biobank-zellinie-organoid` renamed to `mii-pr-biobank-zelllinie-organoid` (typo). **Breaking change:** the canonical URL of the cell line/organoid profile changes accordingly.
+* Logical model elements renamed: `Anzahl-Aliquots` → `Anzahl-Aliquots`, `Auslagerungszeitpunkt` → `Auslagerungszeitpunkt`, `Kulturbedingungen` → `Kulturbedingungen` (typos).
+* Typos in titles, descriptions and displays corrected; the English title of the infectivity extension now reads "Infectivity Status".
 
 ### Version 2027.0.0-ballot.rc2
 
-Fix (package repair, content as rc1):
+Package repair (content unchanged from rc1):
 
 * Package rc1 shipped empty snapshots (Specimen/SpecimenCore) and no THO pin — rebuilt with correct resolution
 * `caseSensitive = true` for both code systems
@@ -14,14 +21,14 @@ Fix (package repair, content as rc1):
 
 ### Version 2027.0.0-ballot.rc1
 
-Feat:
+New features:
 
-* Added an extension for Specimen to state the infectiosity status
+* Added an extension for Specimen to state the infectivity status
 * Added the Specimen.focus extension from the EU Lab IG
 
 ### Version 2026.0.1
 
-Fix:
+Fixes:
 
 * Fixed a problem with the cardinality of the extensions in `Specimen.processing`
 

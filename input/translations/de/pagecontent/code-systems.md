@@ -11,7 +11,7 @@ Die entsprechenden Value Sets wurden erstellt; die vollständige, automatisch ge
 #### Standard PREanalytical Code (SPREC)
 
 Der [SPREC 4.0](https://www.researchgate.net/publication/383061419_Standard_PREanalytical_Code_Version_40) (Standard PREanalytical Code) wurde entwickelt, um ein umfassendes und einfach zu implementierendes Werkzeug zur Dokumentation der präanalytischen Sammlung, Verarbeitung und Lagerung von Bioproben bereitzustellen.
-Viele Elemente der SPREC, wie z.B. Probentypen, sind bereits in SNOMED CT INTERNATIONAL enthalten, viele aber auch nicht. Insbesondere der Modus der Zentrifugation lässt sich mit den aktuellen SNOMED-International-Codes nicht darstellen.
+Viele Elemente der SPREC, wie z. B. Probentypen, sind bereits in SNOMED CT INTERNATIONAL enthalten, viele aber auch nicht. Insbesondere der Modus der Zentrifugation lässt sich mit den aktuellen SNOMED-International-Codes nicht darstellen.
 
 Die SNOMED CT Codes für SPREC-Begriffe wurden von der [SNOMED CT Spanish Extension](https://webs.somsns.es/cnr/Visor_EE.htm) als Ergebnis der Arbeit des Spanish Network of Biobanks zur Definition des Biobank-Refsets in SNOMED CT veröffentlicht.
 
@@ -44,7 +44,7 @@ Für die Achsen des SPREC, die sich bereits auf existierende SNOMED-Codes mappen
 
 ### Mappings
 
-Die im Folgenden aufgeführten Mappings sind als ConceptMaps maschinenlesbar als Teil des zu diesem IG gehörenden Packages verfügbar und können z.B. als Teil eines ETL-Prozesses oder mit einem Terminologieserver genutzt werden.
+Die im Folgenden aufgeführten Mappings sind als ConceptMaps maschinenlesbar als Teil des zu diesem IG gehörenden Packages verfügbar und können z. B. als Teil eines ETL-Prozesses oder mit einem Terminologieserver genutzt werden.
 
 #### Probentypen
 

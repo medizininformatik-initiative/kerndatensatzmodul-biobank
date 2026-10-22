@@ -73,7 +73,7 @@
       ]
     }
   ],
-  "description": "Zahl der Passagen, die die Zellinie oder das Organiod durchlaufen hat.",
+  "description": "Zahl der Passagen, die die Zelllinie oder das Organoid durchlaufen hat.",
   "_description": {
     "extension": [
       {
@@ -109,7 +109,7 @@
         "id": "Extension",
         "path": "Extension",
         "short": "MII EX Biobank Anzahl Passagen",
-        "definition": "Zahl der Passagen, die die Zellinie oder das Organiod durchlaufen hat."
+        "definition": "Zahl der Passagen, die die Zelllinie oder das Organoid durchlaufen hat."
       },
       {
         "id": "Extension.extension",

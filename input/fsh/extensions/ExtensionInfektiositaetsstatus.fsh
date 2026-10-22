@@ -7,8 +7,8 @@ Description: "Extension zur Angabe des Infektiositätsstatus einer Probe anhand 
 
 //Translation
 * insert Translation(^name, en-US, MII_EX_Biobank_Infektiositaetsstatus)
-* insert Translation(^title, en-US, MII EX Biobank Infectiosity Status)
-* insert Translation(^description, en-US, The extension specifies the infectiosity status of a specimen based on the biosafety level classification ranging from BSL-1 to BSL-4 or an indication that no infection risk is known.)
+* insert Translation(^title, en-US, MII EX Biobank Infectivity Status)
+* insert Translation(^description, en-US, The extension specifies the infectivity status of a specimen based on the biosafety level classification ranging from BSL-1 to BSL-4 or an indication that no infection risk is known.)
 
 //Meta
 * insert PR_CS_VS_Version

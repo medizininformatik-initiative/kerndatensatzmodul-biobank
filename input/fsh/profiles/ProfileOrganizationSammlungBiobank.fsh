@@ -31,7 +31,7 @@ Description: "Darstellung der organisatorischen Daten einer Probensammlung oder 
             and https://fhir.bbmri-eric.eu/StructureDefinition/miabis-collection-design-extension named collectionDesign 0..1 MS
 * insert Translation(extension[beschreibung] ^short, de-DE, Beschreibung der Sammlung/Biobank)
 * insert Translation(extension[beschreibung] ^short, en-US, Description of the collection/biobank)
-* insert Translation(extension[beschreibung] ^definition, de-DE, Eine Freitextbeschreibung der Sammlung/Biobank\, die z.B. in einer Suche angezeigt werden kann.)
+* insert Translation(extension[beschreibung] ^definition, de-DE, Eine Freitextbeschreibung der Sammlung/Biobank\, die z. B. in einer Suche angezeigt werden kann.)
 * insert Translation(extension[beschreibung] ^definition, en-US, A free-text description of the collection/biobank\, which can be displayed in a search\, for example.)
 
 * identifier and name and alias and partOf and contact MS

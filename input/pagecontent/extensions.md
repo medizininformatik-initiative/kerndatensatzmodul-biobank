@@ -32,7 +32,7 @@ Number of aliquots when these are not modelled as separate FHIR resources: [MII 
 
 #### Infectiosity status
 
-Extension to state the infectiosity status of a specimen based on the biosafety level classification (BSL-1 to BSL-4, SNOMED CT) or an indication that no infection risk is known: [MII EX Biobank Infektiositätsstatus](StructureDefinition-mii-ex-biobank-infektiositaetsstatus.html) (value set: [Biosafety Level](ValueSet-mii-vs-biobank-biosafety-level.html)
+Extension to state the infectiosity status of a specimen based on the biosafety level classification (BSL-1 to BSL-4, SNOMED CT) or an indication that no infection risk is known: [MII EX Biobank Infektiositätsstatus](StructureDefinition-mii-ex-biobank-infektiositaetsstatus.html) (value set: [Biosafety Level](ValueSet-mii-vs-biobank-biosafety-level-snomedct.html))
 
 #### Focus
 

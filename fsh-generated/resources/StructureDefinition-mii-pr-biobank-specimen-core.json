@@ -87,7 +87,7 @@
       ]
     }
   ],
-  "description": "Basisiprofil zur Abbildung einer MII Bioprobe. Nicht zur direkten Implementierung gedacht, Module leiten bei Bedarf eigene Profile von diesem Profil ab.",
+  "description": "Basisprofil zur Abbildung einer MII Bioprobe. Nicht zur direkten Implementierung gedacht, Module leiten bei Bedarf eigene Profile von diesem Profil ab.",
   "_description": {
     "extension": [
       {
@@ -99,7 +99,7 @@
           },
           {
             "url": "content",
-            "valueString": "Basisiprofil zur Abbildung einer MII Bioprobe. Nicht zur direkten Implementierung gedacht, Module leiten bei Bedarf eigene Profile von diesem Profil ab."
+            "valueString": "Basisprofil zur Abbildung einer MII Bioprobe. Nicht zur direkten Implementierung gedacht, Module leiten bei Bedarf eigene Profile von diesem Profil ab."
           }
         ]
       },
@@ -112,7 +112,7 @@
           },
           {
             "url": "content",
-            "valueString": "Base profile for representing a MII bioprobe. Not intended for direct implementation, modules derive their own profiles from this profile as needed."
+            "valueString": "Base profile for representing an MII biospecimen. Not intended for direct implementation, modules derive their own profiles from this profile as needed."
           }
         ]
       }
@@ -1298,7 +1298,7 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "Die angewendete Prozedur zur Verarbeitung der Probe, z.B. Zentrifugation."
+                  "valueString": "Die angewendete Prozedur zur Verarbeitung der Probe, z. B. Zentrifugation."
                 }
               ]
             },
@@ -1414,7 +1414,7 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "Zusatzstoffe, die während der Probenverarbeitung verwendet wurden, z.B. Fixierungsmittel."
+                  "valueString": "Zusatzstoffe, die während der Probenverarbeitung verwendet wurden, z. B. Fixierungsmittel."
                 }
               ]
             },
@@ -1983,7 +1983,7 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "Zusatzstoffe, die im Probenbehälter enthalten sind z.B. wie Konservierungsmittel."
+                  "valueString": "Zusatzstoffe, die im Probenbehälter enthalten sind z. B. Konservierungsmittel."
                 }
               ]
             },

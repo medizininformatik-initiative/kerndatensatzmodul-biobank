@@ -2,12 +2,12 @@
 Profile: MII_PR_Biobank_Observation_DNA_Konzentration
 Parent: Observation
 Id: mii-pr-biobank-observation-dna-konzentration
-Title: "MII PR Biobank Observation DNA Konzentration"
+Title: "MII PR Biobank Observation DNA-Konzentration"
 Description: "Die DNA-Konzentration einer Probe"
 
 //Translation Meta
 * insert Translation(^name, en-US, MII_PR_Biobank_Observation_DNA_Concentration)
-* insert Translation(^title, de-DE, Observation DNA Konzentration)
+* insert Translation(^title, de-DE, Observation DNA-Konzentration)
 * insert Translation(^title, en-US, Observation DNA Concentration)
 * insert Translation(^description, de-DE, Die DNA-Konzentration einer Probe)
 * insert Translation(^description, en-US, The DNA concentration of a specimen)

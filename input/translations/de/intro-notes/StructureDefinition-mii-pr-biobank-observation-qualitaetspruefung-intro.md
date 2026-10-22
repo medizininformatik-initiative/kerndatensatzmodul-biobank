@@ -1,6 +1,6 @@
 ### Inhalt
 
-Mittels einer Observation werden durchgeführte Qualitätsprüfungen, z.B. Messung der Viabilität, Test auf Mykoplasmen, STR-Analyse, Wiederauftaubarkeit / Wiederinkulturnahme abgebildet.
+Mittels einer Observation werden durchgeführte Qualitätsprüfungen, z. B. Messung der Viabilität, Test auf Mykoplasmen, STR-Analyse, Wiederauftaubarkeit / Wiederinkulturnahme abgebildet.
 
 ### Beispiele
 

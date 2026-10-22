@@ -1,5 +1,5 @@
 Instance: OrganoidLunge
-InstanceOf: MII_PR_Biobank_Specimen_Zellinie_Organoid
+InstanceOf: MII_PR_Biobank_Specimen_Zelllinie_Organoid
 Title: "Organoid Lungenbiopsie"
 Usage: #example
 

@@ -1,7 +1,7 @@
 ValueSet: MII_VS_Biobank_CellLine_Proliferation
 Id: mii-vs-biobank-cellline-proliferation
-Title: "MII VS Biobank Proliferation Zellinie"
-Description: "Proliferationstatus einer Zellinie/eines Organoids"
+Title: "MII VS Biobank Proliferation Zelllinie"
+Description: "Proliferationsstatus einer Zelllinie/eines Organoids"
 
 * insert Publisher
 * insert PR_CS_VS_Version

@@ -43,7 +43,7 @@
       }
     ]
   },
-  "title": "MII PR Biobank Observation DNA Konzentration",
+  "title": "MII PR Biobank Observation DNA-Konzentration",
   "_title": {
     "extension": [
       {
@@ -55,7 +55,7 @@
           },
           {
             "url": "content",
-            "valueString": "Observation DNA Konzentration"
+            "valueString": "Observation DNA-Konzentration"
           }
         ]
       },

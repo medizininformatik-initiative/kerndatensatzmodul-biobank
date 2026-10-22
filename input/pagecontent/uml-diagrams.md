@@ -7,4 +7,3 @@ As a more abstract version of an information model and to better illustrate the 
 
 For better readability, the complete UML diagram is also available [here in full resolution](UML_2027.png).
 
-<!-- TODO:REVIEW: The source repository contains newer diagram versions (images/UML_10_11_2025.png, UML/UML_2027.png) — the module team decides which version this page should show (Gate B). -->

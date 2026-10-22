@@ -87,7 +87,7 @@
       ]
     }
   ],
-  "description": "Der an einer Zelline oder einem Organiod festgestellte Karyotyo",
+  "description": "Der an einer Zelllinie oder einem Organoid festgestellte Karyotyp",
   "_description": {
     "extension": [
       {
@@ -99,7 +99,7 @@
           },
           {
             "url": "content",
-            "valueString": "Der an einer Zelline oder einem Organiod festgestellte Karyotyo"
+            "valueString": "Der an einer Zelllinie oder einem Organoid festgestellte Karyotyp"
           }
         ]
       },

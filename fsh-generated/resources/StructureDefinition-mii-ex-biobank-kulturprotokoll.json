@@ -73,7 +73,7 @@
       ]
     }
   ],
-  "description": "Protokoll der Kultur der Zellinie oder des Organiods.",
+  "description": "Protokoll der Kultur der Zelllinie oder des Organoids.",
   "_description": {
     "extension": [
       {
@@ -109,7 +109,7 @@
         "id": "Extension",
         "path": "Extension",
         "short": "MII EX Biobank Kulturprotokoll",
-        "definition": "Protokoll der Kultur der Zellinie oder des Organiods."
+        "definition": "Protokoll der Kultur der Zelllinie oder des Organoids."
       },
       {
         "id": "Extension.extension",

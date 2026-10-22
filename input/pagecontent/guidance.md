@@ -1,15 +1,16 @@
 <!-- markdownlint-disable MD041 -->
-<!-- TODO:REVIEW machine translation of source page guidance.md (de) -->
 
 <!-- DERIVED:stand-in source=MIIIGModulBiobank/AnwendungsfaelleInformationsmodell/Index.page.md gate=B -->
 
 This page describes the module's application scenarios; the subpages cover individual aspects in more depth:
 
+* [Guidance for Researchers](researcher-guidance.html) – feasibility and specimen quality from the researcher's perspective
 * [Guidance for Implementers](implementer-guidance.html) – context within the overall project and references (SPREC, MIABIS, BBMRI-ERIC, GBN)
+* [Datasets and Descriptions](logical-models.html) – the module's dataset as a logical model with FHIR mapping
 * [UML Diagrams](uml-diagrams.html) – the information model as a UML class diagram
 * [Glossary](glossary.html) – term definitions (primary specimen, aliquot group, aliquot, …)
 
-### Description of scenarios for applying the modules
+### Application scenarios of the module
 
 #### Specimen search
 

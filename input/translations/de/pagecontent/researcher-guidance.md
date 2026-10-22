@@ -1,7 +1,5 @@
 <!-- markdownlint-disable MD041 -->
 
-### Anleitung für Forschende
-
 Das Modul **Biobank** bildet die für die biomedizinische Forschung relevanten Informationen zu Bioproben ab: ihre Art und Herkunft, ihre präanalytische Verarbeitung, ihre Lagerung sowie die verwaltende Organisationseinheit. Es unterstützt damit zwei zentrale Anwendungsfälle für Forschende: die **Machbarkeitsprüfung** ("Gibt es passende Proben für mein Vorhaben, und wie viele?") und die **Bewertung der Probenqualität** für die geplante Analyse.
 
 #### Wichtige Datenelemente
@@ -9,7 +7,7 @@ Das Modul **Biobank** bildet die für die biomedizinische Forschung relevanten I
 Je nach Fragestellung könnten insbesondere folgende Angaben aus dem Modul von Interesse sein:
 
 - **Probentyp bzw. -material** (`Specimen.type`) – z. B. Vollblut, Serum, Plasma, Gewebe (FFPE oder Cryo), DNA/RNA, Urin. Die Kodierung erfolgt standardisiert mit SNOMED CT, sodass Probentypen standortübergreifend vergleichbar und maschinell durchsuchbar sind.
-- **Entnahmeort** (`Specimen.bodySite`) – kodiert mit SNOMED CT oder, insbesondere bei onkologischen Fragestellungen, mit ICD-O-3.
+- **Entnahmeort** (`Specimen.collection.bodySite`) – kodiert mit SNOMED CT oder, insbesondere bei onkologischen Fragestellungen, mit ICD-O-3.
 - **Probenhierarchie**: Das Modul unterscheidet zwischen **Primärprobe**, **Aliquotgruppe** und **Aliquot**. Für die Machbarkeitsanfrage ist meist die Aliquotgruppe-Ebene relevant, da sie Rückschlüsse auf tatsächlich verfügbare Mengen erlaubt.
 - **Menge/Volumen** des Aliquots.
 - **Präanalytische Verarbeitung** (`Specimen.processing`), (z. B. Zentrifugation, Verarbeitungsart, Einfrieren). Diese Angaben können hilfreich sein, um einzuschätzen, ob eine Probe für ein bestimmtes Analyseverfahren (z. B. Multiomics, Proteomics) geeignet ist.
@@ -19,7 +17,7 @@ Je nach Fragestellung könnten insbesondere folgende Angaben aus dem Modul von I
 
 #### Zelllinien und Organoide
 
-Auch Zelllinien und Organoide können als abgeleitete Probentypen erfasst werden. Technisch werden sie wie normale Bioproben behandelt, die einige extra Informationen (z.B. zum Karyotyp) enthalten können.
+Auch Zelllinien und Organoide können als abgeleitete Probentypen erfasst werden. Technisch werden sie wie normale Bioproben behandelt, die einige extra Informationen (z. B. zum Karyotyp) enthalten können.
 
 #### Was das Modul bewusst nicht abbildet
 
@@ -32,5 +30,5 @@ Für standortübergreifende Machbarkeitsanfragen zu Bioproben und assoziierten D
 #### Weiterführende Informationen
 
 - Struktur der Ressourcen: siehe [UML-Diagramme](uml-diagrams.html)
-- Begriffsklärungen (z. B. Aliquot, Aliquotgruppe, Primärprobe): siehe unterer Abschnitt der [Anleitung für Implementierende](implementer-guidance.html)
-- Technische Details zu Profilen und Extensions: siehe [Anleitung für Implementierende](implementer-guidance.html)
+- Begriffsklärungen (z. B. Aliquot, Aliquotgruppe, Primärprobe): siehe [Glossar](glossary.html)
+- Technische Details zu Profilen und Extensions: siehe [Profile](profiles.html) und [Extensions](extensions.html)

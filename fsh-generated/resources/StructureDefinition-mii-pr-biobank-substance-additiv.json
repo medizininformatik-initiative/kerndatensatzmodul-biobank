@@ -87,7 +87,7 @@
       ]
     }
   ],
-  "description": "Abbildung eines Additives, das zu einer Probe hinzugefügt werden kann",
+  "description": "Abbildung eines Additivs, das zu einer Probe hinzugefügt werden kann",
   "_description": {
     "extension": [
       {
@@ -99,7 +99,7 @@
           },
           {
             "url": "content",
-            "valueString": "Abbildung eines Additives, das zu einer Probe hinzugefügt werden kann"
+            "valueString": "Abbildung eines Additivs, das zu einer Probe hinzugefügt werden kann"
           }
         ]
       },

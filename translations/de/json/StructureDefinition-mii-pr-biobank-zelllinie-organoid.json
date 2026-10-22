@@ -1,19 +1,19 @@
 {
-  "id" : "StructureDefinition-mii-pr-biobank-zellinie-organoid",
+  "id" : "StructureDefinition-mii-pr-biobank-zelllinie-organoid",
   "baseLang" : "en",
   "languages" : [{
     "targetLang" : "de",
     "entries" : [{
       "id" : "StructureDefinition.name",
       "context" : "A natural language name identifying the structure definition. This name should be usable as an identifier for the module by machine processing applications such as code generation.",
-      "source" : "MII_PR_Biobank_Specimen_Zellinie_Organoid",
-      "target" : "MII_PR_Biobank_Specimen_Zellinie_Organoid"
+      "source" : "MII_PR_Biobank_Specimen_Zelllinie_Organoid",
+      "target" : "MII_PR_Biobank_Specimen_Zelllinie_Organoid"
     },
     {
       "id" : "StructureDefinition.title",
       "context" : "A short, descriptive, user-friendly title for the structure definition.",
-      "source" : "MII PR Biobank Specimen Zellinie Organoid",
-      "target" : "MII PR Biobank Specimen Zellinie Organoid"
+      "source" : "MII PR Biobank Specimen Zelllinie Organoid",
+      "target" : "MII PR Biobank Specimen Zelllinie Organoid"
     },
     {
       "id" : "StructureDefinition.publisher",

@@ -11,7 +11,7 @@ Eine Bioprobe kann über eine Entnahme einem/einer Donor/Donorin (Modul Person) 
 
 Die Bioprobe kann außerdem Pathologiebefunden (Modul Pathologie), Laborbefunden (Modul Labor) sowie Diagnosen (Modul Diagnose) zugeordnet werden, um sie mit weiteren klinischen Informationen zu verbinden.
 
-Die Lagerung einer Bioprobe kann durch eine Reihe von Lagerprozessen, die jeweils Beginn, Ende und Lagerungsbedingungen umfassen, nachvollzogen werden. Lagerprozesse werden wie auch jede Bioprobe einer Probensammlung/Biobank zugeordnet, die als Kontaktstelle für Anfragen zur Probe fungiert. Eine Zuordnung von z.B. untergeordneten Sammlungen zu einer Biobank ist hier über eine Referenz möglich. Zusätzlich können weitere aus dem auf MIABIS aufbauenden BBMRI-ERIC-Directory-Datenmodell übernommene Attribute wie Name oder Sammlungstyp erfasst werden. Um mit der eine Probe verwaltenden Organisation in Verbindung treten zu können, ist außerdem die Angabe eines Kontakts vorgesehen.
+Die Lagerung einer Bioprobe kann durch eine Reihe von Lagerprozessen, die jeweils Beginn, Ende und Lagerungsbedingungen umfassen, nachvollzogen werden. Lagerprozesse werden wie auch jede Bioprobe einer Probensammlung/Biobank zugeordnet, die als Kontaktstelle für Anfragen zur Probe fungiert. Eine Zuordnung von z. B. untergeordneten Sammlungen zu einer Biobank ist hier über eine Referenz möglich. Zusätzlich können weitere aus dem auf MIABIS aufbauenden BBMRI-ERIC-Directory-Datenmodell übernommene Attribute wie Name oder Sammlungstyp erfasst werden. Um mit der eine Probe verwaltenden Organisation in Verbindung treten zu können, ist außerdem die Angabe eines Kontakts vorgesehen.
 
 Auch wenn der SPREC-4.0-Code nicht direkt Teil des Datenmodells ist, finden sich doch alle darin enthaltenen Datenelemente im vorliegenden Datenmodell wieder.
 
@@ -51,9 +51,9 @@ Anmerkungen und Kritik werden in Form von Issues im [GitHub-Repository](https://
 
 ### Copyright-Hinweis, Nutzungshinweise
 
-Copyright © 2021: TMF e. V., Charlottenstraße 42, 10117 Berlin
+Copyright © 2021+ TMF e. V., Charlottenstraße 42, 10117 Berlin
 
-Der Inhalt dieser Spezifikation ist öffentlich. Die Nachnutzungs- bzw. Veröffentlichungsansprüche sind nicht beschränkt.
+Diese Spezifikation steht unter der [Creative-Commons-Lizenz Namensnennung 4.0 International (CC BY 4.0)](https://creativecommons.org/licenses/by/4.0/): Nachnutzung und Weitergabe sind unter Quellenangabe gestattet.
 
 Zu den Nutzungsrechten der zugrunde liegenden FHIR-Technologie siehe die FHIR-Basis-Spezifikation.
 
@@ -61,4 +61,4 @@ Einige verwendete Codesysteme werden von anderen Organisationen herausgegeben un
 
 ### Disclaimer
 
-Der Inhalt dieses Dokuments ist öffentlich. Zu beachten ist, dass Teile dieses Dokuments auf FHIR Version R4 beruhen, für die das Copyright von HL7 International gilt.
+Zu beachten ist, dass Teile dieses Dokuments auf FHIR Version R4 beruhen, für die das Copyright von HL7 International gilt.

@@ -87,7 +87,7 @@
       ]
     }
   ],
-  "description": "Art und Ergebnis einer an einer Probe, einer Zelline oder einem Organiod durchgeführten Qualitätsprüfung",
+  "description": "Art und Ergebnis einer an einer Probe, einer Zelllinie oder einem Organoid durchgeführten Qualitätsprüfung",
   "_description": {
     "extension": [
       {
@@ -99,7 +99,7 @@
           },
           {
             "url": "content",
-            "valueString": "Art und Ergebnis einer an einer Probe, einer Zelline oder einem Organiod durchgeführten Qualitätsprüfung"
+            "valueString": "Art und Ergebnis einer an einer Probe, einer Zelllinie oder einem Organoid durchgeführten Qualitätsprüfung"
           }
         ]
       },

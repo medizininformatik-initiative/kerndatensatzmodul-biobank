@@ -26,7 +26,7 @@ Examples:
 
 ### Specimen (cell line/organoid)
 
-Besides the biospecimen, the Specimen resource can also represent cell lines and organoids: [MII PR Biobank Zelllinie/Organoid](StructureDefinition-mii-pr-biobank-zellinie-organoid.html). In terms of the model, this is an extension of the biospecimen profile with specific fields via extensions and via observations referencing the specimen. Which extensions and/or observations are appropriate depends on the respective use case.
+Besides the biospecimen, the Specimen resource can also represent cell lines and organoids: [MII PR Biobank Zelllinie/Organoid](StructureDefinition-mii-pr-biobank-zelllinie-organoid.html). In terms of the model, this is an extension of the biospecimen profile with specific fields via extensions and via observations referencing the specimen. Which extensions and/or observations are appropriate depends on the respective use case.
 
 Example organoid: [OrganoidLunge](Specimen-OrganoidLunge.html)
 
@@ -47,10 +47,6 @@ As the term culture conditions covers a great many different aspects, it was dec
 #### Phenotype
 
 For a cell line or organoid, a diagnosis / phenotype can be recorded with the [Diagnose extension](StructureDefinition-mii-ex-biobank-diagnose.html), as for a "normal" specimen. If a TNM is to be recorded, the [profile from the oncology module](https://www.medizininformatik-initiative.de/Kerndatensatz/KDS_Onkologie_V2025/MIIIGModulOnkologie-TechnischeImplementierung-FHIR-Profile-TNM-Klassifikation-TNM-Klassifikation-Observation.html) shall be used; a [data-absent-reason extension](https://hl7.org/fhir/R4/extension-data-absent-reason.html) can be used on subject if any patient reference is missing.
-
-<!-- DERIVED:bridge source=MIIIGModulBiobank/TechnischeImplementierung/FHIR-Profile/Index.page.md gate=B -->
-> The following link list was newly written during the migration (bridging text to the profile pages).
-{: .ig-highlight .ig-highlight-grey}
 
 ### Further profiles
 

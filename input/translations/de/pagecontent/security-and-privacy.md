@@ -42,4 +42,22 @@ nicht dieser Leitfaden.
 
 #### 3. Modul-spezifische Aspekte
 
-[TODO]
+Bioprobendaten sind keine klinischen Daten über eine Person, aber mit ihr
+verknüpft: Jedes `Specimen` referenziert seine Spender:in über
+`Specimen.subject`, die Diagnose-Extension verknüpft eine Probe mit einer
+Diagnose. Unter DIMP wird die Spender:innen-Referenz wie jede andere
+Patientenreferenz pseudonymisiert; die Probenidentifikatoren
+(`Specimen.identifier`, `Specimen.accessionIdentifier`) sind einrichtungsinterne
+fachliche Identifikatoren und werden je Projektkonfiguration ersetzt oder
+entfernt, weil eine Eingangsnummer am Ursprungsstandort eine Person
+identifizieren kann.
+
+Die Sammlungs- und Biobankdaten (`Organization`-Profil, Kontakt-Extension)
+beschreiben Einrichtungen und Funktionskontakte, keine Patient:innen.
+Personenbezogene Kontaktdaten benannter Personen (`Organization.contact.name`,
+Telecom) SOLLEN nur veröffentlicht werden, wenn die Person in institutioneller
+Rolle handelt und zugestimmt hat; Funktionsadressen sind vorzuziehen.
+
+Die Proben selbst sind physische Objekte außerhalb des FHIR-Datenschutzes; ihre
+Herausgabe folgt dem Use-and-Access-Prozess des übergreifenden
+Datenschutzkonzepts und der Governance der jeweiligen Biobank.

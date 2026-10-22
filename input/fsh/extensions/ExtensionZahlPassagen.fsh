@@ -2,7 +2,7 @@
 Extension: MII_EX_Biobank_Anzahl_Passagen
 Id: mii-ex-biobank-anzahl-passagen
 Title: "MII EX Biobank Anzahl Passagen"
-Description: "Zahl der Passagen, die die Zellinie oder das Organiod durchlaufen hat."
+Description: "Zahl der Passagen, die die Zelllinie oder das Organoid durchlaufen hat."
 
 //Translation
 * insert Translation(^name, en-US, MII_EX_Biobank_Number_of_Passages)

@@ -10,8 +10,6 @@
      oder einen Manifest-Parameter gewinnt oder verliert, sind die Tabellen unten
      in BEIDEN Sprachen nachzuziehen. -->
 
-### Metadaten-Übersicht
-
 Diese Seite beschreibt die maschinenlesbaren Metadaten des Moduls
 **Biobank**. Sie existieren, damit die Artefakte dieses Leitfadens
 auffindbar, bewertbar, validierbar, zitierbar, steuerbar und
@@ -87,33 +85,15 @@ gesetzt und landen in der erzeugten `ImplementationGuide`-Ressource.
 | [Resource Effective Period](http://hl7.org/fhir/extensions/5.3.0/StructureDefinition-resource-effectivePeriod.html) | Lebenszyklus; Veröffentlichung; Implementierung | `ImplementationGuide.extension` (Beginn `2026`) | Hält fest, für welchen Zeitraum der Inhalt gelten soll oder gegolten hat. |
 | [Artifact Author](http://hl7.org/fhir/extensions/5.3.0/StructureDefinition-artifact-author.html)<br/>[Artifact Editor](http://hl7.org/fhir/extensions/5.3.0/StructureDefinition-artifact-editor.html)<br/>[Artifact Reviewer](http://hl7.org/fhir/extensions/5.3.0/StructureDefinition-artifact-reviewer.html)<br/>[Artifact Endorser](http://hl7.org/fhir/extensions/5.3.0/StructureDefinition-artifact-endorser.html) | Veröffentlichung; Governance; Provenienz | `ImplementationGuide.extension` | Hält Autorenschaft, die für die innere Stimmigkeit verantwortliche Redaktion, die Reviewer und die offiziell befürwortenden Gremien fest. Bei einem KDS-Modul sind Redaktion, Reviewer und befürwortende Gremien die Governance-Gremien des Kerndatensatz-Prozesses. |
 
-In diesem Gerüst nicht aktiviert, aber als auskommentierte Blöcke in
-`sushi-config.yaml` vorbereitet:
+In diesem Modul zusätzlich aktiviert:
 
-* [Artifact Related Artifact](http://hl7.org/fhir/extensions/5.3.0/StructureDefinition-artifact-relatedArtifact.html)
-  — eine Literaturangabe zum Modul.
 * [CQF Expansion Parameters](http://hl7.org/fhir/extensions/5.3.0/StructureDefinition-cqf-expansionParameters.html)
-  zusammen mit einer
-  [CRMI-Manifest-Parameters](https://hl7.org/fhir/uv/crmi/STU2/en/StructureDefinition-crmi-manifestparameters.html)-Ressource
-  und den Parametern `path-expansion-params` / `pin-manifest`.
+  mit Verweis auf das CRMI-Manifest
+  [`Parameters/mii-param-biobank-manifest`](Parameters-mii-param-biobank-manifest.html),
+  das der Publisher über `path-expansion-params` und `pin-manifest` nutzt.
 
-> [TODO: Aktivieren Sie die für Ihr Modul nötigen Blöcke und ziehen Sie die
-> Tabellen oben nach. Wenn Ihr Modul die CRMI-Shareable-/Publishable-Profile
-> zusätzlich auf seine eigenen StructureDefinitions, CapabilityStatements,
-> CodeSysteme und ValueSets anwendet — das Idiom aus `kerndatensatz-basis` ist
-> ein gemeinsames `RuleSet` in [`input/fsh/rulesets/crmi.fsh`](https://github.com/medizininformatik-initiative/kerndatensatzmodul-biobank/blob/main/input/fsh/rulesets/crmi.fsh) —, ergänzen Sie die
-> entsprechenden Zeilen.]
-{: .ig-highlight .ig-highlight-grey}
-
-##### CodeSystem-Supplements
-
-Veröffentlicht ein Modul CodeSystem-Supplements, ist zu beachten: Das
-CRMI-Profil *ShareableCodeSystem* verlangt `CodeSystem.caseSensitive`, während
-die FHIR-Validierung warnt, dass ein Supplement `caseSensitive` nicht erneut
-angeben sollte, weil das dem ergänzten CodeSystem widersprechen könnte.
-[kerndatensatz-basis](https://github.com/medizininformatik-initiative/kerndatensatz-basis)
-beansprucht deshalb bei Supplements nur das *Publishable*-CRMI-Profil und lässt
-das Shareable-Profil weg.
+Nicht genutzt: *Artifact Related Artifact* (keine Literaturangabe). Das Modul
+veröffentlicht keine CodeSystem-Supplements.
 
 #### Versionierung und Paket-Provenienz
 
@@ -122,7 +102,7 @@ Das menschenlesbare Versionsschema beschreibt die Seite
 Politik als CRMI-Metadaten ausgedrückt wird.
 
 Das Modul verwendet die Kalender-Versionierung in der SemVer-kompatiblen
-numerischen Form `JJJJ.MINOR.PATCH[-label]`, derzeit `2026.0.1`. Das
+numerischen Form `JJJJ.MINOR.PATCH[-label]`, derzeit `2027.0.0-ballot`. Das
 Kalenderjahr dient als CRMI-`<major>`-Komponente; `MINOR` und `PATCH` behalten
 ihre übliche additive bzw. korrigierende Bedeutung. Stabile Versionen lassen
 sich damit über den deklarierten Versionsalgorithmus `semver` vergleichen. Labels
@@ -148,19 +128,12 @@ Kanonische Referenzen werden im gebauten Paket gepinnt (`pin-canonicals:
 pin-all` in `sushi-config.yaml`); das ist eine CRMI-Erwartung und macht die
 Ausgabe stabil.
 
-Ein Modul, das zusätzlich eine reproduzierbare Terminologie-Expansion will,
-ergänzt eine CRMI-Manifest-Parameters-Ressource — das Idiom aus
-`kerndatensatz-basis` ist `Parameters/mii-param-<slug>-manifest` —, verlinkt sie
-über `cqf-expansionParameters` aus dem `ImplementationGuide` und weist den
-Publisher mit `path-expansion-params` und `pin-manifest` darauf hin. Lesende wie
-Werkzeuge haben dann eine stabile Stelle, an der die Parameter für Expansion und
-Paket-Pinnung einsehbar sind.
-
-> [TODO: Ergänzen Sie das Manifest Ihres Moduls (siehe die auskommentierten
-> Blöcke in `sushi-config.yaml`) und verlinken Sie hier die erzeugte
-> `Parameters`-Seite — oder halten Sie ausdrücklich fest, dass dieses Modul
-> keine Expansions-Parameter pinnt.]
-{: .ig-highlight .ig-highlight-grey}
+Dieses Modul pinnt seine Terminologie-Expansion über das CRMI-Manifest
+[`mii-param-biobank-manifest`](Parameters-mii-param-biobank-manifest.html),
+verlinkt aus dem `ImplementationGuide` über `cqf-expansionParameters` und dem
+Publisher mit `path-expansion-params` und `pin-manifest` übergeben. Lesende wie
+Werkzeuge haben damit eine stabile Stelle, an der die Parameter für Expansion
+und Paket-Pinnung einsehbar sind.
 
 #### Bezug zu FAIR
 
@@ -192,7 +165,7 @@ dauerhaft identifizierter FAIR-Datensatz behauptet.
 | Prinzip | Indikator | FAIR-Data-Maturity-Indikator | Adressiert durch |
 | --- | --- | --- | --- |
 | F1 | RDA-F1-01M | Metadaten sind über einen persistenten Identifikator identifiziert | Kanonische `url`-Werte, die Paket-Id `de.medizininformatikinitiative.kerndatensatz.biobank`, die Paketversion und `package-source`. Die Persistenz hängt von der Veröffentlichungs-Governance ab. |
-| F1 | RDA-F1-01D | Daten sind über einen persistenten Identifikator identifiziert | Bei den Beispielen: `Resource.id`, `Bundle.identifier`, `identifier`-Elemente und `Bundle.entry.fullUrl` zeigen das Muster, sind aber keine persistenten Daten-PIDs. Produktive Daten benötigen persistente fachliche Identifikatoren aus den implementierenden Systemen. |
+| F1 | RDA-F1-01D | Daten sind über einen persistenten Identifikator identifiziert | Bei den Beispielen: `Resource.id` und `identifier`-Elemente zeigen das Muster, sind aber keine persistenten Daten-PIDs. Produktive Daten benötigen persistente fachliche Identifikatoren aus den implementierenden Systemen. |
 | F1 | RDA-F1-02M | Metadaten sind über einen global eindeutigen Identifikator identifiziert | Global gültige kanonische `url`-Werte und die Paket-Id innerhalb der kontrollierten KDS-Namensräume. |
 | F1 | RDA-F1-02D | Daten sind über einen global eindeutigen Identifikator identifiziert | Bei den Beispielen: `identifier.system` + `identifier.value` zeigen die global eindeutige Identifikation. Produktiv hängt sie von kontrollierten Namensräumen und lokaler Governance ab. |
 | F2 | RDA-F2-01M | Reichhaltige Metadaten ermöglichen das Auffinden | CRMI-Shareable-/Publishable-Profile, `purpose`, `artifact-usage`, `artifact-topic`, `resource-approvalDate`, `resource-effectivePeriod`, Beitragende und `package-source`. |
@@ -212,11 +185,7 @@ dauerhaft identifizierter FAIR-Datensatz behauptet.
 | R1.3 | RDA-R1.3-01D | Daten entsprechen einem Community-Standard | Die Beispiele deklarieren die Profile dieses Moduls. Produktiv muss die Konformität gegen Profile, Bindings und CapabilityStatement-Erwartungen validiert werden. |
 | R1.3 | RDA-R1.3-02M | Metadaten sind gemäß einem Community-Standard maschinenverständlich | CRMI-konforme FHIR-Metadaten als JSON/XML und als FHIR-Paket im NPM-Format des IG-Publisher-Ökosystems. |
 
-> [TODO: Die Tabelle führt die Indikatoren der Priorität *Essential* auf. Wenn
-> Ihr Modul die vollständige Selbsteinschätzung will, ergänzen Sie die
-> Indikatoren der Prioritäten *Important* und *Useful* — `kerndatensatz-basis`
-> führt die vollständige Tabelle.]
-{: .ig-highlight .ig-highlight-grey}
+Die Tabelle führt die Indikatoren der Priorität *Essential* auf; die Indikatoren der Prioritäten *Important* und *Useful* werden für dieses Modul nicht bewertet.
 
 #### Praktische Nutzung
 
