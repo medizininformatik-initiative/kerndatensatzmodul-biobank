@@ -2,7 +2,7 @@
 Extension: MII_EX_Biobank_Anzahl_Aliquots
 Id: mii-ex-biobank-anzahl-aliquots
 Title: "MII EX Biobank Anzahl Aliquots"
-Description: "Die Extension ermöglicht es, die Anzahl der vorhandenen Aliquots zu einer Aliquot-Gruppe anzugeben."
+Description: "Die Extension ermöglicht es, die Anzahl der vorhandenen Aliquots zu einer Aliquotgruppe anzugeben."
 
 //Translation
 * insert Translation(^name, en-US, MII_EX_Biobank_Number_Of_Aliquots)

@@ -1,6 +1,6 @@
 Instance: AliquotBuffyCoat2
 InstanceOf: MII_PR_Biobank_Specimen_Bioprobe
-Title: "Buffy-Coat Einzelaliquot 50 µl"
+Title: "Buffy-Coat Einzelaliquot 2 (50 µl)"
 Usage: #example
 
 * extension[probenebene].valueCoding = https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/CodeSystem/mii-cs-biobank-probenebene#ALIQUOT "Aliquot"

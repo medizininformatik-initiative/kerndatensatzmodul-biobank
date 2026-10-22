@@ -2,7 +2,7 @@
 Extension: MII_EX_Biobank_Kulturprotokoll
 Id: mii-ex-biobank-kulturprotokoll
 Title: "MII EX Biobank Kulturprotokoll"
-Description: "Protokoll der Kultur der Zellinie oder des Organiods."
+Description: "Protokoll der Kultur der Zelllinie oder des Organoids."
 
 //Translation
 * insert Translation(^name, en-US, MII_EX_Biobank_Culture_Protocol)

@@ -1,6 +1,6 @@
 ValueSet: MII_VS_Biobank_Cellline_Morphology_SCT
 Id: mii-vs-biobank-cellline-morphology-sct
-Title: "MII VS Biobank Cellinie Morphology SCT"
+Title: "MII VS Biobank Cell Line Morphology SCT"
 Description: "Beschreibt die morphologischen Eigenschaften von Zelllinien"
 
 * insert Publisher

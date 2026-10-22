@@ -13,7 +13,6 @@ Usage: #example
 * contact[forschungskontakt].name.prefix = "Prof."
 * contact[forschungskontakt].telecom.system = #email
 * contact[forschungskontakt].telecom.value = "mustermann@biobank.uk-musterstadt.de"
-* contact[forschungskontakt].name.prefix = "Prof."
 * contact[forschungskontakt].address.line = "Musterstrasse 3"
 * contact[forschungskontakt].address.postalCode = "00000"
 * contact[forschungskontakt].address.city = "Musterstadt"

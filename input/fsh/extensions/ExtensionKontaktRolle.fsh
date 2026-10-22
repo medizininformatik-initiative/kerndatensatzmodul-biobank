@@ -2,7 +2,7 @@
 Extension: MII_EX_Biobank_KontaktRolle
 Id: mii-ex-biobank-kontaktrolle
 Title: "MII EX Biobank Rolle des Kontaktes"
-Description: "Mittels dieser Extension soll die Rolle der Kontaktperson in der probenverwaltenden Organisation angegeben werden, z.B. Principal Investigator, Direktor usw."
+Description: "Mittels dieser Extension soll die Rolle der Kontaktperson in der probenverwaltenden Organisation angegeben werden, z. B. Principal Investigator, Direktor usw."
 
 //Translation
 * insert Translation(^name, en-US, MII_EX_Biobank_Contact_Role)

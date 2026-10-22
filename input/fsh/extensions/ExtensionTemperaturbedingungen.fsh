@@ -2,7 +2,7 @@
 Extension: MII_EX_Biobank_Temperaturbedingungen
 Id: mii-ex-biobank-temperaturbedingungen
 Title: "MII EX Biobank Temperaturbedingungen"
-Description: "Um zu einer Verabeitung oder Lagerung die jeweils herrschenden Temperaturbedingungen (in °C) anzugeben soll diese Extension verwendet werden. Dabei soll nach Möglichkeit immer ein Wertebereich inkl. oberer und unterer Grenze angegeben werden."
+Description: "Um zu einer Verarbeitung oder Lagerung die jeweils herrschenden Temperaturbedingungen (in °C) anzugeben, soll diese Extension verwendet werden. Dabei soll nach Möglichkeit immer ein Wertebereich inkl. oberer und unterer Grenze angegeben werden."
 
 //Translation
 * insert Translation(^name, en-US, MII_EX_Biobank_Temperature_Conditions)

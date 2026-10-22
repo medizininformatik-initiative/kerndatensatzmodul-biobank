@@ -3,13 +3,13 @@ Profile: MII_PR_Biobank_Observation_Morphologie
 Parent: Observation
 Id: mii-pr-biobank-observation-morphologie
 Title: "MII PR Biobank Observation Morphologie"
-Description: "Morphologie einer Zelline oder eines Organiods"
+Description: "Morphologie einer Zelllinie oder eines Organoids"
 
 //Translation Meta
 * insert Translation(^name, en-US, MII_PR_Biobank_Observation_Morphology)
 * insert Translation(^title, de-DE, Observation Morphologie)
 * insert Translation(^title, en-US, Observation Morphology)
-* insert Translation(^description, de-DE, Morphologie einer Zelline oder eines Organiods)
+* insert Translation(^description, de-DE, Morphologie einer Zelllinie oder eines Organoids)
 * insert Translation(^description, en-US, Morphology of a cell line or organoid)
 
 //Meta

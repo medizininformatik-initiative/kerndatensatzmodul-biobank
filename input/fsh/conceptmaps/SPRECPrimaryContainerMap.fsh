@@ -1,6 +1,6 @@
 Instance: mii-cm-biobank-primary-container-sprec-sct
 InstanceOf: http://hl7.org/fhir/StructureDefinition/ConceptMap
-Title: "MII CM Biobank Primary Container SPREC 4.0  SCT"
+Title: "MII CM Biobank Primary Container SPREC 4.0 SCT"
 Usage: #definition
 Description: "Mapping der SPREC 4.0 Primary-Container-Containertypen auf die im Modul verwendeten SNOMED CT Codes."
 
@@ -10,7 +10,6 @@ Description: "Mapping der SPREC 4.0 Primary-Container-Containertypen auf die im 
 * insert SNOMED_SPREC_Copyright_CM
 
 * url = "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ConceptMap/mii-cm-biobank-primary-container-sprec-sct"
-* title = "SPREC 4.0 Primary Container Mapping"
 * status = #active
 
 * group.source = "http://www.isber.org/sprec/type-of-primary-container"
@@ -24,7 +23,7 @@ Description: "Mapping der SPREC 4.0 Primary-Container-Containertypen auf die im 
 * insert AddAdditiveMapping(11713004, "Water (substance\)")
 
 * insert InitMapping(#CAT, "Serum separator tube without clot activator")
-* insert AddMapping(702256007, "Non-evacuated blood collection tube\, no additive (physical objec\)", #narrower)
+* insert AddMapping(702256007, "Non-evacuated blood collection tube\, no additive (physical object\)", #narrower)
 * group.element[=].target[=].comment = "Use only for non-evacuated blood collection tubes."
 * insert AddMapping(702278000, "Evacuated blood collection tube\, no additive and metal-free (physical object\)", #narrower)
 * group.element[=].target[=].comment = "Use only for metal-free evacuated blood collection tubes."
@@ -126,20 +125,20 @@ Description: "Mapping der SPREC 4.0 Primary-Container-Containertypen auf die im 
 * insert AddAdditiveMapping(69519002, "Ethylenediamine tetra-acetate (substance\)")
 
 * insert InitMapping(#SHP, "Sodium heparin")
-* insert AddMapping(767382000, "Evacuated blood collection tube with heparin sodium (physical object\) ", #narrower)
+* insert AddMapping(767382000, "Evacuated blood collection tube with heparin sodium (physical object\)", #narrower)
 * group.element[=].target[=].comment = "Use only for evacuated blood collection tubes."
 * insert AddAdditiveMapping(50045009, "Heparin sodium (substance\)")
 
 * insert InitMapping(#SPO, "Sodium fluoride/potassium oxalate")
-* insert AddMapping(702287009, "Non-evacuated blood collection tube\, potassium oxalate/sodium fluoride (physical object\) ", #narrower)
+* insert AddMapping(702287009, "Non-evacuated blood collection tube\, potassium oxalate/sodium fluoride (physical object\)", #narrower)
 * group.element[=].target[=].comment = "Use only for non-evacuated blood collection tubes."
 * insert AddAdditiveMapping(6910009, "Sodium fluoride (substance\)")
 * insert AddAdditiveMapping(34261003, "Potassium oxalate (substance\)")
 
 * insert InitMapping(#SST, "Serum separator tube with clot activator")
-* insert AddMapping(702297000, "Non-evacuated blood collection tube\, clot activator (physical object\) ", #narrower)
+* insert AddMapping(702297000, "Non-evacuated blood collection tube\, clot activator (physical object\)", #narrower)
 * group.element[=].target[=].comment = "Use only for non-evacuated blood collection tubes."
-* insert AddMapping(767384004, "Evacuated blood collection tube with clot activator (physical object\) ", #narrower)
+* insert AddMapping(767384004, "Evacuated blood collection tube with clot activator (physical object\)", #narrower)
 * group.element[=].target[=].comment = "Use only for evacuated blood collection tubes."
 
 * insert InitMapping(#TEM, "Tempus tube")

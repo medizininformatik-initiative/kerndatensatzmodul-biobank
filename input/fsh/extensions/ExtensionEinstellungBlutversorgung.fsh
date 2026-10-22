@@ -2,7 +2,7 @@
 Extension: MII_EX_Biobank_Einstellung_Blutversorgung
 Id: mii-ex-biobank-einstellung-blutversorgung
 Title: "MII EX Biobank Einstellung Blutversorgung"
-Description: "Zeitpunkt der Einstellung der Bluversorgung während der Entnahme. Wird z.B. für die Berechnung der kalten bzw. warem Ischämiezeiten benötigt."
+Description: "Zeitpunkt der Einstellung der Blutversorgung während der Entnahme. Wird z. B. für die Berechnung der kalten bzw. warmen Ischämiezeiten benötigt."
 
 //Translation
 * insert Translation(^name, en-US, MII_EX_Biobank_Blood_Supply_Stop)

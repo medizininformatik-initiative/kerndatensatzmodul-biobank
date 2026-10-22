@@ -3,15 +3,15 @@ Profile: MII_PR_Biobank_Specimen_Bioprobe_Core
 Parent: Specimen
 Id: mii-pr-biobank-specimen-core
 Title: "MII PR Biobank Specimen Bioprobe Core"
-Description: "Basisiprofil zur Abbildung einer MII Bioprobe. Nicht zur direkten Implementierung gedacht, Module leiten bei Bedarf eigene Profile von diesem Profil ab."
+Description: "Basisprofil zur Abbildung einer MII Bioprobe. Nicht zur direkten Implementierung gedacht, Module leiten bei Bedarf eigene Profile von diesem Profil ab."
 * ^url = "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/SpecimenCore"
 
 //Translation Meta
 * insert Translation(^name, en-US, MII_PR_Biobank_Specimen_Bioprobe_Core)
 * insert Translation(^title, de-DE, Specimen Bioprobe Core)
 * insert Translation(^title, en-US, Specimen Bioprobe Core)
-* insert Translation(^description, de-DE, Basisiprofil zur Abbildung einer MII Bioprobe. Nicht zur direkten Implementierung gedacht\, Module leiten bei Bedarf eigene Profile von diesem Profil ab.)
-* insert Translation(^description, en-US, Base profile for representing a MII bioprobe. Not intended for direct implementation\, modules derive their own profiles from this profile as needed.)
+* insert Translation(^description, de-DE, Basisprofil zur Abbildung einer MII Bioprobe. Nicht zur direkten Implementierung gedacht\, Module leiten bei Bedarf eigene Profile von diesem Profil ab.)
+* insert Translation(^description, en-US, Base profile for representing an MII biospecimen. Not intended for direct implementation\, modules derive their own profiles from this profile as needed.)
 
 //Meta
 * insert PR_CS_VS_Version
@@ -81,7 +81,7 @@ and processing.timePeriod and processing.procedure and processing.additive and r
 
 * insert Translation(container.additive[x] ^short, de-DE, Additiv)
 * insert Translation(container.additive[x] ^short, en-US, Additives)
-* insert Translation(container.additive[x] ^definition, de-DE, Zusatzstoffe\, die im Probenbehälter enthalten sind z.B. wie Konservierungsmittel.)
+* insert Translation(container.additive[x] ^definition, de-DE, Zusatzstoffe\, die im Probenbehälter enthalten sind z. B. Konservierungsmittel.)
 * insert Translation(container.additive[x] ^definition, en-US, Additives contained in the specimen container e.g. preservatives.)
 
 * insert Translation(collection ^short, de-DE, Probenentnahme)
@@ -126,12 +126,12 @@ and processing.timePeriod and processing.procedure and processing.additive and r
 
 * insert Translation(processing.procedure ^short, de-DE, Verarbeitungstyp)
 * insert Translation(processing.procedure ^short, en-US, Processing procedure)
-* insert Translation(processing.procedure ^definition, de-DE, Die angewendete Prozedur zur Verarbeitung der Probe\, z.B. Zentrifugation.)
+* insert Translation(processing.procedure ^definition, de-DE, Die angewendete Prozedur zur Verarbeitung der Probe\, z. B. Zentrifugation.)
 * insert Translation(processing.procedure ^definition, en-US, The procedure applied to process the specimen\, e.g. centrifugation.)
 
 * insert Translation(processing.additive ^short, de-DE, Additive bei Verarbeitung)
 * insert Translation(processing.additive ^short, en-US, Processing additives)
-* insert Translation(processing.additive ^definition, de-DE, Zusatzstoffe\, die während der Probenverarbeitung verwendet wurden\, z.B. Fixierungsmittel.)
+* insert Translation(processing.additive ^definition, de-DE, Zusatzstoffe\, die während der Probenverarbeitung verwendet wurden\, z. B. Fixierungsmittel.)
 * insert Translation(processing.additive ^definition, en-US, Additives used during the specimen processing\, e.g. fixatives.)
 
 * insert Translation(request ^short, de-DE, Entnahme-ID)

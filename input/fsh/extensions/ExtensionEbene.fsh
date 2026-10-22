@@ -6,7 +6,7 @@ Description: "Mittels dieser Extension kann ausgedrückt werden, welcher Probene
 
 //Translation
 * insert Translation(^name, en-US, MII_EX_Biobank_Level)
-* insert Translation(^title, en-US, Extension - Level)
+* insert Translation(^title, en-US, MII EX Biobank Level)
 * insert Translation(^description, en-US, This extension allows expressing to which specimen level this specimen is assigned.)
 
 //Meta

@@ -1,6 +1,7 @@
 Logical: MII_LM_Biobank
 Parent: Element
 Id: Biobank
+Title: "MII LM Biobank"
 Description: "Logische Repräsentation des Erweiterungsmoduls Biobank"
 * ^url = "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/LogicalModel/Biobank"
 * insert PR_CS_VS_Version
@@ -15,7 +16,7 @@ Description: "Logische Repräsentation des Erweiterungsmoduls Biobank"
   * Entstanden-aus 0..1 http://hl7.org/fhir/StructureDefinition/Reference "Referenz auf Bioprobe"
   * FestgestellteDiagnose 0..1 http://hl7.org/fhir/StructureDefinition/Reference "Verweis auf eine Diagnose für die Material in der Probe enthalten ist"
   * gehoert-zu 0..1 http://hl7.org/fhir/StructureDefinition/Reference "Zuordnung der Probe zu einer Sammlung/Biobank"
-  * Anzahl-Aliqouts 0..1 http://hl7.org/fhir/StructureDefinition/integer "Anzahl der Aliqouts."
+  * Anzahl-Aliquots 0..1 http://hl7.org/fhir/StructureDefinition/integer "Anzahl der Aliquots."
   * Infektiositaets-Status 0..1 http://hl7.org/fhir/StructureDefinition/CodeableConcept "Markiert eine Probe als (potentiell) infektiös."
   
   * Container 0..1 BackboneElement "Probenbehältnis"
@@ -26,10 +27,10 @@ Description: "Logische Repräsentation des Erweiterungsmoduls Biobank"
   
   * Probenentnahme 0..1 BackboneElement "Informationen zur Entnahme der Probe"
     * Entnahme-ID 0..1 http://hl7.org/fhir/StructureDefinition/Identifier "Entnahme-ID"
-    * EinstellungBlutversorgung 0..1 http://hl7.org/fhir/StructureDefinition/dateTime "Zeitpunkt der Einstellung der Blutversorgung zur Probe. Kann zur Berechnung der warmen Ischaemiezeit verwendet werden."
-    * Entnahmezeitpunkt 0..1 http://hl7.org/fhir/StructureDefinition/dateTime "Zeitpunkt der Ent- / Abnahme der Probe. Kann zur Berechnung der kalten Ischaemiezeit verwendet werden."
+    * EinstellungBlutversorgung 0..1 http://hl7.org/fhir/StructureDefinition/dateTime "Zeitpunkt der Einstellung der Blutversorgung zur Probe. Kann zur Berechnung der warmen Ischämiezeit verwendet werden."
+    * Entnahmezeitpunkt 0..1 http://hl7.org/fhir/StructureDefinition/dateTime "Zeitpunkt der Ent- / Abnahme der Probe. Kann zur Berechnung der kalten Ischämiezeit verwendet werden."
     * Entnahmestelle 0..1 http://hl7.org/fhir/StructureDefinition/CodeableConcept "Lokalisation der Körperstelle, von der die Probe stammt"
-    * Nuechternstatus 0..1 http://hl7.org/fhir/StructureDefinition/CodeableConcept "Nüchterstatus des:der Patent:in zum Zeitpunkt der Entnahme der Probe. Muss aus dem http://terminology.hl7.org/ValueSet/v2-0916 stammen."
+    * Nuechternstatus 0..1 http://hl7.org/fhir/StructureDefinition/CodeableConcept "Nüchternstatus der Patient:in zum Zeitpunkt der Entnahme der Probe. Muss aus dem http://terminology.hl7.org/ValueSet/v2-0916 stammen."
     * NuechternstatusDauer 0..1 http://hl7.org/fhir/StructureDefinition/Quantity "Zeitliche Dauer der Nüchternheit vor der Probenentnahme"
   
   * Verarbeitungsprozess 0..1 BackboneElement "Prozedur der Probenbearbeitung"
@@ -43,7 +44,7 @@ Description: "Logische Repräsentation des Erweiterungsmoduls Biobank"
   
   * Lagerprozess 0..1 BackboneElement "Lagerung einer Probe"
     * Einlagerungszeitpunkt 0..1 http://hl7.org/fhir/StructureDefinition/dateTime "Zeitpunkt des Beginns der Einlagerung der Probe"
-    * Auslagerungspunkt 0..1 http://hl7.org/fhir/StructureDefinition/dateTime "Zeitpunkt des Endes der Einlagerung der Probe"
+    * Auslagerungszeitpunkt 0..1 http://hl7.org/fhir/StructureDefinition/dateTime "Zeitpunkt des Endes der Einlagerung der Probe"
     * Lagerungsbedingungen 0..1 http://hl7.org/fhir/StructureDefinition/Range "Temperaturbereich in dem die Probe gelagert wurde bzw. wird. Angabe in Wertebereichen wie in SPREC"
   
   * Laborbefund 0..1 http://hl7.org/fhir/StructureDefinition/Reference "Referenz auf den zu einer Probe gehörenden Laborbefund"
@@ -60,7 +61,7 @@ Description: "Logische Repräsentation des Erweiterungsmoduls Biobank"
     * Modifikationen 0..* http://hl7.org/fhir/StructureDefinition/CodeableConcept "Optional: Vorgenommene Modifikationen."
     * Qualitaetspruefung 0..* http://hl7.org/fhir/StructureDefinition/CodeableConcept "Z.B. Viabilität, Test auf Mykoplasmen, Wiederauftaubarkeit / Wiederinkulturnahme."
     * Protokoll-Kultur 0..1 http://hl7.org/fhir/StructureDefinition/Reference "Kulturprotokoll der Zelllinie/Organoids."
-    * Kulturbedigungen 0..* http://hl7.org/fhir/StructureDefinition/CodeableConcept "Kulturbedingungen der Zelllinie/Organoids."
+    * Kulturbedingungen 0..* http://hl7.org/fhir/StructureDefinition/CodeableConcept "Kulturbedingungen der Zelllinie/Organoids."
 
 * Probensammlung-Biobank 0..1 BackboneElement "Organisation, die Proben verwaltet"
   * Kontakt 0..* BackboneElement "Kontaktinformationen einer Sammlung/Biobank für Anfragen zu Bioproben"
@@ -70,7 +71,7 @@ Description: "Logische Repräsentation des Erweiterungsmoduls Biobank"
     * Rolle 0..1 http://hl7.org/fhir/StructureDefinition/CodeableConcept "Rolle der Ansprechperson in der Sammlung/Biobank"
     * Adresse 0..1 http://hl7.org/fhir/StructureDefinition/Address "Kontaktadresse für Forschungsvorhaben"
   
-  * Sammlungs-ID 0..1 http://hl7.org/fhir/StructureDefinition/Identifier "Interner Identifer der Sammlung/Biobank"
+  * Sammlungs-ID 0..1 http://hl7.org/fhir/StructureDefinition/Identifier "Interner Identifier der Sammlung/Biobank"
   * BBMRI-ERIC-ID 0..1 http://hl7.org/fhir/StructureDefinition/Identifier "Identifier der Sammlung/Biobank im BBMRI ERIC Netzwerk"
   * Akronym 0..1 http://hl7.org/fhir/StructureDefinition/string "Akronym der Sammlung/Biobank"
   * Name 0..1 http://hl7.org/fhir/StructureDefinition/string "Name der Sammlung/Biobank"
@@ -92,7 +93,7 @@ Source: MII_LM_Biobank
   * Entstanden-aus -> "Specimen.parent"
   * FestgestellteDiagnose -> "Specimen.extension[diagnose]"
   * gehoert-zu -> "Specimen.extension[gehoertZu]"
-  * Anzahl-Aliqouts -> "Specimen.extension[anzahlAliquots]"
+  * Anzahl-Aliquots -> "Specimen.extension[anzahlAliquots]"
   * Container -> "Specimen.container"
     * Containertyp -> "Specimen.container.type"
     * Kapazitaet -> "Specimen.container.capacity"
@@ -115,7 +116,7 @@ Source: MII_LM_Biobank
     * Additiv -> "Specimen.processing.additive"
   * Lagerprozess -> "Specimen.processing[lagerprozess]"
     * Einlagerungszeitpunkt -> "Specimen.processing[lagerprozess].timePeriod.start"
-    * Auslagerungspunkt -> "Specimen.processing[lagerprozess].timePeriod.end"
+    * Auslagerungszeitpunkt -> "Specimen.processing[lagerprozess].timePeriod.end"
     * Lagerungsbedingungen -> "Specimen.processing[lagerprozess].extension[temperaturbedingungen]"
 
   * Zelllinie_Organoid -> "Specimen"
@@ -129,7 +130,7 @@ Source: MII_LM_Biobank
     * Modifikationen -> "Specimen.extension[modifikationen]"
     * Qualitaetspruefung -> "Observation(https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/mii-pr-biobank-observation-qualitaetspruefung)"
     * Protokoll-Kultur -> "Specimen.extension[kulturprotokoll]"
-    * Kulturbedigungen -> "Observation"
+    * Kulturbedingungen -> "Observation"
 
 * Probensammlung-Biobank -> "Biobank"
   * Kontakt -> "Biobank.contact"
