@@ -73,7 +73,7 @@
       ]
     }
   ],
-  "description": "Zeitpunkt der Einstellung der Bluversorgung während der Entnahme. Wird z.B. für die Berechnung der kalten bzw. warem Ischämiezeiten benötigt.",
+  "description": "Zeitpunkt der Einstellung der Blutversorgung während der Entnahme. Wird z. B. für die Berechnung der kalten bzw. warmen Ischämiezeiten benötigt.",
   "_description": {
     "extension": [
       {
@@ -109,7 +109,7 @@
         "id": "Extension",
         "path": "Extension",
         "short": "MII EX Biobank Einstellung Blutversorgung",
-        "definition": "Zeitpunkt der Einstellung der Bluversorgung während der Entnahme. Wird z.B. für die Berechnung der kalten bzw. warem Ischämiezeiten benötigt."
+        "definition": "Zeitpunkt der Einstellung der Blutversorgung während der Entnahme. Wird z. B. für die Berechnung der kalten bzw. warmen Ischämiezeiten benötigt."
       },
       {
         "id": "Extension.extension",

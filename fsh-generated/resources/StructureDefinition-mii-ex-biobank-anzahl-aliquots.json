@@ -73,7 +73,7 @@
       ]
     }
   ],
-  "description": "Die Extension ermöglicht es, die Anzahl der vorhandenen Aliquots zu einer Aliquot-Gruppe anzugeben.",
+  "description": "Die Extension ermöglicht es, die Anzahl der vorhandenen Aliquots zu einer Aliquotgruppe anzugeben.",
   "_description": {
     "extension": [
       {
@@ -109,7 +109,7 @@
         "id": "Extension",
         "path": "Extension",
         "short": "MII EX Biobank Anzahl Aliquots",
-        "definition": "Die Extension ermöglicht es, die Anzahl der vorhandenen Aliquots zu einer Aliquot-Gruppe anzugeben."
+        "definition": "Die Extension ermöglicht es, die Anzahl der vorhandenen Aliquots zu einer Aliquotgruppe anzugeben."
       },
       {
         "id": "Extension.extension",

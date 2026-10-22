@@ -3,7 +3,7 @@
   "status": "active",
   "name": "MII_VS_Biobank_Cellline_Morphology_SCT",
   "id": "mii-vs-biobank-cellline-morphology-sct",
-  "title": "MII VS Biobank Cellinie Morphology SCT",
+  "title": "MII VS Biobank Cell Line Morphology SCT",
   "description": "Value Set for Morphological Characteristics of Cell Lines",
   "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/mii-vs-biobank-cellline-morphology-sct",
   "publisher": "Medizininformatik Initiative",

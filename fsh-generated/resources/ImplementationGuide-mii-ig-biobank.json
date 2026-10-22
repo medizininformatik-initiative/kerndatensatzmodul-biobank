@@ -160,7 +160,7 @@
   "title": "MII IG Kerndatensatz-Modul Biobank",
   "status": "active",
   "experimental": false,
-  "date": "2026-02-11",
+  "date": "2026-09-10",
   "publisher": "Medizininformatik Initiative",
   "contact": [
     {
@@ -252,16 +252,16 @@
       },
       {
         "reference": {
-          "reference": "Specimen/AliquotBuffyCoat2"
+          "reference": "Specimen/AliquotBuffyCoat1"
         },
-        "name": "Buffy-Coat Einzelaliquot 50 µl",
+        "name": "Buffy-Coat Einzelaliquot 1 (50 µl)",
         "exampleCanonical": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/Specimen"
       },
       {
         "reference": {
-          "reference": "Specimen/AliquotBuffyCoat1"
+          "reference": "Specimen/AliquotBuffyCoat2"
         },
-        "name": "Buffy-Coat Einzelaliquot 50 µl",
+        "name": "Buffy-Coat Einzelaliquot 2 (50 µl)",
         "exampleCanonical": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/Specimen"
       },
       {
@@ -283,7 +283,7 @@
         "reference": {
           "reference": "Observation/DNAConcentrationObs1"
         },
-        "name": "DNA Konzentration Aliquot",
+        "name": "DNA-Konzentration Aliquot",
         "exampleCanonical": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/mii-pr-biobank-observation-dna-konzentration"
       },
       {
@@ -328,7 +328,7 @@
         "reference": {
           "reference": "ConceptMap/mii-cm-biobank-primary-container-sprec-sct"
         },
-        "name": "MII CM Biobank Primary Container SPREC 4.0  SCT",
+        "name": "MII CM Biobank Primary Container SPREC 4.0 SCT",
         "description": "Mapping der SPREC 4.0 Primary-Container-Containertypen auf die im Modul verwendeten SNOMED CT Codes.",
         "exampleBoolean": false
       },
@@ -369,7 +369,7 @@
           "reference": "StructureDefinition/mii-ex-biobank-anzahl-aliquots"
         },
         "name": "MII EX Biobank Anzahl Aliquots",
-        "description": "Die Extension ermöglicht es, die Anzahl der vorhandenen Aliquots zu einer Aliquot-Gruppe anzugeben.",
+        "description": "Die Extension ermöglicht es, die Anzahl der vorhandenen Aliquots zu einer Aliquotgruppe anzugeben.",
         "exampleBoolean": false
       },
       {
@@ -377,7 +377,7 @@
           "reference": "StructureDefinition/mii-ex-biobank-anzahl-passagen"
         },
         "name": "MII EX Biobank Anzahl Passagen",
-        "description": "Zahl der Passagen, die die Zellinie oder das Organiod durchlaufen hat.",
+        "description": "Zahl der Passagen, die die Zelllinie oder das Organoid durchlaufen hat.",
         "exampleBoolean": false
       },
       {
@@ -401,7 +401,7 @@
           "reference": "StructureDefinition/mii-ex-biobank-einstellung-blutversorgung"
         },
         "name": "MII EX Biobank Einstellung Blutversorgung",
-        "description": "Zeitpunkt der Einstellung der Bluversorgung während der Entnahme. Wird z.B. für die Berechnung der kalten bzw. warem Ischämiezeiten benötigt.",
+        "description": "Zeitpunkt der Einstellung der Blutversorgung während der Entnahme. Wird z. B. für die Berechnung der kalten bzw. warmen Ischämiezeiten benötigt.",
         "exampleBoolean": false
       },
       {
@@ -425,7 +425,7 @@
           "reference": "StructureDefinition/mii-ex-biobank-kulturprotokoll"
         },
         "name": "MII EX Biobank Kulturprotokoll",
-        "description": "Protokoll der Kultur der Zellinie oder des Organiods.",
+        "description": "Protokoll der Kultur der Zelllinie oder des Organoids.",
         "exampleBoolean": false
       },
       {
@@ -433,7 +433,7 @@
           "reference": "StructureDefinition/mii-ex-biobank-kontaktrolle"
         },
         "name": "MII EX Biobank Rolle des Kontaktes",
-        "description": "Mittels dieser Extension soll die Rolle der Kontaktperson in der probenverwaltenden Organisation angegeben werden, z.B. Principal Investigator, Direktor usw.",
+        "description": "Mittels dieser Extension soll die Rolle der Kontaktperson in der probenverwaltenden Organisation angegeben werden, z. B. Principal Investigator, Direktor usw.",
         "exampleBoolean": false
       },
       {
@@ -441,7 +441,7 @@
           "reference": "StructureDefinition/mii-ex-biobank-temperaturbedingungen"
         },
         "name": "MII EX Biobank Temperaturbedingungen",
-        "description": "Um zu einer Verabeitung oder Lagerung die jeweils herrschenden Temperaturbedingungen (in °C) anzugeben soll diese Extension verwendet werden. Dabei soll nach Möglichkeit immer ein Wertebereich inkl. oberer und unterer Grenze angegeben werden.",
+        "description": "Um zu einer Verarbeitung oder Lagerung die jeweils herrschenden Temperaturbedingungen (in °C) anzugeben, soll diese Extension verwendet werden. Dabei soll nach Möglichkeit immer ein Wertebereich inkl. oberer und unterer Grenze angegeben werden.",
         "exampleBoolean": false
       },
       {
@@ -462,9 +462,17 @@
       },
       {
         "reference": {
+          "reference": "StructureDefinition/Biobank"
+        },
+        "name": "MII LM Biobank",
+        "description": "Logische Repräsentation des Erweiterungsmoduls Biobank",
+        "exampleBoolean": false
+      },
+      {
+        "reference": {
           "reference": "StructureDefinition/mii-pr-biobank-observation-dna-konzentration"
         },
-        "name": "MII PR Biobank Observation DNA Konzentration",
+        "name": "MII PR Biobank Observation DNA-Konzentration",
         "description": "Die DNA-Konzentration einer Probe",
         "exampleBoolean": false
       },
@@ -473,7 +481,7 @@
           "reference": "StructureDefinition/mii-pr-biobank-observation-karyotyp"
         },
         "name": "MII PR Biobank Observation Karyotyp",
-        "description": "Der an einer Zelline oder einem Organiod festgestellte Karyotyo",
+        "description": "Der an einer Zelllinie oder einem Organoid festgestellte Karyotyp",
         "exampleBoolean": false
       },
       {
@@ -481,7 +489,7 @@
           "reference": "StructureDefinition/mii-pr-biobank-observation-morphologie"
         },
         "name": "MII PR Biobank Observation Morphologie",
-        "description": "Morphologie einer Zelline oder eines Organiods",
+        "description": "Morphologie einer Zelllinie oder eines Organoids",
         "exampleBoolean": false
       },
       {
@@ -489,7 +497,7 @@
           "reference": "StructureDefinition/mii-pr-biobank-observation-proliferation"
         },
         "name": "MII PR Biobank Observation Proliferation",
-        "description": "Proliferation einer Zelline oder eines Organiods",
+        "description": "Proliferation einer Zelllinie oder eines Organoids",
         "exampleBoolean": false
       },
       {
@@ -497,7 +505,7 @@
           "reference": "StructureDefinition/mii-pr-biobank-observation-qualitaetspruefung"
         },
         "name": "MII PR Biobank Observation Qualitätsprüfung",
-        "description": "Art und Ergebnis einer an einer Probe, einer Zelline oder einem Organiod durchgeführten Qualitätsprüfung",
+        "description": "Art und Ergebnis einer an einer Probe, einer Zelllinie oder einem Organoid durchgeführten Qualitätsprüfung",
         "exampleBoolean": false
       },
       {
@@ -505,7 +513,7 @@
           "reference": "StructureDefinition/mii-pr-biobank-observation-wachstumstyp"
         },
         "name": "MII PR Biobank Observation Wachstumstyp",
-        "description": "Wachstumstyp einer Zelline oder eines Organiods",
+        "description": "Wachstumstyp einer Zelllinie oder eines Organoids",
         "exampleBoolean": false
       },
       {
@@ -529,15 +537,15 @@
           "reference": "StructureDefinition/mii-pr-biobank-specimen-core"
         },
         "name": "MII PR Biobank Specimen Bioprobe Core",
-        "description": "Basisiprofil zur Abbildung einer MII Bioprobe. Nicht zur direkten Implementierung gedacht, Module leiten bei Bedarf eigene Profile von diesem Profil ab.",
+        "description": "Basisprofil zur Abbildung einer MII Bioprobe. Nicht zur direkten Implementierung gedacht, Module leiten bei Bedarf eigene Profile von diesem Profil ab.",
         "exampleBoolean": false
       },
       {
         "reference": {
-          "reference": "StructureDefinition/mii-pr-biobank-zellinie-organoid"
+          "reference": "StructureDefinition/mii-pr-biobank-zelllinie-organoid"
         },
-        "name": "MII PR Biobank Specimen Zellinie Organoid",
-        "description": "Abbildung einer MII Zellinie oder Organiods",
+        "name": "MII PR Biobank Specimen Zelllinie Organoid",
+        "description": "Abbildung einer MII Zelllinie oder eines Organoids",
         "exampleBoolean": false
       },
       {
@@ -545,7 +553,7 @@
           "reference": "StructureDefinition/mii-pr-biobank-substance-additiv"
         },
         "name": "MII PR Biobank Substance Additiv",
-        "description": "Abbildung eines Additives, das zu einer Probe hinzugefügt werden kann",
+        "description": "Abbildung eines Additivs, das zu einer Probe hinzugefügt werden kann",
         "exampleBoolean": false
       },
       {
@@ -568,7 +576,7 @@
         "reference": {
           "reference": "ValueSet/mii-vs-biobank-cellline-morphology-sct"
         },
-        "name": "MII VS Biobank Cellinie Morphology SCT",
+        "name": "MII VS Biobank Cell Line Morphology SCT",
         "description": "Value Set for Morphological Characteristics of Cell Lines",
         "exampleBoolean": false
       },
@@ -632,7 +640,7 @@
         "reference": {
           "reference": "ValueSet/mii-vs-biobank-cellline-proliferation"
         },
-        "name": "MII VS Biobank Proliferation Zellinie",
+        "name": "MII VS Biobank Proliferation Zelllinie",
         "description": "Value Set for Proliferation Status of Cell Lines/Organoids",
         "exampleBoolean": false
       },
@@ -648,7 +656,7 @@
         "reference": {
           "reference": "ValueSet/mii-vs-biobank-wachstumstyp-clo"
         },
-        "name": "MII VS Biobank Wachstumpstyp CLO",
+        "name": "MII VS Biobank Wachstumstyp CLO",
         "description": "Value Set for Cell Culture Growth Types (CLO)",
         "exampleBoolean": false
       },
@@ -681,14 +689,6 @@
         },
         "name": "mii-sp-biobank-specimen-focus",
         "description": "Suchparameter für die Specimen-Focus-Extension nach der referenzierten Fokus-Ressource",
-        "exampleBoolean": false
-      },
-      {
-        "reference": {
-          "reference": "StructureDefinition/Biobank"
-        },
-        "name": "MII_LM_Biobank",
-        "description": "Logische Repräsentation des Erweiterungsmoduls Biobank",
         "exampleBoolean": false
       },
       {
@@ -731,7 +731,7 @@
           "reference": "Specimen/OrganoidLunge"
         },
         "name": "Organoid Lungenbiopsie",
-        "exampleCanonical": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/mii-pr-biobank-zellinie-organoid"
+        "exampleCanonical": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/mii-pr-biobank-zelllinie-organoid"
       },
       {
         "reference": {

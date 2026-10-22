@@ -147,6 +147,20 @@
         "mustSupport": true
       },
       {
+        "id": "Organization.extension",
+        "path": "Organization.extension",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "value",
+              "path": "url"
+            }
+          ],
+          "ordered": false,
+          "rules": "open"
+        }
+      },
+      {
         "id": "Organization.extension:beschreibung",
         "path": "Organization.extension",
         "sliceName": "beschreibung",
@@ -202,7 +216,7 @@
                 },
                 {
                   "url": "content",
-                  "valueString": "Eine Freitextbeschreibung der Sammlung/Biobank, die z.B. in einer Suche angezeigt werden kann."
+                  "valueString": "Eine Freitextbeschreibung der Sammlung/Biobank, die z. B. in einer Suche angezeigt werden kann."
                 }
               ]
             },
@@ -563,6 +577,16 @@
       {
         "id": "Organization.contact:forschungskontakt.extension",
         "path": "Organization.contact.extension",
+        "slicing": {
+          "discriminator": [
+            {
+              "type": "value",
+              "path": "url"
+            }
+          ],
+          "ordered": false,
+          "rules": "open"
+        },
         "min": 1
       },
       {

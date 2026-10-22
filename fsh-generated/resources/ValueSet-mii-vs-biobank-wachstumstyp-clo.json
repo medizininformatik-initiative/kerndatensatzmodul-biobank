@@ -1,9 +1,9 @@
 {
   "resourceType": "ValueSet",
   "status": "active",
-  "name": "MII_VS_Biobank_Wachstumpstyp_CLO",
+  "name": "MII_VS_Biobank_Wachstumstyp_CLO",
   "id": "mii-vs-biobank-wachstumstyp-clo",
-  "title": "MII VS Biobank Wachstumpstyp CLO",
+  "title": "MII VS Biobank Wachstumstyp CLO",
   "description": "Value Set for Cell Culture Growth Types (CLO)",
   "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ValueSet/mii-vs-biobank-wachstumstyp-clo",
   "publisher": "Medizininformatik Initiative",
@@ -41,7 +41,6 @@
     }
   ],
   "date": "2026-09-10",
-  "copyright": "This value set includes content from SNOMED CT, which is copyright © 2002+ International Health Terminology Standards Development Organisation (IHTSDO), and distributed by agreement between IHTSDO and HL7. Implementer use of SNOMED CT is not covered by this agreement",
   "meta": {
     "profile": [
       "http://hl7.org/fhir/StructureDefinition/shareablevalueset"

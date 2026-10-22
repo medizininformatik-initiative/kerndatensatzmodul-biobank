@@ -87,7 +87,7 @@
       ]
     }
   ],
-  "description": "Morphologie einer Zelline oder eines Organiods",
+  "description": "Morphologie einer Zelllinie oder eines Organoids",
   "_description": {
     "extension": [
       {
@@ -99,7 +99,7 @@
           },
           {
             "url": "content",
-            "valueString": "Morphologie einer Zelline oder eines Organiods"
+            "valueString": "Morphologie einer Zelllinie oder eines Organoids"
           }
         ]
       },

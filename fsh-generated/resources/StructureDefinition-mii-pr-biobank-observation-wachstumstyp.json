@@ -87,7 +87,7 @@
       ]
     }
   ],
-  "description": "Wachstumstyp einer Zelline oder eines Organiods",
+  "description": "Wachstumstyp einer Zelllinie oder eines Organoids",
   "_description": {
     "extension": [
       {
@@ -99,7 +99,7 @@
           },
           {
             "url": "content",
-            "valueString": "Wachstumstyp einer Zelline oder eines Organiods"
+            "valueString": "Wachstumstyp einer Zelllinie oder eines Organoids"
           }
         ]
       },

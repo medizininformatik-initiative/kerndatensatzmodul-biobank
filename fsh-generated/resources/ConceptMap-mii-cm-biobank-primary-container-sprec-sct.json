@@ -2,7 +2,7 @@
   "resourceType": "ConceptMap",
   "id": "mii-cm-biobank-primary-container-sprec-sct",
   "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/ConceptMap/mii-cm-biobank-primary-container-sprec-sct",
-  "title": "SPREC 4.0 Primary Container Mapping",
+  "title": "MII CM Biobank Primary Container SPREC 4.0 SCT",
   "description": "Mapping der SPREC 4.0 Primary-Container-Containertypen auf die im Modul verwendeten SNOMED CT Codes.",
   "version": "2027.0.0-ballot",
   "extension": [
@@ -82,7 +82,7 @@
           "target": [
             {
               "code": "702256007",
-              "display": "Non-evacuated blood collection tube, no additive (physical objec)",
+              "display": "Non-evacuated blood collection tube, no additive (physical object)",
               "equivalence": "narrower",
               "comment": "Use only for non-evacuated blood collection tubes."
             },
@@ -488,7 +488,7 @@
           "target": [
             {
               "code": "767382000",
-              "display": "Evacuated blood collection tube with heparin sodium (physical object) ",
+              "display": "Evacuated blood collection tube with heparin sodium (physical object)",
               "equivalence": "narrower",
               "comment": "Use only for evacuated blood collection tubes.",
               "product": [
@@ -507,7 +507,7 @@
           "target": [
             {
               "code": "702287009",
-              "display": "Non-evacuated blood collection tube, potassium oxalate/sodium fluoride (physical object) ",
+              "display": "Non-evacuated blood collection tube, potassium oxalate/sodium fluoride (physical object)",
               "equivalence": "narrower",
               "comment": "Use only for non-evacuated blood collection tubes.",
               "product": [
@@ -531,13 +531,13 @@
           "target": [
             {
               "code": "702297000",
-              "display": "Non-evacuated blood collection tube, clot activator (physical object) ",
+              "display": "Non-evacuated blood collection tube, clot activator (physical object)",
               "equivalence": "narrower",
               "comment": "Use only for non-evacuated blood collection tubes."
             },
             {
               "code": "767384004",
-              "display": "Evacuated blood collection tube with clot activator (physical object) ",
+              "display": "Evacuated blood collection tube with clot activator (physical object)",
               "equivalence": "narrower",
               "comment": "Use only for evacuated blood collection tubes."
             }

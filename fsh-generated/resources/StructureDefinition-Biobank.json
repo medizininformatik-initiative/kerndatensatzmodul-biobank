@@ -14,6 +14,7 @@
   "url": "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/LogicalModel/Biobank",
   "version": "2027.0.0-ballot",
   "name": "MII_LM_Biobank",
+  "title": "MII LM Biobank",
   "status": "active",
   "description": "Logische Repräsentation des Erweiterungsmoduls Biobank",
   "fhirVersion": "4.0.1",
@@ -33,7 +34,7 @@
       {
         "id": "Biobank",
         "path": "Biobank",
-        "short": "MII_LM_Biobank",
+        "short": "MII LM Biobank",
         "definition": "Logische Repräsentation des Erweiterungsmoduls Biobank"
       },
       {
@@ -227,10 +228,10 @@
         ]
       },
       {
-        "id": "Biobank.Bioprobe.Anzahl-Aliqouts",
-        "path": "Biobank.Bioprobe.Anzahl-Aliqouts",
-        "short": "Anzahl der Aliqouts.",
-        "definition": "Anzahl der Aliqouts.",
+        "id": "Biobank.Bioprobe.Anzahl-Aliquots",
+        "path": "Biobank.Bioprobe.Anzahl-Aliquots",
+        "short": "Anzahl der Aliquots.",
+        "definition": "Anzahl der Aliquots.",
         "min": 0,
         "max": "1",
         "type": [
@@ -394,8 +395,8 @@
       {
         "id": "Biobank.Bioprobe.Probenentnahme.EinstellungBlutversorgung",
         "path": "Biobank.Bioprobe.Probenentnahme.EinstellungBlutversorgung",
-        "short": "Zeitpunkt der Einstellung der Blutversorgung zur Probe. Kann zur Berechnung der warmen Ischaemiezeit verwendet werden.",
-        "definition": "Zeitpunkt der Einstellung der Blutversorgung zur Probe. Kann zur Berechnung der warmen Ischaemiezeit verwendet werden.",
+        "short": "Zeitpunkt der Einstellung der Blutversorgung zur Probe. Kann zur Berechnung der warmen Ischämiezeit verwendet werden.",
+        "definition": "Zeitpunkt der Einstellung der Blutversorgung zur Probe. Kann zur Berechnung der warmen Ischämiezeit verwendet werden.",
         "min": 0,
         "max": "1",
         "type": [
@@ -413,8 +414,8 @@
       {
         "id": "Biobank.Bioprobe.Probenentnahme.Entnahmezeitpunkt",
         "path": "Biobank.Bioprobe.Probenentnahme.Entnahmezeitpunkt",
-        "short": "Zeitpunkt der Ent- / Abnahme der Probe. Kann zur Berechnung der kalten Ischaemiezeit verwendet werden.",
-        "definition": "Zeitpunkt der Ent- / Abnahme der Probe. Kann zur Berechnung der kalten Ischaemiezeit verwendet werden.",
+        "short": "Zeitpunkt der Ent- / Abnahme der Probe. Kann zur Berechnung der kalten Ischämiezeit verwendet werden.",
+        "definition": "Zeitpunkt der Ent- / Abnahme der Probe. Kann zur Berechnung der kalten Ischämiezeit verwendet werden.",
         "min": 0,
         "max": "1",
         "type": [
@@ -451,8 +452,8 @@
       {
         "id": "Biobank.Bioprobe.Probenentnahme.Nuechternstatus",
         "path": "Biobank.Bioprobe.Probenentnahme.Nuechternstatus",
-        "short": "Nüchterstatus des:der Patent:in zum Zeitpunkt der Entnahme der Probe. Muss aus dem http://terminology.hl7.org/ValueSet/v2-0916 stammen.",
-        "definition": "Nüchterstatus des:der Patent:in zum Zeitpunkt der Entnahme der Probe. Muss aus dem http://terminology.hl7.org/ValueSet/v2-0916 stammen.",
+        "short": "Nüchternstatus der Patient:in zum Zeitpunkt der Entnahme der Probe. Muss aus dem http://terminology.hl7.org/ValueSet/v2-0916 stammen.",
+        "definition": "Nüchternstatus der Patient:in zum Zeitpunkt der Entnahme der Probe. Muss aus dem http://terminology.hl7.org/ValueSet/v2-0916 stammen.",
         "min": 0,
         "max": "1",
         "type": [
@@ -677,8 +678,8 @@
         ]
       },
       {
-        "id": "Biobank.Bioprobe.Lagerprozess.Auslagerungspunkt",
-        "path": "Biobank.Bioprobe.Lagerprozess.Auslagerungspunkt",
+        "id": "Biobank.Bioprobe.Lagerprozess.Auslagerungszeitpunkt",
+        "path": "Biobank.Bioprobe.Lagerprozess.Auslagerungszeitpunkt",
         "short": "Zeitpunkt des Endes der Einlagerung der Probe",
         "definition": "Zeitpunkt des Endes der Einlagerung der Probe",
         "min": 0,
@@ -950,8 +951,8 @@
         ]
       },
       {
-        "id": "Biobank.Bioprobe.Zelllinie_Organoid.Kulturbedigungen",
-        "path": "Biobank.Bioprobe.Zelllinie_Organoid.Kulturbedigungen",
+        "id": "Biobank.Bioprobe.Zelllinie_Organoid.Kulturbedingungen",
+        "path": "Biobank.Bioprobe.Zelllinie_Organoid.Kulturbedingungen",
         "short": "Kulturbedingungen der Zelllinie/Organoids.",
         "definition": "Kulturbedingungen der Zelllinie/Organoids.",
         "min": 0,
@@ -1104,8 +1105,8 @@
       {
         "id": "Biobank.Probensammlung-Biobank.Sammlungs-ID",
         "path": "Biobank.Probensammlung-Biobank.Sammlungs-ID",
-        "short": "Interner Identifer der Sammlung/Biobank",
-        "definition": "Interner Identifer der Sammlung/Biobank",
+        "short": "Interner Identifier der Sammlung/Biobank",
+        "definition": "Interner Identifier der Sammlung/Biobank",
         "min": 0,
         "max": "1",
         "type": [
