@@ -1,0 +1,66 @@
+{
+  "resourceType" : "Organization",
+  "id" : "Mustersammlung",
+  "meta" : {
+    "profile" : ["https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/Organization"]
+  },
+  "language" : "de",
+  "text" : {
+    "status" : "generated",
+    "div" : "<div xml:lang=\"de\" lang=\"de\"><hr/><p><b>German</b></p><hr/><p class=\"res-header-id\"><b>Generated Narrative: Organization Mustersammlung</b></p><a name=\"de-Mustersammlung\"> </a><a name=\"de-hcMustersammlung\"> </a><div style=\"display: inline-block; background-color: #fbffeb; padding: 6px; margin: 4px; border: 1px solid #8da1b4; border-radius: 5px; line-height: 60%\"><p style=\"margin-bottom: 0px\"/><p style=\"margin-bottom: 0px\">Profil: <a href=\"StructureDefinition-mii-pr-biobank-organization.html\">MII PR Biobank Organization Sammlung Biobank</a></p></div><p style=\"border: 1px #661aff solid; background-color: #e6e6ff; padding: 10px;\">Mustersammlung</p><hr/><table class=\"grid\"><tr><td style=\"background-color: #f3f5da\" title=\"The organization of which this organization forms a part\">Part Of:</td><td colspan=\"3\"><a href=\"Organization-BiobankMusterstadt.html\">Biobank Musterstadt (http://www.bbmri-eric.eu/#de-12345)</a></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Ways to contact the organization\">Research:</td><td colspan=\"3\"><ul><li>Tina Musterfrau </li><li><a href=\"mailto:musterfrau@biobank.uk-musterstadt.de\">musterfrau@biobank.uk-musterstadt.de</a></li><li>Musterweg 10 Musterstadt 00000 </li></ul></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"Description of the collection in English.\"><a href=\"https://simplifier.net/resolve?scope=eu.miabis.r4@1.3.0&amp;canonical=https://fhir.bbmri-eric.eu/StructureDefinition/miabis-organization-description-extension\">Description extension</a></td><td colspan=\"3\">Sammlung mit im Rahmen der Versorgung gewonnenen Proben.</td></tr><tr><td style=\"background-color: #f3f5da\" title=\"The overall design of the collection that explains how the collection was/is built up.\"><a href=\"https://simplifier.net/resolve?scope=eu.miabis.r4@1.3.0&amp;canonical=https://fhir.bbmri-eric.eu/StructureDefinition/miabis-collection-design-extension\">Collection Design Extension</a></td><td colspan=\"3\"><span title=\"Codes:{https://fhir.bbmri-eric.eu/CodeSystem/miabis-collection-design-cs LongitudinalCohort}\">Longitudinal cohort</span></td></tr><tr><td style=\"background-color: #f3f5da\" title=\"The context in which the Sample Collection was/is conducted.\"><a href=\"https://simplifier.net/resolve?scope=eu.miabis.r4@1.3.0&amp;canonical=https://fhir.bbmri-eric.eu/StructureDefinition/miabis-sample-collection-setting-extension\">Sample Collection Setting Extension</a></td><td colspan=\"3\"><span title=\"Codes:{https://fhir.bbmri-eric.eu/CodeSystem/miabis-sample-collection-setting-cs RoutineHealthCare}\">Routine health care setting</span></td></tr></table></div>"
+  },
+  "extension" : [{
+    "url" : "https://fhir.bbmri-eric.eu/StructureDefinition/miabis-organization-description-extension",
+    "valueString" : "Sammlung mit im Rahmen der Versorgung gewonnenen Proben."
+  },
+  {
+    "url" : "https://fhir.bbmri-eric.eu/StructureDefinition/miabis-sample-collection-setting-extension",
+    "valueCodeableConcept" : {
+      "coding" : [{
+        "system" : "https://fhir.bbmri-eric.eu/CodeSystem/miabis-sample-collection-setting-cs",
+        "code" : "RoutineHealthCare",
+        "display" : "Routine health care setting"
+      }]
+    }
+  },
+  {
+    "url" : "https://fhir.bbmri-eric.eu/StructureDefinition/miabis-collection-design-extension",
+    "valueCodeableConcept" : {
+      "coding" : [{
+        "system" : "https://fhir.bbmri-eric.eu/CodeSystem/miabis-collection-design-cs",
+        "code" : "LongitudinalCohort",
+        "display" : "Longitudinal cohort"
+      }]
+    }
+  }],
+  "name" : "Mustersammlung",
+  "partOf" : {
+    "reference" : "Organization/BiobankMusterstadt"
+  },
+  "contact" : [{
+    "extension" : [{
+      "url" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/StructureDefinition/KontaktRolle",
+      "valueString" : "Forschungskoordinatorin"
+    }],
+    "purpose" : {
+      "coding" : [{
+        "system" : "https://www.medizininformatik-initiative.de/fhir/ext/modul-biobank/CodeSystem/ContactType",
+        "code" : "RESEARCH"
+      }]
+    },
+    "name" : {
+      "family" : "Musterfrau",
+      "given" : ["Tina"],
+      "prefix" : ["Dr."]
+    },
+    "telecom" : [{
+      "system" : "email",
+      "value" : "musterfrau@biobank.uk-musterstadt.de"
+    }],
+    "address" : {
+      "line" : ["Musterweg 10"],
+      "city" : "Musterstadt",
+      "postalCode" : "00000"
+    }
+  }]
+}
